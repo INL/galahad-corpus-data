@@ -11,7 +11,7 @@ te	ADV(type=reg)	terug	mw_184982
 rugghe	ADV(type=reg)	terug	mw_184982
 ```  
 
-The *group_id* column is also used to link the parts of separable verbs:
+The *group_id* column is also used to link the parts of proper nouns and separable verbs (which may be discontinuous):
 ```
 De      NOU-P   De Wilde        mw_217988
 Wilde   NOU-P   De Wilde        mw_217988
@@ -26,8 +26,6 @@ een     PD(type=indef,subtype=art,position=prenom)      een
 purgatie        NOU-C(number=sg)        purgatie        
 in      VRB(finiteness=fin,tense=past)  innemen mw_113851 
 ```
-
-Tokens 
 
 ### GaLAHaD-related Repositories
 - [galahad](https://github.com/INL/galahad)
