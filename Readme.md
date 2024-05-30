@@ -38,8 +38,12 @@ in      VRB(finiteness=fin,tense=past)  innemen mw_113851
 # Training data
 Data in `training-data/` is tsv only and ready to be used by [galahad-train-battery](https://github.com/INL/galahad-train-battery). There must not be any headers, such that these datasets can be merge by simply appending them.
 
+y
+
+<!---
 # Source data
 `source-data/` contains information about the source files of the data in `training-data/`.
+-->
 
 # Datasets.json
 `datasets.json` contains information about all public corpora and datasets that can be found in Galahad. Example usage:
