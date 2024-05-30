@@ -1,4 +1,4 @@
-# galahad-corpus-data
+# GaLAHaD corpus data
 
 This repository contains the gold standard data for tagging and lemmatization developed in the CLARIAH-PLUS project.
 The datasets are pos-tagged and lemmatized according to the [TDN (Tagset voor Diachroon corpusmateriaal van het Nederlands) guidelines](https://ivdnt.org/wp-content/uploads/2021/05/TDN_INT_WP_1.pdf).
