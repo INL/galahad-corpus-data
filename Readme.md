@@ -1,5 +1,34 @@
 # galahad-corpus-data
 
+This repository contains the gold standard data for tagging and lemmatization developed in the CLARIAH-PLUS project.
+The datasets are pos-tagged and lemmatized according to the [TDN (Tagset voor Diachroon corpusmateriaal van het Nederlands) guidelines](https://ivdnt.org/wp-content/uploads/2021/05/TDN_INT_WP_1.pdf).
+
+The repositoray currently only published a tab-separated format with four columns: *token*, *pos*, *lemma* and *group_id*.
+The last one requires some explanation; it is used to indicated that for instance the two tokens of *te rug* are considered a single word:
+
+```
+te	ADV(type=reg)	terug	mw_184982
+rugghe	ADV(type=reg)	terug	mw_184982
+```  
+
+The *group_id* column is also used to link the parts of separable verbs:
+```
+De      NOU-P   De Wilde        mw_217988
+Wilde   NOU-P   De Wilde        mw_217988
+was     VRB(finiteness=fin,tense=past)  zijn    
+beter   AA(degree=comp,position=free)   beter   
+en      CONJ(type=coor) en      
+stondt  VRB(finiteness=fin,tense=past)  opstaan mw_974168
+op      VRB(finiteness=fin,tense=past)  opstaan mw_974168         
+ende    CONJ(type=coor) en      
+nam     VRB(finiteness=fin,tense=past)  innemen mw_113851
+een     PD(type=indef,subtype=art,position=prenom)      een     
+purgatie        NOU-C(number=sg)        purgatie        
+in      VRB(finiteness=fin,tense=past)  innemen mw_113851 
+```
+
+Tokens 
+
 ### GaLAHaD-related Repositories
 - [galahad](https://github.com/INL/galahad)
 - [galahad-train-battery](https://github.com/INL/galahad-train-battery)
