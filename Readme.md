@@ -4,7 +4,7 @@ This repository contains the gold standard data for tagging and lemmatization de
 The datasets are pos-tagged and lemmatized according to the [TDN (Tagset voor Diachroon corpusmateriaal van het Nederlands) guidelines](https://ivdnt.org/wp-content/uploads/2021/05/TDN_INT_WP_1.pdf).
 
 The repository currently only publishes a tab-separated format with four columns: *token*, *pos*, *lemma* and *group_id*.
-The last column requires some explanation; it is used to indicated that for instance the two tokens of *te rug* are considered a single word:
+The last column requires some explanation; it is used to indicated that for instance the two tokens of *te rugghe* are considered a single word:
 
 ```
 te	ADV(type=reg)	terug	mw_184982
