@@ -39,7 +39,7 @@ in      VRB(finiteness=fin,tense=past)  innemen mw_113851
 
 
 # Training data
-Data in `training-data/` is tsv only and ready to be used by [galahad-train-battery](https://github.com/INL/galahad-train-battery). The files should not have columns headers, so they can be merged by simply appending them.
+Data in `training-data/` is tsv only and ready to be used by [galahad-train-battery](https://github.com/INL/galahad-train-battery). The files should not have column headers, so they can be merged by simply appending them.
 
 <!---
 # Source data
