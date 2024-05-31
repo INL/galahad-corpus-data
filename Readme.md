@@ -73,4 +73,4 @@ Data in `training-data/` is tsv only and ready to be used by [galahad-train-batt
 {...} // Etc.
 ]
 ```
-The real file should not contain comments, though, because json does not support that by default.
+The real file cannot contain comments because json does not support that by default.
