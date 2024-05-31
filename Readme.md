@@ -1,5 +1,12 @@
 # GaLAHaD corpus data
 
+### GaLAHaD-related Repositories
+- [galahad](https://github.com/INL/galahad)
+- [galahad-train-battery](https://github.com/INL/galahad-train-battery)
+- [taggers-dockerized](https://github.com/INL/taggers-dockerized)
+- [galahad-corpus-data](https://github.com/INL/galahad-corpus-data/) [you are here]
+- [int-pie](https://github.com/INL/pie) [a slightly modified version of the PIE tagger, will be released later]
+- [int-huggingface-tagger](https://github.com/INL/huggingface-tagger) [will be released later]
 This repository contains the gold standard data for tagging and lemmatization developed in the CLARIAH-PLUS project.
 The datasets are pos-tagged and lemmatized according to the [TDN (Tagset voor Diachroon corpusmateriaal van het Nederlands) guidelines](https://ivdnt.org/wp-content/uploads/2021/05/TDN_INT_WP_1.pdf).
 
@@ -27,13 +34,7 @@ purgatie        NOU-C(number=sg)        purgatie
 in      VRB(finiteness=fin,tense=past)  innemen mw_113851 
 ```
 
-### GaLAHaD-related Repositories
-- [galahad](https://github.com/INL/galahad)
-- [galahad-train-battery](https://github.com/INL/galahad-train-battery)
-- [taggers-dockerized](https://github.com/INL/taggers-dockerized)
-- [galahad-corpus-data](https://github.com/INL/galahad-corpus-data/) [you are here]
-- [int-pie](https://github.com/INL/pie) [a slightly modified version of the PIE tagger, will be released later]
-- [int-huggingface-tagger](https://github.com/INL/huggingface-tagger) [will be released later]
+
 
 # Training data
 Data in `training-data/` is tsv only and ready to be used by [galahad-train-battery](https://github.com/INL/galahad-train-battery). The files should not have columns headers, so they can be merged by simply appending them.
