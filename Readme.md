@@ -74,3 +74,29 @@ Data in `training-data/` is tsv only and ready to be used by [galahad-train-batt
 ]
 ```
 The real file cannot contain comments because json does not support that by default.
+
+# Combinations
+
+In `combinations/*.json` some combinations of datasets are defined.
+
+Example:
+
+```
+{
+    "name": "17-19",
+    "datasets": [
+        "dbnl-excerpts-17",
+        "dbnl-excerpts-18",
+        "dbnl-excerpts-19",
+        "dictionary-quotations-17",
+        "dictionary-quotations-18",
+        "dictionary-quotations-19",
+        "letters-as-loot",
+        "couranten"
+    ],
+    "tagset": "TDN-Core",
+    "version": "0.9.1",
+    "eraFrom": "1700",
+    "eraTo": "1900"
+}
+```
