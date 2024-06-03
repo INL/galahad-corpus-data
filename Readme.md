@@ -5,7 +5,7 @@
 - [galahad-train-battery](https://github.com/INL/galahad-train-battery)
 - [taggers-dockerized](https://github.com/INL/taggers-dockerized)
 - [galahad-corpus-data](https://github.com/INL/galahad-corpus-data/) [you are here]
-- [int-pie](https://github.com/INL/pie) [to be released]
+- [int-pie](https://github.com/INL/pie)
 - [int-huggingface-tagger](https://github.com/INL/huggingface-tagger) [to be released]
 
 
