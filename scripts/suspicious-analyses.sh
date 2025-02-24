@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# suspicious.sh [--lemma | --pos] [--count MAX_COUNT] [--percent MAX_PERCENTAGE]
+# suspicious.sh [--lemma | --pos] [--count MAX_COUNT] [--percent MAX_PERCENTAGE] [--per-file]
 # Find suspicious analyses. Group all lines by token and lemma. Show a report of what part of speech is assigned to what percentage of the group (token,lemma).
 #
 # we consider a group to be suspicious if 
@@ -13,12 +13,14 @@ MAX_COUNT=5
 MAX_PERCENTAGE=0.05
 analyze_lemma=false
 analyze_pos=false
+per_file=false
 
 # Parse command line arguments
 while [[ "$#" -gt 0 ]]; do
     case $1 in
         --lemma) analyze_lemma=true ;;
         --pos) analyze_pos=true ;;
+        --per-file) per_file=true ;;
         --count) MAX_COUNT="$2"; shift ;;
         --percentage) MAX_PERCENTAGE="$2"; shift ;;
         *) echo "Unknown parameter passed: $1" >&2; exit 1 ;;
@@ -61,7 +63,7 @@ done > tmp.tsv
 # 4. multi-word group
 
 # Use awk to process the concatenated TSV file
-awk -F'\t' -v max_percentage=$MAX_PERCENTAGE -v max_count=$MAX_COUNT -v analyze_lemma=$analyze_lemma '
+awk -F'\t' -v max_percentage=$MAX_PERCENTAGE -v max_count=$MAX_COUNT -v analyze_lemma=$analyze_lemma -v per_file=$per_file '
 {
     # Create a unique key based on the analysis type
     # note the casing to ensure that the key is case-insensitive
@@ -119,20 +121,55 @@ END {
                         result[key] = result[key] " "
                         for (file in pos_files[key][pos]) {
                             result[key] = result[key] file " "
+                            # Track suspicious groups for each source file
+                            suspicious_groups[file][key] = (key in suspicious_groups[file] ? suspicious_groups[file][key] "\n\t\t" : "") pos_count[key][pos] " (" sprintf("%.2f", (pos_count[key][pos] / total_count[key]) * 100) "%) " pos
                         }
                     }
                 }
             }
         }
     }
-    # Sort results in descending order by total count
-    n = asorti(result, sorted_keys, "@val_num_desc")
-    for (i = 1; i <= n; i++) {
-        # Print the result for each key
-        print result[sorted_keys[i]] "\n"
+    # Print suspicious groups for each source file, sorted by total occurrence of the key
+    # Collect all keys and their total counts
+    for (key in total_count) {
+        all_keys[key] = total_count[key]
     }
+    
+    
+    
+    # Print suspicious groups for each source file, sorted by total occurrence of the key
+    if (per_file == "true") {    
+        # Sort all keys by total count in descending order
+        n = asorti(all_keys, sorted_keys, "@val_num_desc")
+
+        for (file in suspicious_groups) {
+            print "===================================="
+            print "Source: " file
+            
+            for (i = 1; i <= n; i++) {
+                key = sorted_keys[i]
+            
+                if (key in suspicious_groups[file]) {
+                    print total_count[key] " " key
+                    print "\t\t" suspicious_groups[file][key]
+                    print ""
+                }
+            }
+        }
+    } else {
+        # Print the result for each key
+        n = asorti(result, sorted_keys, "@val_num_desc")
+        for (i = 1; i <= n; i++) {
+            print result[sorted_keys[i]] "\n"
+        }
+    }
+    
 }
 ' tmp.tsv
+
+# example output:
+# 14430 van VAN
+#         5 (0.03%) ADV(type=reg) dictionary-quotations-15 dictionary-quotations-16 dictionary-quotations-18 
 
 # remove tmp file
 rm tmp.tsv
