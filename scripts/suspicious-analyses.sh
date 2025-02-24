@@ -72,14 +72,14 @@ awk -F'\t' -v max_percentage=$MAX_PERCENTAGE -v max_count=$MAX_COUNT -v analyze_
     }
     
     # Count the occurrences of each analysis and track source files
-    if (analyze_lemma == "true") {
-        if ($4 == "") { # if the fourth column is filled, it is not suspicious
+    if ($4 == "") { # if the fourth column is filled, it is not suspicious
+        if (analyze_lemma == "true") {
             pos_count[key][$3]++
             pos_files[key][$3][$5]++
+        } else {
+            pos_count[key][$2]++
+            pos_files[key][$2][$5]++
         }
-    } else {
-        pos_count[key][$2]++
-        pos_files[key][$2][$5]++
     }
     
     # Count the total occurrences for this key

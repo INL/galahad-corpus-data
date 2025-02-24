@@ -1,6 +1,5 @@
-# print all unique tags in a column
 # usage:
-# ./scripts/unique-tags-in-column.sh --column 3
+# ./scripts/column-info.sh --column 3
 
 # default values
 COLUMN=3
@@ -14,17 +13,17 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-
+# get all tags for that column from all files in the training-data folder
 TAGS=""
 for file in $(find training-data -name "*.tsv")
 do
     TAGS="$TAGS
-$(cut -f $COLUMN $file | sort | uniq)"
+$(cut -f $COLUMN $file)"
 done
 
 # some tags are so called multi tags, e.g. "A|B" or "A+B"
 # split them and add them to the list
 TAGS=$(echo "$TAGS" | tr '|' '\n' | tr '+' '\n')
 
-echo "Unique tags in column:"
-echo "$TAGS" | sort | uniq
+echo "Tags in column sorted by frequency:"
+echo "$TAGS" | sort | uniq -c | sort -nr
