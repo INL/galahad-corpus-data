@@ -48,6 +48,7 @@ C2="\2"
 C3="\3"
 C4="\4"
 C5="\5"
+ANY="(.*)"
 
 # annotate all untagged punctuation with PC
 PUNCTUATION="([][…\.,;!?¶&'„│—\":]+)"
@@ -69,6 +70,14 @@ replace_lines "^$PUNCTUATION\tno_pos\t\t$" "$C1\tPC\t\t"
 echo "Replacing _ with PC..."
 replace_lines "^$PUNCTUATION\t_\t\t$" "$C1\tPC\t\t"
 
+# some punctuation is tagged as a post, so replace it with PC
+echo "Replacing post with PC..."
+replace_lines "^$PUNCTUATION\tpost\t\t$" "$C1\tPC\t\t"
+
+# some punctuation is tagged as a pre, so replace it with PC
+echo "Replacing pre with PC..."
+replace_lines "^$PUNCTUATION\tpre\t\t$" "$C1\tPC\t\t"
+
 # some multiple analysis lemmata have a \uE280AF character in them (narrow no-break space)
 # remove it
 echo "Removing narrow no-break space..."
@@ -88,4 +97,18 @@ replace_lines "\xE2\x80\x91" "-"
 
 # replace ’ with ' but only in lemmas
 echo "Replacing ’ with ' in lemmas..."
-replace_lines "^(.*)\t(.*)\t(.*)’(.*)\t(.*)$" "$C1\t$C2\t$C3'$C4\t$C5"
+replace_lines "^$ANY\t$ANY\t$ANY’$ANY\t$ANY$" "$C1\t$C2\t$C3'$C4\t$C5"
+
+# some multi-pos (with OR |) have the same pos on both sides of the OR
+# e.g. "ADV|ADV"
+# remove the duplicate
+echo "Removing duplicate pos in multi-OR-pos..."
+replace_lines "^$ANY\t$ANY\|(\2)\t$ANY\t$ANY$" "$C1\t$C2\t$C4\t$C5"
+
+# same for lemmas
+echo "Removing duplicate lemmas in multi-OR-lemmas..."
+replace_lines "^$ANY\t$ANY\t$ANY\|(\3)\t$ANY$" "$C1\t$C2\t$C3\t$C5"
+
+# remaining unanalysed tokens can be deleted
+echo "Removing unanalysed tokens..."
+replace_lines "^$ANY\t\t\t$" "DELETE"
