@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# suspicious.sh [--lemma | --pos] [--count MAX_COUNT] [--percent MAX_PERCENTAGE] [--per-file]
+# suspicious.sh [--lemma | --pos] [--count MAX_COUNT] [--percent MAX_PERCENTAGE] [--per-file] [--token-only]
 # Find suspicious analyses. Group all lines by token and lemma. Show a report of what part of speech is assigned to what percentage of the group (token,lemma).
 #
 # we consider a group to be suspicious if 
@@ -14,6 +14,7 @@ MAX_PERCENTAGE=0.05
 analyze_lemma=false
 analyze_pos=false
 per_file=false
+TOKEN_ONLY=false
 
 # Parse command line arguments
 while [[ "$#" -gt 0 ]]; do
@@ -21,8 +22,9 @@ while [[ "$#" -gt 0 ]]; do
         --lemma) analyze_lemma=true ;;
         --pos) analyze_pos=true ;;
         --per-file) per_file=true ;;
+        --token-only) TOKEN_ONLY=true ;;
         --count) MAX_COUNT="$2"; shift ;;
-        --percentage) MAX_PERCENTAGE="$2"; shift ;;
+        --percent) MAX_PERCENTAGE="$2"; shift ;;
         *) echo "Unknown parameter passed: $1" >&2; exit 1 ;;
     esac
     shift
@@ -63,14 +65,18 @@ done > tmp.tsv
 # 4. multi-word group
 
 # Use awk to process the concatenated TSV file
-awk -F'\t' -v max_percentage=$MAX_PERCENTAGE -v max_count=$MAX_COUNT -v analyze_lemma=$analyze_lemma -v per_file=$per_file '
+awk -F'\t' -v max_percentage=$MAX_PERCENTAGE -v max_count=$MAX_COUNT -v analyze_lemma=$analyze_lemma -v per_file=$per_file -v token_only=$TOKEN_ONLY '
 {
     # Create a unique key based on the analysis type
     # note the casing to ensure that the key is case-insensitive
-    if (analyze_lemma == "true") {
-        key = tolower($1) " " toupper($2)
+    if (token_only == "true") {
+        key = tolower($1)
     } else {
-        key = tolower($1) " " toupper($3)
+        if (analyze_lemma == "true") {
+            key = tolower($1) " " toupper($2)
+        } else {
+            key = tolower($1) " " toupper($3)
+        }
     }
     
     # Count the occurrences of each analysis and track source files
