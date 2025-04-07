@@ -71,23 +71,17 @@ The real file cannot contain comments because json does not support that by defa
 In `combinations/*.json` some useful combinations of datasets are predefined. Example:
 
 ```json
-[{
+{
     "name": "1600-1900",
     "description": "All datasets between 1600-1900 combined",
     "datasets": [
         "dbnl-excerpts-17",
         "dbnl-excerpts-18",
         "dbnl-excerpts-19",
-        "dictionary-quotations-17",
-        "dictionary-quotations-18",
-        "dictionary-quotations-19",
-        "couranten",
-        "letters-as-loot"
+        ... // Etc.
     ] 
     // For other metadata like versioning, source and tagset
     // the respective datasets.json metadata is the ground truth. Let's not repeat ourselves.
     // This file is merely a suggestion of what to combine.
-},
-{...} // Etc.
-]
+}
 ```
