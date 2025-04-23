@@ -25,7 +25,7 @@ process_tags() {
     if [ $SPLIT_MULTI = true ]; then
         TAGS=$(echo "$TAGS" | tr '|' '\n' | tr '+' '\n')
     fi
-    TAGS=$(echo "$TAGS" | grep -E "[$FILTER]")
+    TAGS=$(echo "$TAGS" | grep -E "$FILTER")
 
     # don't echo when tags are empty
     if [ -z "$TAGS" ]; then
