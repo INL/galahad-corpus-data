@@ -13,7 +13,7 @@ schoone	AA(degree=pos,position=prenom)	schoon
 groote	AA(degree=pos,position=prenom)	groot	
 bruine	AA(degree=pos,position=prenom)	bruin	
 oogen	NOU-C(number=pl)	oog	
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
 
 Eenen	PD(type=indef,subtype=art,position=prenom)	een	
 koop	NOU-C(number=sg)	koop	
@@ -219,7 +219,7 @@ hebben	VRB(finiteness=inf)	hebben
 
 Hy	PD(type=pers,position=free)	hij	
 mishandeld	VRB(finiteness=fin,tense=pres)	mishandelen	
-haar	PD(type=pers,position=free)|PD(type=pers,position=free)	haar|zij	
+haar	PD(type=pers,position=free)	zij	
 ,	PC		
 maar	CONJ(type=coor)	maar	
 't	PD(type=pers,position=free)	het	
@@ -255,7 +255,7 @@ word	VRB(finiteness=fin,tense=pres)	worden
 ,	PC		
 
 Byaldien	CONJ(type=sub)	bijaldien	
-…	ADV(type=reg)		
+…	PC		
 eenige	PD(type=indef,subtype=oth,position=prenom)	enig	
 twyfeling	NOU-C(number=sg)	twijfeling	
 of	CONJ(type=coor)	of	
@@ -341,7 +341,7 @@ R	NOU-P(WF=abbr)	R.
 Ik	PD(type=pers,position=free)	ik	
 ben	VRB(finiteness=fin,tense=pres)	zijn	
 R.	NOU-P(WF=abbr)	R.	
-A	NOU-P(WF=abbr)	A	
+A	NOU-P(WF=abbr)	A.	
 .,	PC		
 neef	NOU-C(number=sg)	neef	
 van	ADP(type=pre)	van	
@@ -354,7 +354,7 @@ sluis	NOU-C(number=sg)	sluis
 .	PC		
 Hoe	ADV(type=reg)	hoe	
 is	VRB(finiteness=fin,tense=pres)	zijn	
-'	PD(type=pers,position=free)		
+'	PC		
 t	PD(type=pers,position=free)	het	
 ,	PC		
 noch	ADV(type=reg)	nog	
@@ -917,7 +917,7 @@ dienen	VRB(finiteness=fin,tense=pres)	dienen
 
 Kapers	NOU-C(number=pl)	kaper	
 van	ADP(type=pre)	van	
-welke	PD(type=indef,subtype=oth,position=prenom)	welk	
+welke	PD(type=w-p,position=prenom)	welk	
 natien	NOU-C(number=pl)	natie	
 ook	ADV(type=reg)	ook	
 ,	PC		
@@ -1161,7 +1161,7 @@ in	ADP(type=pre)	in
 begin	NOU-C(number=sg)	begin	
 van	ADP(type=pre)	van	
 February	NOU-C(number=sg)	februarius	
-des	PD(type=d-p,subtype=art,position=prenom)	de	
+des	PD(type=d-p,subtype=art,position=prenom)	het	
 jaars	NOU-C(number=sg)	jaar	
 1501	NUM(type=card,position=postnom,representation=dig)	1501	
 ,	PC		
@@ -1263,7 +1263,7 @@ als	CONJ(type=sub)	als
 ,	PC		
 5	NUM(type=card,position=free,representation=dig)	vijf	
 …	PC		
-&	ADV(type=reg,WF=abbr)		
+&	PC		
 c.	ADV(type=reg,WF=abbr)	et cetera	
 of	CONJ(type=coor)	of	
 1	NUM(type=card,position=free,representation=dig)	een	
@@ -1275,7 +1275,7 @@ of	CONJ(type=coor)	of
 10	NUM(type=card,position=free,representation=dig)	tien	
 ,	PC		
 13	NUM(type=card,position=free,representation=dig)	dertien	
-&	ADV(type=reg,WF=abbr)		
+&	PC		
 c	ADV(type=reg,WF=abbr)	et cetera	
 .,	PC		
 
@@ -1387,7 +1387,7 @@ openleggen	VRB(finiteness=inf)	openleggen
 ,	PC		
 
 Het	PD(type=d-p,subtype=art,position=prenom)	het	
-…	NUM(type=card,position=free,representation=dig)+NUM(type=ord,position=free,representation=dig)		
+…	PC		
 verdragh	NOU-C(number=sg)	verdrag	
 …,	PC		
 volgens	ADP(type=pre)	volgens	
@@ -1462,7 +1462,7 @@ Zoo	CONJ(type=sub)	zoals	mw_566975
 als	CONJ(type=sub)	zoals	mw_566975
 in	ADP(type=pre)	in	
 het	PD(type=d-p,subtype=art,position=prenom)	het	
-…	AA(degree=pos,position=prenom)		
+…	PC		
 Profil	NOU-C(number=sg)	profiel	
 van	ADP(type=pre)	van	
 den	PD(type=d-p,subtype=art,position=prenom)	de	
@@ -1522,7 +1522,7 @@ est	RES(type=for)	est
 long	RES(type=for)	long	
 ,	PC		
 étroit	RES(type=for)	étroit	
-&	CONJ(type=coor)		
+&	PC		
 leger	RES(type=for)	leger	
 ,	PC		
 ce	RES(type=for)	ce	
@@ -1539,7 +1539,7 @@ faire	RES(type=for)	faire
 des	RES(type=for)	des	
 déccuvertes	RES(type=for)	déccuvertes	
 ,	PC		
-&	CONJ(type=coor)		
+&	PC		
 à	RES(type=for)	a	
 descendre	RES(type=for)	descendre	
 du	RES(type=for)	du	
@@ -1552,11 +1552,11 @@ Il	RES(type=for)	il
 porte	RES(type=for)	porte	
 trois	RES(type=for)	trois	
 mâts	RES(type=for)	mâts	
-&	CONJ(type=coor)		
+&	PC		
 va	RES(type=for)	va	
 à	RES(type=for)	a	
 voiles	RES(type=for)	voiles	
-&	CONJ(type=coor)		
+&	PC		
 à	RES(type=for)	a	
 rames	RES(type=for)	rames	
 ,	PC		
@@ -1637,7 +1637,7 @@ nodig	AA(degree=pos,position=free)	nodig
 is	VRB(finiteness=fin,tense=pres)	zijn	
 ,	PC		
 om	ADP(type=pre)	om	
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
 
 Wat	PD(type=w-p,position=free)	wat	
 praat	VRB(finiteness=fin,tense=pres)	praten	
@@ -2105,7 +2105,7 @@ koekeloeren	VRB(finiteness=inf)	koekeloeren
 ,	PC		
 
 Een	PD(type=indef,subtype=art,position=prenom)	een	
-…	AA(degree=pos,position=prenom)		
+…	PC		
 Heer	NOU-C(number=sg)	heer	
 op	ADP(type=pre)	op	
 het	PD(type=d-p,subtype=art,position=prenom)	het	
@@ -2151,7 +2151,7 @@ maken	VRB(finiteness=fin,tense=pres)	maken
 ),	PC		
 om	ADP(type=pre)	om	
 metalen	NOU-C(number=pl)	metaal	
-in	ADV(type=pron)	in	
+in	ADV(type=reg)	in	
 te	ADP(type=pre)	te	
 smelten	VRB(finiteness=inf)	smelten	
 ,	PC		
@@ -2273,7 +2273,7 @@ voorzien	VRB(finiteness=inf)	voorzien
 ,	PC		
 
 Dam	NOU-C(number=pl,WF=trunc)+NOU-C(number=sg)	damschijf+bordschijf	mw_864965
--	NOU-C(number=pl)		
+-	PC		
 en	CONJ(type=coor)	en	
 andere	PD(type=indef,subtype=oth,position=prenom)	ander	
 Bord-Schyven	NOU-C(number=pl,WF=trunc)+NOU-C(number=sg)	damschijf+bordschijf	mw_864965
@@ -2284,7 +2284,7 @@ Deuren	NOU-C(number=pl)	deur
 en	CONJ(type=coor)	en	
 van	ADP(type=pre)	van	
 Schuyfraamen	NOU-C(number=pl)	schuifraam	
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
 
 Casteel	NOU-C(number=sg)	kasteel	
 word	VRB(finiteness=fin,tense=pres)	worden	
@@ -2362,7 +2362,7 @@ spikkels	NOU-C(number=pl)	spikkel
 Schaakspelers	NOU-C(number=pl)	schaakspeler	
 ),	PC		
 die	PD(type=d-p,position=free)	die	
-…	ADP(type=pre)		
+…	PC		
 alle	PD(type=indef,subtype=oth,position=prenom)	al	
 mogelyke	AA(degree=pos,position=prenom)	mogelijk	
 inspanning	NOU-C(number=sg)	inspanning	
@@ -2451,7 +2451,7 @@ groote	AA(degree=pos,position=prenom)	groot
 Kabinetten	NOU-C(number=pl)	kabinet	
 van	ADV(type=pron)	ervan	mw_970581
 maaken	VRB(finiteness=fin,tense=pres)	maken	
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
 
 Dus	ADV(type=reg)	dus	
 schudden	VRB(finiteness=fin,tense=past)	afschudden	mw_94655
@@ -2516,7 +2516,7 @@ hervat	VRB(finiteness=pastpart)	hervatten
 heb	VRB(finiteness=fin,tense=pres)	hebben	
 ?	PC		
 maar	CONJ(type=coor)	maar	
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
 
 Uwe	PD(type=poss,position=prenom)	uw	
 diepgewortelde	AA(degree=pos,position=prenom)	diepgeworteld	
@@ -2525,7 +2525,7 @@ heerschzucht	NOU-C(number=sg)	heerszucht
 uw	PD(type=poss,position=prenom)	uw	
 geheel	AA(degree=pos,position=prenom)	geheel	
 leven	NOU-C(number=sg)	leven	
-door	ADP(type=circ)	door	
+door	ADP(type=post)	door	
 ,	PC		
 hebt	VRB(finiteness=fin,tense=pres)	hebben	
 gij	PD(type=pers,position=free)	gij	
@@ -2629,7 +2629,7 @@ een	PD(type=indef,subtype=art,position=prenom)	een
 zot	NOU-C(number=sg)	zot	
 ,	PC		
 dat	CONJ(type=sub)	dat	
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
 
 Hoe	ADV(type=reg)	hoe	
 genoeglyk	AA(degree=pos,position=free)	genoeglijk	
@@ -3123,7 +3123,7 @@ gewreeven	AA(degree=pos,position=prenom)	gewreven
 Spaans	AA(degree=pos,position=prenom)	Spaans	
 groen	NOU-C(number=sg)	groen	
 in	ADV(type=pron)	daarin	mw_42675
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
 
 Zijn	PD(type=poss,position=prenom)	zijn	
 droeve	AA(degree=pos,position=prenom)	droef	
@@ -3175,7 +3175,7 @@ zeggende	VRB(finiteness=prespart)	zeggen
 ,	PC		
 dat	CONJ(type=sub)	dat	
 zy	PD(type=pers,position=free)	zij	
-haar	PD(type=pers,position=free)|PD(type=pers,position=free)	haar|zij	
+haar	PD(type=pers,position=free)	zij	
 ontrent	ADP(type=pre)	omtrent	
 zulk	PD(type=d-p,position=free)	zulk	
 een	PD(type=indef,subtype=art,position=prenom)	een	
@@ -3987,7 +3987,7 @@ Eglantieren	NOU-C(number=pl)	egelantier
 ,	PC		
 
 De	PD(type=d-p,subtype=art,position=prenom)	de	
-…	NUM(type=card,position=free,representation=dig)+NUM(type=ord,position=free,representation=dig)		
+…	PC		
 Eenigheyd	NOU-C(number=sg)	enigheid	
 tusschen	ADP(type=pre)	tussen	
 de	PD(type=d-p,subtype=art,position=prenom)	de	
@@ -4126,7 +4126,7 @@ grond	NOU-C(number=sg)	grond
 van	ADP(type=pre)	van	
 de	PD(type=d-p,subtype=art,position=prenom)	de	
 afscheiding	NOU-C(number=sg)	afscheiding	
-des	PD(type=d-p,subtype=art,position=prenom)	de	
+des	PD(type=d-p,subtype=art,position=prenom)	het	
 Suikerzuurs	NOU-C(number=sg)	suikerzuur	
 ,	PC		
 door	ADP(type=pre)	door	
@@ -4268,7 +4268,7 @@ de	PD(type=d-p,subtype=art,position=prenom)	de
 medeplichtingen	NOU-C(number=pl)	medeplichting	
 aen	ADP(type=pre)	aan	
 de	PD(type=d-p,subtype=art,position=prenom)	de	
-voorsz.	AA(degree=pos,position=prenom)	voorzegd	
+voorsz.	AA(degree=pos,position=prenom,WF=abbr)	voorzegd	
 vervoeringe	NOU-C(number=sg)	vervoering	
 koomt	VRB(finiteness=fin,tense=pres)	komen	
 te	ADP(type=pre)	te	
@@ -4804,7 +4804,7 @@ is	VRB(finiteness=fin,tense=pres)	zijn
 goedgevonden	VRB(finiteness=pastpart)	goedvinden	
 en	CONJ(type=coor)	en	
 verstaan	VRB(finiteness=pastpart)	verstaan	
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
 
 Verhandelingen	NOU-C(number=pl)	verhandeling	
 uitgegeeven	VRB(finiteness=pastpart)	uitgeven	
@@ -5632,4 +5632,4 @@ zij	PD(type=pers,position=free)	zij
 hebben	VRB(finiteness=fin,tense=pres)	hebben	
 geen	PD(type=indef,subtype=oth,position=prenom)	geen	
 haair	NOU-C(number=sg)	haar	
-enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoorts|enzovoort	
+enz.,	ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)	enzovoort|enzovoorts	
