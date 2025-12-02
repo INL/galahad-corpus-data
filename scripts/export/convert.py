@@ -97,7 +97,7 @@ if __name__ == "__main__":
         "--api",
         type=str,
         default="http://localhost:8010",
-        help="Lancelot API base URL",
+        help="Galahad API base URL",
     )
     parser.add_argument(
         "input", type=Path, help="Directory containing project subdirectories"
