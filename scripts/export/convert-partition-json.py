@@ -3,7 +3,6 @@
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from pathlib import Path
 import json
-import random
 
 
 def convert_partition_json(input: Path):
@@ -21,7 +20,7 @@ def convert_partition_json(input: Path):
             ]  # this is the full file name, new format uses stem
             stem = Path(f).stem.removesuffix(".tei")
             new_j[split_type].append(stem)
-    new_json_file = project_dir / f"{project_dir.name}.partitions.json"
+    new_json_file = project_dir / f"{project_dir.name}.splits.json"
     new_json_file.write_text(json.dumps(new_j, indent=4))
 
 

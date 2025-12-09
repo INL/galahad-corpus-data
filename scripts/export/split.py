@@ -47,7 +47,7 @@ def create_split(input: Path, output: Path):
                 split_files[s].write(f.read_text() + "\n\n\n")
 
     # write partition info
-    partition_file = project_output / f"{project_name}.partitions.json"
+    partition_file = project_output / f"{project_name}.splits.json"
     partition_file.write_text(json.dumps(partition_info, indent=4))
 
 
@@ -58,7 +58,7 @@ def reproduce_split(input: Path, output: Path):
     # load partition info
     project_name = input.name
     project_output = output / input.name
-    partition_file = project_output / f"{project_name}.partitions.json"
+    partition_file = project_output / f"{project_name}.splits.json"
     partition_info: dict[str, list[str]] = json.loads(partition_file.read_text())
 
     # define split files
@@ -99,7 +99,7 @@ if __name__ == "__main__":
         print(f"\tNumber of files: {num_of_files}")
 
         partition_file = (
-            args.outdir / project_dir.name / f"{project_dir.name}.partitions.json"
+            args.outdir / project_dir.name / f"{project_dir.name}.splits.json"
         )
         if partition_file.exists():
             print("\tReproducing existing split")

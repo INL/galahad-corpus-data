@@ -18,3 +18,5 @@ if __name__ == "__main__":
             f"awk -F'\\t' -v OFS='\\t' '{{print $2, $4, $3, $NF}}' {file} | tail -n +2 > {file}.fixed"
         )
         os.replace(f"{file}.fixed", file)
+        # awk will create "empty" rows (with only tabs): replace them with empty lines (dont delete!)
+        os.system(f"sed -i 's/^[\t]*$//' {file}")

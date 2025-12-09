@@ -24,7 +24,8 @@ def download(outdir: Path, host: str, projects: dict[str, str]):
             with Timer("Extracting"):
                 with ZipFile(BytesIO(bytes)) as zip:
                     for path in ZipPath(zip, at="LancelotExport/").iterdir():
-                        (project_dir / path.name).write_bytes(path.read_bytes())
+                        file = path.stem + path.suffix.lower()  # lower .XML
+                        (project_dir / file).write_bytes(path.read_bytes())
 
 
 if __name__ == "__main__":
