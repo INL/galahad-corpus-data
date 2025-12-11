@@ -23,7 +23,7 @@ class TsvWord:
         return TsvWord(cols[0], cols[1], cols[2], cols[3])
 
     def __str__(self) -> str:
-        return f"{self.token} ({self.lemma}, {self.pos}) [{self.group}]"
+        return f"{self.token}\t{self.pos}\t{self.lemma}\t{self.group}"
 
     def __repr__(self) -> str:
         return self.__str__()
@@ -162,6 +162,12 @@ class TsvDir:
         return [self.train, self.test, self.dev]
 
     @property
+    def docs(self) -> Iterator[TsvDocument]:
+        for split in self.splits:
+            for d in split.docs:
+                yield d
+
+    @property
     def pars(self) -> Iterator[TsvParagraph]:
         for split in self.splits:
             for p in split.pars:
@@ -202,6 +208,12 @@ class TsvCorpus:
     dirs: list[TsvDir]
 
     @property
+    def docs(self) -> Iterator[TsvDocument]:
+        for d in self.dirs:
+            for doc in d.docs:
+                yield doc
+
+    @property
     def words(self) -> Iterator[TsvWord]:
         for d in self.dirs:
             for w in d.words:
@@ -214,35 +226,35 @@ class TsvCorpus:
                 yield s
 
     @property
-    def train_files(self) -> Iterator[TsvFile]:
+    def train(self) -> Iterator[TsvFile]:
         for d in self.dirs:
             yield d.train
 
     @property
-    def dev_files(self) -> Iterator[TsvFile]:
+    def dev(self) -> Iterator[TsvFile]:
         for d in self.dirs:
             yield d.dev
 
     @property
-    def test_files(self) -> Iterator[TsvFile]:
+    def test(self) -> Iterator[TsvFile]:
         for d in self.dirs:
             yield d.test
 
     @property
     def train_words(self) -> Iterator[TsvWord]:
-        for f in self.train_files:
+        for f in self.train:
             for w in f.words:
                 yield w
 
     @property
     def dev_words(self) -> Iterator[TsvWord]:
-        for f in self.dev_files:
+        for f in self.dev:
             for w in f.words:
                 yield w
 
     @property
     def test_words(self) -> Iterator[TsvWord]:
-        for f in self.test_files:
+        for f in self.test:
             for w in f.words:
                 yield w
 

@@ -12,7 +12,7 @@ if __name__ == "__main__":
     parser.add_argument("-r", action="store_true", help="Recursive")
     args = parser.parse_args()
 
-    files = args.dir.rglob("*.tsv") if args.r else args.dir.glob("*.tsv")
+    files = list(args.dir.rglob("*.tsv") if args.r else args.dir.glob("*.tsv"))
     for file in files:
         os.system(
             f"awk -F'\\t' -v OFS='\\t' '{{print $2, $4, $3, $NF}}' {file} | tail -n +2 > {file}.fixed"
@@ -20,3 +20,5 @@ if __name__ == "__main__":
         os.replace(f"{file}.fixed", file)
         # awk will create "empty" rows (with only tabs): replace them with empty lines (dont delete!)
         os.system(f"sed -i 's/^[\t]*$//' {file}")
+
+    print(f"Fixed {len(files)} files.")

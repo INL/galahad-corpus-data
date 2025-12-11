@@ -99,15 +99,21 @@ if __name__ == "__main__":
         default="http://localhost:8010",
         help="Galahad API base URL",
     )
+    parser.add_argument("-r", action="store_true", help="Recursive")
     parser.add_argument(
-        "input", type=Path, help="Directory containing project subdirectories"
+        "input",
+        type=Path,
+        help="Directory containing project or project subdirectories",
     )
     parser.add_argument("outdir", type=Path, help="Output directory for TSV data")
     args = parser.parse_args()
 
     args.outdir.mkdir(exist_ok=True)
 
-    for project_dir in args.input.iterdir():
-        if project_dir.is_dir():
-            with Timer("Total"):
-                convert(project_dir, args.api, args.outdir)
+    with Timer("Total"):
+        if args.r:
+            for project_dir in args.input.iterdir():
+                if project_dir.is_dir():
+                    convert(project_dir, args.api, args.outdir)
+        else:
+            convert(args.input, args.api, args.outdir)
