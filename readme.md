@@ -37,30 +37,18 @@ in      VRB(finiteness=fin,tense=past)  innemen mw_113851
 ```
 
 # Training data
-Data in `training-data/` is tsv only and ready to be used by [galahad-train-battery](https://github.com/INL/galahad-train-battery). The files should not have column headers, so they can be merged by simply appending them. The files are partitioned in train, dev and test sets. In `*.partitionInformation.json`, the sources of the partitions are described.
+Data in `training-data/` is tsv only and ready to be used by [galahad-train-battery](https://github.com/INL/galahad-train-battery). The files should not have column headers, so they can be merged by simply appending them. The files are split in train, dev and test sets. In `*.splits.json`, the sources of the splits are described.
 
 # Datasets.json
 `datasets.json` contains information about all public corpora and datasets that can be found in Galahad. Example usage:
 ```json
 [{
-    // An automated tool could read this path.
-    "path": "training-data/letters-as-loot",
-    // Columns as they appear in the tsv files at the path.
-    "columns": [
-        "token",
-        "pos",
-        "lemma",
-        "group_id"
-    ],
     "name": "letters-as-loot",
-    "eraFrom": "1600",
-    "eraTo": "1800",
-    "tagset": "TDN-Core",
-    // Source of the dataset
-    "sourceName": "letters-as-loot",
+    "description": "Letters as Loot (selection)",
     "sourceURL": "https://brievenalsbuit.ivdnt.org/",
-    "version": "1.0.0",
-    "description": "Letters as Loot (selection)"
+    "version": "2.0.0",
+    "lancelotID": "bab_enhanced_hoofdlettertest",
+    "period": { "from": "1600", "to": "1800" }
 },
 {...} // Etc.
 ]
