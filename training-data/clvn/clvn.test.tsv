@@ -1,4 +1,3 @@
-
 Anno	RES(type=for)	anno	
 Domini	RES(type=for)	domini	
 millesimo	RES(type=for)	millesimo	
@@ -23,9 +22,6 @@ soen	NOU-C(number=sg)	zoon
 in	ADP(type=pre)	in	
 den	PD(type=d-p,subtype=art,position=prenom)	het	
 Nortwould	NOU-P	Noordwolde	
-(	PC	(	
-Weststellingwerf			
-)	PC	)	
 in	ADP(type=pre)	in	
 dat	PD(type=d-p,subtype=oth,position=prenom)	dat	
 Holdegae	NOU-P	Oudega	
@@ -72,8 +68,8 @@ synnen	NOU-C(number=pl)	zin
 .	PC	.	
 
 In	ADP(type=pre)	in	
-dat	PD(type=d-p,position=free)	dat	
-ee<r>st	VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)	eisen	
+dat	PD(type=d-p,subtype=art,position=prenom)	dat	
+ee<r>st	NUM(type=ord,position=prenom,representation=let)	eerste	
 soe	ADV(type=reg)	zo	
 byfeelt	VRB(finiteness=fin,tense=pres)	bevelen	
 hy	PD(type=pers,position=free)	hij	
@@ -465,10 +461,6 @@ die	PD(type=d-p,subtype=art,position=prenom)	de
 kerke	NOU-C(number=sg)	kerk	
 in	ADP(type=pre)	in	
 Colderwolt	NOU-P	Kolderwolde	
-(	PC	(	
-=Kolderwolde			
-Gaasterland			
-),	PC	),	
 toe	ADP(type=pre)	toe	
 twe	NUM(type=card,position=prenom,representation=let)	twee	
 tiden	NOU-C(number=pl)	tijd	
@@ -632,6 +624,8 @@ Sunte	NOU-P	Sint-Ambrosius	mw_848119
 Ambrosius	NOU-P	Sint-Ambrosius	mw_848119
 episcopi	RES(type=for)	episcopi	
 .	PC	.	
+
+
 
 Die	PD(type=d-p,subtype=art,position=prenom)	de	
 Prince	NOU-C(number=sg)	prins	
@@ -884,6 +878,7 @@ N.Brunynck	NOU-P(WF=abbr)+NOU-P	Nicolaas+Brunynck
 s.s.s.t	ADV(type=reg,WF=abbr)	salvis titulis	
 .	PC	.	
 
+
 Den	PD(type=d-p,subtype=art,position=prenom)	de	
 eersamen	AA(degree=pos,position=prenom)	eerzaam	
 vromen	AA(degree=pos,position=prenom)	vroom	
@@ -897,6 +892,8 @@ der	PD(type=d-p,subtype=art,position=prenom)	de
 stede	NOU-C(number=sg)	stede	
 van	ADP(type=pre)	van	
 Alckmaer	NOU-P	Alkmaar	
+
+
 
 Wilhelm	NOU-P	Wilhelm	
 ,	PC	,	
@@ -1135,6 +1132,7 @@ zu	ADP(type=pre)	toe
 der	PD(type=d-p,subtype=art,position=prenom)	de	
 Marck	NOU-P	Mark	
 
+
 Eersame	AA(degree=pos,position=prenom)	eerzaam	
 besundere	AA(degree=pos,position=prenom)	bijzonder	
 vilgunstighe	AA(degree=pos,position=prenom)	veelgunstig	
@@ -1150,6 +1148,8 @@ der	PD(type=d-p,subtype=art,position=prenom)	de
 stede	NOU-C(number=sg)	stede	
 van	ADP(type=pre)	van	
 Alckemair	NOU-P	Alkmaar	
+
+
 
 Die	PD(type=d-p,subtype=art,position=prenom)	de	
 Prince	NOU-C(number=sg)	prins	
@@ -1368,8 +1368,8 @@ marty	NOU-C(number=sg)	martius
 1573	NUM(type=card,position=postnom,representation=dig)	1573	
 .	PC	.	
 
-U	PD(type=poss,position=prenom)	ulieden	mw_40550
-lieden	PD(type=poss,position=prenom)	ulieden	mw_40550
+U	PD(type=pers,position=free)	ulieden	mw_80800
+lieden	PD(type=pers,position=free)	ulieden	mw_80800
 goede	AA(degree=pos,position=prenom)	goed	
 vriendt	NOU-C(number=sg)	vriend	
 Guillaume	NOU-P	Guillaume	
@@ -1379,6 +1379,7 @@ N.	NOU-P(WF=abbr)	Nicolaas
 Brunynck	NOU-P	Brunynck	
 s.s.s.t	ADV(type=reg,WF=abbr)	salvis titulis	
 .	PC	.	
+
 
 Den	PD(type=d-p,subtype=art,position=prenom)	de	
 eersamen	AA(degree=pos,position=prenom)	eerzaam	
@@ -1396,31 +1397,14 @@ stede	NOU-C(number=sg)	stede
 van	ADP(type=pre)	van	
 Alckmaer	NOU-P	Alkmaar	
 
+
+
 1569			
+
 
 XIII	NUM(type=card,position=free,representation=rom)	dertien	
 .	PC	.	
 
-ANTWOORD			
-VAN			
-WERVIK			
-VAN			
-26			
-NOVEMBER			
-1569			
-
-[	PC	[	
-Brussel			
-,	PC	,	
-Algemeen			
-Rijksarchief			
-,	PC	,	
-Mercy-Argenteau			
-,	PC	,	
-22			
-,	PC	,	
-f°188r-188v			
-]	PC	]	
 
 Hooghe	AA(degree=pos,position=prenom)	hoog	
 ,	PC	,	
@@ -1440,6 +1424,7 @@ ulieder	PD(type=pers,position=free)	ulieden
 goede	AA(degree=pos,position=prenom)	goed	
 gratie	NOU-C(number=sg)	gratie	
 .	PC	.	
+
 
 Hooghe	AA(degree=pos,position=prenom)	hoog	
 ,	PC	,	
@@ -1495,6 +1480,7 @@ criminele	AA(degree=pos,position=prenom)	crimineel
 proceduren	NOU-C(number=pl)	procedure	
 .	PC	.	
 
+
 Omme	ADP(type=pre)	om	
 up	ADP(type=pre)	op	
 welcke	PD(type=w-p,position=free)	welk	
@@ -1536,6 +1522,7 @@ Vlaendre	NOU-P	Vlaanderen
 gheuseirt	VRB(finiteness=pastpart)	useren	
 heift	VRB(finiteness=fin,tense=pres)	hebben	
 .	PC	.	
+
 
 Te	ADP(type=pre)	te	
 wetene	VRB(finiteness=inf)	weten	
@@ -1583,6 +1570,7 @@ van	ADP(type=pre)	van
 den	PD(type=d-p,subtype=art,position=prenom)	het	
 stucke	NOU-C(number=sg)	stuk	
 .	PC	.	
+
 
 Ende	CONJ(type=coor)	en	
 zoo	ADV(type=reg)	zo	
@@ -1636,6 +1624,7 @@ tstuck	PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)	het+stuk
 exigiert	VRB(finiteness=fin,tense=pres)	exigeren	
 .	PC	.	
 
+
 Myne	PD(type=poss,position=prenom)	mijn	
 heeren	NOU-C(number=pl)	heer	
 ,	PC	,	
@@ -1672,6 +1661,7 @@ in	ADP(type=pre)	in
 zalicheden	NOU-C(number=pl)	zaligheid	
 .	PC	.	
 
+
 Uut	ADP(type=pre)	uit	
 Wervycke	NOU-P	Wervik	
 desen	PD(type=d-p,subtype=oth,position=prenom)	deze	
@@ -1681,6 +1671,7 @@ novembre	NOU-C(number=sg)	november
 XVc	NUM(type=card,position=postnom,representation=rom)	1569	mw_743356
 LXIX	NUM(type=card,position=postnom,representation=rom)	1569	mw_743356
 .	PC	.	
+
 
 Baillius	NOU-C(number=pl)	baljuw	
 ende	CONJ(type=coor)	en	
@@ -1708,11 +1699,6 @@ heeren	NOU-C(number=pl)	heer
 dienste	NOU-C(number=sg)	dienst	
 .	PC	.	
 
-(	PC	(	
-Op			
-de			
-rug			
-)	PC	)	
 
 Hooghe	AA(degree=pos,position=prenom)	hoog	
 ,	PC	,	
@@ -1741,21 +1727,18 @@ te	ADP(type=pre)	te
 Ghendt	NOU-P	Gent	
 .	PC	.	
 
+
 Wervik	NOU-P	Wervik	
 .	PC	.	
 
+
+
 1569			
+
 
 VII	NUM(type=card,position=free,representation=rom)	zeven	
 .	PC	.	
 
-ANTWOORD			
-VAN			
-DENDERMONDE			
-VAN			
-10			
-DECEMBER			
-1569			
 
 Hooghe	AA(degree=pos,position=prenom)	hoog	
 ,	PC	,	
@@ -1776,6 +1759,7 @@ heeren	NOU-C(number=pl)	heer
 goede	AA(degree=pos,position=prenom)	goed	
 gracie	NOU-C(number=sg)	gratie	
 .	PC	.	
+
 
 Beliefve	VRB(finiteness=fin,tense=pres)	believen	
 te	ADP(type=pre)	te	
@@ -1826,6 +1810,7 @@ de	PD(type=d-p,subtype=art,position=prenom)	de
 criminele	AA(degree=pos,position=prenom)	crimineel	
 procedueren	NOU-C(number=pl)	procedure	
 .	PC	.	
+
 
 Ten	ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)	te+de	
 welcken	PD(type=w-p,position=free)	welk	
@@ -1920,6 +1905,7 @@ te	ADP(type=pre)	te
 veradverterene	VRB(finiteness=inf)	veradverteren	
 .	PC	.	
 
+
 Hooghe	AA(degree=pos,position=prenom)	hoog	
 ,	PC	,	
 edele	AA(degree=pos,position=prenom)	edel	
@@ -1944,6 +1930,7 @@ decembris	NOU-C(number=sg)	december
 1569	NUM(type=card,position=postnom,representation=dig)	1569	
 .	PC	.	
 
+
 Ulieder	PD(type=pers,position=free)	ulieden	
 heeren	NOU-C(number=pl)	heer	
 ,	PC	,	
@@ -1956,21 +1943,11 @@ van	ADP(type=pre)	van
 Dendremonde	NOU-P	Dendermonde	
 .	PC	.	
 
-(	PC	(	
-Getekend			
-)	PC	)	
+
 G.	NOU-P(WF=abbr)	G.	
 Vanderbeke	NOU-P	Vanderbeke	
 .	PC	.	
 
-(	PC	(	
-Op			
-de			
-rug			
-)	PC	)	
-
-Dendermonde			
-.	PC	.	
 
 Hooghe	AA(degree=pos,position=prenom)	hoog	
 ,	PC	,	
@@ -1993,34 +1970,16 @@ tot	ADP(type=pre)	tot
 Ghendt	NOU-P	Gent	
 .	PC	.	
 
-BIJLAGE			
-BIJ			
-HET			
-ANTWOORD			
-VAN			
-DENDERMONDE			
 
-Privilege			
-van			
-Filips			
-de			
-Goede			
-van			
-6			
 november	NOU-C(number=sg)	november	
 1462			
 
-Tekst			
-:	PC	:	
-zie			
-info-file			
 
-(	PC	(	
-Getekend			
-)	PC	)	
 G.	NOU-P(WF=abbr)	G.	
 Vanderbeke	NOU-P	Vanderbeke	
 .	PC	.	
+
+
 
 Erentfeste	AA(degree=pos,position=prenom)	erentfest	
 ,	PC	,	
@@ -2232,6 +2191,7 @@ drost	NOU-C(number=sg)	drost
 op	ADP(type=pre)	op	
 Veluwen	NOU-P	Veluwe	
 
+
 Den	PD(type=d-p,subtype=art,position=prenom)	de	
 erentfesten	AA(degree=pos,position=prenom)	erentefest	
 ,	PC	,	
@@ -2255,6 +2215,8 @@ gebyedende	AA(degree=pos,position=prenom)	gebiedend
 heeren	NOU-C(number=pl)	heer	
 ende	CONJ(type=coor)	en	
 vrunden	NOU-C(number=pl)	vriend	
+
+
 
 Toe	ADP(type=pre)	toe	
 wettene	VRB(finiteness=inf)	weten	
@@ -2323,9 +2285,9 @@ oelden	NOU-C(number=sg)	oude
 nementlick	AA(degree=pos,position=free)	namelijk	
 Johan	NOU-P	Johan	
 anno	ADP(type=pre)	anno	
-XVc	NUM(type=card,position=free,representation=let)	1550	mw_385536
-ende	NUM(type=card,position=free,representation=let)	1550	mw_385536
-vyfftich	NUM(type=card,position=free,representation=let)	1550	mw_385536
+XVc	NUM(type=card,position=free,representation=mix-rom)	1550	mw_729852
+ende	NUM(type=card,position=free,representation=mix-rom)	1550	mw_729852
+vyfftich	NUM(type=card,position=free,representation=mix-rom)	1550	mw_729852
 auerkomen	VRB(finiteness=pastpart)	overkomen	
 ende	CONJ(type=coor)	en	
 met	ADP(type=pre)	met	
@@ -2362,10 +2324,10 @@ van	ADP(type=pre)	van
 der	PD(type=d-p,subtype=art,position=prenom)	de	
 renthe	NOU-C(number=sg)	rente	
 tosamen	ADV(type=reg)	samen	
-Tyn	NUM(type=card,position=prenom,representation=rom)	tien	
+Tyn	NUM(type=card,position=prenom,representation=let)	tien	
 golden	AA(degree=pos,position=prenom)	gouden	
 guldenen	NOU-C(number=pl)	gulden	
-tyn	NUM(type=card,position=prenom,representation=rom)	tien	
+tyn	NUM(type=card,position=prenom,representation=let)	tien	
 goldenen	AA(degree=pos,position=prenom)	gouden	
 guldenen	NOU-C(number=pl)	gulden	
 vnde	CONJ(type=coor)	en	
@@ -2507,6 +2469,8 @@ Lansijnck	NOU-P	Lansijnck
 .	PC	.	
 
 .	PC	.	
+
+
 
 Copie	NOU-C(number=sg)	kopie	
 Wert	VRB(finiteness=fin,tense=pres)	worden	
@@ -2725,6 +2689,7 @@ Paessen	NOU-P	Pasen
 Diederich	NOU-P	Diederik	
 Sonoy	NOU-P	Sonoy	
 
+
 10	NUM(type=card,position=prenom,representation=dig)	tien	
 april	NOU-C(number=sg)	april	
 1573	NUM(type=card,position=postnom,representation=dig)	1573	
@@ -2755,3 +2720,6 @@ bara	RES(type=uncl)	-
 
 Jacob	NOU-P	Jakob	
 ?	PC	?	
+
+
+
