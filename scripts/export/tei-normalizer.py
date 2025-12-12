@@ -174,17 +174,15 @@ def put_unanalyzed_words_in_note(root: ET.Element):
             group.append(children[j])
             j += 1
 
-        # only proceed if the group has at least two elements
-        if len(group) < 2:
-            continue
-
-        # create a <note> element and move the group into it
-        note = ET.Element(f"{ns['tei']}note")
-        p.insert(i, note)
-        for g in group:
-            p.remove(g)
-            note.append(g)
-            done.add(g)  # mark as done
+        # only proceed if the group has at least two elements and one of them is a <w>
+        if len(group) >= 2 and any(g.tag == f"{ns['tei']}w" for g in group):
+            # create a <note> element and move the group into it
+            note = ET.Element(f"{ns['tei']}note")
+            p.insert(i, note)
+            for g in group:
+                p.remove(g)
+                note.append(g)
+                done.add(g)  # mark as done
 
 
 def put_last_enz_in_note(root: ET.Element):
