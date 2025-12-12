@@ -51,16 +51,10 @@ C5="\5"
 ANY="(.*)"
 
 # annotate all untagged punctuation with PC
-PUNCTUATION="([][…\.,;!?¶&'„│—\":]+)"
+PUNCTUATION="([][%»#=˝«_…\.,;!?*()’‘¶–/‹&'“”„☞│—\":{}-]+)"
+
 echo "Annotating untagged punctuation with PC..."
 replace_lines "^$PUNCTUATION\t\t\t$" "$C1\tPC\t\t"
-
-# also, some files have doc ids that need to be removed
-# e.g. pc-00531111
-DOC_ID="pc-[0-9]+"
-# simply remove the entire line
-echo "Removing lines with document ids..."
-replace_lines "^$DOC_ID\t\t\t$" "DELETE"
 
 # some punctuation is tagged as no_pos, so replace it with PC
 echo "Replacing no_pos with PC..."
@@ -77,6 +71,17 @@ replace_lines "^$PUNCTUATION\tpost\t\t$" "$C1\tPC\t\t"
 # some punctuation is tagged as a pre, so replace it with PC
 echo "Replacing pre with PC..."
 replace_lines "^$PUNCTUATION\tpre\t\t$" "$C1\tPC\t\t"
+
+echo "Set token as lemma for all PC..."
+replace_lines "^$PUNCTUATION\tPC\t\t$" "$C1\tPC\t$C1\t"
+
+# also, some files have doc ids that need to be removed
+# e.g. pc-00531111
+DOC_ID="pc-[0-9]+"
+# simply remove the entire line
+echo "Removing lines with document ids..."
+replace_lines "^$DOC_ID\t\t\t$" "DELETE"
+
 
 # some multiple analysis lemmata have a \uE280AF character in them (narrow no-break space)
 # remove it
