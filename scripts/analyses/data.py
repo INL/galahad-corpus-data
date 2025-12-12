@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import StrEnum
 from pathlib import Path
 from typing import Iterator
@@ -16,6 +16,7 @@ class TsvWord:
     pos: str
     lemma: str
     group: str
+    mwe: list["TsvWord"] = field(default_factory=list)
 
     @staticmethod
     def load(text: str) -> "TsvWord":
@@ -36,7 +37,18 @@ class TsvSentence:
     @staticmethod
     def load(text: str) -> "TsvSentence":
         rows = text.split("\n")
-        return TsvSentence([TsvWord.load(r) for r in rows if r.strip()])
+        sent = TsvSentence([TsvWord.load(r) for r in rows if r.strip()])
+        # link MWEs
+        group_map: dict[str, list[TsvWord]] = {}
+        for w in sent.words:
+            if w.group:
+                group = group_map.get(w.group, [])
+                group.append(w)
+                group_map[w.group] = group
+        for group in group_map.values():
+            for w in group:
+                w.mwe = [mw for mw in group]
+        return sent
 
     def __str__(self) -> str:
         return f"          Sentence ({len(self.words)} words)"  # \n{'\n'.join([str(r) for r in self.words])}"

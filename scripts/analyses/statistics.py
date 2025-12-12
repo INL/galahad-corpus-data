@@ -34,6 +34,15 @@ def generate_stats(corpus: TsvCorpus, out: Path):
         lambda w: w.pos == "NOU-P" and not any(c.isupper() for c in w.lemma)
     )
 
+    # print all MWE tokens whose lemma is not identical
+    with (out / "mwe_dif_lemma.txt").open("w") as f:
+        for w in corpus.words:
+            if any(mw.lemma != w.lemma for mw in w.mwe):
+                f.write(f"{w.lemma} {w.group}\n")
+                for mw in w.mwe:
+                    f.write(f"\t{mw}\n")
+                f.write("\n")
+
     # for each token, show how many times it occurs with each POS tag
     f_path = out / "token_pos.txt"
     token_pos_map = {}
@@ -107,23 +116,82 @@ def empty_words(corpus: TsvCorpus, out: Path):
 def grouped_annotations(corpus: TsvCorpus, out: Path):
     out = out / "grouped_annotations"
     out.mkdir(parents=True, exist_ok=True)
-    TokenGrouper(
-        out / "lemmapos_per_token.txt",
-        corpus,
-        lambda w: w.token,
-        lambda w: f"{w.lemma} {w.pos}",
-    )
+    # per token
     TokenGrouper(
         out / "lemma_per_token.txt",
         corpus,
         lambda w: w.token,
-        lambda w: w.lemma,
+        lambda w: f"‘{w.lemma}’",
     )
     TokenGrouper(
         out / "pos_per_token.txt",
         corpus,
         lambda w: w.token,
         lambda w: w.pos,
+    )
+    # per lemma
+    TokenGrouper(
+        out / "token_per_lemma.txt",
+        corpus,
+        lambda w: f"‘{w.lemma}’",
+        lambda w: w.token,
+    )
+    TokenGrouper(
+        out / "pos_per_lemma.txt",
+        corpus,
+        lambda w: f"‘{w.lemma}’",
+        lambda w: w.pos,
+    )
+    # per pos
+    TokenGrouper(
+        out / "token_per_pos.txt",
+        corpus,
+        lambda w: w.pos,
+        lambda w: w.token,
+    )
+    TokenGrouper(
+        out / "lemma_per_pos.txt",
+        corpus,
+        lambda w: w.pos,
+        lambda w: f"‘{w.lemma}’",
+    )
+    # double per group
+    TokenGrouper(
+        out / "_tokenpos_per_lemma.txt",
+        corpus,
+        lambda w: f"‘{w.lemma}’",
+        lambda w: f"{w.token} {w.pos}",
+    )
+    TokenGrouper(
+        out / "_tokenlemma_per_pos.txt",
+        corpus,
+        lambda w: w.pos,
+        lambda w: f"{w.token} ‘{w.lemma}’",
+    )
+    TokenGrouper(
+        out / "_lemmapos_per_token.txt",
+        corpus,
+        lambda w: w.token,
+        lambda w: f"‘{w.lemma}’ {w.pos}",
+    )
+    # per double group
+    TokenGrouper(
+        out / "token_per_lemmapos.txt",
+        corpus,
+        lambda w: f"‘{w.lemma}’ {w.pos}",
+        lambda w: w.token,
+    )
+    TokenGrouper(
+        out / "pos_per_tokenlemma.txt",
+        corpus,
+        lambda w: f"{w.token} ‘{w.lemma}’",
+        lambda w: w.pos,
+    )
+    TokenGrouper(
+        out / "lemma_per_tokenpos.txt",
+        corpus,
+        lambda w: f"{w.token} {w.pos}",
+        lambda w: f"‘{w.lemma}’",
     )
 
 
