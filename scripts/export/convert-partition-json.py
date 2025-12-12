@@ -7,6 +7,9 @@ import json
 
 def convert_partition_json(input: Path):
     json_file = project_dir / f"{project_dir.name}.partitionInformation.json"
+    if not json_file.is_file():
+        print(f"No partitionInformation.json found for {project_dir.name}, skipping")
+        return
     j = json.loads(json_file.read_text())
     new_j = {"train": [], "dev": [], "test": []}
     for split_type in ["train", "dev", "test"]:
