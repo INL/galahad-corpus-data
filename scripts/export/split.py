@@ -89,11 +89,16 @@ if __name__ == "__main__":
     parser.add_argument(
         "input", type=Path, help="Directory containing project subdirectories"
     )
+    parser.add_argument(
+        "--name", type=str, help="Specific dataset to process", default=None
+    )
     parser.add_argument("outdir", type=Path, help="Output directory for split files")
     args = parser.parse_args()
 
     args.outdir.mkdir(parents=True, exist_ok=True)
     for project_dir in args.input.iterdir():
+        if args.name and project_dir.name != args.name:
+            continue
         print(f"Processing project: {project_dir.name}")
         num_of_files = len(list(project_dir.iterdir()))
         print(f"\tNumber of files: {num_of_files}")
