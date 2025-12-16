@@ -30,18 +30,10 @@ def generate_stats(corpus: TsvCorpus, out: Path):
     empty_words(corpus, out)
     punctuation(corpus, out)
     grouped_annotations(corpus, out)
-    TokenFilter(out / "nou-p_no_capital.txt", corpus).filter(
-        lambda w: w.pos == "NOU-P" and not any(c.isupper() for c in w.lemma)
+    mwe(corpus, out)
+    nou_p(corpus, out)
     )
 
-    # print all MWE tokens whose lemma is not identical
-    with (out / "mwe_dif_lemma.txt").open("w") as f:
-        for w in corpus.words:
-            if any(mw.lemma != w.lemma for mw in w.mwe):
-                f.write(f"{w.lemma} {w.group}\n")
-                for mw in w.mwe:
-                    f.write(f"\t{mw}\n")
-                f.write("\n")
 
     # for each token, show how many times it occurs with each POS tag
     f_path = out / "token_pos.txt"
@@ -63,6 +55,23 @@ def generate_stats(corpus: TsvCorpus, out: Path):
                         header_printed = True
                         f.write(f"{token} (total: {total_count})\n")
                     f.write(f"    {pos}: {count}\n")
+def mwe(corpus: TsvCorpus, out: Path):
+    out = out / "mwe"
+    out.mkdir(parents=True, exist_ok=True)
+    TokenFilter(out / "mwe_dif_lemma.txt", corpus).filter(
+        lambda w: any(m.lemma != w.lemma for m in w.mwe)
+    )
+    TokenFilter(out / "mwe_dif_pos.txt", corpus).filter(
+        lambda w: any(m.pos != w.pos for m in w.mwe)
+    )
+
+
+def nou_p(corpus: TsvCorpus, out: Path):
+    out = out / "nou_p"
+    out.mkdir(parents=True, exist_ok=True)
+    TokenFilter(out / "nou-p_lemma_no_capital.txt", corpus).filter(
+        lambda w: w.pos == "NOU-P" and not any(c.isupper() for c in w.lemma)
+    )
 
 
 def histograms(corpus: TsvCorpus, out: Path):
