@@ -120,13 +120,13 @@ def grouped_annotations(corpus: TsvCorpus, out: Path):
     TokenGrouper(
         out / "lemma_per_token.txt",
         corpus,
-        lambda w: w.token,
+        lambda w: w.token.lower(),
         lambda w: f"‘{w.lemma}’",
     )
     TokenGrouper(
         out / "pos_per_token.txt",
         corpus,
-        lambda w: w.token,
+        lambda w: w.token.lower(),
         lambda w: w.pos,
     )
     # per lemma
@@ -134,7 +134,7 @@ def grouped_annotations(corpus: TsvCorpus, out: Path):
         out / "token_per_lemma.txt",
         corpus,
         lambda w: f"‘{w.lemma}’",
-        lambda w: w.token,
+        lambda w: w.token.lower(),
     )
     TokenGrouper(
         out / "pos_per_lemma.txt",
@@ -147,7 +147,7 @@ def grouped_annotations(corpus: TsvCorpus, out: Path):
         out / "token_per_pos.txt",
         corpus,
         lambda w: w.pos,
-        lambda w: w.token,
+        lambda w: w.token.lower(),
     )
     TokenGrouper(
         out / "lemma_per_pos.txt",
@@ -160,18 +160,18 @@ def grouped_annotations(corpus: TsvCorpus, out: Path):
         out / "_tokenpos_per_lemma.txt",
         corpus,
         lambda w: f"‘{w.lemma}’",
-        lambda w: f"{w.token} {w.pos}",
+        lambda w: f"{w.token.lower()} {w.pos}",
     )
     TokenGrouper(
         out / "_tokenlemma_per_pos.txt",
         corpus,
         lambda w: w.pos,
-        lambda w: f"{w.token} ‘{w.lemma}’",
+        lambda w: f"{w.token.lower()} ‘{w.lemma}’",
     )
     TokenGrouper(
         out / "_lemmapos_per_token.txt",
         corpus,
-        lambda w: w.token,
+        lambda w: w.token.lower(),
         lambda w: f"‘{w.lemma}’ {w.pos}",
     )
     # per double group
@@ -179,18 +179,18 @@ def grouped_annotations(corpus: TsvCorpus, out: Path):
         out / "token_per_lemmapos.txt",
         corpus,
         lambda w: f"‘{w.lemma}’ {w.pos}",
-        lambda w: w.token,
+        lambda w: w.token.lower(),
     )
     TokenGrouper(
         out / "pos_per_tokenlemma.txt",
         corpus,
-        lambda w: f"{w.token} ‘{w.lemma}’",
+        lambda w: f"{w.token.lower()} ‘{w.lemma}’",
         lambda w: w.pos,
     )
     TokenGrouper(
         out / "lemma_per_tokenpos.txt",
         corpus,
-        lambda w: f"{w.token} {w.pos}",
+        lambda w: f"{w.token.lower()} {w.pos}",
         lambda w: f"‘{w.lemma}’",
     )
 
