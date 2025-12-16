@@ -1,3 +1,4 @@
+from collections import defaultdict
 from dataclasses import dataclass, field
 from enum import StrEnum
 from pathlib import Path
@@ -37,18 +38,7 @@ class TsvSentence:
     @staticmethod
     def load(text: str) -> "TsvSentence":
         rows = text.split("\n")
-        sent = TsvSentence([TsvWord.load(r) for r in rows if r.strip()])
-        # link MWEs
-        group_map: dict[str, list[TsvWord]] = {}
-        for w in sent.words:
-            if w.group:
-                group = group_map.get(w.group, [])
-                group.append(w)
-                group_map[w.group] = group
-        for group in group_map.values():
-            for w in group:
-                w.mwe = [mw for mw in group]
-        return sent
+        return TsvSentence([TsvWord.load(r) for r in rows if r.strip()])
 
     def __str__(self) -> str:
         return f"          Sentence ({len(self.words)} words)"  # \n{'\n'.join([str(r) for r in self.words])}"
@@ -106,7 +96,21 @@ class TsvDocument:
     def load(text: str) -> "TsvDocument":
         # paragraphs are split by two empty rows
         pars = text.split("\n\n\n")
-        return TsvDocument([TsvParagraph.load(p) for p in pars if p.strip()])
+        doc = TsvDocument([TsvParagraph.load(p) for p in pars if p.strip()])
+        TsvDocument._link_mwes(doc)
+        return doc
+
+    @staticmethod
+    def _link_mwes(doc: "TsvDocument") -> None:
+        # collect groups
+        group_map: dict[str, list[TsvWord]] = defaultdict(list)
+        for w in doc.words:
+            if w.group:
+                group_map[w.group].append(w)
+        # link MWEs
+        for group in group_map.values():
+            for w in group:
+                w.mwe = [mw for mw in group]
 
     def __str__(self) -> str:
         return f"      Document ({len(self.pars)} pars)\n{'\n'.join([str(p) for p in self.pars])}"
