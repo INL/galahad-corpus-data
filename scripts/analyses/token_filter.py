@@ -10,7 +10,11 @@ class TokenFilter:
     out: Path
     corpus: TsvCorpus
 
-    def filter(self, condition: Callable[[TsvWord], bool]) -> None:
+    def filter(
+        self,
+        condition: Callable[[TsvWord], bool],
+        comment: Callable[[TsvWord], str] | None = None,
+    ) -> None:
         """Filter tokens based on a given condition and write to output."""
         with self.out.open("w") as f:
             for d in self.corpus.dirs:
@@ -20,4 +24,5 @@ class TokenFilter:
                         if not written_header:
                             written_header = True
                             f.write(f"\n{d.name:-^40}\n")
-                        f.write(str(w) + "\n")
+                        cmt: str = ("\t " + comment(w)) if comment else ""
+                        f.write(f"{w}{cmt}\n")
