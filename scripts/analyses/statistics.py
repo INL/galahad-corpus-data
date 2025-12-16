@@ -14,7 +14,7 @@ from pathlib import Path
 import re
 import sys
 
-from data import TsvCorpus
+from data import TsvCorpus, TsvWord
 from histogram import Histogram
 from token_grouper import TokenGrouper
 from size import CorpusSize
@@ -25,6 +25,7 @@ from config.config import PUNCTUATION
 
 
 def generate_stats(corpus: TsvCorpus, out: Path):
+    roman_numerals(corpus, out)
     CorpusSize(out / "size.txt", corpus)
     histograms(corpus, out)
     empty_words(corpus, out)
@@ -32,6 +33,66 @@ def generate_stats(corpus: TsvCorpus, out: Path):
     grouped_annotations(corpus, out)
     mwe(corpus, out)
     nou_p(corpus, out)
+
+
+def roman_to_int(roman: str) -> int:
+    map = {
+        "I": 1,
+        "J": 1,
+        "V": 5,
+        "X": 10,
+        "L": 50,
+        "C": 100,
+        "D": 500,
+        "M": 1000,
+    }
+    total = 0
+    intermediate = 0
+    last_value = 1e9
+    for c in roman.upper():
+        if c not in map:
+            continue
+        value = map.get(c, 0)
+        # example: IX = -1 + 10 = 9
+        if last_value < value:
+            # exception: C leads to multiplication by 100
+            # if our total is less than 1000
+            if c == "C" and total < 1000:
+                total += intermediate
+                total *= 100
+                intermediate = 0
+            else:
+                # subtraction mode
+                intermediate = value - intermediate
+        elif last_value == value:
+            # same value, just add
+            intermediate += value
+        else:
+            # addition mode ended, add intermediate to total
+            total += intermediate
+            intermediate = value
+        last_value = value
+    total += intermediate
+    return total
+
+
+def roman_numerals(corpus: TsvCorpus, out: Path):
+    # convert a roman numeral to an integer
+
+    def convert_w(w: TsvWord) -> int:
+        if w.group:
+            concat = ".".join(m.token for m in w.mwe)
+            return roman_to_int(concat)
+        else:
+            return roman_to_int(w.token)
+
+    out = out / "roman_numerals"
+    out.mkdir(parents=True, exist_ok=True)
+    TokenFilter(out / "wrong_roman_numerals.txt", corpus).filter(
+        lambda w: "representation=rom" in w.pos
+        and str(convert_w(w)) != w.lemma
+        and re.match(r"[0-9]", w.lemma) is not None,
+        comment=lambda w: f"converted='{convert_w(w)}'",
     )
 
 
