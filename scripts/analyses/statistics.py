@@ -1,84 +1,99 @@
 #! /usr/bin/env python3
+
 """
-Print basic statistics about a dataset.
-- Number of tokens (total, per split)
-- Number of unique tokens (total, per split)
-- Same for lemmata and POS tags (total, per split)
-- histogram of token frequencies (total, per split) (same for lemmata and POS tags)
-- histogram of sentence lengths
-- histogram of token lengths
+Analyse the input corpus, generate statistics, and note any suspicious patterns.
+The following files are generated:
+statistics/
+    suspicious/
+        mwe/
+            mwe_dif_lemma.txt # MWEs where the lemmas of the components differ
+            mwe_dif_pos.txt # MWEs where the POS of the components differ
+        nou_p/
+            nou-p_lemma_no_capital.txt # NOU-P tokens where the lemma does not contain a capital letter
+        pc/
+            words_tagged_pc.txt # tokens tagged as PC but not punctuation
+            pc_not_tagged_pc.txt # punctuation tokens not tagged as PC
+        roman_numerals/
+            wrong_roman_numerals.txt # tokens where the lemma number does not match the roman numeral token
+        empty/
+            lemma.txt # tokens with empty lemma
+            pos.txt # tokens with empty POS
+    histogram/
+        token.txt # histogram of tokens (excluding PC)
+        lemma.txt # histogram of lemmas (excluding PC)
+        pos.txt
+        pos_main.txt # POS converted to main POS. NOU-C(num=sg) => NOU-C
+        group.txt # histogram of group IDs
+        pc.txt # histogram of tokens where POS = PC
+        token_char.txt # histogram of characters in tokens
+        lemma_char.txt
+        token_len.txt # histogram of token lengths
+        lemma_len.txt # histogram of lemma lengths
+        sentence_len.txt # histogram of sentence lengths
+    analyses/
+        * # various grouped analyses, e.g., tok_to_lem.txt maps tokens to their lemmas
+    size.txt # token size over various categories
+
 """
 
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from pathlib import Path
 import re
 import sys
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from pathlib import Path
 
 from data import TsvCorpus, TsvWord
 from histogram import Histogram
-from token_grouper import TokenGrouper
 from size import CorpusSize
 from token_filter import TokenFilter
+from token_grouper import SuspiciousTokenGrouper, TokenGrouper
+from util import pos_to_main_pos, roman_to_int
 
 sys.path.append(str(Path(__file__).parent.parent))
 from config.config import PUNCTUATION
 
 
 def generate_stats(corpus: TsvCorpus, out: Path):
-    roman_numerals(corpus, out)
+    generate_suspicious(corpus, out)
+    grouped_annotations(corpus, out)
     CorpusSize(out / "size.txt", corpus)
     histograms(corpus, out)
-    empty_words(corpus, out)
-    punctuation(corpus, out)
-    grouped_annotations(corpus, out)
+
+
+def generate_suspicious(corpus: TsvCorpus, out: Path):
+    out = out / "suspicious"
+    out.mkdir(parents=True, exist_ok=True)
+    suspicious_analyses(corpus, out)
+    roman_numerals(corpus, out)
     mwe(corpus, out)
     nou_p(corpus, out)
+    empty_words(corpus, out)
+    punctuation(corpus, out)
 
 
-def roman_to_int(roman: str) -> int:
-    map = {
-        "I": 1,
-        "J": 1,
-        "V": 5,
-        "X": 10,
-        "L": 50,
-        "C": 100,
-        "D": 500,
-        "M": 1000,
-    }
-    total = 0
-    intermediate = 0
-    last_value = 1e9
-    for c in roman.upper():
-        if c not in map:
-            continue
-        value = map.get(c, 0)
-        # example: IX = -1 + 10 = 9
-        if last_value < value:
-            # exception: C leads to multiplication by 100
-            # if our total is less than 1000
-            if c == "C" and total < 1000:
-                total += intermediate
-                total *= 100
-                intermediate = 0
-            else:
-                # subtraction mode
-                intermediate = value - intermediate
-        elif last_value == value:
-            # same value, just add
-            intermediate += value
-        else:
-            # addition mode ended, add intermediate to total
-            total += intermediate
-            intermediate = value
-        last_value = value
-    total += intermediate
-    return total
+def suspicious_analyses(corpus: TsvCorpus, out: Path):
+    out = out / "analyses"
+    out.mkdir(parents=True, exist_ok=True)
+    SuspiciousTokenGrouper(
+        out / "sus_lem_by_tokpos.txt",
+        corpus,
+        lambda w: f"{w.token.lower()} {w.pos}",
+        lambda w: f"‘{w.lemma}’",
+    ).report(out / "sus_lem_report_by_tokpos.txt", corpus)
+    SuspiciousTokenGrouper(
+        out / "sus_pos_by_toklem.txt",
+        corpus,
+        lambda w: f"{w.token.lower()} ‘{w.lemma}’",
+        lambda w: w.pos,
+    ).report(out / "sus_pos_report_by_toklem.txt", corpus)
+    SuspiciousTokenGrouper(
+        out / "sus_tok_by_lempos.txt",
+        corpus,
+        lambda w: f"‘{w.lemma}’ {w.pos}",
+        lambda w: w.token.lower(),
+    ).report(out / "sus_tok_report_by_lempos.txt", corpus)
 
 
 def roman_numerals(corpus: TsvCorpus, out: Path):
-    # convert a roman numeral to an integer
-
     def convert_w(w: TsvWord) -> int:
         if w.group:
             concat = ".".join(m.token for m in w.mwe)
@@ -96,26 +111,6 @@ def roman_numerals(corpus: TsvCorpus, out: Path):
     )
 
 
-    # for each token, show how many times it occurs with each POS tag
-    f_path = out / "token_pos.txt"
-    token_pos_map = {}
-    for w in corpus.words:
-        pos_map = token_pos_map.get(w.token, {})
-        key = f"{w.pos}-{w.lemma}"
-        pos_map[key] = pos_map.get(key, 0) + 1
-        token_pos_map[w.token] = pos_map
-    with f_path.open("w") as f:
-        for token, pos_map in sorted(
-            token_pos_map.items(), key=lambda x: -sum(x[1].values())
-        ):
-            total_count = sum(pos_map.values())
-            header_printed = False
-            for pos, count in sorted(pos_map.items(), key=lambda x: -x[1]):
-                if count < 0.05 * total_count:
-                    if not header_printed:
-                        header_printed = True
-                        f.write(f"{token} (total: {total_count})\n")
-                    f.write(f"    {pos}: {count}\n")
 def mwe(corpus: TsvCorpus, out: Path):
     out = out / "mwe"
     out.mkdir(parents=True, exist_ok=True)
@@ -125,6 +120,7 @@ def mwe(corpus: TsvCorpus, out: Path):
     TokenFilter(out / "mwe_dif_pos.txt", corpus).filter(
         lambda w: any(m.pos != w.pos for m in w.mwe)
     )
+    TokenFilter(out / "lonely_mwe.txt", corpus).filter(lambda w: len(w.mwe) == 1)
 
 
 def nou_p(corpus: TsvCorpus, out: Path):
@@ -135,30 +131,24 @@ def nou_p(corpus: TsvCorpus, out: Path):
     )
 
 
-def histograms(corpus: TsvCorpus, out: Path):
+def histograms(corp: TsvCorpus, out: Path):
     out = out / "histogram"
     out.mkdir(parents=True, exist_ok=True)
-    Histogram(out / "pc.txt").write(w.token for w in corpus.words if w.pos == "PC")
-    Histogram(out / "token.txt").write(w.token for w in corpus.words)
-    Histogram(out / "lemma.txt").write(w.lemma for w in corpus.words if w.pos != "PC")
-    Histogram(out / "pos.txt").write(w.pos for w in corpus.words)
-
-    # ADP()+NOU-C()|PD()+NOU-C() => ADP+NOU-C|PD+NOU-C
-    Histogram(out / "pos-main.txt").write(
-        "|".join(
-            "+".join(p.split("(")[0] for p in option_pos.split("+"))
-            for option_pos in w.pos.split("|")
-        )
-        for w in corpus.words
+    Histogram(out / "token.txt").write(w.token for w in corp.words if w.pos != "PC")
+    Histogram(out / "lemma.txt").write(w.lemma for w in corp.words if w.pos != "PC")
+    Histogram(out / "pos.txt").write(w.pos for w in corp.words)
+    Histogram(out / "pos_main.txt").write(pos_to_main_pos(w.pos) for w in corp.words)
+    Histogram(out / "group.txt").write(w.group for w in corp.words)
+    Histogram(out / "pc.txt").write(w.token for w in corp.words if w.pos == "PC")
+    Histogram(out / "token_char.txt").write(
+        c for w in corp.words for c in w.token if w.pos != "PC"
     )
-    Histogram(out / "group.txt").write(w.group for w in corpus.words)
-    Histogram(out / "token_char.txt").write(c for w in corpus.words for c in w.token)
     Histogram(out / "lemma_char.txt").write(
-        c for w in corpus.words for c in w.lemma if w.pos != "PC"
+        c for w in corp.words for c in w.lemma if w.pos != "PC"
     )
-    Histogram(out / "pos_char.txt").write(c for w in corpus.words for c in w.pos)
-    Histogram(out / "sentence_len.txt").write(str(len(s.words)) for s in corpus.sents)
-    Histogram(out / "token_len.txt").write(str(len(w.token)) for w in corpus.words)
+    Histogram(out / "sentence_len.txt").write(str(len(s.words)) for s in corp.sents)
+    Histogram(out / "token_len.txt").write(str(len(w.token)) for w in corp.words)
+    Histogram(out / "lemma_len.txt").write(str(len(w.lemma)) for w in corp.words)
 
 
 def punctuation(corpus: TsvCorpus, out: Path):
@@ -176,90 +166,69 @@ def empty_words(corpus: TsvCorpus, out: Path):
     out = out / "empty"
     out.mkdir(parents=True, exist_ok=True)
     TokenFilter(out / "lemma.txt", corpus).filter(lambda w: w.lemma == "")
-    Histogram(out / "lemma_hist.txt").write(
-        w.token for w in corpus.words if w.lemma == ""
-    )
     TokenFilter(out / "pos.txt", corpus).filter(lambda w: w.pos == "")
-    Histogram(out / "pos_hist.txt").write(w.token for w in corpus.words if w.pos == "")
 
 
-def grouped_annotations(corpus: TsvCorpus, out: Path):
-    out = out / "grouped_annotations"
+def grouped_annotations(corp: TsvCorpus, out: Path):
+    out = out / "analyses"
     out.mkdir(parents=True, exist_ok=True)
-    # per token
     TokenGrouper(
-        out / "lemma_per_token.txt",
-        corpus,
+        out / "lem_by_tok.txt",
+        corp,
         lambda w: w.token.lower(),
         lambda w: f"‘{w.lemma}’",
     )
     TokenGrouper(
-        out / "pos_per_token.txt",
-        corpus,
-        lambda w: w.token.lower(),
-        lambda w: w.pos,
+        out / "pos_by_tok.txt", corp, lambda w: w.token.lower(), lambda w: w.pos
     )
-    # per lemma
     TokenGrouper(
-        out / "token_per_lemma.txt",
-        corpus,
+        out / "lempos_by_tok.txt",
+        corp,
+        lambda w: w.token.lower(),
+        lambda w: f"‘{w.lemma}’ {w.pos}",
+    )
+    TokenGrouper(
+        out / "tok_by_lem.txt",
+        corp,
         lambda w: f"‘{w.lemma}’",
         lambda w: w.token.lower(),
     )
     TokenGrouper(
-        out / "pos_per_lemma.txt",
-        corpus,
-        lambda w: f"‘{w.lemma}’",
-        lambda w: w.pos,
-    )
-    # per pos
-    TokenGrouper(
-        out / "token_per_pos.txt",
-        corpus,
-        lambda w: w.pos,
-        lambda w: w.token.lower(),
+        out / "pos_by_lem.txt", corp, lambda w: f"‘{w.lemma}’", lambda w: w.pos
     )
     TokenGrouper(
-        out / "lemma_per_pos.txt",
-        corpus,
-        lambda w: w.pos,
-        lambda w: f"‘{w.lemma}’",
-    )
-    # double per group
-    TokenGrouper(
-        out / "_tokenpos_per_lemma.txt",
-        corpus,
+        out / "tokpos_by_lem.txt",
+        corp,
         lambda w: f"‘{w.lemma}’",
         lambda w: f"{w.token.lower()} {w.pos}",
     )
     TokenGrouper(
-        out / "_tokenlemma_per_pos.txt",
-        corpus,
+        out / "tok_by_pos.txt", corp, lambda w: w.pos, lambda w: w.token.lower()
+    )
+    TokenGrouper(
+        out / "lem_by_pos.txt", corp, lambda w: w.pos, lambda w: f"‘{w.lemma}’"
+    )
+    TokenGrouper(
+        out / "toklem_by_pos.txt",
+        corp,
         lambda w: w.pos,
         lambda w: f"{w.token.lower()} ‘{w.lemma}’",
     )
     TokenGrouper(
-        out / "_lemmapos_per_token.txt",
-        corpus,
-        lambda w: w.token.lower(),
-        lambda w: f"‘{w.lemma}’ {w.pos}",
-    )
-    # per double group
-    TokenGrouper(
-        out / "token_per_lemmapos.txt",
-        corpus,
+        out / "tok_by_lempos.txt",
+        corp,
         lambda w: f"‘{w.lemma}’ {w.pos}",
         lambda w: w.token.lower(),
     )
     TokenGrouper(
-        out / "pos_per_tokenlemma.txt",
-        corpus,
+        out / "pos_by_toklem.txt",
+        corp,
         lambda w: f"{w.token.lower()} ‘{w.lemma}’",
         lambda w: w.pos,
     )
     TokenGrouper(
-        out / "lemma_per_tokenpos.txt",
-        corpus,
+        out / "lem_by_tokpos.txt",
+        corp,
         lambda w: f"{w.token.lower()} {w.pos}",
         lambda w: f"‘{w.lemma}’",
     )
