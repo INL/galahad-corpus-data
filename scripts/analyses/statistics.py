@@ -167,6 +167,8 @@ def empty_words(corpus: TsvCorpus, out: Path):
     out.mkdir(parents=True, exist_ok=True)
     TokenFilter(out / "lemma.txt", corpus).filter(lambda w: w.lemma == "")
     TokenFilter(out / "pos.txt", corpus).filter(lambda w: w.pos == "")
+    TokenFilter(out / "pos_report.txt", corpus).report(lambda w: w.pos == "")
+    TokenFilter(out / "lemma_report.txt", corpus).report(lambda w: w.lemma == "")
 
 
 def grouped_annotations(corp: TsvCorpus, out: Path):
