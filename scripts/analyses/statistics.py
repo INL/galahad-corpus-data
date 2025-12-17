@@ -78,19 +78,19 @@ def suspicious_analyses(corpus: TsvCorpus, out: Path):
         corpus,
         lambda w: f"{w.token.lower()} {w.pos}",
         lambda w: f"‘{w.lemma}’",
-    ).report(out / "sus_lem_report_by_tokpos.txt", corpus)
+    ).report(out / "sus_lem_by_tokpos_report.txt", corpus)
     SuspiciousTokenGrouper(
         out / "sus_pos_by_toklem.txt",
         corpus,
         lambda w: f"{w.token.lower()} ‘{w.lemma}’",
         lambda w: w.pos,
-    ).report(out / "sus_pos_report_by_toklem.txt", corpus)
+    ).report(out / "sus_pos_by_toklem_report.txt", corpus)
     SuspiciousTokenGrouper(
         out / "sus_tok_by_lempos.txt",
         corpus,
         lambda w: f"‘{w.lemma}’ {w.pos}",
         lambda w: w.token.lower(),
-    ).report(out / "sus_tok_report_by_lempos.txt", corpus)
+    )  # Note: no report as it is huge
 
 
 def roman_numerals(corpus: TsvCorpus, out: Path):
