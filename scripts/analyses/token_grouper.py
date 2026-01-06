@@ -72,11 +72,10 @@ class TokenGrouper:
         )
         for w in corpus.words:
             key = key_mapper(w)
+            value = value_mapper(w)
             if w.group:
-                value = " ".join([value_mapper(m) for m in w.mwe])
                 map[key]["[MWE]"][value] += 1
             else:
-                value = value_mapper(w)
                 map[key]["[NON-MWE]"][value] += 1
 
         return sorted(

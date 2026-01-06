@@ -277,7 +277,7 @@ class TsvCorpus:
     @staticmethod
     def load(dir: Path) -> "TsvCorpus":
         return TsvCorpus(
-            dir.name, [TsvDir.load(f) for f in dir.iterdir() if f.is_dir()]
+            dir.name, [TsvDir.load(f) for f in sorted(dir.iterdir()) if f.is_dir()]
         )
 
     def __str__(self) -> str:
