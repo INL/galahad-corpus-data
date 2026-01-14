@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from pathlib import Path
 import re
-import xml.etree.ElementTree as ET
 import sys
+import xml.etree.ElementTree as ET
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from pathlib import Path
 
 sys.path.append(str(Path(__file__).parent.parent))
 from config.config import PUNCTUATION
@@ -62,6 +62,9 @@ def normalize_root_xml_id(root: ET.Element):
 
         if xmlid is None:
             raise ValueError("No xml:id found for root element")
+        # if xml id start with a number, prefix with 'pid_'
+        if re.match(r"^\d", xmlid):
+            xmlid = f"pid_{xmlid}"
         root.set(f"{ns['xml']}id", xmlid)
 
 
