@@ -1,19 +1,19 @@
 #! /usr/bin/env python3
 
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
 from pathlib import Path
 
 from lxml import etree
 
 
-def validate(f: Path, dtd, verbose: bool):
+def validate(f: Path, validator, verbose: bool):
     """Print if file is invalid. Print specific validations errors when vebose"""
 
     # try to parse the input xml
     # if it fails, no need to check DTD: it's invalid
     try:
         tree = etree.parse(f)
-        valid = dtd.validate(tree)
+        valid = validator.validate(tree)
     except Exception as e:
         print(f"{f.name} is unparsable")
         if verbose:
@@ -23,7 +23,7 @@ def validate(f: Path, dtd, verbose: bool):
     if not valid:
         if verbose:
             # get unique error messages in set
-            messages = set(e.message for e in dtd.error_log)
+            messages = set(e.message for e in validator.error_log)
             print(f"{f.name} contains {len(messages)} error(s):")
             for msg in sorted(messages):
                 print(f"\t{msg}")
@@ -44,15 +44,15 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # load the DTD once for all files
-    dtd = etree.DTD(args.dtd)
+    validator = etree.RelaxNG(file=args.dtd)
 
     if args.input.is_file():
-        validate(args.input, dtd, args.v)
+        validate(args.input, validator, args.v)
     else:
         # count valid files
         n_valid = 0
         # get all files in dir, and/or subdirs if recursive
         files = list(args.input.rglob("*.xml") if args.r else args.input.glob("*.xml"))
         for f in files:
-            n_valid += validate(f, dtd, args.v)
+            n_valid += validate(f, validator, args.v)
         print(f"Total: {n_valid}/{len(files)} valid")
