@@ -1,6 +1,7 @@
 from collections import defaultdict
 from dataclasses import dataclass, field
 from enum import StrEnum
+from os import name
 from pathlib import Path
 from typing import Iterator
 
@@ -124,12 +125,16 @@ class TsvDocument:
 
 @dataclass
 class TsvFile:
-    name: str
+    filename: str
     docs: list[TsvDocument]
 
     @property
+    def name(self) -> str:
+        return self.filename.split(".")[0]
+
+    @property
     def split(self) -> Split:
-        return Split(self.name.split(".")[1])
+        return Split(self.filename.split(".")[1])
 
     @property
     def pars(self) -> Iterator[TsvParagraph]:
@@ -157,7 +162,7 @@ class TsvFile:
         return TsvFile(f.name, [TsvDocument.load(d) for d in docs if d.strip()])
 
     def __str__(self) -> str:
-        return f"    {self.name} ({len(self.docs)} docs)\n{'\n'.join([str(d) for d in self.docs])}"
+        return f"    {self.filename} ({len(self.docs)} docs)\n{'\n'.join([str(d) for d in self.docs])}"
 
     def __repr__(self) -> str:
         return self.__str__()
@@ -172,6 +177,7 @@ class TsvDir:
     train: TsvFile
     test: TsvFile
     dev: TsvFile
+    split: str = "total"
 
     @property
     def splits(self) -> list[TsvFile]:
@@ -219,9 +225,53 @@ class TsvDir:
 
 
 @dataclass
-class TsvCorpus:
+class TsvSplit:
     name: str
+    files: list[TsvFile]
+
+    @property
+    def docs(self) -> Iterator[TsvDocument]:
+        for f in self.files:
+            for d in f.docs:
+                yield d
+
+    @property
+    def words(self) -> Iterator[TsvWord]:
+        for f in self.files:
+            for w in f.words:
+                yield w
+
+    def __iter__(self):
+        return iter(self.files)
+
+
+@dataclass
+class TsvSplits:
+    train: TsvSplit
+    dev: TsvSplit
+    test: TsvSplit
+    name: str = "total"
+
+    @property
+    def docs(self) -> Iterator[TsvDocument]:
+        for s in self:
+            for d in s.docs:
+                yield d
+
+    @property
+    def words(self) -> Iterator[TsvWord]:
+        for s in self:
+            for w in s.words:
+                yield w
+
+    def __iter__(self):
+        return iter([self.train, self.dev, self.test])
+
+
+@dataclass
+class TsvCorpus:
     dirs: list[TsvDir]
+    name: str = "total"
 
     @property
     def docs(self) -> Iterator[TsvDocument]:
@@ -242,43 +292,24 @@ class TsvCorpus:
                 yield s
 
     @property
-    def train(self) -> Iterator[TsvFile]:
-        for d in self.dirs:
-            yield d.train
+    def train(self) -> TsvSplit:
+        return TsvSplit("train", [d.train for d in self.dirs])
 
     @property
-    def dev(self) -> Iterator[TsvFile]:
-        for d in self.dirs:
-            yield d.dev
+    def dev(self) -> TsvSplit:
+        return TsvSplit("dev", [d.dev for d in self.dirs])
 
     @property
-    def test(self) -> Iterator[TsvFile]:
-        for d in self.dirs:
-            yield d.test
+    def test(self) -> TsvSplit:
+        return TsvSplit("test", [d.test for d in self.dirs])
 
     @property
-    def train_words(self) -> Iterator[TsvWord]:
-        for f in self.train:
-            for w in f.words:
-                yield w
-
-    @property
-    def dev_words(self) -> Iterator[TsvWord]:
-        for f in self.dev:
-            for w in f.words:
-                yield w
-
-    @property
-    def test_words(self) -> Iterator[TsvWord]:
-        for f in self.test:
-            for w in f.words:
-                yield w
+    def splits(self) -> TsvSplits:
+        return TsvSplits(self.train, self.dev, self.test)
 
     @staticmethod
     def load(dir: Path) -> "TsvCorpus":
-        return TsvCorpus(
-            dir.name, [TsvDir.load(f) for f in sorted(dir.iterdir()) if f.is_dir()]
-        )
+        return TsvCorpus([TsvDir.load(f) for f in sorted(dir.iterdir()) if f.is_dir()])
 
     def __str__(self) -> str:
         return f"{self.name}\n{'\n'.join([str(d) for d in self.dirs])}"

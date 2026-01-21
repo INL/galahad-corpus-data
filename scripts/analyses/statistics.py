@@ -40,6 +40,7 @@ import re
 import sys
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
 from pathlib import Path
+from typing import Optional
 
 from data import TsvCorpus, TsvWord
 from histogram import Histogram
@@ -52,10 +53,10 @@ sys.path.append(str(Path(__file__).parent.parent))
 from config.config import PUNCTUATION
 
 
-def generate_stats(corpus: TsvCorpus, out: Path):
+def generate_stats(corpus: TsvCorpus, out: Path, metadata: Optional[Path] = None):
     generate_suspicious(corpus, out)
     grouped_annotations(corpus, out)
-    CorpusSize(out / "size.txt", corpus)
+    CorpusSize(out / "size.txt", corpus, metadata)
     histograms(corpus, out)
 
 
@@ -243,8 +244,13 @@ if __name__ == "__main__":
     )
     parser.add_argument("input", type=Path, help="TSV dir")
     parser.add_argument("output", type=Path, help="Stats dir")
+    parser.add_argument(
+        "--metadata",
+        type=Path,
+        help="Metadata file (optional)",
+    )
     args = parser.parse_args()
 
     corpus = TsvCorpus.load(args.input)
     args.output.mkdir(parents=True, exist_ok=True)
-    generate_stats(corpus, args.output)
+    generate_stats(corpus, args.output, args.metadata)
