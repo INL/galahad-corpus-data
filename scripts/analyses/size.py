@@ -9,6 +9,7 @@ from data import TsvCorpus, TsvSplit, TsvSplits
 class CorpusSize:
     def __init__(self, out: Path, corpus: TsvCorpus, metadata: Optional[Path] = None):
         with out.open("w") as f:
+            f.write(f"{'name':<25}{'tokens':>10}{'tokens%':>10}{'docs':>10}\n")
             self.subcorpus_size(f, corpus.splits)
             if metadata:
                 self.century_size(f, corpus, metadata)
@@ -19,6 +20,9 @@ class CorpusSize:
             # subcorpora sorted by token count
             for sub in sorted(corpus.dirs, key=lambda d: -len(list(d.words))):
                 self.subcorpus_size(f, sub, name=lambda d: d.split)
+
+    def write(self, f: TextIO, name: str, words: int, total: int, docs: int):
+        f.write(f"{name:<25}{words:>10,}{words / total:>10.2%}{docs:>10}\n")
 
     def subcorpus_size(
         self,
@@ -32,7 +36,7 @@ class CorpusSize:
         for sub in sorted(corpus, key=lambda t: -len(list(t.words))):
             w = len(list(sub.words))
             d = len(list(sub.docs))
-            f.write(f"{name(sub):<25}{w:>10,}{w / total:>10.2%}{d:>10}\n")
+            self.write(f, name(sub), w, total, d)
         f.write("\n")
 
     def total_header(self, f: TextIO, corpus: TsvCorpus):
@@ -67,16 +71,16 @@ class CorpusSize:
                     w += len(list(dir.words))
                     d += len(list(dir.docs))
             century_totals[century] = (w, d)
-            f.write(f"{century:<25}{w:>10,}{w / total:>10.2%}{d:>10}\n")
+            self.write(f, century, w, total, d)
         f.write("\n")
 
         # same once more, but the century itself is the total, and it is broken down into subcorpora (dirs)
         for century, dirs in sorted(datasets_per_century.items()):
             total, d = century_totals[century]
-            f.write(f"{century:<25}{total:>10,}{1:>10.2%}{d:>10}\n")
+            self.write(f, century, total, total, d)
             for sub in sorted(corpus.dirs, key=lambda d: -len(list(d.words))):
                 if sub.name in dirs:
                     w = len(list(sub.words))
                     d = len(list(sub.docs))
-                    f.write(f"{sub.name:<25}{w:>10,}{w / total:>10.2%}{d:>10}\n")
+                    self.write(f, sub.name, w, total, d)
             f.write("\n")
