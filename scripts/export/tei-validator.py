@@ -24,6 +24,12 @@ def validate(f: Path, validator, verbose: bool):
         if verbose:
             # get unique error messages in set
             messages = set(e.message for e in validator.error_log)
+            # get the lowest line number for each message
+            messages = set(
+                f"Line {min(e.line for e in validator.error_log if e.message == msg)}: {msg}"
+                for msg in messages
+            )
+
             print(f"{f.name} contains {len(messages)} error(s):")
             for msg in sorted(messages):
                 print(f"\t{msg}")
@@ -45,6 +51,7 @@ if __name__ == "__main__":
 
     # load the DTD once for all files
     validator = etree.RelaxNG(file=args.dtd)
+    print("Loaded DTD")
 
     if args.input.is_file():
         validate(args.input, validator, args.v)
