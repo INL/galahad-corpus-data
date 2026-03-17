@@ -4,18 +4,20 @@
 Given a directory with tsv files, we check for duplicate files based on their text content.
 """
 
-from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
-import re
-from pathlib import Path
-import edlib
-from concurrent.futures import ThreadPoolExecutor
-from collections import defaultdict
 import json
+import operator
+import re
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
+
+import edlib
 
 
 def file_to_text(path: Path) -> str:
-    with open(path, "r", encoding="utf-8") as f:
-        tokens = [line.split("\t")[0] for line in f.readlines()]
+    with Path(path).open(encoding="utf-8") as f:
+        tokens = [line.split("\t")[0] for line in f]
         text = "".join(tokens)
         # remove everything that isn't [a-zA-Z]
         text = re.sub(r"[^a-zA-Z]", "", text.lower())
@@ -30,11 +32,14 @@ def get_data(dir: Path) -> dict[str, str]:
 
 
 def get_duplicates(
-    texts: dict[str, str], window: int, distance: int, threads: int
+    texts: dict[str, str],
+    window: int,
+    distance: int,
+    threads: int,
 ) -> dict[str, dict[str, list[str]]]:
     def process_file(f: str) -> dict[str, dict[str, list[str]]]:
         local_dups: dict[str, dict[str, list[str]]] = defaultdict(
-            lambda: defaultdict(list)
+            lambda: defaultdict(list),
         )
         txt = texts[f]
         for i in range(0, len(txt) - window, window):
@@ -42,23 +47,30 @@ def get_duplicates(
 
             for other_f, other_txt in texts.items():
                 if f != other_f:
-                    dist = edlib.align(
-                        substr, other_txt, mode="HW", task="distance", k=distance
-                    )["editDistance"]
-                    if dist != -1:
-                        local_dups[f][other_f].append(substr)
+                    if distance == 0:  # exact match
+                        if substr in other_txt:
+                            local_dups[f][other_f].append(substr)
+                    else:  # edlib
+                        dist = edlib.align(
+                            substr,
+                            other_txt,
+                            mode="HW",
+                            task="distance",
+                            k=distance,
+                        )["editDistance"]
+                        if dist != -1:
+                            local_dups[f][other_f].append(substr)
         return local_dups
 
     if threads > 1:
         with ThreadPoolExecutor(max_workers=threads) as executor:
             results = executor.map(process_file, texts.keys())
         return {f: d for r in results for f, d in r.items()}
-    else:
-        dups: dict[str, dict[str, list[str]]] = {}
-        for f in texts.keys():
-            local_dups = process_file(f)
-            dups.update(local_dups)
-        return dups
+    dups: dict[str, dict[str, list[str]]] = {}
+    for f in texts:
+        local_dups = process_file(f)
+        dups.update(local_dups)
+    return dups
 
 
 def sort_and_filter(
@@ -84,7 +96,7 @@ def sort_and_filter(
                 (len(v) / (len(texts[x[0]]) // window)) * 100 for v in x[1].values()
             ),
             reverse=True,
-        )
+        ),
     )
 
 
@@ -106,12 +118,17 @@ def report_json(duplicates: dict[str, dict[str, list[str]]]):
         if not found:
             unique.append(set(files))
     # json needs lists
-    output = [list(s) for s in unique]
+    output = [sorted(s) for s in unique]
+    # sort the individual lists and the output list itself
+    output.sort(key=operator.itemgetter(0))
+
     print(json.dumps(output, indent=4))
 
 
 def report(
-    duplicates: dict[str, dict[str, list[str]]], texts: dict[str, str], window: int
+    duplicates: dict[str, dict[str, list[str]]],
+    texts: dict[str, str],
+    window: int,
 ):
     for f, dups in duplicates.items():
         num_windows = len(texts[f]) // window
@@ -173,7 +190,7 @@ if __name__ == "__main__":
         "-t",
         type=int,
         default=10,
-        help="Minimum number of matching chunks to consider as duplicate.",
+        help="Threshold percentage of matching chunks to consider as duplicate.",
     )
     parser.add_argument(
         "--verbose",
