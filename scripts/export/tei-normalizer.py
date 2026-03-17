@@ -71,7 +71,7 @@ def normalize_root_xml_id(root: ET.Element):
 
     # now, retrieve the xml id once more, either just added or already present
     xmlid = root.get(f"{ns['xml']}id")
-    # if xml id matches UUID regex
+    # if xml id matches UUID regex or start with a number
     if re.match(
         r"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$",
         xmlid,
@@ -167,7 +167,6 @@ def put_unanalyzed_words_in_note(root: ET.Element):
     """
     Put redactional commentary (i.e. <w> with empty @lemma often surrounded by two <pc>'s) into <note> elements.
     """
-
     parent_map = {c: p for p in root.iter() for c in p}
 
     # Get all <w> with empty @lemma and <pc> (not already inside <note>)
@@ -182,7 +181,8 @@ def put_unanalyzed_words_in_note(root: ET.Element):
         if parent_map[el].tag != f"{ns['tei']}note"
     ]
     elements = sorted(
-        w_elements + pc_elements, key=lambda x: list(parent_map[x]).index(x)
+        w_elements + pc_elements,
+        key=lambda x: list(parent_map[x]).index(x),
     )
 
     # keep track of processed elements
@@ -284,6 +284,23 @@ def fixup_cit(root: ET.Element):
         if "timeSpan" in date.attrib:
             date.set("extent", date.get("timeSpan"))
             del date.attrib["timeSpan"]
+
+        # create a title based on lemma and entry-id
+        lemma = cit.get("lemma", "")
+        sense_id = cit.get("sense-id", "")
+        dictionary = "MNW" if sense_id.lower().startswith("mnw") else "WNT"
+        title = f"{lemma} - {dictionary} ({sense_id})"
+
+        teiHeader = root.find(".//tei:teiHeader", et_ns)
+        if teiHeader is not None:
+            fileDesc = teiHeader.find("tei:fileDesc", et_ns)
+            if fileDesc is not None:
+                titleStmt = fileDesc.find("tei:titleStmt", et_ns)
+                if titleStmt is not None:
+                    titleElem = titleStmt.find("tei:title", et_ns)
+                    if titleElem is not None:
+                        titleElem.text = title
+
         # next, add a interpGrp and interp for each attribute of cit
         for attr in ["lemma", "pos", "sense-id", "modern-lemma", "entry-id"]:
             if attr in cit.attrib:
@@ -313,6 +330,13 @@ def move_licence_to_p(root: ET.Element):
     if publicationStmt is not None:
         availability = publicationStmt.find("tei:availability", et_ns)
         if availability is not None:
+            # the usage of <availability> is only legal if a member of agency exists
+            # these are: authority distributor publisher
+            for agency_tag in ["authority", "distributor", "publisher"]:
+                agency_elem = publicationStmt.find(f"tei:{agency_tag}", et_ns)
+                if agency_elem is not None:
+                    return
+
             licence = availability.find("tei:licence", et_ns)
             if licence is not None:
                 # create a <p> element and move the text of <licence> into it
@@ -640,6 +664,28 @@ def remove_empty_type_in_w_and_pc(root: ET.Element):
             del el.attrib["type"]
 
 
+def fixup_titles(root: ET.Element):
+    # Some titles consist of just a number or whitespace\
+    # in the former case, simply use the XML id (DBNL excerpts)
+    # in the latter case (CLVN) lookup the title in the sourceDesc
+    title = root.find(".//tei:title", et_ns)
+    if title is not None:
+        title_text = title.text.strip()
+        xml_id = root.get(f"{ns['xml']}id", "")
+        # If title is only digits or whitespace, use xml:id
+        if title_text.isdigit():
+            title.text = xml_id
+        # If title is only whitespace, try to find a better title in sourceDesc
+        elif not title_text:
+            inl_metadata = root.find(".//tei:bibl[@type='textBron']", et_ns)
+            title_interpGrp = inl_metadata.find(
+                ".//tei:interpGrp[@type='title']",
+                et_ns,
+            )
+            title_interp = title_interpGrp.find("./tei:interp", et_ns)
+            title.text = title_interp.text
+
+
 def check_or_update(file: Path):
     tree = ET.parse(file)
     root = tree.getroot()
@@ -662,7 +708,6 @@ def check_or_update(file: Path):
     remove_word_illegal_attributes(root)
     fixup_cit(root)
     move_licence_to_p(root)
-    remove_couranten_sourceDesc_text(root)
     remove_empty_i_and_b(root)
     remove_w_from_interpGrp(root)
     move_text_in_pb_to_n(root)
@@ -685,6 +730,8 @@ def check_or_update(file: Path):
     move_biblScope_xref_attrs(root)
     fixup_change_resp(root)
     remove_empty_type_in_w_and_pc(root)
+    fixup_titles(root)
+    remove_couranten_sourceDesc_text(root)
 
     put_unanalyzed_words_in_note(root)
     put_last_enz_in_note(root)
@@ -720,6 +767,15 @@ if __name__ == "__main__":
 
     if args.input.is_dir():
         files = list(args.input.rglob("*.xml") if args.r else args.input.glob("*.xml"))
+
+        # if tqdm is available, use it
+        try:
+            from tqdm import tqdm
+
+            files = tqdm(files)
+        except ImportError:
+            pass
+
         for f in files:
             try:
                 check_or_update(f)
