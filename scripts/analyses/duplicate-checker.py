@@ -78,13 +78,16 @@ def sort_and_filter(
     texts: dict[str, str],
     window: int,
     threshold: int,
+    chunks: int,
 ) -> dict[str, dict[str, list[str]]]:
     filtered_duplicates: dict[str, dict[str, list[str]]] = {}
     for f, dups in duplicates.items():
         num_windows = len(texts[f]) // window
         # filter dups by threshold (%) and sort by count
         dups = {
-            k: v for k, v in dups.items() if (len(v) / num_windows) * 100 >= threshold
+            k: v
+            for k, v in dups.items()
+            if (len(v) / num_windows) * 100 >= threshold and len(v) >= chunks
         }
         dups = dict(sorted(dups.items(), key=lambda x: len(x[1]), reverse=True))
         if dups:
@@ -193,6 +196,13 @@ if __name__ == "__main__":
         help="Threshold percentage of matching chunks to consider as duplicate.",
     )
     parser.add_argument(
+        "--chunks",
+        "-c",
+        type=int,
+        default=2,
+        help="Number of window chunks to match at a minimum to consider as duplicate.",
+    )
+    parser.add_argument(
         "--verbose",
         "-v",
         action="store_true",
@@ -237,7 +247,13 @@ if __name__ == "__main__":
 
     texts: dict[str, str] = get_data(args.dir)
     duplicates = get_duplicates(texts, args.window, args.distance, args.multithreads)
-    filtered = sort_and_filter(duplicates, texts, args.window, args.threshold)
+    filtered = sort_and_filter(
+        duplicates,
+        texts,
+        args.window,
+        args.threshold,
+        args.chunks,
+    )
     if args.json:
         report_json(filtered)
     else:
