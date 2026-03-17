@@ -1,32 +1,20 @@
 #!/usr/bin/env python3
 
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from io import BytesIO
 import json
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from io import BytesIO
 from pathlib import Path
-from urllib.request import urlopen, Request
-from uuid import uuid4
-from zipfile import ZipFile, Path as ZipPath
+from urllib.request import Request, urlopen
+from zipfile import Path as ZipPath
+from zipfile import ZipFile
 
 from timer import Timer
-
-
-class MultiPartFile:
-    def __init__(self, file: bytes):
-        self.boundary = uuid4().hex
-        self.file = file
-
-    def __bytes__(self):
-        header = f"""--{self.boundary}\r\n
-        Content-Disposition: form-data; name="file"; filename=corpus.zip\r\n
-        Content-Type: application/octet-stream\r\n\r\n"""
-        footer = f"\r\n--{self.boundary}--\r\n"
-        return header.encode() + self.file + footer.encode()
+from ziputil import MultiPartFile, zipdir
 
 
 def create(name: str, api: str) -> str:
     data = json.dumps(
-        {"name": name, "owner": "user", "collaborators": [], "viewers": []}
+        {"name": name, "owner": "user", "collaborators": [], "viewers": []},
     ).encode("utf-8")
     headers = {"Content-Type": "application/json"}
     req = Request(f"{api}/corpora", data=data, headers=headers)
@@ -39,18 +27,8 @@ def delete(api: str, uuid: str):
     urlopen(req)
 
 
-def zipdir(dir: Path) -> BytesIO:
-    buf = BytesIO()
-    with ZipFile(buf, "w") as z:
-        for f in dir.iterdir():
-            if f.is_file():
-                z.write(f, arcname=f.name)
-    buf.seek(0)  # reset buffer pointer
-    return buf
-
-
 def upload(api: str, uuid: str, zip: BytesIO):
-    mp = MultiPartFile(zip.read())
+    mp = MultiPartFile(zip.read(), name="file")
     req = Request(f"{api}/corpora/{uuid}/documents", data=bytes(mp), method="POST")
     req.add_header("Content-Type", f"multipart/form-data; boundary={mp.boundary}")
     urlopen(req)
