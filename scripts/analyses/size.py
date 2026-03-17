@@ -1,13 +1,14 @@
 import json
 from collections import defaultdict
+from collections.abc import Callable
 from pathlib import Path
-from typing import Callable, Optional, TextIO, Tuple
+from typing import TextIO
 
 from data import TsvCorpus, TsvSplit, TsvSplits
 
 
 class CorpusSize:
-    def __init__(self, out: Path, corpus: TsvCorpus, metadata: Optional[Path] = None):
+    def __init__(self, out: Path, corpus: TsvCorpus, metadata: Path | None = None):
         with out.open("w") as f:
             f.write(f"{'name':<25}{'tokens':>10}{'tokens%':>10}{'docs':>10}\n")
             self.subcorpus_size(f, corpus.splits)
@@ -62,7 +63,7 @@ class CorpusSize:
         datasets_per_century = self.get_datasets_per_century(metadata)
 
         total = len(list(corpus.words))
-        century_totals: dict[str, Tuple[int, int]] = {}
+        century_totals: dict[str, tuple[int, int]] = {}
         for century, dirs in sorted(datasets_per_century.items()):
             w = 0
             d = 0

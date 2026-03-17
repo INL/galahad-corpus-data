@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from pathlib import Path
 import os
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from pathlib import Path
 
 if __name__ == "__main__":
     parser = ArgumentParser(
@@ -15,9 +15,9 @@ if __name__ == "__main__":
     files = list(args.dir.rglob("*.tsv") if args.r else args.dir.glob("*.tsv"))
     for file in files:
         os.system(
-            f"awk -F'\\t' -v OFS='\\t' '{{print $2, $4, $3, $NF}}' {file} | tail -n +2 > {file}.fixed"
+            f"awk -F'\\t' -v OFS='\\t' '{{print $2, $4, $3, $NF}}' {file} | tail -n +2 > {file}.fixed",
         )
-        os.replace(f"{file}.fixed", file)
+        Path(f"{file}.fixed").replace(file)
         # dos2unix conversion
         os.system(f"dos2unix {file}")
         # awk will create "empty" rows (with only tabs): replace them with empty lines (dont delete!)

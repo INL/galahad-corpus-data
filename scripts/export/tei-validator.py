@@ -8,7 +8,6 @@ from lxml import etree
 
 def validate(f: Path, validator, verbose: bool):
     """Print if file is invalid. Print specific validations errors when vebose"""
-
     # try to parse the input xml
     # if it fails, no need to check DTD: it's invalid
     try:

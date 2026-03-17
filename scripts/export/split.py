@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from pathlib import Path
 import json
 import random
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from pathlib import Path
 
 split_types = ["train", "dev", "test"]
 split_probs = [0.8, 0.1, 0.1]
@@ -87,10 +87,15 @@ if __name__ == "__main__":
         formatter_class=ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument(
-        "input", type=Path, help="Directory containing project subdirectories"
+        "input",
+        type=Path,
+        help="Directory containing project subdirectories",
     )
     parser.add_argument(
-        "--name", type=str, help="Specific dataset to process", default=None
+        "--name",
+        type=str,
+        help="Specific dataset to process",
+        default=None,
     )
     parser.add_argument("outdir", type=Path, help="Output directory for split files")
     args = parser.parse_args()

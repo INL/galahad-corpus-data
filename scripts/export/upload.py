@@ -59,7 +59,10 @@ def check_exists_corpus(base_url: str, corpus: str):
 
 
 def handle_single_corpus(
-    base_url: str, input: Path, force: bool, recursive: bool = False
+    base_url: str,
+    input: Path,
+    force: bool,
+    recursive: bool = False,
 ):
     corpus = f"lancelot:{input.name}"
     if force:

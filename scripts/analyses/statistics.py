@@ -2,6 +2,7 @@
 
 """
 Analyse the input corpus, generate statistics, and note any suspicious patterns.
+
 The following files are generated:
 statistics/
     suspicious/
@@ -33,14 +34,12 @@ statistics/
     analyses/
         * # various grouped analyses, e.g., tok_to_lem.txt maps tokens to their lemmas
     size.txt # token size over various categories
-
 """
 
 import re
 import sys
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
 from pathlib import Path
-from typing import Optional
 
 from data import TsvCorpus, TsvWord
 from histogram import Histogram
@@ -53,7 +52,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 from config.config import PUNCTUATION
 
 
-def generate_stats(corpus: TsvCorpus, out: Path, metadata: Optional[Path] = None):
+def generate_stats(corpus: TsvCorpus, out: Path, metadata: Path | None = None):
     generate_suspicious(corpus, out)
     grouped_annotations(corpus, out)
     CorpusSize(out / "size.txt", corpus, metadata)
@@ -99,15 +98,16 @@ def roman_numerals(corpus: TsvCorpus, out: Path):
         if w.group:
             concat = ".".join(m.token for m in w.mwe)
             return roman_to_int(concat)
-        else:
-            return roman_to_int(w.token)
+        return roman_to_int(w.token)
 
     out = out / "roman_numerals"
     out.mkdir(parents=True, exist_ok=True)
     TokenFilter(out / "wrong_roman_numerals.txt", corpus).filter(
-        lambda w: "representation=rom" in w.pos
-        and str(convert_w(w)) != w.lemma
-        and re.match(r"[0-9]", w.lemma) is not None,
+        lambda w: (
+            "representation=rom" in w.pos
+            and str(convert_w(w)) != w.lemma
+            and re.match(r"[0-9]", w.lemma) is not None
+        ),
         comment=lambda w: f"converted='{convert_w(w)}'",
     )
 
@@ -116,10 +116,10 @@ def mwe(corpus: TsvCorpus, out: Path):
     out = out / "mwe"
     out.mkdir(parents=True, exist_ok=True)
     TokenFilter(out / "mwe_dif_lemma.txt", corpus).filter(
-        lambda w: any(m.lemma != w.lemma for m in w.mwe)
+        lambda w: any(m.lemma != w.lemma for m in w.mwe),
     )
     TokenFilter(out / "mwe_dif_pos.txt", corpus).filter(
-        lambda w: any(m.pos != w.pos for m in w.mwe)
+        lambda w: any(m.pos != w.pos for m in w.mwe),
     )
     TokenFilter(out / "lonely_mwe.txt", corpus).filter(lambda w: len(w.mwe) == 1)
 
@@ -128,7 +128,7 @@ def nou_p(corpus: TsvCorpus, out: Path):
     out = out / "nou_p"
     out.mkdir(parents=True, exist_ok=True)
     TokenFilter(out / "nou-p_lemma_no_capital.txt", corpus).filter(
-        lambda w: w.pos == "NOU-P" and not any(c.isupper() for c in w.lemma)
+        lambda w: w.pos == "NOU-P" and not any(c.isupper() for c in w.lemma),
     )
 
 
@@ -156,10 +156,10 @@ def punctuation(corpus: TsvCorpus, out: Path):
     out = out / "pc"
     out.mkdir(parents=True, exist_ok=True)
     TokenFilter(out / "words_tagged_pc.txt", corpus).filter(
-        lambda w: w.pos == "PC" and re.fullmatch(PUNCTUATION, w.token) is None
+        lambda w: w.pos == "PC" and re.fullmatch(PUNCTUATION, w.token) is None,
     )
     TokenFilter(out / "pc_not_tagged_pc.txt", corpus).filter(
-        lambda w: re.fullmatch(PUNCTUATION, w.token) is not None and w.pos != "PC"
+        lambda w: re.fullmatch(PUNCTUATION, w.token) is not None and w.pos != "PC",
     )
 
 
@@ -182,7 +182,10 @@ def grouped_annotations(corp: TsvCorpus, out: Path):
         lambda w: f"‘{w.lemma}’",
     )
     TokenGrouper(
-        out / "pos_by_tok.txt", corp, lambda w: w.token.lower(), lambda w: w.pos
+        out / "pos_by_tok.txt",
+        corp,
+        lambda w: w.token.lower(),
+        lambda w: w.pos,
     )
     TokenGrouper(
         out / "lempos_by_tok.txt",
@@ -197,7 +200,10 @@ def grouped_annotations(corp: TsvCorpus, out: Path):
         lambda w: w.token.lower(),
     )
     TokenGrouper(
-        out / "pos_by_lem.txt", corp, lambda w: f"‘{w.lemma}’", lambda w: w.pos
+        out / "pos_by_lem.txt",
+        corp,
+        lambda w: f"‘{w.lemma}’",
+        lambda w: w.pos,
     )
     TokenGrouper(
         out / "tokpos_by_lem.txt",
@@ -206,10 +212,16 @@ def grouped_annotations(corp: TsvCorpus, out: Path):
         lambda w: f"{w.token.lower()} {w.pos}",
     )
     TokenGrouper(
-        out / "tok_by_pos.txt", corp, lambda w: w.pos, lambda w: w.token.lower()
+        out / "tok_by_pos.txt",
+        corp,
+        lambda w: w.pos,
+        lambda w: w.token.lower(),
     )
     TokenGrouper(
-        out / "lem_by_pos.txt", corp, lambda w: w.pos, lambda w: f"‘{w.lemma}’"
+        out / "lem_by_pos.txt",
+        corp,
+        lambda w: w.pos,
+        lambda w: f"‘{w.lemma}’",
     )
     TokenGrouper(
         out / "toklem_by_pos.txt",

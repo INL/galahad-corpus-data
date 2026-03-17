@@ -6,7 +6,10 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 class MultiPartFile:
     def __init__(
-        self, file: bytes, name: str = "data", content_type: str = "application/zip"
+        self,
+        file: bytes,
+        name: str = "data",
+        content_type: str = "application/zip",
     ):
         self.boundary = uuid4().hex
         self.file = file

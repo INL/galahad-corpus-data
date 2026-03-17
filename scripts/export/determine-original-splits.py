@@ -6,15 +6,15 @@ we split up split.tsv into groups of 5 lines. We then check for each group if th
 and print its filename.
 """
 
-from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
 import re
-from pathlib import Path
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
 from itertools import groupby
+from pathlib import Path
 
 
 def file_to_text(path: Path) -> str:
-    with open(path, "r", encoding="utf-8") as f:
-        tokens = [line.split("\t")[0] for line in f.readlines()]
+    with Path(path).open(encoding="utf-8") as f:
+        tokens = [line.split("\t")[0] for line in f]
         text = "".join(tokens)
         # remove everything that isn't [a-zA-Z]
         text = re.sub(r"[^a-zA-Z]", "", text.lower())

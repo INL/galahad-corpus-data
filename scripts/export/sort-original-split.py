@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 
+import json
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
 from pathlib import Path
-import json
-
 
 if __name__ == "__main__":
     parser = ArgumentParser(

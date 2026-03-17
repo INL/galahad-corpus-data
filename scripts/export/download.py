@@ -1,12 +1,12 @@
 #! /usr/bin/env python3
 
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from io import BytesIO
 import json
-from operator import ne
-from pathlib import Path
 import urllib.request
-from zipfile import ZipFile, Path as ZipPath
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from io import BytesIO
+from pathlib import Path
+from zipfile import Path as ZipPath
+from zipfile import ZipFile
 
 from timer import Timer
 
@@ -20,14 +20,12 @@ def download_single(outdir: Path, host: str, d: dict[str, str]):
     dataset_dir.mkdir(exist_ok=True, parents=True)
 
     with Timer("Total"):
-        with Timer("Exporting"):
-            with urllib.request.urlopen(url) as res:
-                bytes = res.read()
-        with Timer("Extracting"):
-            with ZipFile(BytesIO(bytes)) as zip:
-                for path in ZipPath(zip, at="LancelotExport/").iterdir():
-                    file = path.stem + path.suffix.lower()  # lower .XML
-                    (dataset_dir / file).write_bytes(path.read_bytes())
+        with Timer("Exporting"), urllib.request.urlopen(url) as res:
+            bytes = res.read()
+        with Timer("Extracting"), ZipFile(BytesIO(bytes)) as zip:
+            for path in ZipPath(zip, at="LancelotExport/").iterdir():
+                file = path.stem + path.suffix.lower()  # lower .XML
+                (dataset_dir / file).write_bytes(path.read_bytes())
 
 
 if __name__ == "__main__":
@@ -53,12 +51,14 @@ if __name__ == "__main__":
         help="Name of a single dataset to download",
     )
     parser.add_argument(
-        "outdir", type=Path, help="Output directory for downloaded datasets"
+        "outdir",
+        type=Path,
+        help="Output directory for downloaded datasets",
     )
     args = parser.parse_args()
 
     try:
-        datasets = json.load(open(args.datasets))
+        datasets = json.load(Path(args.datasets).open())
         if args.name:
             d = next((d for d in datasets if d["name"] == args.name), None)
             if d is None:

@@ -6,9 +6,9 @@ all these files are within the same split. If they are not, move all files to th
 For this, simply move them to the split of the first file in the list.
 """
 
-from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-from pathlib import Path
 import json
+from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from pathlib import Path
 
 
 def group_dupes_in_split(splits_file: Path):
@@ -27,7 +27,7 @@ def group_dupes_in_split(splits_file: Path):
         if len(splits) > 1:
             target_split = list(splits)[0]
             print(
-                f"Warning: Duplicates {dups} are in multiple splits {splits}. Moving all to {target_split}."
+                f"Warning: Duplicates {dups} are in multiple splits {splits}. Moving all to {target_split}.",
             )
             for f in dups:
                 # remove from other splits

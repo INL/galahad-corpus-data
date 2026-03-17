@@ -1,14 +1,15 @@
 from collections import defaultdict
+from collections.abc import Callable
 from dataclasses import dataclass
+from itertools import starmap
 from pathlib import Path
-from typing import Callable, Tuple
 
 from data import TsvCorpus, TsvWord
 
 
 @dataclass
 class SortedAnalyses:
-    analyses: list[Tuple[str, int]]
+    analyses: list[tuple[str, int]]
     total: int
 
     def __str__(self) -> str:
@@ -20,7 +21,8 @@ class SortedAnalyses:
     @staticmethod
     def from_dict(map: dict[str, int]) -> "SortedAnalyses":
         return SortedAnalyses(
-            sorted(map.items(), key=(lambda kv: -kv[1])), sum(map.values())
+            sorted(map.items(), key=(lambda kv: -kv[1])),
+            sum(map.values()),
         )
 
 
@@ -68,7 +70,7 @@ class TokenGrouper:
         value_mapper: Callable[[TsvWord], str],
     ) -> list[AnalysesGroup]:
         map: dict[str, dict[str, dict[str, int]]] = defaultdict(
-            lambda: defaultdict(lambda: defaultdict(int))
+            lambda: defaultdict(lambda: defaultdict(int)),
         )
         for w in corpus.words:
             key = key_mapper(w)
@@ -79,7 +81,7 @@ class TokenGrouper:
                 map[key]["[NON-MWE]"][value] += 1
 
         return sorted(
-            (AnalysesGroup.from_map(k, v) for k, v in map.items()),
+            starmap(AnalysesGroup.from_map, map.items()),
             key=lambda x: -x.total,
         )
 
