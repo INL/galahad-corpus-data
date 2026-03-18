@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1915</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.65199" lemma="VERTRECKEN" partition="test" sense-id="mnw.65199.sense.15" xml:id="c65199_0086">
+        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1915">
+          <w cert="1.0" lemma="als" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c65199_0086.w.125027">Als</w>
+          <w cert="1.0" lemma="vrouw" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c65199_0086.w.125028">vrouwe</w>
+          <w cert="1.0" lemma="caritaat" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c65199_0086.w.125029">Caritate</w>
+          <w cert="1.0" lemma="aldus" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c65199_0086.w.125030">aldus</w>
+          <w cert="1.0" lemma="hebben" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c65199_0086.w.125031">hadde</w>
+          <w cert="1.0" lemma="lezen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c65199_0086.w.125032">ghelesen</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c65199_0086.w.125033">ende</w>
+          <w cert="1.0" lemma="vertrekken" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.65199.sense.15" xml:id="c65199_0086.w.125034">vertrocht</w>
+          <pc join="right" pos="LET" xml:id="c65199_0086.pc.pre.00048706">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c65199_0086.w.125035">van</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c65199_0086.w.125036">vertrocken</w>
+          <pc pos="LET" xml:id="c65199_0086.pc.post.00048707">,</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c65199_0086.w.125037">gew.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c65199_0086.w.125038">vertrucken</w>
+          <pc pos="LET" xml:id="c65199_0086.pc.post.00048709">)</pc>
+          <w cert="1.0" lemma="dit" lexicon="molex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c65199_0086.w.125039">dit</w>
+          <w cert="1.0" lemma="testament" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c65199_0086.w.125040">testament</w>
+          <pc pos="LET" xml:id="c65199_0086.pc.post.00048710">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

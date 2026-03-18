@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1401</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M084861" lemma="WEGDRIJVEN" modern-lemma="wegdrijven" partition="test" pos="VRB" sense-id="M084861.bet.21" xml:id="M084861.eg.7441">
+        <date atLeast="1846" atMost="1846" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.1401">
+          <w cert="1.0" lemma="wegdrijven" lexicon="molex" pos="VRB(finiteness=inf)" resp="thomas" sense-id="M084861.bet.21" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.230046">Wegdrijven</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00077952">,</pc>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.floating.00077953">…</pc>
+          <w cert="1.0" lemma="auf" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.230048">auf</w>
+          <w cert="1.0" lemma="dem" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.230049">dem</w>
+          <w cert="1.0" lemma="wasser" lexicon="molex" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.230050">Wasser</w>
+          <w cert="1.0" lemma="treibend" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.230051">treibend</w>
+          <w cert="1.0" lemma="sich" lexicon="hilex" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.230052">sich</w>
+          <w cert="1.0" lemma="entfernen" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.230053">entfernen</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00077954">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

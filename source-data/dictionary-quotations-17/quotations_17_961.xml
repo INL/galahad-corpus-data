@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>961</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M056184" lemma="PROFEET" modern-lemma="profeet, Profeet" partition="train" pos="NOU-C NOU-P" sense-id="M056184.bet.2" xml:id="M056184.eg.68616">
+        <date atLeast="1688" atMost="1688" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.961">
+          <w cert="1.0" lemma="deze" lexicon="hilex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328000">Dese</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328001">is</w>
+          <w cert="1.0" lemma="Jezus" lexicon="hilex" pos="NOU-P" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328002">Jesus</w>
+          <pc pos="LET" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.pc.post.00101077">,</pc>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328003">de</w>
+          <w cert="1.0" lemma="profeet" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M056184.bet.2" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328004">Propheet</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328005">van</w>
+          <w cert="1.0" lemma="Nazaret" lexicon="hilex" pos="NOU-P" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328006">Nazareth</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328007">in</w>
+          <w cert="1.0" lemma="Galilea" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.328008">Galilea</w>
+          <pc pos="LET" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.pc.post.00101078">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

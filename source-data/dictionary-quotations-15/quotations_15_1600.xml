@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1600</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.58280" lemma="TOE" partition="train" sense-id="mnw.58280.sense.1" xml:id="c58280_0005">
+        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1600">
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c58280_0005.w.293679">Den</w>
+          <w cert="1.0" lemma="bode" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58280_0005.w.293680">bode</w>
+          <pc pos="LET" xml:id="c58280_0005.pc.floating.00119839">…,</pc>
+          <w cert="1.0" lemma="daaraan" lexicon="hilex" pos="ADV(type=pron)" resp="thomas" xml:id="c58280_0005.w.293682">daer<join n="mw_512788" />
+          </w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c58280_0005.w.293683">die</w>
+          <w cert="1.0" lemma="abt" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58280_0005.w.293684">abdt</w>
+          <w cert="1.0" lemma="toen" lexicon="molex" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.58280.sense.1" xml:id="c58280_0005.w.293685">toe</w>
+          <w cert="1.0" lemma="daaraan" lexicon="hilex" pos="ADV(type=pron)" resp="thomas" xml:id="c58280_0005.w.293686">an<join n="mw_512788" />
+          </w>
+          <w cert="1.0" lemma="bezoeken" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c58280_0005.w.293687">besochte</w>
+          <pc pos="LET" xml:id="c58280_0005.pc.post.00119840">,</pc>
+          <w cert="1.0" lemma="twij" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c58280_0005.w.293688">twy</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c58280_0005.w.293689">die</w>
+          <w cert="1.0" lemma="abdis" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58280_0005.w.293690">abdesse</w>
+          <w cert="1.0" lemma="vereisen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c58280_0005.w.293691">verhiesch</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c58280_0005.w.293692">die</w>
+          <w cert="1.0" lemma="ding" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58280_0005.w.293693">dinc</w>
+          <pc pos="LET" xml:id="c58280_0005.pc.post.00119841">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

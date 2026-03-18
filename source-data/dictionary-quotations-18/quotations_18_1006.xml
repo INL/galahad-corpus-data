@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1006</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M071355" lemma="TUSSCHENPOOZING" modern-lemma="tussenpozing" partition="dev" pos="NOU-C" sense-id="M071355.bet.1" xml:id="M071355.eg.73606">
+        <date atLeast="1701" atMost="1701" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.1006">
+          <w cert="1.0" lemma="tussenpozing" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M071355.bet.1" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1657496">Tussenpoozing</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00549018">,</pc>
+          <w cert="1.0" lemma="opschorsing" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1657497">opschorssing</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00549019">,</pc>
+          <w cert="1.0" lemma="stilstand" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1657498">stilstand</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00549020">,</pc>
+          <w cert="1.0" lemma="pause" lexicon="hilex" pos="RES(type=for)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1657499">Pause</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00549021">,</pc>
+          <w cert="1.0" lemma="intermission" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1657500">intermission</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00549022">,</pc>
+          <w cert="1.0" lemma="suspension" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1657501">suspension</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00549023">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

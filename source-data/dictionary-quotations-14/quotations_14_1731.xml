@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1731</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.42472" lemma="PERT" partition="train" sense-id="mnw.42472.sense.1" xml:id="c42472_0031">
+        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1731">
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42472_0031.w.203503">Een</w>
+          <w cert="1.0" lemma="goed" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c42472_0031.w.203504">goet</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c42472_0031.w.203505">ende</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42472_0031.w.203506">een</w>
+          <w cert="1.0" lemma="dapper" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c42472_0031.w.203507">dapper</w>
+          <pc join="right" pos="LET" xml:id="c42472_0031.pc.pre.00078528">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c42472_0031.w.203508">snel</w>
+          <pc pos="LET" xml:id="c42472_0031.pc.post.00078529">)</pc>
+          <w cert="1.0" lemma="paard" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42472.sense.1" xml:id="c42472_0031.w.203509">part</w>
+          <pc pos="LET" xml:id="c42472_0031.pc.floating.00078530">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

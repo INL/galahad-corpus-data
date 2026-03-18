@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>26</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M001294" lemma="AARTSENGEL" modern-lemma="aartsengel" partition="train" pos="NOU-C" sense-id="M001294.bet.1" xml:id="M001294.eg.6084">
+        <date atLeast="1654" atMost="1654" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.26">
+          <pc pos="LET" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.pc.floating.0023914">—</pc>
+          <w cert="1.0" lemma="Lucifer" lexicon="hilex" pos="NOU-P" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.76553">Lucifer</w>
+          <pc pos="LET" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.pc.post.0023915">,</pc>
+          <w cert="1.0" lemma="de+aartsengel" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" sense-id="M001294.bet.1" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.76554">d'Aertsengel</w>
+          <pc pos="LET" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.pc.post.0023916">,</pc>
+          <w cert="1.0" lemma="opperst" lexicon="molex" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.76555">opperste</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.76556">en</w>
+          <w cert="1.0" lemma="doorluchtig" lexicon="byt5" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.76557">doorluchtighste</w>
+          <w cert="1.0" lemma="boven" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.76558">boven</w>
+          <w cert="1.0" lemma="al" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.76559">alle</w>
+          <w cert="1.0" lemma="engel" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.76560">Engelen</w>
+          <pc pos="LET" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.pc.post.0023917">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

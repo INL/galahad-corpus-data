@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>690</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M062231" lemma="SCHALMEI" modern-lemma="schalmei" partition="train" pos="NOU-C" sense-id="M062231.bet.1" xml:id="M062231.eg.3686">
+        <date atLeast="1566" atMost="1566" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.690">
+          <w cert="1.0" lemma="men" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.490595">Men</w>
+          <pc join="right" pos="LET" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.pc.pre.0153653">(</pc>
+          <w cert="1.0" lemma="omdragen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.490596">draecht<join n="mw_115187" />
+          </w>
+          <pc pos="LET" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.pc.post.0153654">)</pc>
+          <pc pos="LET" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.pc.floating.0153655">…</pc>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.490598">den</w>
+          <w cert="1.0" lemma="fiertel" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.490599">fiertel</w>
+          <w cert="1.0" lemma="omdragen" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.490600">omme<join n="mw_115187" />
+          </w>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.490601">met</w>
+          <w cert="1.0" lemma="schalmei" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="M062231.bet.1" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.490602">schalmeijen</w>
+          <pc pos="LET" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.pc.post.0153656">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

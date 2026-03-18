@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>90</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.03016" lemma="BECOMMEREN" partition="test" sense-id="mnw.03016.sense.2" xml:id="c03016_0000">
+        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.90">
+          <pc join="right" pos="LET" xml:id="c03016_0000.pc.pre.00224793">(</pc>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c03016_0000.w.576048">Si</w>
+          <pc pos="LET" xml:id="c03016_0000.pc.post.00224794">)</pc>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="c03016_0000.w.576049">te</w>
+          <w cert="1.0" lemma="Tricht" lexicon="byt5" pos="NOU-P" resp="roland" xml:id="c03016_0000.w.576050">Tricht</w>
+          <pc pos="LET" xml:id="c03016_0000.pc.floating.00224795">…</pc>
+          <w cert="1.0" lemma="bekommeren" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.03016.sense.2" xml:id="c03016_0000.w.576052">becommert</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03016_0000.w.576053">waren</w>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c03016_0000.w.576054">met</w>
+          <w cert="1.0" lemma="veel" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c03016_0000.w.576055">vele</w>
+          <w cert="1.0" lemma="hoop" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c03016_0000.w.576056">hoopen</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c03016_0000.w.576057">ende</w>
+          <w cert="1.0" lemma="groot" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c03016_0000.w.576058">groote</w>
+          <w cert="1.0" lemma="schaar" lexicon="hilex" pos="NOU-C(number=pl)" resp="thomas" xml:id="c03016_0000.w.576059">scaren</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c03016_0000.w.576060">van</w>
+          <w cert="1.0" lemma="de+hertog" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c03016_0000.w.576061">tshertoghen</w>
+          <w cert="1.0" lemma="volk" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c03016_0000.w.576062">volcke</w>
+          <pc pos="LET" xml:id="c03016_0000.pc.post.00224796">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

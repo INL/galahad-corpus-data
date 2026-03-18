@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2320</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.57198" lemma="TASTEN" partition="train" sense-id="mnw.57198.sense.5" xml:id="c57198_0016">
+        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.2320">
+          <w cert="1.0" lemma="men" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57198_0016.w.68445">Men</w>
+          <w cert="1.0" lemma="mogen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c57198_0016.w.68446">mach</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c57198_0016.w.68447">hem</w>
+          <pc join="right" pos="LET" xml:id="c57198_0016.pc.pre.00027910">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="roland" xml:id="c57198_0016.w.68448">God</w>
+          <pc pos="LET" xml:id="c57198_0016.pc.post.00027911">)</pc>
+          <w cert="1.0" lemma="zien" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c57198_0016.w.68449">sien</w>
+          <w cert="1.0" lemma="noch" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="c57198_0016.w.68450">no</w>
+          <w cert="1.0" lemma="tasten" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.57198.sense.5" xml:id="c57198_0016.w.68451">tasten</w>
+          <pc pos="LET" xml:id="c57198_0016.pc.floating.00027912">.</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

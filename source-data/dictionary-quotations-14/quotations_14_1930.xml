@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1930</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.47039" lemma="ROMEIN" partition="train" sense-id="mnw.47039.sense.1" xml:id="c47039_0003">
+        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1930">
+          <w cert="1.0" lemma="om" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c47039_0003.w.1146387">Om</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c47039_0003.w.1146388">te</w>
+          <w cert="1.0" lemma="wreken" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c47039_0003.w.1146389">wrekene</w>
+          <w cert="1.0" lemma="de+heer" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c47039_0003.w.1146390">tsheren</w>
+          <w cert="1.0" lemma="smart" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c47039_0003.w.1146391">smerte</w>
+          <w cert="1.0" lemma="hebben" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c47039_0003.w.1146392">hadde</w>
+          <w cert="1.0" lemma="elk" lexicon="hilex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c47039_0003.w.1146393">elc</w>
+          <w cert="1.0" lemma="Romein" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.47039.sense.1" xml:id="c47039_0003.w.1146394">Romeyn</w>
+          <w cert="1.0" lemma="wil" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c47039_0003.w.1146395">wille</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c47039_0003.w.1146396">ende</w>
+          <w cert="1.0" lemma="hart" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c47039_0003.w.1146397">herte</w>
+          <pc pos="LET" xml:id="c47039_0003.pc.post.00451373">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

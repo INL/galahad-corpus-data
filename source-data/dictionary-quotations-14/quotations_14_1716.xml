@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1716</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.42131" lemma="PELGRIJM" partition="train" sense-id="mnw.42131.sense.1" xml:id="c42131_0012">
+        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.1716">
+          <w cert="1.0" lemma="nu" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c42131_0012.w.148740">Nu</w>
+          <w cert="1.0" lemma="bijten" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c42131_0012.w.148741">beet</w>
+          <pc pos="LET" xml:id="c42131_0012.pc.post.00056668">,</pc>
+          <w cert="1.0" lemma="nu" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c42131_0012.w.148742">nu</w>
+          <w cert="1.0" lemma="bijten" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c42131_0012.w.148743">beet</w>
+          <pc pos="LET" xml:id="c42131_0012.pc.post.00056669">,</pc>
+          <w cert="1.0" lemma="al" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c42131_0012.w.148744">alle</w>
+          <w cert="1.0" lemma="vier" lexicon="molex" pos="NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c42131_0012.w.148745">vier</w>
+          <w cert="1.0" lemma="gij" lexicon="byt5" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c42131_0012.w.148746">ghi</w>
+          <w cert="1.0" lemma="pelgrim" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42131.sense.1" xml:id="c42131_0012.w.148747">peilgrijn</w>
+          <pc pos="LET" xml:id="c42131_0012.pc.floating.00056670">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

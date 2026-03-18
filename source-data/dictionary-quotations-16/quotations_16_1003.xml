@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1003</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M074204" lemma="VENDRIG" modern-lemma="vendrig" partition="test" pos="NOU-C" sense-id="M074204.bet.1" xml:id="M074204.eg.29482">
+        <date atLeast="1546" atMost="1546" timeSpan="1500-1550" />
+        <q xml:id="no_doc_id.s.1003">
+          <w cert="1.0" lemma="imaginarij" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.731080">Imaginarij</w>
+          <pc pos="LET" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.post.00258688">,</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.731081">die</w>
+          <w cert="1.0" lemma="vendrig" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M074204.bet.1" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.731082">venderick</w>
+          <pc pos="LET" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.post.00258689">,</pc>
+          <w cert="1.0" lemma="vaandrager" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.731083">vaendrager</w>
+          <pc pos="LET" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.post.00258690">,</pc>
+          <pc join="right" lemma="" lexicon="byt5" pos="ADV(type=reg,WF=abbr)" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.pre.00258691">&amp;</pc>
+          <w cert="1.0" lemma="et cetera" lexicon="molex" pos="ADV(type=reg,WF=abbr)" resp="thomas" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.731084">c</w>
+          <pc pos="LET" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.post.00258692">.,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

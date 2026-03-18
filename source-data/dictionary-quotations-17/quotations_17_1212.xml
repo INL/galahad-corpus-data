@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1212</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M066316" lemma="STEENHOOP" modern-lemma="steenhoop" partition="train" pos="NOU-C" sense-id="M066316.bet.5" xml:id="M066316.eg.19907">
+        <date atLeast="1688" atMost="1688" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.1212">
+          <w cert="1.0" lemma="stad" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360220">Steden</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360221">ende</w>
+          <w cert="1.0" lemma="huis" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360222">huysen</w>
+          <pc pos="LET" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.pc.post.00410002">,</pc>
+          <pc pos="LET" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.pc.floating.00410003">…</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360224">die</w>
+          <w cert="1.0" lemma="gereed" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360225">gereet</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360226">waren</w>
+          <w cert="1.0" lemma="tot" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360227">tot</w>
+          <w cert="1.0" lemma="steenhoop" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="M066316.bet.5" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360228">steenhoopen</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360229">te</w>
+          <w cert="1.0" lemma="worden" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.1360230">worden</w>
+          <pc pos="LET" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.pc.post.00410004">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

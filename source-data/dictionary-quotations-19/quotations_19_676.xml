@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>676</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M050642" lemma="OVERKLINKEN" modern-lemma="overklinken" partition="train" pos="VRB" sense-id="M050642.sense.7" xml:id="M050642.eg.31753">
+        <date atLeast="1847" atMost="1848" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.676">
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.83359">En</w>
+          <pc join="right" pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.pre.0028479">”</pc>
+          <w cert="1.0" lemma="blond" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.83360">blonde</w>
+          <w cert="1.0" lemma="Mary" lexicon="hilex" pos="NOU-P" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.83361">Mary</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0028480">”</pc>
+          <w cert="1.0" lemma="overklinken" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M050642.sense.7" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.83362">klinkt<join n="mw_374036" />
+          </w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.83363">de</w>
+          <w cert="1.0" lemma="blond" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.83364">blonde</w>
+          <w cert="1.0" lemma="heuvel" lexicon="hilex" pos="NOU-C(number=pl)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.83365">heuvlen</w>
+          <w cert="1.0" lemma="overklinken" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M050642.sense.7" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.83366">over<join n="mw_374036" />
+          </w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0028481">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

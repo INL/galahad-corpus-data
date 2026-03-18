@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1102</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.27297" lemma="LUUT" partition="train" sense-id="mnw.27297.sense.3" xml:id="c27297_0073">
+        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1102">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27297_0073.w.631405">Die</w>
+          <w cert="1.0" lemma="jongeling" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c27297_0073.w.631406">jongelinc</w>
+          <w cert="1.0" lemma="ne" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c27297_0073.w.631407">ne</w>
+          <w cert="1.0" lemma="hebben" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c27297_0073.w.631408">adde</w>
+          <w cert="1.0" lemma="luid" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.27297.sense.3" xml:id="c27297_0073.w.631409">luut</w>
+          <w cert="1.0" lemma="noch" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="c27297_0073.w.631410">no</w>
+          <w cert="1.0" lemma="lijf" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27297_0073.w.631411">lijf</w>
+          <pc join="right" pos="LET" xml:id="c27297_0073.pc.pre.00245107">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c27297_0073.w.631412">allitereerend</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c27297_0073.w.631413">verbonden</w>
+          <pc pos="LET" xml:id="c27297_0073.pc.post.00245108">)</pc>
+          <pc pos="LET" xml:id="c27297_0073.pc.floating.00245109">:</pc>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c27297_0073.w.631415">den</w>
+          <w cert="1.0" lemma="dode" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c27297_0073.w.631416">doden</w>
+          <w cert="1.0" lemma="leggen+men" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c27297_0073.w.631417">leitmen</w>
+          <w cert="1.0" lemma="op" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c27297_0073.w.631418">up</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c27297_0073.w.631419">een</w>
+          <w cert="1.0" lemma="bed" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c27297_0073.w.631420">bed</w>
+          <pc pos="LET" xml:id="c27297_0073.pc.post.00245110">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

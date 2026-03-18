@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1132</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.28022" lemma="MARAS" partition="train" sense-id="mnw.28022.sense.1" xml:id="c28022_0019">
+        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1132">
+          <w cert="1.0" lemma="bij" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c28022_0019.w.783979">Bi</w>
+          <w cert="1.0" lemma="Venetië" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="c28022_0019.w.783980">Venegen</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c28022_0019.w.783981">in</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c28022_0019.w.783982">dien</w>
+          <w cert="1.0" lemma="moeras" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28022.sense.1" xml:id="c28022_0019.w.783983">marasch</w>
+          <pc join="right" pos="LET" xml:id="c28022_0019.pc.pre.00304038">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c28022_0019.w.783984">de</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c28022_0019.w.783985">lagunen</w>
+          <pc pos="LET" xml:id="c28022_0019.pc.post.00304039">)</pc>
+          <pc pos="LET" xml:id="c28022_0019.pc.floating.00304040">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

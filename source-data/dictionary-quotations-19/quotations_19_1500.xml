@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1500</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M087447" lemma="WREVEL" modern-lemma="wrevel" partition="train" pos="AA ADV" sense-id="M087447.bet.5" xml:id="M087447.eg.221">
+        <date atLeast="1814" atMost="1814" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.1500">
+          <w cert="1.0" lemma="toen" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125257">Toen</w>
+          <w cert="1.0" lemma="Orpheus" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125258">Orfeus</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125259">in</w>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125260">'t</w>
+          <w cert="1.0" lemma="rijk" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125261">rijk</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125262">van</w>
+          <w cert="1.0" lemma="wrevel" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="M087447.bet.5" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125263">wreevlen</w>
+          <w cert="1.0" lemma="Pluto" lexicon="hilex" pos="NOU-P" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125264">Pluto</w>
+          <w cert="1.0" lemma="dringen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1125265">drong</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00364828">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

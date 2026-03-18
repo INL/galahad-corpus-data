@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>384</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M033418" lemma="KLEINKIND" modern-lemma="kleinkind" partition="train" pos="NOU-C" sense-id="M033418.bet.1" xml:id="M033418.eg.64729">
+        <date atLeast="1785" atMost="1785" timeSpan="1750-1800" />
+        <q xml:id="no_doc_id.s.384">
+          <w cert="1.0" lemma="omringen" lexicon="molex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213852">Omringd</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213853">van</w>
+          <w cert="1.0" lemma="kind" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213854">Kinderen</w>
+          <pc pos="LET" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.pc.post.00069648">,</pc>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213855">en</w>
+          <w cert="1.0" lemma="kleinkind" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="M033418.bet.1" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213856">Klein-Kinderen</w>
+          <pc pos="LET" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.pc.post.00069649">,</pc>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213857">in</w>
+          <w cert="1.0" lemma="vrede" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213858">vreede</w>
+          <w cert="1.0" lemma="te+het" lexicon="molex" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213859">ten</w>
+          <w cert="1.0" lemma="graf" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213860">grave</w>
+          <pc join="right" pos="LET" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.pc.pre.00069650">(</pc>
+          <w cert="1.0" lemma="dalen" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.213861">dalen</w>
+          <pc pos="LET" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.pc.post.00069651">),</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

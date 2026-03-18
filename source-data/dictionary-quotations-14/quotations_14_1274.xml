@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1274</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.31045" lemma="MOUDE" partition="train" sense-id="mnw.31045.sense.4" xml:id="c31045_0014">
+        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.1274">
+          <w cert="1.0" lemma="luttel" lexicon="hilex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c31045_0014.w.1352456">Lettel</w>
+          <w cert="1.0" lemma="vinden+men+er" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)+ADV(type=reg)" resp="roland" xml:id="c31045_0014.w.1352457">vintmer</w>
+          <pc join="right" pos="LET" xml:id="c31045_0014.pc.pre.00532097">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c31045_0014.w.1352458">kinderen</w>
+          <pc pos="LET" xml:id="c31045_0014.pc.post.00532098">)</pc>
+          <pc pos="LET" xml:id="c31045_0014.pc.floating.00532099">,</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c31045_0014.w.1352460">die</w>
+          <w cert="1.0" lemma="wel" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c31045_0014.w.1352461">wel</w>
+          <w cert="1.0" lemma="spreken" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c31045_0014.w.1352462">sproken</w>
+          <pc join="right" pos="LET" xml:id="c31045_0014.pc.pre.00532100">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c31045_0014.w.1352463">spraken</w>
+          <pc pos="LET" xml:id="c31045_0014.pc.post.00532101">)</pc>
+          <pc pos="LET" xml:id="c31045_0014.pc.floating.00532102">,</pc>
+          <w cert="1.0" lemma="eer" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c31045_0014.w.1352465">eer</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c31045_0014.w.1352466">hem</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c31045_0014.w.1352467">die</w>
+          <w cert="1.0" lemma="moude" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.31045.sense.4" xml:id="c31045_0014.w.1352468">moude</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31045_0014.w.1352469">was</w>
+          <w cert="1.0" lemma="beluiken" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c31045_0014.w.1352470">beloken</w>
+          <pc pos="LET" xml:id="c31045_0014.pc.post.00532103">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

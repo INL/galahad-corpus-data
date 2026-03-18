@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1009</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M071452" lemma="TWEE" modern-lemma="twee" partition="train" pos="NUM" sense-id="M071452.bet.77" xml:id="M071452.eg.75539">
+        <date atLeast="1766" atMost="1766" timeSpan="1750-1800" />
+        <q xml:id="no_doc_id.s.1009">
+          <w cert="1.0" lemma="twee" lexicon="molex" pos="NUM(type=card,position=prenom,representation=let)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1705923">Twee</w>
+          <w cert="1.0" lemma="twee" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="M071452.bet.77" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1705924">tweën</w>
+          <pc join="right" pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.pre.00565208">(</pc>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1705925">met</w>
+          <w cert="1.0" lemma="dobbelsteen" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1705926">döbbelsteenen</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00565209">).</pc>
+          <w cert="1.0" lemma="two" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1705927">Two</w>
+          <w cert="1.0" lemma="duces" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1705928">duces</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00565210">,</pc>
+          <w cert="1.0" lemma="at" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1705929">at</w>
+          <w cert="1.0" lemma="dice" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1705930">dice</w>
+          <pc pos="LET" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00565211">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

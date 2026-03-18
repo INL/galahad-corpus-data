@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>911</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M066771" lemma="STOKSTIL" modern-lemma="stokstil" partition="train" pos="AA" sense-id="M066771.sense.2" xml:id="M066771.eg.33594">
+        <date atLeast="1891" atMost="1891" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.911">
+          <w cert="1.0" lemma="zij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494939">Ze</w>
+          <w cert="1.0" lemma="zien" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494940">zag</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494941">hem</w>
+          <w cert="1.0" lemma="staan" lexicon="molex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494942">staan</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.floating.00148589">…,</pc>
+          <w cert="1.0" lemma="ginder" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494944">ginder</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00148590">,</pc>
+          <w cert="1.0" lemma="stokstil" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="M066771.sense.2" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494945">stokstil</w>
+          <w cert="1.0" lemma="midden" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494946">midden</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494947">in</w>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494948">'t</w>
+          <w cert="1.0" lemma="groen" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.494949">groen</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00148591">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

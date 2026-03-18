@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>275</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M026274" lemma="HONDERDSTE" modern-lemma="honderdste" partition="train" pos="NUM NOU-C" sense-id="M026274.bet.3" xml:id="M026274.eg.15327">
+        <date atLeast="1582" atMost="1582" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.275">
+          <w cert="1.0" lemma="al" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.72591">Alle</w>
+          <w cert="1.0" lemma="honderdste" lexicon="byt5" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" sense-id="M026274.bet.3" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.72592">hondertste</w>
+          <pc pos="LET" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.pc.post.0027339">,</pc>
+          <w cert="1.0" lemma="twintigste" lexicon="byt5" pos="NUM(type=ord,position=prenom,representation=mix-rom)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.72593">XXe</w>
+          <pc pos="LET" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.pc.post.0027340">.</pc>
+          <w cert="1.0" lemma="tiende" lexicon="byt5" pos="NUM(type=ord,position=prenom,representation=mix-rom)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.72594">Xe.</w>
+          <w cert="1.0" lemma="vijfde" lexicon="byt5" pos="NUM(type=ord,position=prenom,representation=mix-rom)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.72595">Ve.</w>
+          <pc lemma="te⊕een" lexicon="byt5" pos="NUM(type=card,position=free,representation=dig)+NUM(type=ord,position=free,representation=dig)" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.pc.floating.0027343">…</pc>
+          <w cert="1.0" lemma="penning" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.72597">penningen</w>
+          <pc pos="LET" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.pc.post.0027344">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>55</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M003002" lemma="AFWACHTEN" modern-lemma="afwachten" partition="train" pos="VRB" sense-id="M003002.bet.40" xml:id="M003002.eg.21046">
+        <date atLeast="1828" atMost="1828" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.55">
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730257">En</w>
+          <w cert="1.0" lemma="afwachten" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M003002.bet.40" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730258">wacht<join n="mw_820614" />
+          </w>
+          <pc pos="LET" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.pc.post.0213972">,</pc>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730259">met</w>
+          <w cert="1.0" lemma="pijnlijk" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730260">pijnlijk</w>
+          <w cert="1.0" lemma="ongeduld" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730261">ongeduld</w>
+          <pc pos="LET" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.pc.post.0213973">,</pc>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730262">Den</w>
+          <w cert="1.0" lemma="bang" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730263">bangen</w>
+          <w cert="1.0" lemma="uitslag" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730264">uitslag</w>
+          <w cert="1.0" lemma="afwachten" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M003002.bet.40" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.730265">af<join n="mw_820614" />
+          </w>
+          <pc pos="LET" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.pc.post.0213974">.</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

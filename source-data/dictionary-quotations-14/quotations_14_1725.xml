@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1725</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.42255" lemma="PENSEN" partition="train" sense-id="mnw.42255.sense.10" xml:id="c42255_0027">
+        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1725">
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c42255_0027.w.173977">Hi</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42255_0027.w.173978">die</w>
+          <w cert="1.0" lemma="luttel" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c42255_0027.w.173979">lettel</w>
+          <w cert="1.0" lemma="hem" lexicon="molex" pos="PD(type=refl,position=free)" resp="roland" xml:id="c42255_0027.w.173980">hem</w>
+          <w cert="1.0" lemma="zelf" lexicon="hilex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c42255_0027.w.173981">zelven</w>
+          <w cert="1.0" lemma="achten" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c42255_0027.w.173982">acht</w>
+          <pc pos="LET" xml:id="c42255_0027.pc.floating.00066351">…,</pc>
+          <w cert="1.0" lemma="om" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c42255_0027.w.173984">om</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c42255_0027.w.173985">sinen</w>
+          <w cert="1.0" lemma="misprijs" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c42255_0027.w.173986">mesprijs</w>
+          <w cert="1.0" lemma="peinzen+hij" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.42255.sense.10" xml:id="c42255_0027.w.173987">pensti</w>
+          <w cert="1.0" lemma="algader" lexicon="byt5" pos="ADV(type=reg)" resp="thomas" xml:id="c42255_0027.w.173988">algadere</w>
+          <pc pos="LET" xml:id="c42255_0027.pc.post.00066352">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

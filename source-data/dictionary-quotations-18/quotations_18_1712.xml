@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1712</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M087254" lemma="WORTEL" modern-lemma="wortel" partition="train" pos="NOU-C" sense-id="M087254.bet.3" xml:id="M087254.eg.34478">
+        <date atLeast="1713" atMost="1713" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.1712">
+          <w cert="1.0" lemma="door" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938746">Door</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938747">de</w>
+          <w cert="1.0" lemma="wortel" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" sense-id="M087254.bet.3" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938748">wortels</w>
+          <w cert="1.0" lemma="moeten" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938749">moet</w>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938750">hy</w>
+          <pc join="right" pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.pre.00302105">(</pc>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938751">een</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938752">boom</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00302106">)</pc>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938753">zyn</w>
+          <w cert="1.0" lemma="voedsel" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938754">voedzel</w>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.938755">hebben</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00302107">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

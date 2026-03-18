@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>141</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.04328" lemma="BIEDEN" partition="test" sense-id="mnw.04328.sense.27" xml:id="c04328_0076">
+        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.141">
+          <pc join="right" pos="LET" xml:id="c04328_0076.pc.pre.00348677">(</pc>
+          <w cert="1.0" lemma="niemand" lexicon="hilex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c04328_0076.w.888616">Niemene</w>
+          <pc pos="LET" xml:id="c04328_0076.pc.post.00348678">)</pc>
+          <w cert="1.0" lemma="onwaarde" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c04328_0076.w.888617">onweerde</w>
+          <w cert="1.0" lemma="bieden" lexicon="byt5" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.04328.sense.27" xml:id="c04328_0076.w.888618">bieden</w>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c04328_0076.w.888619">met</w>
+          <w cert="1.0" lemma="woord" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c04328_0076.w.888620">woerden</w>
+          <pc pos="LET" xml:id="c04328_0076.pc.post.00348679">,</pc>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c04328_0076.w.888621">met</w>
+          <w cert="1.0" lemma="werk" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="c04328_0076.w.888622">werken</w>
+          <pc pos="LET" xml:id="c04328_0076.pc.post.00348680">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

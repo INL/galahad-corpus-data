@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>161</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M013297" lemma="DEKSEL" modern-lemma="deksel" partition="test" pos="NOU-C" sense-id="M013297.bet.13" xml:id="M013297.eg.7014">
+        <date atLeast="1598" atMost="1598" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.161">
+          <w cert="1.0" lemma="want" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228051">Want</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228052">de</w>
+          <w cert="1.0" lemma="keizer" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228053">Keyser</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.floating.0072372">…</pc>
+          <w cert="1.0" lemma="wij" lexicon="molex" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228055">ons</w>
+          <pc join="right" pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.pre.0072373">(</pc>
+          <w cert="1.0" lemma="onder" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228056">onder</w>
+          <w cert="1.0" lemma="deksel" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" sense-id="M013297.bet.13" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228057">dexsel</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228058">van</w>
+          <w cert="1.0" lemma="wij" lexicon="molex" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228059">ons</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228060">te</w>
+          <w cert="1.0" lemma="bezoeken" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228061">besoecken</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0072374">)</pc>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228062">soude</w>
+          <w cert="1.0" lemma="komen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228063">comen</w>
+          <w cert="1.0" lemma="overvallen" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.228064">overvallen</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0072375">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

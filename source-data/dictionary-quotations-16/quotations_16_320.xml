@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>320</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M030277" lemma="KAPITTEL" modern-lemma="kapittel" partition="train" pos="NOU-C" sense-id="M030277.bet.19" xml:id="M030277.eg.26826">
+        <date atLeast="1588" atMost="1588" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.320">
+          <w cert="1.0" lemma="kapittel" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M030277.bet.19" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.588405">Kapitel</w>
+          <w cert="1.0" lemma="houden" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.588406">houden</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00197548">.</pc>
+          <w cert="1.0" lemma="peragere" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.588407">Peragere</w>
+          <w cert="1.0" lemma="conventus" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.588408">conventus</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00197549">,</pc>
+          <w cert="1.0" lemma="celebrare" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.588409">celebrare</w>
+          <w cert="1.0" lemma="comitia" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.588410">comitia</w>
+          <w cert="1.0" lemma="sacra" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.588411">sacra</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00197550">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

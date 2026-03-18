@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1521</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M083474" lemma="WAGEN" modern-lemma="wagen, Wagen" partition="train" pos="NOU-C NOU-P" sense-id="M083474.bet.62" xml:id="M083474.eg.8937">
+        <date atLeast="1550" atMost="1550" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.1521">
+          <w cert="1.0" lemma="een" lexicon="hilex" pos="PD(type=indef,subtype=art,position=prenom)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.834906">Eenen</w>
+          <w cert="1.0" lemma="vol" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.834907">vollen</w>
+          <w cert="1.0" lemma="man" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.834908">manne</w>
+          <pc pos="LET" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.pc.post.00270929">,</pc>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.834909">sal</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.834910">een</w>
+          <w cert="1.0" lemma="geladen" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.834911">geladen</w>
+          <w cert="1.0" lemma="wagen" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" sense-id="M083474.bet.62" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.834912">wagen</w>
+          <w cert="1.0" lemma="wijken" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.834913">wijcken</w>
+          <pc pos="LET" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.pc.post.00270930">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1840</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.45012" lemma="RADEBRAKEN" partition="train" sense-id="mnw.45012.sense.1" xml:id="c45012_0004">
+        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1840">
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c45012_0004.w.671735">Dat</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c45012_0004.w.671736">si</w>
+          <w cert="1.0" lemma="waard" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c45012_0004.w.671737">wert</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c45012_0004.w.671738">ware</w>
+          <pc join="right" pos="LET" xml:id="c45012_0004.pc.pre.00264385">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c45012_0004.w.671739">l.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c45012_0004.w.671740">waren</w>
+          <pc pos="LET" xml:id="c45012_0004.pc.post.00264387">)</pc>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c45012_0004.w.671741">dat</w>
+          <w cert="1.0" lemma="men" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c45012_0004.w.671742">men</w>
+          <w cert="1.0" lemma="degene" lexicon="byt5" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c45012_0004.w.671743">deghone</w>
+          <w cert="1.0" lemma="die+het" lexicon="hilex" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c45012_0004.w.671744">diet</w>
+          <w cert="1.0" lemma="doen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c45012_0004.w.671745">ghedaen</w>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c45012_0004.w.671746">hadden</w>
+          <pc pos="LET" xml:id="c45012_0004.pc.post.00264388">,</pc>
+          <w cert="1.0" lemma="zelf" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c45012_0004.w.671747">zelve</w>
+          <w cert="1.0" lemma="radbraken" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.45012.sense.1" xml:id="c45012_0004.w.671748">radebrakede</w>
+          <pc pos="LET" xml:id="c45012_0004.pc.floating.00264389">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

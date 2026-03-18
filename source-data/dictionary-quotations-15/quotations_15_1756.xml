@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1756</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.62175" lemma="VERBITEN" partition="train" sense-id="mnw.62175.sense.3" xml:id="c62175_0011">
+        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1756">
+          <w cert="1.0" lemma="ik" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62175_0011.w.1112414">Ic</w>
+          <pc join="right" pos="LET" xml:id="c62175_0011.pc.pre.00448372">(</pc>
+          <w cert="1.0" lemma="" lexicon="hilex" pos="" resp="roland" xml:id="c62175_0011.w.1112415">Reinaert</w>
+          <pc pos="LET" xml:id="c62175_0011.pc.post.00448373">)</pc>
+          <w cert="1.0" lemma="worden" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62175_0011.w.1112416">waert</w>
+          <w cert="1.0" lemma="boud" lexicon="byt5" pos="AA(degree=comp,position=free)" resp="roland" xml:id="c62175_0011.w.1112417">bouder</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c62175_0011.w.1112418">ende</w>
+          <w cert="1.0" lemma="koen" lexicon="hilex" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c62175_0011.w.1112419">coener</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c62175_0011.w.1112420">ende</w>
+          <w cert="1.0" lemma="verbijten" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.62175.sense.3" xml:id="c62175_0011.w.1112421">verbeet</w>
+          <pc join="right" pos="LET" xml:id="c62175_0011.pc.pre.00448374">(</pc>
+          <w cert="1.0" lemma="eend" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="c62175_0011.w.1112422">h<join n="mw_815284" />
+          </w>
+          <pc pos="LET" xml:id="c62175_0011.pc.post.00448375">)</pc>
+          <w cert="1.0" lemma="eend" lexicon="byt5" pos="NOU-C(number=pl)" resp="thomas" xml:id="c62175_0011.w.1112423">aenden<join n="mw_815284" />
+          </w>
+          <pc join="right" pos="LET" xml:id="c62175_0011.pc.pre.00448376">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c62175_0011.w.1112424">hs</w>
+          <pc pos="LET" xml:id="c62175_0011.pc.post.00448377">.)</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c62175_0011.w.1112425">ende</w>
+          <w cert="1.0" lemma="hoen" lexicon="hilex" pos="NOU-C(number=pl)" resp="thomas" xml:id="c62175_0011.w.1112426">hoener</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c62175_0011.w.1112427">ende</w>
+          <w cert="1.0" lemma="gans" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c62175_0011.w.1112428">gansen</w>
+          <pc pos="LET" xml:id="c62175_0011.pc.post.00448378">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

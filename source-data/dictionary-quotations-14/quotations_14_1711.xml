@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1711</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.41964" lemma="PAUTENIER" partition="train" sense-id="mnw.41964.sense.1" xml:id="c41964_0003">
+        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.1711">
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c41964_0003.w.134230">Hi</w>
+          <w cert="1.0" lemma="zeggen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c41964_0003.w.134231">seide</w>
+          <pc pos="LET" xml:id="c41964_0003.pc.post.00050818">:</pc>
+          <w cert="1.0" lemma="pautenier" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41964.sense.1" xml:id="c41964_0003.w.134232">pautenier</w>
+          <pc pos="LET" xml:id="c41964_0003.pc.floating.00050819">,</pc>
+          <w cert="1.0" lemma="glottoen" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c41964_0003.w.134234">glottoen</w>
+          <pc pos="LET" xml:id="c41964_0003.pc.post.00050820">,</pc>
+          <w cert="1.0" lemma="dus" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c41964_0003.w.134235">dus</w>
+          <w cert="1.0" lemma="ne" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c41964_0003.w.134236">en</w>
+          <w cert="1.0" lemma="zijn+gij" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c41964_0003.w.134237">sidi</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c41964_0003.w.134238">niet</w>
+          <w cert="1.0" lemma="ontvlieden" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c41964_0003.w.134239">ontfloen</w>
+          <pc pos="LET" xml:id="c41964_0003.pc.post.00050821">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

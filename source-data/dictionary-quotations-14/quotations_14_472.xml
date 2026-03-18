@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>472</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.11528" lemma="GELEREN" partition="train" sense-id="mnw.11528.sense.2" xml:id="c11528_0002">
+        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.472">
+          <w cert="1.0" lemma="zo" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c11528_0002.w.897814">So</w>
+          <w cert="1.0" lemma="uitschieten" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c11528_0002.w.897815">scieten<join n="mw_532955" />
+          </w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11528_0002.w.897816">si</w>
+          <pc join="right" pos="LET" xml:id="c11528_0002.pc.pre.00381299">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c11528_0002.w.897817">de</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c11528_0002.w.897818">slakken</w>
+          <pc pos="LET" xml:id="c11528_0002.pc.post.00381300">)</pc>
+          <w cert="1.0" lemma="uitschieten" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c11528_0002.w.897819">uut<join n="mw_532955" />
+          </w>
+          <pc pos="LET" xml:id="c11528_0002.pc.post.00381301">,</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c11528_0002.w.897820">ende</w>
+          <w cert="1.0" lemma="ne" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c11528_0002.w.897821">en</w>
+          <w cert="1.0" lemma="kunnen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c11528_0002.w.897822">connen</w>
+          <w cert="1.0" lemma="geleren" lexicon="byt5" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.11528.sense.2" xml:id="c11528_0002.w.897823">gheleren</w>
+          <w cert="1.0" lemma="hem" lexicon="molex" pos="PD(type=refl,position=free)" resp="roland" xml:id="c11528_0002.w.897824">hem</w>
+          <w cert="1.0" lemma="zelf" lexicon="hilex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c11528_0002.w.897825">selven</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c11528_0002.w.897826">niet</w>
+          <w cert="1.0" lemma="omkeren" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11528_0002.w.897827">ommekeren</w>
+          <pc pos="LET" xml:id="c11528_0002.pc.post.00381302">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

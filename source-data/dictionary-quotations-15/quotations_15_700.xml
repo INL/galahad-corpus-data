@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>700</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.28319" lemma="MATIERE" partition="train" sense-id="mnw.28319.sense.2" xml:id="c28319_0001">
+        <date atLeast="1405" atMost="1405" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.700">
+          <w cert="1.0" lemma="gaarne" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c28319_0001.w.840506">Gherne</w>
+          <w cert="1.0" lemma="zullen+ik" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c28319_0001.w.840507">soudic</w>
+          <w cert="1.0" lemma="voort" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c28319_0001.w.840508">voort</w>
+          <w cert="1.0" lemma="ontbinden" lexicon="molex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c28319_0001.w.840509">ontbinden</w>
+          <w cert="1.0" lemma="mijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c28319_0001.w.840510">mine</w>
+          <w cert="1.0" lemma="reden" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c28319_0001.w.840511">redene</w>
+          <pc pos="LET" xml:id="c28319_0001.pc.post.00326131">,</pc>
+          <w cert="1.0" lemma="kunnen+ik" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c28319_0001.w.840512">constic</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28319_0001.w.840513">se</w>
+          <w cert="1.0" lemma="vinden" lexicon="molex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c28319_0001.w.840514">vinden</w>
+          <pc pos="LET" xml:id="c28319_0001.pc.post.00326132">,</pc>
+          <w cert="1.0" lemma="mijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c28319_0001.w.840515">mine</w>
+          <w cert="1.0" lemma="matire" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28319.sense.2" xml:id="c28319_0001.w.840516">matiere</w>
+          <pc pos="LET" xml:id="c28319_0001.pc.floating.00326133">,</pc>
+          <w cert="1.0" lemma="daar" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c28319_0001.w.840518">daer</w>
+          <w cert="1.0" lemma="ik" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c28319_0001.w.840519">ic</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28319_0001.w.840520">se</w>
+          <w cert="1.0" lemma="laten" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c28319_0001.w.840521">liet</w>
+          <pc pos="LET" xml:id="c28319_0001.pc.post.00326134">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

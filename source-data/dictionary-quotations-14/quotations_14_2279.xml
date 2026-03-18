@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2279</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.56410" lemma="SUUTCANT" partition="train" sense-id="mnw.56410.sense.1" xml:id="c56410_0000">
+        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2279">
+          <w cert="1.0" lemma="Grieken" lexicon="molex" pos="NOU-P" resp="roland" xml:id="c56410_0000.w.1829971">Grieken</w>
+          <w cert="1.0" lemma="hebben" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c56410_0000.w.1829972">hevet</w>
+          <pc join="right" pos="LET" xml:id="c56410_0000.pc.pre.00755499">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c56410_0000.w.1829973">heeft</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c56410_0000.w.1829974">het</w>
+          <pc pos="LET" xml:id="c56410_0000.pc.post.00755500">,</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="roland" xml:id="c56410_0000.w.1829975">Cyprus</w>
+          <pc pos="LET" xml:id="c56410_0000.pc.post.00755501">)</pc>
+          <w cert="1.0" lemma="aan" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c56410_0000.w.1829976">an</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56410_0000.w.1829977">die</w>
+          <w cert="1.0" lemma="noordzijde" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c56410_0000.w.1829978">nortside</w>
+          <pc pos="LET" xml:id="c56410_0000.pc.post.00755502">,</pc>
+          <w cert="1.0" lemma="Egypte" lexicon="byt5" pos="NOU-P" resp="roland" xml:id="c56410_0000.w.1829979">Egypten</w>
+          <w cert="1.0" lemma="aan+de" lexicon="byt5" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56410_0000.w.1829980">anden</w>
+          <w cert="1.0" lemma="zuider" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.56410.sense.1" xml:id="c56410_0000.w.1829981">zuderen</w>
+          <w cert="1.0" lemma="kant" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.56410.sense.1" xml:id="c56410_0000.w.1829982">kant</w>
+          <pc pos="LET" xml:id="c56410_0000.pc.floating.00755503">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

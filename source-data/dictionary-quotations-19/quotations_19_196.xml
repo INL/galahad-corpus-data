@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>196</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="A003884" lemma="DEDICEEREN" modern-lemma="dediceren" partition="train" pos="VRB" sense-id="A003884.bet.1" xml:id="A003884.eg.21603">
+        <date atLeast="1847" atMost="1847" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.196">
+          <w cert="1.0" lemma="dediceren" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" sense-id="A003884.bet.1" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145084">Dediceren</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0046874">,</pc>
+          <w cert="1.0" lemma="Latijn" lexicon="byt5" pos="NOU-P(WF=abbr)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145085">lat.</w>
+          <pc join="right" pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.pre.0046876">(</pc>
+          <w cert="1.0" lemma="dedicare" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145086">dedicare</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0046877">),</pc>
+          <w cert="1.0" lemma="toe-eigenen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145087">toeeigenen</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0046878">,</pc>
+          <w cert="1.0" lemma="toewijden" lexicon="molex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145088">toewijden</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0046879">,</pc>
+          <w cert="1.0" lemma="opdragen" lexicon="molex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145089">opdragen</w>
+          <w cert="1.0" lemma="bijvoorbeeld" lexicon="byt5" pos="ADV(type=reg,WF=abbr)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145090">b.v.</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145091">een</w>
+          <w cert="1.0" lemma="boek" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145092">boek</w>
+          <w cert="1.0" lemma="aan" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145093">aan</w>
+          <w cert="1.0" lemma="iemand" lexicon="molex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.145094">iemand</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0046881">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

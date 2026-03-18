@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>868</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.34771" lemma="ONDERSIELE" partition="train" sense-id="mnw.34771.sense.1" xml:id="c34771_0000">
+        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.868">
+          <w cert="1.0" lemma="te+dat" lexicon="molex" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c34771_0000.w.266160">Ten</w>
+          <w cert="1.0" lemma="eerste" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c34771_0000.w.266161">yersten</w>
+          <w cert="1.0" lemma="tot" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c34771_0000.w.266162">tot</w>
+          <w cert="1.0" lemma="haar" lexicon="byt5" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c34771_0000.w.266163">hooren</w>
+          <w cert="1.0" lemma="hemd" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c34771_0000.w.266164">hemd</w>
+          <pc join="right" pos="LET" xml:id="c34771_0000.pc.pre.00110171">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c34771_0000.w.266165">zal</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c34771_0000.w.266166">zij</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c34771_0000.w.266167">zeggen</w>
+          <pc pos="LET" xml:id="c34771_0000.pc.post.00110172">)</pc>
+          <w cert="1.0" lemma="vijf" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c34771_0000.w.266168">V</w>
+          <w cert="1.0" lemma="ave maria" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c34771_0000.w.266169">Ave<join n="mw_383494" />
+          </w>
+          <w cert="1.0" lemma="ave maria" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c34771_0000.w.266170">Maria<join n="mw_383494" />
+          </w>
+          <pc pos="LET" xml:id="c34771_0000.pc.post.00110173">,</pc>
+          <w cert="1.0" lemma="toe" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c34771_0000.w.266171">to</w>
+          <w cert="1.0" lemma="haar" lexicon="byt5" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c34771_0000.w.266172">hoor</w>
+          <w cert="1.0" lemma="onderziel" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.34771.sense.1" xml:id="c34771_0000.w.266173">onderziel</w>
+          <w cert="1.0" lemma="tien" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c34771_0000.w.266174">X</w>
+          <w cert="1.0" lemma="ave maria" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c34771_0000.w.266175">Ave<join n="mw_963833" />
+          </w>
+          <w cert="1.0" lemma="ave maria" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c34771_0000.w.266176">Maria<join n="mw_963833" />
+          </w>
+          <pc pos="LET" xml:id="c34771_0000.pc.post.00110174">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1320</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M077843" lemma="VERSCHANSEN" modern-lemma="verschansen" partition="train" pos="VRB" sense-id="M077843.bet.12" xml:id="M077843.eg.30828">
+        <date atLeast="1710" atMost="1710" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.1320">
+          <w cert="1.0" lemma="verschansen" lexicon="byt5" pos="VRB(finiteness=inf)" resp="roland" sense-id="M077843.bet.12" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.395965">Verschanssen</w>
+          <pc pos="LET" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00132485">.</pc>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.395966">Met</w>
+          <w cert="1.0" lemma="schans" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.395967">schanssen</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.395968">en</w>
+          <w cert="1.0" lemma="borstwering" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.395969">borstweeringen</w>
+          <w cert="1.0" lemma="voorzien" lexicon="molex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.395970">voorzien</w>
+          <pc pos="LET" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00132486">.</pc>
+          <w cert="1.0" lemma="Fortifier" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.395971">Fortifier</w>
+          <pc pos="LET" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00132487">,</pc>
+          <w cert="1.0" lemma="retrancher" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.395972">retrancher</w>
+          <pc pos="LET" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00132488">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

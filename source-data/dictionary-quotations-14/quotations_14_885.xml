@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>885</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.22424" lemma="COELEN" partition="test" sense-id="mnw.22424.sense.13" xml:id="c22424_0036">
+        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.885">
+          <w cert="1.0" lemma="laten" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c22424_0036.w.1142206">Laet</w>
+          <w cert="1.0" lemma="koelen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.22424.sense.13" xml:id="c22424_0036.w.1142207">coelen</w>
+          <pc join="right" pos="LET" xml:id="c22424_0036.pc.pre.00460867">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c22424_0036.w.1142208">de</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c22424_0036.w.1142209">spijs</w>
+          <pc pos="LET" xml:id="c22424_0036.pc.post.00460868">)</pc>
+          <pc pos="LET" xml:id="c22424_0036.pc.floating.00460869">,</pc>
+          <w cert="1.0" lemma="eer" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c22424_0036.w.1142211">eer</w>
+          <w cert="1.0" lemma="du" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c22424_0036.w.1142212">du</w>
+          <w cert="1.0" lemma="beginnen" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c22424_0036.w.1142213">beghints</w>
+          <w cert="1.0" lemma="eten" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c22424_0036.w.1142214">eten</w>
+          <pc pos="LET" xml:id="c22424_0036.pc.post.00460870">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

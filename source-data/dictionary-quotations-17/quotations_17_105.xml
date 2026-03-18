@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>105</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M004600" lemma="AVERIJ" modern-lemma="unk" partition="train" pos="unk" sense-id="S004972.bet.8" xml:id="S004972.eg.36008">
+        <date atLeast="1631" atMost="1631" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.105">
+          <w cert="1.0" lemma="averij" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="S004972.bet.8" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.821853">Avarie</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.821854">is</w>
+          <w cert="1.0" lemma="tweeërhande" lexicon="hilex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.821855">tweederhande</w>
+          <pc pos="LET" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.pc.post.0253943">:</pc>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.821856">te</w>
+          <w cert="1.0" lemma="weten" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.821857">weten</w>
+          <pc pos="LET" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.pc.post.0253944">,</pc>
+          <w cert="1.0" lemma="commuun" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.821858">commune</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.821859">ende</w>
+          <w cert="1.0" lemma="averij-grosse" lexicon="molex" pos="NOU-C(number=sg,WF=trunc)" resp="roland" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.821860">grosse</w>
+          <pc pos="LET" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.pc.post.0253945">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

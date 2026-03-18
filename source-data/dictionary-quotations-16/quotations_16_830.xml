@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>830</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M070449" lemma="TRIOMFAAL" modern-lemma="triomfaal" partition="train" pos="AA" sense-id="M070449.bet.2" xml:id="M070449.eg.49506">
+        <date atLeast="1540" atMost="1540" timeSpan="1500-1550" />
+        <q xml:id="no_doc_id.s.830">
+          <w cert="1.0" lemma="cement" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704072">Sement</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704073">ende</w>
+          <w cert="1.0" lemma="kalk" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704074">calck</w>
+          <w cert="1.0" lemma="tot+de" lexicon="hilex" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704075">totte</w>
+          <w cert="1.0" lemma="ark" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704076">Arcke</w>
+          <w cert="1.0" lemma="triomfaal" lexicon="byt5" pos="AA(degree=pos,position=postnom)" resp="thomas" sense-id="M070449.bet.2" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704077">trumphale</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704078">ende</w>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704079">die</w>
+          <w cert="1.0" lemma="pijler" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704080">pylers</w>
+          <w cert="1.0" lemma="enzovoort|enzovoorts" lexicon="byt5" pos="ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.704081">enz.,</w>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

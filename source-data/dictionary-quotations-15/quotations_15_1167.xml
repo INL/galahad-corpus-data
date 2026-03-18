@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1167</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.45502" lemma="RECHTSCULDICH" partition="train" sense-id="mnw.45502.sense.1" xml:id="c45502_0000">
+        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1167">
+          <w cert="1.0" lemma="toen" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c45502_0000.w.813266">Doe</w>
+          <w cert="1.0" lemma="zoeken+men" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c45502_0000.w.813267">sochtmen</w>
+          <w cert="1.0" lemma="alom" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c45502_0000.w.813268">alom</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c45502_0000.w.813269">ende</w>
+          <w cert="1.0" lemma="vinden+hij" lexicon="molex" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c45502_0000.w.813270">vonden</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45502_0000.w.813271">den</w>
+          <w cert="1.0" lemma="rechtschuldig" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.45502.sense.1" xml:id="c45502_0000.w.813272">rechtsculdighen</w>
+          <w cert="1.0" lemma="man" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c45502_0000.w.813273">man</w>
+          <pc pos="LET" xml:id="c45502_0000.pc.post.00319132">,</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c45502_0000.w.813274">die</w>
+          <w cert="1.0" lemma="kwalijk" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c45502_0000.w.813275">qualiken</w>
+          <w cert="1.0" lemma="handelen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c45502_0000.w.813276">ghehandelt</w>
+          <w cert="1.0" lemma="worden" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c45502_0000.w.813277">wert</w>
+          <pc pos="LET" xml:id="c45502_0000.pc.post.00319133">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

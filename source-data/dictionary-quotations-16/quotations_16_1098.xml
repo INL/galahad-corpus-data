@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1098</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M075547" lemma="VERGADEREN" modern-lemma="vergaderen" partition="train" pos="VRB" sense-id="M075547.bet.4" xml:id="M075547.eg.16569">
+        <date atLeast="1526" atMost="1526" timeSpan="1500-1550" />
+        <q xml:id="no_doc_id.s.1098">
+          <w cert="1.0" lemma="vergaderen" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="M075547.bet.4" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192561">Vergadert</w>
+          <w cert="1.0" lemma="uw" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192562">v</w>
+          <w cert="1.0" lemma="vee" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192563">vee</w>
+          <pc pos="LET" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.pc.post.00061567">,</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192564">ende</w>
+          <w cert="1.0" lemma="al+dat" lexicon="hilex" pos="PD(type=indef,position=free)+PD(type=d-p,position=free)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192565">aldat</w>
+          <w cert="1.0" lemma="gij" lexicon="byt5" pos="PD(type=pers,position=free)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192566">ghi</w>
+          <w cert="1.0" lemma="op+het" lexicon="byt5" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192567">opten</w>
+          <w cert="1.0" lemma="veld" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192568">velde</w>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.192569">hebt</w>
+          <pc pos="LET" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.pc.post.00061568">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

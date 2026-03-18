@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1661</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M086144" lemma="WIJDGAPEND" modern-lemma="wijdgapend" partition="train" pos="AA" sense-id="M086144.bet.3" xml:id="M086144.eg.1311">
+        <date atLeast="1552" atMost="1552" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.1661">
+          <w cert="1.0" lemma="vulnus" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1681970">Vulnus.</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1681971">een</w>
+          <w cert="1.0" lemma="wonde" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1681972">wonde</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00543430">.</pc>
+          <w cert="1.0" lemma="vulnus" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1681973">Vulnus</w>
+          <w cert="1.0" lemma="hians" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1681974">Hians</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00543431">,</pc>
+          <w cert="1.0" lemma="wijd" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="M086144.bet.3" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1681975">wijt</w>
+          <w cert="1.0" lemma="gapen" lexicon="hilex" pos="VRB(finiteness=prespart)" resp="roland" sense-id="M086144.bet.3" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1681976">gapende</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00543432">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

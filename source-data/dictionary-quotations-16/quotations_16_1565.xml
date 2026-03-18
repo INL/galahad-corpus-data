@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1565</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M084298" lemma="WEDERHALEN" modern-lemma="wederhalen" partition="train" pos="VRB" sense-id="M084298.bet.7" xml:id="M084298.eg.33039">
+        <date atLeast="1504" atMost="1504" timeSpan="1500-1550" />
+        <q xml:id="no_doc_id.s.1565">
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1945046">Die</w>
+          <w cert="1.0" lemma="dood" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1945047">doot</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1945048">is</w>
+          <pc pos="LET" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.pc.post.00639067">,</pc>
+          <w cert="1.0" lemma="men" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1945049">men</w>
+          <w cert="1.0" lemma="kunnen+zij" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1945050">canse</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1945051">niet</w>
+          <w cert="1.0" lemma="weder" lexicon="molex" pos="ADV(type=reg)" resp="roland" sense-id="M084298.bet.7" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1945052">weer</w>
+          <w cert="1.0" lemma="halen" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" sense-id="M084298.bet.7" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1945053">halen</w>
+          <pc pos="LET" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.pc.post.00639068">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1563</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.56785" lemma="SWIGEN" partition="train" sense-id="mnw.56785.sense.2" xml:id="c56785_0030">
+        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1563">
+          <w cert="1.0" lemma="du" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c56785_0030.w.1904337">Du</w>
+          <w cert="1.0" lemma="zwijgen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.56785.sense.2" xml:id="c56785_0030.w.1904338">swichs</w>
+          <w cert="1.0" lemma="al" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c56785_0030.w.1904339">al</w>
+          <w cert="1.0" lemma="stil" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c56785_0030.w.1904340">stille</w>
+          <pc pos="LET" xml:id="c56785_0030.pc.post.00787613">,</pc>
+          <w cert="1.0" lemma="du+ne" lexicon="byt5" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="thomas" xml:id="c56785_0030.w.1904341">dune</w>
+          <w cert="1.0" lemma="waren" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c56785_0030.w.1904342">wers</w>
+          <w cert="1.0" lemma="du" lexicon="byt5" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c56785_0030.w.1904343">di</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c56785_0030.w.1904344">niet</w>
+          <pc pos="LET" xml:id="c56785_0030.pc.post.00787614">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2782</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.66638" lemma="VLEC" partition="test" sense-id="mnw.66638.sense.1" xml:id="c66638_0001">
+        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.2782">
+          <w cert="1.0" lemma="gekocht" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c66638_0001.w.438288">Ghecocht</w>
+          <w cert="1.0" lemma="rundvlees" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c66638_0001.w.438289">rendvleesch</w>
+          <pc pos="LET" xml:id="c66638_0001.pc.post.00175118">,</pc>
+          <w cert="1.0" lemma="weren" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c66638_0001.w.438290">wederin</w>
+          <w cert="1.0" lemma="vlees" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66638_0001.w.438291">vleesch</w>
+          <pc pos="LET" xml:id="c66638_0001.pc.post.00175119">,</pc>
+          <w cert="1.0" lemma="vlek" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.66638.sense.1" xml:id="c66638_0001.w.438292">vleken</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c66638_0001.w.438293">ende</w>
+          <w cert="1.0" lemma="ham" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c66638_0001.w.438294">hammen</w>
+          <pc pos="LET" xml:id="c66638_0001.pc.post.00175120">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

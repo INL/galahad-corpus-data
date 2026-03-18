@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>51</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.01968" lemma="AVENTURE" partition="train" sense-id="mnw.01968.sense.42" xml:id="c01968_0171">
+        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.51">
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c01968_0171.w.355565">Dat</w>
+          <w cert="1.0" lemma="gij" lexicon="byt5" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c01968_0171.w.355566">ghi</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c01968_0171.w.355567">niet</w>
+          <w cert="1.0" lemma="ne" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c01968_0171.w.355568">en</w>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c01968_0171.w.355569">sult</w>
+          <w cert="1.0" lemma="wanhopen" lexicon="molex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c01968_0171.w.355570">wanhopen</w>
+          <pc pos="LET" xml:id="c01968_0171.pc.post.00140803">,</pc>
+          <w cert="1.0" lemma="al" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c01968_0171.w.355571">al</w>
+          <w cert="1.0" lemma="hebben" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c01968_0171.w.355572">hevet</w>
+          <w cert="1.0" lemma="gij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c01968_0171.w.355573">u</w>
+          <w cert="1.0" lemma="de+avontuur" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.01968.sense.42" xml:id="c01968_0171.w.355574">daventure</w>
+          <w cert="1.0" lemma="belopen" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c01968_0171.w.355575">belopen</w>
+          <pc pos="LET" xml:id="c01968_0171.pc.post.00140804">,</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c01968_0171.w.355576">die</w>
+          <w cert="1.0" lemma="allerwegen" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c01968_0171.w.355577">alleweghe</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c01968_0171.w.355578">es</w>
+          <w cert="1.0" lemma="ongestade" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c01968_0171.w.355579">onghestade</w>
+          <pc pos="LET" xml:id="c01968_0171.pc.post.00140805">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

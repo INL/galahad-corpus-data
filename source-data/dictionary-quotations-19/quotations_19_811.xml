@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>811</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M060796" lemma="RONDLOOPEN" modern-lemma="rondlopen" partition="train" pos="VRB" sense-id="M060796.bet.11" xml:id="M060796.eg.18336">
+        <date atLeast="1896" atMost="1896" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.811">
+          <w cert="1.0" lemma="tegen" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938296">Tegen</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938297">den</w>
+          <w cert="1.0" lemma="middag" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938298">middag</w>
+          <w cert="1.0" lemma="rondlopen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="M060796.bet.11" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938299">liep<join n="mw_730873" />
+          </w>
+          <w cert="1.0" lemma="zij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938300">ze</w>
+          <pc join="right" pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.pre.00294791">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938301">de</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938302">poes</w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00294792">)</pc>
+          <w cert="1.0" lemma="klagen" lexicon="molex" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938303">klagend</w>
+          <w cert="1.0" lemma="rondlopen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="M060796.bet.11" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938304">rond<join n="mw_730873" />
+          </w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00294793">,</pc>
+          <w cert="1.0" lemma="al" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938305">alle</w>
+          <w cert="1.0" lemma="hoekje" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938306">hoekjes</w>
+          <w cert="1.0" lemma="besnuffelen" lexicon="molex" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.938307">besnuffelend</w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00294794">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

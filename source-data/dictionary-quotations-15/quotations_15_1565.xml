@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1565</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.56785" lemma="SWIGEN" partition="train" sense-id="mnw.56785.sense.2" xml:id="c56785_0031">
+        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1565">
+          <w cert="1.0" lemma="God" lexicon="hilex" pos="NOU-P" resp="roland" xml:id="c56785_0031.w.1904354">God</w>
+          <w cert="1.0" lemma="ons" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c56785_0031.w.1904355">onse</w>
+          <w cert="1.0" lemma="heer" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c56785_0031.w.1904356">Here</w>
+          <w cert="1.0" lemma="zwijgen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.56785.sense.2" xml:id="c56785_0031.w.1904357">swech</w>
+          <pc join="right" pos="LET" xml:id="c56785_0031.pc.pre.00787622">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="roland" xml:id="c56785_0031.w.1904358">d.</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c56785_0031.w.1904359">i.</w>
+          <w cert="1.0" lemma="" lexicon="hilex" pos="" resp="thomas" xml:id="c56785_0031.w.1904360">sweech</w>
+          <pc pos="LET" xml:id="c56785_0031.pc.post.00787625">)</pc>
+          <w cert="1.0" lemma="al" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c56785_0031.w.1904361">al</w>
+          <w cert="1.0" lemma="stil" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c56785_0031.w.1904362">stille</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c56785_0031.w.1904363">ende</w>
+          <w cert="1.0" lemma="zuchten" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56785_0031.w.1904364">suchte</w>
+          <w cert="1.0" lemma="zeer" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c56785_0031.w.1904365">sere</w>
+          <pc pos="LET" xml:id="c56785_0031.pc.post.00787626">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

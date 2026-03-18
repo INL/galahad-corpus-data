@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1115</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M062445" lemma="SCHELDEN" modern-lemma="schelden" partition="train" pos="VRB" sense-id="M062445.sense.2" xml:id="M062445.eg.6022">
+        <date atLeast="1611" atMost="1611" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.1115">
+          <w cert="1.0" lemma="ik" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589171">Ick</w>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589172">sal</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589173">Niet</w>
+          <w cert="1.0" lemma="meer" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589174">meer</w>
+          <w cert="1.0" lemma="beschulden" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589175">beschulden</w>
+          <w cert="1.0" lemma="u" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589176">u</w>
+          <pc pos="LET" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.pc.post.0184316">,</pc>
+          <w cert="1.0" lemma="maar" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589177">maar</w>
+          <w cert="1.0" lemma="schelden" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" sense-id="M062445.sense.2" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589178">schelden</w>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589179">'t</w>
+          <w cert="1.0" lemma="wreed" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589180">wreet</w>
+          <w cert="1.0" lemma="geval" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.589181">gheval</w>
+          <pc pos="LET" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.pc.post.0184317">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>85</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.02956" lemma="BEKEER" partition="train" sense-id="mnw.02956.sense.1" xml:id="c02956_0000">
+        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.85">
+          <w cert="1.0" lemma="zonder" lexicon="hilex" pos="ADP(type=pre)" resp="roland" xml:id="c02956_0000.w.554981">Sonder</w>
+          <w cert="1.0" lemma="bekennis" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c02956_0000.w.554982">bekennisse</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c02956_0000.w.554983">haers</w>
+          <w cert="1.0" lemma="zelf" lexicon="hilex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c02956_0000.w.554984">selfs</w>
+          <pc pos="LET" xml:id="c02956_0000.pc.post.00216829">,</pc>
+          <w cert="1.0" lemma="zonder" lexicon="hilex" pos="ADP(type=pre)" resp="roland" xml:id="c02956_0000.w.554985">sonder</w>
+          <w cert="1.0" lemma="bekeer" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.02956.sense.1" xml:id="c02956_0000.w.554986">bekeer</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c02956_0000.w.554987">ende</w>
+          <w cert="1.0" lemma="rouw" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c02956_0000.w.554988">rouwe</w>
+          <pc pos="LET" xml:id="c02956_0000.pc.post.00216830">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

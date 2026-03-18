@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>547</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M048717" lemma="OPHOUDING" modern-lemma="ophouding" partition="train" pos="NOU-C" sense-id="M048717.bet.5" xml:id="M048717.eg.13339">
+        <date atLeast="1740" atMost="1740" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.547">
+          <w cert="1.0" lemma="ophouding" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" sense-id="M048717.bet.5" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.141476">Ophouding</w>
+          <pc pos="LET" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.pc.post.0044165">,</pc>
+          <w cert="1.0" lemma="interruptie" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.141477">interruptie</w>
+          <pc pos="LET" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.pc.post.0044166">,</pc>
+          <w cert="1.0" lemma="of" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.141478">of</w>
+          <w cert="1.0" lemma="onbehoorlijk" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.141479">onbehoorlyk</w>
+          <w cert="1.0" lemma="délai" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.141480">Delay</w>
+          <pc join="right" pos="LET" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.pc.pre.0044167">(</pc>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.141481">in</w>
+          <w cert="1.0" lemma="procedure" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.141482">proceduren</w>
+          <pc pos="LET" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.pc.post.0044168">),</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

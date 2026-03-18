@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>150</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.03341" lemma="BERECHTEN" partition="test" sense-id="mnw.03341.sense.8" xml:id="c03341_0020">
+        <date atLeast="1301" atMost="1310" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.150">
+          <w cert="1.0" lemma="hij" lexicon="byt5" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c03341_0020.w.653850">Hie</w>
+          <w cert="1.0" lemma="mogen+zij" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c03341_0020.w.653851">machse</w>
+          <pc join="right" pos="LET" xml:id="c03341_0020.pc.pre.00254819">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c03341_0020.w.653852">de</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c03341_0020.w.653853">keuren</w>
+          <pc pos="LET" xml:id="c03341_0020.pc.post.00254820">)</pc>
+          <w cert="1.0" lemma="keren" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03341_0020.w.653854">keren</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c03341_0020.w.653855">ende</w>
+          <w cert="1.0" lemma="bedwingen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03341_0020.w.653856">bedwinghen</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c03341_0020.w.653857">ende</w>
+          <w cert="1.0" lemma="berechten" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.03341.sense.8" xml:id="c03341_0020.w.653858">berechten</w>
+          <w cert="1.0" lemma="om" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c03341_0020.w.653859">omme</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03341_0020.w.653860">der</w>
+          <w cert="1.0" lemma="meentocht" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c03341_0020.w.653861">meentucht</w>
+          <w cert="1.0" lemma="bederf" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c03341_0020.w.653862">bedarve</w>
+          <pc join="right" pos="LET" xml:id="c03341_0020.pc.pre.00254821">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c03341_0020.w.653863">ajousteir</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c03341_0020.w.653864">in</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c03341_0020.w.653865">de</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c03341_0020.w.653866">oorspronkelijke</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c03341_0020.w.653867">vertaling</w>
+          <pc pos="LET" xml:id="c03341_0020.pc.post.00254822">)</pc>
+          <pc pos="LET" xml:id="c03341_0020.pc.floating.00254823">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

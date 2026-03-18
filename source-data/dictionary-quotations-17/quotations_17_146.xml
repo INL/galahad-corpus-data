@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>146</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M006978" lemma="BEMUREN" modern-lemma="bemuren" partition="train" pos="VRB" sense-id="M006978.bet.4" xml:id="M006978.eg.18011">
+        <date atLeast="1625" atMost="1625" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.146">
+          <w cert="1.0" lemma="boeien" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311196">Boeyt</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311197">en</w>
+          <w cert="1.0" lemma="ketenen" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311198">ketent</w>
+          <w cert="1.0" lemma="Mars" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311199">Mars</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.post.0100636">,</pc>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.floating.0100637">…</pc>
+          <w cert="1.0" lemma="bemuren" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="M006978.bet.4" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311201">bemuurt</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311202">hem</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311203">in</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311204">een</w>
+          <w cert="1.0" lemma="slot" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.311205">slot</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.post.0100638">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

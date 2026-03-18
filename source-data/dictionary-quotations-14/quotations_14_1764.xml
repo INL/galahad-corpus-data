@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1764</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.43294" lemma="POENTEN" partition="train" sense-id="mnw.43294.sense.3" xml:id="c43294_0002">
+        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.1764">
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c43294_0002.w.362580">Si</w>
+          <w cert="1.0" lemma="gaan" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43294_0002.w.362581">ginc</w>
+          <w cert="1.0" lemma="daar" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c43294_0002.w.362582">daer</w>
+          <w cert="1.0" lemma="punten" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.43294.sense.3" xml:id="c43294_0002.w.362583">poenten</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c43294_0002.w.362584">ende</w>
+          <w cert="1.0" lemma="viseren" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c43294_0002.w.362585">visieren</w>
+          <w cert="1.0" lemma="hoe" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c43294_0002.w.362586">hoe</w>
+          <w cert="1.0" lemma="men" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c43294_0002.w.362587">men</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c43294_0002.w.362588">die</w>
+          <w cert="1.0" lemma="heer" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c43294_0002.w.362589">heren</w>
+          <w cert="1.0" lemma="en+de" lexicon="byt5" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c43294_0002.w.362590">entie</w>
+          <w cert="1.0" lemma="soldier" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="c43294_0002.w.362591">scuwieren</w>
+          <pc join="right" pos="LET" xml:id="c43294_0002.pc.pre.00142220">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c43294_0002.w.362592">l.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c43294_0002.w.362593">soudieren</w>
+          <pc pos="LET" xml:id="c43294_0002.pc.post.00142222">?)</pc>
+          <w cert="1.0" lemma="al" lexicon="molex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c43294_0002.w.362594">alle</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c43294_0002.w.362595">in</w>
+          <w cert="1.0" lemma="Vlaanderen" lexicon="hilex" pos="NOU-P" resp="roland" xml:id="c43294_0002.w.362596">Vlaendren</w>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43294_0002.w.362597">soude</w>
+          <w cert="1.0" lemma="goeden" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c43294_0002.w.362598">goeden</w>
+          <pc pos="LET" xml:id="c43294_0002.pc.post.00142223">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

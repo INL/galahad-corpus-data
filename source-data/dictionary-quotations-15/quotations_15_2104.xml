@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2104</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.70315" lemma="WANGESLACH" partition="train" sense-id="mnw.70315.sense.1" xml:id="c70315_0001">
+        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.2104">
+          <w cert="1.0" lemma="wat" lexicon="molex" pos="PD(type=indef,position=free)" resp="roland" xml:id="c70315_0001.w.1246151">Wat</w>
+          <w cert="1.0" lemma="dank" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="c70315_0001.w.1246152">dancs</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c70315_0001.w.1246153">ende</w>
+          <w cert="1.0" lemma="lof" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="c70315_0001.w.1246154">loofs</w>
+          <pc pos="LET" xml:id="c70315_0001.pc.post.00499910">,</pc>
+          <w cert="1.0" lemma="o" lexicon="molex" pos="INT" resp="thomas" xml:id="c70315_0001.w.1246155">o</w>
+          <w cert="1.0" lemma="goedertieren" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c70315_0001.w.1246156">goedertieren</w>
+          <w cert="1.0" lemma="heer" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c70315_0001.w.1246157">heer</w>
+          <pc pos="LET" xml:id="c70315_0001.pc.post.00499911">,</pc>
+          <w cert="1.0" lemma="zullen+du" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c70315_0001.w.1246158">selstu</w>
+          <w cert="1.0" lemma="ontvangen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c70315_0001.w.1246159">ontfaen</w>
+          <w cert="1.0" lemma="voor" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c70315_0001.w.1246160">voor</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70315_0001.w.1246161">die</w>
+          <w cert="1.0" lemma="wangslag" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.70315.sense.1" xml:id="c70315_0001.w.1246162">wangheslaghen</w>
+          <pc pos="LET" xml:id="c70315_0001.pc.floating.00499912">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

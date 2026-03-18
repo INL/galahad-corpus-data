@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>3112</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.73101" lemma="WIEL" partition="train" sense-id="mnw.73101.sense.1" xml:id="c73101_0000">
+        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.3112">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73101_0000.w.1815599">Die</w>
+          <w cert="1.0" lemma="huis" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c73101_0000.w.1815600">huze</w>
+          <w cert="1.0" lemma="terneder" lexicon="byt5" pos="ADV(type=reg)" resp="thomas" xml:id="c73101_0000.w.1815601">ter<join n="mw_532630" />
+          </w>
+          <w cert="1.0" lemma="terneder" lexicon="byt5" pos="ADV(type=reg)" resp="thomas" xml:id="c73101_0000.w.1815602">neder<join n="mw_532630" />
+          </w>
+          <w cert="1.0" lemma="vallen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c73101_0000.w.1815603">vielen</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c73101_0000.w.1815604">ende</w>
+          <w cert="1.0" lemma="rollen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c73101_0000.w.1815605">rolleden</w>
+          <w cert="1.0" lemma="neder" lexicon="byt5" pos="ADV(type=reg)" resp="thomas" xml:id="c73101_0000.w.1815606">neder</w>
+          <w cert="1.0" lemma="gelijk" lexicon="hilex" pos="CONJ(type=sub)" resp="thomas" xml:id="c73101_0000.w.1815607">ghelijc</w>
+          <w cert="1.0" lemma="wiel" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.73101.sense.1" xml:id="c73101_0000.w.1815608">wielen</w>
+          <pc pos="LET" xml:id="c73101_0000.pc.floating.00716987">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

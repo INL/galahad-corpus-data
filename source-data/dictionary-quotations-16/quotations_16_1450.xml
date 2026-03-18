@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1450</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M081020" lemma="VLOEDIG" modern-lemma="vloeiig" partition="train" pos="AA ADV" sense-id="M081020.bet.1" xml:id="M081020.eg.40929">
+        <date atLeast="1573" atMost="1573" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.1450">
+          <w cert="1.0" lemma="vloeiig" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="M081020.bet.1" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.2187380">Vloedich</w>
+          <pc pos="LET" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00705654">,</pc>
+          <w cert="1.0" lemma="of" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.2187381">oft</w>
+          <w cert="1.0" lemma="vloeiig" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="M081020.bet.1" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.2187382">vloeyich</w>
+          <pc pos="LET" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00705655">.</pc>
+          <w cert="1.0" lemma="flottant" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.2187383">Flottant</w>
+          <pc pos="LET" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00705656">,</pc>
+          <w cert="1.0" lemma="coulant" lexicon="molex" pos="RES(type=for)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.2187384">coulant</w>
+          <pc pos="LET" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00705657">.</pc>
+          <w cert="1.0" lemma="fluidus" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.2187385">Fluidus</w>
+          <pc pos="LET" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00705658">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

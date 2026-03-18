@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>242</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.05215" lemma="BOTERMATE" partition="train" sense-id="mnw.05215.sense.1" xml:id="c05215_0001">
+        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.242">
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c05215_0001.w.997553">Van</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c05215_0001.w.997554">der</w>
+          <w cert="1.0" lemma="waag" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c05215_0001.w.997555">waghe</w>
+          <pc pos="LET" xml:id="c05215_0001.pc.post.00394786">,</pc>
+          <w cert="1.0" lemma="botermaat" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05215.sense.1" xml:id="c05215_0001.w.997556">buttermate</w>
+          <pc pos="LET" xml:id="c05215_0001.pc.floating.00394787">,</pc>
+          <w cert="1.0" lemma="mudpenning" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c05215_0001.w.997558">muddepenning</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c05215_0001.w.997559">ende</w>
+          <w cert="1.0" lemma="reep" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c05215_0001.w.997560">reep</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c05215_0001.w.997561">te</w>
+          <w cert="1.0" lemma="Horne" lexicon="hilex" pos="NOU-P" resp="roland" xml:id="c05215_0001.w.997562">Horne</w>
+          <pc pos="LET" xml:id="c05215_0001.pc.post.00394788">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

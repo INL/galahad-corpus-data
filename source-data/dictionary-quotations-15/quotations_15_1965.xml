@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1965</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.66442" lemma="VITSDOM" partition="train" sense-id="mnw.66442.sense.1" xml:id="c66442_0003">
+        <date atLeast="1419" atMost="1419" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1965">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66442_0003.w.411401">Die</w>
+          <w cert="1.0" lemma="trezorier" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66442_0003.w.411402">tresorier</w>
+          <pc pos="LET" xml:id="c66442_0003.pc.post.00163652">,</pc>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66442_0003.w.411403">die</w>
+          <w cert="1.0" lemma="vitsdom" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.66442.sense.1" xml:id="c66442_0003.w.411404">visdom</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="c66442_0003.w.411405">en</w>
+          <w cert="1.0" lemma="anders" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c66442_0003.w.411406">anders</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66442_0003.w.411407">die</w>
+          <w cert="1.0" lemma="heer" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c66442_0003.w.411408">heren</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c66442_0003.w.411409">van</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66442_0003.w.411410">den</w>
+          <w cert="1.0" lemma="raad" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c66442_0003.w.411411">rade</w>
+          <pc pos="LET" xml:id="c66442_0003.pc.post.00163653">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

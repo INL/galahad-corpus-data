@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1051</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.26208" lemma="LIJF" partition="train" sense-id="mnw.26208.sense.57" xml:id="c26208_0305">
+        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.1051">
+          <w cert="1.0" lemma="al" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c26208_0305.w.415609">Al</w>
+          <w cert="1.0" lemma="mogen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c26208_0305.w.415610">mochte</w>
+          <w cert="1.0" lemma="men" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c26208_0305.w.415611">men</w>
+          <w cert="1.0" lemma="haar" lexicon="molex" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c26208_0305.w.415612">hare</w>
+          <pc join="right" pos="LET" xml:id="c26208_0305.pc.pre.00161556">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415613">der</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415614">martelaren</w>
+          <pc pos="LET" xml:id="c26208_0305.pc.post.00161557">)</pc>
+          <w cert="1.0" lemma="lijf" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26208.sense.57" xml:id="c26208_0305.w.415615">live</w>
+          <pc join="right" pos="LET" xml:id="c26208_0305.pc.pre.00161558">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415616">mv</w>
+          <pc pos="LET" xml:id="c26208_0305.pc.post.00161559">.,</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415617">dat</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415618">zeldzaam</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415619">is</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415620">in</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415621">het</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415622">Mnl.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415623">als</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c26208_0305.w.415624">thans</w>
+          <pc pos="LET" xml:id="c26208_0305.pc.post.00161561">)</pc>
+          <w cert="1.0" lemma="schaden" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c26208_0305.w.415625">scaden</w>
+          <pc pos="LET" xml:id="c26208_0305.pc.post.00161562">,</pc>
+          <w cert="1.0" lemma="dat+geloof" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c26208_0305.w.415626">tgeloove</w>
+          <w cert="1.0" lemma="blijven" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c26208_0305.w.415627">bleef</w>
+          <pc pos="LET" xml:id="c26208_0305.pc.post.00161563">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

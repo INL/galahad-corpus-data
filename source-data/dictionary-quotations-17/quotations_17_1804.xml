@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1804</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M085836" lemma="WEZEN" modern-lemma="wezen" partition="train" pos="VRB" sense-id="M085836.bet.218" xml:id="M085836.eg.32543">
+        <date atLeast="1695" atMost="1695" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.1804">
+          <w cert="1.0" lemma="ondertussen" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382543">Ondertusschen</w>
+          <w cert="1.0" lemma="worden+er" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)+ADV(type=reg)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382544">wierd'er</w>
+          <w cert="1.0" lemma="ook" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382545">ook</w>
+          <w cert="1.0" lemma="vis" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382546">Visch</w>
+          <w cert="1.0" lemma="brengen" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382547">gebracht</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00445690">,</pc>
+          <w cert="1.0" lemma="welk" lexicon="molex" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382548">welke</w>
+          <w cert="1.0" lemma="enig" lexicon="hilex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382549">eenigen</w>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382550">hadden</w>
+          <w cert="1.0" lemma="wezen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" sense-id="M085836.bet.218" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382551">weezen</w>
+          <w cert="1.0" lemma="vangen" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1382552">vangen</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00445691">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>503</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.11821" lemma="GEMATE" partition="train" sense-id="mnw.11821.sense.4" xml:id="c11821_0020">
+        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.503">
+          <w cert="1.0" lemma="zoet" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11821_0020.w.971371">Soete</w>
+          <pc pos="LET" xml:id="c11821_0020.pc.post.00410523">,</pc>
+          <w cert="1.0" lemma="ootmoedig" lexicon="byt5" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11821_0020.w.971372">oemoedich</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c11821_0020.w.971373">ende</w>
+          <w cert="1.0" lemma="vroed" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11821_0020.w.971374">vroet</w>
+          <pc pos="LET" xml:id="c11821_0020.pc.post.00410524">,</pc>
+          <w cert="1.0" lemma="gemaat" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.11821.sense.4" xml:id="c11821_0020.w.971375">ghemate</w>
+          <pc pos="LET" xml:id="c11821_0020.pc.floating.00410525">..</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c11821_0020.w.971377">ende</w>
+          <w cert="1.0" lemma="gezeed" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11821_0020.w.971378">gheseet</w>
+          <pc pos="LET" xml:id="c11821_0020.pc.post.00410526">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

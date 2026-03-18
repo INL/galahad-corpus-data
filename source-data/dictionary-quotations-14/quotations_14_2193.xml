@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2193</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.54532" lemma="STAEN" partition="train" sense-id="mnw.54532.sense.73" xml:id="c54532_0303">
+        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.2193">
+          <w cert="1.0" lemma="Parijs" lexicon="hilex" pos="NOU-P" resp="roland" xml:id="c54532_0303.w.1399429">Parijs</w>
+          <pc pos="LET" xml:id="c54532_0303.pc.post.00580330">,</pc>
+          <pc pos="LET" xml:id="c54532_0303.pc.floating.00580331">…</pc>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c54532_0303.w.1399431">dat</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c54532_0303.w.1399432">niet</w>
+          <w cert="1.0" lemma="ver" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c54532_0303.w.1399433">verre</w>
+          <w cert="1.0" lemma="vandaan" lexicon="molex" pos="ADV(type=reg)" resp="roland" xml:id="c54532_0303.w.1399434">van<join n="mw_940620" />
+          </w>
+          <w cert="1.0" lemma="vandaan" lexicon="byt5" pos="ADV(type=reg)" resp="roland" xml:id="c54532_0303.w.1399435">dannen<join n="mw_940620" />
+          </w>
+          <w cert="1.0" lemma="staan" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.54532.sense.73" xml:id="c54532_0303.w.1399436">stoet</w>
+          <pc pos="LET" xml:id="c54532_0303.pc.floating.00580332">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1685</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M086702" lemma="WINTERAVOND" modern-lemma="winteravond" partition="train" pos="NOU-C" sense-id="M086702.bet.4" xml:id="M086702.eg.19392">
+        <date atLeast="1701" atMost="1701" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.1685">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259741">De</w>
+          <w cert="1.0" lemma="winteravond" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" sense-id="M086702.bet.4" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259742">winter<join n="mw_658132" />
+          </w>
+          <w cert="1.0" lemma="winteravond" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" sense-id="M086702.bet.4" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259743">avonden<join n="mw_658132" />
+          </w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259744">zyn</w>
+          <w cert="1.0" lemma="verdrietig" lexicon="molex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259745">verdrietig</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00084121">.</pc>
+          <w cert="1.0" lemma="les" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259746">Les</w>
+          <w cert="1.0" lemma="soirées" lexicon="hilex" pos="RES(type=for)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259747">soirées</w>
+          <w cert="1.0" lemma="d'hiver" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259748">d'hiver</w>
+          <w cert="1.0" lemma="sont" lexicon="hilex" pos="RES(type=for)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259749">sont</w>
+          <w cert="1.0" lemma="ennuyeuses" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.259750">ennuyeuses</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00084122">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>3039</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.72188" lemma="WELC" partition="train" sense-id="mnw.72188.sense.8" xml:id="c72188_0087">
+        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.3039">
+          <w cert="1.0" lemma="daar" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c72188_0087.w.1564984">Daer</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c72188_0087.w.1564985">was</w>
+          <w cert="1.0" lemma="vragen" lexicon="byt5" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c72188_0087.w.1564986">gevraget</w>
+          <w cert="1.0" lemma="welk" lexicon="hilex" pos="PD(type=w-p,position=free)" resp="thomas" sense-id="mnw.72188.sense.8" xml:id="c72188_0087.w.1564987">welc</w>
+          <pc join="right" pos="LET" xml:id="c72188_0087.pc.pre.00627379">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c72188_0087.w.1564988">wie</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c72188_0087.w.1564989">van</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c72188_0087.w.1564990">beiden</w>
+          <pc pos="LET" xml:id="c72188_0087.pc.post.00627380">)</pc>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c72188_0087.w.1564991">den</w>
+          <w cert="1.0" lemma="lieden" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c72188_0087.w.1564992">lieden</w>
+          <w cert="1.0" lemma="best" lexicon="molex" pos="AA(degree=sup,position=free)" resp="roland" xml:id="c72188_0087.w.1564993">best</w>
+          <w cert="1.0" lemma="behagen" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72188_0087.w.1564994">behaget</w>
+          <w cert="1.0" lemma="of" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="c72188_0087.w.1564995">ocht</w>
+          <w cert="1.0" lemma="vrouwe" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c72188_0087.w.1564996">vrouwe</w>
+          <w cert="1.0" lemma="Helena" lexicon="byt5" pos="NOU-P" resp="roland" xml:id="c72188_0087.w.1564997">Helene</w>
+          <w cert="1.0" lemma="of+de" lexicon="byt5" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72188_0087.w.1564998">ochtie</w>
+          <w cert="1.0" lemma="maagd" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c72188_0087.w.1564999">maget</w>
+          <pc pos="LET" xml:id="c72188_0087.pc.post.00627381">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

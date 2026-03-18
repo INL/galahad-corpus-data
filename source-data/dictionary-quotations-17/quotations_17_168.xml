@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>168</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M008136" lemma="BEVALLIGHEID" modern-lemma="bevalligheid" partition="dev" pos="NOU-C" sense-id="M008136.bet.1" xml:id="M008136.eg.29113">
+        <date atLeast="1640" atMost="1640" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.168">
+          <w cert="1.0" lemma="indien" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141346">Indien</w>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141347">'t</w>
+          <w cert="1.0" lemma="mijn" lexicon="molex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141348">mijn</w>
+          <w cert="1.0" lemma="lip" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141349">lippen</w>
+          <w cert="1.0" lemma="aan" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141350">aen</w>
+          <w cert="1.0" lemma="bevalligheid" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M008136.bet.1" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141351">bevalligheit</w>
+          <w cert="1.0" lemma="mogen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141352">moght</w>
+          <w cert="1.0" lemma="falen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141353">faelen</w>
+          <pc join="right" pos="LET" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.pc.pre.0046718">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141354">t.w.</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141355">aan</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.141356">overredingskracht</w>
+          <pc pos="LET" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.pc.post.0046720">),</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

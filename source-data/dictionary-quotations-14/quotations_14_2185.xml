@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2185</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.54349" lemma="SPREIDER" partition="train" sense-id="mnw.54349.sense.1" xml:id="c54349_0000">
+        <date atLeast="1343" atMost="1346" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2185">
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c54349_0000.w.1349664">Een</w>
+          <w cert="1.0" lemma="meester" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c54349_0000.w.1349665">meester</w>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c54349_0000.w.1349666">die</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c54349_0000.w.1349667">dat</w>
+          <w cert="1.0" lemma="vogelhuis" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c54349_0000.w.1349668">vooghelhuus</w>
+          <w cert="1.0" lemma="dekken" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c54349_0000.w.1349669">decte</w>
+          <pc pos="LET" xml:id="c54349_0000.pc.floating.00560313">…;</pc>
+          <w cert="1.0" lemma="item" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c54349_0000.w.1349671">item</w>
+          <w cert="1.0" lemma="een" lexicon="hilex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c54349_0000.w.1349672">enen</w>
+          <w cert="1.0" lemma="spreider" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.54349.sense.1" xml:id="c54349_0000.w.1349673">spreder</w>
+          <w cert="1.0" lemma="acht" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c54349_0000.w.1349674">8</w>
+          <w cert="1.0" lemma="dag" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c54349_0000.w.1349675">daghe</w>
+          <pc pos="LET" xml:id="c54349_0000.pc.post.00560314">,</pc>
+          <w cert="1.0" lemma="de+dag" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c54349_0000.w.1349676">sdaghes</w>
+          <w cert="1.0" lemma="vijf" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c54349_0000.w.1349677">5</w>
+          <w cert="1.0" lemma="denier" lexicon="molex" pos="NOU-C(number=sg,WF=abbr)" resp="roland" xml:id="c54349_0000.w.1349678">d</w>
+          <pc pos="LET" xml:id="c54349_0000.pc.post.00560315">.,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

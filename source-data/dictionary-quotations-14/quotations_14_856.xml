@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>856</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.21446" lemma="KETELCNAPE" partition="train" sense-id="mnw.21446.sense.1" xml:id="c21446_0001">
+        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.856">
+          <w cert="1.0" lemma="vetter" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="c21446_0001.w.971682">Vetteren</w>
+          <pc pos="LET" xml:id="c21446_0001.pc.post.00392779">,</pc>
+          <w cert="1.0" lemma="bleker" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="c21446_0001.w.971683">bleikeren</w>
+          <pc pos="LET" xml:id="c21446_0001.pc.post.00392780">,</pc>
+          <w cert="1.0" lemma="ketelknaap" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21446.sense.1" xml:id="c21446_0001.w.971684">ketelknapen</w>
+          <pc join="right" pos="LET" xml:id="c21446_0001.pc.pre.00392781">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c21446_0001.w.971685">hier</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21446_0001.w.971686">zouden</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21446_0001.w.971687">het</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21446_0001.w.971688">ook</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21446_0001.w.971689">brouwersknechts</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21446_0001.w.971690">kunnen</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21446_0001.w.971691">zijn</w>
+          <pc pos="LET" xml:id="c21446_0001.pc.post.00392782">)</pc>
+          <pc pos="LET" xml:id="c21446_0001.pc.floating.00392783">,</pc>
+          <w cert="1.0" lemma="vleeshouwer" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="c21446_0001.w.971693">vliescuweren</w>
+          <pc join="right" pos="LET" xml:id="c21446_0001.pc.pre.00392784">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21446_0001.w.971694">vleeschhouwers</w>
+          <pc pos="LET" xml:id="c21446_0001.pc.post.00392785">)</pc>
+          <pc pos="LET" xml:id="c21446_0001.pc.floating.00392786">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

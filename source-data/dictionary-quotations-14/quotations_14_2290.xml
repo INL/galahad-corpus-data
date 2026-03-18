@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2290</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.56670" lemma="SWEMMEN" partition="dev" sense-id="mnw.56670.sense.3" xml:id="c56670_0023">
+        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2290">
+          <pc join="right" pos="LET" xml:id="c56670_0023.pc.pre.00778732">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c56670_0023.w.1883334">Doe</w>
+          <pc pos="LET" xml:id="c56670_0023.pc.post.00778733">)</pc>
+          <w cert="1.0" lemma="bovenkomen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56670_0023.w.1883335">quam<join n="mw_301329" />
+          </w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c56670_0023.w.1883336">dat</w>
+          <w cert="1.0" lemma="hout" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c56670_0023.w.1883337">hout</w>
+          <w cert="1.0" lemma="bovenkomen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56670_0023.w.1883338">boven<join n="mw_301329" />
+          </w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c56670_0023.w.1883339">ende</w>
+          <w cert="1.0" lemma="zwemmen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.56670.sense.3" xml:id="c56670_0023.w.1883340">zwam</w>
+          <pc pos="LET" xml:id="c56670_0023.pc.floating.00778734">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

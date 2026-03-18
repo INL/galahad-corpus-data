@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>328</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M031318" lemma="KERKMEESTER" modern-lemma="kerkmeester" partition="train" pos="NOU-C" sense-id="M031318.bet.2" xml:id="M031318.eg.40945">
+        <date atLeast="1573" atMost="1573" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.328">
+          <w cert="1.0" lemma="kerkmeester" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M031318.bet.2" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.w.166464">Kercmeester</w>
+          <pc pos="LET" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.pc.post.0055632">,</pc>
+          <w cert="1.0" lemma="kerkbewaarder" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.w.166465">kercbewaerder</w>
+          <pc pos="LET" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.pc.post.0055633">.</pc>
+          <w cert="1.0" lemma="margueiller" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.w.166466">Margueiller</w>
+          <pc pos="LET" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.pc.post.0055634">,</pc>
+          <w cert="1.0" lemma="gardeur" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.w.166467">gardeur</w>
+          <w cert="1.0" lemma="du" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.w.166468">du</w>
+          <w cert="1.0" lemma="temple" lexicon="hilex" pos="RES(type=for)" resp="thomas" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.w.166469">temple</w>
+          <pc pos="LET" xml:id="dcb9064b-a0f0-45be-853a-455ac61f19cd.pc.post.0055635">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1709</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.41934" lemma="PATRIARKE" partition="train" sense-id="mnw.41934.sense.3" xml:id="c41934_0007">
+        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1709">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c41934_0007.w.130562">Die</w>
+          <w cert="1.0" lemma="Perzijn" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c41934_0007.w.130563">Persien</w>
+          <pc pos="LET" xml:id="c41934_0007.pc.floating.00049330">..</pc>
+          <w cert="1.0" lemma="winnen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c41934_0007.w.130565">wonnen</w>
+          <pc pos="LET" xml:id="c41934_0007.pc.floating.00049331">..</pc>
+          <w cert="1.0" lemma="Jeruzalem" lexicon="byt5" pos="NOU-P" resp="roland" xml:id="c41934_0007.w.130567">Jherusalem</w>
+          <pc pos="LET" xml:id="c41934_0007.pc.floating.00049332">..</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c41934_0007.w.130569">ende</w>
+          <w cert="1.0" lemma="vangen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c41934_0007.w.130570">vingen</w>
+          <pc pos="LET" xml:id="c41934_0007.pc.floating.00049333">…</pc>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c41934_0007.w.130572">den</w>
+          <w cert="1.0" lemma="patriarch" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41934.sense.3" xml:id="c41934_0007.w.130573">patriaerc</w>
+          <w cert="1.0" lemma="Zacharias" lexicon="byt5" pos="NOU-P" resp="roland" xml:id="c41934_0007.w.130574">Zakariën</w>
+          <pc pos="LET" xml:id="c41934_0007.pc.post.00049334">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

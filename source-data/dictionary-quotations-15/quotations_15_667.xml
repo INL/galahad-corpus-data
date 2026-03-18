@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>667</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.27009" lemma="LOSSCAERT" partition="train" sense-id="mnw.27009.sense.1" xml:id="c27009_0000">
+        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.667">
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c27009_0000.w.560499">Van</w>
+          <w cert="1.0" lemma="Luxemburg" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="c27009_0000.w.560500">Luthsenborch</w>
+          <w cert="1.0" lemma="heer" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27009_0000.w.560501">her</w>
+          <w cert="1.0" lemma="losaard" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.27009.sense.1" xml:id="c27009_0000.w.560502">loscaert</w>
+          <pc pos="LET" xml:id="c27009_0000.pc.floating.00217401">!</pc>
+          <w cert="1.0" lemma="nu" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c27009_0000.w.560504">nu</w>
+          <w cert="1.0" lemma="wederkeren" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c27009_0000.w.560505">keert<join n="mw_813277" />
+          </w>
+          <w cert="1.0" lemma="wederkeren" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c27009_0000.w.560506">weder<join n="mw_813277" />
+          </w>
+          <w cert="1.0" lemma="herwaart" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c27009_0000.w.560507">herwaert</w>
+          <pc pos="LET" xml:id="c27009_0000.pc.post.00217402">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>431</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.17596" lemma="HOET" partition="train" sense-id="mnw.17596.sense.1" xml:id="c17596_0004">
+        <date atLeast="1420" atMost="1420" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.431">
+          <w cert="1.0" lemma="twee" lexicon="molex" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c17596_0004.w.340144">Twee</w>
+          <w cert="1.0" lemma="hoed" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.17596.sense.1" xml:id="c17596_0004.w.340145">hoet</w>
+          <w cert="1.0" lemma="kalk" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="c17596_0004.w.340146">calcs</w>
+          <pc lemma="tien" lexicon="byt5" pos="NOU-C(number=sg,WF=abbr)" xml:id="c17596_0004.pc.floating.00139502">..,</pc>
+          <w cert="1.0" lemma="elk" lexicon="hilex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c17596_0004.w.340148">elc</w>
+          <w cert="1.0" lemma="hoed" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.17596.sense.1" xml:id="c17596_0004.w.340149">hoet</w>
+          <w cert="1.0" lemma="een" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c17596_0004.w.340150">1</w>
+          <w cert="1.0" lemma="arnoldusgulden" lexicon="byt5" pos="NOU-C(number=sg,WF=abbr)" resp="thomas" xml:id="c17596_0004.w.340151">airn.<join n="mw_816521" />
+          </w>
+          <w cert="1.0" lemma="arnoldusgulden" lexicon="byt5" pos="NOU-C(number=sg,WF=abbr)" resp="thomas" xml:id="c17596_0004.w.340152">gl<join n="mw_816521" />
+          </w>
+          <pc pos="LET" xml:id="c17596_0004.pc.post.00139504">.,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

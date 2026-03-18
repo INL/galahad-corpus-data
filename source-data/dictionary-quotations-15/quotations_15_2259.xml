@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2259</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.73644" lemma="WILLICHLIKE" partition="train" sense-id="mnw.73644.sense.1" xml:id="c73644_0007">
+        <date atLeast="1479" atMost="1479" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.2259">
+          <w cert="1.0" lemma="hoe" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c73644_0007.w.1936154">Hoe</w>
+          <w cert="1.0" lemma="williglijk" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.73644.sense.1" xml:id="c73644_0007.w.1936155">willichliken</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73644_0007.w.1936156">si</w>
+          <w cert="1.0" lemma="hem" lexicon="molex" pos="PD(type=refl,position=free)" resp="roland" xml:id="c73644_0007.w.1936157">hem</w>
+          <w cert="1.0" lemma="ondergeven" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73644_0007.w.1936158">ondergaven</w>
+          <w cert="1.0" lemma="tot+de" lexicon="byt5" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73644_0007.w.1936159">totten</w>
+          <w cert="1.0" lemma="gebod" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c73644_0007.w.1936160">geboden</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73644_0007.w.1936161">des</w>
+          <w cert="1.0" lemma="koning" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c73644_0007.w.1936162">conincs</w>
+          <pc pos="LET" xml:id="c73644_0007.pc.post.00760893">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>422</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M024072" lemma="HANGEN" modern-lemma="hangen" partition="train" pos="VRB" sense-id="M024072.bet.321" xml:id="M024072.eg.26942">
+        <date atLeast="1632" atMost="1632" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.422">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.w.697865">De</w>
+          <w cert="1.0" lemma="klein" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.w.697866">kleine</w>
+          <w cert="1.0" lemma="diefje" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.w.697867">diefjens</w>
+          <w cert="1.0" lemma="hangen+men" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" sense-id="M024072.bet.321" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.w.697868">hangtmen</w>
+          <pc pos="LET" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.pc.post.0233038">,</pc>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.w.697869">de</w>
+          <w cert="1.0" lemma="groot" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.w.697870">groote</w>
+          <w cert="1.0" lemma="laten+men" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.w.697871">laetmen</w>
+          <w cert="1.0" lemma="lopen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.w.697872">loopen</w>
+          <pc pos="LET" xml:id="b6ff5579-f201-4310-a70f-22c1ab98e87b.pc.post.0233039">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

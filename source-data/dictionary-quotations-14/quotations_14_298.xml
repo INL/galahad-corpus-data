@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>298</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.06813" lemma="DOBBELDOORN" partition="train" sense-id="mnw.06813.sense.1" xml:id="c06813_0004">
+        <date atLeast="1339" atMost="1345" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.298">
+          <w cert="1.0" lemma="tachtig" lexicon="special_cases" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c06813_0004.w.162833">80</w>
+          <w cert="1.0" lemma="dobbeldoorn" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06813.sense.1" xml:id="c06813_0004.w.162834">Dubbledoer</w>
+          <pc pos="LET" xml:id="c06813_0004.pc.floating.00068638">,</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c06813_0004.w.162836">die</w>
+          <w cert="1.0" lemma="ontvangen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c06813_0004.w.162837">ontfaen</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c06813_0004.w.162838">waren</w>
+          <w cert="1.0" lemma="dat+stuk" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c06813_0004.w.162839">tstic</w>
+          <w cert="1.0" lemma="voor" lexicon="hilex" pos="ADP(type=pre)" resp="roland" xml:id="c06813_0004.w.162840">voer</w>
+          <w cert="1.0" lemma="zesentwintig+denier" lexicon="special_cases" pos="NUM(type=card,position=prenom,representation=dig)+NOU-C(number=sg,WF=abbr)" resp="thomas" xml:id="c06813_0004.w.162841">26d.</w>
+          <w cert="1.0" lemma="groot" lexicon="byt5" pos="NOU-C(number=sg,WF=abbr)" resp="roland" xml:id="c06813_0004.w.162842">gr</w>
+          <pc pos="LET" xml:id="c06813_0004.pc.post.00068640">.,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

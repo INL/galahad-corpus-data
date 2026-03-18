@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1531</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M090263" lemma="ZWAK" modern-lemma="zwak" partition="train" pos="NOU-C" sense-id="M090263.bet.9" xml:id="M090263.eg.13052">
+        <date atLeast="1806" atMost="1806" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.1531">
+          <w cert="1.0" lemma="mama" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100292">Mama</w>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100293">heeft</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100294">een</w>
+          <w cert="1.0" lemma="zwak" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" sense-id="M090263.bet.9" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100295">zwak</w>
+          <pc pos="LET" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0032345">,</pc>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100296">dat</w>
+          <w cert="1.0" lemma="zij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100297">zij</w>
+          <w cert="1.0" lemma="gaarne" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100298">gaarne</w>
+          <w cert="1.0" lemma="vleien" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100299">gevleid</w>
+          <w cert="1.0" lemma="worden" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.100300">wordt</w>
+          <pc pos="LET" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0032346">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

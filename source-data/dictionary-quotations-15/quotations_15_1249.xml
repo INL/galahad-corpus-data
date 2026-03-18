@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1249</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.48045" lemma="SALICHLIJC" partition="train" sense-id="mnw.48045.sense.2" xml:id="c48045_0000">
+        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1249">
+          <w cert="1.0" lemma="zaliglijk" lexicon="hilex" pos="AA(degree=comp,position=free)" resp="thomas" sense-id="mnw.48045.sense.2" xml:id="c48045_0000.w.78929">Salichliker</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c48045_0000.w.78930">es</w>
+          <w cert="1.0" lemma="geven" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48045_0000.w.78931">gheven</w>
+          <w cert="1.0" lemma="dan" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c48045_0000.w.78932">dan</w>
+          <w cert="1.0" lemma="nemen" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48045_0000.w.78933">nemen</w>
+          <pc join="right" pos="LET" xml:id="c48045_0000.pc.pre.00032548">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c48045_0000.w.78934">ontvangen</w>
+          <pc pos="LET" xml:id="c48045_0000.pc.post.00032549">)</pc>
+          <pc pos="LET" xml:id="c48045_0000.pc.floating.00032550">,</pc>
+          <w cert="1.0" lemma="vinden+men" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c48045_0000.w.78936">vintmen</w>
+          <w cert="1.0" lemma="beschrijven" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c48045_0000.w.78937">bescreven</w>
+          <pc pos="LET" xml:id="c48045_0000.pc.post.00032551">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

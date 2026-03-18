@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>456</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M026026" lemma="HOE" modern-lemma="hoe" partition="train" pos="ADV" sense-id="M026026.bet.14" xml:id="M026026.eg.13419">
+        <date atLeast="1613" atMost="1613" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.456">
+          <w cert="1.0" lemma="G." lexicon="hilex" pos="NOU-P(WF=abbr)" resp="roland" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659295">G.</w>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659296">'t</w>
+          <w cert="1.0" lemma="schijnen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659297">Schynt</w>
+          <w cert="1.0" lemma="of" lexicon="hilex" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659298">oft</w>
+          <w cert="1.0" lemma="Aemstel" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659299">Aemstel</w>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659300">soud</w>
+          <w cert="1.0" lemma="bezwijken" lexicon="byt5" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659301">beswycken</w>
+          <pc pos="LET" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.post.0250294">.</pc>
+          <w cert="1.0" lemma="M." lexicon="hilex" pos="NOU-P(WF=abbr)" resp="roland" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659302">M.</w>
+          <w cert="1.0" lemma="hoe" lexicon="molex" pos="ADV(type=reg)" resp="thomas" sense-id="M026026.bet.14" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659303">Hoe</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.659304">dat</w>
+          <pc pos="LET" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.post.0250296">?</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

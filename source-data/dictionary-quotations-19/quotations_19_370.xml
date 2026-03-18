@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>370</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M026850" lemma="HUIS" modern-lemma="huis" partition="train" pos="NOU-C" sense-id="M026850.bet.65" xml:id="M026850.eg.21190">
+        <date atLeast="1819" atMost="1819" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.370">
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.332400">En</w>
+          <w cert="1.0" lemma="zuinigheid" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.332401">zuinigheid</w>
+          <w cert="1.0" lemma="huishouden" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.332402">houdt<join n="mw_462802" />
+          </w>
+          <w cert="1.0" lemma="huishouden" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M026850.bet.65" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.332403">huis<join n="mw_462802" />
+          </w>
+          <pc pos="LET" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.pc.post.0122630">,</pc>
+          <w cert="1.0" lemma="naar" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.332404">naar</w>
+          <w cert="1.0" lemma="Holland" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.332405">Hollands</w>
+          <w cert="1.0" lemma="oud" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.332406">oude</w>
+          <w cert="1.0" lemma="zede" lexicon="hilex" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.332407">zeden</w>
+          <pc pos="LET" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.pc.post.0122631">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

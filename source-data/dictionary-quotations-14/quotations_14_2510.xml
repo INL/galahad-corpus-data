@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2510</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.61568" lemma="VEDELE" partition="train" sense-id="mnw.61568.sense.1" xml:id="c61568_0005">
+        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2510">
+          <w cert="1.0" lemma="gige" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c61568_0005.w.991706">Gigen</w>
+          <pc join="right" pos="LET" xml:id="c61568_0005.pc.pre.00400291">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c61568_0005.w.991707">var.</w>
+          <w cert="1.0" lemma="luit" lexicon="byt5" pos="NOU-C(number=pl)" resp="thomas" xml:id="c61568_0005.w.991708">luten</w>
+          <pc pos="LET" xml:id="c61568_0005.pc.post.00400293">)</pc>
+          <pc pos="LET" xml:id="c61568_0005.pc.floating.00400294">,</pc>
+          <w cert="1.0" lemma="harp" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c61568_0005.w.991710">harpen</w>
+          <pc pos="LET" xml:id="c61568_0005.pc.post.00400295">,</pc>
+          <w cert="1.0" lemma="symfonie" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c61568_0005.w.991711">sinphoniën</w>
+          <pc pos="LET" xml:id="c61568_0005.pc.post.00400296">,</pc>
+          <w cert="1.0" lemma="plei" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="c61568_0005.w.991712">pleien</w>
+          <pc join="right" pos="LET" xml:id="c61568_0005.pc.pre.00400297">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c61568_0005.w.991713">var.</w>
+          <w cert="1.0" lemma="orgel" lexicon="byt5" pos="NOU-C(number=pl)" resp="thomas" xml:id="c61568_0005.w.991714">orgelen</w>
+          <pc pos="LET" xml:id="c61568_0005.pc.post.00400299">)</pc>
+          <pc pos="LET" xml:id="c61568_0005.pc.floating.00400300">,</pc>
+          <w cert="1.0" lemma="vedel" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.61568.sense.1" xml:id="c61568_0005.w.991716">vedelen</w>
+          <pc pos="LET" xml:id="c61568_0005.pc.floating.00400301">,</pc>
+          <w cert="1.0" lemma="harmonie" lexicon="byt5" pos="NOU-C(number=pl)" resp="thomas" xml:id="c61568_0005.w.991718">armoniën</w>
+          <pc pos="LET" xml:id="c61568_0005.pc.post.00400302">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

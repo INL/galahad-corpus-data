@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>521</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M030872" lemma="KATTESPOOR" modern-lemma="kattenspoor" partition="train" pos="NOU-C" sense-id="M030872.bet.4" xml:id="M030872.eg.32766">
+        <date atLeast="1671" atMost="1671" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.521">
+          <w cert="1.0" lemma="kattenspoor" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="M030872.bet.4" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847094">Katte-spoor</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00285791">.</pc>
+          <w cert="1.0" lemma="balk" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847095">Balck</w>
+          <w cert="1.0" lemma="band" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847096">banden</w>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847097">die</w>
+          <w cert="1.0" lemma="op" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847098">op</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847099">den</w>
+          <w cert="1.0" lemma="scheepsbodem" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847100">scheeps-bodem</w>
+          <w cert="1.0" lemma="liggen" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847101">leggen</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00285792">,</pc>
+          <w cert="1.0" lemma="sterkteshalve" lexicon="byt5" pos="ADV(type=reg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847102">stercktens<join n="mw_317448" />
+          </w>
+          <w cert="1.0" lemma="sterkteshalve" lexicon="molex" pos="ADV(type=reg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.847103">halve<join n="mw_317448" />
+          </w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00285793">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

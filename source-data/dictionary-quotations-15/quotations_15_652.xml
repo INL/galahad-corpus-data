@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>652</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.26378" lemma="LIMOEN" partition="train" sense-id="mnw.26378.sense.1" xml:id="c26378_0002">
+        <date atLeast="1488" atMost="1488" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.652">
+          <w cert="1.0" lemma="met" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c26378_0002.w.446959">Mit</w>
+          <w cert="1.0" lemma="meer" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c26378_0002.w.446960">meer</w>
+          <w cert="1.0" lemma="ander" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c26378_0002.w.446961">andere</w>
+          <w cert="1.0" lemma="vrucht" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c26378_0002.w.446962">vruchten</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c26378_0002.w.446963">van</w>
+          <w cert="1.0" lemma="pomerans" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c26378_0002.w.446964">pomeranciën</w>
+          <pc pos="LET" xml:id="c26378_0002.pc.post.00173820">,</pc>
+          <w cert="1.0" lemma="limoen" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.26378.sense.1" xml:id="c26378_0002.w.446965">lemuenen</w>
+          <pc pos="LET" xml:id="c26378_0002.pc.floating.00173821">,</pc>
+          <w cert="1.0" lemma="dadel" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c26378_0002.w.446967">dattilen</w>
+          <pc pos="LET" xml:id="c26378_0002.pc.post.00173822">,</pc>
+          <w cert="1.0" lemma="kassie" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c26378_0002.w.446968">cassyen</w>
+          <pc pos="LET" xml:id="c26378_0002.pc.post.00173823">,</pc>
+          <w cert="1.0" lemma="citrien" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="c26378_0002.w.446969">citrinen</w>
+          <pc pos="LET" xml:id="c26378_0002.pc.post.00173824">,</pc>
+          <w cert="1.0" lemma="vijg" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c26378_0002.w.446970">vighen</w>
+          <pc pos="LET" xml:id="c26378_0002.pc.post.00173825">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

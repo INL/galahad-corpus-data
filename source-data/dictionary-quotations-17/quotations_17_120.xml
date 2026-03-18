@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>120</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M005313" lemma="BARNOVEN" modern-lemma="brandoven" partition="train" pos="NOU-C" sense-id="M005313.bet.1" xml:id="M005313.eg.3445">
+        <date atLeast="1663" atMost="1663" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.120">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.w.282969">De</w>
+          <w cert="1.0" lemma="draak" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.w.282970">draeck</w>
+          <pc pos="LET" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.pc.floating.0088295">…</pc>
+          <w cert="1.0" lemma="opspalken" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.w.282972">spalckte<join n="mw_930479" />
+          </w>
+          <w cert="1.0" lemma="blik" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.w.282973">blicken</w>
+          <w cert="1.0" lemma="opspalken" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.w.282974">op<join n="mw_930479" />
+          </w>
+          <pc pos="LET" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.pc.post.0088296">,</pc>
+          <w cert="1.0" lemma="gelijk" lexicon="hilex" pos="CONJ(type=sub)" resp="thomas" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.w.282975">gelijck</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.w.282976">een</w>
+          <w cert="1.0" lemma="brandoven" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M005313.bet.1" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.w.282977">barrenoven</w>
+          <pc pos="LET" xml:id="a450c33d-68fa-4d94-844b-825f5153c5d2.pc.post.0088297">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

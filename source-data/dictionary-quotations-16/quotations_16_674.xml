@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>674</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M060331" lemma="RIVEEREN" modern-lemma="riveren" partition="train" pos="VRB" sense-id="M060331.bet.1" xml:id="M060331.eg.10073">
+        <date atLeast="1573" atMost="1573" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.674">
+          <w cert="1.0" lemma="riveren" lexicon="byt5" pos="VRB(finiteness=inf)" resp="thomas" sense-id="M060331.bet.1" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.599438">Riueren</w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00189464">,</pc>
+          <w cert="1.0" lemma="of" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.599439">oft</w>
+          <w cert="1.0" lemma="neten" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.599440">neten</w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00189465">.</pc>
+          <w cert="1.0" lemma="riuer" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.599441">Riuer</w>
+          <w cert="1.0" lemma="vn" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.599442">vn</w>
+          <w cert="1.0" lemma="clou" lexicon="molex" pos="RES(type=for)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.599443">clou</w>
+          <pc join="right" lemma="" lexicon="byt5" pos="ADV(type=reg,WF=abbr)" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.pre.00189466">&amp;</pc>
+          <w cert="1.0" lemma="" lexicon="hilex" pos="" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.599444">c.</w>
+          <w cert="1.0" lemma="obtundere" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.599445">Obtundere</w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00189468">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2999</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.70928" lemma="WEBBE" partition="train" sense-id="mnw.70928.sense.7" xml:id="c70928_0026">
+        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2999">
+          <w cert="1.0" lemma="twee" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c70928_0026.w.1364184">II</w>
+          <w cert="1.0" lemma="gordel" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c70928_0026.w.1364185">gordele</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c70928_0026.w.1364186">ende</w>
+          <w cert="1.0" lemma="een" lexicon="byt5" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c70928_0026.w.1364187">I</w>
+          <w cert="1.0" lemma="web" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70928.sense.7" xml:id="c70928_0026.w.1364188">webbe</w>
+          <pc pos="LET" xml:id="c70928_0026.pc.floating.00546325">…,</pc>
+          <w cert="1.0" lemma="een" lexicon="byt5" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c70928_0026.w.1364190">I</w>
+          <w cert="1.0" lemma="zilveren" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c70928_0026.w.1364191">zelverin</w>
+          <w cert="1.0" lemma="vesteltje" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c70928_0026.w.1364192">vestelkin</w>
+          <pc pos="LET" xml:id="c70928_0026.pc.post.00546326">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

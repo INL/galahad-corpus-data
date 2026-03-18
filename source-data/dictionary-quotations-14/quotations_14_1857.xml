@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1857</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.45454" lemma="RECHTE" partition="test" sense-id="mnw.45454.sense.23" xml:id="c45454_0117">
+        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.1857">
+          <pc join="right" pos="LET" xml:id="c45454_0117.pc.pre.00312338">(</pc>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c45454_0117.w.795524">Hi</w>
+          <pc pos="LET" xml:id="c45454_0117.pc.post.00312339">)</pc>
+          <w cert="1.0" lemma="vallen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c45454_0117.w.795525">viel</w>
+          <w cert="1.0" lemma="recht" lexicon="hilex" pos="ADV(type=reg)" resp="roland" sense-id="mnw.45454.sense.23" xml:id="c45454_0117.w.795526">rechte</w>
+          <w cert="1.0" lemma="als" lexicon="hilex" pos="CONJ(type=sub)" resp="roland" xml:id="c45454_0117.w.795527">alse</w>
+          <w cert="1.0" lemma="dood" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c45454_0117.w.795528">doot</w>
+          <w cert="1.0" lemma="te+de" lexicon="molex" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45454_0117.w.795529">ter</w>
+          <w cert="1.0" lemma="stede" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c45454_0117.w.795530">stede</w>
+          <pc pos="LET" xml:id="c45454_0117.pc.post.00312340">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

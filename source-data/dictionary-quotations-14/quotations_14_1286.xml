@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1286</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.31537" lemma="NAER" partition="train" sense-id="mnw.31537.sense.10" xml:id="c31537_0050">
+        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1286">
+          <w cert="1.0" lemma="al" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c31537_0050.w.1427192">Al</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31537_0050.w.1427193">was</w>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c31537_0050.w.1427194">hi</w>
+          <w cert="1.0" lemma="fier" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c31537_0050.w.1427195">fier</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c31537_0050.w.1427196">ende</w>
+          <w cert="1.0" lemma="zot" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c31537_0050.w.1427197">sot</w>
+          <pc pos="LET" xml:id="c31537_0050.pc.post.00562220">,</pc>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c31537_0050.w.1427198">hi</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31537_0050.w.1427199">was</w>
+          <w cert="1.0" lemma="naar" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.31537.sense.10" xml:id="c31537_0050.w.1427200">naer</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c31537_0050.w.1427201">den</w>
+          <w cert="1.0" lemma="lijf" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c31537_0050.w.1427202">live</w>
+          <w cert="1.0" lemma="klaar" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c31537_0050.w.1427203">claer</w>
+          <pc join="right" pos="LET" xml:id="c31537_0050.pc.pre.00562221">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c31537_0050.w.1427204">rein</w>
+          <pc pos="LET" xml:id="c31537_0050.pc.post.00562222">,</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c31537_0050.w.1427205">kuisch</w>
+          <pc pos="LET" xml:id="c31537_0050.pc.post.00562223">)</pc>
+          <pc pos="LET" xml:id="c31537_0050.pc.floating.00562224">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

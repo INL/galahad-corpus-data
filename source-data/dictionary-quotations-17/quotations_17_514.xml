@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>514</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M030113" lemma="KANT" modern-lemma="kant" partition="train" pos="AA ADV" sense-id="M030113.sense.51" xml:id="M030113.eg.24503">
+        <date atLeast="1670" atMost="1670" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.514">
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492117">Sy</w>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492118">hebben</w>
+          <w cert="1.0" lemma="dieplood" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492119">Dieplood</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00165842">,</pc>
+          <w cert="1.0" lemma="boog" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492120">Boogh</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492121">en</w>
+          <w cert="1.0" lemma="kaart" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492122">Kaert</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00165843">,</pc>
+          <w cert="1.0" lemma="haar" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492123">Haer</w>
+          <w cert="1.0" lemma="peilkompas" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492124">Peyl-kompas</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492125">is</w>
+          <w cert="1.0" lemma="kant" lexicon="molex" pos="AA(degree=pos,position=free)" resp="roland" sense-id="M030113.sense.51" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492126">kant</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00165844">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

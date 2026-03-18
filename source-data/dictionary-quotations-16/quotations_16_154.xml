@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>154</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M013103" lemma="DAGELIJKS" modern-lemma="dagelijks" partition="train" pos="AA" sense-id="M013103.bet.1" xml:id="M013103.eg.4314">
+        <date atLeast="1557" atMost="1557" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.154">
+          <w cert="1.0" lemma="gelijk+men" lexicon="byt5" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23351">Ghelijckmen</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23352">dat</w>
+          <w cert="1.0" lemma="dagelijks" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" sense-id="M013103.bet.1" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23353">daghelicks</w>
+          <w cert="1.0" lemma="zien" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23354">sien</w>
+          <w cert="1.0" lemma="mogen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23355">magh</w>
+          <w cert="1.0" lemma="aan" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23356">an</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23357">de</w>
+          <w cert="1.0" lemma="gilde" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23358">Gilden</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23359">ende</w>
+          <w cert="1.0" lemma="broederschap" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.23360">Broederschappen</w>
+          <pc pos="LET" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0007317">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

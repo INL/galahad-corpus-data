@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1205</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.46799" lemma="ROEMICH" partition="train" sense-id="mnw.46799.sense.1" xml:id="c46799_0000">
+        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1205">
+          <pc join="right" pos="LET" xml:id="c46799_0000.pc.pre.00432014">(</pc>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c46799_0000.w.1098575">Hi</w>
+          <pc pos="LET" xml:id="c46799_0000.pc.post.00432015">)</pc>
+          <w cert="1.0" lemma="spreken" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c46799_0000.w.1098576">sprac</w>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c46799_0000.w.1098577">met</w>
+          <w cert="1.0" lemma="overmoedig" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c46799_0000.w.1098578">overmoedege<join n="mw_171678" />
+          </w>
+          <pc join="right" pos="LET" xml:id="c46799_0000.pc.pre.00432016">(</pc>
+          <w cert="1.0" lemma="overmoedig" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c46799_0000.w.1098579">n<join n="mw_171678" />
+          </w>
+          <pc pos="LET" xml:id="c46799_0000.pc.post.00432017">)</pc>
+          <w cert="1.0" lemma="gedachte" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c46799_0000.w.1098580">gedochte</w>
+          <w cert="1.0" lemma="roemig" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.46799.sense.1" xml:id="c46799_0000.w.1098581">roemeghe</w>
+          <w cert="1.0" lemma="woord" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="c46799_0000.w.1098582">worden</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c46799_0000.w.1098583">ende</w>
+          <w cert="1.0" lemma="onbekend" lexicon="hilex" pos="AA(degree=pos,position=postnom)" resp="thomas" xml:id="c46799_0000.w.1098584">onbekint</w>
+          <pc join="right" pos="LET" xml:id="c46799_0000.pc.pre.00432018">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c46799_0000.w.1098585">dom</w>
+          <pc pos="LET" xml:id="c46799_0000.pc.post.00432019">)</pc>
+          <pc pos="LET" xml:id="c46799_0000.pc.floating.00432020">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

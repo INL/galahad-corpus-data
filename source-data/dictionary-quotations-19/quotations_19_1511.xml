@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1511</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M087940" lemma="ZANGEREN" modern-lemma="zangeren" partition="train" pos="VRB" sense-id="M087940.bet.1" xml:id="M087940.eg.13329">
+        <date atLeast="1897" atMost="1897" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.1511">
+          <w cert="1.0" lemma="oppassen" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1755866">Pas<join n="mw_558214" />
+          </w>
+          <w cert="1.0" lemma="oppassen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1755867">op<join n="mw_558214" />
+          </w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00571878">:</pc>
+          <pc join="right" lemma="zij" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.pre.00571879">'</pc>
+          <w cert="1.0" lemma="het" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1755868">et</w>
+          <w cert="1.0" lemma="eten" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1755869">eten</w>
+          <w cert="1.0" lemma="staan" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1755870">staat</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1755871">te</w>
+          <w cert="1.0" lemma="zangeren" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" sense-id="M087940.bet.1" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1755872">zengeren</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00571880">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

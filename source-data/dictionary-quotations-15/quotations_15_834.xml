@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>834</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.33061" lemma="NU" partition="train" sense-id="mnw.33061.sense.26" xml:id="c33061_0113">
+        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.834">
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="c33061_0113.w.1743979">In</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c33061_0113.w.1743980">een</w>
+          <w cert="1.0" lemma="nu" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.33061.sense.26" xml:id="c33061_0113.w.1743981">nu</w>
+          <pc pos="LET" xml:id="c33061_0113.pc.floating.00689848">,</pc>
+          <w cert="1.0" lemma="in+dat" lexicon="byt5" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c33061_0113.w.1743983">int</w>
+          <w cert="1.0" lemma="opslag" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c33061_0113.w.1743984">opslach</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c33061_0113.w.1743985">van</w>
+          <w cert="1.0" lemma="een" lexicon="hilex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c33061_0113.w.1743986">enen</w>
+          <w cert="1.0" lemma="oog" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c33061_0113.w.1743987">oghe</w>
+          <pc pos="LET" xml:id="c33061_0113.pc.post.00689849">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

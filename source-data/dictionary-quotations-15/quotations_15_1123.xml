@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1123</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.44059" lemma="PRISEN" partition="train" sense-id="mnw.44059.sense.12" xml:id="c44059_0081">
+        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1123">
+          <pc join="right" pos="LET" xml:id="c44059_0081.pc.pre.00193542">(</pc>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c44059_0081.w.492256">Hi</w>
+          <pc pos="LET" xml:id="c44059_0081.pc.post.00193543">)</pc>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c44059_0081.w.492257">heeft</w>
+          <w cert="1.0" lemma="wij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c44059_0081.w.492258">ons</w>
+          <w cert="1.0" lemma="wijzen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c44059_0081.w.492259">ghewijst</w>
+          <w cert="1.0" lemma="drie" lexicon="molex" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c44059_0081.w.492260">drie</w>
+          <w cert="1.0" lemma="manier" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c44059_0081.w.492261">manieren</w>
+          <pc pos="LET" xml:id="c44059_0081.pc.post.00193544">,</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c44059_0081.w.492262">die</w>
+          <w cert="1.0" lemma="prijzen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.44059.sense.12" xml:id="c44059_0081.w.492263">gheprijst</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c44059_0081.w.492264">van</w>
+          <w cert="1.0" lemma="beding" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c44059_0081.w.492265">bedinghen</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c44059_0081.w.492266">sijn</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c44059_0081.w.492267">ende</w>
+          <w cert="1.0" lemma="wel" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c44059_0081.w.492268">wel</w>
+          <w cert="1.0" lemma="ontvangen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c44059_0081.w.492269">ontfaen</w>
+          <pc pos="LET" xml:id="c44059_0081.pc.post.00193545">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

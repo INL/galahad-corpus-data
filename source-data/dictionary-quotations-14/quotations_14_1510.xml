@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1510</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.37262" lemma="ONTEBREKELIJC" partition="train" sense-id="mnw.37262.sense.2" xml:id="c37262_0001">
+        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1510">
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37262_0001.w.666408">Het</w>
+          <pc join="right" pos="LET" xml:id="c37262_0001.pc.pre.00270987">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c37262_0001.w.666409">het</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c37262_0001.w.666410">lichaam</w>
+          <pc pos="LET" xml:id="c37262_0001.pc.post.00270988">)</pc>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37262_0001.w.666411">es</w>
+          <w cert="1.0" lemma="zaaien" lexicon="byt5" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c37262_0001.w.666412">ghezayt</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c37262_0001.w.666413">in</w>
+          <w cert="1.0" lemma="corruptie" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c37262_0001.w.666414">corupciën</w>
+          <pc pos="LET" xml:id="c37262_0001.pc.post.00270989">,</pc>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37262_0001.w.666415">het</w>
+          <w cert="1.0" lemma="opstaan" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c37262_0001.w.666416">staet<join n="mw_86493" />
+          </w>
+          <w cert="1.0" lemma="opstaan" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c37262_0001.w.666417">up<join n="mw_86493" />
+          </w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c37262_0001.w.666418">in</w>
+          <w cert="1.0" lemma="ontebrekelijkheid" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.37262.sense.2" xml:id="c37262_0001.w.666419">ontebrekelijcheit</w>
+          <pc pos="LET" xml:id="c37262_0001.pc.floating.00270990">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

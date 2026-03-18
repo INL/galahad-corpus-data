@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>837</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M050342" lemma="OVERGAAN" modern-lemma="overgaan" partition="dev" pos="VRB" sense-id="M050342.bet.39" xml:id="M050342.eg.29843">
+        <date atLeast="1688" atMost="1688" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.837">
+          <w cert="1.0" lemma="dit" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7087">Dit</w>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7088">sullen</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7089">zy</w>
+          <w cert="1.0" lemma="geven" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7090">geven</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0002438">,</pc>
+          <w cert="1.0" lemma="al" lexicon="molex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7091">al</w>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7092">die</w>
+          <w cert="1.0" lemma="tot" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7093">tot</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7094">de</w>
+          <w cert="1.0" lemma="getelde" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7095">getelde</w>
+          <w cert="1.0" lemma="overgaan" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M050342.bet.39" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7096">over<join n="mw_103127" />
+          </w>
+          <w cert="1.0" lemma="overgaan" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M050342.bet.39" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.7097">gaet<join n="mw_103127" />
+          </w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0002439">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

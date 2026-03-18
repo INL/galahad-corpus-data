@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1360</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.51447" lemma="SEPULTURE" partition="train" sense-id="mnw.51447.sense.2" xml:id="c51447_0010">
+        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.1360">
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c51447_0010.w.719270">Dat</w>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c51447_0010.w.719271">hi</w>
+          <w cert="1.0" lemma="willen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c51447_0010.w.719272">wilde</w>
+          <w cert="1.0" lemma="visiteren" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c51447_0010.w.719273">visenteren</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c51447_0010.w.719274">sine</w>
+          <w cert="1.0" lemma="sepultuur" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51447.sense.2" xml:id="c51447_0010.w.719275">sepultuere</w>
+          <w cert="1.0" lemma="door" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c51447_0010.w.719276">door</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c51447_0010.w.719277">sine</w>
+          <pc join="right" pos="LET" xml:id="c51447_0010.pc.pre.00298650">(</pc>
+          <w cert="1.0" lemma="heer" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51447_0010.w.719278">h<join n="mw_737594" />
+          </w>
+          <pc pos="LET" xml:id="c51447_0010.pc.post.00298651">)</pc>
+          <w cert="1.0" lemma="heer" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51447_0010.w.719279">eere<join n="mw_737594" />
+          </w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c51447_0010.w.719280">ende</w>
+          <w cert="1.0" lemma="mis" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c51447_0010.w.719281">messe</w>
+          <w cert="1.0" lemma="doen" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c51447_0010.w.719282">doen</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="c51447_0010.w.719283">te</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c51447_0010.w.719284">sinen</w>
+          <w cert="1.0" lemma="graf" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c51447_0010.w.719285">grave</w>
+          <pc pos="LET" xml:id="c51447_0010.pc.post.00298652">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

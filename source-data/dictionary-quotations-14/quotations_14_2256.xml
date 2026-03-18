@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2256</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.55847" lemma="STRIJPT" partition="train" sense-id="mnw.55847.sense.3" xml:id="c55847_0012">
+        <date atLeast="1350" atMost="1400" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.2256">
+          <w cert="1.0" lemma="dingen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c55847_0012.w.1719412">Dinghet</w>
+          <w cert="1.0" lemma="gemengd" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c55847_0012.w.1719413">gheminghede</w>
+          <w cert="1.0" lemma="laken" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c55847_0012.w.1719414">lakene</w>
+          <pc pos="LET" xml:id="c55847_0012.pc.floating.00710097">…,</pc>
+          <w cert="1.0" lemma="blauw" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c55847_0012.w.1719416">blaeuwe</w>
+          <pc pos="LET" xml:id="c55847_0012.pc.post.00710098">,</pc>
+          <w cert="1.0" lemma="strijpt" lexicon="byt5" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.55847.sense.3" xml:id="c55847_0012.w.1719417">strijpte</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c55847_0012.w.1719418">ende</w>
+          <w cert="1.0" lemma="tieretein" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c55847_0012.w.1719419">tierteine</w>
+          <pc pos="LET" xml:id="c55847_0012.pc.post.00710099">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

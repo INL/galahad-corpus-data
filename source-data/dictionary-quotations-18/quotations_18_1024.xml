@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1024</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M071720" lemma="UITBOTTEN" modern-lemma="uitbotten" partition="train" pos="VRB" sense-id="M071720.bet.4" xml:id="M071720.eg.4073">
+        <date atLeast="1733" atMost="1733" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.1024">
+          <pc join="right" pos="LET" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.pc.pre.00063558">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192880">Zekere</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192881">plant</w>
+          <pc pos="LET" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.pc.post.00063559">)</pc>
+          <w cert="1.0" lemma="uitbotten" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="M071720.bet.4" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192882">bot<join n="mw_148537" />
+          </w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192883">in</w>
+          <w cert="1.0" lemma="bloesemknop" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192884">bloesemknoppen</w>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192885">Met</w>
+          <w cert="1.0" lemma="duizend" lexicon="molex" pos="NUM(type=card,position=prenom,representation=let)" resp="roland" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192886">duizend</w>
+          <w cert="1.0" lemma="kleur" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192887">kleuren</w>
+          <w cert="1.0" lemma="uitbotten" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="M071720.bet.4" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.w.192888">uit<join n="mw_148537" />
+          </w>
+          <pc pos="LET" xml:id="e816b2a7-2224-4c95-ae49-fe16c54df3b6.pc.post.00063560">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

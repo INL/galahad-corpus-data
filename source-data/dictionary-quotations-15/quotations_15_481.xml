@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>481</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.19258" lemma="INCOMELINC" partition="train" sense-id="mnw.19258.sense.1" xml:id="c19258_0003">
+        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.481">
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c19258_0003.w.614690">Sal</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c19258_0003.w.614691">een</w>
+          <w cert="1.0" lemma="katijf" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19258_0003.w.614692">keytijf</w>
+          <pc pos="LET" xml:id="c19258_0003.pc.post.00250796">,</pc>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c19258_0003.w.614693">een</w>
+          <w cert="1.0" lemma="inkomeling" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.19258.sense.1" xml:id="c19258_0003.w.614694">incomelinc</w>
+          <pc pos="LET" xml:id="c19258_0003.pc.floating.00250797">,</pc>
+          <w cert="1.0" lemma="ook" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c19258_0003.w.614696">ooc</w>
+          <w cert="1.0" lemma="verdrijven" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c19258_0003.w.614697">verdriven</w>
+          <w cert="1.0" lemma="uw" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c19258_0003.w.614698">uwen</w>
+          <w cert="1.0" lemma="koning" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19258_0003.w.614699">coninc</w>
+          <pc pos="LET" xml:id="c19258_0003.pc.post.00250798">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

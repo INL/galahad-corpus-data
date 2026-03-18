@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2303</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.56931" lemma="TAERTE" partition="train" sense-id="mnw.56931.sense.1" xml:id="c56931_0001">
+        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2303">
+          <w cert="1.0" lemma="divers" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c56931_0001.w.10655">Diversen</w>
+          <w cert="1.0" lemma="persoon" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="c56931_0001.w.10656">personen</w>
+          <w cert="1.0" lemma="om" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c56931_0001.w.10657">omme</w>
+          <w cert="1.0" lemma="turf" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c56931_0001.w.10658">turve</w>
+          <pc pos="LET" xml:id="c56931_0001.pc.post.00004693">,</pc>
+          <w cert="1.0" lemma="warmoes" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c56931_0001.w.10659">waermoes</w>
+          <pc pos="LET" xml:id="c56931_0001.pc.post.00004694">,</pc>
+          <w cert="1.0" lemma="erwt" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c56931_0001.w.10660">arweten</w>
+          <pc pos="LET" xml:id="c56931_0001.pc.post.00004695">,</pc>
+          <w cert="1.0" lemma="ei" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c56931_0001.w.10661">eyere</w>
+          <pc pos="LET" xml:id="c56931_0001.pc.post.00004696">,</pc>
+          <w cert="1.0" lemma="taart" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.56931.sense.1" xml:id="c56931_0001.w.10662">taerten</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c56931_0001.w.10663">ende</w>
+          <w cert="1.0" lemma="boter" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c56931_0001.w.10664">buetre</w>
+          <pc join="right" pos="LET" xml:id="c56931_0001.pc.pre.00004697">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c56931_0001.w.10665">geg</w>
+          <pc pos="LET" xml:id="c56931_0001.pc.post.00004698">.)</pc>
+          <w cert="1.0" lemma="vijftien" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c56931_0001.w.10666">XV</w>
+          <w cert="1.0" lemma="libra" lexicon="byt5" pos="NOU-C(number=sg,WF=abbr)" resp="roland" xml:id="c56931_0001.w.10667">lb</w>
+          <pc pos="LET" xml:id="c56931_0001.pc.post.00004699">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

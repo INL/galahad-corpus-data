@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1720</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.42239" lemma="PENNINCRENTE" partition="train" sense-id="mnw.42239.sense.1" xml:id="c42239_0002">
+        <date atLeast="1380" atMost="1410" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.1720">
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42239_0002.w.167969">Een</w>
+          <w cert="1.0" lemma="leen" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c42239_0002.w.167970">leen</w>
+          <w cert="1.0" lemma="groot" lexicon="molex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c42239_0002.w.167971">groot</w>
+          <w cert="1.0" lemma="vier" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c42239_0002.w.167972">IIII</w>
+          <w cert="1.0" lemma="libra" lexicon="byt5" pos="RES(type=symb)" resp="thomas" xml:id="c42239_0002.w.167973">ᨧ</w>
+          <pc pos="LET" xml:id="c42239_0002.pc.floating.00063917">…</pc>
+          <w cert="1.0" lemma="dat+jaar" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c42239_0002.w.167975">sjaers</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c42239_0002.w.167976">in</w>
+          <w cert="1.0" lemma="penningrente" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42239.sense.1" xml:id="c42239_0002.w.167977">pennincrenten</w>
+          <pc pos="LET" xml:id="c42239_0002.pc.floating.00063918">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>304</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.11795" lemma="GEMALSC" partition="train" sense-id="mnw.11795.sense.1" xml:id="c11795_0000">
+        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.304">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11795_0000.w.966373">Die</w>
+          <w cert="1.0" lemma="ros" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c11795_0000.w.966374">orse</w>
+          <w cert="1.0" lemma="maken" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c11795_0000.w.966375">makeden</w>
+          <w cert="1.0" lemma="groot" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c11795_0000.w.966376">groet</w>
+          <w cert="1.0" lemma="gemals" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.11795.sense.1" xml:id="c11795_0000.w.966377">gemals</w>
+          <pc pos="LET" xml:id="c11795_0000.pc.floating.00408587">,</pc>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c11795_0000.w.966379">dat</w>
+          <w cert="1.0" lemma="deunen" lexicon="hilex" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c11795_0000.w.966380">doende</w>
+          <pc join="right" pos="LET" xml:id="c11795_0000.pc.pre.00408588">(</pc>
+          <w cert="1.0" lemma="" lexicon="hilex" pos="" resp="thomas" xml:id="c11795_0000.w.966381">zoodat</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c11795_0000.w.966382">het</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c11795_0000.w.966383">dreunde</w>
+          <pc pos="LET" xml:id="c11795_0000.pc.post.00408589">)</pc>
+          <w cert="1.0" lemma="zeer" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c11795_0000.w.966384">sere</w>
+          <w cert="1.0" lemma="daar" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c11795_0000.w.966385">daer</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11795_0000.w.966386">zi</w>
+          <w cert="1.0" lemma="lopen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c11795_0000.w.966387">liepen</w>
+          <pc pos="LET" xml:id="c11795_0000.pc.post.00408590">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>355</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M030825" lemma="KATROL" modern-lemma="katrol" partition="train" pos="NOU-C" sense-id="M030825.bet.7" xml:id="M030825.eg.32523">
+        <date atLeast="1751" atMost="1751" timeSpan="1750-1800" />
+        <q xml:id="no_doc_id.s.355">
+          <w cert="1.0" lemma="damschijf+bordschijf" lexicon="molex" pos="NOU-C(number=pl,WF=trunc)+NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833566">Dam<join n="mw_864965" />
+          </w>
+          <pc lemma="" lexicon="byt5" pos="NOU-C(number=pl)" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00281275">-</pc>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833567">en</w>
+          <w cert="1.0" lemma="ander" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833568">andere</w>
+          <w cert="1.0" lemma="damschijf+bordschijf" lexicon="byt5" pos="NOU-C(number=pl,WF=trunc)+NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833569">Bord-Schyven<join n="mw_864965" />
+          </w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.floating.00281276">…,</pc>
+          <w cert="1.0" lemma="katrol" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" sense-id="M030825.bet.7" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833571">Katrollen</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833572">van</w>
+          <w cert="1.0" lemma="deur" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833573">Deuren</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833574">en</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833575">van</w>
+          <w cert="1.0" lemma="schuifraam" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833576">Schuyfraamen</w>
+          <w cert="1.0" lemma="enzovoort|enzovoorts" lexicon="byt5" pos="ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.833577">enz.,</w>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

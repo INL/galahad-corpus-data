@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>336</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.07676" lemma="DRIEHEIT" partition="train" sense-id="mnw.07676.sense.1" xml:id="c07676_0005">
+        <date atLeast="1307" atMost="1307" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.336">
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c07676_0005.w.300194">In</w>
+          <w cert="1.0" lemma="eer" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c07676_0005.w.300195">ere</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07676_0005.w.300196">der</w>
+          <w cert="1.0" lemma="heilig" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c07676_0005.w.300197">heyligher</w>
+          <w cert="1.0" lemma="drieheid" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.07676.sense.1" xml:id="c07676_0005.w.300198">Dryheit</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07676_0005.w.300199">des</w>
+          <w cert="1.0" lemma="Vader" lexicon="molex" pos="NOU-P" resp="roland" xml:id="c07676_0005.w.300200">Vader</w>
+          <pc pos="LET" xml:id="c07676_0005.pc.post.00129278">,</pc>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07676_0005.w.300201">des</w>
+          <w cert="1.0" lemma="zoon" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c07676_0005.w.300202">Sones</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c07676_0005.w.300203">ende</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07676_0005.w.300204">des</w>
+          <w cert="1.0" lemma="heilig" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c07676_0005.w.300205">heyligen</w>
+          <w cert="1.0" lemma="geest" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c07676_0005.w.300206">Geystes</w>
+          <pc pos="LET" xml:id="c07676_0005.pc.post.00129279">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

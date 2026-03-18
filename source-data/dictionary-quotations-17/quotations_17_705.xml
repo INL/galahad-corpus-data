@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>705</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M039727" lemma="MISVAL" modern-lemma="misval" partition="train" pos="NOU-C" sense-id="M039727.bet.9" xml:id="M039727.eg.16576">
+        <date atLeast="1691" atMost="1691" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.705">
+          <w cert="1.0" lemma="och" lexicon="molex" pos="INT" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671352">Och</w>
+          <pc pos="LET" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.pc.post.0225754">!</pc>
+          <w cert="1.0" lemma="ik" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671353">ik</w>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671354">heb</w>
+          <pc join="right" lemma="zij" lexicon="byt5" pos="LET" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.pc.pre.0225755">'</pc>
+          <w cert="1.0" lemma="ervan" lexicon="molex" pos="ADV(type=pron)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671355">er<join n="mw_376786" />
+          </w>
+          <w cert="1.0" lemma="schier" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671356">schier</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671357">een</w>
+          <w cert="1.0" lemma="misval" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M039727.bet.9" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671358">misval</w>
+          <w cert="1.0" lemma="ervan" lexicon="hilex" pos="ADV(type=pron)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671359">van<join n="mw_376786" />
+          </w>
+          <w cert="1.0" lemma="krijgen" lexicon="byt5" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.671360">gekreegen</w>
+          <pc pos="LET" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.pc.post.0225756">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

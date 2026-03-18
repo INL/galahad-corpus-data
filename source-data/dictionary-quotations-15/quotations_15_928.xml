@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>928</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.37123" lemma="ONTALLIJC" partition="train" sense-id="mnw.37123.sense.2" xml:id="c37123_0004">
+        <date atLeast="1480" atMost="1480" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.928">
+          <w cert="1.0" lemma="omdat" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c37123_0004.w.616075">Om<join n="mw_802340" />
+          </w>
+          <w cert="1.0" lemma="omdat" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c37123_0004.w.616076">dat<join n="mw_802340" />
+          </w>
+          <w cert="1.0" lemma="ik" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c37123_0004.w.616077">ic</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c37123_0004.w.616078">hem</w>
+          <w cert="1.0" lemma="zien" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c37123_0004.w.616079">sach</w>
+          <pc pos="LET" xml:id="c37123_0004.pc.post.00250776">,</pc>
+          <w cert="1.0" lemma="zo" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c37123_0004.w.616080">soo</w>
+          <w cert="1.0" lemma="worden" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c37123_0004.w.616081">wort</w>
+          <w cert="1.0" lemma="ik" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37123_0004.w.616082">ick</w>
+          <w cert="1.0" lemma="met" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c37123_0004.w.616083">mit</w>
+          <w cert="1.0" lemma="ontallijk" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.37123.sense.2" xml:id="c37123_0004.w.616084">ontallijke</w>
+          <w cert="1.0" lemma="blijdschap" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="c37123_0004.w.616085">blijscap</w>
+          <w cert="1.0" lemma="bevangen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c37123_0004.w.616086">bevaen</w>
+          <pc pos="LET" xml:id="c37123_0004.pc.post.00250777">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

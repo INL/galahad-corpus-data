@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>890</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M065744" lemma="STAATKUNST" modern-lemma="staatskunst" partition="train" pos="NOU-C" sense-id="M065744.bet.1" xml:id="M065744.eg.5633">
+        <date atLeast="1822" atMost="1822" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.890">
+          <w cert="1.0" lemma="Willem" lexicon="hilex" pos="NOU-P" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835360">Willem</w>
+          <w cert="1.0" lemma="van" lexicon="byt5" pos="ADP(type=pre)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835361">van</w>
+          <w cert="1.0" lemma="Oranje" lexicon="hilex" pos="NOU-P" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835362">Oranje</w>
+          <pc pos="LET" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.pc.floating.00252310">…,</pc>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835364">In</w>
+          <w cert="1.0" lemma="staatskunst+oorlogskunst" lexicon="molex" pos="NOU-C(number=sg,WF=trunc)+NOU-C(number=sg)" resp="thomas" sense-id="M065744.bet.1" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835365">staat<join n="mw_739500" />
+          </w>
+          <pc lemma="" lexicon="byt5" pos="LET" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.pc.post.00252311">-</pc>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835366">en</w>
+          <w cert="1.0" lemma="staatskunst+oorlogskunst" lexicon="molex" pos="NOU-C(number=sg,WF=trunc)+NOU-C(number=sg)" resp="thomas" sense-id="M065744.bet.1" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835367">oorlogskunst<join n="mw_739500" />
+          </w>
+          <w cert="1.0" lemma="door" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835368">door</w>
+          <w cert="1.0" lemma="Karel" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835369">Karel</w>
+          <w cert="1.0" lemma="opvoeden" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.w.835370">opgevoed</w>
+          <pc pos="LET" xml:id="a7ddb939-9191-4609-92c8-e19c2341dbf7.pc.post.00252312">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

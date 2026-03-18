@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>451</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M034096" lemma="KNARSETANDEN" modern-lemma="knarsetanden" partition="train" pos="VRB" sense-id="M034096.bet.1" xml:id="M034096.eg.76427">
+        <date atLeast="1841" atMost="1841" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.451">
+          <w cert="1.0" lemma="dit" lexicon="molex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689276">Dit</w>
+          <w cert="1.0" lemma="alles" lexicon="molex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689277">alles</w>
+          <pc pos="LET" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.pc.floating.00214692">…</pc>
+          <w cert="1.0" lemma="doen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689279">deed</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689280">hen</w>
+          <w cert="1.0" lemma="knarsetanden" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" sense-id="M034096.bet.1" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689281">knersetanden</w>
+          <w cert="1.0" lemma="tegen" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689282">tegen</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689283">de</w>
+          <w cert="1.0" lemma="dwingelandij" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689284">dwingelandij</w>
+          <w cert="1.0" lemma="die" lexicon="hilex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689285">dier</w>
+          <w cert="1.0" lemma="vreemdeling" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.689286">vreemdelingen</w>
+          <pc pos="LET" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.pc.post.00214693">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

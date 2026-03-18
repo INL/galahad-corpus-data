@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>889</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M067435" lemma="SUPPLIANT" modern-lemma="suppliant" partition="train" pos="NOU-C" sense-id="M067435.bet.1" xml:id="M067435.eg.7093">
+        <date atLeast="1745" atMost="1745" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.889">
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143799">Het</w>
+          <w cert="1.0" lemma="verzoek" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143800">verzoek</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143801">van</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143802">den</w>
+          <w cert="1.0" lemma="suppliant" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M067435.bet.1" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143803">suppliant</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00347121">,</pc>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143804">in</w>
+          <w cert="1.0" lemma="dezelve" lexicon="hilex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143805">deselve</w>
+          <w cert="1.0" lemma="rekwest" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143806">requeste</w>
+          <w cert="1.0" lemma="doen" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1143807">gedaan</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00347122">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

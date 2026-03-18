@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1014</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M074436" lemma="VERANDERING" modern-lemma="verandering" partition="train" pos="NOU-C" sense-id="M074436.bet.15" xml:id="M074436.eg.1530">
+        <date atLeast="1573" atMost="1573" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.1014">
+          <w cert="1.0" lemma="verandering" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M074436.bet.15" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.971820">Veranderinge</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.971821">des</w>
+          <w cert="1.0" lemma="tijd" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.971822">tijts</w>
+          <pc pos="LET" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.post.00341629">.</pc>
+          <pc pos="LET" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.floating.00341630">…</pc>
+          <w cert="1.0" lemma="reum" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.971824">Rerum</w>
+          <pc lemma="twee" lexicon="byt5" pos="RES(type=for)" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.floating.00341631">&amp;</pc>
+          <w cert="1.0" lemma="temporum" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.971826">temporum</w>
+          <w cert="1.0" lemma="inclinationes" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.971827">inclinationes</w>
+          <pc pos="LET" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.post.00341632">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

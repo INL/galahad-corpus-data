@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>624</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M058576" lemma="REIZEN" modern-lemma="reizen" partition="train" pos="VRB" sense-id="M058576.bet.40" xml:id="M058576.eg.112273">
+        <date atLeast="1538" atMost="1538" timeSpan="1500-1550" />
+        <q xml:id="no_doc_id.s.624">
+          <w cert="1.0" lemma="penula" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927678">Penula</w>
+          <w cert="1.0" lemma="viatoria" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927679">viatoria</w>
+          <pc join="right" pos="LET" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.pre.00291207">(</pc>
+          <w cert="1.0" lemma="toodoiporikon" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927680">τόὁδοιπόρικον</w>
+          <pc pos="LET" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.post.00291208">)</pc>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927681">een</w>
+          <w cert="1.0" lemma="mantel" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927682">mantel</w>
+          <w cert="1.0" lemma="om" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927683">om</w>
+          <w cert="1.0" lemma="achter" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927684">achter</w>
+          <w cert="1.0" lemma="land" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927685">lande</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927686">te</w>
+          <w cert="1.0" lemma="reizen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" sense-id="M058576.bet.40" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.927687">reysen</w>
+          <pc pos="LET" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.post.00291209">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

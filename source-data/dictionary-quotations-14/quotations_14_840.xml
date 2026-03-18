@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>840</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.21080" lemma="KEMENADE" partition="train" sense-id="mnw.21080.sense.1" xml:id="c21080_0017">
+        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.840">
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21080_0017.w.897697">Hi</w>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21080_0017.w.897698">sal</w>
+          <w cert="1.0" lemma="gij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21080_0017.w.897699">u</w>
+          <w cert="1.0" lemma="togen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21080_0017.w.897700">toghen</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c21080_0017.w.897701">ene</w>
+          <w cert="1.0" lemma="groot" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c21080_0017.w.897702">grote</w>
+          <w cert="1.0" lemma="kemenade" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21080.sense.1" xml:id="c21080_0017.w.897703">kemenade</w>
+          <w cert="1.0" lemma="strooien" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c21080_0017.w.897704">ghestroyt</w>
+          <pc pos="LET" xml:id="c21080_0017.pc.post.00363904">,</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c21080_0017.w.897705">ende</w>
+          <w cert="1.0" lemma="daar" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c21080_0017.w.897706">daer</w>
+          <w cert="1.0" lemma="bereiden" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c21080_0017.w.897707">bereet</w>
+          <pc join="right" pos="LET" xml:id="c21080_0017.pc.pre.00363905">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21080_0017.w.897708">nl.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21080_0017.w.897709">dat</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c21080_0017.w.897710">paesscen</w>
+          <pc pos="LET" xml:id="c21080_0017.pc.post.00363907">)</pc>
+          <pc pos="LET" xml:id="c21080_0017.pc.floating.00363908">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

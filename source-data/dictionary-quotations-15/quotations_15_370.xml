@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>370</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.14080" lemma="GIERICHEIT" partition="train" sense-id="mnw.14080.sense.6" xml:id="c14080_0020">
+        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.370">
+          <w cert="1.0" lemma="gierigheid" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.14080.sense.6" xml:id="c14080_0020.w.1419776">Ghiericheit</w>
+          <pc pos="LET" xml:id="c14080_0020.pc.floating.00593532">…</pc>
+          <w cert="1.0" lemma="brengen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c14080_0020.w.1419778">brachte</w>
+          <w cert="1.0" lemma="Adam" lexicon="byt5" pos="NOU-P" resp="roland" xml:id="c14080_0020.w.1419779">Adame</w>
+          <w cert="1.0" lemma="uit+dat" lexicon="hilex" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14080_0020.w.1419780">uten</w>
+          <w cert="1.0" lemma="paradijs" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c14080_0020.w.1419781">paradise</w>
+          <pc pos="LET" xml:id="c14080_0020.pc.post.00593533">,</pc>
+          <w cert="1.0" lemma="daar" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c14080_0020.w.1419782">daer</w>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c14080_0020.w.1419783">hi</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14080_0020.w.1419784">dat</w>
+          <w cert="1.0" lemma="gebod" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c14080_0020.w.1419785">ghebodt</w>
+          <w cert="1.0" lemma="God" lexicon="hilex" pos="NOU-P" resp="roland" xml:id="c14080_0020.w.1419786">Gods</w>
+          <w cert="1.0" lemma="breken" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c14080_0020.w.1419787">brac</w>
+          <w cert="1.0" lemma="met+de" lexicon="byt5" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c14080_0020.w.1419788">metten</w>
+          <w cert="1.0" lemma="appelbeet" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c14080_0020.w.1419789">appelbete</w>
+          <pc pos="LET" xml:id="c14080_0020.pc.post.00593534">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

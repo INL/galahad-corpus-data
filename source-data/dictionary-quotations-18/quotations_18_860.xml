@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>860</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M066515" lemma="STERFTE" modern-lemma="sterfte" partition="train" pos="NOU-C" sense-id="M066515.bet.3" xml:id="M066515.eg.27510">
+        <date atLeast="1766" atMost="1766" timeSpan="1750-1800" />
+        <q xml:id="no_doc_id.s.860">
+          <w cert="1.0" lemma="onvoorzien" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.242731">Onvoorziene</w>
+          <w cert="1.0" lemma="toeval" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.242732">toevallen</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00074054">,</pc>
+          <w cert="1.0" lemma="als" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.242733">als</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00074055">:</pc>
+          <w cert="1.0" lemma="zwaar" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.242734">zwaare</w>
+          <w cert="1.0" lemma="ziekte" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.242735">ziektens</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00074056">,</pc>
+          <w cert="1.0" lemma="sterfte" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="M066515.bet.3" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.242736">sterftens</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00074057">,</pc>
+          <w cert="1.0" lemma="enzovoort|enzovoorts" lexicon="byt5" pos="ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.242737">enz</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00074058">.,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

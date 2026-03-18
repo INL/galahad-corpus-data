@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1703</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M086677" lemma="WINNEN" modern-lemma="winnen" partition="train" pos="VRB" sense-id="M086677.bet.262" xml:id="M086677.eg.17046">
+        <date atLeast="1567" atMost="1567" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.1703">
+          <w cert="1.0" lemma="loven" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152846">Loeft</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152847">den</w>
+          <w cert="1.0" lemma="klein" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152848">cleynen</w>
+          <w cert="1.0" lemma="David" lexicon="byt5" pos="NOU-P" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152849">David</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00049500">,</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152850">die</w>
+          <w cert="1.0" lemma="het+gevecht" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152851">tgevecht</w>
+          <w cert="1.0" lemma="winnen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="M086677.bet.262" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152852">wan</w>
+          <w cert="1.0" lemma="tegen" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152853">Tegen</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152854">den</w>
+          <w cert="1.0" lemma="groot" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152855">grooten</w>
+          <w cert="1.0" lemma="Goliat" lexicon="byt5" pos="NOU-P" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.152856">Goliath</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00049501">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

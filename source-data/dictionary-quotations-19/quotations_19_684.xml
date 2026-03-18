@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>684</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M051322" lemma="OVERSPELER" modern-lemma="overspeler" partition="train" pos="NOU-C" sense-id="M051322.bet.1" xml:id="M051322.eg.36443">
+        <date atLeast="1875" atMost="1875" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.684">
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.267771">Hij</w>
+          <pc join="right" pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.pre.0089669">(</pc>
+          <w cert="1.0" lemma="worden" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.267772">werd</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0089670">)</pc>
+          <w cert="1.0" lemma="brandmerken" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.267773">gebrandmerkt</w>
+          <w cert="1.0" lemma="als" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.267774">als</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.267775">een</w>
+          <w cert="1.0" lemma="overspeler" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="M051322.bet.1" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.267776">overspeler</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.267777">en</w>
+          <w cert="1.0" lemma="echtbreker" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.267778">echtbreker</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0089671">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

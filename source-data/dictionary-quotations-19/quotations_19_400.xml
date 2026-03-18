@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>400</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M029302" lemma="KAARTEN" modern-lemma="kaarten" partition="train" pos="VRB" sense-id="M029302.bet.1" xml:id="M029302.eg.13975">
+        <date atLeast="1898" atMost="1898" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.400">
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62203">Hij</w>
+          <pc join="right" pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.pre.00020724">(</pc>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62204">had</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00020725">)</pc>
+          <w cert="1.0" lemma="om" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62205">om</w>
+          <w cert="1.0" lemma="prijs" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62206">prijs</w>
+          <w cert="1.0" lemma="kaarten" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="M029302.bet.1" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62207">gekaart</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.floating.00020726">…</pc>
+          <w cert="1.0" lemma="voor" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62209">voor</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62210">een</w>
+          <w cert="1.0" lemma="paar" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62211">paar</w>
+          <w cert="1.0" lemma="haring" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62212">haringen</w>
+          <w cert="1.0" lemma="of" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62213">of</w>
+          <w cert="1.0" lemma="pijp" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.62214">pijpen</w>
+          <pc pos="LET" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00020727">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>125</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M006757" lemma="BELEEDIGING" modern-lemma="belediging" partition="train" pos="NOU-C" sense-id="M006757.bet.4" xml:id="M006757.eg.16086">
+        <date atLeast="1812" atMost="1812" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.125">
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.234897">Dat</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.floating.0075737">…</pc>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.234899">hy</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.post.0075738">,</pc>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.234900">in</w>
+          <w cert="1.0" lemma="plaats" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.234901">plaats</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.234902">van</w>
+          <w cert="1.0" lemma="eer" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.234903">eer</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.post.0075739">,</pc>
+          <w cert="1.0" lemma="belediging" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" sense-id="M006757.bet.4" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.234904">belediging</w>
+          <w cert="1.0" lemma="ontvangen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.234905">ontfangt</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.post.0075740">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

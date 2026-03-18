@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>155</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.05179" lemma="BOSCH" partition="train" sense-id="mnw.05179.sense.1" xml:id="c05179_0005">
+        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.155">
+          <w cert="1.0" lemma="zien" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c05179_0005.w.993667">Sich</w>
+          <w cert="1.0" lemma="hoe" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c05179_0005.w.993668">hoe</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c05179_0005.w.993669">een</w>
+          <w cert="1.0" lemma="klein" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c05179_0005.w.993670">cleyn</w>
+          <w cert="1.0" lemma="vuur" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05179_0005.w.993671">vuer</w>
+          <w cert="1.0" lemma="een" lexicon="hilex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c05179_0005.w.993672">enen</w>
+          <w cert="1.0" lemma="groot" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c05179_0005.w.993673">groten</w>
+          <w cert="1.0" lemma="bos" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.05179.sense.1" xml:id="c05179_0005.w.993674">bosch</w>
+          <w cert="1.0" lemma="ontvengen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c05179_0005.w.993675">ontfenghet</w>
+          <pc pos="LET" xml:id="c05179_0005.pc.post.00393165">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

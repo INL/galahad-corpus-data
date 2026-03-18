@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>528</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.12185" lemma="GEORLOVET" partition="train" sense-id="mnw.12185.sense.1" xml:id="c12185_0000">
+        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.528">
+          <w cert="1.0" lemma="een" lexicon="hilex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c12185_0000.w.1067520">Eenen</w>
+          <w cert="1.0" lemma="vol" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c12185_0000.w.1067521">vul</w>
+          <w cert="1.0" lemma="water" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c12185_0000.w.1067522">waters</w>
+          <pc join="right" pos="LET" xml:id="c12185_0000.pc.pre.00449492">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c12185_0000.w.1067523">hydropicum</w>
+          <pc pos="LET" xml:id="c12185_0000.pc.post.00449493">)</pc>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12185_0000.w.1067524">hi</w>
+          <w cert="1.0" lemma="genezen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c12185_0000.w.1067525">ghenas</w>
+          <pc pos="LET" xml:id="c12185_0000.pc.post.00449494">,</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c12185_0000.w.1067526">ende</w>
+          <w cert="1.0" lemma="proeven+hij" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c12185_0000.w.1067527">proeveden</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c12185_0000.w.1067528">dat</w>
+          <w cert="1.0" lemma="geoorloofd" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.12185.sense.1" xml:id="c12185_0000.w.1067529">gheorlovet</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c12185_0000.w.1067530">ware</w>
+          <pc join="right" pos="LET" xml:id="c12185_0000.pc.pre.00449495">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c12185_0000.w.1067531">nl.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c12185_0000.w.1067532">op</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c12185_0000.w.1067533">sabbat</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c12185_0000.w.1067534">te</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c12185_0000.w.1067535">genezen</w>
+          <pc pos="LET" xml:id="c12185_0000.pc.post.00449497">)</pc>
+          <pc pos="LET" xml:id="c12185_0000.pc.floating.00449498">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1240</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M067096" lemma="STROOM" modern-lemma="stroom" partition="train" pos="NOU-C" sense-id="M067096.bet.23" xml:id="M067096.eg.1934">
+        <date atLeast="1632" atMost="1632" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.1240">
+          <w cert="1.0" lemma="voor" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837310">Voor</w>
+          <w cert="1.0" lemma="wind" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837311">wint</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837312">en</w>
+          <w cert="1.0" lemma="voor" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837313">voor</w>
+          <w cert="1.0" lemma="stroom" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" sense-id="M067096.bet.23" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837314">stroom</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837315">is</w>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837316">'t</w>
+          <w cert="1.0" lemma="goed" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837317">goet</w>
+          <w cert="1.0" lemma="zeilen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.837318">zeylen</w>
+          <pc pos="LET" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00252347">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

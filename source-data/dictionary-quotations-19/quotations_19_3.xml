@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>3</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M000465" lemma="AANKLINKEN" modern-lemma="unk" partition="train" pos="unk" sense-id="S000325.bet.1" xml:id="S000325.eg.1166">
+        <date atLeast="1828" atMost="1828" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.3">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.191122">De</w>
+          <w cert="1.0" lemma="vrij" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.191123">vrije</w>
+          <w cert="1.0" lemma="geest" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.191124">geest</w>
+          <pc join="right" pos="LET" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.pc.pre.0055564">(</pc>
+          <w cert="1.0" lemma="breken" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.191125">brak</w>
+          <pc pos="LET" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.pc.post.0055565">)</pc>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.191126">zijn</w>
+          <w cert="1.0" lemma="aangeklonken" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="S000325.bet.1" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.191127">aangeklonken</w>
+          <w cert="1.0" lemma="kluister" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.191128">kluister</w>
+          <pc pos="LET" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.pc.post.0055566">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

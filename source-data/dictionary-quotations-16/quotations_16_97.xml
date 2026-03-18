@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>97</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M009385" lemma="BLIEK" modern-lemma="bliek" partition="train" pos="NOU-C" sense-id="M009385.bet.1" xml:id="M009385.eg.39391">
+        <date atLeast="1500" atMost="1533" timeSpan="1500-1550" />
+        <q xml:id="no_doc_id.s.97">
+          <w cert="1.0" lemma="het+komen" lexicon="byt5" pos="PD(type=pers,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620587">Tcomt</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620588">hem</w>
+          <w cert="1.0" lemma="alleleens" lexicon="byt5" pos="ADV(type=reg)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620589">alleleens</w>
+          <w cert="1.0" lemma="weder+het" lexicon="molex" pos="CONJ(type=coor)+PD(type=pers,position=free)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620590">weert</w>
+          <w cert="1.0" lemma="snoek" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620591">snoec</w>
+          <w cert="1.0" lemma="of" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620592">oft</w>
+          <w cert="1.0" lemma="bliek" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="M009385.bet.1" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620593">blieck</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620594">is</w>
+          <pc join="right" pos="LET" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.pc.pre.0208557">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620595">hier</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.620596">figuurlijk</w>
+          <pc pos="LET" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.pc.post.0208558">),</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

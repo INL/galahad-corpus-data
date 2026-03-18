@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>489</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M050740" lemma="OVERLANDSCH" modern-lemma="overlands" partition="train" pos="AA" sense-id="M050740.bet.1" xml:id="M050740.eg.32296">
+        <date atLeast="1548" atMost="1548" timeSpan="1500-1550" />
+        <q xml:id="no_doc_id.s.489">
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106222">In</w>
+          <w cert="1.0" lemma="overlands" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="M050740.bet.1" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106223">Overlandtsche</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0036329">,</pc>
+          <w cert="1.0" lemma="Spaans" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106224">Spaensche</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0036330">,</pc>
+          <w cert="1.0" lemma="Duits" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106225">Duytsche</w>
+          <pc join="right" pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.pre.0036331">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="roland" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106226">t.w.</w>
+          <w cert="1.0" lemma="" lexicon="hilex" pos="" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106227">Nederduitsche</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0036333">,</pc>
+          <w cert="1.0" lemma="" lexicon="hilex" pos="" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106228">Nederlandsche</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0036334">)</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106229">ende</w>
+          <w cert="1.0" lemma="Waals" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106230">Walsche</w>
+          <w cert="1.0" lemma="spraak" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.w.106231">sprake</w>
+          <pc pos="LET" xml:id="bdd0c7ac-95b4-40fc-a506-a871b18676c0.pc.post.0036335">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

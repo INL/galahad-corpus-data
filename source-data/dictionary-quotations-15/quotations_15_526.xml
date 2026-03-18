@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>526</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.21520" lemma="KIESEN" partition="train" sense-id="mnw.21520.sense.12" xml:id="c21520_0052">
+        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.526">
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21520_0052.w.981324">Zi</w>
+          <pc join="right" pos="LET" xml:id="c21520_0052.pc.pre.00396736">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="roland" xml:id="c21520_0052.w.981325">de</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c21520_0052.w.981326">moeder</w>
+          <pc pos="LET" xml:id="c21520_0052.pc.post.00396737">)</pc>
+          <w cert="1.0" lemma="zeggen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c21520_0052.w.981327">zeide</w>
+          <pc pos="LET" xml:id="c21520_0052.pc.post.00396738">:</pc>
+          <w cert="1.0" lemma="of" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c21520_0052.w.981328">of</w>
+          <w cert="1.0" lemma="God" lexicon="hilex" pos="NOU-P" resp="roland" xml:id="c21520_0052.w.981329">God</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c21520_0052.w.981330">dat</w>
+          <w cert="1.0" lemma="hebben" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21520_0052.w.981331">hevet</w>
+          <w cert="1.0" lemma="kiezen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.21520.sense.12" xml:id="c21520_0052.w.981332">gekoren</w>
+          <pc pos="LET" xml:id="c21520_0052.pc.floating.00396739">,</pc>
+          <w cert="1.0" lemma="dat+du" lexicon="byt5" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c21520_0052.w.981334">dattu</w>
+          <w cert="1.0" lemma="worden" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c21520_0052.w.981335">werdes</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c21520_0052.w.981336">van</w>
+          <w cert="1.0" lemma="ik" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21520_0052.w.981337">my</w>
+          <w cert="1.0" lemma="geboren" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c21520_0052.w.981338">geboren</w>
+          <pc pos="LET" xml:id="c21520_0052.pc.post.00396740">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

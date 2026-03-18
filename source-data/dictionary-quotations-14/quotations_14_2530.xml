@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2530</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.62158" lemma="VERBIDDEN" partition="train" sense-id="mnw.62158.sense.13" xml:id="c62158_0036">
+        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2530">
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c62158_0036.w.1102168">Dat</w>
+          <w cert="1.0" lemma="vloeien" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62158_0036.w.1102169">vloit</w>
+          <w cert="1.0" lemma="daardoor" lexicon="hilex" pos="ADV(type=pron)" resp="roland" xml:id="c62158_0036.w.1102170">daer<join n="mw_503304" />
+          </w>
+          <w cert="1.0" lemma="daardoor" lexicon="molex" pos="ADV(type=pron)" resp="roland" xml:id="c62158_0036.w.1102171">dure<join n="mw_503304" />
+          </w>
+          <pc join="right" pos="LET" xml:id="c62158_0036.pc.pre.00444458">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c62158_0036.w.1102172">door</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c62158_0036.w.1102173">de</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c62158_0036.w.1102174">lippen</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c62158_0036.w.1102175">van</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="roland" xml:id="c62158_0036.w.1102176">Maria</w>
+          <pc pos="LET" xml:id="c62158_0036.pc.post.00444459">)</pc>
+          <w cert="1.0" lemma="zo" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c62158_0036.w.1102177">so</w>
+          <w cert="1.0" lemma="menig" lexicon="hilex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c62158_0036.w.1102178">menighe</w>
+          <w cert="1.0" lemma="bede" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62158_0036.w.1102179">bede</w>
+          <w cert="1.0" lemma="te+elk" lexicon="byt5" pos="ADP(type=pre)+PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c62158_0036.w.1102180">telker</w>
+          <w cert="1.0" lemma="uur" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c62158_0036.w.1102181">ure</w>
+          <pc pos="LET" xml:id="c62158_0036.pc.post.00444460">,</pc>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62158_0036.w.1102182">die</w>
+          <w cert="1.0" lemma="verbidden" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.62158.sense.13" xml:id="c62158_0036.w.1102183">verbidt</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62158_0036.w.1102184">des</w>
+          <w cert="1.0" lemma="mens" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c62158_0036.w.1102185">menschen</w>
+          <w cert="1.0" lemma="zonde" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62158_0036.w.1102186">zonde</w>
+          <pc pos="LET" xml:id="c62158_0036.pc.post.00444461">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

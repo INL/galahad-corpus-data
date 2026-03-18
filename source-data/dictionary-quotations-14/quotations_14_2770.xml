@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2770</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.66220" lemma="VINDER" partition="train" sense-id="mnw.66220.sense.5" xml:id="c66220_0023">
+        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2770">
+          <w cert="1.0" lemma="W." lexicon="byt5" pos="NOU-P(WF=abbr)" resp="roland" xml:id="c66220_0023.w.367361">W.</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c66220_0023.w.367362">ende</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c66220_0023.w.367363">sinen</w>
+          <w cert="1.0" lemma="vinder" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.66220.sense.5" xml:id="c66220_0023.w.367364">vinders</w>
+          <pc pos="LET" xml:id="c66220_0023.pc.floating.00145692">,</pc>
+          <w cert="1.0" lemma="modderaar" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c66220_0023.w.367366">muederheren</w>
+          <pc join="right" pos="LET" xml:id="c66220_0023.pc.pre.00145693">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c66220_0023.w.367367">zie</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c66220_0023.w.367368">modderare</w>
+          <pc pos="LET" xml:id="c66220_0023.pc.floating.00145694">)</pc>
+          <pc pos="LET" xml:id="c66220_0023.pc.floating.00145695">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

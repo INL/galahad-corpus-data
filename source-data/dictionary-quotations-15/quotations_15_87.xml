@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>87</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.02970" lemma="BEKEREN" partition="test" sense-id="mnw.02970.sense.30" xml:id="c02970_0102">
+        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.87">
+          <w cert="1.0" lemma="bovenal" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c02970_0102.w.565926">Boven<join n="mw_684435" />
+          </w>
+          <w cert="1.0" lemma="bovenal" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c02970_0102.w.565927">al<join n="mw_684435" />
+          </w>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02970_0102.w.565928">heeft</w>
+          <pc join="right" pos="LET" xml:id="c02970_0102.pc.pre.00220862">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c02970_0102.w.565929">het</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c02970_0102.w.565930">volk</w>
+          <pc pos="LET" xml:id="c02970_0102.pc.post.00220863">)</pc>
+          <w cert="1.0" lemma="hem" lexicon="molex" pos="PD(type=refl,position=free)" resp="roland" xml:id="c02970_0102.w.565931">hem</w>
+          <w cert="1.0" lemma="bekeren" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.02970.sense.30" xml:id="c02970_0102.w.565932">bekeert</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="c02970_0102.w.565933">te</w>
+          <w cert="1.0" lemma="lezen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c02970_0102.w.565934">lesene</w>
+          <pc pos="LET" xml:id="c02970_0102.pc.post.00220864">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1111</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.27642" lemma="MAGEDOEM" partition="train" sense-id="mnw.27642.sense.1" xml:id="c27642_0008">
+        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1111">
+          <w cert="1.0" lemma="maagdom" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.27642.sense.1" xml:id="c27642_0008.w.695114">Magedoem</w>
+          <pc pos="LET" xml:id="c27642_0008.pc.floating.00269390">…</pc>
+          <w cert="1.0" lemma="gaan+er" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+ADV(type=reg)" resp="thomas" xml:id="c27642_0008.w.695116">gaeter</w>
+          <w cert="1.0" lemma="tevoren" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c27642_0008.w.695117">te<join n="mw_706718" />
+          </w>
+          <w cert="1.0" lemma="tevoren" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c27642_0008.w.695118">voren<join n="mw_706718" />
+          </w>
+          <pc join="right" pos="LET" xml:id="c27642_0008.pc.pre.00269391">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c27642_0008.w.695119">boven</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c27642_0008.w.695120">den</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c27642_0008.w.695121">gehuwden</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c27642_0008.w.695122">staat</w>
+          <pc pos="LET" xml:id="c27642_0008.pc.post.00269392">)</pc>
+          <pc pos="LET" xml:id="c27642_0008.pc.floating.00269393">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

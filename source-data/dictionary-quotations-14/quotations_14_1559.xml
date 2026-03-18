@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1559</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.38105" lemma="ONTVANC" partition="dev" sense-id="mnw.38105.sense.5" xml:id="c38105_0018">
+        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1559">
+          <w cert="1.0" lemma="gemeen" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c38105_0018.w.870289">Imene</w>
+          <pc join="right" pos="LET" xml:id="c38105_0018.pc.pre.00349246">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="roland" xml:id="c38105_0018.w.870290">d.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c38105_0018.w.870291">i.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c38105_0018.w.870292">gemene</w>
+          <pc pos="LET" xml:id="c38105_0018.pc.post.00349249">)</pc>
+          <w cert="1.0" lemma="ontvang" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.38105.sense.5" xml:id="c38105_0018.w.870293">ontfanc</w>
+          <pc join="right" pos="LET" xml:id="c38105_0018.pc.pre.00349250">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c38105_0018.w.870294">titel</w>
+          <pc pos="LET" xml:id="c38105_0018.pc.post.00349251">)</pc>
+          <pc pos="LET" xml:id="c38105_0018.pc.floating.00349252">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

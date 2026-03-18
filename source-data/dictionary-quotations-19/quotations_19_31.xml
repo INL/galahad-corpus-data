@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>31</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="S001560" lemma="AFDREIGEN" modern-lemma="afdreigen" partition="train" pos="VRB" sense-id="S001560.bet.2" xml:id="S001560.eg.7255">
+        <date atLeast="1886" atMost="1886" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.31">
+          <w cert="1.0" lemma="ik" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461665">Ik</w>
+          <w cert="1.0" lemma="hebben" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461666">hebbe</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461667">hem</w>
+          <w cert="1.0" lemma="afdreigen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="S001560.bet.2" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461668">afgedreegd</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461669">en</w>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461670">'t</w>
+          <w cert="1.0" lemma="ne" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461671">en</w>
+          <w cert="1.0" lemma="doen" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461672">deed</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461673">hem</w>
+          <w cert="1.0" lemma="niets" lexicon="molex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.w.461674">niets</w>
+          <pc pos="LET" xml:id="e2202b70-1c8b-44b0-9272-53fb847ea519.pc.post.0140523">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

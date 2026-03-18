@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1673</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.40876" lemma="OVERSCAER" partition="train" sense-id="mnw.40876.sense.1" xml:id="c40876_0000">
+        <date atLeast="1343" atMost="1346" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1673">
+          <w cert="1.0" lemma="C." lexicon="byt5" pos="NOU-P(WF=abbr)" resp="roland" xml:id="c40876_0000.w.1471335">C.</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c40876_0000.w.1471336">van</w>
+          <w cert="1.0" lemma="overschaar" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40876.sense.1" xml:id="c40876_0000.w.1471337">overscaer</w>
+          <w cert="1.0" lemma="op" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c40876_0000.w.1471338">op</w>
+          <w cert="1.0" lemma="de" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c40876_0000.w.1471339">den</w>
+          <w cert="1.0" lemma="broek" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c40876_0000.w.1471340">broec</w>
+          <w cert="1.0" lemma="aldaar" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c40876_0000.w.1471341">aldaer</w>
+          <w cert="1.0" lemma="tien" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c40876_0000.w.1471342">10</w>
+          <w cert="1.0" lemma="libra" lexicon="byt5" pos="RES(type=symb)" resp="thomas" xml:id="c40876_0000.w.1471343">ᨧ</w>
+          <pc pos="LET" xml:id="c40876_0000.pc.post.00585171">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

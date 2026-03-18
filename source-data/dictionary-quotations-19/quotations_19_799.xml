@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>799</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M060450" lemma="ROEPEN" modern-lemma="roepen" partition="train" pos="VRB" sense-id="M060450.bet.18" xml:id="M060450.eg.12104">
+        <date atLeast="1804" atMost="1804" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.799">
+          <w cert="1.0" lemma="maar" lexicon="molex" pos="CONJ(type=coor)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684357">Maar</w>
+          <w cert="1.0" lemma="ach" lexicon="molex" pos="INT" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684358">ach</w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00216597">!</pc>
+          <w cert="1.0" lemma="ik" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684359">ik</w>
+          <w cert="1.0" lemma="roepen" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M060450.bet.18" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684360">roep</w>
+          <w cert="1.0" lemma="vergeefs" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684361">vergeefs</w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00216598">.</pc>
+          <w cert="1.0" lemma="mijn" lexicon="molex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684362">Mijn</w>
+          <w cert="1.0" lemma="dierbare" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684363">dierbre</w>
+          <w cert="1.0" lemma="wederkeren" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684364">keert<join n="mw_79187" />
+          </w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684365">niet</w>
+          <w cert="1.0" lemma="wederkeren" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.684366">weder<join n="mw_79187" />
+          </w>
+          <pc pos="LET" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00216599">!</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

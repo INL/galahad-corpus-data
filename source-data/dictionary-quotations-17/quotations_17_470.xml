@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>470</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M027053" lemma="IEDER" modern-lemma="ieder" partition="train" pos="PD" sense-id="M027053.bet.11" xml:id="M027053.eg.23295">
+        <date atLeast="1688" atMost="1688" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.470">
+          <w cert="1.0" lemma="eenieder" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.458663">Een<join n="mw_890164" />
+          </w>
+          <w cert="1.0" lemma="eenieder" lexicon="hilex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" sense-id="M027053.bet.11" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.458664">yeder<join n="mw_890164" />
+          </w>
+          <w cert="1.0" lemma="mens" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.458665">mensche</w>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.458666">die</w>
+          <w cert="1.0" lemma="de" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.458667">d</w>
+          <pc pos="LET" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.pc.post.0165188">'</pc>
+          <w cert="1.0" lemma="onrijp" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.458668">onrijpe</w>
+          <w cert="1.0" lemma="druif" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.458669">druyven</w>
+          <w cert="1.0" lemma="eten" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.w.458670">eet</w>
+          <pc pos="LET" xml:id="INT_5abd2180-5da6-4ade-86cd-3926dda8ed8e.pc.post.0165189">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

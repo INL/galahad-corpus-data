@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>570</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.23022" lemma="CONTSCAP" partition="train" sense-id="mnw.23022.sense.1" xml:id="c23022_0006">
+        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.570">
+          <w cert="1.0" lemma="met" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c23022_0006.w.1253630">Mit</w>
+          <w cert="1.0" lemma="raad" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c23022_0006.w.1253631">rade</w>
+          <pc pos="LET" xml:id="c23022_0006.pc.floating.00505066">…</pc>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c23022_0006.w.1253633">der</w>
+          <w cert="1.0" lemma="broeder" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23022_0006.w.1253634">broeder</w>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c23022_0006.w.1253635">die</w>
+          <w cert="1.0" lemma="voor" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c23022_0006.w.1253636">voor</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c23022_0006.w.1253637">dat</w>
+          <w cert="1.0" lemma="land" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23022_0006.w.1253638">lant</w>
+          <w cert="1.0" lemma="raden" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c23022_0006.w.1253639">raden</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c23022_0006.w.1253640">ende</w>
+          <w cert="1.0" lemma="het" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c23022_0006.w.1253641">zijns</w>
+          <pc join="right" pos="LET" xml:id="c23022_0006.pc.pre.00505067">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c23022_0006.w.1253642">van</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="roland" xml:id="c23022_0006.w.1253643">dat</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c23022_0006.w.1253644">land</w>
+          <pc pos="LET" xml:id="c23022_0006.pc.post.00505068">)</pc>
+          <w cert="1.0" lemma="hebben" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c23022_0006.w.1253645">hebben</w>
+          <w cert="1.0" lemma="kondschap" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.23022.sense.1" xml:id="c23022_0006.w.1253646">conscap</w>
+          <pc pos="LET" xml:id="c23022_0006.pc.floating.00505069">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

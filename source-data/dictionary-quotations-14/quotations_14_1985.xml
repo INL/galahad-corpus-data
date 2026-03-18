@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1985</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.48872" lemma="SCHARE" partition="train" sense-id="mnw.48872.sense.5" xml:id="c48872_0047">
+        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1985">
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c48872_0047.w.232644">Dat</w>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c48872_0047.w.232645">hi</w>
+          <pc join="right" pos="LET" xml:id="c48872_0047.pc.pre.00096098">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c48872_0047.w.232646">de</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c48872_0047.w.232647">schrijver</w>
+          <pc pos="LET" xml:id="c48872_0047.pc.post.00096099">)</pc>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c48872_0047.w.232648">te</w>
+          <w cert="1.0" lemma="rusten" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c48872_0047.w.232649">rusten</w>
+          <w cert="1.0" lemma="varen" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c48872_0047.w.232650">vare</w>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c48872_0047.w.232651">met</w>
+          <w cert="1.0" lemma="hij" lexicon="molex" pos="PD(type=pers,position=free)" resp="roland" xml:id="c48872_0047.w.232652">hem</w>
+          <pc join="right" pos="LET" xml:id="c48872_0047.pc.pre.00096100">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="roland" xml:id="c48872_0047.w.232653">Maria</w>
+          <pc pos="LET" xml:id="c48872_0047.pc.post.00096101">)</pc>
+          <w cert="1.0" lemma="tot+de" lexicon="byt5" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48872_0047.w.232654">toter</w>
+          <w cert="1.0" lemma="blij" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c48872_0047.w.232655">blider</w>
+          <w cert="1.0" lemma="schaar" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48872.sense.5" xml:id="c48872_0047.w.232656">scare</w>
+          <pc pos="LET" xml:id="c48872_0047.pc.floating.00096102">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>518</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.21149" lemma="KERFAEXE" partition="train" sense-id="mnw.21149.sense.1" xml:id="c21149_0000">
+        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.518">
+          <w cert="1.0" lemma="ijzerwerk" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c21149_0000.w.930507">Yzerwerke</w>
+          <pc pos="LET" xml:id="c21149_0000.pc.floating.00376019">....</pc>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="c21149_0000.w.930509">te</w>
+          <w cert="1.0" lemma="weten" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c21149_0000.w.930510">wetene</w>
+          <pc pos="LET" xml:id="c21149_0000.pc.post.00376020">,</pc>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c21149_0000.w.930511">van</w>
+          <w cert="1.0" lemma="kerfaks" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21149.sense.1" xml:id="c21149_0000.w.930512">kerfhaexen</w>
+          <pc pos="LET" xml:id="c21149_0000.pc.floating.00376021">,</pc>
+          <w cert="1.0" lemma="houwaks" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c21149_0000.w.930514">hauhaexen</w>
+          <pc pos="LET" xml:id="c21149_0000.pc.post.00376022">,</pc>
+          <w cert="1.0" lemma="klein" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c21149_0000.w.930515">cleene</w>
+          <w cert="1.0" lemma="aks" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="c21149_0000.w.930516">haexen</w>
+          <pc pos="LET" xml:id="c21149_0000.pc.post.00376023">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

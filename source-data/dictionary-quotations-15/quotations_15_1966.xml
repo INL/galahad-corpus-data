@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1966</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.66460" lemma="VIVERE" partition="train" sense-id="mnw.66460.sense.1" xml:id="c66460_0001">
+        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.1966">
+          <w cert="1.0" lemma="daarin" lexicon="byt5" pos="ADV(type=pron)" resp="thomas" xml:id="c66460_0001.w.413823">Dair<join n="mw_978899" />
+          </w>
+          <w cert="1.0" lemma="daarin" lexicon="hilex" pos="ADV(type=pron)" resp="thomas" xml:id="c66460_0001.w.413824">in<join n="mw_978899" />
+          </w>
+          <pc join="right" pos="LET" xml:id="c66460_0001.pc.pre.00164739">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="roland" xml:id="c66460_0001.w.413825">in</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="roland" xml:id="c66460_0001.w.413826">Ierland</w>
+          <pc pos="LET" xml:id="c66460_0001.pc.post.00164740">)</pc>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66460_0001.w.413827">zijn</w>
+          <w cert="1.0" lemma="veel" lexicon="molex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c66460_0001.w.413828">vele</w>
+          <w cert="1.0" lemma="rivier" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c66460_0001.w.413829">rivieren</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c66460_0001.w.413830">ende</w>
+          <w cert="1.0" lemma="vijver" lexicon="hilex" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.66460.sense.1" xml:id="c66460_0001.w.413831">vivers</w>
+          <pc pos="LET" xml:id="c66460_0001.pc.floating.00164741">…</pc>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c66460_0001.w.413833">ende</w>
+          <w cert="1.0" lemma="het+zijn" lexicon="byt5" pos="PD(type=pers,position=free)+VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66460_0001.w.413834">hets</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c66460_0001.w.413835">een</w>
+          <w cert="1.0" lemma="land" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66460_0001.w.413836">land</w>
+          <w cert="1.0" lemma="vol" lexicon="hilex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c66460_0001.w.413837">vul</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c66460_0001.w.413838">van</w>
+          <pc pos="LET" xml:id="c66460_0001.pc.floating.00164742">…</pc>
+          <w cert="1.0" lemma="allerhande" lexicon="hilex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c66460_0001.w.413840">alderande</w>
+          <w cert="1.0" lemma="visserij" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" xml:id="c66460_0001.w.413841">visscheriën</w>
+          <pc pos="LET" xml:id="c66460_0001.pc.post.00164743">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

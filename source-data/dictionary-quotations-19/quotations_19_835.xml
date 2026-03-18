@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>835</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M062637" lemma="SCHIETEN" modern-lemma="schieten" partition="dev" pos="VRB" sense-id="M062637.bet.82" xml:id="M062637.eg.9602">
+        <date atLeast="1810" atMost="1810" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.835">
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728537">In</w>
+          <w cert="1.0" lemma="deze" lexicon="molex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728538">deze</w>
+          <w cert="1.0" lemma="overvaart" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728539">overvaart</w>
+          <w cert="1.0" lemma="schieten" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="M062637.bet.82" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728540">schoot</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728541">een</w>
+          <pc lemma="de⊕een" lexicon="byt5" pos="AA(degree=pos,position=prenom)" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.pc.floating.0226876">…</pc>
+          <w cert="1.0" lemma="pijlvis" lexicon="byt5" pos="NOU-C(number=sg)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728543">pijlvisch</w>
+          <w cert="1.0" lemma="over" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728544">over</w>
+          <w cert="1.0" lemma="ons" lexicon="molex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728545">ons</w>
+          <w cert="1.0" lemma="vaartuig" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.w.728546">vaartuig</w>
+          <pc pos="LET" xml:id="a0cf664d-baf7-4994-b60c-fa395f3af028.pc.post.0226877">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

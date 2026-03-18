@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1738</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M087254" lemma="WORTEL" modern-lemma="wortel" partition="train" pos="NOU-C" sense-id="M087254.bet.18" xml:id="M087254.eg.34511">
+        <date atLeast="1552" atMost="1552" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.1738">
+          <w cert="1.0" lemma="stirpitus" lexicon="byt5" pos="RES(type=for)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.940220">Stirpitus</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00302573">.</pc>
+          <w cert="1.0" lemma="met" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.940221">Met</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.940222">der</w>
+          <w cert="1.0" lemma="wortel" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" sense-id="M087254.bet.18" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.940223">wortelen</w>
+          <w cert="1.0" lemma="uit" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.940224">wt</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00302574">,</pc>
+          <w cert="1.0" lemma="uit" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.940225">wt</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.940226">den</w>
+          <w cert="1.0" lemma="grond" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.940227">gronde</w>
+          <pc pos="LET" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00302575">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

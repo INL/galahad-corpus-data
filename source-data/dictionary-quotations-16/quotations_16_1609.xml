@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1609</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-04-14" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M085106" lemma="WEIGEREN" modern-lemma="weigeren" partition="train" pos="VRB" sense-id="M085106.bet.15" xml:id="M085106.eg.12528">
+        <date atLeast="1573" atMost="1573" timeSpan="1550-1600" />
+        <q xml:id="no_doc_id.s.1609">
+          <w cert="1.0" lemma="met+het" lexicon="byt5" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455026">Metten</w>
+          <w cert="1.0" lemma="hoofd" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455027">hoofde</w>
+          <w cert="1.0" lemma="weigeren" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" sense-id="M085106.bet.15" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455028">weygeren</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00154354">.</pc>
+          <w cert="1.0" lemma="refuser" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455029">Refuser</w>
+          <w cert="1.0" lemma="faisant" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455030">faisant</w>
+          <w cert="1.0" lemma="signe" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455031">signe</w>
+          <w cert="1.0" lemma="de" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455032">de</w>
+          <w cert="1.0" lemma="la" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455033">la</w>
+          <w cert="1.0" lemma="teste" lexicon="hilex" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455034">teste</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00154355">.</pc>
+          <w cert="1.0" lemma="renuere" lexicon="byt5" pos="RES(type=for)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.455035">Renuere</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00154356">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

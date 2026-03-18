@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1633</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.40023" lemma="ORLOF" partition="train" sense-id="mnw.40023.sense.2" xml:id="c40023_0004">
+        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.1633">
+          <pc join="right" pos="LET" xml:id="c40023_0004.pc.pre.00514453">(</pc>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40023_0004.w.1291428">Hi</w>
+          <pc pos="LET" xml:id="c40023_0004.pc.post.00514454">)</pc>
+          <w cert="1.0" lemma="batten" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c40023_0004.w.1291429">bat</w>
+          <w cert="1.0" lemma="oorlof" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40023.sense.2" xml:id="c40023_0004.w.1291430">orlof</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c40023_0004.w.1291431">te</w>
+          <w cert="1.0" lemma="land" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c40023_0004.w.1291432">lande</w>
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c40023_0004.w.1291433">te</w>
+          <w cert="1.0" lemma="varen" lexicon="hilex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c40023_0004.w.1291434">vaerne</w>
+          <pc pos="LET" xml:id="c40023_0004.pc.post.00514455">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

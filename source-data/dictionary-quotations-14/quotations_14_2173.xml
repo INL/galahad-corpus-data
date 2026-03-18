@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2173</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.54055" lemma="SPINAGE" partition="train" sense-id="mnw.54055.sense.1" xml:id="c54055_0000">
+        <date atLeast="1350" atMost="1400" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.2173">
+          <w cert="1.0" lemma="spinage" lexicon="byt5" pos="NOU-C(number=sg,WF=mis)" resp="thomas" xml:id="c54055_0000.w.1297929">Sinage</w>
+          <pc join="right" pos="LET" xml:id="c54055_0000.pc.pre.00538929">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c54055_0000.w.1297930">l.</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" sense-id="mnw.54055.sense.1" xml:id="c54055_0000.w.1297931">spinage</w>
+          <pc pos="LET" xml:id="c54055_0000.pc.floating.00538931">)</pc>
+          <pc pos="LET" xml:id="c54055_0000.pc.floating.00538932">,</pc>
+          <w cert="1.0" lemma="bernagie" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c54055_0000.w.1297934">borage</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c54055_0000.w.1297935">ende</w>
+          <w cert="1.0" lemma="venkel" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c54055_0000.w.1297936">venkel</w>
+          <pc pos="LET" xml:id="c54055_0000.pc.post.00538933">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

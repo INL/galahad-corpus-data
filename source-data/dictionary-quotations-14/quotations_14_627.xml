@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>627</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.14099" lemma="GIFTEN" partition="train" sense-id="mnw.14099.sense.2" xml:id="c14099_0012">
+        <date atLeast="1370" atMost="1370" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.627">
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c14099_0012.w.1424133">Dat</w>
+          <w cert="1.0" lemma="niemand" lexicon="hilex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c14099_0012.w.1424134">niemene</w>
+          <pc pos="LET" xml:id="c14099_0012.pc.floating.00595357">…</pc>
+          <w cert="1.0" lemma="enig" lexicon="hilex" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c14099_0012.w.1424136">eenighe</w>
+          <w cert="1.0" lemma="bruid" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c14099_0012.w.1424137">bruut</w>
+          <w cert="1.0" lemma="of" lexicon="byt5" pos="CONJ(type=coor)" resp="roland" xml:id="c14099_0012.w.1424138">iof</w>
+          <w cert="1.0" lemma="bruidegom" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c14099_0012.w.1424139">brudegome</w>
+          <w cert="1.0" lemma="ne" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c14099_0012.w.1424140">en</w>
+          <w cert="1.0" lemma="giften" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.14099.sense.2" xml:id="c14099_0012.w.1424141">ghifte</w>
+          <pc pos="LET" xml:id="c14099_0012.pc.floating.00595358">,</pc>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c14099_0012.w.1424143">dat</w>
+          <w cert="1.0" lemma="men" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c14099_0012.w.1424144">men</w>
+          <w cert="1.0" lemma="heten" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c14099_0012.w.1424145">heet</w>
+          <w cert="1.0" lemma="morgengift" lexicon="byt5" pos="NOU-C(number=sg)" resp="roland" xml:id="c14099_0012.w.1424146">morghenghifte</w>
+          <pc pos="LET" xml:id="c14099_0012.pc.post.00595359">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>91</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M006299" lemma="BEHELPEN" modern-lemma="behelpen" partition="train" pos="VRB" sense-id="M006299.bet.2" xml:id="M006299.eg.11862">
+        <date atLeast="1715" atMost="1715" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.91">
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69519">En</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69520">is</w>
+          <w cert="1.0" lemma="uw" lexicon="molex" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69521">uw</w>
+          <w cert="1.0" lemma="welbescheiden" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69522">welbescheiden</w>
+          <w cert="1.0" lemma="oordeel" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69523">oordeel</w>
+          <w cert="1.0" lemma="hiermede" lexicon="byt5" pos="ADV(type=pron)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69524">Hiermê</w>
+          <w cert="1.0" lemma="behelpen" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="M006299.bet.2" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69525">beholpen</w>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69526">en</w>
+          <w cert="1.0" lemma="dienen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69527">gedient</w>
+          <w cert="1.0" lemma="enzovoort|enzovoorts" lexicon="byt5" pos="ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.69528">enz.,</w>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

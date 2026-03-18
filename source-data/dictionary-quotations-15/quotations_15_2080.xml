@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2080</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.69722" lemma="WACH" partition="train" sense-id="mnw.69722.sense.1" xml:id="c69722_0006">
+        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.2080">
+          <w cert="1.0" lemma="twij" lexicon="byt5" pos="ADV(type=reg)" resp="thomas" xml:id="c69722_0006.w.1098885">Twi</w>
+          <w cert="1.0" lemma="worden+ik" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c69722_0006.w.1098886">werdic</w>
+          <w cert="1.0" lemma="ie" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c69722_0006.w.1098887">ie</w>
+          <pc pos="LET" xml:id="c69722_0006.pc.post.00441030">,</pc>
+          <w cert="1.0" lemma="helaci" lexicon="hilex" pos="INT" resp="thomas" xml:id="c69722_0006.w.1098888">ey<join n="mw_821780" />
+          </w>
+          <w cert="1.0" lemma="helaci" lexicon="byt5" pos="INT" resp="thomas" xml:id="c69722_0006.w.1098889">laes<join n="mw_821780" />
+          </w>
+          <pc pos="LET" xml:id="c69722_0006.pc.post.00441031">,</pc>
+          <w cert="1.0" lemma="o" lexicon="molex" pos="INT" resp="thomas" xml:id="c69722_0006.w.1098890">o</w>
+          <w cert="1.0" lemma="wach" lexicon="hilex" pos="INT" resp="thomas" sense-id="mnw.69722.sense.1" xml:id="c69722_0006.w.1098891">wach</w>
+          <pc pos="LET" xml:id="c69722_0006.pc.floating.00441032">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

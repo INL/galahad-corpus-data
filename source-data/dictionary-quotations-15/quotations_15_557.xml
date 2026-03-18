@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>557</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.22784" lemma="COMPLETE" partition="train" sense-id="mnw.22784.sense.1" xml:id="c22784_0004">
+        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.557">
+          <w cert="1.0" lemma="te" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="c22784_0004.w.1199558">Te</w>
+          <w cert="1.0" lemma="completen" lexicon="byt5" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.22784.sense.1" xml:id="c22784_0004.w.1199559">completen</w>
+          <w cert="1.0" lemma="zullen+men" lexicon="byt5" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c22784_0004.w.1199560">salmen</w>
+          <w cert="1.0" lemma="veniën" lexicon="hilex" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c22784_0004.w.1199561">veniën</w>
+          <pc join="right" pos="LET" xml:id="c22784_0004.pc.pre.00483436">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="roland" xml:id="c22784_0004.w.1199562">de</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c22784_0004.w.1199563">knieën</w>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="c22784_0004.w.1199564">buigen</w>
+          <pc pos="LET" xml:id="c22784_0004.pc.post.00483437">)</pc>
+          <w cert="1.0" lemma="eer+men+zij" lexicon="byt5" pos="CONJ(type=sub)+PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c22784_0004.w.1199565">eermense</w>
+          <w cert="1.0" lemma="beginnen" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c22784_0004.w.1199566">begint</w>
+          <pc pos="LET" xml:id="c22784_0004.pc.post.00483438">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

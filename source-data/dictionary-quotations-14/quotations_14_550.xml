@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>550</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.12528" lemma="GEROCHTE" partition="train" sense-id="mnw.12528.sense.1" xml:id="c12528_0000">
+        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.550">
+          <w cert="1.0" lemma="dat+gerecht" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.12528.sense.1" xml:id="c12528_0000.w.1135774">Tgherochte</w>
+          <w cert="1.0" lemma="vangen+hij" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c12528_0000.w.1135775">vingene</w>
+          <w cert="1.0" lemma="van+dat" lexicon="byt5" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12528_0000.w.1135776">vanden</w>
+          <w cert="1.0" lemma="land" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c12528_0000.w.1135777">lande</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c12528_0000.w.1135778">ende</w>
+          <w cert="1.0" lemma="leggen+hij" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c12528_0000.w.1135779">ledene</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c12528_0000.w.1135780">in</w>
+          <w cert="1.0" lemma="zwaar" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c12528_0000.w.1135781">zware</w>
+          <w cert="1.0" lemma="band" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="c12528_0000.w.1135782">banden</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="roland" xml:id="c12528_0000.w.1135783">ende</w>
+          <w cert="1.0" lemma="in" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c12528_0000.w.1135784">in</w>
+          <w cert="1.0" lemma="een" lexicon="hilex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c12528_0000.w.1135785">enen</w>
+          <w cert="1.0" lemma="vast" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c12528_0000.w.1135786">vasten</w>
+          <w cert="1.0" lemma="toren" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="c12528_0000.w.1135787">tor</w>
+          <pc pos="LET" xml:id="c12528_0000.pc.post.00477128">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

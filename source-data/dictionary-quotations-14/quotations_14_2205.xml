@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>2205</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.54647" lemma="STANDAERT" partition="train" sense-id="mnw.54647.sense.4" xml:id="c54647_0003">
+        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.2205">
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c54647_0003.w.1443332">Van</w>
+          <w cert="1.0" lemma="een" lexicon="byt5" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c54647_0003.w.1443333">I</w>
+          <w cert="1.0" lemma="standaard" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.54647.sense.4" xml:id="c54647_0003.w.1443334">standarde</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="c54647_0003.w.1443335">van</w>
+          <w cert="1.0" lemma="een" lexicon="byt5" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c54647_0003.w.1443336">I</w>
+          <w cert="1.0" lemma="molen" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c54647_0003.w.1443337">muelen</w>
+          <w cert="1.0" lemma="verkopen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c54647_0003.w.1443338">vercocht</w>
+          <w cert="1.0" lemma="vijfenveertig" lexicon="byt5" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c54647_0003.w.1443339">XLV</w>
+          <w cert="1.0" lemma="solidus" lexicon="molex" pos="NOU-C(number=sg,WF=abbr)" resp="thomas" xml:id="c54647_0003.w.1443340">s</w>
+          <pc pos="LET" xml:id="c54647_0003.pc.post.00597611">.,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

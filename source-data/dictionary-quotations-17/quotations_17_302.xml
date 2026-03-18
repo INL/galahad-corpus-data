@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>302</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M015540" lemma="EDEL" modern-lemma="edel" partition="train" pos="AA ADV" sense-id="M015540.bet.21" xml:id="M015540.eg.32656">
+        <date atLeast="1634" atMost="1634" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.302">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35199">De</w>
+          <w cert="1.0" lemma="schepping" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35200">Scheppinghe</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35201">van</w>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35202">den</w>
+          <w cert="1.0" lemma="mens" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35203">Mensche</w>
+          <pc pos="LET" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.pc.post.0012080">,</pc>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35204">van</w>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35205">die</w>
+          <w cert="1.0" lemma="edel" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="M015540.bet.21" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35206">edele</w>
+          <w cert="1.0" lemma="creatuur" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.w.35207">Creature</w>
+          <pc pos="LET" xml:id="INT_0788831d-d9ad-4665-9df5-7a939037bf1d.pc.post.0012081">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

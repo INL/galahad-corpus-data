@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>486</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.11745" lemma="GELUUT" partition="train" sense-id="mnw.11745.sense.1" xml:id="c11745_0022">
+        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+        <q xml:id="no_doc_id.s.486">
+          <w cert="1.0" lemma="dus" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c11745_0022.w.955720">Dus</w>
+          <w cert="1.0" lemma="blijven" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c11745_0022.w.955721">bleef</w>
+          <w cert="1.0" lemma="zonder" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c11745_0022.w.955722">sonder</w>
+          <w cert="1.0" lemma="geluid" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.11745.sense.1" xml:id="c11745_0022.w.955723">gheluut</w>
+          <pc join="right" pos="LET" xml:id="c11745_0022.pc.pre.00404399">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c11745_0022.w.955724">zonder</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c11745_0022.w.955725">rumoer</w>
+          <pc pos="LET" xml:id="c11745_0022.pc.post.00404400">,</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c11745_0022.w.955726">oneenigheden</w>
+          <pc pos="LET" xml:id="c11745_0022.pc.post.00404401">,</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c11745_0022.w.955727">opschudding</w>
+          <pc pos="LET" xml:id="c11745_0022.pc.post.00404402">)</pc>
+          <pc pos="LET" xml:id="c11745_0022.pc.floating.00404403">,</pc>
+          <w cert="1.0" lemma="tot" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c11745_0022.w.955729">tote</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c11745_0022.w.955730">dat</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11745_0022.w.955731">die</w>
+          <w cert="1.0" lemma="vrede" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c11745_0022.w.955732">vrede</w>
+          <w cert="1.0" lemma="leiden" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c11745_0022.w.955733">leden</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11745_0022.w.955734">si</w>
+          <pc pos="LET" xml:id="c11745_0022.pc.post.00404404">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1308</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M077365" lemma="VERONTRUSTIGEN" modern-lemma="verontrustigen" partition="train" pos="VRB" sense-id="M077365.bet.1" xml:id="M077365.eg.24004">
+        <date atLeast="1720" atMost="1720" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.1308">
+          <w cert="1.0" lemma="wijl" lexicon="hilex" pos="CONJ(type=sub)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.87592">Wyl</w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.87593">zy</w>
+          <pc join="right" pos="LET" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.pre.00029676">(</pc>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.87594">de</w>
+          <w cert="1.0" lemma="hebzucht" lexicon="molex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.87595">hebzucht</w>
+          <pc pos="LET" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00029677">)</pc>
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.87596">den</w>
+          <w cert="1.0" lemma="mens" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.87597">mensch</w>
+          <w cert="1.0" lemma="gestadig" lexicon="molex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.87598">gestadig</w>
+          <w cert="1.0" lemma="verontrustigen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="M077365.bet.1" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.87599">verontrustigt</w>
+          <pc pos="LET" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00029678">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

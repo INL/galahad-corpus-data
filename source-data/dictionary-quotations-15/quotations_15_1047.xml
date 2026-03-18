@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1047</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.40772" lemma="OVERMIDS" partition="train" sense-id="mnw.40772.sense.8" xml:id="c40772_0028">
+        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+        <q xml:id="no_doc_id.s.1047">
+          <w cert="1.0" lemma="zijn+het" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c40772_0028.w.1458463">Waert</w>
+          <w cert="1.0" lemma="dat" lexicon="molex" pos="CONJ(type=sub)" resp="roland" xml:id="c40772_0028.w.1458464">dat</w>
+          <w cert="1.0" lemma="gij" lexicon="byt5" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40772_0028.w.1458465">ghi</w>
+          <w cert="1.0" lemma="uw" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c40772_0028.w.1458466">uwe</w>
+          <w cert="1.0" lemma="worden" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c40772_0028.w.1458467">wort</w>
+          <pc pos="LET" xml:id="c40772_0028.pc.floating.00580063">…</pc>
+          <w cert="1.0" lemma="wandelen" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c40772_0028.w.1458469">wandelen</w>
+          <pc join="right" pos="LET" xml:id="c40772_0028.pc.pre.00580064">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c40772_0028.w.1458470">l.</w>
+          <w cert="1.0" lemma="" lexicon="hilex" pos="" resp="thomas" xml:id="c40772_0028.w.1458471">wandelet</w>
+          <pc pos="LET" xml:id="c40772_0028.pc.post.00580066">)</pc>
+          <w cert="1.0" lemma="overmits" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.40772.sense.8" xml:id="c40772_0028.w.1458472">overmits</w>
+          <w cert="1.0" lemma="ik" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40772_0028.w.1458473">mi</w>
+          <pc pos="LET" xml:id="c40772_0028.pc.post.00580067">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>328</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.12526" lemma="GEROCHT" partition="train" sense-id="mnw.12526.sense.1" xml:id="c12526_0000">
+        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.328">
+          <w cert="1.0" lemma="waar" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c12526_0000.w.1135560">Waer</w>
+          <w cert="1.0" lemma="natuur" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12526_0000.w.1135561">natuer</w>
+          <w cert="1.0" lemma="twee" lexicon="hilex" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c12526_0000.w.1135562">twe</w>
+          <w cert="1.0" lemma="hart" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="c12526_0000.w.1135563">harten</w>
+          <w cert="1.0" lemma="voegen" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12526_0000.w.1135564">vuecht</w>
+          <w cert="1.0" lemma="samen" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c12526_0000.w.1135565">te<join n="mw_959400" />
+          </w>
+          <w cert="1.0" lemma="samen" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="c12526_0000.w.1135566">samen<join n="mw_959400" />
+          </w>
+          <w cert="1.0" lemma="met" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c12526_0000.w.1135567">mit</w>
+          <w cert="1.0" lemma="gerecht" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.12526.sense.1" xml:id="c12526_0000.w.1135568">gherochter</w>
+          <w cert="1.0" lemma="deugd" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12526_0000.w.1135569">doecht</w>
+          <pc pos="LET" xml:id="c12526_0000.pc.post.00477064">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>292</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M019312" lemma="GERIEFELIJK" modern-lemma="geriefelijk" partition="train" pos="AA" sense-id="M019312.bet.1" xml:id="M019312.eg.20783">
+        <date atLeast="1840" atMost="1840" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.292">
+          <w cert="1.0" lemma="dergelijk" lexicon="molex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.w.91274">Dergelijke</w>
+          <w cert="1.0" lemma="lokaal" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.w.91275">lokalen</w>
+          <pc join="right" pos="LET" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.pc.pre.0028416">(</pc>
+          <w cert="1.0" lemma="" lexicon="molex" pos="" resp="thomas" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.w.91276">gevangenissen</w>
+          <pc pos="LET" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.pc.post.0028417">)</pc>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.w.91277">zijn</w>
+          <w cert="1.0" lemma="zelden" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.w.91278">zelden</w>
+          <w cert="1.0" lemma="zeer" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.w.91279">zeer</w>
+          <w cert="1.0" lemma="geriefelijk" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="M019312.bet.1" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.w.91280">geriefelijk</w>
+          <pc pos="LET" xml:id="fcb7836c-8750-4a18-b433-de83badb58eb.pc.post.0028418">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1300</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M080439" lemma="VISCHSTAART" modern-lemma="visstaart" partition="train" pos="NOU-C" sense-id="M080439.bet.6" xml:id="M080439.eg.20579">
+        <date atLeast="1854" atMost="1854" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.1300">
+          <w cert="1.0" lemma="visstaart" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" sense-id="M080439.bet.6" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1455481">Vischstaart</w>
+          <pc pos="LET" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00472586">.</pc>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1455482">Een</w>
+          <w cert="1.0" lemma="bijzonder" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1455483">bijzondere</w>
+          <w cert="1.0" lemma="vorm" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1455484">vorm</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1455485">van</w>
+          <w cert="1.0" lemma="gasbrander" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1455486">gasbrander</w>
+          <pc pos="LET" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00472587">,</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1455487">aant</w>
+          <pc pos="LET" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00472588">.</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

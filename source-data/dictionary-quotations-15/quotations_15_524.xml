@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>524</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.21291" lemma="KERNEL" partition="train" sense-id="mnw.21291.sense.3" xml:id="c21291_0006">
+        <date atLeast="1420" atMost="1420" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.524">
+          <w cert="1.0" lemma="nog" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c21291_0006.w.949585">Noch</w>
+          <w cert="1.0" lemma="zevenendertig" lexicon="special_cases" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c21291_0006.w.949586">37</w>
+          <w cert="1.0" lemma="achtendeel" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c21291_0006.w.949587">achtendel</w>
+          <w cert="1.0" lemma="kernel" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.21291.sense.3" xml:id="c21291_0006.w.949588">kernel</w>
+          <pc pos="LET" xml:id="c21291_0006.pc.floating.00383526">,</pc>
+          <w cert="1.0" lemma="bezigen" lexicon="hilex" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c21291_0006.w.949590">gebesicht</w>
+          <pc pos="LET" xml:id="c21291_0006.pc.floating.00383527">..</pc>
+          <w cert="1.0" lemma="voor" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c21291_0006.w.949592">voir</w>
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c21291_0006.w.949593">die</w>
+          <w cert="1.0" lemma="hoen" lexicon="byt5" pos="NOU-C(number=pl)" resp="roland" xml:id="c21291_0006.w.949594">hoenre</w>
+          <pc pos="LET" xml:id="c21291_0006.pc.post.00383528">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

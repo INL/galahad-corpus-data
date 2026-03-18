@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>360</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M025639" lemma="HERSENEN" modern-lemma="hersenen" partition="train" pos="NOU-C" sense-id="M025639.bet.7" xml:id="M025639.eg.10972">
+        <date atLeast="1858" atMost="1858" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.360">
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.541122">Zijne</w>
+          <w cert="1.0" lemma="hersenen" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" sense-id="M025639.bet.7" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.541123">hersens</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.541124">zijn</w>
+          <w cert="1.0" lemma="vlot" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.541125">vlot</w>
+          <pc join="right" pos="LET" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.pre.0205578">(</pc>
+          <w cert="1.0" lemma="hetzelfde" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.541126">hetzelfde</w>
+          <w cert="1.0" lemma="als" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.541127">als</w>
+          <w cert="1.0" lemma="op" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.541128">op</w>
+          <w cert="1.0" lemma="hol" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.541129">hol</w>
+          <pc pos="LET" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.post.0205579">),</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

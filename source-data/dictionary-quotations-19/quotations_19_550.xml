@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>550</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M040830" lemma="NAUWLETTEND" modern-lemma="nauwlettend" partition="train" pos="AA ADV" sense-id="M040830.bet.2" xml:id="M040830.eg.31676">
+        <date atLeast="1851" atMost="1851" timeSpan="1850-1900" />
+        <q xml:id="no_doc_id.s.550">
+          <w cert="1.0" lemma="gadeslaan" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600371">Slaat<join n="mw_940048" />
+          </w>
+          <w cert="1.0" lemma="men" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600372">men</w>
+          <pc pos="LET" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.pc.floating.0194868">…</pc>
+          <w cert="1.0" lemma="op" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600374">op</w>
+          <w cert="1.0" lemma="het" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600375">'t</w>
+          <w cert="1.0" lemma="kostschool" lexicon="molex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600376">kostschool</w>
+          <w cert="1.0" lemma="u" lexicon="molex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600377">U</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600378">niet</w>
+          <w cert="1.0" lemma="wat" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600379">wat</w>
+          <w cert="1.0" lemma="nauwlettend" lexicon="molex" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="M040830.bet.2" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600380">nauwlettend</w>
+          <w cert="1.0" lemma="gadeslaan" lexicon="molex" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.600381">ga<join n="mw_940048" />
+          </w>
+          <pc pos="LET" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.pc.post.0194869">?</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

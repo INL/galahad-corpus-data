@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>101</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-01-09" to="2025-10-21" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M007812" lemma="BESTELLEN" modern-lemma="bestellen" partition="train" pos="VRB" sense-id="M007812.bet.21" xml:id="M007812.eg.25603">
+        <date atLeast="1732" atMost="1732" timeSpan="1700-1750" />
+        <q xml:id="no_doc_id.s.101">
+          <w cert="1.0" lemma="de" lexicon="molex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620797">De</w>
+          <w cert="1.0" lemma="volgend" lexicon="molex" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620798">volgende</w>
+          <w cert="1.0" lemma="brief" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620799">Brieven</w>
+          <w cert="1.0" lemma="zijn" lexicon="hilex" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620800">zyn</w>
+          <w cert="1.0" lemma="ik" lexicon="hilex" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620801">my</w>
+          <w cert="1.0" lemma="onlangs" lexicon="byt5" pos="ADV(type=reg)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620802">onlangs</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.post.0202291">,</pc>
+          <w cert="1.0" lemma="en" lexicon="molex" pos="CONJ(type=coor)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620803">en</w>
+          <w cert="1.0" lemma="kort" lexicon="molex" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620804">kort</w>
+          <w cert="1.0" lemma="na" lexicon="molex" pos="ADP(type=pre)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620805">na</w>
+          <w cert="1.0" lemma="malkander" lexicon="molex" pos="PD(type=recip,position=free)" resp="roland" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620806">malkander</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.post.0202292">,</pc>
+          <w cert="1.0" lemma="bestellen" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="M007812.bet.21" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.w.620807">besteld</w>
+          <pc pos="LET" xml:id="INT_3b7c5638-27d8-4063-bd86-dec6113cb48b.pc.post.0202293">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

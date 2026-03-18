@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>659</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-02-08" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M049019" lemma="OPNEMEN" modern-lemma="opnemen" partition="train" pos="VRB" sense-id="M049019.bet.25" xml:id="M049019.eg.16608">
+        <date atLeast="1840" atMost="1840" timeSpan="1800-1850" />
+        <q xml:id="no_doc_id.s.659">
+          <w cert="1.0" lemma="twee" lexicon="molex" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278444">Twee</w>
+          <w cert="1.0" lemma="breed" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278445">breede</w>
+          <w cert="1.0" lemma="vlecht" lexicon="molex" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278446">vlechten</w>
+          <pc pos="LET" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.pc.post.0088430">,</pc>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278447">van</w>
+          <w cert="1.0" lemma="achteren" lexicon="molex" pos="ADV(type=reg)" resp="thomas" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278448">achteren</w>
+          <w cert="1.0" lemma="door" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278449">door</w>
+          <w cert="1.0" lemma="een" lexicon="hilex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278450">eene</w>
+          <w cert="1.0" lemma="haarnaald" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278451">haarnaald</w>
+          <w cert="1.0" lemma="opnemen" lexicon="molex" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="M049019.bet.25" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.w.278452">opgenomen</w>
+          <pc pos="LET" xml:id="INT_769e63ca-b5fe-4f45-820e-5d9c240325f4.pc.post.0088431">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

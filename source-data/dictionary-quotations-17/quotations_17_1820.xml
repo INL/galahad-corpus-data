@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1820</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M086168" lemma="WIJDRUCHTIG" modern-lemma="wijdruchtig" partition="train" pos="AA" sense-id="M086168.bet.3" xml:id="M086168.eg.1723">
+        <date atLeast="1610" atMost="1610" timeSpan="1600-1650" />
+        <q xml:id="no_doc_id.s.1820">
+          <w cert="1.0" lemma="de" lexicon="hilex" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701614">Den</w>
+          <w cert="1.0" lemma="wijdruchtig" lexicon="hilex" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="M086168.bet.3" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701615">vvijtruchtighen</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00549942">,</pc>
+          <w cert="1.0" lemma="hooggeleerd" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701616">hooghgheleerden</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00549943">,</pc>
+          <w cert="1.0" lemma="scherpzinnig" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701617">scherpsinnighen</w>
+          <w cert="1.0" lemma="kunst" lexicon="hilex" pos="NOU-C(number=sg)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701618">Konst</w>
+          <w cert="1.0" lemma="en" lexicon="hilex" pos="CONJ(type=coor)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701619">ende</w>
+          <w cert="1.0" lemma="taalrijk" lexicon="byt5" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701620">Tael-rijcken</w>
+          <w cert="1.0" lemma="Simon" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701621">Symon</w>
+          <w cert="1.0" lemma="Stevin" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1701622">Stevijn</w>
+          <pc pos="LET" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00549944">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

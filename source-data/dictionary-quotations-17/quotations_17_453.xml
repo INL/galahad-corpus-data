@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>453</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-03-15" to="2025-12-01" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="M025743" lemma="HETWELK" modern-lemma="hetwelk" partition="train" pos="PD" sense-id="M025743.bet.1" xml:id="M025743.eg.11832">
+        <date atLeast="1688" atMost="1688" timeSpan="1650-1700" />
+        <q xml:id="no_doc_id.s.453">
+          <w cert="1.0" lemma="een" lexicon="molex" pos="NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.580114">Een</w>
+          <w cert="1.0" lemma="van" lexicon="molex" pos="ADP(type=pre)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.580115">van</w>
+          <w cert="1.0" lemma="die" lexicon="molex" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.580116">die</w>
+          <w cert="1.0" lemma="schepen" lexicon="molex" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.580117">schepen</w>
+          <pc pos="LET" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.post.0220264">,</pc>
+          <w cert="1.0" lemma="hetwelk" lexicon="molex" pos="PD(type=w-p,position=free)" resp="thomas" sense-id="M025743.bet.1" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.580118">het<join n="mw_195581" />
+          </w>
+          <w cert="1.0" lemma="hetwelk" lexicon="hilex" pos="PD(type=w-p,position=free)" resp="thomas" sense-id="M025743.bet.1" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.580119">welcke<join n="mw_195581" />
+          </w>
+          <w cert="1.0" lemma="Simon" lexicon="byt5" pos="NOU-P" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.580120">Simonis</w>
+          <w cert="1.0" lemma="zijn" lexicon="molex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.580121">was</w>
+          <pc pos="LET" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.post.0220265">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

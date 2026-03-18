@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1014</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2024-04-18" to="2025-12-12" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.25844" lemma="LETTERE" partition="test" sense-id="mnw.25844.sense.8" xml:id="c25844_0036">
+        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+        <q xml:id="no_doc_id.s.1014">
+          <w cert="1.0" lemma="als" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c25844_0036.w.288958">Als</w>
+          <w cert="1.0" lemma="hij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25844_0036.w.288959">hi</w>
+          <w cert="1.0" lemma="letter" lexicon="hilex" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.25844.sense.8" xml:id="c25844_0036.w.288960">lettren</w>
+          <w cert="1.0" lemma="zenden" lexicon="molex" pos="VRB(finiteness=inf)" resp="roland" xml:id="c25844_0036.w.288961">zenden</w>
+          <w cert="1.0" lemma="zullen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c25844_0036.w.288962">soude</w>
+          <pc pos="LET" xml:id="c25844_0036.pc.post.00111933">,</pc>
+          <w cert="1.0" lemma="schrijven" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c25844_0036.w.288963">screef</w>
+          <w cert="1.0" lemma="hij+het" lexicon="byt5" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c25844_0036.w.288964">hijt</w>
+          <w cert="1.0" lemma="zelf" lexicon="molex" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c25844_0036.w.288965">zelve</w>
+          <pc join="right" pos="LET" xml:id="c25844_0036.pc.pre.00111934">(</pc>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c25844_0036.w.288966">dit</w>
+          <w cert="1.0" lemma="" lexicon="byt5" pos="" resp="thomas" xml:id="c25844_0036.w.288967">teeken</w>
+          <pc pos="LET" xml:id="c25844_0036.pc.post.00111935">)</pc>
+          <pc pos="LET" xml:id="c25844_0036.pc.floating.00111936">..</pc>
+          <w cert="1.0" lemma="immer" lexicon="hilex" pos="ADV(type=reg)" resp="thomas" xml:id="c25844_0036.w.288969">emmer</w>
+          <w cert="1.0" lemma="daarin" lexicon="hilex" pos="ADV(type=pron)" resp="thomas" xml:id="c25844_0036.w.288970">daer<join n="mw_286893" />
+          </w>
+          <w cert="1.0" lemma="daarin" lexicon="hilex" pos="ADV(type=pron)" resp="thomas" xml:id="c25844_0036.w.288971">in<join n="mw_286893" />
+          </w>
+          <w cert="1.0" lemma="aan" lexicon="hilex" pos="ADP(type=pre)" resp="thomas" xml:id="c25844_0036.w.288972">an</w>
+          <w cert="1.0" lemma="een" lexicon="molex" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c25844_0036.w.288973">een</w>
+          <w cert="1.0" lemma="kant" lexicon="hilex" pos="NOU-C(number=sg)" resp="roland" xml:id="c25844_0036.w.288974">cant</w>
+          <pc pos="LET" xml:id="c25844_0036.pc.post.00111937">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>

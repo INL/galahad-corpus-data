@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>373</title>
+        <respStmt>
+          <resp>manual verification of the linguistic annotations by means of LAnCeLoT (https://portal.clarin.ivdnt.org/lancelot)</resp>
+          <persName>
+            <email>jesse</email>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>!No publisher defined!</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>!No source defined!</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo resp="LAnCeLoT">
+        <application ident="LAnCeLoT" version="1.0" xml:id="LAnCeLoT">
+          <label>tool for manual verification of linguistic annotations</label>
+          <ptr target="https://portal.clarin.ivdnt.org/lancelot" />
+        </application>
+      </appInfo>
+      <editorialDecl resp="LAnCeLoT">
+        <interpretation>
+          <ab subtype="POS-tagging_lemmatisationProvenance2" type="linguisticAnnotation">
+            <interpGrp type="annotationMode">
+              <interp>manually verified</interp>
+            </interpGrp>
+            <interpGrp type="tool">
+              <interp sameAs="#LAnCeLoT" />
+            </interpGrp>
+            <interpGrp type="user">
+              <interp>jesse</interp>
+            </interpGrp>
+            <date from="2023-07-05" to="2025-10-22" />
+          </ab>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <cit entry-id="mnw.14403" lemma="GOEDELIKE" partition="train" sense-id="mnw.14403.sense.3" xml:id="c14403_0035">
+        <date atLeast="1437" atMost="1442" timeSpan="1400-1450" />
+        <q xml:id="no_doc_id.s.373">
+          <w cert="1.0" lemma="omdat" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c14403_0035.w.1466979">Om<join n="mw_90384" />
+          </w>
+          <w cert="1.0" lemma="omdat" lexicon="molex" pos="CONJ(type=sub)" resp="thomas" xml:id="c14403_0035.w.1466980">dat<join n="mw_90384" />
+          </w>
+          <w cert="1.0" lemma="zij" lexicon="hilex" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c14403_0035.w.1466981">sy</w>
+          <w cert="1.0" lemma="niet" lexicon="molex" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c14403_0035.w.1466982">niet</w>
+          <w cert="1.0" lemma="goedelijks" lexicon="byt5" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.14403.sense.3" xml:id="c14403_0035.w.1466983">goedelicx</w>
+          <w cert="1.0" lemma="gekrijgen" lexicon="byt5" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c14403_0035.w.1466984">ghecrieghen</w>
+          <w cert="1.0" lemma="ne" lexicon="hilex" pos="ADV(type=reg)" resp="roland" xml:id="c14403_0035.w.1466985">en</w>
+          <w cert="1.0" lemma="kunnen" lexicon="hilex" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c14403_0035.w.1466986">costen</w>
+          <w cert="1.0" lemma="dat+jaargeld" lexicon="byt5" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c14403_0035.w.1466987">tjaergheldt</w>
+          <pc pos="LET" xml:id="c14403_0035.pc.post.00614067">,</pc>
+        </q>
+      </cit>
+    </body>
+  </text>
+</TEI>
