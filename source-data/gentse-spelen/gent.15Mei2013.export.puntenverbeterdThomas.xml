@@ -468,15 +468,13 @@
         <p> </p>
       </editionStmt>
       <publicationStmt>
-        <availability>
-          <p>2001 dbnl / erven Erné / erven Van Dis</p>
-          <p> </p>
-        </availability>
-        <idno>_gen001gent01_01</idno>
+        <p>_gen001gent01_01</p>
+        <p>2001 dbnl / erven Erné / erven Van Dis</p>
+        <p> </p>
       </publicationStmt>
       <sourceDesc>
-        <p>B.H. Erné en L.M. van Dis, <hi rend="i">De Gentse Spelen van        1539</hi>, (twee delen). Martinus Nijhoff, 's-Gravenhage 1982.</p>
-        <p> </p>
+        <bibl>B.H. Erné en L.M. van Dis, <hi rend="i">De Gentse Spelen van        1539</hi>, (twee delen). Martinus Nijhoff, 's-Gravenhage 1982.</bibl>
+        <bibl> </bibl>
         <listBibl xml:id="inlMetadata">
           <bibl>
             <interpGrp xml:id="interp__gen001gent01_1">
@@ -486,9 +484,8 @@
               <interp type="date-witness-to">1539</interp>
               <interp type="authors">B.H. Erné en L.M. van Dis</interp>
             </interpGrp>
-            <biblScope>
-              <xref from="milestone__gen001gent01_bo_1" to="milestone__gen001gent01_eo_1" />
-            </biblScope>
+            <biblScope to="milestone__gen001gent01_eo_1" from="milestone__gen001gent01_bo_1">
+              </biblScope>
           </bibl>
         </listBibl>
       </sourceDesc>
@@ -519,19 +516,9 @@
       </editorialDecl>
     </encodingDesc>
     <revisionDesc>
-      <change>
-        <date>2001-05-10</date>
-        <respStmt>
-          <name>CB</name>
-        </respStmt>
-        <item>colofon toegevoegd</item>
+      <change resp="CB">colofon toegevoegd<date>2001-05-10</date>
       </change>
-      <change>
-        <date>2005-08-02</date>
-        <respStmt>
-          <name>IH</name>
-        </respStmt>
-        <item>conversie van het bestand naar teixlite</item>
+      <change resp="IH">conversie van het bestand naar teixlite<date>2005-08-02</date>
       </change>
     </revisionDesc>
   </teiHeader>
