@@ -1,10 +1,15 @@
+"""Group and rank corpus annotations to surface frequent or suspicious patterns."""
+
 from collections import defaultdict
 from collections.abc import Callable
 from dataclasses import dataclass
 from itertools import starmap
 from pathlib import Path
 
-from data import TsvCorpus, TsvWord
+from scripts.statistics.data import TsvCorpus, TsvWord
+
+CONTEXT_BEFORE = 10
+CONTEXT_AFTER = 3
 
 
 @dataclass
@@ -57,7 +62,7 @@ class TokenGrouper:
         corpus: TsvCorpus,
         key_mapper: Callable[[TsvWord], str],
         value_mapper: Callable[[TsvWord], str],
-    ):
+    ) -> None:
         self.key_mapper = key_mapper
         self.value_mapper = value_mapper
         self.groups = self.get_map(corpus, key_mapper, value_mapper)
@@ -112,12 +117,13 @@ class SuspiciousTokenGrouper(TokenGrouper):
         value = self.value_mapper(w)
         for group in self.groups:
             if group.key == key:
-                for analysis, count in group.non_mwe.analyses:
+                for analysis, _ in group.non_mwe.analyses:
                     if analysis == value:
                         return True
         return False
 
-    def report(self, out: Path, corpus: TsvCorpus):
+    def report(self, out: Path, corpus: TsvCorpus) -> None:
+        """TODO: merge this with TokenFilter.report."""
         with out.open("w", encoding="utf-8") as f:
             for dir in corpus.dirs:
                 f.write(f"{dir.name:-^60}\n")
@@ -126,8 +132,6 @@ class SuspiciousTokenGrouper(TokenGrouper):
                 for i in range(len(words)):
                     w = words[i]
                     if self.is_suspicious(w):
-                        CONTEXT_BEFORE = 10
-                        CONTEXT_AFTER = 3
                         start = max(0, i - CONTEXT_BEFORE)
                         end = min(len(words), i + CONTEXT_AFTER + 1)
                         for j in range(start, end):

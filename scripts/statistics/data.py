@@ -1,3 +1,5 @@
+"""Data model for TSV files in galahad-corpus-data."""
+
 from collections import defaultdict
 from collections.abc import Iterator
 from dataclasses import dataclass, field
@@ -6,6 +8,8 @@ from pathlib import Path
 
 
 class Split(StrEnum):
+    """Machine learning dataset splits."""
+
     TRAIN = "train"
     DEV = "dev"
     TEST = "test"
@@ -13,6 +17,8 @@ class Split(StrEnum):
 
 @dataclass
 class TsvWord:
+    """A single annotated token with lemma, POS and MWE group."""
+
     token: str
     pos: str
     lemma: str
@@ -21,48 +27,63 @@ class TsvWord:
 
     @staticmethod
     def load(text: str) -> "TsvWord":
+        """Parse a single TSV row into a TsvWord."""
         cols = text.split("\t")
+        # TSV column order: token \t pos \t lemma \t group
         return TsvWord(cols[0], cols[1], cols[2], cols[3])
 
     def __str__(self) -> str:
         return f"{self.token}\t{self.pos}\t{self.lemma}\t{self.group}"
 
     def __repr__(self) -> str:
+        """Return string representation."""
         return self.__str__()
 
 
 @dataclass
 class TsvSentence:
+    """A sentence of TsvWords. Sentences are separated by one blank line."""
+
     words: list[TsvWord]
 
     @staticmethod
     def load(text: str) -> "TsvSentence":
+        """Parse a TSV sentence block into words."""
+        # Words are one per line.
         rows = text.split("\n")
         return TsvSentence([TsvWord.load(r) for r in rows if r.strip()])
 
     def __str__(self) -> str:
-        return f"          Sentence ({len(self.words)} words)"  # \n{'\n'.join([str(r) for r in self.words])}"
+        return f"          Sentence ({len(self.words)} words)"
 
     def __repr__(self) -> str:
+        """Return string representation."""
         return self.__str__()
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[TsvWord]:
+        """Yield words in sentence."""
         return iter(self.words)
 
 
 @dataclass
 class TsvParagraph:
+    """A paragraph of TsvSentences: Paragraphs are separated by two blank lines."""
+
     sents: list[TsvSentence]
 
     @property
     def words(self) -> Iterator[TsvWord]:
+        """
+        Yields:
+            words in sentences in paragraph.
+        """
         for s in self.sents:
-            for w in s.words:
-                yield w
+            yield from s.words
 
     @staticmethod
     def load(text: str) -> "TsvParagraph":
-        # sentences are split by one empty row
+        """Parse a TSV paragraph block into sentences."""
+        # Sentences are split by one empty line.
         sents = text.split("\n\n")
         return TsvParagraph([TsvSentence.load(s) for s in sents if s.strip()])
 
@@ -70,93 +91,125 @@ class TsvParagraph:
         return f"        Paragraph ({len(self.sents)} sents)\n{'\n'.join([str(s) for s in self.sents])}"
 
     def __repr__(self) -> str:
+        """Return string representation."""
         return self.__str__()
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[TsvSentence]:
+        """Yield sentences in paragraph."""
         return iter(self.sents)
 
 
 @dataclass
 class TsvDocument:
+    """A document of TsvParagraphs. Documents are separated by three blank lines."""
+
     pars: list[TsvParagraph]
 
     @property
     def sents(self) -> Iterator[TsvSentence]:
+        """
+        Yields:
+            sentences in paragraphs in document.
+        """
         for p in self.pars:
-            for s in p.sents:
-                yield s
+            yield from p.sents
 
     @property
     def words(self) -> Iterator[TsvWord]:
+        """
+        Yields:
+            words in sentences in paragraphs in document.
+        """
         for p in self.pars:
-            for w in p.words:
-                yield w
+            yield from p.words
 
     @staticmethod
     def load(text: str) -> "TsvDocument":
-        # paragraphs are split by two empty rows
+        """Parse a TSV document block into paragraphs. Create MWE word links."""
+        # Paragraphs are split by two empty lines.
         pars = text.split("\n\n\n")
         doc = TsvDocument([TsvParagraph.load(p) for p in pars if p.strip()])
+        # Link MWE's on document level, as they may span paragraphs (letters-as-loot).
         TsvDocument._link_mwes(doc)
         return doc
 
     @staticmethod
     def _link_mwes(doc: "TsvDocument") -> None:
-        # collect groups
+        """Link TsvWord.mwe so every token links to its group."""
+        # Collect groups.
         group_map: dict[str, list[TsvWord]] = defaultdict(list)
         for w in doc.words:
             if w.group:
                 group_map[w.group].append(w)
-        # link MWEs
+        # Link MWEs.
         for group in group_map.values():
             for w in group:
-                w.mwe = [mw for mw in group]
+                w.mwe = list(group)
 
     def __str__(self) -> str:
         return f"      Document ({len(self.pars)} pars)\n{'\n'.join([str(p) for p in self.pars])}"
 
     def __repr__(self) -> str:
+        """Return string representation."""
         return self.__str__()
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[TsvParagraph]:
+        """Yield paragraphs in document."""
         return iter(self.pars)
 
 
 @dataclass
 class TsvFile:
+    """
+    One `.tsv` file on disk (e.g. `clvn.train.tsv`) representing a single split.
+    Contains multiple source documents.
+    """
+
     filename: str
     docs: list[TsvDocument]
 
     @property
     def name(self) -> str:
+        """Dataset name. E.g. `clvn` for `clvn.train.tsv`."""
         return self.filename.split(".")[0]
 
     @property
     def split(self) -> Split:
+        """Train/dev/test split derived from the filename."""
         return Split(self.filename.split(".")[1])
 
     @property
     def pars(self) -> Iterator[TsvParagraph]:
+        """
+        Yields:
+            paragraphs in documents in file.
+        """
         for d in self.docs:
-            for p in d.pars:
-                yield p
+            yield from d.pars
 
     @property
     def sents(self) -> Iterator[TsvSentence]:
+        """
+        Yields:
+            sentences in paragraphs in documents in file.
+        """
         for d in self.docs:
-            for s in d.sents:
-                yield s
+            yield from d.sents
 
     @property
     def words(self) -> Iterator[TsvWord]:
+        """
+        Yields:
+            words in sentences in paragraphs in documents in file.
+        """
         for d in self.docs:
-            for w in d.words:
-                yield w
+            yield from d.words
 
     @staticmethod
     def load(f: Path) -> "TsvFile":
-        rows = f.read_text()
-        # docs are split by three empty rows
+        """Parse a `.tsv` file into documents."""
+        rows = f.read_text(encoding="utf-8")
+        # Docs are split by three empty lines.
         docs = rows.split("\n\n\n\n") if rows else []
         return TsvFile(f.name, [TsvDocument.load(d) for d in docs if d.strip()])
 
@@ -164,14 +217,18 @@ class TsvFile:
         return f"    {self.filename} ({len(self.docs)} docs)\n{'\n'.join([str(d) for d in self.docs])}"
 
     def __repr__(self) -> str:
+        """Return string representation."""
         return self.__str__()
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[TsvDocument]:
+        """Yield documents in file."""
         return iter(self.docs)
 
 
 @dataclass
 class TsvDir:
+    """One dataset directory containing the three TSV split files."""
+
     name: str
     train: TsvFile
     test: TsvFile
@@ -180,34 +237,51 @@ class TsvDir:
 
     @property
     def splits(self) -> list[TsvFile]:
+        """Convenience list of all three split files in [train, test, dev] order."""
         return [self.train, self.test, self.dev]
 
     @property
     def docs(self) -> Iterator[TsvDocument]:
+        """
+        Yields:
+            every document across all splits.
+        """
         for split in self.splits:
-            for d in split.docs:
-                yield d
+            yield from split.docs
 
     @property
     def pars(self) -> Iterator[TsvParagraph]:
+        """
+        Yields:
+            every paragraph across all splits.
+        """
         for split in self.splits:
-            for p in split.pars:
-                yield p
+            yield from split.pars
 
     @property
     def sents(self) -> Iterator[TsvSentence]:
+        """
+        Yields:
+            every sentence across all splits.
+        """
         for split in self.splits:
-            for sent in split.sents:
-                yield sent
+            yield from split.sents
 
     @property
     def words(self) -> Iterator[TsvWord]:
+        """
+        Yields:
+            every word across all splits.
+        """
         for split in self.splits:
-            for w in split.words:
-                yield w
+            yield from split.words
 
     @staticmethod
     def load(dir: Path) -> "TsvDir":
+        """
+        Parse dataset directory into three split files.
+        Files are called [name].train.tsv, [name].test.tsv, [name].dev.tsv.
+        """
         train = TsvFile.load(dir / f"{dir.name}.train.tsv")
         test = TsvFile.load(dir / f"{dir.name}.test.tsv")
         dev = TsvFile.load(dir / f"{dir.name}.dev.tsv")
@@ -217,35 +291,48 @@ class TsvDir:
         return f"  {self.name}\n{'\n'.join([str(s) for s in self.splits])}"
 
     def __repr__(self) -> str:
+        """Return string representation."""
         return self.__str__()
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[TsvFile]:
+        """Yield split files in [train, test, dev] order."""
         return iter(self.splits)
 
 
 @dataclass
 class TsvSplit:
+    """A cross-dataset view of a single split (e.g. all train files)."""
+
     name: str
     files: list[TsvFile]
 
     @property
     def docs(self) -> Iterator[TsvDocument]:
+        """
+        Yields:
+            every document across all files in this split.
+        """
         for f in self.files:
-            for d in f.docs:
-                yield d
+            yield from f.docs
 
     @property
     def words(self) -> Iterator[TsvWord]:
+        """
+        Yields:
+            every word across all files in this split.
+        """
         for f in self.files:
-            for w in f.words:
-                yield w
+            yield from f.words
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[TsvFile]:
+        """Yield files in split."""
         return iter(self.files)
 
 
 @dataclass
 class TsvSplits:
+    """Container that groups the three cross-dataset split views together."""
+
     train: TsvSplit
     dev: TsvSplit
     test: TsvSplit
@@ -253,68 +340,93 @@ class TsvSplits:
 
     @property
     def docs(self) -> Iterator[TsvDocument]:
+        """
+        Yields:
+            every document across all three splits.
+        """
         for s in self:
-            for d in s.docs:
-                yield d
+            yield from s.docs
 
     @property
     def words(self) -> Iterator[TsvWord]:
+        """
+        Yields:
+            every word across all three splits.
+        """
         for s in self:
-            for w in s.words:
-                yield w
+            yield from s.words
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[TsvSplit]:
+        """Yield cross-dataset split views in [train, dev, test] order."""
         return iter([self.train, self.dev, self.test])
 
 
 @dataclass
 class TsvCorpus:
+    """TSV corpus with splits, dataset directories, documents, sentences and words."""
+
     dirs: list[TsvDir]
     name: str = "total"
 
     @property
     def docs(self) -> Iterator[TsvDocument]:
+        """
+        Yields:
+            every document across all dataset directories.
+        """
         for d in self.dirs:
-            for doc in d.docs:
-                yield doc
+            yield from d.docs
 
     @property
     def words(self) -> Iterator[TsvWord]:
+        """
+        Yields:
+            every word across all dataset directories.
+        """
         for d in self.dirs:
-            for w in d.words:
-                yield w
+            yield from d.words
 
     @property
     def sents(self) -> Iterator[TsvSentence]:
+        """
+        Yields:
+            every sentence across all dataset directories.
+        """
         for d in self.dirs:
-            for s in d.sents:
-                yield s
+            yield from d.sents
 
     @property
     def train(self) -> TsvSplit:
+        """Cross-dataset view of all training files."""
         return TsvSplit("train", [d.train for d in self.dirs])
 
     @property
     def dev(self) -> TsvSplit:
+        """Cross-dataset view of all development/validation files."""
         return TsvSplit("dev", [d.dev for d in self.dirs])
 
     @property
     def test(self) -> TsvSplit:
+        """Cross-dataset view of all test files."""
         return TsvSplit("test", [d.test for d in self.dirs])
 
     @property
     def splits(self) -> TsvSplits:
+        """Grouped container of the three cross-dataset split views."""
         return TsvSplits(self.train, self.dev, self.test)
 
     @staticmethod
     def load(dir: Path) -> "TsvCorpus":
+        """Load all dataset sub-directories under dir."""
         return TsvCorpus([TsvDir.load(f) for f in sorted(dir.iterdir()) if f.is_dir()])
 
     def __str__(self) -> str:
         return f"{self.name}\n{'\n'.join([str(d) for d in self.dirs])}"
 
     def __repr__(self) -> str:
+        """Return string representation."""
         return self.__str__()
 
-    def __iter__(self):
+    def __iter__(self) -> Iterator[TsvDir]:
+        """Yield dataset directories in corpus."""
         return iter(self.dirs)

@@ -1,5 +1,9 @@
+"""Helper functions for corpus statistics."""
+
+
 def roman_to_int(roman: str) -> int:
-    map = {
+    """Convert a Roman numeral string to int."""
+    numeral_value = {
         "I": 1,
         "J": 1,
         "V": 5,
@@ -11,11 +15,11 @@ def roman_to_int(roman: str) -> int:
     }
     total = 0
     intermediate = 0
-    last_value = 1e9
+    last_value = float("inf")
     for c in roman.upper():
-        if c not in map:
+        if c not in numeral_value:
             continue
-        value = map.get(c, 0)
+        value = numeral_value.get(c, 0)
         # example: IX = -1 + 10 = 9
         if last_value < value:
             # exception: C leads to multiplication by 100
@@ -40,7 +44,13 @@ def roman_to_int(roman: str) -> int:
 
 
 def pos_to_main_pos(pos: str) -> str:
-    # ADP()+NOU-C()|PD()+NOU-C() => ADP+NOU-C|PD+NOU-C
+    """
+    Strip features from POS tag, keeping only the main tag(s).
+    Handles compound tags joined by `|` and `+`.
+
+    Example:
+        ADP()+NOU-C()|PD()+NOU-C() -> ADP+NOU-C|PD+NOU-C
+    """
     return "|".join(
         "+".join(p.split("(")[0] for p in option_pos.split("+"))
         for option_pos in pos.split("|")

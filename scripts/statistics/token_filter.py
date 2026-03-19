@@ -1,12 +1,19 @@
+"""Utilities for filtering on corpus tokens and writing sentence context reports."""
+
 from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 
-from data import TsvCorpus, TsvWord
+from scripts.statistics.data import TsvCorpus, TsvWord
+
+CONTEXT_BEFORE = 10
+CONTEXT_AFTER = 3
 
 
 @dataclass
 class TokenFilter:
+    """Write a filtered list of tokens or a report of tokens in context to a file."""
+
     out: Path
     corpus: TsvCorpus
 
@@ -28,6 +35,10 @@ class TokenFilter:
                         f.write(f"{w}{cmt}\n")
 
     def report(self, condition: Callable[[TsvWord], bool]) -> None:
+        """
+        Report on the condition-filtered tokens in their sentence context.
+        Matching token is highlighted with >> and MWE tokens are marked with [MWE].
+        """
         with self.out.open("w", encoding="utf-8") as f:
             for dir in self.corpus.dirs:
                 f.write(f"{dir.name:-^60}\n")
@@ -36,8 +47,6 @@ class TokenFilter:
                 for i in range(len(words)):
                     w = words[i]
                     if condition(w):
-                        CONTEXT_BEFORE = 10
-                        CONTEXT_AFTER = 3
                         start = max(0, i - CONTEXT_BEFORE)
                         end = min(len(words), i + CONTEXT_AFTER + 1)
                         for j in range(start, end):

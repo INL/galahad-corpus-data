@@ -7,11 +7,15 @@
 Example pipeline
 
 ```sh
-scripts/export/download.py lancelot
-scripts/export/tei-normalizer.py -r lancelot
-scripts/export/convert.py lancelot galahad
-scripts/export/fix-tsv-columns.py -r galahad
-scripts/export/split.py galahad training-data
+scripts/export/download.py source-data
+scripts/export/tei-normalizer.py -r source-data
+jing tei_all.rng *
+scripts/export/upload.py -f -r source-data
+scripts/export/convert.py source-data tsv-data
+scripts/export/fix-tsv-columns.py -r tsv-data
+scripts/export/split.py tsv-data training-data
+scripts/analyses/duplicate-checker.py
+scripts/export/group_dupes_in_split.py
 scripts/analyses/statistics.py training-data statistics
 ```
 
