@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
+"""Normalize TEI files to correct TEI-P5."""
+
 import re
 import sys
 import xml.etree.ElementTree as ET
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).parent.parent))
@@ -20,19 +23,116 @@ for k, v in et_ns.items():
     ET.register_namespace(k, v)
 
 
-def normalize_root(root: ET.Element) -> bool:
-    if root.tag not in [
-        f"{ns['tei']}TEI",
-        "TEI.2",
-    ]:
+def normalize_root(root: ET.Element) -> None:
+    """
+    Normalize root to <TEI>.
+
+    Raises:
+        ValueError: root was neither TEi nor TEI.2.
+    """
+    if root.tag not in {f"{ns['tei']}TEI", "TEI.2"}:
         raise ValueError(f"Unexpected root tag {root.tag}")
 
     # normalize TEI.2 to TEI
     if root.tag == "TEI.2":
         root.tag = f"{ns['tei']}TEI"
-        return True  # changed
 
-    return False  # not changed
+
+def move_cit_to_text_body(root: ET.Element) -> None:
+    """
+    Move `<cit>` to `<text> <body> <cit> </text> </body>`.
+
+    Raises:
+        ValueError: TEI structure not supported.
+    """
+    children = list(root)
+    if len(children) != 2:
+        raise ValueError("Unexpected structure")
+    if children[0].tag != f"{ns['tei']}teiHeader":
+        raise ValueError("First child is not <teiHeader>")
+    if children[1].tag == f"{ns['tei']}text":
+        return
+    if children[1].tag != f"{ns['tei']}cit":
+        raise ValueError(f"Second child is neither <text> nor <cit>: {children[1].tag}")
+
+    # wrap the <cit> into <text><body>...</body></text>
+    cit = root.find(".//tei:cit", et_ns)
+    if cit is None:
+        raise ValueError("No <cit> found")
+    # remove cit from root
+    root.remove(cit)
+    # create new elements
+    text_elem = ET.Element(f"{ns['tei']}text")
+    body_elem = ET.Element(f"{ns['tei']}body")
+    # move cit into body, and body into text
+    body_elem.append(cit)
+    text_elem.append(body_elem)
+    # append text to root
+    root.append(text_elem)
+
+
+def put_p_in_div(root: ET.Element) -> None:
+    """
+    `<div>`'s may not contain both `<div>`'s and `<p>`'s.
+    Move these `<p>` into a `<div>` inside the parent `<div>`.
+    """
+    for div in root.findall(".//tei:div", et_ns):
+        for p in div.findall("tei:p", et_ns):
+            if p is not None and len(div.findall("tei:div", et_ns)) > 0:
+                # create a new <div> and move the <p> into it
+                child_div = ET.Element(f"{ns['tei']}div")
+                child_div.append(p)
+                div.append(child_div)
+                # remove the original <p> from div
+                div.remove(p)
+
+
+def normalize_w_that_should_be_pc(root: ET.Element) -> None:
+    """Normalize <w> elements that should be <pc> because they contain punctuation."""
+    for w in root.findall(".//tei:w", et_ns):
+        text = "".join(w.itertext()).strip()
+        if re.fullmatch(PUNCTUATION, text):
+            # make an exeption for pos tags like RES (%) & NUM (1/3)
+            pos = w.get("pos", "")
+            if "RES" in pos or "NUM" in pos:
+                continue
+            # make an exception for <w> with <join> child
+            if w.find("tei:join", et_ns) is not None:
+                continue
+            # change tag to pc
+            w.tag = f"{ns['tei']}pc"
+            # set @pos to PC
+            w.set("pos", "PC")
+            # set @lemma to the text content (stripped)
+            w.set("lemma", text)
+            # if the <pc> contains a <seg>, remove it but keep its text content
+            seg = w.find("tei:seg", et_ns)
+            if seg is not None:
+                seg_text = "".join(seg.itertext()).strip()
+                # remove seg but keep text
+                w.remove(seg)
+                w.text = (w.text or "") + seg_text
+            # if it contains a <fs>, remove it completely
+            fs = w.find("tei:fs", et_ns)
+            if fs is not None:
+                w.remove(fs)
+
+
+def normalize_pc(root: ET.Element) -> None:
+    """
+    Normalize `<pc>` elements to have @pos="PC" and @lemma set to its text.
+
+    Raises:
+        ValueError: empty <pc>.
+    """
+    for pc in root.findall(".//tei:pc", et_ns):
+        # set @pos to PC
+        pc.set("pos", "PC")
+        # set @lemma to the text content (stripped)
+        text = "".join(pc.itertext()).strip()
+        if not text:
+            raise ValueError("<pc> element has empty text")
+        pc.set("lemma", text)
 
 
 def normalize_root_xml_id(root: ET.Element):
@@ -81,80 +181,6 @@ def normalize_root_xml_id(root: ET.Element):
         root.set(f"{ns['xml']}id", xmlid)
 
 
-def normalize_text_body(root: ET.Element):
-    # we expect two scenarios:
-    # the root contains <teiHeader> and <text>...</text>
-    # or the root contains <teiHeader> and <cit>...</cit>
-
-    children = list(root)
-    if len(children) != 2:
-        raise ValueError("Unexpected structure")
-    if children[0].tag != f"{ns['tei']}teiHeader":
-        raise ValueError("First child is not <teiHeader>")
-    if children[1].tag == f"{ns['tei']}text":
-        return
-    if children[1].tag != f"{ns['tei']}cit":
-        raise ValueError(f"Second child is neither <text> nor <cit>: {children[1].tag}")
-
-    # wrap the <cit> into <text><body>...</body></text>
-    cit = root.find(".//tei:cit", et_ns)
-    if cit is None:
-        raise ValueError("No <cit> found")
-    # remove cit from root
-    root.remove(cit)
-    # create new elements
-    text_elem = ET.Element(f"{ns['tei']}text")
-    body_elem = ET.Element(f"{ns['tei']}body")
-    # move cit into body, and body into text
-    body_elem.append(cit)
-    text_elem.append(body_elem)
-    # append text to root
-    root.append(text_elem)
-
-
-def normalize_pc(root: ET.Element):
-    # Normalize <pc> elements to have @pos="PC" and @lemma set to its text
-    for pc in root.findall(".//tei:pc", et_ns):
-        # set @pos to PC
-        pc.set("pos", "PC")
-        # set @lemma to the text content (stripped)
-        text = "".join(pc.itertext()).strip()
-        if text == "":
-            raise ValueError("<pc> element has empty text")
-        pc.set("lemma", text)
-
-
-def normalize_w_that_should_be_pc(root: ET.Element):
-    # Normalize <w> elements that should be <pc>
-    for w in root.findall(".//tei:w", et_ns):
-        text = "".join(w.itertext()).strip()
-        if re.fullmatch(PUNCTUATION, text):
-            # make an exeption for pos tags like RES (%) & NUM (1/3)
-            pos = w.get("pos", "")
-            if "RES" in pos or "NUM" in pos:
-                continue
-            # make an exception for <w> with <join> child
-            if w.find("tei:join", et_ns) is not None:
-                continue
-            # change tag to pc
-            w.tag = f"{ns['tei']}pc"
-            # set @pos to PC
-            w.set("pos", "PC")
-            # set @lemma to the text content (stripped)
-            w.set("lemma", text)
-            # if the <pc> contains a <seg>, remove it but keep its text content
-            seg = w.find("tei:seg", et_ns)
-            if seg is not None:
-                seg_text = "".join(seg.itertext()).strip()
-                # remove seg but keep text
-                w.remove(seg)
-                w.text = (w.text or "") + seg_text
-            # if it contains a <fs>, remove it completely
-            fs = w.find("tei:fs", et_ns)
-            if fs is not None:
-                w.remove(fs)
-
-
 def normalize_div_type_notes(root: ET.Element):
     # Normalize <div> elements with @type="notes" to simply <note>
     for div in root.findall(".//tei:div[@type='notes']", et_ns):
@@ -163,77 +189,94 @@ def normalize_div_type_notes(root: ET.Element):
             del div.attrib["type"]
 
 
-def put_unanalyzed_words_in_note(root: ET.Element):
-    """
-    Put redactional commentary (i.e. <w> with empty @lemma often surrounded by two <pc>'s) into <note> elements.
-    """
-    parent_map = {c: p for p in root.iter() for c in p}
+def note_redactional_comments(root: ET.Element) -> None:
+    """Use None for PC, False for empty lemma and True for full lemma."""
+    qs = root.findall(".//tei:q", et_ns)
+    for q in qs:
+        changed = True
+        start_from = 0
+        while changed:
+            changed = False
+            lemmas: list[bool | None] = []
+            children = list(q)
+            for w_or_pc in children:
+                if w_or_pc.tag == f"{ns['tei']}pc":
+                    lemmas.append(None)
+                elif w_or_pc.tag == f"{ns['tei']}w":
+                    if not w_or_pc.get("lemma").strip():
+                        lemmas.append(False)
+                    else:
+                        lemmas.append(True)
+                else:  # could be any other tag
+                    lemmas.append(True)
 
-    # Get all <w> with empty @lemma and <pc> (not already inside <note>)
-    w_elements = [
-        el
-        for el in root.findall(".//tei:w", et_ns)
-        if parent_map[el].tag != f"{ns['tei']}note" and el.get("lemma", "") == ""
-    ]
-    pc_elements = [
-        el
-        for el in root.findall(".//tei:pc", et_ns)
-        if parent_map[el].tag != f"{ns['tei']}note"
-    ]
-    elements = sorted(
-        w_elements + pc_elements,
-        key=lambda x: list(parent_map[x]).index(x),
-    )
+            try:
+                # get False with lowest id
+                first_idx = lemmas.index(False, start_from)
+                last_idx = first_idx
 
-    # keep track of processed elements
-    done: set[ET.Element] = set()
+                # Expand selection backwards as long as we add <PC> (None)
+                while first_idx > 0 and lemmas[first_idx - 1] is None:
+                    first_idx -= 1
 
-    for el in elements:
-        if el in done:
-            continue
-        # determine index of this element in its parent
-        p = parent_map[el]
-        children = list(p)
-        i = children.index(el)
+                # Expand forwards as long as we add empty <w> (False) or <PC> (None)
+                while (
+                    last_idx < len(lemmas) - 1
+                    and (
+                        lemmas[last_idx + 1] is not True
+                        or (
+                            last_idx < len(lemmas) - 2
+                            and lemmas[last_idx] is False
+                            and lemmas[last_idx + 1] is True
+                            and lemmas[last_idx + 2] is not True
+                        )  # we can jump over a single lemma, if thereafter comes an empty <w> or <pc> and before comes an empty <w>
+                    )
+                ):
+                    last_idx += 1
 
-        # start a potential group
-        group = [el]
-        j = i + 1
-        # collect following siblings that are in elements
-        while j < len(children) and children[j] in elements:
-            group.append(children[j])
-            j += 1
+                selected = children[first_idx : last_idx + 1]
+                if len(selected) <= 2:  # not long enough.
+                    # only go through with it if it is the last word in the sentence
+                    # tends to be "enz.,"
+                    if last_idx == len(children) - 1:
+                        pass  # go ahead
+                    else:
+                        start_from = last_idx + 1
+                        changed = True
+                        continue
 
-        # only proceed if the group has at least two elements and one of them is a <w>
-        if len(group) >= 2 and any(g.tag == f"{ns['tei']}w" for g in group):
-            # create a <note> element and move the group into it
+                note = ET.Element(f"{ns['tei']}note")
+                q.insert(first_idx, note)
+                for elem in selected:
+                    q.remove(elem)
+                    note.append(elem)
+                changed = True
+            except:
+                pass
+
+
+def put_last_enz_in_note(root: ET.Element) -> None:
+    """If the last <w> of the doc has text 'enz', put it into a <note>."""
+    qs = root.findall(".//tei:q", et_ns)
+    for q in qs:
+        w_elements = q.findall("tei:w", et_ns)
+        if not w_elements:
+            return
+        last_w = w_elements[-1]
+        text = "".join(last_w.itertext()).strip()
+        if text.lower() in {"enz.", "enz", "enz.,"}:
+            children = list(q)
+            idx = children.index(last_w)
+            # create a <note> element and move last_w into it
             note = ET.Element(f"{ns['tei']}note")
-            p.insert(i, note)
-            for g in group:
-                p.remove(g)
-                note.append(g)
-                done.add(g)  # mark as done
+            # add the w
+            q.insert(idx, note)
+            q.remove(last_w)
+            note.append(last_w)
 
 
-def put_last_enz_in_note(root: ET.Element):
-    """If the last <w> of the document has text 'enz' and no lemma, put it into a <note>."""
-    parent_map = {c: p for p in root.iter() for c in p}
-    w_elements = root.findall(".//tei:w", et_ns)
-    if not w_elements:
-        return
-    last_w = w_elements[-1]
-    text = "".join(last_w.itertext()).strip()
-    if text.lower() in ["enz.", "enz", "enz.,"] and last_w.get("lemma") == "":
-        p = parent_map[last_w]
-        # create a <note> element and move last_w into it
-        note = ET.Element(f"{ns['tei']}note")
-        p.insert(len(p), note)
-        p.remove(last_w)
-        note.append(last_w)
-
-
-def remove_word_illegal_attributes(root: ET.Element):
-    # remove illegal attributes
+def remove_illegal_attributes(root: ET.Element) -> None:
+    """Remove various illegal attributes grouped by tag."""
     illegal_attrs = {
         (".//tei:w", ".//tei:pc"): [
             "lexicon",
@@ -255,19 +298,18 @@ def remove_word_illegal_attributes(root: ET.Element):
         (".//tei:s",): ["fixed"],
     }
 
-    for tag_list, illegal_attrs in illegal_attrs.items():
+    for tag_list, attrs in illegal_attrs.items():
         nodes = []
         for tag in tag_list:
             nodes.extend(root.findall(tag, et_ns))
         for node in nodes:
-            for attr in illegal_attrs:
+            for attr in attrs:
                 if attr in node.attrib:
                     del node.attrib[attr]
 
 
-def fixup_cit(root: ET.Element):
-    # Some <cit> elements contain a <date> as child.
-    # Wrap this in <note>
+def fix_date_and_interGrp_in_cit(root: ET.Element) -> None:
+    """Turn <cit> <date> </cit> into <cit> <note> <date> <note/> <cit/>."""
     for cit in root.findall(".//tei:cit", et_ns):
         date = cit.find("tei:date", et_ns)
 
@@ -285,6 +327,23 @@ def fixup_cit(root: ET.Element):
             date.set("extent", date.get("timeSpan"))
             del date.attrib["timeSpan"]
 
+        # next, add a interpGrp and interp for each attribute of cit
+        for attr in ["lemma", "pos", "sense-id", "modern-lemma", "entry-id"]:
+            if attr in cit.attrib:
+                attr_to_interp(cit, attr, ab)
+
+        # remove partition
+        del cit.attrib["partition"]
+        # every cit also contains at q with at least one <w> with @sense-id, we can move it to @lemmaRef
+        q = cit.find("tei:q", et_ns)
+        for w in q.findall(".//tei:w", et_ns):
+            if "sense-id" in w.attrib:
+                w.set("lemmaRef", w.get("sense-id"))
+                del w.attrib["sense-id"]
+
+
+def fix_title_for_cit(root: ET.Element):
+    for cit in root.findall(".//tei:cit", et_ns):
         # create a title based on lemma and entry-id
         lemma = cit.get("lemma", "")
         sense_id = cit.get("sense-id", "")
@@ -300,20 +359,6 @@ def fixup_cit(root: ET.Element):
                     titleElem = titleStmt.find("tei:title", et_ns)
                     if titleElem is not None:
                         titleElem.text = title
-
-        # next, add a interpGrp and interp for each attribute of cit
-        for attr in ["lemma", "pos", "sense-id", "modern-lemma", "entry-id"]:
-            if attr in cit.attrib:
-                attr_to_interp(cit, attr, ab)
-
-        # remove partition
-        del cit.attrib["partition"]
-        # every cit also contains at q with at least one <w> with @sense-id, we can move it to @lemmaRef
-        q = cit.find("tei:q", et_ns)
-        for w in q.findall("tei:w", et_ns):
-            if "sense-id" in w.attrib:
-                w.set("lemmaRef", w.get("sense-id"))
-                del w.attrib["sense-id"]
 
 
 def attr_to_interp(cit: ET.Element, attr: str, ab: ET.Element):
@@ -404,19 +449,6 @@ def move_text_in_pb_to_n(root: ET.Element):
         if pb.text:
             pb.set("n", pb.text)
             pb.text = None
-
-
-def put_lonely_p_in_div(root: ET.Element):
-    # some <div>'s contain multiple other <div>'s and <p>'s with text. Move these <p> into a <div>'s inside the parent <div>.
-    for div in root.findall(".//tei:div", et_ns):
-        for p in div.findall("tei:p", et_ns):
-            if p is not None and len(div.findall("tei:div", et_ns)) > 0:
-                # create a new <div> and move the <p> into it
-                child_div = ET.Element(f"{ns['tei']}div")
-                child_div.append(p)
-                div.append(child_div)
-                # remove the original <p> from div
-                div.remove(p)
 
 
 def move_sourceDesc(root: ET.Element):
@@ -686,66 +718,75 @@ def fixup_titles(root: ET.Element):
             title.text = title_interp.text
 
 
-def check_or_update(file: Path):
-    tree = ET.parse(file)
-    root = tree.getroot()
+def normalize(file: Path) -> None:
+    """Normalize the file to valid tei-p5."""
+    tree: ET.ElementTree = ET.parse(file)
+    root: ET.Element = tree.getroot()
 
+    # normalize namespace issues by rewriting and reparsing before any other fixes
     normalize_root(root)
-
-    # normalize namespace issues by rewriting and reparsing
     write(tree, file)
-    tree = ET.parse(file)
-    root = tree.getroot()
 
-    # normalization focussed on editing text
-    normalize_root_xml_id(root)
-    normalize_text_body(root)
+    tree: ET.ElementTree = ET.parse(file)
+    root: ET.Element = tree.getroot()
+
+    # structural fixes
+    move_cit_to_text_body(root)
+    put_p_in_div(root)
+
+    # normalization focussed on editing tokens
+    # these may change <w> into <pc> and vice versa
     normalize_w_that_should_be_pc(root)
     normalize_pc(root)
-    normalize_div_type_notes(root)
 
-    # normalization focussed on TEI validation
-    remove_word_illegal_attributes(root)
-    fixup_cit(root)
-    move_licence_to_p(root)
-    remove_empty_i_and_b(root)
-    remove_w_from_interpGrp(root)
-    move_text_in_pb_to_n(root)
-    put_lonely_p_in_div(root)
+    # normalize teiHeader
     move_sourceDesc(root)
-    move_listBibl_id_to_xml_id(root)
-    move_interp_value_to_text(root)
-    replace_hyphen_with_hyphen(root)
-    remove_nolink(root)
-    rename_old_pos_to_type(root)
     move_bron_to_sourceDesc(root)
-    move_xr_to_cit_in_note(root)
-    create_interpGrp_for_dictionary_xr(root)
     remove_bron_not_found(root)
-    move_fs_xml_id_to_n(root)
-    remove_fs_in_empty_pos_w(root)
-    fixup_w_xml_id(root)
-    remove_empty_interpGrp(root)
+    move_licence_to_p(root)
     move_sourceDesc_p_to_bibl(root)
     move_biblScope_xref_attrs(root)
-    fixup_change_resp(root)
-    remove_empty_type_in_w_and_pc(root)
-    fixup_titles(root)
     remove_couranten_sourceDesc_text(root)
+    fixup_titles(root)
+    fixup_change_resp(root)
+    fix_title_for_cit(root)
 
-    put_unanalyzed_words_in_note(root)
+    # place <note>'s to ignore tokens.
+    normalize_div_type_notes(root)
+    move_xr_to_cit_in_note(root)
+    note_redactional_comments(root)
     put_last_enz_in_note(root)
+
+    # normalize various attributes
+    remove_illegal_attributes(root)
+    normalize_root_xml_id(root)
+    rename_old_pos_to_type(root)
+    remove_empty_type_in_w_and_pc(root)
+    move_listBibl_id_to_xml_id(root)
+    move_fs_xml_id_to_n(root)
+    fixup_w_xml_id(root)
+    move_interp_value_to_text(root)
+    move_text_in_pb_to_n(root)
+
+    # simply removing certain tags
+    remove_empty_i_and_b(root)
+    replace_hyphen_with_hyphen(root)
+    remove_nolink(root)
+    remove_fs_in_empty_pos_w(root)
+    remove_empty_interpGrp(root)
+    remove_w_from_interpGrp(root)
+
+    # Some misc fixes
+    fix_date_and_interGrp_in_cit(root)
+    create_interpGrp_for_dictionary_xr(root)
 
     write(tree, file)
 
 
-def write(tree: ET.ElementTree, file: Path):
+def write(tree: ET.ElementTree, file: Path) -> None:
+    """Pretty print XML to file."""
     ET.indent(tree, space="  ")
-    tree.write(
-        file,
-        encoding="utf-8",
-        xml_declaration=True,
-    )
+    tree.write(file, encoding="utf-8", xml_declaration=True)
 
 
 if __name__ == "__main__":
@@ -754,6 +795,7 @@ if __name__ == "__main__":
         formatter_class=ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument("-r", action="store_true", help="Recursive")
+    parser.add_argument("-m", type=int, default=4, help="Multithreads")
     parser.add_argument("input", type=Path, help="xml file or dir")
     args = parser.parse_args()
 
@@ -761,9 +803,9 @@ if __name__ == "__main__":
         raise ValueError("Cannot use -r with a single file input")
 
     if args.input.is_file():
-        check_or_update(args.input)
+        normalize(args.input)
         print(f"Normalized {args.input}")
-        exit(0)
+        sys.exit(0)
 
     if args.input.is_dir():
         files = list(args.input.rglob("*.xml") if args.r else args.input.glob("*.xml"))
@@ -771,15 +813,14 @@ if __name__ == "__main__":
         # if tqdm is available, use it
         try:
             from tqdm import tqdm
-
-            files = tqdm(files)
         except ImportError:
-            pass
+            tqdm = lambda x, **kwargs: x  # fallback: identity
 
-        for f in files:
-            try:
-                check_or_update(f)
-            except Exception as e:
-                print(f"Error processing {f}:")
-                raise e
+        with ThreadPoolExecutor(max_workers=args.m) as executor:
+            list(
+                tqdm(
+                    executor.map(normalize, files),
+                    total=len(files),
+                ),
+            )
         print(f"Normalized {len(files)} files")
