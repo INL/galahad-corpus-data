@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27650" lemma="MAGEREN" partition="train" sense-id="mnw.27650.sense.2" xml:id="c27650_0001">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c27650_0001">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MAGEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27650.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27650</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1112">
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c27650_0001.w.696946">Die<join n="mw_97718" />
           </w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c27650_0001.w.696950">hare</w>
           <w cert="1.0" lemma="vlees" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27650_0001.w.696951">vleesch</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c27650_0001.w.696952">te</w>
-          <w cert="1.0" lemma="mageren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.27650.sense.2" xml:id="c27650_0001.w.696953">magerne</w>
+          <w cert="1.0" lemma="mageren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c27650_0001.w.696953" lemmaRef="mnw.27650.sense.2">magerne</w>
           <w cert="1.0" lemma="pogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c27650_0001.w.696954">pogen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c27650_0001.w.696955">ende</w>
           <w cert="1.0" lemma="verteren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c27650_0001.w.696956">verteren</w>

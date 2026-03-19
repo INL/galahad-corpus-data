@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12387" lemma="GERECHTELIKE" partition="train" sense-id="mnw.12387.sense.1" xml:id="c12387_0000">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c12387_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GERECHTELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12387.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12387</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.538">
           <w cert="1.0" lemma="daarom" pos="ADV(type=pron)" resp="thomas" xml:id="c12387_0000.w.1099735">Daerom</w>
           <w cert="1.0" lemma="bezien+wij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c12387_0000.w.1099736">besiewi</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="gerechtelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c12387_0000.w.1099744">gerecktelec</w>
           <pc join="right" pos="PC" xml:id="c12387_0000.pc.pre.00462522" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12387_0000.w.1099745">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.12387.sense.1" xml:id="c12387_0000.w.1099746">gerechtelec</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12387_0000.w.1099746" lemmaRef="mnw.12387.sense.1">gerechtelec</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12387_0000.w.1099747">of</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12387_0000.w.1099748">gereckelec</w>
           <pc pos="PC" xml:id="c12387_0000.pc.post.00462524" lemma=")">)</pc>

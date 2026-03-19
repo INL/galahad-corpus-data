@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21520" lemma="KIESEN" partition="train" sense-id="mnw.21520.sense.12" xml:id="c21520_0052">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c21520_0052">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>KIESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21520.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21520</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.526">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21520_0052.w.981324">Zi</w>
           <pc join="right" pos="PC" xml:id="c21520_0052.pc.pre.00396736" lemma="(">(</pc>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c21520_0052.w.981329">God</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c21520_0052.w.981330">dat</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21520_0052.w.981331">hevet</w>
-          <w cert="1.0" lemma="kiezen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.21520.sense.12" xml:id="c21520_0052.w.981332">gekoren</w>
+          <w cert="1.0" lemma="kiezen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c21520_0052.w.981332" lemmaRef="mnw.21520.sense.12">gekoren</w>
           <pc pos="PC" xml:id="c21520_0052.pc.floating.00396739" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+du" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c21520_0052.w.981334">dattu</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c21520_0052.w.981335">werdes</w>

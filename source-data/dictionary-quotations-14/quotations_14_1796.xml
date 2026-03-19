@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43992" lemma="PRIJCH" partition="train" sense-id="mnw.43992.sense.4" xml:id="c43992_0022">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c43992_0022">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PRIJCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43992.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43992</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1796">
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c43992_0022.w.474827">Of</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c43992_0022.w.474828">men</w>
@@ -62,7 +75,7 @@
           </w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43992_0022.w.474837">soude</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c43992_0022.w.474838">een</w>
-          <w cert="1.0" lemma="prijg" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.43992.sense.4" xml:id="c43992_0022.w.474839">prijch</w>
+          <w cert="1.0" lemma="prijg" pos="NOU-C(number=sg)" resp="roland" xml:id="c43992_0022.w.474839" lemmaRef="mnw.43992.sense.4">prijch</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=postnom)" resp="roland" xml:id="c43992_0022.w.474840">groot</w>
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c43992_0022.w.474841">af<join n="mw_596737" />
           </w>

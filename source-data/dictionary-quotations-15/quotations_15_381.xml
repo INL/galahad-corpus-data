@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14771" lemma="GRAVERE" partition="train" sense-id="mnw.14771.sense.1" xml:id="c14771_0004">
-        <date atLeast="1420" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c14771_0004">
+        <note>
+          <ab>
+            <date atLeast="1420" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GRAVERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14771.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14771</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.381">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c14771_0004.w.1536866">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c14771_0004.w.1536867">hi</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c14771_0004.w.1536873">heer</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c14771_0004.w.1536874">alle</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14771_0004.w.1536875">die</w>
-          <w cert="1.0" lemma="graver" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.14771.sense.1" xml:id="c14771_0004.w.1536876">grevers</w>
+          <w cert="1.0" lemma="graver" pos="NOU-C(number=pl)" resp="roland" xml:id="c14771_0004.w.1536876" lemmaRef="mnw.14771.sense.1">grevers</w>
           <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" xml:id="c14771_0004.w.1536877">wt</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c14771_0004.w.1536878">sinen</w>
           <w cert="1.0" lemma="bedrijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c14771_0004.w.1536879">bedrive</w>

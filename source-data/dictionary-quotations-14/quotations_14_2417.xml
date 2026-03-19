@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59476" lemma="TROP" partition="test" sense-id="mnw.59476.sense.1" xml:id="c59476_0017">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c59476_0017">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TROP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59476.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59476</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2417">
           <pc pos="PC" xml:id="c59476_0017.pc.floating.00222479" lemma="—">—</pc>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c59476_0017.w.548708">Dan</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="droesem" pos="NOU-C(number=sg)" resp="roland" xml:id="c59476_0017.w.548718">droesene</w>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c59476_0017.w.548719">over</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c59476_0017.w.548720">een</w>
-          <w cert="1.0" lemma="troep" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.59476.sense.1" xml:id="c59476_0017.w.548721">trop</w>
+          <w cert="1.0" lemma="troep" pos="NOU-C(number=sg)" resp="roland" xml:id="c59476_0017.w.548721" lemmaRef="mnw.59476.sense.1">trop</w>
           <pc pos="PC" xml:id="c59476_0017.pc.floating.00222481" lemma=",">,</pc>
         </q>
       </cit>

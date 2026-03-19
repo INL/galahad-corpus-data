@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72961" lemma="WEVER" partition="train" sense-id="mnw.72961.sense.1" xml:id="c72961_0010">
-        <date atLeast="1338" atMost="1338" timeSpan="1300-1350" />
+      <cit xml:id="c72961_0010">
+        <note>
+          <ab>
+            <date atLeast="1338" atMost="1338" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WEVER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72961.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72961</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3106">
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c72961_0010.w.1792414">Voort</w>
           <w cert="1.0" lemma="verbieden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72961_0010.w.1792415">verbiet</w>
@@ -57,7 +70,7 @@
           </w>
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c72961_0010.w.1792419">gheen<join n="mw_956639" />
           </w>
-          <w cert="1.0" lemma="wever" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72961.sense.1" xml:id="c72961_0010.w.1792420">wevere</w>
+          <w cert="1.0" lemma="wever" pos="NOU-C(number=sg)" resp="roland" xml:id="c72961_0010.w.1792420" lemmaRef="mnw.72961.sense.1">wevere</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72961_0010.w.1792421">mach</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=inf)" resp="roland" xml:id="c72961_0010.w.1792422">slaen</w>
           <w cert="1.0" lemma="vlokken" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c72961_0010.w.1792423">vlockin</w>

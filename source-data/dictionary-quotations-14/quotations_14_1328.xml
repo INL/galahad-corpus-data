@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32353" lemma="NERGEN" partition="train" sense-id="mnw.32353.sense.1" xml:id="c32353_0013">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c32353_0013">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NERGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32353.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32353</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1328">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c32353_0013.w.1584963">Men</w>
           <w cert="1.0" lemma="vinden+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c32353_0013.w.1584964">vintse</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c32353_0013.pc.post.00625046" lemma=")">)</pc>
           <pc pos="PC" xml:id="c32353_0013.pc.floating.00625047" lemma="…">…</pc>
           <w cert="1.0" lemma="el" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c32353_0013.w.1584968">el</w>
-          <w cert="1.0" lemma="nergen" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.32353.sense.1" xml:id="c32353_0013.w.1584969">nergen</w>
+          <w cert="1.0" lemma="nergen" pos="ADV(type=reg)" resp="thomas" xml:id="c32353_0013.w.1584969" lemmaRef="mnw.32353.sense.1">nergen</w>
           <w cert="1.0" lemma="ver" pos="ADV(type=reg)" resp="thomas" xml:id="c32353_0013.w.1584970">verre</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c32353_0013.w.1584971">noch</w>
           <w cert="1.0" lemma="na" pos="ADV(type=reg)" resp="thomas" xml:id="c32353_0013.w.1584972">na</w>

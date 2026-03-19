@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32161" lemma="NEDERSTUKEN" partition="train" sense-id="mnw.32161.sense.1" xml:id="c32161_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c32161_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>NEDERSTUKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32161.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32161</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.799">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c32161_0000.w.1547700">Hi</w>
           <pc join="right" pos="PC" xml:id="c32161_0000.pc.pre.00609431" lemma="(">(</pc>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32161_0000.w.1547702">wart</w>
           <w cert="1.0" lemma="oprichten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c32161_0000.w.1547703">opgherecht</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c32161_0000.w.1547704">ende</w>
-          <w cert="1.0" lemma="nederstuiken" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.32161.sense.1" xml:id="c32161_0000.w.1547705">nederghestuyct</w>
+          <w cert="1.0" lemma="nederstuiken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c32161_0000.w.1547705" lemmaRef="mnw.32161.sense.1">nederghestuyct</w>
           <pc pos="PC" xml:id="c32161_0000.pc.floating.00609433" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c32161_0000.w.1547707">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c32161_0000.w.1547708">hem</w>

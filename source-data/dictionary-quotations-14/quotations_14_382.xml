@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09077" lemma="ERHOGEN" partition="train" sense-id="mnw.09077.sense.2" xml:id="c09077_0001">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c09077_0001">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ERHOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09077.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09077</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.382">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c09077_0001.w.525181">Dat</w>
           <w cert="1.0" lemma="rein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c09077_0001.w.525182">reine</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c09077_0001.pc.post.00226726" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c09077_0001.w.525184">dat</w>
           <w cert="1.0" lemma="zich" pos="PD(type=refl,position=free)" resp="thomas" xml:id="c09077_0001.w.525185">sig</w>
-          <w cert="1.0" lemma="erhogen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.09077.sense.2" xml:id="c09077_0001.w.525186">erhoget</w>
+          <w cert="1.0" lemma="erhogen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c09077_0001.w.525186" lemmaRef="mnw.09077.sense.2">erhoget</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c09077_0001.w.525187">heft</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c09077_0001.w.525188">van</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c09077_0001.w.525189">alder</w>

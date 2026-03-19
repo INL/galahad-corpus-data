@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69585" lemma="VULSTER" partition="train" sense-id="mnw.69585.sense.1" xml:id="c69585_0000">
-        <date atLeast="1413" atMost="1413" timeSpan="1400-1450" />
+      <cit xml:id="c69585_0000">
+        <note>
+          <ab>
+            <date atLeast="1413" atMost="1413" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VULSTER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69585.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69585</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2078">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c69585_0000.w.1078703">So</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c69585_0000.w.1078704">en</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="uitverkopen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69585_0000.w.1078714">uutvercoopt</w>
           <pc pos="PC" xml:id="c69585_0000.pc.post.00432444" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c69585_0000.w.1078715">die</w>
-          <w cert="1.0" lemma="vulster" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.69585.sense.1" xml:id="c69585_0000.w.1078716">vulsters</w>
+          <w cert="1.0" lemma="vulster" pos="NOU-C(number=pl)" resp="thomas" xml:id="c69585_0000.w.1078716" lemmaRef="mnw.69585.sense.1">vulsters</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c69585_0000.w.1078717">en</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69585_0000.w.1078718">sullen</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c69585_0000.w.1078719">comen</w>

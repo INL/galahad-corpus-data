@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62424" lemma="VERDIENEN" partition="train" sense-id="mnw.62424.sense.21" xml:id="c62424_0100">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c62424_0100">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERDIENEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62424.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62424</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1768">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c62424_0100.w.1180331">Om</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62424_0100.w.1180332">die</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c62424_0100.pc.post.00474496" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62424_0100.w.1180334">die</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62424_0100.w.1180335">wi</w>
-          <w cert="1.0" lemma="verdienen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.62424.sense.21" xml:id="c62424_0100.w.1180336">verdient</w>
+          <w cert="1.0" lemma="verdienen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c62424_0100.w.1180336" lemmaRef="mnw.62424.sense.21">verdient</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62424_0100.w.1180337">hadden</w>
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c62424_0100.w.1180338">jeghen</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62424_0100.w.1180339">hem</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00745" lemma="AFDINKEN" partition="train" sense-id="mnw.00745.sense.1" xml:id="c00745_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c00745_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>AFDINKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00745.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00745</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.36">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c00745_0000.w.150464">Ende</w>
           <w cert="1.0" lemma="doen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c00745_0000.w.150465">dedem</w>
@@ -70,7 +83,7 @@
           </w>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c00745_0000.w.150479">elken</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c00745_0000.w.150480">man</w>
-          <w cert="1.0" lemma="afdunken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00745.sense.1" xml:id="c00745_0000.w.150481">afdochte</w>
+          <w cert="1.0" lemma="afdunken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00745_0000.w.150481" lemmaRef="mnw.00745.sense.1">afdochte</w>
           <pc pos="PC" xml:id="c00745_0000.pc.floating.00059601" lemma=",">,</pc>
           <w cert="1.0" lemma="die+hij" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c00745_0000.w.150483">diene</w>
           <w cert="1.0" lemma="aanschouwen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c00745_0000.w.150484">anescouwen</w>

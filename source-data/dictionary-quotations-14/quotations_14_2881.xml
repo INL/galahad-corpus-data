@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68962" lemma="VREDE" partition="dev" sense-id="mnw.68962.sense.21" xml:id="c68962_0163">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c68962_0163">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VREDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68962.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68962</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2881">
           <w cert="1.0" lemma="wanen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c68962_0163.w.920702">Waendi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c68962_0163.w.920703">die</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c68962_0163.w.920723">gave</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c68962_0163.w.920724">den</w>
           <w cert="1.0" lemma="schaap" pos="NOU-C(number=pl)" resp="roland" xml:id="c68962_0163.w.920725">scapen</w>
-          <w cert="1.0" lemma="vrede" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.68962.sense.21" xml:id="c68962_0163.w.920726">vrede</w>
+          <w cert="1.0" lemma="vrede" pos="NOU-C(number=sg)" resp="thomas" xml:id="c68962_0163.w.920726" lemmaRef="mnw.68962.sense.21">vrede</w>
           <pc join="right" pos="PC" xml:id="c68962_0163.pc.pre.00369544" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c68962_0163.w.920727">ze</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c68962_0163.w.920728">met</w>

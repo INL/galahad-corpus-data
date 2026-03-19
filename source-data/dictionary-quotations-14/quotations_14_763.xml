@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18321" lemma="HOVEDINC" partition="train" sense-id="mnw.18321.sense.1" xml:id="c18321_0001">
-        <date atLeast="1318" atMost="1318" timeSpan="1300-1350" />
+      <cit xml:id="c18321_0001">
+        <note>
+          <ab>
+            <date atLeast="1318" atMost="1318" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HOVEDINC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18321.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18321</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.763">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c18321_0001.w.472485">Waer</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c18321_0001.w.472486">daer</w>
@@ -75,7 +88,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c18321_0001.w.472504">dat</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c18321_0001.w.472505">zullen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c18321_0001.w.472506">de</w>
-          <w cert="1.0" lemma="hoofding" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.18321.sense.1" xml:id="c18321_0001.w.472507">hovedinghe</w>
+          <w cert="1.0" lemma="hoofding" pos="NOU-C(number=pl)" resp="roland" xml:id="c18321_0001.w.472507" lemmaRef="mnw.18321.sense.1">hovedinghe</w>
           <w cert="1.0" lemma="ontkennen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c18321_0001.w.472508">ontkennen</w>
           <pc pos="PC" xml:id="c18321_0001.pc.post.00193198" lemma=",">,</pc>
         </q>

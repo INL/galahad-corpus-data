@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20235" lemma="CAETSE" partition="train" sense-id="mnw.20235.sense.2" xml:id="c20235_0002">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c20235_0002">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CAETSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20235.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20235</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.811">
           <w cert="1.0" lemma="doen+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c20235_0002.w.765821">Doetse</w>
           <pc join="right" pos="PC" xml:id="c20235_0002.pc.pre.00311243" lemma="(">(</pc>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c20235_0002.pc.post.00311245" lemma=",">,</pc>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c20235_0002.w.765830">wel</w>
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c20235_0002.w.765831">scone</w>
-          <w cert="1.0" lemma="kaats" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.20235.sense.2" xml:id="c20235_0002.w.765832">caetse</w>
+          <w cert="1.0" lemma="kaats" pos="NOU-C(number=sg)" resp="thomas" xml:id="c20235_0002.w.765832" lemmaRef="mnw.20235.sense.2">caetse</w>
           <w cert="1.0" lemma="zullen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c20235_0002.w.765833">seldi</w>
           <w cert="1.0" lemma="schouwen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c20235_0002.w.765834">scouwen</w>
           <pc pos="PC" xml:id="c20235_0002.pc.post.00311246" lemma=",">,</pc>

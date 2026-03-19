@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12678" lemma="GESCAL" partition="train" sense-id="mnw.12678.sense.2" xml:id="c12678_0049">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c12678_0049">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GESCAL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12678.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12678</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.557">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c12678_0049.w.1157961">Doe</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c12678_0049.w.1157962">ghinghen</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12678_0049.w.1157963">si</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c12678_0049.w.1157964">sonder</w>
-          <w cert="1.0" lemma="geschal" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12678.sense.2" xml:id="c12678_0049.w.1157965">ghescal</w>
+          <w cert="1.0" lemma="geschal" pos="NOU-C(number=sg)" resp="roland" xml:id="c12678_0049.w.1157965" lemmaRef="mnw.12678.sense.2">ghescal</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12678_0049.w.1157966">ende</w>
           <w cert="1.0" lemma="branden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c12678_0049.w.1157967">bernden</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c12678_0049.w.1157968">in</w>

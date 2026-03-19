@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70810" lemma="WATERINGE" partition="train" sense-id="mnw.70810.sense.4" xml:id="c70810_0018">
-        <date atLeast="1432" atMost="1468" timeSpan="1450-1500" />
+      <cit xml:id="c70810_0018">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1468" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WATERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70810.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70810</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2117">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70810_0018.w.1347799">Van</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c70810_0018.w.1347800">dat</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c70810_0018.w.1347805">de</w>
           <w cert="1.0" lemma="veste" pos="NOU-C(number=sg)" resp="roland" xml:id="c70810_0018.w.1347806">veste</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70810_0018.w.1347807">ende</w>
-          <w cert="1.0" lemma="watering" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70810.sense.4" xml:id="c70810_0018.w.1347808">wateringhe</w>
+          <w cert="1.0" lemma="watering" pos="NOU-C(number=sg)" resp="roland" xml:id="c70810_0018.w.1347808" lemmaRef="mnw.70810.sense.4">wateringhe</w>
           <pc join="right" pos="PC" xml:id="c70810_0018.pc.pre.00540019" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c70810_0018.w.1347809">gracht</w>
           <pc pos="PC" xml:id="c70810_0018.pc.post.00540020" lemma=")">)</pc>

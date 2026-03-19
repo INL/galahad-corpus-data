@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46771" lemma="ROEC" partition="train" sense-id="mnw.46771.sense.1" xml:id="c46771_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c46771_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ROEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46771.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46771</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1922">
           <w cert="1.0" lemma="graculus" pos="NOU-C(number=sg)" resp="roland" xml:id="c46771_0000.w.1082800">Graculus</w>
           <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c46771_0000.w.1082801">dats</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c46771_0000.w.1082802">een</w>
-          <w cert="1.0" lemma="roek" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.46771.sense.1" xml:id="c46771_0000.w.1082803">roec</w>
+          <w cert="1.0" lemma="roek" pos="NOU-C(number=sg)" resp="roland" xml:id="c46771_0000.w.1082803" lemmaRef="mnw.46771.sense.1">roec</w>
           <pc pos="PC" xml:id="c46771_0000.pc.floating.00425824" lemma="…,">…,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c46771_0000.w.1082805">der</w>
           <w cert="1.0" lemma="kraai" pos="NOU-C(number=pl)" resp="roland" xml:id="c46771_0000.w.1082806">craien</w>

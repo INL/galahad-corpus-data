@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27539" lemma="MAER" partition="test" sense-id="mnw.27539.sense.25" xml:id="c27539_0146">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c27539_0146">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MAER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27539.sense.25</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27539</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1106">
           <w cert="1.0" lemma="zij+ne" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="roland" xml:id="c27539_0146.w.685742">Sine</w>
           <w cert="1.0" lemma="slapen+dat" pos="VRB(finiteness=fin,tense=pres)+PD(type=d-p,position=free)" resp="thomas" xml:id="c27539_0146.w.685743">slapens</w>
-          <w cert="1.0" lemma="maar" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.27539.sense.25" xml:id="c27539_0146.w.685744">maer</w>
+          <w cert="1.0" lemma="maar" pos="ADV(type=reg)" resp="thomas" xml:id="c27539_0146.w.685744" lemmaRef="mnw.27539.sense.25">maer</w>
           <w cert="1.0" lemma="te" pos="ADV(type=reg)" resp="thomas" xml:id="c27539_0146.w.685745">te</w>
           <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" xml:id="c27539_0146.w.685746">bet</w>
           <pc join="right" pos="PC" xml:id="c27539_0146.pc.pre.00265699" lemma="(">(</pc>

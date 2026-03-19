@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67949" lemma="VOREGEBOT" partition="train" sense-id="mnw.67949.sense.1" xml:id="c67949_0006">
-        <date atLeast="1431" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c67949_0006">
+        <note>
+          <ab>
+            <date atLeast="1431" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VOREGEBOT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67949.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67949</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2020">
           <w cert="1.0" lemma="zeker" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c67949_0006.w.721979">Zekere</w>
-          <w cert="1.0" lemma="voorgebod" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.67949.sense.1" xml:id="c67949_0006.w.721980">voorgebode</w>
+          <w cert="1.0" lemma="voorgebod" pos="NOU-C(number=sg)" resp="roland" xml:id="c67949_0006.w.721980" lemmaRef="mnw.67949.sense.1">voorgebode</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c67949_0006.w.721981">al</w>
           <w cert="1.0" lemma="Vlaanderen" pos="NOU-P" resp="roland" xml:id="c67949_0006.w.721982">Vlanderen</w>
           <w cert="1.0" lemma="door" pos="ADP(type=post)" resp="thomas" xml:id="c67949_0006.w.721983">duer</w>

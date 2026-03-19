@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64334" lemma="VERSCH" partition="dev" sense-id="mnw.64334.sense.9" xml:id="c64334_0054">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c64334_0054">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERSCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64334.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64334</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1875">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c64334_0054.w.1716362">Om</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c64334_0054.w.1716363">die</w>
-          <w cert="1.0" lemma="vers" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.64334.sense.9" xml:id="c64334_0054.w.1716364">versche</w>
+          <w cert="1.0" lemma="vers" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c64334_0054.w.1716364" lemmaRef="mnw.64334.sense.9">versche</w>
           <w cert="1.0" lemma="offerande" pos="NOU-C(number=sg)" resp="roland" xml:id="c64334_0054.w.1716365">offerhande</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c64334_0054.w.1716366">te</w>
           <w cert="1.0" lemma="schenken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c64334_0054.w.1716367">schenckene</w>

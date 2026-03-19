@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68714" lemma="VORTBRINGEN" partition="train" sense-id="mnw.68714.sense.19" xml:id="c68714_0110">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c68714_0110">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VORTBRINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68714.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68714</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2870">
           <w cert="1.0" lemma="zetten+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c68714_0110.w.866045">Settense</w>
           <pc join="right" pos="PC" xml:id="c68714_0110.pc.pre.00347766" lemma="(">(</pc>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c68714_0110.pc.post.00347768" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68714_0110.w.866056">ende</w>
           <w cert="1.0" lemma="onkuisheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c68714_0110.w.866057">onkuuscheit</w>
-          <w cert="1.0" lemma="voortbrengen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.68714.sense.19" xml:id="c68714_0110.w.866058">voortbringhen</w>
+          <w cert="1.0" lemma="voortbrengen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c68714_0110.w.866058" lemmaRef="mnw.68714.sense.19">voortbringhen</w>
           <pc pos="PC" xml:id="c68714_0110.pc.floating.00347769" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c68714_0110.w.866060">so</w>
           <w cert="1.0" lemma="dunken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c68714_0110.w.866061">dinct</w>

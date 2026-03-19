@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11795" lemma="GEMALSC" partition="train" sense-id="mnw.11795.sense.1" xml:id="c11795_0000">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c11795_0000">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GEMALSC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11795.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11795</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.304">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11795_0000.w.966373">Die</w>
           <w cert="1.0" lemma="ros" pos="NOU-C(number=pl)" resp="roland" xml:id="c11795_0000.w.966374">orse</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c11795_0000.w.966375">makeden</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c11795_0000.w.966376">groet</w>
-          <w cert="1.0" lemma="gemals" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.11795.sense.1" xml:id="c11795_0000.w.966377">gemals</w>
+          <w cert="1.0" lemma="gemals" pos="NOU-C(number=sg)" resp="thomas" xml:id="c11795_0000.w.966377" lemmaRef="mnw.11795.sense.1">gemals</w>
           <pc pos="PC" xml:id="c11795_0000.pc.floating.00408587" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c11795_0000.w.966379">dat</w>
           <w cert="1.0" lemma="deunen" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c11795_0000.w.966380">doende</w>

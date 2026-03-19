@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31237" lemma="MUSAERT" partition="train" sense-id="mnw.31237.sense.1" xml:id="c31237_0003">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c31237_0003">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MUSAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31237.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31237</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1277">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c31237_0003.w.1371306">Van</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c31237_0003.w.1371307">desen</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="behagel" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c31237_0003.w.1371310">behagelen</w>
           <pc pos="PC" xml:id="c31237_0003.pc.post.00539499" lemma=",">,</pc>
           <w cert="1.0" lemma="gekamd" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c31237_0003.w.1371311">gekymden</w>
-          <w cert="1.0" lemma="musaard" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.31237.sense.1" xml:id="c31237_0003.w.1371312">musarden</w>
+          <w cert="1.0" lemma="musaard" pos="NOU-C(number=pl)" resp="roland" xml:id="c31237_0003.w.1371312" lemmaRef="mnw.31237.sense.1">musarden</w>
           <w cert="1.0" lemma="mogen+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c31237_0003.w.1371313">maghic</w>
           <w cert="1.0" lemma="krank" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c31237_0003.w.1371314">cranke</w>
           <w cert="1.0" lemma="mare" pos="NOU-C(number=sg)" resp="roland" xml:id="c31237_0003.w.1371315">mare</w>

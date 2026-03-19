@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35331" lemma="ONGEËNDET" partition="dev" sense-id="mnw.35331.sense.6" xml:id="c35331_0010">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c35331_0010">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONGEËNDET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35331.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35331</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.884">
           <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="c35331_0010.w.351099">Noch</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c35331_0010.w.351100">so</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c35331_0010.w.351109">si</w>
           <w cert="1.0" lemma="dogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c35331_0010.w.351110">dogen</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c35331_0010.w.351111">al</w>
-          <w cert="1.0" lemma="ongeëind" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35331.sense.6" xml:id="c35331_0010.w.351112">ongehent</w>
+          <w cert="1.0" lemma="ongeëind" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35331_0010.w.351112" lemmaRef="mnw.35331.sense.6">ongehent</w>
           <pc pos="PC" xml:id="c35331_0010.pc.floating.00143869" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c35331_0010.w.351114">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c35331_0010.w.351115">es</w>

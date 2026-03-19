@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66638" lemma="VLEC" partition="test" sense-id="mnw.66638.sense.1" xml:id="c66638_0001">
-        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c66638_0001">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VLEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66638.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66638</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2782">
           <w cert="1.0" lemma="gekocht" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c66638_0001.w.438288">Ghecocht</w>
           <w cert="1.0" lemma="rundvlees" pos="NOU-C(number=sg)" resp="roland" xml:id="c66638_0001.w.438289">rendvleesch</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="weren" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c66638_0001.w.438290">wederin</w>
           <w cert="1.0" lemma="vlees" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66638_0001.w.438291">vleesch</w>
           <pc pos="PC" xml:id="c66638_0001.pc.post.00175119" lemma=",">,</pc>
-          <w cert="1.0" lemma="vlek" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.66638.sense.1" xml:id="c66638_0001.w.438292">vleken</w>
+          <w cert="1.0" lemma="vlek" pos="NOU-C(number=pl)" resp="roland" xml:id="c66638_0001.w.438292" lemmaRef="mnw.66638.sense.1">vleken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c66638_0001.w.438293">ende</w>
           <w cert="1.0" lemma="ham" pos="NOU-C(number=pl)" resp="roland" xml:id="c66638_0001.w.438294">hammen</w>
           <pc pos="PC" xml:id="c66638_0001.pc.post.00175120" lemma=",">,</pc>

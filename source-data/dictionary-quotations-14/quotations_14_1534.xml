@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37799" lemma="ONTSCADEN" partition="train" sense-id="mnw.37799.sense.1" xml:id="c37799_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c37799_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTSCADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37799.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37799</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1534">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c37799_0000.w.780963">Een</w>
           <w cert="1.0" lemma="zijden" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c37799_0000.w.780964">siden</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="manier" pos="NOU-C(number=sg)" resp="roland" xml:id="c37799_0000.w.780976">maniere</w>
           <pc pos="PC" xml:id="c37799_0000.pc.post.00314962" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c37799_0000.w.780977">dat</w>
-          <w cert="1.0" lemma="ontschaden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.37799.sense.1" xml:id="c37799_0000.w.780978">onscaet</w>
+          <w cert="1.0" lemma="ontschaden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c37799_0000.w.780978" lemmaRef="mnw.37799.sense.1">onscaet</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c37799_0000.w.780979">blijft</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c37799_0000.w.780980">in</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c37799_0000.w.780981">den</w>

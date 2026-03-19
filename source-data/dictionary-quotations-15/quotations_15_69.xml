@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02535" lemma="BEDIES" partition="train" sense-id="mnw.02535.sense.1" xml:id="c02535_0000">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c02535_0000">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BEDIES</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02535.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02535</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.69">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c02535_0000.w.458991">Soe</w>
           <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c02535_0000.w.458992">wijs</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c02535_0000.w.459005">so</w>
           <w cert="1.0" lemma="rein" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c02535_0000.w.459006">reine</w>
           <pc pos="PC" xml:id="c02535_0000.pc.post.00179889" lemma=";">;</pc>
-          <w cert="1.0" lemma="bedie" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.02535.sense.1" xml:id="c02535_0000.w.459007">bedies</w>
+          <w cert="1.0" lemma="bedie" pos="ADV(type=reg)" resp="thomas" xml:id="c02535_0000.w.459007" lemmaRef="mnw.02535.sense.1">bedies</w>
           <w cert="1.0" lemma="heten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c02535_0000.w.459008">heet</w>
           <w cert="1.0" lemma="men+hij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c02535_0000.w.459009">menne</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02535_0000.w.459010">int</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30206" lemma="MISVAL" partition="train" sense-id="mnw.30206.sense.2" xml:id="c30206_0026">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c30206_0026">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MISVAL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30206.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30206</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.749">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c30206_0026.w.1190978">Doe</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c30206_0026.w.1190979">en</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c30206_0026.w.1190997">werd</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c30206_0026.w.1190998">gedaan</w>
           <pc pos="PC" xml:id="c30206_0026.pc.post.00467442" lemma=")">)</pc>
-          <w cert="1.0" lemma="misval" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30206.sense.2" xml:id="c30206_0026.w.1190999">mesvalle</w>
+          <w cert="1.0" lemma="misval" pos="NOU-C(number=sg)" resp="roland" xml:id="c30206_0026.w.1190999" lemmaRef="mnw.30206.sense.2">mesvalle</w>
           <pc pos="PC" xml:id="c30206_0026.pc.floating.00467443" lemma=",">,</pc>
         </q>
       </cit>

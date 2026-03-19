@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03161" lemma="BELOF" partition="train" sense-id="mnw.03161.sense.10" xml:id="c03161_0017">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c03161_0017">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BELOF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03161.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03161</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.136">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c03161_0017.w.613032">Dit</w>
           <w cert="1.0" lemma="zekeren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c03161_0017.w.613033">sekerden</w>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c03161_0017.pc.post.00238862" lemma=",">,</pc>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c03161_0017.w.613045">up</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03161_0017.w.613046">dat</w>
-          <w cert="1.0" lemma="belof" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.03161.sense.10" xml:id="c03161_0017.w.613047">belof</w>
+          <w cert="1.0" lemma="belof" pos="NOU-C(number=sg)" resp="roland" xml:id="c03161_0017.w.613047" lemmaRef="mnw.03161.sense.10">belof</w>
           <pc pos="PC" xml:id="c03161_0017.pc.floating.00238863" lemma=",">,</pc>
         </q>
       </cit>

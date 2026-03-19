@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69202" lemma="VRILIKE" partition="test" sense-id="mnw.69202.sense.5" xml:id="c69202_0022">
-        <date atLeast="1465" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c69202_0022">
+        <note>
+          <ab>
+            <date atLeast="1465" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VRILIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69202.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69202</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2066">
           <w cert="1.0" lemma="aankomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69202_0022.w.1005535">Coomt<join n="mw_523680" />
           </w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="aankomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69202_0022.w.1005537">aen<join n="mw_523680" />
           </w>
           <pc pos="PC" xml:id="c69202_0022.pc.post.00402496" lemma=",">,</pc>
-          <w cert="1.0" lemma="vrijelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.69202.sense.5" xml:id="c69202_0022.w.1005538">vryliken</w>
+          <w cert="1.0" lemma="vrijelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c69202_0022.w.1005538" lemmaRef="mnw.69202.sense.5">vryliken</w>
           <pc join="right" pos="PC" xml:id="c69202_0022.pc.pre.00402497" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69202_0022.w.1005539">tot</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c69202_0022.w.1005540">hoenders</w>

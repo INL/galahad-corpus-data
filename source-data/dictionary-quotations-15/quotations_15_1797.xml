@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62883" lemma="VERGORDEN" partition="train" sense-id="mnw.62883.sense.2" xml:id="c62883_0004">
-        <date atLeast="1432" atMost="1468" timeSpan="1450-1500" />
+      <cit xml:id="c62883_0004">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1468" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERGORDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62883.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62883</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1797">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c62883_0004.w.1316916">De</w>
           <w cert="1.0" lemma="schel" pos="NOU-C(number=sg)" resp="roland" xml:id="c62883_0004.w.1316917">scelle</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62883_0004.w.1316918">int</w>
           <w cert="1.0" lemma="belfort" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62883_0004.w.1316919">belfroot</w>
           <pc pos="PC" xml:id="c62883_0004.pc.post.00528144" lemma=")">)</pc>
-          <w cert="1.0" lemma="vergorden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.62883.sense.2" xml:id="c62883_0004.w.1316920">vergord</w>
+          <w cert="1.0" lemma="vergorden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c62883_0004.w.1316920" lemmaRef="mnw.62883.sense.2">vergord</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62883_0004.w.1316921">ende</w>
           <w cert="1.0" lemma="verhangen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c62883_0004.w.1316922">verhangen</w>
           <pc pos="PC" xml:id="c62883_0004.pc.post.00528145" lemma=",">,</pc>

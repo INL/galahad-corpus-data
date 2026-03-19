@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73713" lemma="WINDAS" partition="train" sense-id="mnw.73713.sense.1" xml:id="c73713_0005">
-        <date atLeast="1331" atMost="1331" timeSpan="1300-1350" />
+      <cit xml:id="c73713_0005">
+        <note>
+          <ab>
+            <date atLeast="1331" atMost="1331" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WINDAS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73713.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73713</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3152">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c73713_0005.w.1949044">Item</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c73713_0005.w.1949045">van</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="schroot" pos="NOU-C(number=pl)" resp="roland" xml:id="c73713_0005.w.1949048">scrooden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c73713_0005.w.1949049">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c73713_0005.w.1949050">van</w>
-          <w cert="1.0" lemma="windas" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73713.sense.1" xml:id="c73713_0005.w.1949051">windaes</w>
+          <w cert="1.0" lemma="windas" pos="NOU-C(number=sg)" resp="roland" xml:id="c73713_0005.w.1949051" lemmaRef="mnw.73713.sense.1">windaes</w>
           <pc pos="PC" xml:id="c73713_0005.pc.floating.00765759" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c73713_0005.w.1949053">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73713_0005.w.1949054">den</w>

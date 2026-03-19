@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21284" lemma="KERMISSE" partition="train" sense-id="mnw.21284.sense.1" xml:id="c21284_0007">
-        <date atLeast="1340" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c21284_0007">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KERMISSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21284.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21284</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.853">
           <w cert="1.0" lemma="schepen" pos="NOU-C(number=pl)" resp="roland" xml:id="c21284_0007.w.947723">Scepenen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21284_0007.w.947724">ende</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c21284_0007.w.947738">omme</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c21284_0007.w.947739">daer</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c21284_0007.w.947740">de</w>
-          <w cert="1.0" lemma="kermis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21284.sense.1" xml:id="c21284_0007.w.947741">keermesse</w>
+          <w cert="1.0" lemma="kermis" pos="NOU-C(number=sg)" resp="roland" xml:id="c21284_0007.w.947741" lemmaRef="mnw.21284.sense.1">keermesse</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c21284_0007.w.947742">te</w>
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21284_0007.w.947743">houdene</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21284_0007.w.947744">ende</w>

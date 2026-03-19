@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50490" lemma="SCHRIJN" partition="train" sense-id="mnw.50490.sense.8" xml:id="c50490_0052">
-        <date atLeast="1475" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c50490_0052">
+        <note>
+          <ab>
+            <date atLeast="1475" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHRIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50490.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50490</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1338">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c50490_0052.w.559870">Hi</w>
           <pc join="right" pos="PC" xml:id="c50490_0052.pc.pre.00231305" lemma="(">(</pc>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="slot" pos="NOU-C(number=sg)" resp="thomas" xml:id="c50490_0052.w.559875">slot</w>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c50490_0052.w.559876">enter</w>
           <w cert="1.0" lemma="zaligheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c50490_0052.w.559877">salicheiden</w>
-          <w cert="1.0" lemma="schrijn" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.50490.sense.8" xml:id="c50490_0052.w.559878">schrijn</w>
+          <w cert="1.0" lemma="schrijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c50490_0052.w.559878" lemmaRef="mnw.50490.sense.8">schrijn</w>
           <pc pos="PC" xml:id="c50490_0052.pc.floating.00231307" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c50490_0052.w.559880">mar</w>
           <w cert="1.0" lemma="toch" pos="ADV(type=reg)" resp="roland" xml:id="c50490_0052.w.559881">doch</w>

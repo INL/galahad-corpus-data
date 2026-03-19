@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69674" lemma="VUURCLOCKE" partition="train" sense-id="mnw.69674.sense.1" xml:id="c69674_0008">
-        <date atLeast="1373" atMost="1376" timeSpan="1350-1400" />
+      <cit xml:id="c69674_0008">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1376" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VUURCLOCKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69674.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69674</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2932">
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c69674_0008.w.1094000">Vor</w>
           <w cert="1.0" lemma="mos" pos="NOU-C(number=sg)" resp="roland" xml:id="c69674_0008.w.1094001">mos</w>
@@ -54,7 +67,7 @@
           </w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69674_0008.w.1094003">men</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c69674_0008.w.1094004">dat</w>
-          <w cert="1.0" lemma="vuurklokkenhuis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.69674.sense.1" xml:id="c69674_0008.w.1094005">vuerclocken-hues</w>
+          <w cert="1.0" lemma="vuurklokkenhuis" pos="NOU-C(number=sg)" resp="roland" xml:id="c69674_0008.w.1094005" lemmaRef="mnw.69674.sense.1">vuerclocken-hues</w>
           <w cert="1.0" lemma="daarboven" pos="ADV(type=pron)" resp="thomas" xml:id="c69674_0008.w.1094006">boven<join n="mw_675415" />
           </w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c69674_0008.w.1094007">mede</w>

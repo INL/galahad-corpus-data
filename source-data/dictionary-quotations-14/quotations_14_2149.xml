@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53558" lemma="SOT" partition="dev" sense-id="mnw.53558.sense.1" xml:id="c53558_0013">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c53558_0013">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SOT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53558.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53558</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2149">
           <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="c53558_0013.w.1192609">Noch</w>
           <w cert="1.0" lemma="geloven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c53558_0013.w.1192610">gheloven</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c53558_0013.w.1192611">die</w>
           <w cert="1.0" lemma="jood" pos="NOU-C(number=pl)" resp="roland" xml:id="c53558_0013.w.1192612">Joden</w>
-          <w cert="1.0" lemma="zot" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.53558.sense.1" xml:id="c53558_0013.w.1192613">zod</w>
+          <w cert="1.0" lemma="zot" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c53558_0013.w.1192613" lemmaRef="mnw.53558.sense.1">zod</w>
           <pc pos="PC" xml:id="c53558_0013.pc.floating.00494889" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c53558_0013.w.1192615">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c53558_0013.w.1192616">hem</w>

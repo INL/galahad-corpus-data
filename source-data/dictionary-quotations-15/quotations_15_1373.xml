@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51767" lemma="SIEDHEET" partition="train" sense-id="mnw.51767.sense.1" xml:id="c51767_0000">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c51767_0000">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SIEDHEET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51767.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51767</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1373">
           <w cert="1.0" lemma="Boudewijn" pos="NOU-P" resp="thomas" xml:id="c51767_0000.w.786360">Bouwin</w>
           <pc pos="PC" xml:id="c51767_0000.pc.floating.00326941" lemma="…">…</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c51767_0000.w.786369">heeten</w>
           <pc pos="PC" xml:id="c51767_0000.pc.post.00326943" lemma=")">)</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51767_0000.w.786370">ende</w>
-          <w cert="1.0" lemma="ziedheet" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.51767.sense.1" xml:id="c51767_0000.w.786371">zieheet</w>
+          <w cert="1.0" lemma="ziedheet" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c51767_0000.w.786371" lemmaRef="mnw.51767.sense.1">zieheet</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c51767_0000.w.786372">te</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c51767_0000.w.786373">makene</w>
           <pc pos="PC" xml:id="c51767_0000.pc.post.00326944" lemma=",">,</pc>

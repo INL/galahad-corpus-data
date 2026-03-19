@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M058617" lemma="REKENEN" modern-lemma="rekenen" partition="train" pos="VRB" sense-id="M058617.bet.111" xml:id="M058617.eg.113770">
-        <date atLeast="1567" atMost="1567" timeSpan="1550-1600" />
+      <cit xml:id="M058617.eg.113770">
+        <note>
+          <ab>
+            <date atLeast="1567" atMost="1567" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>REKENEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M058617.bet.111</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>rekenen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M058617</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.627">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.976646">Deze</w>
           <pc join="right" pos="PC" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.pre.00306952" lemma="(">(</pc>
@@ -67,7 +86,7 @@
           <w cert="1.0" lemma="prijzen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.976658">prijst</w>
           <pc pos="PC" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.post.00306956" lemma=",">,</pc>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.976659">wel</w>
-          <w cert="1.0" lemma="rekenen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="M058617.bet.111" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.976660">gerekent</w>
+          <w cert="1.0" lemma="rekenen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.976660" lemmaRef="M058617.bet.111">gerekent</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.976661">wesen</w>
           <pc pos="PC" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.post.00306957" lemma=",">,</pc>
         </q>

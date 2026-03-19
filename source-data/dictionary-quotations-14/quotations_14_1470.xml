@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36494" lemma="ONLANGE" partition="train" sense-id="mnw.36494.sense.4" xml:id="c36494_0030">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c36494_0030">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONLANGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36494.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36494</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1470">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c36494_0030.w.503301">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c36494_0030.w.503302">hi</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c36494_0030.w.503305">vor</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c36494_0030.w.503306">sine</w>
           <w cert="1.0" lemma="dood" pos="NOU-C(number=sg)" resp="roland" xml:id="c36494_0030.w.503307">doot</w>
-          <w cert="1.0" lemma="onlang" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.36494.sense.4" xml:id="c36494_0030.w.503308">onlanghe</w>
+          <w cert="1.0" lemma="onlang" pos="ADV(type=reg)" resp="thomas" xml:id="c36494_0030.w.503308" lemmaRef="mnw.36494.sense.4">onlanghe</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c36494_0030.w.503309">hem</w>
           <w cert="1.0" lemma="mergen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c36494_0030.w.503310">merghet</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c36494_0030.w.503311">met</w>

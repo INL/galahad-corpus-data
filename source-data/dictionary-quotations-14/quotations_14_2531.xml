@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62164" lemma="VERBIEDEN" partition="dev" sense-id="mnw.62164.sense.23" xml:id="c62164_0074">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c62164_0074">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERBIEDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62164.sense.23</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62164</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2531">
           <w cert="1.0" lemma="wijg" pos="NOU-C(number=sg)" resp="roland" xml:id="c62164_0074.w.1106170">Wijch</w>
-          <w cert="1.0" lemma="verbieden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.62164.sense.23" xml:id="c62164_0074.w.1106171">verboot</w>
+          <w cert="1.0" lemma="verbieden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c62164_0074.w.1106171" lemmaRef="mnw.62164.sense.23">verboot</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62164_0074.w.1106172">hi</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62164_0074.w.1106173">hem</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c62164_0074.w.1106174">met</w>

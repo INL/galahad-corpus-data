@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42172" lemma="PELSE" partition="train" sense-id="mnw.42172.sense.4" xml:id="c42172_0023">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c42172_0023">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PELSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42172.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42172</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1718">
           <w cert="1.0" lemma="Ferguut" pos="NOU-P" resp="roland" xml:id="c42172_0023.w.158389">Ferguut</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c42172_0023.w.158390">hem</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c42172_0023.w.158404">genomen</w>
           <pc pos="PC" xml:id="c42172_0023.pc.post.00060184" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42172_0023.w.158405">die</w>
-          <w cert="1.0" lemma="pels" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.42172.sense.4" xml:id="c42172_0023.w.158406">pelse</w>
+          <w cert="1.0" lemma="pels" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42172_0023.w.158406" lemmaRef="mnw.42172.sense.4">pelse</w>
           <w cert="1.0" lemma="mogen+er" pos="VRB(finiteness=fin,tense=past)+ADV(type=reg)" resp="thomas" xml:id="c42172_0023.w.158407">mochter</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c42172_0023.w.158408">wel</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="roland" xml:id="c42172_0023.w.158409">sijn</w>

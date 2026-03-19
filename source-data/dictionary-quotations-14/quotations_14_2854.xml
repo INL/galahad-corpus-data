@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68108" lemma="VORELEGGEN" partition="train" sense-id="mnw.68108.sense.1" xml:id="c68108_0000">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c68108_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VORELEGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68108.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68108</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2854">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c68108_0000.w.743575">Die</w>
           <w cert="1.0" lemma="reus" pos="NOU-C(number=sg)" resp="roland" xml:id="c68108_0000.w.743576">rese</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="schrijden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c68108_0000.w.743580">gescreden</w>
           <pc pos="PC" xml:id="c68108_0000.pc.floating.00297362" lemma="…,">…,</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68108_0000.w.743582">hi</w>
-          <w cert="1.0" lemma="voorleggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.68108.sense.1" xml:id="c68108_0000.w.743583">voorleide</w>
+          <w cert="1.0" lemma="voorleggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c68108_0000.w.743583" lemmaRef="mnw.68108.sense.1">voorleide</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68108_0000.w.743584">ons</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c68108_0000.w.743585">die</w>
           <w cert="1.0" lemma="straat" pos="NOU-C(number=sg)" resp="roland" xml:id="c68108_0000.w.743586">strate</w>

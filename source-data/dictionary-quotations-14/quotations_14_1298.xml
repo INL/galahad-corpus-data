@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31814" lemma="NARADICH" partition="train" sense-id="mnw.31814.sense.1" xml:id="c31814_0001">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c31814_0001">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NARADICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31814.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31814</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1298">
           <w cert="1.0" lemma="Huge" pos="NOU-P" resp="roland" xml:id="c31814_0001.w.1476591">Hughe</w>
           <w cert="1.0" lemma="Capet" pos="NOU-P" resp="roland" xml:id="c31814_0001.w.1476592">Capet</w>
           <pc pos="PC" xml:id="c31814_0001.pc.floating.00581388" lemma="..,">..,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c31814_0001.w.1476594">die</w>
-          <w cert="1.0" lemma="naradig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.31814.sense.1" xml:id="c31814_0001.w.1476595">naradech</w>
+          <w cert="1.0" lemma="naradig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c31814_0001.w.1476595" lemmaRef="mnw.31814.sense.1">naradech</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31814_0001.w.1476596">was</w>
           <pc pos="PC" xml:id="c31814_0001.pc.post.00581389" lemma=",">,</pc>
           <w cert="1.0" lemma="stout" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c31814_0001.w.1476597">stout</w>

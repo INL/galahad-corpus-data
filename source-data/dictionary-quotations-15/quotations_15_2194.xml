@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72544" lemma="WERKEN" partition="train" sense-id="mnw.72544.sense.39" xml:id="c72544_0301">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c72544_0301">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WERKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72544.sense.39</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72544</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2194">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c72544_0301.w.1688743">Als</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72544_0301.w.1688744">si</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c72544_0301.w.1688756">want</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72544_0301.w.1688757">si</w>
           <w cert="1.0" lemma="veel" pos="ADV(type=reg)" resp="thomas" xml:id="c72544_0301.w.1688758">veel</w>
-          <w cert="1.0" lemma="werken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.72544.sense.39" xml:id="c72544_0301.w.1688759">wercken</w>
+          <w cert="1.0" lemma="werken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c72544_0301.w.1688759" lemmaRef="mnw.72544.sense.39">wercken</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c72544_0301.w.1688760">conde</w>
           <pc pos="PC" xml:id="c72544_0301.pc.post.00670893" lemma=",">,</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c72544_0301.w.1688761">oor</w>
@@ -122,7 +135,7 @@
           </w>
           <w cert="1.0" lemma="zitten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c72544_0301.w.1688798">sitten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c72544_0301.w.1688799">ende</w>
-          <w cert="1.0" lemma="werken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.72544.sense.39" xml:id="c72544_0301.w.1688800">wrachte</w>
+          <w cert="1.0" lemma="werken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c72544_0301.w.1688800" lemmaRef="mnw.72544.sense.39">wrachte</w>
           <w cert="1.0" lemma="daarvan" pos="ADV(type=pron)" resp="thomas" xml:id="c72544_0301.w.1688801">daer<join n="mw_603442" />
           </w>
           <w cert="1.0" lemma="zoveel" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c72544_0301.w.1688802">sooveel</w>

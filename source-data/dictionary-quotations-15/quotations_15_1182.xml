@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46020" lemma="RENTE" partition="train" sense-id="mnw.46020.sense.13" xml:id="c46020_0051">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c46020_0051">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>RENTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46020.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46020</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1182">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c46020_0051.w.921574">Die</w>
           <w cert="1.0" lemma="achtertaal" pos="NOU-C(number=sg)" resp="roland" xml:id="c46020_0051.w.921575">achtertale</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="daarboven" pos="ADV(type=pron)" resp="thomas" xml:id="c46020_0051.w.921584">boven<join n="mw_634273" />
           </w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c46020_0051.w.921585">hebben</w>
-          <w cert="1.0" lemma="rente" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.46020.sense.13" xml:id="c46020_0051.w.921586">rente</w>
+          <w cert="1.0" lemma="rente" pos="NOU-C(number=sg)" resp="thomas" xml:id="c46020_0051.w.921586" lemmaRef="mnw.46020.sense.13">rente</w>
           <pc pos="PC" xml:id="c46020_0051.pc.floating.00361861" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c46020_0051.w.921588">ende</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c46020_0051.w.921589">ooc</w>

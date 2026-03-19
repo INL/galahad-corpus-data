@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22910" lemma="CONINCSTAVEL" partition="train" sense-id="mnw.22910.sense.3" xml:id="c22910_0018">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c22910_0018">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CONINCSTAVEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22910.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22910</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.903">
           <w cert="1.0" lemma="V." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c22910_0018.w.1227484">V</w>
           <pc pos="PC" xml:id="c22910_0018.pc.floating.00494602" lemma="…">…</pc>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c22910_0018.pc.floating.00494603" lemma="…">…</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c22910_0018.w.1227488">enz</w>
           <pc pos="PC" xml:id="c22910_0018.pc.post.00494604" lemma=".,">.,</pc>
-          <w cert="1.0" lemma="konstabel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.22910.sense.3" xml:id="c22910_0018.w.1227489">coningstavle</w>
+          <w cert="1.0" lemma="konstabel" pos="NOU-C(number=sg)" resp="roland" xml:id="c22910_0018.w.1227489" lemmaRef="mnw.22910.sense.3">coningstavle</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c22910_0018.w.1227490">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c22910_0018.w.1227491">den</w>
           <w cert="1.0" lemma="zelfschotter" pos="NOU-C(number=pl)" resp="roland" xml:id="c22910_0018.w.1227492">selfscotters</w>

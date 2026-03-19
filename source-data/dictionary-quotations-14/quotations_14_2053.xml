@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51115" lemma="SEGEVRI" partition="train" sense-id="mnw.51115.sense.1" xml:id="c51115_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c51115_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SEGEVRI</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51115.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51115</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2053">
           <w cert="1.0" lemma="gelukkig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c51115_0000.w.662445">Gheluckich</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51115_0000.w.662446">ende</w>
-          <w cert="1.0" lemma="zegevrij" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.51115.sense.1" xml:id="c51115_0000.w.662447">zegevri</w>
+          <w cert="1.0" lemma="zegevrij" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c51115_0000.w.662447" lemmaRef="mnw.51115.sense.1">zegevri</w>
           <pc pos="PC" xml:id="c51115_0000.pc.floating.00274179" lemma="…">…</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c51115_0000.w.662449">was</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c51115_0000.w.662450">hi</w>

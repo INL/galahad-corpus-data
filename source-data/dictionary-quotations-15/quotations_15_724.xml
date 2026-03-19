@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29150" lemma="MENKEN" partition="train" sense-id="mnw.29150.sense.16" xml:id="c29150_0038">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c29150_0038">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MENKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29150.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29150</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.724">
           <pc join="right" pos="PC" xml:id="c29150_0038.pc.pre.00376675" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c29150_0038.w.965494">Hi</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29150_0038.w.965496">den</w>
           <w cert="1.0" lemma="bisschop" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29150_0038.w.965497">bisscop</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c29150_0038.w.965498">sonder</w>
-          <w cert="1.0" lemma="minken" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.29150.sense.16" xml:id="c29150_0038.w.965499">mynken</w>
+          <w cert="1.0" lemma="minken" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29150_0038.w.965499" lemmaRef="mnw.29150.sense.16">mynken</w>
           <pc pos="PC" xml:id="c29150_0038.pc.floating.00376677" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c29150_0038.w.965501">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c29150_0038.w.965502">hi</w>

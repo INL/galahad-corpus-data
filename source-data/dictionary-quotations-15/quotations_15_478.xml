@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19139" lemma="INGEESTINGE" partition="train" sense-id="mnw.19139.sense.1" xml:id="c19139_0003">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c19139_0003">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>INGEESTINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19139.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19139</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.478">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c19139_0003.w.602384">So</w>
           <w cert="1.0" lemma="weten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c19139_0003.w.602385">weet</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c19139_0003.w.602395">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c19139_0003.w.602396">is</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c19139_0003.w.602397">sine</w>
-          <w cert="1.0" lemma="ingeesting" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.19139.sense.1" xml:id="c19139_0003.w.602398">ingheestinghe</w>
+          <w cert="1.0" lemma="ingeesting" pos="NOU-C(number=sg)" resp="roland" xml:id="c19139_0003.w.602398" lemmaRef="mnw.19139.sense.1">ingheestinghe</w>
           <pc pos="PC" xml:id="c19139_0003.pc.floating.00245849" lemma=",">,</pc>
         </q>
       </cit>

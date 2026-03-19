@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60546" lemma="UTELEGGEN" partition="train" sense-id="mnw.60546.sense.12" xml:id="c60546_0031">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c60546_0031">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>UTELEGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60546.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60546</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2460">
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c60546_0031.w.722368">Mede</w>
           <pc join="right" pos="PC" xml:id="c60546_0031.pc.pre.00293208" lemma="(">(</pc>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c60546_0031.w.722378">voor</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c60546_0031.w.722379">mijn</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c60546_0031.w.722380">here</w>
-          <w cert="1.0" lemma="uitleggen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.60546.sense.12" xml:id="c60546_0031.w.722381">uytgheleit</w>
+          <w cert="1.0" lemma="uitleggen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c60546_0031.w.722381" lemmaRef="mnw.60546.sense.12">uytgheleit</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c60546_0031.w.722382">had</w>
           <w cert="1.0" lemma="189" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c60546_0031.w.722383">189</w>
           <w cert="1.0" lemma="schild" pos="NOU-C(number=pl)" resp="roland" xml:id="c60546_0031.w.722384">scilde</w>

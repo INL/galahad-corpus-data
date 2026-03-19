@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64166" lemma="VERRADENISSE" partition="train" sense-id="mnw.64166.sense.6" xml:id="c64166_0036">
-        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c64166_0036">
+        <note>
+          <ab>
+            <date atLeast="1290" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERRADENISSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64166.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64166</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2669">
           <w cert="1.0" lemma="parlement" pos="NOU-C(number=sg)" resp="roland" xml:id="c64166_0036.w.1668186">Parlement</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c64166_0036.w.1668187">mocht</w>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c64166_0036.pc.floating.00665161" lemma=",">,</pc>
           <w cert="1.0" lemma="oorlog" pos="NOU-C(number=sg)" resp="roland" xml:id="c64166_0036.w.1668194">orloge</w>
           <pc pos="PC" xml:id="c64166_0036.pc.post.00665162" lemma=",">,</pc>
-          <w cert="1.0" lemma="verradenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.64166.sense.6" xml:id="c64166_0036.w.1668195">verranesse</w>
+          <w cert="1.0" lemma="verradenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c64166_0036.w.1668195" lemmaRef="mnw.64166.sense.6">verranesse</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64166_0036.w.1668196">ende</w>
           <w cert="1.0" lemma="laag" pos="NOU-C(number=sg)" resp="roland" xml:id="c64166_0036.w.1668197">lage</w>
           <pc pos="PC" xml:id="c64166_0036.pc.post.00665163" lemma=",">,</pc>

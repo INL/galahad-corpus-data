@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26759" lemma="LOIFERE" partition="train" sense-id="mnw.26759.sense.1" xml:id="c26759_0001">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c26759_0001">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LOIFERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26759.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26759</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.656">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c26759_0001.w.505940">Hi</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c26759_0001.w.505941">sloech</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c26759_0001.w.505942">sinen</w>
-          <w cert="1.0" lemma="luifer" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26759.sense.1" xml:id="c26759_0001.w.505943">loifre</w>
+          <w cert="1.0" lemma="luifer" pos="NOU-C(number=sg)" resp="roland" xml:id="c26759_0001.w.505943" lemmaRef="mnw.26759.sense.1">loifre</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c26759_0001.w.505944">met</w>
           <w cert="1.0" lemma="spoor" pos="NOU-C(number=pl)" resp="roland" xml:id="c26759_0001.w.505945">sporen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26759_0001.w.505946">ende</w>

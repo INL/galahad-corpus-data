@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42673" lemma="PILAREN" partition="train" sense-id="mnw.42673.sense.1" xml:id="c42673_0000">
-        <date atLeast="1432" atMost="1468" timeSpan="1450-1500" />
+      <cit xml:id="c42673_0000">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1468" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PILAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42673.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42673</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1092">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42673_0000.w.230996">Een</w>
           <w cert="1.0" lemma="huis" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42673_0000.w.230997">huus</w>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c42673_0000.pc.post.00089404" lemma=",">,</pc>
           <w cert="1.0" lemma="getralied" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c42673_0000.w.231005">ghetrailget</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42673_0000.w.231006">ende</w>
-          <w cert="1.0" lemma="gepilaard" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.42673.sense.1" xml:id="c42673_0000.w.231007">ghepilaert</w>
+          <w cert="1.0" lemma="gepilaard" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c42673_0000.w.231007" lemmaRef="mnw.42673.sense.1">ghepilaert</w>
           <pc pos="PC" xml:id="c42673_0000.pc.floating.00089405" lemma=",">,</pc>
         </q>
       </cit>

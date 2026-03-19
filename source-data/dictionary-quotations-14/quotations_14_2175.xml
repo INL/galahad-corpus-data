@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54106" lemma="SPISE" partition="train" sense-id="mnw.54106.sense.1" xml:id="c54106_0015">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c54106_0015">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SPISE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54106.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54106</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2175">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c54106_0015.w.1304310">Dat</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c54106_0015.w.1304311">God</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="bedie" pos="ADV(type=reg)" resp="thomas" xml:id="c54106_0015.w.1304319">bedi</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c54106_0015.w.1304320">dat</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c54106_0015.w.1304321">sine</w>
-          <w cert="1.0" lemma="spijs" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.54106.sense.1" xml:id="c54106_0015.w.1304322">spise</w>
+          <w cert="1.0" lemma="spijs" pos="NOU-C(number=sg)" resp="roland" xml:id="c54106_0015.w.1304322" lemmaRef="mnw.54106.sense.1">spise</w>
           <pc join="right" pos="PC" xml:id="c54106_0015.pc.pre.00541676" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c54106_0015.w.1304323">voedsel</w>
           <pc pos="PC" xml:id="c54106_0015.pc.post.00541677" lemma=")">)</pc>

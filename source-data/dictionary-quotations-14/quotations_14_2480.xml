@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61176" lemma="VAERT" partition="train" sense-id="mnw.61176.sense.22" xml:id="c61176_0217">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c61176_0217">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61176.sense.22</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61176</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2480">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61176_0217.w.869977">Die</w>
           <w cert="1.0" lemma="vogel" pos="NOU-C(number=sg)" resp="roland" xml:id="c61176_0217.w.869978">voghel</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c61176_0217.w.869985">nature</w>
           <w cert="1.0" lemma="wijzen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c61176_0217.w.869986">wijsde</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61176_0217.w.869987">die</w>
-          <w cert="1.0" lemma="vaart" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.61176.sense.22" xml:id="c61176_0217.w.869988">vaert</w>
+          <w cert="1.0" lemma="vaart" pos="NOU-C(number=sg)" resp="thomas" xml:id="c61176_0217.w.869988" lemmaRef="mnw.61176.sense.22">vaert</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c61176_0217.w.869989">ende</w>
           <w cert="1.0" lemma="vliegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c61176_0217.w.869990">vlooch</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61176_0217.w.869991">ter</w>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17241" lemma="HIERMEDE" partition="train" sense-id="mnw.17241.sense.1" xml:id="c17241_0000">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c17241_0000">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HIERMEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17241.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17241</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.724">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c17241_0000.w.300649">Nu</w>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c17241_0000.w.300650">laet</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c17241_0000.w.300651">u</w>
           <w cert="1.0" lemma="genoegen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c17241_0000.w.300652">ghenoghen</w>
-          <w cert="1.0" lemma="hiermede" pos="ADV(type=pron)" resp="thomas" sense-id="mnw.17241.sense.1" xml:id="c17241_0000.w.300653">hiermede</w>
+          <w cert="1.0" lemma="hiermede" pos="ADV(type=pron)" resp="thomas" xml:id="c17241_0000.w.300653" lemmaRef="mnw.17241.sense.1">hiermede</w>
           <pc pos="PC" xml:id="c17241_0000.pc.floating.00123609" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c17241_0000.w.300655">dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c17241_0000.w.300656">ic</w>

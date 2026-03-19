@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06835" lemma="DOCH" partition="train" sense-id="mnw.06835.sense.6" xml:id="c06835_0036">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c06835_0036">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DOCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06835.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06835</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.300">
           <w cert="1.0" lemma="hebben+hij+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c06835_0036.w.166140">Haddine</w>
           <w cert="1.0" lemma="raken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c06835_0036.w.166141">gheraect</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="zeer" pos="ADV(type=reg)" resp="roland" xml:id="c06835_0036.w.166146">sere</w>
           <w cert="1.0" lemma="mismaken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c06835_0036.w.166147">mesmaect</w>
           <pc pos="PC" xml:id="c06835_0036.pc.post.00070012" lemma=",">,</pc>
-          <w cert="1.0" lemma="doch" pos="CONJ(type=coor)" resp="thomas" sense-id="mnw.06835.sense.6" xml:id="c06835_0036.w.166148">doch</w>
+          <w cert="1.0" lemma="doch" pos="CONJ(type=coor)" resp="thomas" xml:id="c06835_0036.w.166148" lemmaRef="mnw.06835.sense.6">doch</w>
           <pc join="right" pos="PC" xml:id="c06835_0036.pc.pre.00070013" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06835_0036.w.166149">dit</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06835_0036.w.166150">deed</w>

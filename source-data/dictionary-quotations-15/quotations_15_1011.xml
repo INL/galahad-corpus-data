@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39802" lemma="OPWAERT" partition="train" sense-id="mnw.39802.sense.1" xml:id="c39802_0011">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c39802_0011">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OPWAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39802.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39802</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1011">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c39802_0011.w.1235777">Si</w>
           <w cert="1.0" lemma="roepen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c39802_0011.w.1235778">riepen</w>
-          <w cert="1.0" lemma="opwaarts" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.39802.sense.1" xml:id="c39802_0011.w.1235779">opwerts</w>
+          <w cert="1.0" lemma="opwaarts" pos="ADV(type=reg)" resp="thomas" xml:id="c39802_0011.w.1235779" lemmaRef="mnw.39802.sense.1">opwerts</w>
           <w cert="1.0" lemma="overluid" pos="ADV(type=reg)" resp="thomas" xml:id="c39802_0011.w.1235780">overluut</w>
           <pc pos="PC" xml:id="c39802_0011.pc.post.00492857" lemma=":">:</pc>
           <w cert="1.0" lemma="werpen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c39802_0011.w.1235781">worpt</w>

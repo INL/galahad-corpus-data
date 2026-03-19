@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68230" lemma="VOREOUDEREN" partition="train" sense-id="mnw.68230.sense.1" xml:id="c68230_0000">
-        <date atLeast="1459" atMost="1459" timeSpan="1450-1500" />
+      <cit xml:id="c68230_0000">
+        <note>
+          <ab>
+            <date atLeast="1459" atMost="1459" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VOREOUDEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68230.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68230</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2027">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c68230_0000.w.771278">Mit</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c68230_0000.w.771279">dat</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68230_0000.w.771286">ons</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c68230_0000.w.771287">of</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c68230_0000.w.771288">onse</w>
-          <w cert="1.0" lemma="voorouder" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.68230.sense.1" xml:id="c68230_0000.w.771289">vorouderen</w>
+          <w cert="1.0" lemma="voorouder" pos="NOU-C(number=pl)" resp="roland" xml:id="c68230_0000.w.771289" lemmaRef="mnw.68230.sense.1">vorouderen</w>
           <w cert="1.0" lemma="verpanden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c68230_0000.w.771290">verpant</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c68230_0000.w.771291">waere</w>
           <pc pos="PC" xml:id="c68230_0000.pc.post.00308719" lemma=",">,</pc>

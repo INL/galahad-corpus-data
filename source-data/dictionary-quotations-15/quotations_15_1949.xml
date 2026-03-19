@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65828" lemma="VESTROC" partition="train" sense-id="mnw.65828.sense.1" xml:id="c65828_0002">
-        <date atLeast="1444" atMost="1444" timeSpan="1400-1450" />
+      <cit xml:id="c65828_0002">
+        <note>
+          <ab>
+            <date atLeast="1444" atMost="1444" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VESTROC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65828.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65828</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1949">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c65828_0002.w.298821">Een</w>
           <w cert="1.0" lemma="zwart" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c65828_0002.w.298822">zwart</w>
           <w cert="1.0" lemma="eenwissel" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c65828_0002.w.298823">eenwissel</w>
-          <w cert="1.0" lemma="vestrok" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.65828.sense.1" xml:id="c65828_0002.w.298824">vestrock</w>
+          <w cert="1.0" lemma="vestrok" pos="NOU-C(number=sg)" resp="thomas" xml:id="c65828_0002.w.298824" lemmaRef="mnw.65828.sense.1">vestrock</w>
           <pc pos="PC" xml:id="c65828_0002.pc.floating.00117035" lemma=",">,</pc>
           <w cert="1.0" lemma="Hein" pos="NOU-P" resp="roland" xml:id="c65828_0002.w.298826">Heyn</w>
           <w cert="1.0" lemma="kamerling" pos="NOU-C(number=sg)" resp="roland" xml:id="c65828_0002.w.298827">camerlincx</w>

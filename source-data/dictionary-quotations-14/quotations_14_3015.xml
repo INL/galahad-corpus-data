@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71353" lemma="WEDERMOET" partition="train" sense-id="mnw.71353.sense.3" xml:id="c71353_0022">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c71353_0022">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WEDERMOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71353.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71353</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3015">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c71353_0022.w.1439879">Die</w>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c71353_0022.w.1439880">dit</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c71353_0022.w.1439894">in</w>
           <w cert="1.0" lemma="schande" pos="NOU-C(number=sg)" resp="roland" xml:id="c71353_0022.w.1439895">scanden</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c71353_0022.w.1439896">in</w>
-          <w cert="1.0" lemma="wedermoed" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.71353.sense.3" xml:id="c71353_0022.w.1439897">wedermoede</w>
+          <w cert="1.0" lemma="wedermoed" pos="NOU-C(number=sg)" resp="roland" xml:id="c71353_0022.w.1439897" lemmaRef="mnw.71353.sense.3">wedermoede</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c71353_0022.w.1439898">omme</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c71353_0022.w.1439899">minne</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c71353_0022.w.1439900">al</w>

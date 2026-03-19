@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60480" lemma="UTEJAGEN" partition="train" sense-id="mnw.60480.sense.2" xml:id="c60480_0006">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c60480_0006">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>UTEJAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60480.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60480</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1685">
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c60480_0006.w.707725">Dan</w>
-          <w cert="1.0" lemma="jagen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.60480.sense.2" xml:id="c60480_0006.w.707726">jagen</w>
+          <w cert="1.0" lemma="jagen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c60480_0006.w.707726" lemmaRef="mnw.60480.sense.2">jagen</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60480_0006.w.707727">si</w>
-          <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.60480.sense.2" xml:id="c60480_0006.w.707728">ute</w>
+          <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" xml:id="c60480_0006.w.707728" lemmaRef="mnw.60480.sense.2">ute</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c60480_0006.w.707729">haerre</w>
           <w cert="1.0" lemma="vaart" pos="NOU-C(number=sg)" resp="roland" xml:id="c60480_0006.w.707730">vaerde</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60480_0006.w.707731">die</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39174" lemma="OOTMOEDICH" partition="train" sense-id="mnw.39174.sense.9" xml:id="c39174_0048">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c39174_0048">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OOTMOEDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39174.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39174</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1592">
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="roland" xml:id="c39174_0048.w.1054066">Waer</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c39174_0048.w.1054067">ic</w>
@@ -70,7 +83,7 @@
           <pc pos="PC" xml:id="c39174_0048.pc.floating.00422424" lemma="…">…</pc>
           <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c39174_0048.w.1054080">dats</w>
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c39174_0048.w.1054081">onder</w>
-          <w cert="1.0" lemma="dat+ootmoedig" pos="PD(type=d-p,subtype=art,position=prenom)+AA(degree=sup,position=prenom)" resp="thomas" sense-id="mnw.39174.sense.9" xml:id="c39174_0048.w.1054082">dootmodechste</w>
+          <w cert="1.0" lemma="dat+ootmoedig" pos="PD(type=d-p,subtype=art,position=prenom)+AA(degree=sup,position=prenom)" resp="thomas" xml:id="c39174_0048.w.1054082" lemmaRef="mnw.39174.sense.9">dootmodechste</w>
           <w cert="1.0" lemma="kleed" pos="NOU-C(number=sg)" resp="roland" xml:id="c39174_0048.w.1054083">cleet</w>
           <pc pos="PC" xml:id="c39174_0048.pc.post.00422425" lemma=",">,</pc>
         </q>

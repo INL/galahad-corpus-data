@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M076548" lemma="VERKWANTEN" modern-lemma="verkwanten" partition="train" pos="VRB" sense-id="M076548.bet.1" xml:id="M076548.eg.8068">
-        <date atLeast="1590" atMost="1590" timeSpan="1550-1600" />
+      <cit xml:id="M076548.eg.8068">
+        <note>
+          <ab>
+            <date atLeast="1590" atMost="1590" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>VERKWANTEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M076548.bet.1</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>verkwanten</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M076548</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1149">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1130852">Dat</w>
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1130853">wat</w>
@@ -62,7 +81,7 @@
           <pc join="right" pos="PC" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.pc.pre.00360404" lemma="(">(</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1130860">die</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1130861">men</w>
-          <w cert="1.0" lemma="verkwanten" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="M076548.bet.1" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1130862">verquant</w>
+          <w cert="1.0" lemma="verkwanten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1130862" lemmaRef="M076548.bet.1">verquant</w>
           <w cert="1.0" lemma="heten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1130863">heit</w>
           <w cert="1.0" lemma="niemendal" pos="NOU-C(number=pl)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1130864">niemendallen</w>
           <pc pos="PC" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.pc.post.00360405" lemma=")">)</pc>

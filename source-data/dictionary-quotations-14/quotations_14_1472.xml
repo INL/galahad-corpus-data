@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36582" lemma="ONMARE" partition="train" sense-id="mnw.36582.sense.11" xml:id="c36582_0023">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c36582_0023">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONMARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36582.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36582</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1472">
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c36582_0023.w.520701">Al</w>
           <w cert="1.0" lemma="onversaagd" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c36582_0023.w.520702">onversaget</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c36582_0023.w.520712">die</w>
           <w cert="1.0" lemma="god" pos="NOU-C(number=pl)" resp="roland" xml:id="c36582_0023.w.520713">gode</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c36582_0023.w.520714">maecte</w>
-          <w cert="1.0" lemma="onmaar" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.36582.sense.11" xml:id="c36582_0023.w.520715">onmare</w>
+          <w cert="1.0" lemma="onmaar" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c36582_0023.w.520715" lemmaRef="mnw.36582.sense.11">onmare</w>
           <pc join="right" pos="PC" xml:id="c36582_0023.pc.pre.00212635" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36582_0023.w.520716">zijne</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36582_0023.w.520717">verachting</w>

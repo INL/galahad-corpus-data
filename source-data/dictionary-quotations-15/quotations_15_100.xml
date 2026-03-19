@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03446" lemma="BEROEMER" partition="train" sense-id="mnw.03446.sense.1" xml:id="c03446_0000">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c03446_0000">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BEROEMER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03446.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03446</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.100">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c03446_0000.w.681283">Een</w>
-          <w cert="1.0" lemma="beroemer" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.03446.sense.1" xml:id="c03446_0000.w.681284">beroemer</w>
+          <w cert="1.0" lemma="beroemer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03446_0000.w.681284" lemmaRef="mnw.03446.sense.1">beroemer</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c03446_0000.w.681285">is</w>
           <w cert="1.0" lemma="recht" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c03446_0000.w.681286">recht</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c03446_0000.w.681287">als</w>

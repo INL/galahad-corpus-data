@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36747" lemma="ONPARTILIJC" partition="train" sense-id="mnw.36747.sense.1" xml:id="c36747_0002">
-        <date atLeast="1489" atMost="1489" timeSpan="1450-1500" />
+      <cit xml:id="c36747_0002">
+        <note>
+          <ab>
+            <date atLeast="1489" atMost="1489" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONPARTILIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36747.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36747</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.916">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36747_0002.w.551864">Die</w>
           <w cert="1.0" lemma="dijkgraaf" pos="NOU-C(number=sg)" resp="roland" xml:id="c36747_0002.w.551865">dijckgreve</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c36747_0002.w.551875">to<join n="mw_725512" />
           </w>
           <w cert="1.0" lemma="kiezen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c36747_0002.w.551876">kiesen</w>
-          <w cert="1.0" lemma="onpartijlijk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.36747.sense.1" xml:id="c36747_0002.w.551877">onpartigelick</w>
+          <w cert="1.0" lemma="onpartijlijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c36747_0002.w.551877" lemmaRef="mnw.36747.sense.1">onpartigelick</w>
           <pc pos="PC" xml:id="c36747_0002.pc.floating.00225177" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c36747_0002.w.551879">die</w>
           <w cert="1.0" lemma="daaraan" pos="ADV(type=pron)" resp="thomas" xml:id="c36747_0002.w.551880">dair<join n="mw_498606" />

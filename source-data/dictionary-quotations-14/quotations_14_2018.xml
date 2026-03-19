@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50012" lemma="SCHONEN" partition="test" sense-id="mnw.50012.sense.8" xml:id="c50012_0010">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c50012_0010">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHONEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50012.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50012</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2018">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c50012_0010.w.465286">Van</w>
           <w cert="1.0" lemma="schaamte" pos="NOU-C(number=sg)" resp="roland" xml:id="c50012_0010.w.465287">scaemte</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c50012_0010.w.465289">hi</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c50012_0010.w.465290">een</w>
           <w cert="1.0" lemma="deel" pos="NOU-C(number=sg)" resp="roland" xml:id="c50012_0010.w.465291">deel</w>
-          <w cert="1.0" lemma="schonen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.50012.sense.8" xml:id="c50012_0010.w.465292">ghescoont</w>
+          <w cert="1.0" lemma="schonen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c50012_0010.w.465292" lemmaRef="mnw.50012.sense.8">ghescoont</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50012_0010.w.465293">ende</w>
           <w cert="1.0" lemma="te" pos="ADV(type=reg)" resp="thomas" xml:id="c50012_0010.w.465294">te</w>
           <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" xml:id="c50012_0010.w.465295">bet</w>

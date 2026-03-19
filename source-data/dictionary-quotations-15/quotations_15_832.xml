@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33013" lemma="NOTE" partition="train" sense-id="mnw.33013.sense.1" xml:id="c33013_0001">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c33013_0001">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NOTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33013.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33013</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.832">
           <pc pos="PC" xml:id="c33013_0001.pc.floating.00687016" lemma="—">—</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33013_0001.w.1737153">Si</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c33013_0001.w.1737172">te</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c33013_0001.w.1737173">makene</w>
           <w cert="1.0" lemma="lang" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c33013_0001.w.1737174">langhe</w>
-          <w cert="1.0" lemma="noot" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.33013.sense.1" xml:id="c33013_0001.w.1737175">noten</w>
+          <w cert="1.0" lemma="noot" pos="NOU-C(number=pl)" resp="roland" xml:id="c33013_0001.w.1737175" lemmaRef="mnw.33013.sense.1">noten</w>
           <pc join="right" pos="PC" xml:id="c33013_0001.pc.pre.00687020" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c33013_0001.w.1737176">in</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c33013_0001.w.1737177">korte</w>

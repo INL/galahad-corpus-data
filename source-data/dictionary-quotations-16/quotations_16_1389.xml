@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M080109" lemma="VIGEEREN" modern-lemma="vigeren" partition="train" pos="VRB" sense-id="M080109.bet.2" xml:id="M080109.eg.8653">
-        <date atLeast="1561" atMost="1561" timeSpan="1550-1600" />
+      <cit xml:id="M080109.eg.8653">
+        <note>
+          <ab>
+            <date atLeast="1561" atMost="1561" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>VIGEEREN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M080109.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>vigeren</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M080109</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1389">
           <w cert="1.0" lemma="o" pos="INT" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1033269">O</w>
           <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1033270">werck</w>
@@ -69,7 +88,7 @@
           <w cert="1.0" lemma="boven" pos="ADP(type=pre)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1033285">bouen</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1033286">al</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1033287">dat</w>
-          <w cert="1.0" lemma="vigeren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="M080109.bet.2" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1033288">vigeert</w>
+          <w cert="1.0" lemma="vigeren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1033288" lemmaRef="M080109.bet.2">vigeert</w>
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00335612" lemma=",">,</pc>
         </q>
       </cit>

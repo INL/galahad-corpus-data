@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56104" lemma="STUERMAN" partition="train" sense-id="mnw.56104.sense.1" xml:id="c56104_0012">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c56104_0012">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STUERMAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56104.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56104</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2268">
           <w cert="1.0" lemma="dat+schepeltje" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c56104_0012.w.1779135">Tscepelkin</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c56104_0012.w.1779136">es</w>
@@ -56,7 +69,7 @@
           </w>
           <pc pos="PC" xml:id="c56104_0012.pc.post.00734295" lemma=",">,</pc>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56104_0012.w.1779139">entie</w>
-          <w cert="1.0" lemma="stuurman" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.56104.sense.1" xml:id="c56104_0012.w.1779140">stierman</w>
+          <w cert="1.0" lemma="stuurman" pos="NOU-C(number=sg)" resp="roland" xml:id="c56104_0012.w.1779140" lemmaRef="mnw.56104.sense.1">stierman</w>
           <w cert="1.0" lemma="zwemmen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c56104_0012.w.1779141">zwam</w>
           <w cert="1.0" lemma="daan" pos="ADV(type=reg)" resp="roland" xml:id="c56104_0012.w.1779142">dane</w>
           <pc pos="PC" xml:id="c56104_0012.pc.post.00734296" lemma=",">,</pc>

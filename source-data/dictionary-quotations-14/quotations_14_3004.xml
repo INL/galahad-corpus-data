@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71034" lemma="WEDDE" partition="dev" sense-id="mnw.71034.sense.13" xml:id="c71034_0069">
-        <date atLeast="1343" atMost="1344" timeSpan="1300-1350" />
+      <cit xml:id="c71034_0069">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1344" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WEDDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71034.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71034</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3004">
           <pc join="right" pos="PC" xml:id="c71034_0069.pc.pre.00555903" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c71034_0069.w.1388126">Geg</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="kwijten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c71034_0069.w.1388133">quiten</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c71034_0069.w.1388134">die</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c71034_0069.w.1388135">te</w>
-          <w cert="1.0" lemma="wedde" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.71034.sense.13" xml:id="c71034_0069.w.1388136">wets</w>
+          <w cert="1.0" lemma="wedde" pos="NOU-C(number=sg)" resp="roland" xml:id="c71034_0069.w.1388136" lemmaRef="mnw.71034.sense.13">wets</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c71034_0069.w.1388137">waren</w>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c71034_0069.w.1388138">over</w>
           <w cert="1.0" lemma="dat+maakgeld" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c71034_0069.w.1388139">tmaecgelt</w>

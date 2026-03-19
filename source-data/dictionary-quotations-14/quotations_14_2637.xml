@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63542" lemma="VERLIESEN" partition="train" sense-id="mnw.63542.sense.41" xml:id="c63542_0215">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c63542_0215">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERLIESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63542.sense.41</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63542</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2637">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c63542_0215.w.1512528">Die</w>
           <w cert="1.0" lemma="twaalfste" pos="NUM(type=ord,position=prenom,representation=let)" resp="roland" xml:id="c63542_0215.w.1512529">twelfste</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63542_0215.w.1512538">geloof</w>
           <pc pos="PC" xml:id="c63542_0215.pc.post.00604255" lemma=")">)</pc>
           <w cert="1.0" lemma="schandelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c63542_0215.w.1512539">scandelec</w>
-          <w cert="1.0" lemma="verliezen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.63542.sense.41" xml:id="c63542_0215.w.1512540">verloren</w>
+          <w cert="1.0" lemma="verliezen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c63542_0215.w.1512540" lemmaRef="mnw.63542.sense.41">verloren</w>
           <pc pos="PC" xml:id="c63542_0215.pc.floating.00604256" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c63542_0215.w.1512542">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63542_0215.w.1512543">was</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39062" lemma="OOR" partition="train" sense-id="mnw.39062.sense.3" xml:id="c39062_0028">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c39062_0028">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OOR</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39062.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39062</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1585">
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="roland" xml:id="c39062_0028.w.1041201">Vader</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c39062_0028.w.1041202">no</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c39062_0028.w.1041207">si</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c39062_0028.w.1041208">zullen</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c39062_0028.w.1041209">ander</w>
-          <w cert="1.0" lemma="oir" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.39062.sense.3" xml:id="c39062_0028.w.1041210">oor</w>
+          <w cert="1.0" lemma="oir" pos="NOU-C(number=sg)" resp="roland" xml:id="c39062_0028.w.1041210" lemmaRef="mnw.39062.sense.3">oor</w>
           <w cert="1.0" lemma="belopen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c39062_0028.w.1041211">belopen</w>
           <pc pos="PC" xml:id="c39062_0028.pc.post.00416864" lemma=",">,</pc>
         </q>

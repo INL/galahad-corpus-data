@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53898" lemma="SPELLIJCHEIT" partition="train" sense-id="mnw.53898.sense.2" xml:id="c53898_0000">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c53898_0000">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SPELLIJCHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53898.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53898</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1461">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c53898_0000.w.1268405">In</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c53898_0000.w.1268406">sine</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c53898_0000.w.1268410">mede</w>
           <w cert="1.0" lemma="dikwijl" pos="ADV(type=reg)" resp="thomas" xml:id="c53898_0000.w.1268411">dicwile</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c53898_0000.w.1268412">grote</w>
-          <w cert="1.0" lemma="spellijkheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53898.sense.2" xml:id="c53898_0000.w.1268413">spellechede</w>
+          <w cert="1.0" lemma="spellijkheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c53898_0000.w.1268413" lemmaRef="mnw.53898.sense.2">spellechede</w>
           <pc pos="PC" xml:id="c53898_0000.pc.floating.00526446" lemma=",">,</pc>
           <w cert="1.0" lemma="daarom" pos="ADV(type=pron)" resp="thomas" xml:id="c53898_0000.w.1268415">daer<join n="mw_989602" />
           </w>

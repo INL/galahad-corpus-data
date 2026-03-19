@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33177" lemma="OEFENINGE" partition="train" sense-id="mnw.33177.sense.2" xml:id="c33177_0004">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c33177_0004">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OEFENINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33177.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33177</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1371">
           <w cert="1.0" lemma="al+te" pos="ADV(type=reg)+ADV(type=reg)" resp="thomas" xml:id="c33177_0004.w.10263">Alte</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c33177_0004.w.10264">groot</w>
-          <w cert="1.0" lemma="oefening" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.33177.sense.2" xml:id="c33177_0004.w.10265">oefninghen</w>
+          <w cert="1.0" lemma="oefening" pos="NOU-C(number=sg)" resp="roland" xml:id="c33177_0004.w.10265" lemmaRef="mnw.33177.sense.2">oefninghen</w>
           <pc join="right" pos="PC" xml:id="c33177_0004.pc.pre.00004468" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c33177_0004.w.10266">varr.</w>
           <w cert="1.0" lemma="oefening" pos="NOU-C(number=sg)" resp="thomas" xml:id="c33177_0004.w.10267">oufeninghe</w>

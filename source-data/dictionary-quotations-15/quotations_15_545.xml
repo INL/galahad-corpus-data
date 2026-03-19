@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22108" lemma="CLOPPEN" partition="train" sense-id="mnw.22108.sense.2" xml:id="c22108_0007">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c22108_0007">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CLOPPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22108.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22108</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.545">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22108_0007.w.1093572">Ende</w>
           <pc join="right" pos="PC" xml:id="c22108_0007.pc.pre.00441432" lemma="(">(</pc>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="deur" pos="NOU-C(number=sg)" resp="roland" xml:id="c22108_0007.w.1093583">doorre</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c22108_0007.w.1093584">des</w>
           <w cert="1.0" lemma="hemel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c22108_0007.w.1093585">hemels</w>
-          <w cert="1.0" lemma="kloppen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.22108.sense.2" xml:id="c22108_0007.w.1093586">cloppeste</w>
+          <w cert="1.0" lemma="kloppen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c22108_0007.w.1093586" lemmaRef="mnw.22108.sense.2">cloppeste</w>
           <pc pos="PC" xml:id="c22108_0007.pc.floating.00441437" lemma=",">,</pc>
         </q>
       </cit>

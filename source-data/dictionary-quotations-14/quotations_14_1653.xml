@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40327" lemma="OVERBEEN" partition="train" sense-id="mnw.40327.sense.1" xml:id="c40327_0000">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c40327_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OVERBEEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40327.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40327</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1653">
           <w cert="1.0" lemma="dit+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c40327_0000.w.1368654">Dits</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c40327_0000.w.1368655">van</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c40327_0000.w.1368660">dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40327_0000.w.1368661">men</w>
           <w cert="1.0" lemma="heten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c40327_0000.w.1368662">heet</w>
-          <w cert="1.0" lemma="overbeen" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.40327.sense.1" xml:id="c40327_0000.w.1368663">overbene</w>
+          <w cert="1.0" lemma="overbeen" pos="NOU-C(number=pl)" resp="roland" xml:id="c40327_0000.w.1368663" lemmaRef="mnw.40327.sense.1">overbene</w>
           <pc pos="PC" xml:id="c40327_0000.pc.floating.00545701" lemma=",">,</pc>
         </q>
       </cit>

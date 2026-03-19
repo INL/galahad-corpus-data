@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59275" lemma="TRECKEN" partition="train" sense-id="mnw.59275.sense.49" xml:id="c59275_0173">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c59275_0173">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TRECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59275.sense.49</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59275</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1654">
           <pc join="right" pos="PC" xml:id="c59275_0173.pc.pre.00204714" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="thomas" xml:id="c59275_0173.w.505591">Dat</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="ziel" pos="NOU-C(number=pl)" resp="roland" xml:id="c59275_0173.w.505596">zielen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c59275_0173.w.505597">te</w>
           <w cert="1.0" lemma="zonde" pos="NOU-C(number=pl)" resp="thomas" xml:id="c59275_0173.w.505598">zonden</w>
-          <w cert="1.0" lemma="trekken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.59275.sense.49" xml:id="c59275_0173.w.505599">trecte</w>
+          <w cert="1.0" lemma="trekken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c59275_0173.w.505599" lemmaRef="mnw.59275.sense.49">trecte</w>
           <w cert="1.0" lemma="meer" pos="ADV(type=reg)" resp="thomas" xml:id="c59275_0173.w.505600">meer</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c59275_0173.w.505601">dan</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c59275_0173.w.505602">si</w>

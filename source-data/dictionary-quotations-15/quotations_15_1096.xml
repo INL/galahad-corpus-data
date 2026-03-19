@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42773" lemma="PINTSEEL" partition="train" sense-id="mnw.42773.sense.1" xml:id="c42773_0004">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c42773_0004">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PINTSEEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42773.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42773</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1096">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c42773_0004.w.254937">Van</w>
           <w cert="1.0" lemma="zeker" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c42773_0004.w.254938">zekeren</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42773_0004.w.254946">ende</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c42773_0004.w.254947">andren</w>
           <w cert="1.0" lemma="klein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c42773_0004.w.254948">cleenen</w>
-          <w cert="1.0" lemma="pintseel" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.42773.sense.1" xml:id="c42773_0004.w.254949">pintseelen</w>
+          <w cert="1.0" lemma="pintseel" pos="NOU-C(number=pl)" resp="roland" xml:id="c42773_0004.w.254949" lemmaRef="mnw.42773.sense.1">pintseelen</w>
           <pc pos="PC" xml:id="c42773_0004.pc.floating.00098838" lemma=",">,</pc>
           <w cert="1.0" lemma="kopen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c42773_0004.w.254951">ghecocht</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c42773_0004.w.254952">bi</w>

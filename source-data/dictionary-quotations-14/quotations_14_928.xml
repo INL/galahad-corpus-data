@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23735" lemma="CRANC" partition="test" sense-id="mnw.23735.sense.21" xml:id="c23735_0150">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c23735_0150">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CRANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23735.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23735</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.928">
           <w cert="1.0" lemma="menig" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c23735_0150.w.1402849">Meneg</w>
           <w cert="1.0" lemma="arbeiden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c23735_0150.w.1402850">arbeit</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c23735_0150.w.1402851">arbeidt</w>
           <pc pos="PC" xml:id="c23735_0150.pc.post.00563600" lemma=")">)</pc>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c23735_0150.w.1402852">te</w>
-          <w cert="1.0" lemma="krank" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.23735.sense.21" xml:id="c23735_0150.w.1402853">crancken</w>
+          <w cert="1.0" lemma="krank" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c23735_0150.w.1402853" lemmaRef="mnw.23735.sense.21">crancken</w>
           <w cert="1.0" lemma="spoed" pos="NOU-C(number=sg)" resp="roland" xml:id="c23735_0150.w.1402854">spude</w>
           <pc pos="PC" xml:id="c23735_0150.pc.post.00563601" lemma=",">,</pc>
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c23735_0150.w.1402855">ombe<join n="mw_890253" />

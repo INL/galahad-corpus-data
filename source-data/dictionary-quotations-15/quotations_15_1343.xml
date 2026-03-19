@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50757" lemma="SCHUTTEN" partition="train" sense-id="mnw.50757.sense.2" xml:id="c50757_0007">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c50757_0007">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHUTTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50757.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50757</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1343">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c50757_0007.w.601213">Waert</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c50757_0007.w.601214">dat</w>
@@ -80,7 +93,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c50757_0007.w.601233">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c50757_0007.w.601234">der</w>
           <w cert="1.0" lemma="straat" pos="NOU-C(number=sg)" resp="roland" xml:id="c50757_0007.w.601235">straeten</w>
-          <w cert="1.0" lemma="schutten" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.50757.sense.2" xml:id="c50757_0007.w.601236">geschut</w>
+          <w cert="1.0" lemma="schutten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c50757_0007.w.601236" lemmaRef="mnw.50757.sense.2">geschut</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c50757_0007.w.601237">waere</w>
           <pc pos="PC" xml:id="c50757_0007.pc.post.00248575" lemma=",">,</pc>
           <pc pos="PC" xml:id="c50757_0007.pc.floating.00248576" lemma="…">…</pc>

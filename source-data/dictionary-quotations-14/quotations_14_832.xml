@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21002" lemma="KEISERCRONE" partition="train" sense-id="mnw.21002.sense.1" xml:id="c21002_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c21002_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KEISERCRONE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21002.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21002</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.832">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c21002_0000.w.882867">Om</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c21002_0000.w.882868">die</w>
-          <w cert="1.0" lemma="keizerskroon" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21002.sense.1" xml:id="c21002_0000.w.882869">keysercrone</w>
+          <w cert="1.0" lemma="keizerskroon" pos="NOU-C(number=sg)" resp="roland" xml:id="c21002_0000.w.882869" lemmaRef="mnw.21002.sense.1">keysercrone</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c21002_0000.w.882870">te</w>
           <w cert="1.0" lemma="winnen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21002_0000.w.882871">winnene</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21002_0000.w.882872">van</w>

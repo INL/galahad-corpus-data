@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50042" lemma="SCHOONHEIT" partition="train" sense-id="mnw.50042.sense.7" xml:id="c50042_0060">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c50042_0060">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHOONHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50042.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50042</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1325">
           <w cert="1.0" lemma="Helena" pos="NOU-P" resp="roland" xml:id="c50042_0060.w.471963">Helene</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c50042_0060.w.471964">was</w>
@@ -62,7 +75,7 @@
           </w>
           <pc pos="PC" xml:id="c50042_0060.pc.post.00194738" lemma=")">)</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c50042_0060.w.471971">haer</w>
-          <w cert="1.0" lemma="schoonheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.50042.sense.7" xml:id="c50042_0060.w.471972">scoonhede</w>
+          <w cert="1.0" lemma="schoonheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c50042_0060.w.471972" lemmaRef="mnw.50042.sense.7">scoonhede</w>
           <pc join="right" pos="PC" xml:id="c50042_0060.pc.pre.00194739" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50042_0060.w.471973">aan</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50042_0060.w.471974">hare</w>

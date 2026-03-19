@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53079" lemma="SODE" partition="train" sense-id="mnw.53079.sense.1" xml:id="c53079_0000">
-        <date atLeast="1377" atMost="1378" timeSpan="1350-1400" />
+      <cit xml:id="c53079_0000">
+        <note>
+          <ab>
+            <date atLeast="1377" atMost="1378" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SODE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53079.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53079</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2124">
           <w cert="1.0" lemma="Weindelmoede" pos="NOU-P" resp="roland" xml:id="c53079_0000.w.1082665">Weindelmoeden</w>
           <w cert="1.0" lemma="zoon" pos="NOU-C(number=sg)" resp="roland" xml:id="c53079_0000.w.1082666">soon</w>
           <w cert="1.0" lemma="helpen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c53079_0000.w.1082667">holp</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c53079_0000.w.1082668">die</w>
-          <w cert="1.0" lemma="zode" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.53079.sense.1" xml:id="c53079_0000.w.1082669">sooden</w>
+          <w cert="1.0" lemma="zode" pos="NOU-C(number=pl)" resp="roland" xml:id="c53079_0000.w.1082669" lemmaRef="mnw.53079.sense.1">sooden</w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c53079_0000.w.1082670">mede</w>
           <w cert="1.0" lemma="zetten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c53079_0000.w.1082671">setten</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c53079_0000.w.1082672">aen</w>

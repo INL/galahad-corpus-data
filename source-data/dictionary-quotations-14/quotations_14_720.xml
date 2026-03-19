@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16997" lemma="HERTELIKE" partition="train" sense-id="mnw.16997.sense.1" xml:id="c16997_0000">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c16997_0000">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HERTELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16997.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16997</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.720">
           <w cert="1.0" lemma="dies" pos="ADV(type=reg)" resp="roland" xml:id="c16997_0000.w.275643">Dies</w>
           <w cert="1.0" lemma="danken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c16997_0000.w.275644">danket</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c16997_0000.w.275645">Gode</w>
-          <w cert="1.0" lemma="hartelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.16997.sense.1" xml:id="c16997_0000.w.275646">hertelike</w>
+          <w cert="1.0" lemma="hartelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c16997_0000.w.275646" lemmaRef="mnw.16997.sense.1">hertelike</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c16997_0000.w.275647">ende</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c16997_0000.w.275648">hebt</w>
           <w cert="1.0" lemma="immer" pos="ADV(type=reg)" resp="thomas" xml:id="c16997_0000.w.275649">emmer</w>

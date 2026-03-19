@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02136" lemma="BAKIJN" partition="train" sense-id="mnw.02136.sense.1" xml:id="c02136_0000">
-        <date atLeast="1350" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c02136_0000">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BAKIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02136.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02136</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.80">
           <w cert="1.0" lemma="nee" pos="ADV(type=reg)" resp="thomas" xml:id="c02136_0000.w.378958">Neen</w>
           <pc pos="PC" xml:id="c02136_0000.pc.post.00149888" lemma=",">,</pc>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c02136_0000.pc.post.00149889" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c02136_0000.w.378960">maer</w>
           <w cert="1.0" lemma="kopen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02136_0000.w.378961">coop</w>
-          <w cert="1.0" lemma="bakin" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.02136.sense.1" xml:id="c02136_0000.w.378962">bakin</w>
+          <w cert="1.0" lemma="bakin" pos="NOU-C(number=sg)" resp="roland" xml:id="c02136_0000.w.378962" lemmaRef="mnw.02136.sense.1">bakin</w>
           <w cert="1.0" lemma="vlees" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02136_0000.w.378963">vleesch</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c02136_0000.w.378964">ende</w>
           <w cert="1.0" lemma="geiten" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c02136_0000.w.378965">gheetin</w>

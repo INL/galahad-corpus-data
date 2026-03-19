@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51293" lemma="SELGEREN" partition="train" sense-id="mnw.51293.sense.1" xml:id="c51293_0005">
-        <date atLeast="1370" atMost="1378" timeSpan="1350-1400" />
+      <cit xml:id="c51293_0005">
+        <note>
+          <ab>
+            <date atLeast="1370" atMost="1378" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SELGEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51293.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51293</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2060">
           <pc join="right" pos="PC" xml:id="c51293_0005.pc.pre.00288370" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c51293_0005.w.696197">Dat</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c51293_0005.pc.post.00288371" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c51293_0005.w.696200">sijn</w>
           <w cert="1.0" lemma="koren" pos="NOU-C(number=sg)" resp="roland" xml:id="c51293_0005.w.696201">coren</w>
-          <w cert="1.0" lemma="sailleren" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.51293.sense.1" xml:id="c51293_0005.w.696202">gheselgiert</w>
+          <w cert="1.0" lemma="sailleren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c51293_0005.w.696202" lemmaRef="mnw.51293.sense.1">gheselgiert</w>
           <pc pos="PC" xml:id="c51293_0005.pc.floating.00288372" lemma=",">,</pc>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c51293_0005.w.696204">sijn</w>
           <w cert="1.0" lemma="hout" pos="NOU-C(number=sg)" resp="roland" xml:id="c51293_0005.w.696205">houd</w>

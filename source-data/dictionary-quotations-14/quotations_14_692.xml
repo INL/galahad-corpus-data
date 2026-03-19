@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16241" lemma="HEESCEIT" partition="train" sense-id="mnw.16241.sense.1" xml:id="c16241_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c16241_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HEESCEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16241.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16241</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.692">
           <w cert="1.0" lemma="gelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c16241_0000.w.163077">Gelic</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c16241_0000.w.163078">dat</w>
-          <w cert="1.0" lemma="heesheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.16241.sense.1" xml:id="c16241_0000.w.163079">heischeit</w>
+          <w cert="1.0" lemma="heesheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c16241_0000.w.163079" lemmaRef="mnw.16241.sense.1">heischeit</w>
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c16241_0000.w.163080">din</w>
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="c16241_0000.w.163081">mensce</w>
           <w cert="1.0" lemma="hinderen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c16241_0000.w.163082">hindert</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00110" lemma="ACHTERJAGEN" partition="train" sense-id="mnw.00110.sense.1" xml:id="c00110_0001">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c00110_0001">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ACHTERJAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00110.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00110</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.6">
           <w cert="1.0" lemma="Tangreide" pos="NOU-P" resp="roland" xml:id="c00110_0001.w.20337">Tancreit</w>
           <pc pos="PC" xml:id="c00110_0001.pc.post.00008230" lemma=",">,</pc>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c00110_0001.w.20342">hi</w>
           <w cert="1.0" lemma="zes" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c00110_0001.w.20343">ses</w>
           <w cert="1.0" lemma="mijl" pos="NOU-C(number=pl)" resp="roland" xml:id="c00110_0001.w.20344">milen</w>
-          <w cert="1.0" lemma="achterjagen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00110.sense.1" xml:id="c00110_0001.w.20345">achterjaghede</w>
+          <w cert="1.0" lemma="achterjagen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00110_0001.w.20345" lemmaRef="mnw.00110.sense.1">achterjaghede</w>
           <pc pos="PC" xml:id="c00110_0001.pc.floating.00008232" lemma=",">,</pc>
         </q>
       </cit>

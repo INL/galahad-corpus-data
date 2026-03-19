@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70700" lemma="WASDOEM" partition="train" sense-id="mnw.70700.sense.7" xml:id="c70700_0025">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c70700_0025">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WASDOEM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70700.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70700</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2986">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70700_0025.w.1315786">Van</w>
-          <w cert="1.0" lemma="wasdom" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70700.sense.7" xml:id="c70700_0025.w.1315787">wasdoeme</w>
+          <w cert="1.0" lemma="wasdom" pos="NOU-C(number=sg)" resp="roland" xml:id="c70700_0025.w.1315787" lemmaRef="mnw.70700.sense.7">wasdoeme</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70700_0025.w.1315788">van</w>
           <w cert="1.0" lemma="wijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c70700_0025.w.1315789">wine</w>
           <pc pos="PC" xml:id="c70700_0025.pc.post.00527114" lemma=",">,</pc>

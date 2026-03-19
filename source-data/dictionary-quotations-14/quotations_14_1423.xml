@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34720" lemma="ONDERSATE" partition="train" sense-id="mnw.34720.sense.3" xml:id="c34720_0034">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c34720_0034">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONDERSATE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34720.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34720</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1423">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c34720_0034.w.255384">Die</w>
           <w cert="1.0" lemma="landheer" pos="NOU-C(number=sg)" resp="roland" xml:id="c34720_0034.w.255385">landshere</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c34720_0034.w.255397">hi</w>
           <w cert="1.0" lemma="beschermen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c34720_0034.w.255398">bescermet</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c34720_0034.w.255399">die</w>
-          <w cert="1.0" lemma="onderzaat" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.34720.sense.3" xml:id="c34720_0034.w.255400">ondersaten</w>
+          <w cert="1.0" lemma="onderzaat" pos="NOU-C(number=pl)" resp="roland" xml:id="c34720_0034.w.255400" lemmaRef="mnw.34720.sense.3">ondersaten</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c34720_0034.w.255401">vander</w>
           <w cert="1.0" lemma="edeling" pos="NOU-C(number=pl)" resp="roland" xml:id="c34720_0034.w.255402">edelinghen</w>
           <w cert="1.0" lemma="onmaat" pos="ADV(type=reg)" resp="roland" xml:id="c34720_0034.w.255403">ommate</w>

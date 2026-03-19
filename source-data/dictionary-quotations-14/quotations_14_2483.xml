@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61259" lemma="VALLE" partition="train" sense-id="mnw.61259.sense.2" xml:id="c61259_0002">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c61259_0002">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VALLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61259.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61259</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2483">
           <pc join="right" pos="PC" xml:id="c61259_0002.pc.pre.00358888" lemma="(">(</pc>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61259_0002.w.888655">Gi</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="liggen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c61259_0002.w.888657">ligghen</w>
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c61259_0002.w.888658">onder</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61259_0002.w.888659">die</w>
-          <w cert="1.0" lemma="val" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.61259.sense.2" xml:id="c61259_0002.w.888660">valle</w>
+          <w cert="1.0" lemma="val" pos="NOU-C(number=sg)" resp="roland" xml:id="c61259_0002.w.888660" lemmaRef="mnw.61259.sense.2">valle</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c61259_0002.w.888661">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c61259_0002.w.888662">haer</w>
           <w cert="1.0" lemma="eigen" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c61259_0002.w.888663">eyghen</w>

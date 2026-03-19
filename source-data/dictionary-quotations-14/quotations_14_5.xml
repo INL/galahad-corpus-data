@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00097" lemma="ACHTERGAEN" partition="train" sense-id="mnw.00097.sense.6" xml:id="c00097_0008">
-        <date atLeast="1350" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c00097_0008">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ACHTERGAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00097.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00097</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.5">
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c00097_0008.w.18999">Daer<join n="mw_49874" />
           </w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c00097_0008.w.19007">en</w>
           <w cert="1.0" lemma="willen+dat" pos="VRB(finiteness=fin,tense=pres)+PD(type=d-p,position=free)" resp="roland" xml:id="c00097_0008.w.19008">wils</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c00097_0008.w.19009">niet</w>
-          <w cert="1.0" lemma="achtergaan" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.00097.sense.6" xml:id="c00097_0008.w.19010">achtergaen</w>
+          <w cert="1.0" lemma="achtergaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c00097_0008.w.19010" lemmaRef="mnw.00097.sense.6">achtergaen</w>
           <pc pos="PC" xml:id="c00097_0008.pc.floating.00007729" lemma=",">,</pc>
         </q>
       </cit>

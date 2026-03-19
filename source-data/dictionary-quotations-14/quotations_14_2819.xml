@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67232" lemma="VOGET" partition="train" sense-id="mnw.67232.sense.5" xml:id="c67232_0045">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c67232_0045">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOGET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67232.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67232</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2819">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c67232_0045.w.569267">Om</w>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c67232_0045.w.569268">dit</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c67232_0045.w.569276">toe<join n="mw_905452" />
           </w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c67232_0045.w.569277">enen</w>
-          <w cert="1.0" lemma="voogd" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.67232.sense.5" xml:id="c67232_0045.w.569278">voocht</w>
+          <w cert="1.0" lemma="voogd" pos="NOU-C(number=sg)" resp="roland" xml:id="c67232_0045.w.569278" lemmaRef="mnw.67232.sense.5">voocht</w>
           <pc pos="PC" xml:id="c67232_0045.pc.floating.00227825" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c67232_0045.w.569280">die</w>
           <w cert="1.0" lemma="spade" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c67232_0045.w.569281">spade</w>

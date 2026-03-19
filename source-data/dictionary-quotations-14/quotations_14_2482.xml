@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61176" lemma="VAERT" partition="train" sense-id="mnw.61176.sense.3" xml:id="c61176_0026">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c61176_0026">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61176.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61176</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2482">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61176_0026.w.865177">Ic</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c61176_0026.w.865178">wille</w>
           <w cert="1.0" lemma="dat+du" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c61176_0026.w.865179">dattu</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61176_0026.w.865180">die</w>
-          <w cert="1.0" lemma="vaart" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.61176.sense.3" xml:id="c61176_0026.w.865181">vard</w>
+          <w cert="1.0" lemma="vaart" pos="NOU-C(number=sg)" resp="roland" xml:id="c61176_0026.w.865181" lemmaRef="mnw.61176.sense.3">vard</w>
           <w cert="1.0" lemma="bestaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c61176_0026.w.865182">bestaes</w>
           <pc join="right" pos="PC" xml:id="c61176_0026.pc.pre.00349420" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c61176_0026.w.865183">onderneemt</w>

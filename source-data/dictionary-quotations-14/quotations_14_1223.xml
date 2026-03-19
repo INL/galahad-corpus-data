@@ -45,10 +45,23 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30029" lemma="MISCOMEN" partition="train" sense-id="mnw.30029.sense.5" xml:id="c30029_0019">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c30029_0019">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MISCOMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30029.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30029</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1223">
-          <w cert="1.0" lemma="miskomen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.30029.sense.5" xml:id="c30029_0019.w.1148061">Mescoomt</w>
+          <w cert="1.0" lemma="miskomen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30029_0019.w.1148061" lemmaRef="mnw.30029.sense.5">Mescoomt</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c30029_0019.w.1148062">hem</w>
           <w cert="1.0" lemma="iet" pos="PD(type=indef,position=free)" resp="roland" xml:id="c30029_0019.w.1148063">yet</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c30029_0019.w.1148064">in</w>

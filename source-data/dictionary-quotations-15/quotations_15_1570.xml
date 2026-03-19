@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57097" lemma="TANT" partition="train" sense-id="mnw.57097.sense.1" xml:id="c57097_0028">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c57097_0028">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57097.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57097</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1570">
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57097_0028.w.50920">Had</w>
           <w cert="1.0" lemma="hij+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c57097_0028.w.50921">hijt</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c57097_0028.w.50930">hi</w>
           <w cert="1.0" lemma="hebben+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c57097_0028.w.50931">hadden</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c57097_0028.w.50932">mitten</w>
-          <w cert="1.0" lemma="tand" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.57097.sense.1" xml:id="c57097_0028.w.50933">tanden</w>
+          <w cert="1.0" lemma="tand" pos="NOU-C(number=pl)" resp="roland" xml:id="c57097_0028.w.50933" lemmaRef="mnw.57097.sense.1">tanden</w>
           <w cert="1.0" lemma="scheuren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c57097_0028.w.50934">ghescoort</w>
           <pc pos="PC" xml:id="c57097_0028.pc.post.00020768" lemma=",">,</pc>
         </q>

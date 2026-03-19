@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18539" lemma="HUGE" partition="train" sense-id="mnw.18539.sense.2" xml:id="c18539_0001">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c18539_0001">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HUGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18539.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18539</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.458">
           <pc pos="PC" xml:id="c18539_0001.pc.floating.00208375" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c18539_0001.pc.pre.00208376" lemma="“">“</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c18539_0001.w.510809">dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18539_0001.w.510810">ghi</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18539_0001.w.510811">mi</w>
-          <w cert="1.0" lemma="Huge" pos="NOU-P" resp="roland" sense-id="mnw.18539.sense.2" xml:id="c18539_0001.w.510812">Hughe</w>
+          <w cert="1.0" lemma="Huge" pos="NOU-P" resp="roland" xml:id="c18539_0001.w.510812" lemmaRef="mnw.18539.sense.2">Hughe</w>
           <w cert="1.0" lemma="heten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c18539_0001.w.510813">heet</w>
           <pc pos="PC" xml:id="c18539_0001.pc.post.00208378" lemma="”">”</pc>
         </q>

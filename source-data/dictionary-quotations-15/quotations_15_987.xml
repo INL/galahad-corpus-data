@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39215" lemma="OPBOREN" partition="train" sense-id="mnw.39215.sense.2" xml:id="c39215_0002">
-        <date atLeast="1480" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c39215_0002">
+        <note>
+          <ab>
+            <date atLeast="1480" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OPBOREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39215.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39215</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.987">
           <w cert="1.0" lemma="mettien" pos="ADV(type=reg)" resp="thomas" xml:id="c39215_0002.w.1086219">Mettien</w>
-          <w cert="1.0" lemma="opbeuren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.39215.sense.2" xml:id="c39215_0002.w.1086220">boerden<join n="mw_432598" />
+          <w cert="1.0" lemma="opbeuren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c39215_0002.w.1086220" lemmaRef="mnw.39215.sense.2">boerden<join n="mw_432598" />
           </w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c39215_0002.w.1086221">si</w>
-          <w cert="1.0" lemma="opbeuren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.39215.sense.2" xml:id="c39215_0002.w.1086222">op<join n="mw_432598" />
+          <w cert="1.0" lemma="opbeuren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c39215_0002.w.1086222" lemmaRef="mnw.39215.sense.2">op<join n="mw_432598" />
           </w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c39215_0002.w.1086223">die</w>
           <w cert="1.0" lemma="steen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c39215_0002.w.1086224">steen</w>

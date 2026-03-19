@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10309" lemma="GEBAC" partition="train" sense-id="mnw.10309.sense.1" xml:id="c10309_0000">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c10309_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEBAC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10309.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10309</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.422">
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c10309_0000.w.697702">Dijn</w>
           <w cert="1.0" lemma="zolder" pos="NOU-C(number=sg)" resp="roland" xml:id="c10309_0000.w.697703">solre</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c10309_0000.w.697716">noch</w>
           <w cert="1.0" lemma="koren" pos="NOU-C(number=sg)" resp="roland" xml:id="c10309_0000.w.697717">coren</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c10309_0000.w.697718">noch</w>
-          <w cert="1.0" lemma="gebak" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.10309.sense.1" xml:id="c10309_0000.w.697719">gebac</w>
+          <w cert="1.0" lemma="gebak" pos="NOU-C(number=sg)" resp="roland" xml:id="c10309_0000.w.697719" lemmaRef="mnw.10309.sense.1">gebac</w>
           <pc pos="PC" xml:id="c10309_0000.pc.floating.00299543" lemma=",">,</pc>
         </q>
       </cit>

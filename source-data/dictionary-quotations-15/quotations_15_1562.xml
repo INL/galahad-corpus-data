@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56775" lemma="SWIDE" partition="train" sense-id="mnw.56775.sense.4" xml:id="c56775_0007">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c56775_0007">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SWIDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56775.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56775</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1562">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c56775_0007.w.1902888">Hoe</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c56775_0007.w.1902889">onse</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c56775_0007.w.1902893">hoe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56775_0007.w.1902894">die</w>
           <w cert="1.0" lemma="schuld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56775_0007.w.1902895">schult</w>
-          <w cert="1.0" lemma="zwijd" pos="AA(degree=comp,position=free)" resp="thomas" sense-id="mnw.56775.sense.4" xml:id="c56775_0007.w.1902896">zwider</w>
+          <w cert="1.0" lemma="zwijd" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c56775_0007.w.1902896" lemmaRef="mnw.56775.sense.4">zwider</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c56775_0007.w.1902897">ende</w>
           <w cert="1.0" lemma="zwaar" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c56775_0007.w.1902898">zwaerre</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c56775_0007.w.1902899">wort</w>

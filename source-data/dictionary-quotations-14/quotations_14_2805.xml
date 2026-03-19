@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67042" lemma="VOEREN" partition="test" sense-id="mnw.67042.sense.25" xml:id="c67042_0059">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c67042_0059">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67042.sense.25</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67042</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2805">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c67042_0059.w.531008">Hi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c67042_0059.w.531009">was</w>
-          <w cert="1.0" lemma="voeren" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.67042.sense.25" xml:id="c67042_0059.w.531010">ghevoert</w>
+          <w cert="1.0" lemma="voeren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c67042_0059.w.531010" lemmaRef="mnw.67042.sense.25">ghevoert</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c67042_0059.w.531011">al</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c67042_0059.w.531012">met</w>
           <w cert="1.0" lemma="gemak" pos="NOU-C(number=sg)" resp="roland" xml:id="c67042_0059.w.531013">ghemake</w>

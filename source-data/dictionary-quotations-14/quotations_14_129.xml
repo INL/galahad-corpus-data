@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03016" lemma="BECOMMEREN" partition="train" sense-id="mnw.03016.sense.17" xml:id="c03016_0058">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c03016_0058">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BECOMMEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03016.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03016</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.129">
           <pc join="right" pos="PC" xml:id="c03016_0058.pc.pre.00225305" lemma="(">(</pc>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c03016_0058.w.577557">Wi</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03016_0058.w.577564">ende</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c03016_0058.w.577565">sulen</w>
           <w cert="1.0" lemma="ons" pos="PD(type=refl,position=free)" resp="thomas" xml:id="c03016_0058.w.577566">ons</w>
-          <w cert="1.0" lemma="bekommeren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.03016.sense.17" xml:id="c03016_0058.w.577567">becomberen</w>
+          <w cert="1.0" lemma="bekommeren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03016_0058.w.577567" lemmaRef="mnw.03016.sense.17">becomberen</w>
           <w cert="1.0" lemma="bet" pos="ADP(type=pre)" resp="thomas" xml:id="c03016_0058.w.577568">bit</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c03016_0058.w.577569">guden</w>
           <w cert="1.0" lemma="werk" pos="NOU-C(number=pl)" resp="roland" xml:id="c03016_0058.w.577570">werken</w>

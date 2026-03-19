@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09274" lemma="ESPELINC" partition="train" sense-id="mnw.09274.sense.1" xml:id="c09274_0000">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c09274_0000">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ESPELINC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09274.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09274</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.389">
           <w cert="1.0" lemma="Gerard" pos="NOU-P" resp="roland" xml:id="c09274_0000.w.545218">Gheraerd</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c09274_0000.w.545219">van</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c09274_0000.pc.post.00235402" lemma=",">,</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c09274_0000.w.545222">van</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="roland" xml:id="c09274_0000.w.545223">en</w>
-          <w cert="1.0" lemma="espeling" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.09274.sense.1" xml:id="c09274_0000.w.545224">espeling</w>
+          <w cert="1.0" lemma="espeling" pos="NOU-C(number=sg)" resp="roland" xml:id="c09274_0000.w.545224" lemmaRef="mnw.09274.sense.1">espeling</w>
           <pc pos="PC" xml:id="c09274_0000.pc.floating.00235403" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c09274_0000.w.545226">dat</w>
           <w cert="1.0" lemma="aankomen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c09274_0000.w.545227">anquam</w>

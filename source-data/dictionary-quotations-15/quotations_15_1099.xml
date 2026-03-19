@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42952" lemma="PLANKE" partition="train" sense-id="mnw.42952.sense.2" xml:id="c42952_0007">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c42952_0007">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PLANKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42952.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42952</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1099">
           <w cert="1.0" lemma="de+ander" pos="PD(type=d-p,subtype=art,position=prenom)+NUM(type=ord,position=free,representation=let)" resp="thomas" xml:id="c42952_0007.w.285197">Dandere</w>
           <w cert="1.0" lemma="trekken+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c42952_0007.w.285198">trecten</w>
@@ -75,7 +88,7 @@
           <pc pos="PC" xml:id="c42952_0007.pc.post.00111471" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c42952_0007.w.285217">datsi</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c42952_0007.w.285218">ten</w>
-          <w cert="1.0" lemma="plank" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.42952.sense.2" xml:id="c42952_0007.w.285219">planken</w>
+          <w cert="1.0" lemma="plank" pos="NOU-C(number=pl)" resp="roland" xml:id="c42952_0007.w.285219" lemmaRef="mnw.42952.sense.2">planken</w>
           <w cert="1.0" lemma="boven" pos="ADV(type=reg)" resp="thomas" xml:id="c42952_0007.w.285220">boven</w>
           <w cert="1.0" lemma="krijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c42952_0007.w.285221">creghen</w>
           <pc join="right" pos="PC" xml:id="c42952_0007.pc.pre.00111472" lemma="(">(</pc>

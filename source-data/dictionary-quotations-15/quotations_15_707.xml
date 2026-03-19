@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28707" lemma="MEENTEN" partition="train" sense-id="mnw.28707.sense.8" xml:id="c28707_0006">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c28707_0006">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MEENTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28707.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28707</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.707">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28707_0006.w.875377">Soe</w>
           <pc join="right" pos="PC" xml:id="c28707_0006.pc.pre.00340409" lemma="(">(</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c28707_0006.w.875384">als</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28707_0006.w.875385">zoe</w>
           <w cert="1.0" lemma="haar" pos="PD(type=refl,position=free)" resp="thomas" xml:id="c28707_0006.w.875386">haer</w>
-          <w cert="1.0" lemma="meenten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.28707.sense.8" xml:id="c28707_0006.w.875387">meentet</w>
+          <w cert="1.0" lemma="meenten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c28707_0006.w.875387" lemmaRef="mnw.28707.sense.8">meentet</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c28707_0006.w.875388">met</w>
           <w cert="1.0" lemma="jong" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c28707_0006.w.875389">jongher</w>
           <w cert="1.0" lemma="jeugd" pos="NOU-C(number=sg)" resp="thomas" xml:id="c28707_0006.w.875390">jeught</w>

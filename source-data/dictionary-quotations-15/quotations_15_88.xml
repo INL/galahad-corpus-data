@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02970" lemma="BEKEREN" partition="train" sense-id="mnw.02970.sense.30" xml:id="c02970_0099">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c02970_0099">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BEKEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02970.sense.30</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02970</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.88">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c02970_0099.w.565860">Al</w>
           <w cert="1.0" lemma="willen+ik" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c02970_0099.w.565861">woudic</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c02970_0099.w.565869">niet</w>
           <w cert="1.0" lemma="kunnen+ertoe" pos="VRB(finiteness=fin,tense=past)+ADV(type=pron)" resp="thomas" xml:id="c02970_0099.w.565870">toe<join n="mw_369016" />
           </w>
-          <w cert="1.0" lemma="bekeren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.02970.sense.30" xml:id="c02970_0099.w.565871">bekeren</w>
+          <w cert="1.0" lemma="bekeren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c02970_0099.w.565871" lemmaRef="mnw.02970.sense.30">bekeren</w>
           <pc pos="PC" xml:id="c02970_0099.pc.floating.00220835" lemma=",">,</pc>
         </q>
       </cit>

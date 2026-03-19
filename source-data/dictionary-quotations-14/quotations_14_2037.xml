@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50518" lemma="SCRIVEIN" partition="train" sense-id="mnw.50518.sense.1" xml:id="c50518_0001">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c50518_0001">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SCRIVEIN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50518.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50518</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2037">
           <w cert="1.0" lemma="P." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c50518_0001.w.562209">P</w>
           <pc pos="PC" xml:id="c50518_0001.pc.post.00232418" lemma=".,">.,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c50518_0001.w.562210">den</w>
-          <w cert="1.0" lemma="schrivein" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.50518.sense.1" xml:id="c50518_0001.w.562211">scrivain</w>
+          <w cert="1.0" lemma="schrivein" pos="NOU-C(number=sg)" resp="roland" xml:id="c50518_0001.w.562211" lemmaRef="mnw.50518.sense.1">scrivain</w>
           <pc pos="PC" xml:id="c50518_0001.pc.floating.00232419" lemma=",">,</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c50518_0001.w.562213">van</w>
           <w cert="1.0" lemma="divers" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c50518_0001.w.562214">diversen</w>

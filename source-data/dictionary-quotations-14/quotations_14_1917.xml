@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46595" lemma="RISEN" partition="train" sense-id="mnw.46595.sense.2" xml:id="c46595_0005">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c46595_0005">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>RISEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46595.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46595</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1917">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c46595_0005.w.1045165">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c46595_0005.w.1045166">wie</w>
@@ -83,7 +96,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c46595_0005.w.1045190">si</w>
           <w cert="1.0" lemma="wassen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c46595_0005.w.1045191">wassen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c46595_0005.w.1045192">ende</w>
-          <w cert="1.0" lemma="rijzen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.46595.sense.2" xml:id="c46595_0005.w.1045193">risen</w>
+          <w cert="1.0" lemma="rijzen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c46595_0005.w.1045193" lemmaRef="mnw.46595.sense.2">risen</w>
           <pc pos="PC" xml:id="c46595_0005.pc.floating.00411031" lemma=",">,</pc>
         </q>
       </cit>

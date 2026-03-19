@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14313" lemma="GOD" partition="train" sense-id="mnw.14313.sense.13" xml:id="c14313_0117">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c14313_0117">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GOD</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14313.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14313</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.637">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c14313_0117.w.1456260">Van</w>
           <w cert="1.0" lemma="ochtends" pos="ADV(type=reg)" resp="roland" xml:id="c14313_0117.w.1456261">nuchtens</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c14313_0117.w.1456274">de</w>
           <w cert="1.0" lemma="zon" pos="NOU-C(number=sg)" resp="roland" xml:id="c14313_0117.w.1456275">zonne</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c14313_0117.w.1456276">te</w>
-          <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" sense-id="mnw.14313.sense.13" xml:id="c14313_0117.w.1456277">gode</w>
+          <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c14313_0117.w.1456277" lemmaRef="mnw.14313.sense.13">gode</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c14313_0117.w.1456278">zal</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c14313_0117.w.1456279">zijn</w>
           <pc pos="PC" xml:id="c14313_0117.pc.post.00609513" lemma=",">,</pc>

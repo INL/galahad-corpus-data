@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03420" lemma="BERISPEN" partition="dev" sense-id="mnw.03420.sense.1" xml:id="c03420_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c03420_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BERISPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03420.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03420</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.157">
           <w cert="1.0" lemma="als+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c03420_0000.w.675251">Alsi</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03420_0000.w.675252">sach</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="beschieten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03420_0000.w.675257">bescieten</w>
           <pc pos="PC" xml:id="c03420_0000.pc.post.00262920" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c03420_0000.w.675258">so</w>
-          <w cert="1.0" lemma="berispen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.03420.sense.1" xml:id="c03420_0000.w.675259">beresspese</w>
+          <w cert="1.0" lemma="berispen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c03420_0000.w.675259" lemmaRef="mnw.03420.sense.1">beresspese</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c03420_0000.w.675260">Gode</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03420_0000.w.675261">ende</w>
           <w cert="1.0" lemma="heten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c03420_0000.w.675262">hieten</w>

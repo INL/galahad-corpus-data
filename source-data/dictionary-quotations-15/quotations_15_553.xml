@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22602" lemma="COCKIJN" partition="train" sense-id="mnw.22602.sense.1" xml:id="c22602_0000">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c22602_0000">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>COCKIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22602.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22602</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.553">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c22602_0000.w.1164784">Die</w>
-          <w cert="1.0" lemma="kokkijn" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.22602.sense.1" xml:id="c22602_0000.w.1164785">cockijn</w>
+          <w cert="1.0" lemma="kokkijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c22602_0000.w.1164785" lemmaRef="mnw.22602.sense.1">cockijn</w>
           <pc join="right" pos="PC" xml:id="c22602_0000.pc.pre.00469862" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c22602_0000.w.1164786">de</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c22602_0000.w.1164787">arme</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22602_0000.w.1164801">ende</w>
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c22602_0000.w.1164802">daertoe</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c22602_0000.w.1164803">ander</w>
-          <w cert="1.0" lemma="kokkijn" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.22602.sense.1" xml:id="c22602_0000.w.1164804">cockine</w>
+          <w cert="1.0" lemma="kokkijn" pos="NOU-C(number=pl)" resp="roland" xml:id="c22602_0000.w.1164804" lemmaRef="mnw.22602.sense.1">cockine</w>
           <pc pos="PC" xml:id="c22602_0000.pc.floating.00469868" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c22602_0000.w.1164806">die</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c22602_0000.w.1164807">in</w>

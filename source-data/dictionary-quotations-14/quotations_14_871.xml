@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22015" lemma="CLOFHAMER" partition="train" sense-id="mnw.22015.sense.1" xml:id="c22015_0000">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c22015_0000">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CLOFHAMER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22015.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22015</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.871">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c22015_0000.w.1078650">Zo</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c22015_0000.w.1078651">wie</w>
@@ -72,7 +85,7 @@
           <pc pos="PC" xml:id="c22015_0000.pc.post.00435734" lemma=",">,</pc>
           <w cert="1.0" lemma="priem" pos="NOU-C(number=pl)" resp="roland" xml:id="c22015_0000.w.1078668">priemen</w>
           <pc pos="PC" xml:id="c22015_0000.pc.post.00435735" lemma=",">,</pc>
-          <w cert="1.0" lemma="kloofhamer" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.22015.sense.1" xml:id="c22015_0000.w.1078669">clofhameren</w>
+          <w cert="1.0" lemma="kloofhamer" pos="NOU-C(number=pl)" resp="roland" xml:id="c22015_0000.w.1078669" lemmaRef="mnw.22015.sense.1">clofhameren</w>
           <pc pos="PC" xml:id="c22015_0000.pc.floating.00435736" lemma=",">,</pc>
         </q>
       </cit>

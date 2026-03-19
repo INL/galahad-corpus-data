@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08284" lemma="EEN" partition="train" sense-id="mnw.08284.sense.7" xml:id="c08284_0029">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c08284_0029">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>EEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08284.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08284</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.222">
           <w cert="1.0" lemma="daartegen" pos="ADV(type=pron)" resp="thomas" xml:id="c08284_0029.w.398147">Daer<join n="mw_253959" />
           </w>
@@ -56,7 +69,7 @@
           </w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c08284_0029.w.398151">werde</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c08284_0029.w.398152">ende</w>
-          <w cert="1.0" lemma="een" pos="PD(type=indef,position=free)" resp="thomas" sense-id="mnw.08284.sense.7" xml:id="c08284_0029.w.398153">een</w>
+          <w cert="1.0" lemma="een" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c08284_0029.w.398153" lemmaRef="mnw.08284.sense.7">een</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c08284_0029.w.398154">noch</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c08284_0029.w.398155">gheen</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c08284_0029.w.398156">des</w>

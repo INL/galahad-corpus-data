@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07432" lemma="DOREWONDEN" partition="train" sense-id="mnw.07432.sense.2" xml:id="c07432_0002">
-        <date atLeast="1455" atMost="1465" timeSpan="1450-1500" />
+      <cit xml:id="c07432_0002">
+        <note>
+          <ab>
+            <date atLeast="1455" atMost="1465" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>DOREWONDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07432.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07432</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.205">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c07432_0002.w.261292">Syn</w>
           <w cert="1.0" lemma="gebenedijd" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c07432_0002.w.261293">ghebenedide</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c07432_0002.w.261298">al</w>
           <w cert="1.0" lemma="doorslaan" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c07432_0002.w.261299">doerslaghen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c07432_0002.w.261300">ende</w>
-          <w cert="1.0" lemma="doorwonden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.07432.sense.2" xml:id="c07432_0002.w.261301">doerwondet</w>
+          <w cert="1.0" lemma="doorwonden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c07432_0002.w.261301" lemmaRef="mnw.07432.sense.2">doerwondet</w>
           <pc pos="PC" xml:id="c07432_0002.pc.floating.00112001" lemma=",">,</pc>
         </q>
       </cit>

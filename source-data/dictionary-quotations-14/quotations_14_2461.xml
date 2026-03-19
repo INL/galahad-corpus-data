@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60546" lemma="UTELEGGEN" partition="train" sense-id="mnw.60546.sense.12" xml:id="c60546_0030">
-        <date atLeast="1343" atMost="1346" timeSpan="1300-1350" />
+      <cit xml:id="c60546_0030">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1346" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>UTELEGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60546.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60546</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2461">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c60546_0030.w.722345">Van</w>
           <w cert="1.0" lemma="kost" pos="NOU-C(number=pl)" resp="roland" xml:id="c60546_0030.w.722346">coste</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c60546_0030.w.722351">die</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c60546_0030.w.722352">haer</w>
           <w cert="1.0" lemma="Florens" pos="NOU-P" resp="roland" xml:id="c60546_0030.w.722353">Florans</w>
-          <w cert="1.0" lemma="uitleggen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.60546.sense.12" xml:id="c60546_0030.w.722354">wtgheleyt</w>
+          <w cert="1.0" lemma="uitleggen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c60546_0030.w.722354" lemmaRef="mnw.60546.sense.12">wtgheleyt</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60546_0030.w.722355">heeft</w>
           <pc pos="PC" xml:id="c60546_0030.pc.post.00293199" lemma=",">,</pc>
         </q>

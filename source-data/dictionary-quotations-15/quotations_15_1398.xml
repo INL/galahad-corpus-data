@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52253" lemma="SLAKEN" partition="train" sense-id="mnw.52253.sense.5" xml:id="c52253_0006">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c52253_0006">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SLAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52253.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52253</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1398">
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c52253_0006.w.914158">Dus</w>
           <w cert="1.0" lemma="zullen+men" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c52253_0006.w.914159">salmen</w>
-          <w cert="1.0" lemma="slaken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.52253.sense.5" xml:id="c52253_0006.w.914160">slaken</w>
+          <w cert="1.0" lemma="slaken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c52253_0006.w.914160" lemmaRef="mnw.52253.sense.5">slaken</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c52253_0006.w.914161">der</w>
           <w cert="1.0" lemma="ziel" pos="NOU-C(number=pl)" resp="roland" xml:id="c52253_0006.w.914162">zielen</w>
           <w cert="1.0" lemma="smart" pos="NOU-C(number=pl)" resp="roland" xml:id="c52253_0006.w.914163">smerten</w>

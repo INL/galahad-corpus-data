@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26772" lemma="LOIVE" partition="train" sense-id="mnw.26772.sense.1" xml:id="c26772_0001">
-        <date atLeast="1408" atMost="1414" timeSpan="1400-1450" />
+      <cit xml:id="c26772_0001">
+        <note>
+          <ab>
+            <date atLeast="1408" atMost="1414" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LOIVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26772.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26772</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.657">
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c26772_0001.w.506800">Gheen</w>
           <w cert="1.0" lemma="vleesbank" pos="NOU-C(number=pl)" resp="roland" xml:id="c26772_0001.w.506801">vleyschbanken</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c26772_0001.w.506807">te</w>
           <w cert="1.0" lemma="togen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c26772_0001.w.506808">toghen</w>
           <w cert="1.0" lemma="buiten" pos="ADP(type=pre)" resp="thomas" xml:id="c26772_0001.w.506809">buten</w>
-          <w cert="1.0" lemma="luifje" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26772.sense.1" xml:id="c26772_0001.w.506810">loyfien</w>
+          <w cert="1.0" lemma="luifje" pos="NOU-C(number=sg)" resp="roland" xml:id="c26772_0001.w.506810" lemmaRef="mnw.26772.sense.1">loyfien</w>
           <pc pos="PC" xml:id="c26772_0001.pc.floating.00196773" lemma="…,">…,</pc>
           <w cert="1.0" lemma="uitzetten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c26772_0001.w.506812">wtgheset</w>
           <w cert="1.0" lemma="op+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c26772_0001.w.506813">opten</w>

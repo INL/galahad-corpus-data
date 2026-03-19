@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55232" lemma="STEVIGEN" partition="train" sense-id="mnw.55232.sense.1" xml:id="c55232_0000">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c55232_0000">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STEVIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55232.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55232</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1515">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c55232_0000.w.1578229">Dat</w>
           <w cert="1.0" lemma="gebed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c55232_0000.w.1578230">gebet</w>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c55232_0000.pc.post.00652421" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c55232_0000.w.1578242">ende</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c55232_0000.w.1578243">sel</w>
-          <w cert="1.0" lemma="stevigen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.55232.sense.1" xml:id="c55232_0000.w.1578244">stevigen</w>
+          <w cert="1.0" lemma="stevigen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c55232_0000.w.1578244" lemmaRef="mnw.55232.sense.1">stevigen</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c55232_0000.w.1578245">onse</w>
           <w cert="1.0" lemma="gemoed" pos="NOU-C(number=sg)" resp="roland" xml:id="c55232_0000.w.1578246">gemoede</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c55232_0000.w.1578247">vander</w>

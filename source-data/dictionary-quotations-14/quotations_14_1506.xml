@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37236" lemma="ONTDOEN" partition="dev" sense-id="mnw.37236.sense.16" xml:id="c37236_0106">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c37236_0106">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTDOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37236.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37236</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1506">
           <w cert="1.0" lemma="driewerf" pos="ADV(type=reg)" resp="thomas" xml:id="c37236_0106.w.656178">Driewaerf</w>
-          <w cert="1.0" lemma="ontdoen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.37236.sense.16" xml:id="c37236_0106.w.656179">ondede</w>
+          <w cert="1.0" lemma="ontdoen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37236_0106.w.656179" lemmaRef="mnw.37236.sense.16">ondede</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37236_0106.w.656180">hi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c37236_0106.w.656181">den</w>
           <w cert="1.0" lemma="boek" pos="NOU-C(number=sg)" resp="roland" xml:id="c37236_0106.w.656182">bouc</w>

@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10621" lemma="GEDANE" partition="train" sense-id="mnw.10621.sense.2" xml:id="c10621_0005">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c10621_0005">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEDANE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10621.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10621</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.440">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c10621_0005.w.761415">Die</w>
           <w cert="1.0" lemma="gekruist" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c10621_0005.w.761416">gecruuste</w>
-          <w cert="1.0" lemma="gedane" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.10621.sense.2" xml:id="c10621_0005.w.761417">gedane</w>
+          <w cert="1.0" lemma="gedane" pos="NOU-C(number=sg)" resp="roland" xml:id="c10621_0005.w.761417" lemmaRef="mnw.10621.sense.2">gedane</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c10621_0005.w.761418">ons</w>
           <w cert="1.0" lemma="Heer" pos="NOU-P" resp="roland" xml:id="c10621_0005.w.761419">Heren</w>
           <pc join="right" pos="PC" xml:id="c10621_0005.pc.pre.00325127" lemma="(">(</pc>

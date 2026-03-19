@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13391" lemma="GETROOSTEN" partition="train" sense-id="mnw.13391.sense.7" xml:id="c13391_0047">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c13391_0047">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GETROOSTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13391.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13391</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.586">
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c13391_0047.w.1278045">En</w>
           <w cert="1.0" lemma="doen+gij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c13391_0047.w.1278046">daeddi</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c13391_0047.w.1278049">niet</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c13391_0047.w.1278050">ene</w>
           <w cert="1.0" lemma="boon" pos="NOU-C(number=sg)" resp="roland" xml:id="c13391_0047.w.1278051">bone</w>
-          <w cert="1.0" lemma="getroosten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.13391.sense.7" xml:id="c13391_0047.w.1278052">getroeste</w>
+          <w cert="1.0" lemma="getroosten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c13391_0047.w.1278052" lemmaRef="mnw.13391.sense.7">getroeste</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c13391_0047.w.1278053">hem</w>
           <pc join="right" pos="PC" xml:id="c13391_0047.pc.pre.00535333" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c13391_0047.w.1278054">zou</w>

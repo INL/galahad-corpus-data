@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74028" lemma="WIT" partition="train" sense-id="mnw.74028.sense.24" xml:id="c74028_0123">
-        <date atLeast="1458" atMost="1458" timeSpan="1450-1500" />
+      <cit xml:id="c74028_0123">
+        <note>
+          <ab>
+            <date atLeast="1458" atMost="1458" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74028.sense.24</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74028</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2280">
           <w cert="1.0" lemma="daarin" pos="ADV(type=pron)" resp="thomas" xml:id="c74028_0123.w.2021294">Daer<join n="mw_91799" />
           </w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c74028_0123.w.2021300">den</w>
           <w cert="1.0" lemma="allerwitst" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c74028_0123.w.2021301">alren<join n="mw_872672" />
           </w>
-          <w cert="1.0" lemma="allerwitst" pos="AA(degree=sup,position=prenom)" resp="thomas" sense-id="mnw.74028.sense.24" xml:id="c74028_0123.w.2021302">witsten<join n="mw_872672" />
+          <w cert="1.0" lemma="allerwitst" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c74028_0123.w.2021302" lemmaRef="mnw.74028.sense.24">witsten<join n="mw_872672" />
           </w>
           <w cert="1.0" lemma="alabaster" pos="NOU-C(number=sg)" resp="thomas" xml:id="c74028_0123.w.2021303">aelbaster</w>
           <pc pos="PC" xml:id="c74028_0123.pc.post.00792520" lemma=",">,</pc>

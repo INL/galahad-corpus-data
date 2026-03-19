@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51997" lemma="SINDAEL" partition="train" sense-id="mnw.51997.sense.3" xml:id="c51997_0012">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c51997_0012">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SINDAEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51997.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51997</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1385">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c51997_0012.w.848033">Die</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c51997_0012.w.848034">alle</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c51997_0012.w.848049">2</w>
           <pc pos="PC" xml:id="c51997_0012.pc.floating.00352687" lemma=")">)</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c51997_0012.w.848051">van</w>
-          <w cert="1.0" lemma="sindaal" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51997.sense.3" xml:id="c51997_0012.w.848052">sindale</w>
+          <w cert="1.0" lemma="sindaal" pos="NOU-C(number=sg)" resp="roland" xml:id="c51997_0012.w.848052" lemmaRef="mnw.51997.sense.3">sindale</w>
           <pc pos="PC" xml:id="c51997_0012.pc.floating.00352688" lemma=",">,</pc>
         </q>
       </cit>

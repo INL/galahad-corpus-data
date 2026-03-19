@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03161" lemma="BELOF" partition="train" sense-id="mnw.03161.sense.20" xml:id="c03161_0042">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c03161_0042">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BELOF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03161.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03161</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.135">
           <w cert="1.0" lemma="die+het" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c03161_0042.w.613746">Diet</w>
           <w cert="1.0" lemma="breken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c03161_0042.w.613747">brake</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c03161_0042.w.613763">sinen</w>
           <w cert="1.0" lemma="boek" pos="NOU-C(number=sg)" resp="roland" xml:id="c03161_0042.w.613764">boec</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03161_0042.w.613765">dat</w>
-          <w cert="1.0" lemma="belof" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.03161.sense.20" xml:id="c03161_0042.w.613766">belof</w>
+          <w cert="1.0" lemma="belof" pos="NOU-C(number=sg)" resp="roland" xml:id="c03161_0042.w.613766" lemmaRef="mnw.03161.sense.20">belof</w>
           <pc pos="PC" xml:id="c03161_0042.pc.floating.00239127" lemma=",">,</pc>
         </q>
       </cit>

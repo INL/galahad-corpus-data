@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M067545" lemma="TAARLING" modern-lemma="teerling" partition="train" pos="NOU-C" sense-id="M067545.bet.3" xml:id="M067545.eg.8230">
-        <date atLeast="1613" atMost="1613" timeSpan="1600-1650" />
+      <cit xml:id="M067545.eg.8230">
+        <note>
+          <ab>
+            <date atLeast="1613" atMost="1613" extent="1600-1650" />
+            <interpGrp type="lemma">
+              <interp>TAARLING</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M067545.bet.3</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>teerling</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M067545</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1251">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1226457">Dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1226458">ghy</w>
@@ -94,7 +113,7 @@
           <w cert="1.0" lemma="lopen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1226494">loopt</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1226495">op</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1226496">den</w>
-          <w cert="1.0" lemma="teerling" pos="NOU-C(number=sg)" resp="roland" sense-id="M067545.bet.3" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1226497">taerlinck</w>
+          <w cert="1.0" lemma="teerling" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1226497" lemmaRef="M067545.bet.3">taerlinck</w>
           <pc pos="PC" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.post.00372064" lemma=",">,</pc>
           <pc join="right" lemma="'" pos="PC" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.pc.pre.00372065">'</pc>
           <w cert="1.0" lemma="het+zijn" pos="PD(type=pers,position=free)+VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_282bd6de-6327-47cc-b373-f20f397ec412.w.1226498">tis</w>

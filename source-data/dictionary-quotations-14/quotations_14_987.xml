@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25292" lemma="LEDIGEN" partition="train" sense-id="mnw.25292.sense.2" xml:id="c25292_0003">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c25292_0003">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LEDIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25292.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25292</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.987">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c25292_0003.w.167600">Dese</w>
           <w cert="1.0" lemma="offerande" pos="NOU-C(number=sg)" resp="roland" xml:id="c25292_0003.w.167601">offrande</w>
-          <w cert="1.0" lemma="ledigen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.25292.sense.2" xml:id="c25292_0003.w.167602">ledeget</w>
+          <w cert="1.0" lemma="ledigen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25292_0003.w.167602" lemmaRef="mnw.25292.sense.2">ledeget</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c25292_0003.w.167603">die</w>
           <w cert="1.0" lemma="levendige" pos="NOU-C(number=pl)" resp="roland" xml:id="c25292_0003.w.167604">leventge</w>
           <pc join="right" pos="PC" xml:id="c25292_0003.pc.pre.00065092" lemma="(">(</pc>

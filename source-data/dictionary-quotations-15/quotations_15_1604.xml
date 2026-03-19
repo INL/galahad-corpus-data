@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58343" lemma="TOEDRAGEN" partition="train" sense-id="mnw.58343.sense.2" xml:id="c58343_0006">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c58343_0006">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TOEDRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58343.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58343</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1604">
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58343_0006.w.305880">Du</w>
           <pc join="right" pos="PC" xml:id="c58343_0006.pc.pre.00124877" lemma="(">(</pc>
@@ -62,9 +75,9 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c58343_0006.w.305889">hem</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c58343_0006.w.305890">gheen</w>
           <w cert="1.0" lemma="drank" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58343_0006.w.305891">dranc</w>
-          <w cert="1.0" lemma="toedragen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.58343.sense.2" xml:id="c58343_0006.w.305892">toe<join n="mw_25140" />
+          <w cert="1.0" lemma="toedragen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58343_0006.w.305892" lemmaRef="mnw.58343.sense.2">toe<join n="mw_25140" />
           </w>
-          <w cert="1.0" lemma="toedragen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.58343.sense.2" xml:id="c58343_0006.w.305893">draghen<join n="mw_25140" />
+          <w cert="1.0" lemma="toedragen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58343_0006.w.305893" lemmaRef="mnw.58343.sense.2">draghen<join n="mw_25140" />
           </w>
           <pc pos="PC" xml:id="c58343_0006.pc.floating.00124879" lemma=",">,</pc>
         </q>

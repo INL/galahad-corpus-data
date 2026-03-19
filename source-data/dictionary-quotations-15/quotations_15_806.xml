@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32363" lemma="NERNST" partition="test" sense-id="mnw.32363.sense.4" xml:id="c32363_0037">
-        <date atLeast="1450" atMost="1450" timeSpan="1450-1500" />
+      <cit xml:id="c32363_0037">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1450" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>NERNST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32363.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32363</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.806">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c32363_0037.w.1590159">Mit</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c32363_0037.w.1590160">allen</w>
-          <w cert="1.0" lemma="ernst" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.32363.sense.4" xml:id="c32363_0037.w.1590161">naerste</w>
+          <w cert="1.0" lemma="ernst" pos="NOU-C(number=sg)" resp="roland" xml:id="c32363_0037.w.1590161" lemmaRef="mnw.32363.sense.4">naerste</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c32363_0037.w.1590162">soo</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32363_0037.w.1590163">dede</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c32363_0037.w.1590164">si</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31419" lemma="NACHTGAEN" partition="train" sense-id="mnw.31419.sense.1" xml:id="c31419_0000">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c31419_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NACHTGAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31419.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31419</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1282">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c31419_0000.w.1406018">Die</w>
           <w cert="1.0" lemma="uit+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c31419_0000.w.1406019">uute</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c31419_0000.w.1406035">noch</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c31419_0000.w.1406036">ooc</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c31419_0000.w.1406037">van</w>
-          <w cert="1.0" lemma="nachtgaan" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.31419.sense.1" xml:id="c31419_0000.w.1406038">nachtgane</w>
+          <w cert="1.0" lemma="nachtgaan" pos="NOU-C(number=sg)" resp="roland" xml:id="c31419_0000.w.1406038" lemmaRef="mnw.31419.sense.1">nachtgane</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c31419_0000.w.1406039">niet</w>
           <w cert="1.0" lemma="verbeuren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c31419_0000.w.1406040">verbooren</w>
           <pc pos="PC" xml:id="c31419_0000.pc.post.00553764" lemma=",">,</pc>

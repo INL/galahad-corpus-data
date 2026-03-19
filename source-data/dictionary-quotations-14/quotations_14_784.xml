@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19112" lemma="INGAEN" partition="train" sense-id="mnw.19112.sense.11" xml:id="c19112_0023">
-        <date atLeast="1331" atMost="1333" timeSpan="1300-1350" />
+      <cit xml:id="c19112_0023">
+        <note>
+          <ab>
+            <date atLeast="1331" atMost="1333" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>INGAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19112.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19112</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.784">
           <w cert="1.0" lemma="welk" pos="PD(type=w-p,position=prenom)" resp="thomas" xml:id="c19112_0023.w.597176">Wulc</w>
           <w cert="1.0" lemma="vrede" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19112_0023.w.597177">vrede</w>
-          <w cert="1.0" lemma="ingaan" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.19112.sense.11" xml:id="c19112_0023.w.597178">ingaen</w>
+          <w cert="1.0" lemma="ingaan" pos="VRB(finiteness=inf)" resp="roland" xml:id="c19112_0023.w.597178" lemmaRef="mnw.19112.sense.11">ingaen</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c19112_0023.w.597179">sal</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c19112_0023.w.597180">op</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c19112_0023.w.597181">ons</w>

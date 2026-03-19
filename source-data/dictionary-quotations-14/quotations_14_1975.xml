@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48513" lemma="SCHADE" partition="train" sense-id="mnw.48513.sense.3" xml:id="c48513_0030">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c48513_0030">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHADE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48513.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48513</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1975">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c48513_0030.w.148843">In</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c48513_0030.w.148844">de</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c48513_0030.w.148857">hi</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c48513_0030.w.148858">deed</w>
           <w cert="1.0" lemma="beide" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c48513_0030.w.148859">beid</w>
-          <w cert="1.0" lemma="schade" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48513.sense.3" xml:id="c48513_0030.w.148860">scade</w>
+          <w cert="1.0" lemma="schade" pos="NOU-C(number=sg)" resp="roland" xml:id="c48513_0030.w.148860" lemmaRef="mnw.48513.sense.3">scade</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c48513_0030.w.148861">ende</w>
           <w cert="1.0" lemma="schande" pos="NOU-C(number=sg)" resp="roland" xml:id="c48513_0030.w.148862">scande</w>
           <pc pos="PC" xml:id="c48513_0030.pc.post.00062196" lemma=",">,</pc>

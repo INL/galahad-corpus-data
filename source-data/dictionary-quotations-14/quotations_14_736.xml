@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17768" lemma="HOLOCAUST" partition="train" sense-id="mnw.17768.sense.1" xml:id="c17768_0000">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c17768_0000">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HOLOCAUST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17768.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17768</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.736">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c17768_0000.w.374100">Een</w>
           <w cert="1.0" lemma="altaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c17768_0000.w.374101">outaer</w>
@@ -58,7 +71,7 @@
           </w>
           <w cert="1.0" lemma="branden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c17768_0000.w.374105">brande</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c17768_0000.w.374106">die</w>
-          <w cert="1.0" lemma="holocaust" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.17768.sense.1" xml:id="c17768_0000.w.374107">holocauste</w>
+          <w cert="1.0" lemma="holocaust" pos="NOU-C(number=sg)" resp="roland" xml:id="c17768_0000.w.374107" lemmaRef="mnw.17768.sense.1">holocauste</w>
           <pc pos="PC" xml:id="c17768_0000.pc.floating.00152613" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c17768_0000.w.374109">die</w>
           <w cert="1.0" lemma="offerande" pos="NOU-C(number=pl)" resp="roland" xml:id="c17768_0000.w.374110">offerande</w>

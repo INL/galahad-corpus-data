@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12705" lemma="GESCEITSBRIEF" partition="train" sense-id="mnw.12705.sense.1" xml:id="c12705_0000">
-        <date atLeast="1494" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c12705_0000">
+        <note>
+          <ab>
+            <date atLeast="1494" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GESCEITSBRIEF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12705.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12705</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.331">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c12705_0000.w.1164982">Die</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12705_0000.w.1164983">sie</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c12705_0000.w.1164999">doen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c12705_0000.w.1165000">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12705_0000.w.1165001">den</w>
-          <w cert="1.0" lemma="gescheidsbrief" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.12705.sense.1" xml:id="c12705_0000.w.1165002">gescheitsbreven</w>
+          <w cert="1.0" lemma="gescheidsbrief" pos="NOU-C(number=pl)" resp="roland" xml:id="c12705_0000.w.1165002" lemmaRef="mnw.12705.sense.1">gescheitsbreven</w>
           <pc pos="PC" xml:id="c12705_0000.pc.floating.00488778" lemma=",">,</pc>
         </q>
       </cit>

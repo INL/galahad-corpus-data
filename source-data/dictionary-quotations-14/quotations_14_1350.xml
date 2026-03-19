@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32666" lemma="NIJT" partition="train" sense-id="mnw.32666.sense.5" xml:id="c32666_0032">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c32666_0032">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NIJT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32666.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32666</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1350">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c32666_0032.w.1660440">Doe</w>
           <w cert="1.0" lemma="ondersteken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c32666_0032.w.1660441">onderstaken</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c32666_0032.w.1660442">si</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c32666_0032.w.1660443">hem</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c32666_0032.w.1660444">met</w>
-          <w cert="1.0" lemma="nijd" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.32666.sense.5" xml:id="c32666_0032.w.1660445">nide</w>
+          <w cert="1.0" lemma="nijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c32666_0032.w.1660445" lemmaRef="mnw.32666.sense.5">nide</w>
           <pc pos="PC" xml:id="c32666_0032.pc.floating.00656013" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c32666_0032.w.1660447">dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c32666_0032.w.1660448">die</w>

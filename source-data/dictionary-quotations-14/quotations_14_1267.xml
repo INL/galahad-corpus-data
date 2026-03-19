@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30722" lemma="MONT" partition="train" sense-id="mnw.30722.sense.1" xml:id="c30722_0028">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c30722_0028">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MONT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30722.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30722</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1267">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c30722_0028.w.1295660">So</w>
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c30722_0028.w.1295661">neemt</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="vol" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c30722_0028.w.1295667">vol</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c30722_0028.w.1295668">haren</w>
           <w cert="1.0" lemma="wijd" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c30722_0028.w.1295669">widen</w>
-          <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30722.sense.1" xml:id="c30722_0028.w.1295670">mont</w>
+          <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" xml:id="c30722_0028.w.1295670" lemmaRef="mnw.30722.sense.1">mont</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c30722_0028.w.1295671">ende</w>
           <w cert="1.0" lemma="gieten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30722_0028.w.1295672">ghiet</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c30722_0028.w.1295673">op</w>

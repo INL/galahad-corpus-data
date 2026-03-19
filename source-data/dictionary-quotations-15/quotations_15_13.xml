@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00432" lemma="AENCRISCEN" partition="train" sense-id="mnw.00432.sense.1" xml:id="c00432_0000">
-        <date atLeast="1484" atMost="1484" timeSpan="1450-1500" />
+      <cit xml:id="c00432_0000">
+        <note>
+          <ab>
+            <date atLeast="1484" atMost="1484" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>AENCRISCEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00432.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00432</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.13">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c00432_0000.w.82752">Si</w>
-          <w cert="1.0" lemma="aankrijsen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.00432.sense.1" xml:id="c00432_0000.w.82753">krijschen<join n="mw_376804" />
+          <w cert="1.0" lemma="aankrijsen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c00432_0000.w.82753" lemmaRef="mnw.00432.sense.1">krijschen<join n="mw_376804" />
           </w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c00432_0000.w.82754">hem</w>
-          <w cert="1.0" lemma="aankrijsen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.00432.sense.1" xml:id="c00432_0000.w.82755">an<join n="mw_376804" />
+          <w cert="1.0" lemma="aankrijsen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c00432_0000.w.82755" lemmaRef="mnw.00432.sense.1">an<join n="mw_376804" />
           </w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c00432_0000.w.82756">mit</w>
           <w cert="1.0" lemma="mildelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c00432_0000.w.82757">mildeliker</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16923" lemma="HERNESSE" partition="train" sense-id="mnw.16923.sense.1" xml:id="c16923_0001">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c16923_0001">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HERNESSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16923.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16923</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.716">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c16923_0001.w.265049">Doe</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c16923_0001.w.265050">sine</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="weiden" pos="NOU-C(number=sg)" resp="roland" xml:id="c16923_0001.w.265053">weedene</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c16923_0001.w.265054">sijns</w>
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="roland" xml:id="c16923_0001.w.265055">vader</w>
-          <w cert="1.0" lemma="hernis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.16923.sense.1" xml:id="c16923_0001.w.265056">hernesse</w>
+          <w cert="1.0" lemma="hernis" pos="NOU-C(number=sg)" resp="roland" xml:id="c16923_0001.w.265056" lemmaRef="mnw.16923.sense.1">hernesse</w>
           <w cert="1.0" lemma="marren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c16923_0001.w.265057">merreden</w>
           <pc pos="PC" xml:id="c16923_0001.pc.post.00108692" lemma=",">,</pc>
         </q>

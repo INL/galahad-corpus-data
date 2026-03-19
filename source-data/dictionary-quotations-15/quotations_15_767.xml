@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30895" lemma="MORINNE" partition="train" sense-id="mnw.30895.sense.1" xml:id="c30895_0001">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c30895_0001">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MORINNE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30895.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30895</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.767">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c30895_0001.w.1325185">Van</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c30895_0001.w.1325186">deser</w>
-          <w cert="1.0" lemma="Morin" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.30895.sense.1" xml:id="c30895_0001.w.1325187">moorynnen</w>
+          <w cert="1.0" lemma="Morin" pos="NOU-C(number=pl)" resp="roland" xml:id="c30895_0001.w.1325187" lemmaRef="mnw.30895.sense.1">moorynnen</w>
           <w cert="1.0" lemma="verwijten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c30895_0001.w.1325188">verweten</w>
           <w cert="1.0" lemma="Aäron" pos="NOU-P" resp="roland" xml:id="c30895_0001.w.1325189">Aaron</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c30895_0001.w.1325190">ende</w>

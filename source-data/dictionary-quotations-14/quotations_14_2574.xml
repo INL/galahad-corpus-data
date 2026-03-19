@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62684" lemma="VEREISCHEN" partition="train" sense-id="mnw.62684.sense.8" xml:id="c62684_0078">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c62684_0078">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VEREISCHEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62684.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62684</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2574">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c62684_0078.w.1262746">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62684_0078.w.1262747">hi</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c62684_0078.pc.post.00506758" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62684_0078.w.1262754">die</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62684_0078.w.1262755">hi</w>
-          <w cert="1.0" lemma="vereisen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.62684.sense.8" xml:id="c62684_0078.w.1262756">verheeste</w>
+          <w cert="1.0" lemma="vereisen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c62684_0078.w.1262756" lemmaRef="mnw.62684.sense.8">verheeste</w>
           <pc pos="PC" xml:id="c62684_0078.pc.floating.00506759" lemma=",">,</pc>
         </q>
       </cit>

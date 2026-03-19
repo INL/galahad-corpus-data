@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27903" lemma="MANGELTOCHT" partition="train" sense-id="mnw.27903.sense.1" xml:id="c27903_0001">
-        <date atLeast="1380" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c27903_0001">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MANGELTOCHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27903.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27903</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1122">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c27903_0001.w.754575">Zo</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c27903_0001.w.754576">wie</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c27903_0001.pc.floating.00292774" lemma="…">…</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c27903_0001.w.754581">met</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c27903_0001.w.754582">hem</w>
-          <w cert="1.0" lemma="mangeltocht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.27903.sense.1" xml:id="c27903_0001.w.754583">mangeltucht</w>
+          <w cert="1.0" lemma="mangeltocht" pos="NOU-C(number=sg)" resp="roland" xml:id="c27903_0001.w.754583" lemmaRef="mnw.27903.sense.1">mangeltucht</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c27903_0001.w.754584">of</w>
           <w cert="1.0" lemma="openbaarlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c27903_0001.w.754585">openbaerlic</w>
           <w cert="1.0" lemma="gezelschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c27903_0001.w.754586">ghezelscip</w>

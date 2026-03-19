@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46786" lemma="ROEKEN" partition="train" sense-id="mnw.46786.sense.48" xml:id="c46786_0214">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c46786_0214">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ROEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46786.sense.48</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46786</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1204">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c46786_0214.w.1094695">Dat</w>
           <w cert="1.0" lemma="de+een" pos="PD(type=d-p,subtype=art,position=prenom)+NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c46786_0214.w.1094696">deen</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c46786_0214.pc.post.00430517" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c46786_0214.w.1094702">als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c46786_0214.w.1094703">hem</w>
-          <w cert="1.0" lemma="roeken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.46786.sense.48" xml:id="c46786_0214.w.1094704">rochte</w>
+          <w cert="1.0" lemma="roeken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c46786_0214.w.1094704" lemmaRef="mnw.46786.sense.48">rochte</w>
           <pc pos="PC" xml:id="c46786_0214.pc.floating.00430518" lemma=",">,</pc>
         </q>
       </cit>

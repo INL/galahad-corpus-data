@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67622" lemma="VOLVAREN" partition="train" sense-id="mnw.67622.sense.3" xml:id="c67622_0006">
-        <date atLeast="1429" atMost="1429" timeSpan="1400-1450" />
+      <cit xml:id="c67622_0006">
+        <note>
+          <ab>
+            <date atLeast="1429" atMost="1429" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VOLVAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67622.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67622</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2011">
           <w cert="1.0" lemma="dat+men" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c67622_0006.w.653939">Datmen</w>
           <w cert="1.0" lemma="alsdan" pos="ADV(type=reg)" resp="thomas" xml:id="c67622_0006.w.653940">alsdan</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="uitspreken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c67622_0006.w.653943">uytspreken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c67622_0006.w.653944">ende</w>
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c67622_0006.w.653945">dairmede</w>
-          <w cert="1.0" lemma="volvaren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.67622.sense.3" xml:id="c67622_0006.w.653946">volvaeren</w>
+          <w cert="1.0" lemma="volvaren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c67622_0006.w.653946" lemmaRef="mnw.67622.sense.3">volvaeren</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c67622_0006.w.653947">zall</w>
           <pc pos="PC" xml:id="c67622_0006.pc.post.00261220" lemma=",">,</pc>
         </q>

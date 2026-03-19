@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08842" lemma="ENICH" partition="train" sense-id="mnw.08842.sense.1" xml:id="c08842_0007">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c08842_0007">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ENICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08842.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08842</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.376">
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c08842_0007.w.494225">Op</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c08842_0007.w.494226">sijn</w>
-          <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" sense-id="mnw.08842.sense.1" xml:id="c08842_0007.w.494227">enich</w>
+          <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c08842_0007.w.494227" lemmaRef="mnw.08842.sense.1">enich</w>
           <w cert="1.0" lemma="woord" pos="NOU-C(number=sg)" resp="roland" xml:id="c08842_0007.w.494228">woert</w>
           <pc join="right" pos="PC" xml:id="c08842_0007.pc.pre.00213714" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c08842_0007.w.494229">zijn</w>

@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15509" lemma="HALS" partition="test" sense-id="mnw.15509.sense.5" xml:id="c15509_0054">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c15509_0054">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HALS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15509.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15509</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.671">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c15509_0054.w.37232">Hi</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c15509_0054.w.37233">moet</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c15509_0054.w.37234">metten</w>
-          <w cert="1.0" lemma="hals" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.15509.sense.5" xml:id="c15509_0054.w.37235">halse</w>
+          <w cert="1.0" lemma="hals" pos="NOU-C(number=sg)" resp="roland" xml:id="c15509_0054.w.37235" lemmaRef="mnw.15509.sense.5">halse</w>
           <w cert="1.0" lemma="betalen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c15509_0054.w.37236">betalen</w>
           <pc pos="PC" xml:id="c15509_0054.pc.post.00014937" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c15509_0054.w.37237">so</w>

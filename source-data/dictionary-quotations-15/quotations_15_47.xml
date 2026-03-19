@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01922" lemma="ATOER" partition="train" sense-id="mnw.01922.sense.3" xml:id="c01922_0003">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c01922_0003">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ATOER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01922.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01922</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.47">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c01922_0003.w.346709">In</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c01922_0003.w.346710">alle</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="spraak" pos="NOU-C(number=sg)" resp="roland" xml:id="c01922_0003.w.346727">spraken</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c01922_0003.w.346728">van</w>
           <w cert="1.0" lemma="fel" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c01922_0003.w.346729">fellen</w>
-          <w cert="1.0" lemma="atoer" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.01922.sense.3" xml:id="c01922_0003.w.346730">atoere</w>
+          <w cert="1.0" lemma="atoer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01922_0003.w.346730" lemmaRef="mnw.01922.sense.3">atoere</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="thomas" xml:id="c01922_0003.w.346731">ne</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c01922_0003.w.346732">soude</w>
           <w cert="1.0" lemma="lijden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c01922_0003.w.346733">liden</w>

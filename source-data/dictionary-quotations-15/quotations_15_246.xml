@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09422" lemma="EWICHEIT" partition="train" sense-id="mnw.09422.sense.1" xml:id="c09422_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c09422_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>EWICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09422.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09422</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.246">
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c09422_0000.w.564543">Gheen</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=sg)" resp="thomas" xml:id="c09422_0000.w.564544">dinc</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="tijd" pos="NOU-C(number=sg)" resp="thomas" xml:id="c09422_0000.w.564549">tijt</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c09422_0000.w.564550">of</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c09422_0000.w.564551">in</w>
-          <w cert="1.0" lemma="eeuwigheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.09422.sense.1" xml:id="c09422_0000.w.564552">ewicheit</w>
+          <w cert="1.0" lemma="eeuwigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c09422_0000.w.564552" lemmaRef="mnw.09422.sense.1">ewicheit</w>
           <pc pos="PC" xml:id="c09422_0000.pc.floating.00243748" lemma=",">,</pc>
         </q>
       </cit>

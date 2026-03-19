@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62755" lemma="VERGADERTHEIT" partition="train" sense-id="mnw.62755.sense.1" xml:id="c62755_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c62755_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERGADERTHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62755.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62755</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1792">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62755_0000.w.1283606">Si</w>
           <pc join="right" pos="PC" xml:id="c62755_0000.pc.pre.00514886" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="gaarne" pos="ADV(type=reg)" resp="thomas" xml:id="c62755_0000.w.1283610">gherne</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c62755_0000.w.1283611">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62755_0000.w.1283612">der</w>
-          <w cert="1.0" lemma="vergaderdheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.62755.sense.1" xml:id="c62755_0000.w.1283613">vergadertheit</w>
+          <w cert="1.0" lemma="vergaderdheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62755_0000.w.1283613" lemmaRef="mnw.62755.sense.1">vergadertheit</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c62755_0000.w.1283614">haerre</w>
           <w cert="1.0" lemma="gezelschap" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62755_0000.w.1283615">gheselscap</w>
           <pc pos="PC" xml:id="c62755_0000.pc.post.00514888" lemma=",">,</pc>

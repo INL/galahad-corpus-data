@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03807" lemma="BESOEKEN" partition="train" sense-id="mnw.03807.sense.13" xml:id="c03807_0071">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c03807_0071">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BESOEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03807.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03807</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.106">
           <w cert="1.0" lemma="informeren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03807_0071.w.764110">Informeeren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03807_0071.w.764111">ende</w>
-          <w cert="1.0" lemma="bezoeken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.03807.sense.13" xml:id="c03807_0071.w.764112">besouken</w>
+          <w cert="1.0" lemma="bezoeken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03807_0071.w.764112" lemmaRef="mnw.03807.sense.13">besouken</w>
           <pc pos="PC" xml:id="c03807_0071.pc.floating.00298362" lemma=",">,</pc>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c03807_0071.w.764114">wie</w>
           <w cert="1.0" lemma="dat+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c03807_0071.w.764115">datse</w>

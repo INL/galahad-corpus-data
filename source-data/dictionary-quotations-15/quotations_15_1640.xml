@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58956" lemma="TORMENTEN" partition="train" sense-id="mnw.58956.sense.6" xml:id="c58956_0022">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c58956_0022">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TORMENTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58956.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58956</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1640">
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58956_0022.w.437833">Wi</w>
           <pc join="right" pos="PC" xml:id="c58956_0022.pc.pre.00176824" lemma="(">(</pc>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c58956_0022.w.437836">ons</w>
           <w cert="1.0" lemma="best" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58956_0022.w.437837">beste</w>
           <pc pos="PC" xml:id="c58956_0022.pc.post.00176826" lemma=",">,</pc>
-          <w cert="1.0" lemma="tormenten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.58956.sense.6" xml:id="c58956_0022.w.437838">tormenten</w>
+          <w cert="1.0" lemma="tormenten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58956_0022.w.437838" lemmaRef="mnw.58956.sense.6">tormenten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58956_0022.w.437839">en</w>
           <w cert="1.0" lemma="pijnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58956_0022.w.437840">pinen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c58956_0022.w.437841">de</w>

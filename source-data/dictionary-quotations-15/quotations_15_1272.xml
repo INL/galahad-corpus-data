@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48721" lemma="SCHALC" partition="train" sense-id="mnw.48721.sense.11" xml:id="c48721_0048">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c48721_0048">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHALC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48721.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48721</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1272">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c48721_0048.w.194491">Dat</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c48721_0048.w.194492">dye</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="klein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c48721_0048.w.194495">cleynen</w>
           <w cert="1.0" lemma="lichaam" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48721_0048.w.194496">lichaem</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c48721_0048.w.194497">zijn</w>
-          <w cert="1.0" lemma="schalk" pos="AA(degree=comp,position=free)" resp="thomas" sense-id="mnw.48721.sense.11" xml:id="c48721_0048.w.194498">scalcker</w>
+          <w cert="1.0" lemma="schalk" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c48721_0048.w.194498" lemmaRef="mnw.48721.sense.11">scalcker</w>
           <pc join="right" pos="PC" xml:id="c48721_0048.pc.pre.00080642" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48721_0048.w.194499">t.</w>
           <w cert="1.0" lemma="schalk" pos="AA(degree=comp,position=free,WF=mis)" resp="thomas" xml:id="c48721_0048.w.194500">scascker</w>

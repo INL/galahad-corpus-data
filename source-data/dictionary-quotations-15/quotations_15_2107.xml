@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70502" lemma="WAPENEN" partition="test" sense-id="mnw.70502.sense.5" xml:id="c70502_0023">
-        <date atLeast="1469" atMost="1469" timeSpan="1450-1500" />
+      <cit xml:id="c70502_0023">
+        <note>
+          <ab>
+            <date atLeast="1469" atMost="1469" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WAPENEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70502.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70502</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2107">
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c70502_0023.w.1283101">Nyemandt</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c70502_0023.w.1283102">en</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c70502_0023.w.1283104">sijn</w>
           <w cert="1.0" lemma="goed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c70502_0023.w.1283105">goet</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c70502_0023.w.1283106">moogen</w>
-          <w cert="1.0" lemma="wapenen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.70502.sense.5" xml:id="c70502_0023.w.1283107">wapenen</w>
+          <w cert="1.0" lemma="wapenen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c70502_0023.w.1283107" lemmaRef="mnw.70502.sense.5">wapenen</w>
           <pc pos="PC" xml:id="c70502_0023.pc.floating.00514629" lemma=",">,</pc>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70502_0023.w.1283109">men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c70502_0023.w.1283110">sal</w>

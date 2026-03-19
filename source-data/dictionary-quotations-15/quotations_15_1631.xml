@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58746" lemma="TOGEN" partition="train" sense-id="mnw.58746.sense.13" xml:id="c58746_0119">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c58746_0119">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58746.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58746</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1631">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c58746_0119.w.389208">Dat</w>
           <pc join="right" pos="PC" xml:id="c58746_0119.pc.pre.00157918" lemma="(">(</pc>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c58746_0119.pc.post.00157919" lemma=")">)</pc>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58746_0119.w.389211">wert</w>
           <w cert="1.0" lemma="Tibeert" pos="NOU-P" resp="roland" xml:id="c58746_0119.w.389212">Tibeerde</w>
-          <w cert="1.0" lemma="togen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.58746.sense.13" xml:id="c58746_0119.w.389213">ghetoghet</w>
+          <w cert="1.0" lemma="togen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c58746_0119.w.389213" lemmaRef="mnw.58746.sense.13">ghetoghet</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c58746_0119.w.389214">wel</w>
           <pc join="right" pos="PC" xml:id="c58746_0119.pc.pre.00157920" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58746_0119.w.389215">d.</w>

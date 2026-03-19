@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73988" lemma="WISSCHEN" partition="dev" sense-id="mnw.73988.sense.1" xml:id="c73988_0003">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c73988_0003">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WISSCHEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73988.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73988</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2276">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c73988_0003.w.2009623">Ende</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c73988_0003.w.2009624">als</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="ontdekken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c73988_0003.w.2009635">ontdecken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c73988_0003.w.2009636">ende</w>
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c73988_0003.w.2009637">scoone</w>
-          <w cert="1.0" lemma="wissen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.73988.sense.1" xml:id="c73988_0003.w.2009638">wisschen</w>
+          <w cert="1.0" lemma="wissen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c73988_0003.w.2009638" lemmaRef="mnw.73988.sense.1">wisschen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c73988_0003.w.2009639">ende</w>
           <w cert="1.0" lemma="drogen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c73988_0003.w.2009640">droghen</w>
           <pc pos="PC" xml:id="c73988_0003.pc.post.00788386" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38241" lemma="ONTWAPENEN" partition="train" sense-id="mnw.38241.sense.1" xml:id="c38241_0005">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c38241_0005">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTWAPENEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38241.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38241</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1569">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c38241_0005.w.904577">Si</w>
           <pc join="right" pos="PC" xml:id="c38241_0005.pc.pre.00362692" lemma="(">(</pc>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="schier" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c38241_0005.w.904584">scierre</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c38241_0005.w.904585">ende</w>
           <w cert="1.0" lemma="helpen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c38241_0005.w.904586">holpen</w>
-          <w cert="1.0" lemma="ontwapenen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.38241.sense.1" xml:id="c38241_0005.w.904587">ontwapinen</w>
+          <w cert="1.0" lemma="ontwapenen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c38241_0005.w.904587" lemmaRef="mnw.38241.sense.1">ontwapinen</w>
           <pc pos="PC" xml:id="c38241_0005.pc.floating.00362694" lemma=",">,</pc>
         </q>
       </cit>

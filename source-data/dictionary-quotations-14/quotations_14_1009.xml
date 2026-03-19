@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25790" lemma="LESEN" partition="train" sense-id="mnw.25790.sense.29" xml:id="c25790_0176">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c25790_0176">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25790.sense.29</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25790</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1009">
           <w cert="1.0" lemma="als+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c25790_0176.w.268465">Alst</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c25790_0176.w.268466">al</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25790_0176.w.268467">es</w>
-          <w cert="1.0" lemma="lezen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.25790.sense.29" xml:id="c25790_0176.w.268468">ghelesen</w>
+          <w cert="1.0" lemma="lezen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c25790_0176.w.268468" lemmaRef="mnw.25790.sense.29">ghelesen</w>
           <pc join="right" pos="PC" xml:id="c25790_0176.pc.pre.00104100" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c25790_0176.w.268469">in</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c25790_0176.w.268470">het</w>

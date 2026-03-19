@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26182" lemma="LIEVE" partition="train" sense-id="mnw.26182.sense.3" xml:id="c26182_0008">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c26182_0008">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LIEVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26182.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26182</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1043">
           <w cert="1.0" lemma="ai" pos="INT" resp="thomas" xml:id="c26182_0008.w.391122">Ay</w>
           <w cert="1.0" lemma="Heile" pos="NOU-P" resp="roland" xml:id="c26182_0008.w.391123">Heile</w>
           <pc pos="PC" xml:id="c26182_0008.pc.post.00151665" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c26182_0008.w.391124">dat</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c26182_0008.w.391125">u</w>
-          <w cert="1.0" lemma="lieve" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26182.sense.3" xml:id="c26182_0008.w.391126">lieve</w>
+          <w cert="1.0" lemma="lieve" pos="NOU-C(number=sg)" resp="roland" xml:id="c26182_0008.w.391126" lemmaRef="mnw.26182.sense.3">lieve</w>
           <w cert="1.0" lemma="geschieden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c26182_0008.w.391127">ghescie</w>
           <pc pos="PC" xml:id="c26182_0008.pc.post.00151666" lemma=",">,</pc>
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c26182_0008.w.391128">sprac</w>

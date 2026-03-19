@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53639" lemma="SOUTVAT" partition="train" sense-id="mnw.53639.sense.1" xml:id="c53639_0001">
-        <date atLeast="1370" atMost="1378" timeSpan="1350-1400" />
+      <cit xml:id="c53639_0001">
+        <note>
+          <ab>
+            <date atLeast="1370" atMost="1378" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SOUTVAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53639.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53639</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2150">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c53639_0001.w.1206986">Als</w>
           <w cert="1.0" lemma="dat+hij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c53639_0001.w.1206987">dattene</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c53639_0001.w.1206992">hebben</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c53639_0001.w.1206993">met</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c53639_0001.w.1206994">eenen</w>
-          <w cert="1.0" lemma="zoutvat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53639.sense.1" xml:id="c53639_0001.w.1206995">soutvate</w>
+          <w cert="1.0" lemma="zoutvat" pos="NOU-C(number=sg)" resp="roland" xml:id="c53639_0001.w.1206995" lemmaRef="mnw.53639.sense.1">soutvate</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c53639_0001.w.1206996">eene</w>
           <w cert="1.0" lemma="wond" pos="NOU-C(number=sg)" resp="roland" xml:id="c53639_0001.w.1206997">wonde</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c53639_0001.w.1206998">in</w>

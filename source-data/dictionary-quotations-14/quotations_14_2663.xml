@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63986" lemma="VERNOOYLIJC" partition="train" sense-id="mnw.63986.sense.1" xml:id="c63986_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c63986_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERNOOYLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63986.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63986</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2663">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c63986_0000.w.1633110">Al</w>
           <w cert="1.0" lemma="dat+gemak" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c63986_0000.w.1633111">tgemac</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63986_0000.w.1633117">wert</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c63986_0000.w.1633118">hare</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c63986_0000.w.1633119">een</w>
-          <w cert="1.0" lemma="vernooilijk" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.63986.sense.1" xml:id="c63986_0000.w.1633120">vernoilike</w>
+          <w cert="1.0" lemma="vernooilijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c63986_0000.w.1633120" lemmaRef="mnw.63986.sense.1">vernoilike</w>
           <w cert="1.0" lemma="kwaal" pos="NOU-C(number=sg)" resp="roland" xml:id="c63986_0000.w.1633121">quale</w>
           <pc pos="PC" xml:id="c63986_0000.pc.post.00651345" lemma=",">,</pc>
         </q>

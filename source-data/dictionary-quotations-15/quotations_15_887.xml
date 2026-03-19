@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35417" lemma="ONGEHINDERT" partition="train" sense-id="mnw.35417.sense.1" xml:id="c35417_0009">
-        <date atLeast="1419" atMost="1419" timeSpan="1400-1450" />
+      <cit xml:id="c35417_0009">
+        <note>
+          <ab>
+            <date atLeast="1419" atMost="1419" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONGEHINDERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35417.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35417</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.887">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c35417_0009.w.361348">Die</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c35417_0009.w.361349">sal</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c35417_0009.pc.floating.00148011" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c35417_0009.w.361355">ende</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c35417_0009.w.361356">bliven</w>
-          <w cert="1.0" lemma="ongehinderd" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35417.sense.1" xml:id="c35417_0009.w.361357">ongehindert</w>
+          <w cert="1.0" lemma="ongehinderd" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35417_0009.w.361357" lemmaRef="mnw.35417.sense.1">ongehindert</w>
           <pc pos="PC" xml:id="c35417_0009.pc.floating.00148012" lemma=",">,</pc>
         </q>
       </cit>

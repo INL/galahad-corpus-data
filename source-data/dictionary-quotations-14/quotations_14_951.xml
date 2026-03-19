@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.24517" lemma="CUUSCHEIT" partition="train" sense-id="mnw.24517.sense.2" xml:id="c24517_0004">
-        <date atLeast="1350" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c24517_0004">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CUUSCHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.24517.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.24517</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.951">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c24517_0004.w.1526774">Als</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c24517_0004.w.1526775">men</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="c24517_0004.w.1526779">mensche</w>
           <w cert="1.0" lemma="getogenheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c24517_0004.w.1526780">ghetoghenheyt</w>
           <pc pos="PC" xml:id="c24517_0004.pc.post.00613041" lemma=",">,</pc>
-          <w cert="1.0" lemma="kuisheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.24517.sense.2" xml:id="c24517_0004.w.1526781">kuuschheyt</w>
+          <w cert="1.0" lemma="kuisheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c24517_0004.w.1526781" lemmaRef="mnw.24517.sense.2">kuuschheyt</w>
           <pc pos="PC" xml:id="c24517_0004.pc.floating.00613042" lemma=",">,</pc>
           <w cert="1.0" lemma="verduldigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c24517_0004.w.1526783">verduldicheyt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c24517_0004.w.1526784">ende</w>

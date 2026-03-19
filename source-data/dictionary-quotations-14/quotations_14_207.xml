@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03992" lemma="BET" partition="train" sense-id="mnw.03992.sense.83" xml:id="c03992_0280">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c03992_0280">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03992.sense.83</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03992</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.207">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c03992_0280.w.812190">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c03992_0280.w.812191">hi</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="heiden" pos="NOU-C(number=pl)" resp="roland" xml:id="c03992_0280.w.812193">heidene</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c03992_0280.w.812194">dede</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03992_0280.w.812195">gaen</w>
-          <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.03992.sense.83" xml:id="c03992_0280.w.812196">bat</w>
+          <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" xml:id="c03992_0280.w.812196" lemmaRef="mnw.03992.sense.83">bat</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c03992_0280.w.812197">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03992_0280.w.812198">den</w>
           <w cert="1.0" lemma="tempel" pos="NOU-C(number=sg)" resp="roland" xml:id="c03992_0280.w.812199">tempele</w>

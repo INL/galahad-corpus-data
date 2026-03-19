@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10265" lemma="GAVELOTE" partition="train" sense-id="mnw.10265.sense.1" xml:id="c10265_0004">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c10265_0004">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GAVELOTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10265.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10265</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.260">
           <w cert="1.0" lemma="H." pos="NOU-P(WF=abbr)" resp="thomas" xml:id="c10265_0004.w.692054">H</w>
           <pc pos="PC" xml:id="c10265_0004.pc.post.00297234" lemma="..,">..,</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="schieten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c10265_0004.w.692059">scoot</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c10265_0004.w.692060">met</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c10265_0004.w.692061">ener</w>
-          <w cert="1.0" lemma="gavelot" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.10265.sense.1" xml:id="c10265_0004.w.692062">gavelote</w>
+          <w cert="1.0" lemma="gavelot" pos="NOU-C(number=sg)" resp="roland" xml:id="c10265_0004.w.692062" lemmaRef="mnw.10265.sense.1">gavelote</w>
           <pc pos="PC" xml:id="c10265_0004.pc.floating.00297235" lemma="..">..</pc>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c10265_0004.w.692064">te</w>
           <w cert="1.0" lemma="dood" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c10265_0004.w.692065">doet</w>

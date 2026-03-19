@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11990" lemma="GENAME" partition="test" sense-id="mnw.11990.sense.1" xml:id="c11990_0002">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c11990_0002">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GENAME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11990.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11990</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.310">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11990_0002.w.1016696">Si</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c11990_0002.w.1016697">worden</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c11990_0002.w.1016702">sinen</w>
           <w cert="1.0" lemma="sant" pos="NOU-C(number=pl)" resp="roland" xml:id="c11990_0002.w.1016703">sancten</w>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c11990_0002.w.1016704">also</w>
-          <w cert="1.0" lemma="genaam" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.11990.sense.1" xml:id="c11990_0002.w.1016705">gename</w>
+          <w cert="1.0" lemma="genaam" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11990_0002.w.1016705" lemmaRef="mnw.11990.sense.1">gename</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c11990_0002.w.1016706">alse</w>
           <w cert="1.0" lemma="Herodes" pos="NOU-P" resp="roland" xml:id="c11990_0002.w.1016707">Herodis</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c11990_0002.w.1016708">was</w>

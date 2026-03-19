@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68714" lemma="VORTBRINGEN" partition="train" sense-id="mnw.68714.sense.3" xml:id="c68714_0007">
-        <date atLeast="1316" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c68714_0007">
+        <note>
+          <ab>
+            <date atLeast="1316" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VORTBRINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68714.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68714</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2872">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c68714_0007.w.863297">Als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c68714_0007.w.863298">die</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="zitten" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c68714_0007.w.863301">geseten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68714_0007.w.863302">ende</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68714_0007.w.863303">men</w>
-          <w cert="1.0" lemma="voortbrengen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.68714.sense.3" xml:id="c68714_0007.w.863304">vortbrachte</w>
+          <w cert="1.0" lemma="voortbrengen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c68714_0007.w.863304" lemmaRef="mnw.68714.sense.3">vortbrachte</w>
           <w cert="1.0" lemma="dat+eten" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c68714_0007.w.863305">teten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68714_0007.w.863306">ende</w>
           <w cert="1.0" lemma="teerst" pos="ADV(type=reg)" resp="thomas" xml:id="c68714_0007.w.863307">teerste</w>

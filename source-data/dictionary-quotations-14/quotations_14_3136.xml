@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73570" lemma="WILEN" partition="dev" sense-id="mnw.73570.sense.1" xml:id="c73570_0017">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c73570_0017">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WILEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73570.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73570</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3136">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73570_0017.w.1897591">Die</w>
           <w cert="1.0" lemma="heiden" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c73570_0017.w.1897592">heydine</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c73570_0017.w.1897593">liede</w>
           <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c73570_0017.w.1897594">plaghen</w>
-          <w cert="1.0" lemma="weleer" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.73570.sense.1" xml:id="c73570_0017.w.1897595">wileneer</w>
+          <w cert="1.0" lemma="weleer" pos="ADV(type=reg)" resp="thomas" xml:id="c73570_0017.w.1897595" lemmaRef="mnw.73570.sense.1">wileneer</w>
           <pc join="right" pos="PC" xml:id="c73570_0017.pc.pre.00747216" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c73570_0017.w.1897596">var.</w>
           <w cert="1.0" lemma="wijlen" pos="ADV(type=reg)" resp="roland" xml:id="c73570_0017.w.1897597">wilen</w>

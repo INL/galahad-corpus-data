@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21055" lemma="KELNAREHURE" partition="train" sense-id="mnw.21055.sense.1" xml:id="c21055_0001">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c21055_0001">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KELNAREHURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21055.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21055</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.839">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21055_0001.w.895002">Van</w>
           <w cert="1.0" lemma="makelaardij" pos="NOU-C(number=pl)" resp="roland" xml:id="c21055_0001.w.895003">makelardien</w>
           <pc pos="PC" xml:id="c21055_0001.pc.post.00362704" lemma=",">,</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21055_0001.w.895004">van</w>
-          <w cert="1.0" lemma="kelderhuur" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21055.sense.1" xml:id="c21055_0001.w.895005">kelnarehueren</w>
+          <w cert="1.0" lemma="kelderhuur" pos="NOU-C(number=pl)" resp="roland" xml:id="c21055_0001.w.895005" lemmaRef="mnw.21055.sense.1">kelnarehueren</w>
           <pc pos="PC" xml:id="c21055_0001.pc.floating.00362705" lemma=",">,</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21055_0001.w.895007">van</w>
           <w cert="1.0" lemma="meten" pos="NOU-C(number=sg)" resp="roland" xml:id="c21055_0001.w.895008">metene</w>

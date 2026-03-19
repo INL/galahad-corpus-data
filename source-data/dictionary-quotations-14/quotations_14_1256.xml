@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30475" lemma="MOGEN" partition="train" sense-id="mnw.30475.sense.9" xml:id="c30475_0070">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c30475_0070">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30475.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30475</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1256">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c30475_0070.w.1257775">Dien</w>
           <pc join="right" pos="PC" xml:id="c30475_0070.pc.pre.00494058" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="zo" pos="CONJ(type=sub)" resp="thomas" xml:id="c30475_0070.w.1257779">so</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30475_0070.w.1257780">hi</w>
           <w cert="1.0" lemma="best" pos="AA(degree=sup,position=free)" resp="roland" xml:id="c30475_0070.w.1257781">best</w>
-          <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.30475.sense.9" xml:id="c30475_0070.w.1257782">mochte</w>
+          <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c30475_0070.w.1257782" lemmaRef="mnw.30475.sense.9">mochte</w>
           <pc pos="PC" xml:id="c30475_0070.pc.floating.00494060" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69858" lemma="WAERACHTICH" partition="dev" sense-id="mnw.69858.sense.11" xml:id="c69858_0035">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c69858_0035">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WAERACHTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69858.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69858</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2943">
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c69858_0035.w.1140989">Of</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c69858_0035.w.1140990">de</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="waarachtig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c69858_0035.w.1140992">waratich</w>
           <pc join="right" pos="PC" xml:id="c69858_0035.pc.pre.00457742" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69858_0035.w.1140993">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.69858.sense.11" xml:id="c69858_0035.w.1140994">warachtich</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69858_0035.w.1140994" lemmaRef="mnw.69858.sense.11">warachtich</w>
           <pc pos="PC" xml:id="c69858_0035.pc.floating.00457744" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c69858_0035.w.1140996">es</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c69858_0035.w.1140997">of</w>

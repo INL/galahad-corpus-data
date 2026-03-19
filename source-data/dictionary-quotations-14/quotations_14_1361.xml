@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32826" lemma="NOOIT" partition="train" sense-id="mnw.32826.sense.8" xml:id="c32826_0055">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c32826_0055">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NOOIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32826.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32826</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1361">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c32826_0055.w.1694740">Mi</w>
           <w cert="1.0" lemma="rouwen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c32826_0055.w.1694741">rouwet</w>
@@ -55,7 +68,7 @@
           <pc join="right" pos="PC" xml:id="c32826_0055.pc.pre.00670424" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c32826_0055.w.1694744">minne</w>
           <pc pos="PC" xml:id="c32826_0055.pc.post.00670425" lemma=")">)</pc>
-          <w cert="1.0" lemma="nooit" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.32826.sense.8" xml:id="c32826_0055.w.1694745">noyt</w>
+          <w cert="1.0" lemma="nooit" pos="ADV(type=reg)" resp="thomas" xml:id="c32826_0055.w.1694745" lemmaRef="mnw.32826.sense.8">noyt</w>
           <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c32826_0055.w.1694746">plach</w>
           <pc pos="PC" xml:id="c32826_0055.pc.post.00670426" lemma=",">,</pc>
         </q>

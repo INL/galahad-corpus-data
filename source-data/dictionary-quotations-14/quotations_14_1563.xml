@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38117" lemma="ONTFARMEN" partition="train" sense-id="mnw.38117.sense.2" xml:id="c38117_0010">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c38117_0010">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTFARMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38117.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38117</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1563">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c38117_0010.w.875817">Hare</w>
           <pc join="right" pos="PC" xml:id="c38117_0010.pc.pre.00351428" lemma="(">(</pc>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c38117_0010.w.875820">van</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c38117_0010.w.875821">Farao</w>
           <pc pos="PC" xml:id="c38117_0010.pc.post.00351429" lemma=")">)</pc>
-          <w cert="1.0" lemma="ontfermen+dat" pos="VRB(finiteness=fin,tense=past)+PD(type=d-p,position=free)" resp="roland" sense-id="mnw.38117.sense.2" xml:id="c38117_0010.w.875822">ontfarmets</w>
+          <w cert="1.0" lemma="ontfermen+dat" pos="VRB(finiteness=fin,tense=past)+PD(type=d-p,position=free)" resp="roland" xml:id="c38117_0010.w.875822" lemmaRef="mnw.38117.sense.2">ontfarmets</w>
           <pc pos="PC" xml:id="c38117_0010.pc.floating.00351430" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c38117_0010.w.875824">want</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c38117_0010.w.875825">so</w>
@@ -78,7 +91,7 @@
           <w cert="1.0" lemma="vijand" pos="NOU-C(number=pl,WF=abbr)" resp="thomas" xml:id="c38117_0010.w.875839">v</w>
           <pc pos="PC" xml:id="c38117_0010.pc.post.00351436" lemma=".)">.)</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c38117_0010.w.875840">sijns</w>
-          <w cert="1.0" lemma="ontfermen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.38117.sense.2" xml:id="c38117_0010.w.875841">ontfarmde</w>
+          <w cert="1.0" lemma="ontfermen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c38117_0010.w.875841" lemmaRef="mnw.38117.sense.2">ontfarmde</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c38117_0010.w.875842">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c38117_0010.w.875843">haer</w>
           <w cert="1.0" lemma="hart" pos="NOU-C(number=sg)" resp="roland" xml:id="c38117_0010.w.875844">herte</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44105" lemma="PROEFSEL" partition="train" sense-id="mnw.44105.sense.1" xml:id="c44105_0000">
-        <date atLeast="1367" atMost="1372" timeSpan="1350-1400" />
+      <cit xml:id="c44105_0000">
+        <note>
+          <ab>
+            <date atLeast="1367" atMost="1372" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PROEFSEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44105.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44105</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1806">
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c44105_0000.w.498606">An</w>
           <w cert="1.0" lemma="twaalf" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c44105_0000.w.498607">XII</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c44105_0000.w.498612">liet</w>
           <w cert="1.0" lemma="branden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c44105_0000.w.498613">bernen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c44105_0000.w.498614">in</w>
-          <w cert="1.0" lemma="proefsel" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.44105.sense.1" xml:id="c44105_0000.w.498615">provelsen</w>
+          <w cert="1.0" lemma="proefsel" pos="NOU-C(number=pl)" resp="roland" xml:id="c44105_0000.w.498615" lemmaRef="mnw.44105.sense.1">provelsen</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c44105_0000.w.498616">bi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c44105_0000.w.498617">der</w>
           <w cert="1.0" lemma="schepen" pos="NOU-C(number=pl)" resp="roland" xml:id="c44105_0000.w.498618">scepen</w>

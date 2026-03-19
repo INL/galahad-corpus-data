@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52673" lemma="SMAKE" partition="test" sense-id="mnw.52673.sense.8" xml:id="c52673_0045">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c52673_0045">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SMAKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52673.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52673</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1414">
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c52673_0045.w.989167">Mijn</w>
           <w cert="1.0" lemma="spijs" pos="NOU-C(number=sg)" resp="roland" xml:id="c52673_0045.w.989168">spise</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c52673_0045.pc.post.00410493" lemma=",">,</pc>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c52673_0045.w.989171">mijn</w>
           <w cert="1.0" lemma="edel" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c52673_0045.w.989172">edele</w>
-          <w cert="1.0" lemma="smaak" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.52673.sense.8" xml:id="c52673_0045.w.989173">smake</w>
+          <w cert="1.0" lemma="smaak" pos="NOU-C(number=sg)" resp="roland" xml:id="c52673_0045.w.989173" lemmaRef="mnw.52673.sense.8">smake</w>
           <pc join="right" pos="PC" xml:id="c52673_0045.pc.pre.00410494" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c52673_0045.w.989174">lekkernijen</w>
           <pc pos="PC" xml:id="c52673_0045.pc.post.00410495" lemma=")">)</pc>

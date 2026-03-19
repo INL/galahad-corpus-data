@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07943" lemma="DUL" partition="train" sense-id="mnw.07943.sense.1" xml:id="c07943_0006">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c07943_0006">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DUL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07943.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07943</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.346">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c07943_0006.w.340427">Al</w>
           <w cert="1.0" lemma="dat+volk" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c07943_0006.w.340428">tfolc</w>
           <pc pos="PC" xml:id="c07943_0006.pc.post.00146813" lemma=",">,</pc>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c07943_0006.w.340429">sonder</w>
           <w cert="1.0" lemma="sommig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c07943_0006.w.340430">zomech</w>
-          <w cert="1.0" lemma="dol" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.07943.sense.1" xml:id="c07943_0006.w.340431">dul</w>
+          <w cert="1.0" lemma="dol" pos="NOU-C(number=sg)" resp="roland" xml:id="c07943_0006.w.340431" lemmaRef="mnw.07943.sense.1">dul</w>
           <pc pos="PC" xml:id="c07943_0006.pc.floating.00146814" lemma=",">,</pc>
           <w cert="1.0" lemma="loven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07943_0006.w.340433">loofden</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c07943_0006.w.340434">den</w>

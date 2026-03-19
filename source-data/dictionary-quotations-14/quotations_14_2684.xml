@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64590" lemma="VERSINKEN" partition="train" sense-id="mnw.64590.sense.5" xml:id="c64590_0012">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c64590_0012">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERSINKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64590.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64590</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2684">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c64590_0012.w.1790574">Dit</w>
           <w cert="1.0" lemma="dier" pos="NOU-C(number=sg)" resp="roland" xml:id="c64590_0012.w.1790575">dier</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="verdrinken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64590_0012.w.1790591">verdrinct</w>
           <pc join="right" pos="PC" xml:id="c64590_0012.pc.pre.00713488" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c64590_0012.w.1790592">varr.</w>
-          <w cert="1.0" lemma="verzinken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.64590.sense.5" xml:id="c64590_0012.w.1790593">versinct</w>
+          <w cert="1.0" lemma="verzinken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c64590_0012.w.1790593" lemmaRef="mnw.64590.sense.5">versinct</w>
           <pc pos="PC" xml:id="c64590_0012.pc.floating.00713490" lemma=")">)</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64590_0012.w.1790595">se</w>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c64590_0012.w.1790596">dan</w>

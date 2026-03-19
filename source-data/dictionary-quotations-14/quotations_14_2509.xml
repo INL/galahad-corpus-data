@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61560" lemma="VEDE" partition="train" sense-id="mnw.61560.sense.1" xml:id="c61560_0003">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c61560_0003">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61560.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61560</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2509">
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c61560_0003.w.988566">Alle</w>
-          <w cert="1.0" lemma="vede" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.61560.sense.1" xml:id="c61560_0003.w.988567">veeden</w>
+          <w cert="1.0" lemma="vede" pos="NOU-C(number=pl)" resp="roland" xml:id="c61560_0003.w.988567" lemmaRef="mnw.61560.sense.1">veeden</w>
           <w cert="1.0" lemma="afkopen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c61560_0003.w.988568">cochte<join n="mw_345085" />
           </w>
           <w cert="1.0" lemma="zij+ermede" pos="PD(type=pers,position=free)+ADV(type=pron)" resp="thomas" xml:id="c61560_0003.w.988569">sire<join n="mw_333326" />

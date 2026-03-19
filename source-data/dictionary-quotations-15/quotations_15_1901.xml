@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64825" lemma="VERSTANDEL" partition="train" sense-id="mnw.64825.sense.3" xml:id="c64825_0035">
-        <date atLeast="1477" atMost="1477" timeSpan="1450-1500" />
+      <cit xml:id="c64825_0035">
+        <note>
+          <ab>
+            <date atLeast="1477" atMost="1477" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERSTANDEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64825.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64825</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1901">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c64825_0035.w.12868">Ic</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64825_0035.w.12869">heb</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c64825_0035.w.12873">wijs</w>
           <w cert="1.0" lemma="hart" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64825_0035.w.12874">hart</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64825_0035.w.12875">ende</w>
-          <w cert="1.0" lemma="verstandel" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.64825.sense.3" xml:id="c64825_0035.w.12876">verstandel</w>
+          <w cert="1.0" lemma="verstandel" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c64825_0035.w.12876" lemmaRef="mnw.64825.sense.3">verstandel</w>
           <pc pos="PC" xml:id="c64825_0035.pc.floating.00004949" lemma=",">,</pc>
         </q>
       </cit>

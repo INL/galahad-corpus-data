@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72541" lemma="WERKELOOS" partition="train" sense-id="mnw.72541.sense.2" xml:id="c72541_0004">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c72541_0004">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WERKELOOS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72541.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72541</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3075">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72541_0004.w.1680930">Die</w>
           <w cert="1.0" lemma="derde" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c72541_0004.w.1680931">derde</w>
@@ -136,7 +149,7 @@
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="c72541_0004.w.1681002">na</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c72541_0004.w.1681003">sinen</w>
           <w cert="1.0" lemma="kracht" pos="NOU-C(number=sg)" resp="roland" xml:id="c72541_0004.w.1681004">crachte</w>
-          <w cert="1.0" lemma="werkeloos" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.72541.sense.2" xml:id="c72541_0004.w.1681005">werkeloos</w>
+          <w cert="1.0" lemma="werkeloos" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c72541_0004.w.1681005" lemmaRef="mnw.72541.sense.2">werkeloos</w>
           <pc pos="PC" xml:id="c72541_0004.pc.floating.00668225" lemma=",">,</pc>
           <w cert="1.0" lemma="alleen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c72541_0004.w.1681007">allene</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c72541_0004.w.1681008">blijft</w>

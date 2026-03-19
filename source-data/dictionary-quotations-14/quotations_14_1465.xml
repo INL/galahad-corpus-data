@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36246" lemma="ONGEWEDDET" partition="train" sense-id="mnw.36246.sense.2" xml:id="c36246_0002">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c36246_0002">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONGEWEDDET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36246.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36246</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1465">
           <pc pos="PC" xml:id="c36246_0002.pc.floating.00195206" lemma="—">—</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c36246_0002.w.477737">Van</w>
-          <w cert="1.0" lemma="ongewed" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.36246.sense.2" xml:id="c36246_0002.w.477738">onghewedder</w>
+          <w cert="1.0" lemma="ongewed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c36246_0002.w.477738" lemmaRef="mnw.36246.sense.2">onghewedder</w>
           <w cert="1.0" lemma="schuld" pos="NOU-C(number=sg)" resp="roland" xml:id="c36246_0002.w.477739">sculd</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c36246_0002.w.477740">mach</w>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c36246_0002.w.477741">elc</w>

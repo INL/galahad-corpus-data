@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29183" lemma="MENSCHHEIT" partition="train" sense-id="mnw.29183.sense.2" xml:id="c29183_0016">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c29183_0016">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MENSCHHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29183.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29183</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1174">
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c29183_0016.w.973210">God</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c29183_0016.w.973211">maecte</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="aarde" pos="NOU-C(number=sg)" resp="roland" xml:id="c29183_0016.w.973213">aerde</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c29183_0016.w.973214">al</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29183_0016.w.973215">die</w>
-          <w cert="1.0" lemma="mensheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.29183.sense.2" xml:id="c29183_0016.w.973216">menscheit</w>
+          <w cert="1.0" lemma="mensheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c29183_0016.w.973216" lemmaRef="mnw.29183.sense.2">menscheit</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c29183_0016.w.973217">van</w>
           <w cert="1.0" lemma="ere" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c29183_0016.w.973218">ere</w>
           <w cert="1.0" lemma="waarde" pos="NOU-C(number=sg)" resp="roland" xml:id="c29183_0016.w.973219">waerde</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05302" lemma="BOVERIE" partition="train" sense-id="mnw.05302.sense.1" xml:id="c05302_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c05302_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BOVERIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05302.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05302</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.246">
           <pc join="right" pos="PC" xml:id="c05302_0000.pc.pre.00399876" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c05302_0000.w.1009733">Hi</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="stede" pos="NOU-C(number=sg)" resp="roland" xml:id="c05302_0000.w.1009737">stede</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c05302_0000.w.1009738">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c05302_0000.w.1009739">sine</w>
-          <w cert="1.0" lemma="boeverij" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05302.sense.1" xml:id="c05302_0000.w.1009740">boeverie</w>
+          <w cert="1.0" lemma="boeverij" pos="NOU-C(number=sg)" resp="roland" xml:id="c05302_0000.w.1009740" lemmaRef="mnw.05302.sense.1">boeverie</w>
           <pc pos="PC" xml:id="c05302_0000.pc.floating.00399878" lemma=",">,</pc>
         </q>
       </cit>

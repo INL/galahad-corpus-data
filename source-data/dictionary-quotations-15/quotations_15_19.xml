@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00540" lemma="AENSTELLEN" partition="train" sense-id="mnw.00540.sense.2" xml:id="c00540_0001">
-        <date atLeast="1419" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c00540_0001">
+        <note>
+          <ab>
+            <date atLeast="1419" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>AENSTELLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00540.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00540</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.19">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c00540_0001.w.110672">Om</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c00540_0001.w.110673">te</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c00540_0001.w.110681">van</w>
           <w cert="1.0" lemma="Utrecht" pos="NOU-P" resp="roland" xml:id="c00540_0001.w.110682">Utrecht</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00540_0001.w.110683">soude</w>
-          <w cert="1.0" lemma="aanstellen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.00540.sense.2" xml:id="c00540_0001.w.110684">anstellen</w>
+          <w cert="1.0" lemma="aanstellen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c00540_0001.w.110684" lemmaRef="mnw.00540.sense.2">anstellen</w>
           <pc pos="PC" xml:id="c00540_0001.pc.floating.00044373" lemma=",">,</pc>
         </q>
       </cit>

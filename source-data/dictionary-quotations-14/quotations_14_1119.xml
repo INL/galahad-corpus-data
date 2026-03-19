@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27834" lemma="MAN" partition="train" sense-id="mnw.27834.sense.35" xml:id="c27834_0227">
-        <date atLeast="1364" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c27834_0227">
+        <note>
+          <ab>
+            <date atLeast="1364" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27834.sense.35</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27834</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1119">
           <pc join="right" pos="PC" xml:id="c27834_0227.pc.pre.00286929" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27834_0227.w.738971">Theophilus</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c27834_0227.w.738981">was</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c27834_0227.w.738982">worden</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c27834_0227.w.738983">sijn</w>
-          <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.27834.sense.35" xml:id="c27834_0227.w.738984">man</w>
+          <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27834_0227.w.738984" lemmaRef="mnw.27834.sense.35">man</w>
           <pc pos="PC" xml:id="c27834_0227.pc.floating.00286933" lemma=",">,</pc>
         </q>
       </cit>

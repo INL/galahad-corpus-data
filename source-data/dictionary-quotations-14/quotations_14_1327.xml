@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32333" lemma="NEMMEREEN" partition="train" sense-id="mnw.32333.sense.1" xml:id="c32333_0000">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c32333_0000">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NEMMEREEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32333.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32333</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1327">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c32333_0000.w.1581071">Doe</w>
           <w cert="1.0" lemma="zijn+er" pos="VRB(finiteness=fin,tense=past)+ADV(type=reg)" resp="thomas" xml:id="c32333_0000.w.1581072">wasser</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c32333_0000.pc.floating.00623357" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c32333_0000.w.1581078">ende</w>
           <w cert="1.0" lemma="banderzijde" pos="ADV(type=reg)" resp="roland" xml:id="c32333_0000.w.1581079">banderside</w>
-          <w cert="1.0" lemma="nimmereen" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.32333.sense.1" xml:id="c32333_0000.w.1581080">nemmereen</w>
+          <w cert="1.0" lemma="nimmereen" pos="ADV(type=reg)" resp="thomas" xml:id="c32333_0000.w.1581080" lemmaRef="mnw.32333.sense.1">nemmereen</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c32333_0000.w.1581081">no</w>
           <w cert="1.0" lemma="kempe" pos="NOU-C(number=sg)" resp="roland" xml:id="c32333_0000.w.1581082">kempe</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c32333_0000.w.1581083">no</w>

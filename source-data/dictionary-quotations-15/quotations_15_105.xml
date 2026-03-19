@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03752" lemma="BESITTEN" partition="dev" sense-id="mnw.03752.sense.4" xml:id="c03752_0005">
-        <date atLeast="1444" atMost="1444" timeSpan="1400-1450" />
+      <cit xml:id="c03752_0005">
+        <note>
+          <ab>
+            <date atLeast="1444" atMost="1444" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BESITTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03752.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03752</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.105">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03752_0005.w.747440">Die</w>
           <w cert="1.0" lemma="keizer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03752_0005.w.747441">keiser</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c03752_0005.w.747445">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c03752_0005.w.747446">hi</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03752_0005.w.747447">woude</w>
-          <w cert="1.0" lemma="bezitten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.03752.sense.4" xml:id="c03752_0005.w.747448">besitten</w>
+          <w cert="1.0" lemma="bezitten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03752_0005.w.747448" lemmaRef="mnw.03752.sense.4">besitten</w>
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c03752_0005.w.747449">doe</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c03752_0005.w.747450">een</w>
           <w cert="1.0" lemma="keizerlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c03752_0005.w.747451">keiserlike</w>

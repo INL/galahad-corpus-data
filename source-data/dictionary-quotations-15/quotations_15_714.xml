@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29034" lemma="MELODIE" partition="train" sense-id="mnw.29034.sense.6" xml:id="c29034_0031">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c29034_0031">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MELODIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29034.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29034</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.714">
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c29034_0031.w.929410">Vele</w>
           <w cert="1.0" lemma="engel" pos="NOU-C(number=pl)" resp="roland" xml:id="c29034_0031.w.929411">inghelen</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="zingen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c29034_0031.w.929416">songhen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c29034_0031.w.929417">ende</w>
           <w cert="1.0" lemma="drijven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c29034_0031.w.929418">dreven</w>
-          <w cert="1.0" lemma="melodie" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.29034.sense.6" xml:id="c29034_0031.w.929419">melodie</w>
+          <w cert="1.0" lemma="melodie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29034_0031.w.929419" lemmaRef="mnw.29034.sense.6">melodie</w>
           <pc pos="PC" xml:id="c29034_0031.pc.floating.00361977" lemma=",">,</pc>
         </q>
       </cit>

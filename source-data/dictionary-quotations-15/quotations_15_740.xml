@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29839" lemma="MINNELIJC" partition="train" sense-id="mnw.29839.sense.13" xml:id="c29839_0046">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c29839_0046">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MINNELIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29839.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29839</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.740">
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c29839_0046.w.1114201">Jeghen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c29839_0046.w.1114202">de</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="mikken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c29839_0046.w.1114212">micken</w>
           <pc pos="PC" xml:id="c29839_0046.pc.post.00437032" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c29839_0046.w.1114213">so</w>
-          <w cert="1.0" lemma="minnelijk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.29839.sense.13" xml:id="c29839_0046.w.1114214">minlic</w>
+          <w cert="1.0" lemma="minnelijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c29839_0046.w.1114214" lemmaRef="mnw.29839.sense.13">minlic</w>
           <pc pos="PC" xml:id="c29839_0046.pc.floating.00437033" lemma=",">,</pc>
           <w cert="1.0" lemma="zoet" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c29839_0046.w.1114216">zoete</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c29839_0046.w.1114217">no</w>

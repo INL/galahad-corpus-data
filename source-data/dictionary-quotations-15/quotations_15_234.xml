@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08795" lemma="ENDE" partition="train" sense-id="mnw.08795.sense.32" xml:id="c08795_0099">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c08795_0099">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ENDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08795.sense.32</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08795</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.234">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c08795_0099.w.481747">Want</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c08795_0099.w.481748">ic</w>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c08795_0099.w.481749">dan</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c08795_0099.w.481750">minen</w>
-          <w cert="1.0" lemma="einde" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.08795.sense.32" xml:id="c08795_0099.w.481751">ende</w>
+          <w cert="1.0" lemma="einde" pos="NOU-C(number=sg)" resp="roland" xml:id="c08795_0099.w.481751" lemmaRef="mnw.08795.sense.32">ende</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c08795_0099.w.481752">sal</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c08795_0099.w.481753">doen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c08795_0099.w.481754">ende</w>

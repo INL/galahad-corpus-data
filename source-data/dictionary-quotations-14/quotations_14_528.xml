@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12185" lemma="GEORLOVET" partition="train" sense-id="mnw.12185.sense.1" xml:id="c12185_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c12185_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEORLOVET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12185.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12185</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.528">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c12185_0000.w.1067520">Eenen</w>
           <w cert="1.0" lemma="vol" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c12185_0000.w.1067521">vul</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12185_0000.w.1067526">ende</w>
           <w cert="1.0" lemma="proeven+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c12185_0000.w.1067527">proeveden</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c12185_0000.w.1067528">dat</w>
-          <w cert="1.0" lemma="geoorloofd" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.12185.sense.1" xml:id="c12185_0000.w.1067529">gheorlovet</w>
+          <w cert="1.0" lemma="geoorloofd" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c12185_0000.w.1067529" lemmaRef="mnw.12185.sense.1">gheorlovet</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c12185_0000.w.1067530">ware</w>
           <pc join="right" pos="PC" xml:id="c12185_0000.pc.pre.00449495" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12185_0000.w.1067531">nl.</w>

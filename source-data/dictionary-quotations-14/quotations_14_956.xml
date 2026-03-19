@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.24570" lemma="LACHTEREN" partition="train" sense-id="mnw.24570.sense.2" xml:id="c24570_0006">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c24570_0006">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LACHTEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.24570.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.24570</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.956">
           <pc join="right" pos="PC" xml:id="c24570_0006.pc.pre.00004380" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c24570_0006.w.10755">Si</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c24570_0006.w.10756">hebben</w>
           <w cert="1.0" lemma="lief" pos="ADV(type=reg)" resp="thomas" xml:id="c24570_0006.w.10757">lievere</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c24570_0006.w.10758">te</w>
-          <w cert="1.0" lemma="lachteren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.24570.sense.2" xml:id="c24570_0006.w.10759">lachterne</w>
+          <w cert="1.0" lemma="lachteren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c24570_0006.w.10759" lemmaRef="mnw.24570.sense.2">lachterne</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c24570_0006.w.10760">dien</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c24570_0006.w.10761">dan</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c24570_0006.w.10762">haers</w>

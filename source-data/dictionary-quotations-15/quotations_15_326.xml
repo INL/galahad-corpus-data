@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12491" lemma="GERIJF" partition="train" sense-id="mnw.12491.sense.1" xml:id="c12491_0010">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c12491_0010">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GERIJF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12491.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12491</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.326">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c12491_0010.w.1126001">Ic</w>
           <w cert="1.0" lemma="weten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12491_0010.w.1126002">weet</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="ander" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c12491_0010.w.1126014">anderen</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c12491_0010.w.1126015">daden</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12491_0010.w.1126016">si</w>
-          <w cert="1.0" lemma="gerief" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.12491.sense.1" xml:id="c12491_0010.w.1126017">gherief</w>
+          <w cert="1.0" lemma="gerief" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12491_0010.w.1126017" lemmaRef="mnw.12491.sense.1">gherief</w>
           <pc pos="PC" xml:id="c12491_0010.pc.floating.00473109" lemma=",">,</pc>
         </q>
       </cit>

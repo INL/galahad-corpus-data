@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32468" lemma="NICHTE" partition="dev" sense-id="mnw.32468.sense.4" xml:id="c32468_0019">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c32468_0019">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NICHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32468.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32468</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.812">
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c32468_0019.w.1613478">Hare</w>
           <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="roland" xml:id="c32468_0019.w.1613479">rathe</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c32468_0019.w.1613482">an</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c32468_0019.w.1613483">hare</w>
           <w cert="1.0" lemma="na" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c32468_0019.w.1613484">naeste</w>
-          <w cert="1.0" lemma="nicht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.32468.sense.4" xml:id="c32468_0019.w.1613485">nichte</w>
+          <w cert="1.0" lemma="nicht" pos="NOU-C(number=sg)" resp="roland" xml:id="c32468_0019.w.1613485" lemmaRef="mnw.32468.sense.4">nichte</w>
           <pc pos="PC" xml:id="c32468_0019.pc.floating.00636427" lemma=",">,</pc>
         </q>
       </cit>

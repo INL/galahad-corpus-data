@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07432" lemma="DOREWONDEN" partition="train" sense-id="mnw.07432.sense.2" xml:id="c07432_0004">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c07432_0004">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DOREWONDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07432.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07432</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.204">
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c07432_0004.w.261338">U</w>
           <w cert="1.0" lemma="gevangene" pos="NOU-C(number=sg)" resp="thomas" xml:id="c07432_0004.w.261339">ghevanghene</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c07432_0004.pc.floating.00112024" lemma="..">..</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c07432_0004.w.261341">die</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07432_0004.w.261342">ghi</w>
-          <w cert="1.0" lemma="doorwonden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.07432.sense.2" xml:id="c07432_0004.w.261343">doerwont</w>
+          <w cert="1.0" lemma="doorwonden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c07432_0004.w.261343" lemmaRef="mnw.07432.sense.2">doerwont</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c07432_0004.w.261344">ende</w>
           <w cert="1.0" lemma="doorbranden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c07432_0004.w.261345">doerbrant</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07432_0004.w.261346">hebt</w>

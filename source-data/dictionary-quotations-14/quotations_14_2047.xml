@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50831" lemma="SEDE" partition="train" sense-id="mnw.50831.sense.23" xml:id="c50831_0168">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c50831_0168">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50831.sense.23</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50831</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2047">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c50831_0168.w.618715">Dit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c50831_0168.w.618716">was</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="kind" pos="NOU-C(number=sg)" resp="roland" xml:id="c50831_0168.w.618718">kint</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c50831_0168.w.618719">van</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c50831_0168.w.618720">goeder</w>
-          <w cert="1.0" lemma="zede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.50831.sense.23" xml:id="c50831_0168.w.618721">zede</w>
+          <w cert="1.0" lemma="zede" pos="NOU-C(number=sg)" resp="roland" xml:id="c50831_0168.w.618721" lemmaRef="mnw.50831.sense.23">zede</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50831_0168.w.618722">ende</w>
           <w cert="1.0" lemma="dienen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c50831_0168.w.618723">diende</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c50831_0168.w.618724">Gode</w>

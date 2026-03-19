@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70046" lemma="WAGE" partition="train" sense-id="mnw.70046.sense.3" xml:id="c70046_0022">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c70046_0022">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WAGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70046.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2950">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70046_0022.w.1177359">Van</w>
           <w cert="1.0" lemma="achttien" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c70046_0022.w.1177360">XVIII</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c70046_0022.pc.post.00472049" lemma=",">,</pc>
           <w cert="1.0" lemma="wegen" pos="VRB(finiteness=prespart)" resp="roland" xml:id="c70046_0022.w.1177363">weghende</w>
           <w cert="1.0" lemma="negen" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c70046_0022.w.1177364">XIIII</w>
-          <w cert="1.0" lemma="wagen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70046.sense.3" xml:id="c70046_0022.w.1177365">waghen</w>
+          <w cert="1.0" lemma="wagen" pos="NOU-C(number=sg)" resp="roland" xml:id="c70046_0022.w.1177365" lemmaRef="mnw.70046.sense.3">waghen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70046_0022.w.1177366">ende</w>
           <w cert="1.0" lemma="drie" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c70046_0022.w.1177367">III</w>
           <w cert="1.0" lemma="nagel" pos="NOU-C(number=pl)" resp="roland" xml:id="c70046_0022.w.1177368">nagle</w>

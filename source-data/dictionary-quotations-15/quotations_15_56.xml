@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02014" lemma="AWEIT" partition="train" sense-id="mnw.02014.sense.1" xml:id="c02014_0000">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c02014_0000">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>AWEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02014.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02014</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.56">
           <pc join="right" pos="PC" xml:id="c02014_0000.pc.pre.00143935" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02014_0000.w.363612">Sy</w>
@@ -62,7 +75,7 @@
           </w>
           <pc pos="PC" xml:id="c02014_0000.pc.post.00143937" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c02014_0000.w.363620">die</w>
-          <w cert="1.0" lemma="dat+aweit" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" sense-id="mnw.02014.sense.1" xml:id="c02014_0000.w.363621">daweit</w>
+          <w cert="1.0" lemma="dat+aweit" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c02014_0000.w.363621" lemmaRef="mnw.02014.sense.1">daweit</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02014_0000.w.363622">ter</w>
           <w cert="1.0" lemma="poort" pos="NOU-C(number=sg)" resp="roland" xml:id="c02014_0000.w.363623">poorten</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c02014_0000.w.363624">daden</w>

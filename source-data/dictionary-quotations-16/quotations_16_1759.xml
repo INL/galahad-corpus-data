@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M087733" lemma="ZAAK" modern-lemma="zaak" partition="train" pos="NOU-C" sense-id="M087733.bet.111" xml:id="M087733.eg.6290">
-        <date atLeast="1583" atMost="1583" timeSpan="1550-1600" />
+      <cit xml:id="M087733.eg.6290">
+        <note>
+          <ab>
+            <date atLeast="1583" atMost="1583" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>ZAAK</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M087733.bet.111</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>zaak</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M087733</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1759">
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1413763">Wel</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1413764">hem</w>
@@ -59,7 +78,7 @@
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1413770">wel</w>
           <w cert="1.0" lemma="beschikken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1413771">beschickt</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1413772">sijn</w>
-          <w cert="1.0" lemma="zaak" pos="NOU-C(number=pl)" resp="roland" sense-id="M087733.bet.111" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1413773">saken</w>
+          <w cert="1.0" lemma="zaak" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1413773" lemmaRef="M087733.bet.111">saken</w>
           <pc pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00461054" lemma=",">,</pc>
         </q>
       </cit>

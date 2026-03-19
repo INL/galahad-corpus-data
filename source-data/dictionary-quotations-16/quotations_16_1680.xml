@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M086361" lemma="WIJZE" modern-lemma="wijs, wijze" partition="test" pos="NOU-C" sense-id="M086361.bet.20" xml:id="M086361.eg.7072">
-        <date atLeast="1561" atMost="1561" timeSpan="1550-1600" />
+      <cit xml:id="M086361.eg.7072">
+        <note>
+          <ab>
+            <date atLeast="1561" atMost="1561" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>WIJZE</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M086361.bet.20</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>wijs, wijze</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M086361</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1680">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1933912">Hy</w>
           <pc join="right" pos="PC" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.pre.00625455" lemma="(">(</pc>
@@ -74,7 +93,7 @@
           <w cert="1.0" lemma="sieren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1933931">ghechiert</w>
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1933932">na</w>
           <w cert="1.0" lemma="goddelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1933933">godlijcker</w>
-          <w cert="1.0" lemma="wijze" pos="NOU-C(number=sg)" resp="roland" sense-id="M086361.bet.20" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1933934">wijsen</w>
+          <w cert="1.0" lemma="wijze" pos="NOU-C(number=sg)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.1933934" lemmaRef="M086361.bet.20">wijsen</w>
           <pc pos="PC" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.pc.post.00625460" lemma=",">,</pc>
         </q>
       </cit>

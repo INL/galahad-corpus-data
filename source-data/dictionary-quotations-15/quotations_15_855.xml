@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34290" lemma="ONBEVREEST" partition="train" sense-id="mnw.34290.sense.1" xml:id="c34290_0003">
-        <date atLeast="1495" atMost="1495" timeSpan="1450-1500" />
+      <cit xml:id="c34290_0003">
+        <note>
+          <ab>
+            <date atLeast="1495" atMost="1495" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONBEVREEST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34290.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34290</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.855">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c34290_0003.w.183670">Dese</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="thomas" xml:id="c34290_0003.w.183671">minne</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="kleven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c34290_0003.w.183679">cleeft</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c34290_0003.w.183680">in</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c34290_0003.w.183681">mij</w>
-          <w cert="1.0" lemma="onbevreesd" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.34290.sense.1" xml:id="c34290_0003.w.183682">onbevreest</w>
+          <w cert="1.0" lemma="onbevreesd" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c34290_0003.w.183682" lemmaRef="mnw.34290.sense.1">onbevreest</w>
           <pc pos="PC" xml:id="c34290_0003.pc.floating.00076335" lemma=",">,</pc>
         </q>
       </cit>

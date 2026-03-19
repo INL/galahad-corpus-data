@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14681" lemma="GRAEL" partition="train" sense-id="mnw.14681.sense.1" xml:id="c14681_0009">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c14681_0009">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GRAEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14681.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14681</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.657">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c14681_0009.w.1517668">Een</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c14681_0009.w.1517669">goet</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="vinden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c14681_0009.w.1517674">vant</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c14681_0009.w.1517675">dat</w>
           <w cert="1.0" lemma="precieus" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c14681_0009.w.1517676">precioos</w>
-          <w cert="1.0" lemma="graal" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14681.sense.1" xml:id="c14681_0009.w.1517677">grael</w>
+          <w cert="1.0" lemma="graal" pos="NOU-C(number=sg)" resp="roland" xml:id="c14681_0009.w.1517677" lemmaRef="mnw.14681.sense.1">grael</w>
           <pc pos="PC" xml:id="c14681_0009.pc.floating.00635379" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c14681_0009.w.1517679">dat</w>
           <w cert="1.0" lemma="nooit" pos="ADV(type=reg)" resp="thomas" xml:id="c14681_0009.w.1517680">noit</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35323" lemma="ONGEDWELTE" partition="train" sense-id="mnw.35323.sense.1" xml:id="c35323_0000">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c35323_0000">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONGEDWELTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35323.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35323</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.883">
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c35323_0000.w.350188">Voort</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c35323_0000.w.350189">so</w>
@@ -59,7 +72,7 @@
           <pc join="right" pos="PC" xml:id="c35323_0000.pc.pre.00143495" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c35323_0000.w.350195">wel</w>
           <pc pos="PC" xml:id="c35323_0000.pc.post.00143496" lemma=")?)">)?)</pc>
-          <w cert="1.0" lemma="ongedweld" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.35323.sense.1" xml:id="c35323_0000.w.350196">onghedwelte</w>
+          <w cert="1.0" lemma="ongedweld" pos="ADV(type=reg)" resp="thomas" xml:id="c35323_0000.w.350196" lemmaRef="mnw.35323.sense.1">onghedwelte</w>
           <w cert="1.0" lemma="vijfhonderd" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c35323_0000.w.350197">vijfhondert</w>
           <w cert="1.0" lemma="hamer" pos="NOU-C(number=pl)" resp="roland" xml:id="c35323_0000.w.350198">hamere</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c35323_0000.w.350199">op</w>

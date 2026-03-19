@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30696" lemma="MONICSTEGE" partition="train" sense-id="mnw.30696.sense.1" xml:id="c30696_0000">
-        <date atLeast="1480" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c30696_0000">
+        <note>
+          <ab>
+            <date atLeast="1480" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MONICSTEGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30696.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30696</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.764">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c30696_0000.w.1290817">Dat</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30696_0000.w.1290818">wij</w>
@@ -80,7 +93,7 @@
           <pc pos="PC" xml:id="c30696_0000.pc.post.00507199" lemma=",">,</pc>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c30696_0000.w.1290844">tot</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c30696_0000.w.1290845">dier</w>
-          <w cert="1.0" lemma="monnikensteeg" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30696.sense.1" xml:id="c30696_0000.w.1290846">monicstege</w>
+          <w cert="1.0" lemma="monnikensteeg" pos="NOU-C(number=sg)" resp="roland" xml:id="c30696_0000.w.1290846" lemmaRef="mnw.30696.sense.1">monicstege</w>
           <w cert="1.0" lemma="toe" pos="ADV(type=reg)" resp="thomas" xml:id="c30696_0000.w.1290847">toe</w>
           <w cert="1.0" lemma="uitgaan" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c30696_0000.w.1290848">uutgaende</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c30696_0000.w.1290849">in</w>

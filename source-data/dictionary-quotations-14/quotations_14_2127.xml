@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53126" lemma="SOENEN" partition="test" sense-id="mnw.53126.sense.8" xml:id="c53126_0020">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c53126_0020">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SOENEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53126.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53126</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2127">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c53126_0020.w.1099367">Den</w>
           <w cert="1.0" lemma="graaf" pos="NOU-C(number=sg)" resp="roland" xml:id="c53126_0020.w.1099368">grave</w>
@@ -76,7 +89,7 @@
           <pc pos="PC" xml:id="c53126_0020.pc.floating.00455953" lemma="…,">…,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c53126_0020.w.1099389">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53126_0020.w.1099390">hi</w>
-          <w cert="1.0" lemma="zoenen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.53126.sense.8" xml:id="c53126_0020.w.1099391">zoenen</w>
+          <w cert="1.0" lemma="zoenen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c53126_0020.w.1099391" lemmaRef="mnw.53126.sense.8">zoenen</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c53126_0020.w.1099392">moeste</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c53126_0020.w.1099393">met</w>
           <w cert="1.0" lemma="schande" pos="NOU-C(number=sg)" resp="roland" xml:id="c53126_0020.w.1099394">scanden</w>

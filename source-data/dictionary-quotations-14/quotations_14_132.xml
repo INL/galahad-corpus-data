@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03070" lemma="BELANC" partition="train" sense-id="mnw.03070.sense.10" xml:id="c03070_0035">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c03070_0035">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BELANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03070.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03070</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.132">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03070_0035.w.589790">Dat</w>
           <w cert="1.0" lemma="leven" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03070_0035.w.589791">leven</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c03070_0035.pc.post.00229927" lemma=")">)</pc>
           <w cert="1.0" lemma="aan+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03070_0035.w.589801">ande</w>
           <w cert="1.0" lemma="tong" pos="NOU-C(number=sg)" resp="roland" xml:id="c03070_0035.w.589802">tonge</w>
-          <w cert="1.0" lemma="belang" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.03070.sense.10" xml:id="c03070_0035.w.589803">belanc</w>
+          <w cert="1.0" lemma="belang" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c03070_0035.w.589803" lemmaRef="mnw.03070.sense.10">belanc</w>
           <pc pos="PC" xml:id="c03070_0035.pc.floating.00229928" lemma=",">,</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c03070_0035.w.589805">in</w>
           <w cert="1.0" lemma="woord" pos="NOU-C(number=pl)" resp="thomas" xml:id="c03070_0035.w.589806">woorden</w>

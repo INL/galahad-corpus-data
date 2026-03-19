@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52221" lemma="SLAEN" partition="train" sense-id="mnw.52221.sense.156" xml:id="c52221_0580">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c52221_0580">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52221.sense.156</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52221</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1394">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c52221_0580.w.908821">De</w>
           <w cert="1.0" lemma="rivier" pos="NOU-C(number=sg)" resp="roland" xml:id="c52221_0580.w.908822">rieviere</w>
@@ -65,7 +78,7 @@
           </w>
           <w cert="1.0" lemma="daarna" pos="ADV(type=pron)" resp="thomas" xml:id="c52221_0580.w.908835">nae<join n="mw_374440" />
           </w>
-          <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.52221.sense.156" xml:id="c52221_0580.w.908836">slaet</w>
+          <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c52221_0580.w.908836" lemmaRef="mnw.52221.sense.156">slaet</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c52221_0580.w.908837">si</w>
           <w cert="1.0" lemma="haar" pos="PD(type=refl,position=free)" resp="thomas" xml:id="c52221_0580.w.908838">haer</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c52221_0580.w.908839">op</w>

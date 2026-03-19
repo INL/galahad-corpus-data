@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56528" lemma="SWANENGRAVE" partition="train" sense-id="mnw.56528.sense.1" xml:id="c56528_0000">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c56528_0000">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SWANENGRAVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56528.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56528</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2284">
           <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c56528_0000.w.1858505">Wtgheven</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c56528_0000.w.1858506">bi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c56528_0000.w.1858507">den</w>
-          <w cert="1.0" lemma="zwanengraaf" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.56528.sense.1" xml:id="c56528_0000.w.1858508">zwanegraven</w>
+          <w cert="1.0" lemma="zwanengraaf" pos="NOU-C(number=pl)" resp="roland" xml:id="c56528_0000.w.1858508" lemmaRef="mnw.56528.sense.1">zwanegraven</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c56528_0000.w.1858509">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c56528_0000.w.1858510">den</w>
           <w cert="1.0" lemma="zwaan" pos="NOU-C(number=pl)" resp="roland" xml:id="c56528_0000.w.1858511">zwanen</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60669" lemma="UTERECHTEN" partition="train" sense-id="mnw.60669.sense.16" xml:id="c60669_0017">
-        <date atLeast="1494" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c60669_0017">
+        <note>
+          <ab>
+            <date atLeast="1494" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>UTERECHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60669.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60669</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1689">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c60669_0017.w.749157">So</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60669_0017.w.749158">mach</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60669_0017.w.749178">sal</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60669_0017.w.749179">men</w>
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c60669_0017.w.749180">voort</w>
-          <w cert="1.0" lemma="uitrechten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.60669.sense.16" xml:id="c60669_0017.w.749181">uutrichten</w>
+          <w cert="1.0" lemma="uitrechten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c60669_0017.w.749181" lemmaRef="mnw.60669.sense.16">uutrichten</w>
           <pc pos="PC" xml:id="c60669_0017.pc.floating.00303244" lemma=",">,</pc>
         </q>
       </cit>

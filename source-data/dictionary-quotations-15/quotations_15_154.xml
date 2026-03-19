@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05140" lemma="BORNE" partition="train" sense-id="mnw.05140.sense.5" xml:id="c05140_0017">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c05140_0017">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BORNE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05140.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05140</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.154">
           <w cert="1.0" lemma="Lippijn" pos="NOU-P" resp="roland" xml:id="c05140_0017.w.989319">Lippijn</w>
           <pc pos="PC" xml:id="c05140_0017.pc.post.00391201" lemma=",">,</pc>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c05140_0017.w.989321">moet</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c05140_0017.w.989322">gaen</w>
           <w cert="1.0" lemma="halen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c05140_0017.w.989323">halen</w>
-          <w cert="1.0" lemma="bron" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05140.sense.5" xml:id="c05140_0017.w.989324">borre</w>
+          <w cert="1.0" lemma="bron" pos="NOU-C(number=sg)" resp="roland" xml:id="c05140_0017.w.989324" lemmaRef="mnw.05140.sense.5">borre</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c05140_0017.w.989325">ende</w>
           <w cert="1.0" lemma="vuur" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05140_0017.w.989326">vier</w>
           <pc pos="PC" xml:id="c05140_0017.pc.post.00391202" lemma=",">,</pc>

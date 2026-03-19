@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62749" lemma="VERGADEREN" partition="train" sense-id="mnw.62749.sense.20" xml:id="c62749_0038">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c62749_0038">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERGADEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62749.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62749</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1791">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62749_0038.w.1278000">Die</w>
           <w cert="1.0" lemma="opzetter" pos="NOU-C(number=pl)" resp="roland" xml:id="c62749_0038.w.1278001">opsetters</w>
@@ -60,10 +73,10 @@
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62749_0038.w.1278006">daden</w>
           <w cert="1.0" lemma="dat+gemeen" pos="PD(type=d-p,subtype=art,position=prenom)+AA(degree=pos,position=prenom)" resp="thomas" xml:id="c62749_0038.w.1278007">tgemein</w>
           <w cert="1.0" lemma="volk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62749_0038.w.1278008">volc</w>
-          <w cert="1.0" lemma="vergaderen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.62749.sense.20" xml:id="c62749_0038.w.1278009">vergadren</w>
+          <w cert="1.0" lemma="vergaderen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c62749_0038.w.1278009" lemmaRef="mnw.62749.sense.20">vergadren</w>
           <pc join="right" pos="PC" xml:id="c62749_0038.pc.pre.00512871" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c62749_0038.w.1278010">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.62749.sense.20" xml:id="c62749_0038.w.1278011">vergaren</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c62749_0038.w.1278011" lemmaRef="mnw.62749.sense.20">vergaren</w>
           <pc pos="PC" xml:id="c62749_0038.pc.floating.00512873" lemma=";">;</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c62749_0038.w.1278013">waren</w>
           <pc pos="PC" xml:id="c62749_0038.pc.post.00512874" lemma=")">)</pc>

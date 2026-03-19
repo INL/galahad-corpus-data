@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47903" lemma="SAET" partition="train" sense-id="mnw.47903.sense.5" xml:id="c47903_0009">
-        <date atLeast="1469" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c47903_0009">
+        <note>
+          <ab>
+            <date atLeast="1469" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47903.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47903</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1243">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c47903_0009.w.33186">Des</w>
           <w cert="1.0" lemma="duivel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47903_0009.w.33187">duvels</w>
-          <w cert="1.0" lemma="zaad" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.47903.sense.5" xml:id="c47903_0009.w.33188">zaet</w>
+          <w cert="1.0" lemma="zaad" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47903_0009.w.33188" lemmaRef="mnw.47903.sense.5">zaet</w>
           <pc pos="PC" xml:id="c47903_0009.pc.floating.00014219" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c47903_0009.w.33190">dat</w>
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c47903_0009.w.33191">onder</w>

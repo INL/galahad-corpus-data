@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21016" lemma="KEITIJF" partition="train" sense-id="mnw.21016.sense.14" xml:id="c21016_0089">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c21016_0089">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KEITIJF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21016.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21016</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.834">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c21016_0089.w.887464">Eenen</w>
           <w cert="1.0" lemma="verhangen" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c21016_0089.w.887465">verhanghenen</w>
-          <w cert="1.0" lemma="katijf" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21016.sense.14" xml:id="c21016_0089.w.887466">keytijf</w>
+          <w cert="1.0" lemma="katijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c21016_0089.w.887466" lemmaRef="mnw.21016.sense.14">keytijf</w>
           <pc pos="PC" xml:id="c21016_0089.pc.floating.00359624" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c21016_0089.w.887468">dien</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c21016_0089.w.887469">gaf</w>

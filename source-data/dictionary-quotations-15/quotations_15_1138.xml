@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44626" lemma="QUAETHEIT" partition="dev" sense-id="mnw.44626.sense.1" xml:id="c44626_0017">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c44626_0017">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>QUAETHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44626.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44626</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1138">
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c44626_0017.w.587075">Maer</w>
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=prenom)" resp="roland" xml:id="c44626_0017.w.587076">wat</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c44626_0017.w.587082">bleven</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c44626_0017.w.587083">in</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c44626_0017.w.587084">hare</w>
-          <w cert="1.0" lemma="kwaadheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.44626.sense.1" xml:id="c44626_0017.w.587085">quaethede</w>
+          <w cert="1.0" lemma="kwaadheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c44626_0017.w.587085" lemmaRef="mnw.44626.sense.1">quaethede</w>
           <pc pos="PC" xml:id="c44626_0017.pc.floating.00231188" lemma=",">,</pc>
         </q>
       </cit>

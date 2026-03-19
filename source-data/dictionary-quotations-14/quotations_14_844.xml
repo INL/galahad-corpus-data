@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21118" lemma="KENNEN" partition="train" sense-id="mnw.21118.sense.15" xml:id="c21118_0096">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c21118_0096">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KENNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21118.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21118</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.844">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c21118_0096.w.909074">Als</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c21118_0096.w.909075">die</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c21118_0096.w.909076">wel</w>
-          <w cert="1.0" lemma="kennen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.21118.sense.15" xml:id="c21118_0096.w.909077">kenden</w>
+          <w cert="1.0" lemma="kennen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c21118_0096.w.909077" lemmaRef="mnw.21118.sense.15">kenden</w>
           <pc pos="PC" xml:id="c21118_0096.pc.floating.00368367" lemma=",">,</pc>
           <w cert="1.0" lemma="welk" pos="PD(type=w-p,position=prenom)" resp="thomas" xml:id="c21118_0096.w.909079">welke</w>
           <w cert="1.0" lemma="nood" pos="NOU-C(number=sg)" resp="roland" xml:id="c21118_0096.w.909080">noot</w>

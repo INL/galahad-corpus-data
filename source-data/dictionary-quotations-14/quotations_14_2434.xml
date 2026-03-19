@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60067" lemma="TWINT" partition="train" sense-id="mnw.60067.sense.2" xml:id="c60067_0028">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c60067_0028">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TWINT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60067.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60067</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2434">
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c60067_0028.w.619101">En</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c60067_0028.w.619102">es</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c60067_0028.pc.post.00252047" lemma=")">)</pc>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c60067_0028.w.619107">niet</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="roland" xml:id="c60067_0028.w.619108">en</w>
-          <w cert="1.0" lemma="twint" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.60067.sense.2" xml:id="c60067_0028.w.619109">twint</w>
+          <w cert="1.0" lemma="twint" pos="NOU-C(number=sg)" resp="roland" xml:id="c60067_0028.w.619109" lemmaRef="mnw.60067.sense.2">twint</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c60067_0028.w.619110">dat</w>
           <w cert="1.0" lemma="onnut" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c60067_0028.w.619111">onnutte</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c60067_0028.w.619112">es</w>

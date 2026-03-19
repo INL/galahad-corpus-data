@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62263" lemma="VERBORGEN" partition="train" sense-id="mnw.62263.sense.1" xml:id="c62263_0006">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c62263_0006">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERBORGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62263.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62263</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1759">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c62263_0006.w.1137272">Dese</w>
           <w cert="1.0" lemma="gebruikelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c62263_0006.w.1137273">ghebrukelike</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c62263_0006.w.1137275">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c62263_0006.w.1137276">is</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62263_0006.w.1137277">die</w>
-          <w cert="1.0" lemma="verborgen" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.62263.sense.1" xml:id="c62263_0006.w.1137278">verborghene</w>
+          <w cert="1.0" lemma="verborgen" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c62263_0006.w.1137278" lemmaRef="mnw.62263.sense.1">verborghene</w>
           <w cert="1.0" lemma="schat" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62263_0006.w.1137279">scat</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c62263_0006.w.1137280">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62263_0006.w.1137281">den</w>

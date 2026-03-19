@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06615" lemma="DIES" partition="train" sense-id="mnw.06615.sense.1" xml:id="c06615_0001">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c06615_0001">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DIES</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06615.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06615</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.184">
-          <w cert="1.0" lemma="dies" pos="INT" resp="roland" sense-id="mnw.06615.sense.1" xml:id="c06615_0001.w.133956">Dies</w>
+          <w cert="1.0" lemma="dies" pos="INT" resp="roland" xml:id="c06615_0001.w.133956" lemmaRef="mnw.06615.sense.1">Dies</w>
           <pc pos="PC" xml:id="c06615_0001.pc.floating.00056230" lemma=",">,</pc>
-          <w cert="1.0" lemma="dieus" pos="INT" resp="roland" sense-id="mnw.06615.sense.1" xml:id="c06615_0001.w.133958">Dieus</w>
+          <w cert="1.0" lemma="dieus" pos="INT" resp="roland" xml:id="c06615_0001.w.133958" lemmaRef="mnw.06615.sense.1">Dieus</w>
           <pc pos="PC" xml:id="c06615_0001.pc.floating.00056231" lemma="!">!</pc>
           <w cert="1.0" lemma="waan" pos="ADV(type=reg)" resp="thomas" xml:id="c06615_0001.w.133960">wanen</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c06615_0001.w.133961">quam</w>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70146" lemma="WACKER" partition="train" sense-id="mnw.70146.sense.1" xml:id="c70146_0002">
-        <date atLeast="1477" atMost="1477" timeSpan="1450-1500" />
+      <cit xml:id="c70146_0002">
+        <note>
+          <ab>
+            <date atLeast="1477" atMost="1477" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WACKER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70146.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70146</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2096">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70146_0002.w.1199087">Den</w>
           <w cert="1.0" lemma="leviet" pos="NOU-C(number=pl)" resp="roland" xml:id="c70146_0002.w.1199088">leviten</w>
           <pc pos="PC" xml:id="c70146_0002.pc.post.00480980" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c70146_0002.w.1199089">die</w>
-          <w cert="1.0" lemma="wakker" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.70146.sense.1" xml:id="c70146_0002.w.1199090">wacker</w>
+          <w cert="1.0" lemma="wakker" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c70146_0002.w.1199090" lemmaRef="mnw.70146.sense.1">wacker</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70146_0002.w.1199091">waren</w>
           <pc join="right" pos="PC" xml:id="c70146_0002.pc.pre.00480981" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c70146_0002.w.1199092">waakten</w>

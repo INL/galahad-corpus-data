@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68383" lemma="VORESMAKEN" partition="train" sense-id="mnw.68383.sense.2" xml:id="c68383_0004">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c68383_0004">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VORESMAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68383.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68383</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2030">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c68383_0004.w.799804">Dit</w>
-          <w cert="1.0" lemma="voorsmaken" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.68383.sense.2" xml:id="c68383_0004.w.799805">voirsmaken</w>
+          <w cert="1.0" lemma="voorsmaken" pos="NOU-C(number=sg)" resp="thomas" xml:id="c68383_0004.w.799805" lemmaRef="mnw.68383.sense.2">voirsmaken</w>
           <w cert="1.0" lemma="hemels" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c68383_0004.w.799806">hemelscher</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c68383_0004.w.799807">dinghen</w>
           <w cert="1.0" lemma="verkrijgen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c68383_0004.w.799808">vercrighet</w>

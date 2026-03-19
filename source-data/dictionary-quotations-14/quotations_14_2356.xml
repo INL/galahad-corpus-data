@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57773" lemma="TERNEDER" partition="train" sense-id="mnw.57773.sense.1" xml:id="c57773_0019">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c57773_0019">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TERNEDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57773.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57773</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2356">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c57773_0019.w.196081">Doe</w>
           <w cert="1.0" lemma="Saul" pos="NOU-P" resp="roland" xml:id="c57773_0019.w.196082">Saul</w>
@@ -57,9 +70,9 @@
           <w cert="1.0" lemma="ternedervallen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57773_0019.w.196086">viel<join n="mw_982878" />
           </w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57773_0019.w.196087">hi</w>
-          <w cert="1.0" lemma="ternedervallen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.57773.sense.1" xml:id="c57773_0019.w.196088">ter<join n="mw_982878" />
+          <w cert="1.0" lemma="ternedervallen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57773_0019.w.196088" lemmaRef="mnw.57773.sense.1">ter<join n="mw_982878" />
           </w>
-          <w cert="1.0" lemma="ternedervallen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.57773.sense.1" xml:id="c57773_0019.w.196089">neder<join n="mw_982878" />
+          <w cert="1.0" lemma="ternedervallen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57773_0019.w.196089" lemmaRef="mnw.57773.sense.1">neder<join n="mw_982878" />
           </w>
           <pc join="right" pos="PC" xml:id="c57773_0019.pc.pre.00079936" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c57773_0019.w.196090">stortte</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22122" lemma="CLOTERINGE" partition="train" sense-id="mnw.22122.sense.1" xml:id="c22122_0000">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c22122_0000">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CLOTERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22122.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22122</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.877">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c22122_0000.w.1097480">Van</w>
           <w cert="1.0" lemma="boon" pos="NOU-C(number=pl)" resp="roland" xml:id="c22122_0000.w.1097481">bonen</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c22122_0000.pc.post.00442867" lemma=";">;</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c22122_0000.w.1097484">van</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c22122_0000.w.1097485">andren</w>
-          <w cert="1.0" lemma="klotering" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.22122.sense.1" xml:id="c22122_0000.w.1097486">clueteringhen</w>
+          <w cert="1.0" lemma="klotering" pos="NOU-C(number=pl)" resp="roland" xml:id="c22122_0000.w.1097486" lemmaRef="mnw.22122.sense.1">clueteringhen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c22122_0000.w.1097487">van</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c22122_0000.w.1097488">den</w>
           <w cert="1.0" lemma="huis" pos="NOU-C(number=sg)" resp="roland" xml:id="c22122_0000.w.1097489">huus</w>

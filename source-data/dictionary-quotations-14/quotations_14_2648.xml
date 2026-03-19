@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63758" lemma="VERMETEN" partition="train" sense-id="mnw.63758.sense.8" xml:id="c63758_0052">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c63758_0052">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERMETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63758.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63758</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2648">
           <w cert="1.0" lemma="Cursout" pos="NOU-P" resp="roland" xml:id="c63758_0052.w.1568983">Cursout</w>
           <pc pos="PC" xml:id="c63758_0052.pc.floating.00626320" lemma="…">…</pc>
-          <w cert="1.0" lemma="vermeten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.63758.sense.8" xml:id="c63758_0052.w.1568985">vermat</w>
+          <w cert="1.0" lemma="vermeten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63758_0052.w.1568985" lemmaRef="mnw.63758.sense.8">vermat</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c63758_0052.w.1568986">hem</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63758_0052.w.1568987">das</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c63758_0052.w.1568988">dat</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31537" lemma="NAER" partition="train" sense-id="mnw.31537.sense.15" xml:id="c31537_0058">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c31537_0058">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NAER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31537.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31537</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1288">
           <pc join="right" pos="PC" xml:id="c31537_0058.pc.pre.00562309" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c31537_0058.w.1427402">Si</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="deel" pos="NOU-C(number=sg)" resp="roland" xml:id="c31537_0058.w.1427405">deel</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c31537_0058.w.1427406">der</w>
           <w cert="1.0" lemma="knaap" pos="NOU-C(number=pl)" resp="roland" xml:id="c31537_0058.w.1427407">cnapen</w>
-          <w cert="1.0" lemma="zenden+ernaar" pos="VRB(finiteness=fin,tense=pres)+ADV(type=pron)" resp="thomas" sense-id="mnw.31537.sense.15" xml:id="c31537_0058.w.1427408">naer<join n="mw_551148" />
+          <w cert="1.0" lemma="zenden+ernaar" pos="VRB(finiteness=fin,tense=pres)+ADV(type=pron)" resp="thomas" xml:id="c31537_0058.w.1427408" lemmaRef="mnw.31537.sense.15">naer<join n="mw_551148" />
           </w>
           <pc pos="PC" xml:id="c31537_0058.pc.floating.00562311" lemma=",">,</pc>
           <w cert="1.0" lemma="die+hij" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c31537_0058.w.1427410">diene</w>

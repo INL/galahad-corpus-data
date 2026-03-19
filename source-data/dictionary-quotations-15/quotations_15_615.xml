@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25160" lemma="LATTE" partition="train" sense-id="mnw.25160.sense.3" xml:id="c25160_0006">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c25160_0006">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LATTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25160.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25160</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.615">
           <pc join="right" pos="PC" xml:id="c25160_0006.pc.pre.00056345" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c25160_0006.w.144459">Hoe</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c25160_0006.w.144468">van</w>
           <w cert="1.0" lemma="boven" pos="ADV(type=reg)" resp="thomas" xml:id="c25160_0006.w.144469">boven</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c25160_0006.w.144470">ten</w>
-          <w cert="1.0" lemma="lat" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.25160.sense.3" xml:id="c25160_0006.w.144471">latten</w>
+          <w cert="1.0" lemma="lat" pos="NOU-C(number=pl)" resp="roland" xml:id="c25160_0006.w.144471" lemmaRef="mnw.25160.sense.3">latten</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c25160_0006.w.144472">des</w>
           <w cert="1.0" lemma="huis" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25160_0006.w.144473">huus</w>
           <w cert="1.0" lemma="nederlaten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c25160_0006.w.144474">neder<join n="mw_623728" />

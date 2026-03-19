@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49333" lemma="SCHEPENDOEM" partition="train" sense-id="mnw.49333.sense.7" xml:id="c49333_0028">
-        <date atLeast="1384" atMost="1407" timeSpan="1350-1400" />
+      <cit xml:id="c49333_0028">
+        <note>
+          <ab>
+            <date atLeast="1384" atMost="1407" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHEPENDOEM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49333.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49333</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1996">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c49333_0028.w.329122">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49333_0028.w.329123">der</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c49333_0028.w.329128">alse</w>
           <w cert="1.0" lemma="schepen" pos="NOU-C(number=pl)" resp="roland" xml:id="c49333_0028.w.329129">scepenen</w>
           <w cert="1.0" lemma="zweren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c49333_0028.w.329130">swoeren</w>
-          <w cert="1.0" lemma="dat+schependom" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.49333.sense.7" xml:id="c49333_0028.w.329131">tscependoem</w>
+          <w cert="1.0" lemma="dat+schependom" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c49333_0028.w.329131" lemmaRef="mnw.49333.sense.7">tscependoem</w>
           <pc join="right" pos="PC" xml:id="c49333_0028.pc.pre.00135635" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c49333_0028.w.329132">den</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c49333_0028.w.329133">ambtseed</w>

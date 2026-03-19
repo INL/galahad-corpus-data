@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62641" lemma="VERDWINEN" partition="train" sense-id="mnw.62641.sense.2" xml:id="c62641_0014">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c62641_0014">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERDWINEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62641.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62641</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1781">
           <w cert="1.0" lemma="ai" pos="INT" resp="thomas" xml:id="c62641_0014.w.1255457">Ay</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62641_0014.w.1255458">ic</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="dunken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62641_0014.w.1255466">dunct</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c62641_0014.w.1255467">dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62641_0014.w.1255468">ic</w>
-          <w cert="1.0" lemma="verdwijnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.62641.sense.2" xml:id="c62641_0014.w.1255469">verdwine</w>
+          <w cert="1.0" lemma="verdwijnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c62641_0014.w.1255469" lemmaRef="mnw.62641.sense.2">verdwine</w>
           <pc pos="PC" xml:id="c62641_0014.pc.floating.00503788" lemma=",">,</pc>
         </q>
       </cit>

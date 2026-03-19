@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02084" lemma="BAERSCULDICH" partition="train" sense-id="mnw.02084.sense.1" xml:id="c02084_0003">
-        <date atLeast="1291" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c02084_0003">
+        <note>
+          <ab>
+            <date atLeast="1291" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BAERSCULDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02084.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02084</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.79">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c02084_0003.w.372416">Dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02084_0003.w.372417">es</w>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c02084_0003.pc.post.00147385" lemma=",">,</pc>
           <w cert="1.0" lemma="daar+men" pos="ADV(type=reg)+PD(type=pers,position=free)" resp="thomas" xml:id="c02084_0003.w.372425">daermen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02084_0003.w.372426">den</w>
-          <w cert="1.0" lemma="baarschuldige" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.02084.sense.1" xml:id="c02084_0003.w.372427">barsculdegen</w>
+          <w cert="1.0" lemma="baarschuldige" pos="NOU-C(number=pl)" resp="roland" xml:id="c02084_0003.w.372427" lemmaRef="mnw.02084.sense.1">barsculdegen</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c02084_0003.w.372428">bi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02084_0003.w.372429">den</w>
           <w cert="1.0" lemma="dode" pos="NOU-C(number=pl)" resp="roland" xml:id="c02084_0003.w.372430">doeden</w>

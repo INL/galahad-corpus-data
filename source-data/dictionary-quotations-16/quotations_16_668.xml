@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M059742" lemma="REVOCEEREN" modern-lemma="revoceren" partition="test" pos="VRB" sense-id="M059742.bet.3" xml:id="M059742.eg.5521">
-        <date atLeast="1517" atMost="1517" timeSpan="1500-1550" />
+      <cit xml:id="M059742.eg.5521">
+        <note>
+          <ab>
+            <date atLeast="1517" atMost="1517" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>REVOCEEREN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M059742.bet.3</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>revoceren</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M059742</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.668">
           <w cert="1.0" lemma="overmits" pos="ADP(type=pre)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.139292">Overmits</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.139293">dat</w>
@@ -82,7 +101,7 @@
           </w>
           <w cert="1.0" lemma="dezelve" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.139321">selve<join n="mw_415914" />
           </w>
-          <w cert="1.0" lemma="revoceren" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="M059742.bet.3" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.139322">gerevoceert</w>
+          <w cert="1.0" lemma="revoceren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.139322" lemmaRef="M059742.bet.3">gerevoceert</w>
           <pc pos="PC" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00046748" lemma=",">,</pc>
         </q>
       </cit>

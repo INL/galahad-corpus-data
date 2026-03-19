@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29004" lemma="MELKEN" partition="train" sense-id="mnw.29004.sense.6" xml:id="c29004_0008">
-        <date atLeast="1328" atMost="1336" timeSpan="1300-1350" />
+      <cit xml:id="c29004_0008">
+        <note>
+          <ab>
+            <date atLeast="1328" atMost="1336" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MELKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29004.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29004</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1164">
           <w cert="1.0" lemma="Hein" pos="NOU-P" resp="roland" xml:id="c29004_0008.w.926460">Heyne</w>
           <w cert="1.0" lemma="C." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c29004_0008.w.926461">C.'s</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29004_0008.w.926464">si</w>
           <w cert="1.0" lemma="G." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c29004_0008.w.926465">G.'s</w>
           <w cert="1.0" lemma="koe" pos="NOU-C(number=pl)" resp="roland" xml:id="c29004_0008.w.926466">coyen</w>
-          <w cert="1.0" lemma="melken" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.29004.sense.6" xml:id="c29004_0008.w.926467">malc</w>
+          <w cert="1.0" lemma="melken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c29004_0008.w.926467" lemmaRef="mnw.29004.sense.6">malc</w>
           <w cert="1.0" lemma="ongewaard" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c29004_0008.w.926468">onghewaerder</w>
           <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" xml:id="c29004_0008.w.926469">hant</w>
           <w cert="1.0" lemma="vijf" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c29004_0008.w.926470">5</w>

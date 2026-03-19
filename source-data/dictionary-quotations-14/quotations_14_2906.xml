@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69231" lemma="VRO" partition="train" sense-id="mnw.69231.sense.14" xml:id="c69231_0081">
-        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c69231_0081">
+        <note>
+          <ab>
+            <date atLeast="1290" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VRO</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69231.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69231</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2906">
           <w cert="1.0" lemma="de+ander" pos="PD(type=d-p,subtype=art,position=prenom)+NUM(type=ord,position=free,representation=let)" resp="thomas" xml:id="c69231_0081.w.1011641">Dandre</w>
           <pc join="right" pos="PC" xml:id="c69231_0081.pc.pre.00404851" lemma="(">(</pc>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69231_0081.w.1011646">var.</w>
           <w cert="1.0" lemma="jonkvrouw" pos="NOU-C(number=pl)" resp="thomas" xml:id="c69231_0081.w.1011647">joffrouwen</w>
           <pc pos="PC" xml:id="c69231_0081.pc.post.00404855" lemma=")">)</pc>
-          <w cert="1.0" lemma="vro" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.69231.sense.14" xml:id="c69231_0081.w.1011648">vro</w>
+          <w cert="1.0" lemma="vro" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c69231_0081.w.1011648" lemmaRef="mnw.69231.sense.14">vro</w>
           <pc pos="PC" xml:id="c69231_0081.pc.floating.00404856" lemma=",">,</pc>
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c69231_0081.w.1011650">scone</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c69231_0081.w.1011651">ende</w>

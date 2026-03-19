@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M090209" lemma="ZWAARSPAAT" modern-lemma="zwaarspaat" partition="test" pos="NOU-C" sense-id="M090209.bet.1" xml:id="M090209.eg.11217">
-        <date atLeast="1855" atMost="1855" timeSpan="1850-1900" />
+      <cit xml:id="M090209.eg.11217">
+        <note>
+          <ab>
+            <date atLeast="1855" atMost="1855" extent="1850-1900" />
+            <interpGrp type="lemma">
+              <interp>ZWAARSPAAT</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M090209.bet.1</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>zwaarspaat</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M090209</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1530">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.17404">De</w>
           <w cert="1.0" lemma="bariet" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.17405">baryt</w>
@@ -66,7 +85,7 @@
           <pc pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0005362" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.17417">als</w>
           <w cert="1.0" lemma="zogenaamd" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.17418">zoogenaamde</w>
-          <w cert="1.0" lemma="zwaarspaat" pos="NOU-C(number=sg)" resp="thomas" sense-id="M090209.bet.1" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.17419">zwaarspaath</w>
+          <w cert="1.0" lemma="zwaarspaat" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.17419" lemmaRef="M090209.bet.1">zwaarspaath</w>
           <pc pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0005363" lemma=",">,</pc>
         </q>
       </cit>

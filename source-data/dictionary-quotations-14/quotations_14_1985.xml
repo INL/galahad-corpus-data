@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48872" lemma="SCHARE" partition="train" sense-id="mnw.48872.sense.5" xml:id="c48872_0047">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c48872_0047">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SCHARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48872.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1985">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c48872_0047.w.232644">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c48872_0047.w.232645">hi</w>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c48872_0047.pc.post.00096101" lemma=")">)</pc>
           <w cert="1.0" lemma="tot+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48872_0047.w.232654">toter</w>
           <w cert="1.0" lemma="blij" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c48872_0047.w.232655">blider</w>
-          <w cert="1.0" lemma="schaar" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48872.sense.5" xml:id="c48872_0047.w.232656">scare</w>
+          <w cert="1.0" lemma="schaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c48872_0047.w.232656" lemmaRef="mnw.48872.sense.5">scare</w>
           <pc pos="PC" xml:id="c48872_0047.pc.floating.00096102" lemma=",">,</pc>
         </q>
       </cit>

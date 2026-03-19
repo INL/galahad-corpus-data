@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65858" lemma="VETTICHEIT" partition="train" sense-id="mnw.65858.sense.1" xml:id="c65858_0007">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c65858_0007">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VETTICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65858.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65858</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1950">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c65858_0007.w.306360">Ic</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c65858_0007.w.306361">sal</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c65858_0007.w.306366">der</w>
           <w cert="1.0" lemma="paap" pos="NOU-C(number=pl)" resp="roland" xml:id="c65858_0007.w.306367">papen</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c65858_0007.w.306368">mit</w>
-          <w cert="1.0" lemma="vettigheid" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.65858.sense.1" xml:id="c65858_0007.w.306369">vetticheyden</w>
+          <w cert="1.0" lemma="vettigheid" pos="NOU-C(number=pl)" resp="roland" xml:id="c65858_0007.w.306369" lemmaRef="mnw.65858.sense.1">vetticheyden</w>
           <pc pos="PC" xml:id="c65858_0007.pc.floating.00120214" lemma=",">,</pc>
         </q>
       </cit>

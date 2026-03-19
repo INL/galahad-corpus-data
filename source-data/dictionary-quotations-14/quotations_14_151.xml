@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03341" lemma="BERECHTEN" partition="dev" sense-id="mnw.03341.sense.56" xml:id="c03341_0201">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c03341_0201">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BERECHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03341.sense.56</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03341</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.151">
           <w cert="1.0" lemma="geschieden+er" pos="VRB(finiteness=fin,tense=pres)+ADV(type=reg)" resp="thomas" xml:id="c03341_0201.w.658489">Gescieter</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c03341_0201.w.658490">enech</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03341_0201.w.658493">ende</w>
           <w cert="1.0" lemma="Chur" pos="NOU-P" resp="roland" xml:id="c03341_0201.w.658494">Hur</w>
           <w cert="1.0" lemma="zullen+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c03341_0201.w.658495">sullent</w>
-          <w cert="1.0" lemma="berechten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.03341.sense.56" xml:id="c03341_0201.w.658496">berechten</w>
+          <w cert="1.0" lemma="berechten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03341_0201.w.658496" lemmaRef="mnw.03341.sense.56">berechten</w>
           <pc pos="PC" xml:id="c03341_0201.pc.floating.00256653" lemma=",">,</pc>
         </q>
       </cit>

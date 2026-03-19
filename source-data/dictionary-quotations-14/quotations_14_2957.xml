@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70239" lemma="WAN" partition="train" sense-id="mnw.70239.sense.1" xml:id="c70239_0003">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c70239_0003">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70239.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70239</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2957">
           <w cert="1.0" lemma="het" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70239_0003.w.1214732">Het</w>
           <w cert="1.0" lemma="wassen" pos="NOU-C(number=sg)" resp="roland" xml:id="c70239_0003.w.1214733">wassen</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="heten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70239_0003.w.1214743">heet</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c70239_0003.w.1214744">in</w>
           <w cert="1.0" lemma="Diets" pos="NOU-P" resp="thomas" xml:id="c70239_0003.w.1214745">dietsche</w>
-          <w cert="1.0" lemma="wan" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.70239.sense.1" xml:id="c70239_0003.w.1214746">wannen</w>
+          <w cert="1.0" lemma="wan" pos="NOU-C(number=pl)" resp="roland" xml:id="c70239_0003.w.1214746" lemmaRef="mnw.70239.sense.1">wannen</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c70239_0003.w.1214747">of</w>
           <w cert="1.0" lemma="overbeen" pos="NOU-C(number=pl)" resp="roland" xml:id="c70239_0003.w.1214748">overbene</w>
           <pc pos="PC" xml:id="c70239_0003.pc.post.00487688" lemma=",">,</pc>

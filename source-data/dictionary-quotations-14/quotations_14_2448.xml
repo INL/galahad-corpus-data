@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60298" lemma="UTEDRIVEN" partition="train" sense-id="mnw.60298.sense.5" xml:id="c60298_0005">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c60298_0005">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>UTEDRIVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60298.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60298</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2448">
           <w cert="1.0" lemma="als+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c60298_0005.w.672381">Alst</w>
           <pc join="right" pos="PC" xml:id="c60298_0005.pc.pre.00273654" lemma="(">(</pc>
@@ -69,10 +82,10 @@
           </w>
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c60298_0005.w.672395">mede<join n="mw_886103" />
           </w>
-          <w cert="1.0" lemma="uitdrijven+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" sense-id="mnw.60298.sense.5" xml:id="c60298_0005.w.672396">drijftet<join n="mw_655887" />
+          <w cert="1.0" lemma="uitdrijven+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60298_0005.w.672396" lemmaRef="mnw.60298.sense.5">drijftet<join n="mw_655887" />
           </w>
           <w cert="1.0" lemma="venijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c60298_0005.w.672397">venijn</w>
-          <w cert="1.0" lemma="uitdrijven+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" sense-id="mnw.60298.sense.5" xml:id="c60298_0005.w.672398">ute<join n="mw_655887" />
+          <w cert="1.0" lemma="uitdrijven+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60298_0005.w.672398" lemmaRef="mnw.60298.sense.5">ute<join n="mw_655887" />
           </w>
           <pc pos="PC" xml:id="c60298_0005.pc.floating.00273658" lemma=",">,</pc>
         </q>

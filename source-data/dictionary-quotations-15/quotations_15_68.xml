@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02501" lemma="BEDERVEN" partition="train" sense-id="mnw.02501.sense.4" xml:id="c02501_0006">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c02501_0006">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BEDERVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02501.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02501</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.68">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c02501_0006.w.448923">Hoe</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c02501_0006.w.448924">goet</w>
@@ -73,7 +86,7 @@
           <w cert="1.0" lemma="duivel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02501_0006.w.448940">duvel</w>
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c02501_0006.w.448941">mede<join n="mw_733103" />
           </w>
-          <w cert="1.0" lemma="bederven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.02501.sense.4" xml:id="c02501_0006.w.448942">bedarf</w>
+          <w cert="1.0" lemma="bederven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c02501_0006.w.448942" lemmaRef="mnw.02501.sense.4">bedarf</w>
           <pc pos="PC" xml:id="c02501_0006.pc.floating.00175992" lemma=",">,</pc>
         </q>
       </cit>

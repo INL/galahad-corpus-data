@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69370" lemma="VROUDELOOS" partition="train" sense-id="mnw.69370.sense.1" xml:id="c69370_0000">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c69370_0000">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VROUDELOOS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69370.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69370</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2074">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c69370_0000.w.1051023">Ic</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c69370_0000.w.1051024">woude</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c69370_0000.w.1051040">ic</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69370_0000.w.1051041">blive</w>
           <w cert="1.0" lemma="eeuwelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c69370_0000.w.1051042">ewelijc</w>
-          <w cert="1.0" lemma="vreugdeloos" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.69370.sense.1" xml:id="c69370_0000.w.1051043">vroudeloos</w>
+          <w cert="1.0" lemma="vreugdeloos" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c69370_0000.w.1051043" lemmaRef="mnw.69370.sense.1">vroudeloos</w>
           <pc pos="PC" xml:id="c69370_0000.pc.floating.00420795" lemma=",">,</pc>
         </q>
       </cit>

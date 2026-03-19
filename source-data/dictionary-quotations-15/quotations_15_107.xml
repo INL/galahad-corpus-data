@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03807" lemma="BESOEKEN" partition="train" sense-id="mnw.03807.sense.9" xml:id="c03807_0057">
-        <date atLeast="1481" atMost="1481" timeSpan="1450-1500" />
+      <cit xml:id="c03807_0057">
+        <note>
+          <ab>
+            <date atLeast="1481" atMost="1481" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BESOEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03807.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03807</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.107">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03807_0057.w.763801">Dat</w>
           <w cert="1.0" lemma="hart" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03807_0057.w.763802">hert</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c03807_0057.pc.post.00298239" lemma=",">,</pc>
           <w cert="1.0" lemma="ondertasten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03807_0057.w.763808">ondertasten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03807_0057.w.763809">ende</w>
-          <w cert="1.0" lemma="bezoeken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.03807.sense.9" xml:id="c03807_0057.w.763810">besoken</w>
+          <w cert="1.0" lemma="bezoeken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03807_0057.w.763810" lemmaRef="mnw.03807.sense.9">besoken</w>
           <pc pos="PC" xml:id="c03807_0057.pc.floating.00298240" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M056177" lemma="PROEVER" modern-lemma="proever" partition="train" pos="NOU-C" sense-id="M056177.bet.2" xml:id="M056177.eg.68506">
-        <date atLeast="1774" atMost="1774" timeSpan="1750-1800" />
+      <cit xml:id="M056177.eg.68506">
+        <note>
+          <ab>
+            <date atLeast="1774" atMost="1774" extent="1750-1800" />
+            <interpGrp type="lemma">
+              <interp>PROEVER</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M056177.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>proever</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M056177</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.629">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325150">De</w>
           <w cert="1.0" lemma="gaarder" pos="NOU-C(number=pl)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325151">Gaarders</w>
@@ -71,7 +90,7 @@
           <pc pos="PC" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.pc.post.00100176" lemma=",">,</pc>
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325167">door</w>
           <w cert="1.0" lemma="beëdigd" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325168">beëedigde</w>
-          <w cert="1.0" lemma="proever" pos="NOU-C(number=pl)" resp="roland" sense-id="M056177.bet.2" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325169">Proevers</w>
+          <w cert="1.0" lemma="proever" pos="NOU-C(number=pl)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325169" lemmaRef="M056177.bet.2">Proevers</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325170">en</w>
           <w cert="1.0" lemma="keurmeester" pos="NOU-C(number=pl)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325171">Keurmeesters</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.325172">doen</w>

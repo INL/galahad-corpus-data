@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10711" lemma="GEDOEN" partition="train" sense-id="mnw.10711.sense.16" xml:id="c10711_0083">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c10711_0083">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEDOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10711.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10711</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.447">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c10711_0083.w.783719">Nu</w>
           <w cert="1.0" lemma="moeten+ertoe" pos="VRB(finiteness=fin,tense=pres)+ADV(type=pron)" resp="roland" xml:id="c10711_0083.w.783720">moeter<join n="mw_156895" />
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c10711_0083.w.783727">dat</w>
           <w cert="1.0" lemma="ik+er" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="thomas" xml:id="c10711_0083.w.783728">icker</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c10711_0083.w.783729">so</w>
-          <w cert="1.0" lemma="gedoen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.10711.sense.16" xml:id="c10711_0083.w.783730">ghedoe</w>
+          <w cert="1.0" lemma="gedoen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c10711_0083.w.783730" lemmaRef="mnw.10711.sense.16">ghedoe</w>
           <pc pos="PC" xml:id="c10711_0083.pc.floating.00334285" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c10711_0083.w.783732">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c10711_0083.w.783733">haer</w>

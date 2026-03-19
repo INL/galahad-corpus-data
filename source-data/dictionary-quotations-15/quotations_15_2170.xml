@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72465" lemma="WERDICHEIT" partition="train" sense-id="mnw.72465.sense.10" xml:id="c72465_0056">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c72465_0056">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WERDICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72465.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72465</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2170">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c72465_0056.w.1626587">Ende</w>
           <w cert="1.0" lemma="bovenal" pos="ADV(type=reg)" resp="thomas" xml:id="c72465_0056.w.1626588">boven<join n="mw_393510" />
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c72465_0056.w.1626599">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72465_0056.w.1626600">die</w>
           <w cert="1.0" lemma="levend" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c72465_0056.w.1626601">levende</w>
-          <w cert="1.0" lemma="waardigheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.72465.sense.10" xml:id="c72465_0056.w.1626602">werdicheit</w>
+          <w cert="1.0" lemma="waardigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72465_0056.w.1626602" lemmaRef="mnw.72465.sense.10">werdicheit</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c72465_0056.w.1626603">Gods</w>
           <pc pos="PC" xml:id="c72465_0056.pc.post.00650668" lemma=",">,</pc>
         </q>

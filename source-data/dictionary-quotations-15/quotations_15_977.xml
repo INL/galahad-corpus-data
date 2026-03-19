@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38942" lemma="ONWET" partition="train" sense-id="mnw.38942.sense.5" xml:id="c38942_0031">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c38942_0031">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONWET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38942.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38942</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.977">
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c38942_0031.w.1016422">Onse</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c38942_0031.w.1016423">here</w>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c38942_0031.pc.post.00407157" lemma=";">;</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c38942_0031.w.1016431">hi</w>
           <w cert="1.0" lemma="breken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c38942_0031.w.1016432">brac</w>
-          <w cert="1.0" lemma="de+onwet" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.38942.sense.5" xml:id="c38942_0031.w.1016433">donwet</w>
+          <w cert="1.0" lemma="de+onwet" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c38942_0031.w.1016433" lemmaRef="mnw.38942.sense.5">donwet</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c38942_0031.w.1016434">die</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c38942_0031.w.1016435">was</w>
           <w cert="1.0" lemma="zetten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c38942_0031.w.1016436">geset</w>

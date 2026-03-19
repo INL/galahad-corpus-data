@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47976" lemma="SAKE" partition="train" sense-id="mnw.47976.sense.20" xml:id="c47976_0201">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c47976_0201">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SAKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47976.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47976</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1245">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c47976_0201.w.55326">Nu</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c47976_0201.w.55327">siet</w>
@@ -59,7 +72,7 @@
           </w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c47976_0201.w.55333">ic</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c47976_0201.w.55334">gheen</w>
-          <w cert="1.0" lemma="zaak" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.47976.sense.20" xml:id="c47976_0201.w.55335">zaec</w>
+          <w cert="1.0" lemma="zaak" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47976_0201.w.55335" lemmaRef="mnw.47976.sense.20">zaec</w>
           <w cert="1.0" lemma="daarin" pos="ADV(type=pron)" resp="thomas" xml:id="c47976_0201.w.55336">in<join n="mw_750346" />
           </w>
           <w cert="1.0" lemma="vinden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c47976_0201.w.55337">vinden</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29104" lemma="MENICH" partition="train" sense-id="mnw.29104.sense.5" xml:id="c29104_0096">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c29104_0096">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MENICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29104.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29104</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1168">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c29104_0096.w.949576">Soe</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c29104_0096.w.949577">gaf</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c29104_0096.w.949582">ende</w>
           <w cert="1.0" lemma="duur" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c29104_0096.w.949583">diere</w>
           <w cert="1.0" lemma="kruis" pos="NOU-C(number=pl)" resp="roland" xml:id="c29104_0096.w.949584">cruse</w>
-          <w cert="1.0" lemma="menigeen" pos="PD(type=indef,position=free)" resp="thomas" sense-id="mnw.29104.sense.5" xml:id="c29104_0096.w.949585">menech<join n="mw_624625" />
+          <w cert="1.0" lemma="menigeen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c29104_0096.w.949585" lemmaRef="mnw.29104.sense.5">menech<join n="mw_624625" />
           </w>
           <w cert="1.0" lemma="menigeen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c29104_0096.w.949586">eene<join n="mw_624625" />
           </w>

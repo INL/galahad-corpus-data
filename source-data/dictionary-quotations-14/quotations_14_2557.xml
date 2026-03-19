@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62501" lemma="VERDOOLT" partition="train" sense-id="mnw.62501.sense.5" xml:id="c62501_0010">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c62501_0010">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERDOOLT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62501.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62501</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2557">
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c62501_0010.w.1206728">Aldus</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62501_0010.w.1206729">was</w>
-          <w cert="1.0" lemma="verdoold" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.62501.sense.5" xml:id="c62501_0010.w.1206730">verdoolt</w>
+          <w cert="1.0" lemma="verdoold" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c62501_0010.w.1206730" lemmaRef="mnw.62501.sense.5">verdoolt</w>
           <w cert="1.0" lemma="Lancelot" pos="NOU-P" resp="roland" xml:id="c62501_0010.w.1206731">Lanceloot</w>
           <pc pos="PC" xml:id="c62501_0010.pc.post.00484173" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62501_0010.w.1206732">ende</w>

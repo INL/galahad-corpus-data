@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34785" lemma="ONDERSNEDE" partition="train" sense-id="mnw.34785.sense.1" xml:id="c34785_0000">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c34785_0000">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONDERSNEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34785.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34785</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1426">
           <pc join="right" pos="PC" xml:id="c34785_0000.pc.pre.00111214" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c34785_0000.w.268676">Hi</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c34785_0000.w.268690">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c34785_0000.w.268691">hi</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c34785_0000.w.268692">ghene</w>
-          <w cert="1.0" lemma="ondersnede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.34785.sense.1" xml:id="c34785_0000.w.268693">ondersnede</w>
+          <w cert="1.0" lemma="ondersnede" pos="NOU-C(number=sg)" resp="roland" xml:id="c34785_0000.w.268693" lemmaRef="mnw.34785.sense.1">ondersnede</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c34785_0000.w.268694">ne</w>
           <w cert="1.0" lemma="dragen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c34785_0000.w.268695">droughe</w>
           <pc pos="PC" xml:id="c34785_0000.pc.post.00111219" lemma=",">,</pc>

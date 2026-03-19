@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67751" lemma="VORE" partition="train" sense-id="mnw.67751.sense.71" xml:id="c67751_0415">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c67751_0415">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VORE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67751.sense.71</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67751</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2015">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c67751_0415.w.689626">Men</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c67751_0415.w.689627">en</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67751_0415.w.689633">int</w>
           <w cert="1.0" lemma="hart" pos="NOU-C(number=sg)" resp="roland" xml:id="c67751_0415.w.689634">herte</w>
           <pc pos="PC" xml:id="c67751_0415.pc.post.00275585" lemma=",">,</pc>
-          <w cert="1.0" lemma="voor" pos="CONJ(type=sub)" resp="thomas" sense-id="mnw.67751.sense.71" xml:id="c67751_0415.w.689635">voor</w>
+          <w cert="1.0" lemma="voor" pos="CONJ(type=sub)" resp="thomas" xml:id="c67751_0415.w.689635" lemmaRef="mnw.67751.sense.71">voor</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c67751_0415.w.689636">men</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67751_0415.w.689637">die</w>
           <w cert="1.0" lemma="prooi" pos="NOU-C(number=sg)" resp="roland" xml:id="c67751_0415.w.689638">proie</w>

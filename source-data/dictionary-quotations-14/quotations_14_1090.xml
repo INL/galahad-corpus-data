@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27072" lemma="LOVEN" partition="train" sense-id="mnw.27072.sense.14" xml:id="c27072_0091">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c27072_0091">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LOVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27072.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27072</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1090">
           <w cert="1.0" lemma="vast" pos="ADV(type=reg)" resp="roland" xml:id="c27072_0091.w.581697">Vaste</w>
           <w cert="1.0" lemma="bezoeken+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c27072_0091.w.581698">besochtent</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="Rome" pos="NOU-P" resp="thomas" xml:id="c27072_0091.w.581704">Rome</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c27072_0091.w.581705">ooc</w>
           <w cert="1.0" lemma="altemaal" pos="ADV(type=reg)" resp="thomas" xml:id="c27072_0091.w.581706">altemale</w>
-          <w cert="1.0" lemma="loven" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.27072.sense.14" xml:id="c27072_0091.w.581707">loveden</w>
+          <w cert="1.0" lemma="loven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c27072_0091.w.581707" lemmaRef="mnw.27072.sense.14">loveden</w>
           <pc join="right" pos="PC" xml:id="c27072_0091.pc.pre.00224957" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27072_0091.w.581708">approbeerden</w>
           <pc pos="PC" xml:id="c27072_0091.pc.post.00224958" lemma=")">)</pc>

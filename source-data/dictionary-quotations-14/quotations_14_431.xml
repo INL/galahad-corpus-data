@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10477" lemma="GEBOT" partition="train" sense-id="mnw.10477.sense.1" xml:id="c10477_0005">
-        <date atLeast="1340" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c10477_0005">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEBOT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10477.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10477</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.431">
           <w cert="1.0" lemma="dewelke" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="c10477_0005.w.729088">De<join n="mw_608832" />
           </w>
           <w cert="1.0" lemma="dewelke" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="c10477_0005.w.729089">welke<join n="mw_608832" />
           </w>
-          <w cert="1.0" lemma="gebod" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.10477.sense.1" xml:id="c10477_0005.w.729090">gheboden</w>
+          <w cert="1.0" lemma="gebod" pos="NOU-C(number=pl)" resp="roland" xml:id="c10477_0005.w.729090" lemmaRef="mnw.10477.sense.1">gheboden</w>
           <w cert="1.0" lemma="zuiver" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c10477_0005.w.729091">zuver</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c10477_0005.w.729092">ende</w>
           <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c10477_0005.w.729093">vri</w>

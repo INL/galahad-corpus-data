@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14692" lemma="GRAET" partition="train" sense-id="mnw.14692.sense.3" xml:id="c14692_0016">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c14692_0016">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GRAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14692.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14692</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.658">
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c14692_0016.w.1519061">Tote</w>
           <w cert="1.0" lemma="aan+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14692_0016.w.1519062">anden</w>
@@ -56,7 +69,7 @@
           </w>
           <w cert="1.0" lemma="Sint-Pieter" pos="NOU-P" resp="roland" xml:id="c14692_0016.w.1519066">Pieters<join n="mw_57953" />
           </w>
-          <w cert="1.0" lemma="graad" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14692.sense.3" xml:id="c14692_0016.w.1519067">grade</w>
+          <w cert="1.0" lemma="graad" pos="NOU-C(number=sg)" resp="roland" xml:id="c14692_0016.w.1519067" lemmaRef="mnw.14692.sense.3">grade</w>
           <pc join="right" pos="PC" xml:id="c14692_0016.pc.pre.00635957" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c14692_0016.w.1519068">te</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c14692_0016.w.1519069">Rome</w>

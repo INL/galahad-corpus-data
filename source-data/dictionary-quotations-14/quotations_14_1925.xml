@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46830" lemma="ROERE" partition="dev" sense-id="mnw.46830.sense.1" xml:id="c46830_0001">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c46830_0001">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ROERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46830.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46830</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1925">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c46830_0001.w.1107409">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c46830_0001.w.1107410">der</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c46830_0001.w.1107412">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c46830_0001.w.1107413">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c46830_0001.w.1107414">der</w>
-          <w cert="1.0" lemma="roer" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.46830.sense.1" xml:id="c46830_0001.w.1107415">roere</w>
+          <w cert="1.0" lemma="roer" pos="NOU-C(number=sg)" resp="roland" xml:id="c46830_0001.w.1107415" lemmaRef="mnw.46830.sense.1">roere</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c46830_0001.w.1107416">die</w>
           <w cert="1.0" lemma="ginder" pos="ADV(type=reg)" resp="thomas" xml:id="c46830_0001.w.1107417">ghinder</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c46830_0001.w.1107418">was</w>

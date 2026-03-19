@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53709" lemma="SPALKEN" partition="train" sense-id="mnw.53709.sense.2" xml:id="c53709_0002">
-        <date atLeast="1291" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c53709_0002">
+        <note>
+          <ab>
+            <date atLeast="1291" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SPALKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53709.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53709</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2154">
           <pc join="right" pos="PC" xml:id="c53709_0002.pc.pre.00505686" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53709_0002.w.1217947">Si</w>
@@ -80,7 +93,7 @@
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c53709_0002.w.1217966">de<join n="mw_266463" />
           </w>
           <w cert="1.0" lemma="men+hij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c53709_0002.w.1217967">menne</w>
-          <w cert="1.0" lemma="spalken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.53709.sense.2" xml:id="c53709_0002.w.1217968">spalken</w>
+          <w cert="1.0" lemma="spalken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c53709_0002.w.1217968" lemmaRef="mnw.53709.sense.2">spalken</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c53709_0002.w.1217969">met</w>
           <w cert="1.0" lemma="hard" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c53709_0002.w.1217970">hardden</w>
           <w cert="1.0" lemma="staal" pos="NOU-C(number=sg)" resp="roland" xml:id="c53709_0002.w.1217971">stale</w>

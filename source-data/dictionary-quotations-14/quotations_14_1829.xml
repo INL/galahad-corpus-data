@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44822" lemma="QUELLEN" partition="train" sense-id="mnw.44822.sense.25" xml:id="c44822_0082">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c44822_0082">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>QUELLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44822.sense.25</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44822</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1829">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c44822_0082.w.626652">Ere</w>
           <w cert="1.0" lemma="jonkvrouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c44822_0082.w.626653">joncfrouwen</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="roland" xml:id="c44822_0082.w.626664">coninc</w>
           <w cert="1.0" lemma="hebben+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c44822_0082.w.626665">heftse</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c44822_0082.w.626666">doen</w>
-          <w cert="1.0" lemma="kwellen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.44822.sense.25" xml:id="c44822_0082.w.626667">quellen</w>
+          <w cert="1.0" lemma="kwellen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c44822_0082.w.626667" lemmaRef="mnw.44822.sense.25">quellen</w>
           <pc join="right" pos="PC" xml:id="c44822_0082.pc.pre.00246801" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c44822_0082.w.626668">is</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c44822_0082.w.626669">de</w>

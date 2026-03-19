@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54546" lemma="STAET" partition="test" sense-id="mnw.54546.sense.20" xml:id="c54546_0115">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c54546_0115">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54546.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54546</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1484">
           <w cert="1.0" lemma="als+men" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c54546_0115.w.1416109">Alsmen</w>
           <w cert="1.0" lemma="dat+woord" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c54546_0115.w.1416110">twoort</w>
@@ -77,7 +90,7 @@
           <w cert="1.0" lemma="zij+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c54546_0115.w.1416130">sijt</w>
           <w cert="1.0" lemma="vermogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c54546_0115.w.1416131">vermochte</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c54546_0115.w.1416132">van</w>
-          <w cert="1.0" lemma="staat" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.54546.sense.20" xml:id="c54546_0115.w.1416133">staets</w>
+          <w cert="1.0" lemma="staat" pos="NOU-C(number=sg)" resp="thomas" xml:id="c54546_0115.w.1416133" lemmaRef="mnw.54546.sense.20">staets</w>
           <w cert="1.0" lemma="weg" pos="NOU-C(number=sg)" resp="thomas" xml:id="c54546_0115.w.1416134">wegen</w>
           <pc join="right" pos="PC" xml:id="c54546_0115.pc.pre.00586650" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c54546_0115.w.1416135">zooveel</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72943" lemma="WEVEAMBACHT" partition="train" sense-id="mnw.72943.sense.2" xml:id="c72943_0011">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c72943_0011">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WEVEAMBACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72943.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72943</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3102">
           <w cert="1.0" lemma="Coppin" pos="NOU-P" resp="roland" xml:id="c72943_0011.w.1788990">Coppin</w>
           <w cert="1.0" lemma="Storem" pos="NOU-P" resp="roland" xml:id="c72943_0011.w.1788991">Storem</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c72943_0011.w.1789004">de</w>
           <w cert="1.0" lemma="kouter" pos="NOU-C(number=sg)" resp="roland" xml:id="c72943_0011.w.1789005">Coutre</w>
           <w cert="1.0" lemma="tot+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72943_0011.w.1789006">toten</w>
-          <w cert="1.0" lemma="weefambacht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72943.sense.2" xml:id="c72943_0011.w.1789007">wevenambochte</w>
+          <w cert="1.0" lemma="weefambacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c72943_0011.w.1789007" lemmaRef="mnw.72943.sense.2">wevenambochte</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c72943_0011.w.1789008">ende</w>
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c72943_0011.w.1789009">zeiden</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c72943_0011.w.1789010">dat</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66988" lemma="VOEDERINGE" partition="train" sense-id="mnw.66988.sense.1" xml:id="c66988_0001">
-        <date atLeast="1377" atMost="1378" timeSpan="1350-1400" />
+      <cit xml:id="c66988_0001">
+        <note>
+          <ab>
+            <date atLeast="1377" atMost="1378" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOEDERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66988.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66988</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2802">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c66988_0001.w.513861">Van</w>
           <w cert="1.0" lemma="Stoutenburg" pos="NOU-P" resp="roland" xml:id="c66988_0001.w.513862">Stoutenborch</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="tegen" pos="ADP(type=pre)" resp="thomas" xml:id="c66988_0001.w.513865">teghen</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c66988_0001.w.513866">dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66988_0001.w.513867">die</w>
-          <w cert="1.0" lemma="voedering" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.66988.sense.1" xml:id="c66988_0001.w.513868">voederinghe</w>
+          <w cert="1.0" lemma="voedering" pos="NOU-C(number=sg)" resp="roland" xml:id="c66988_0001.w.513868" lemmaRef="mnw.66988.sense.1">voederinghe</w>
           <w cert="1.0" lemma="eerst" pos="ADV(type=reg)" resp="thomas" xml:id="c66988_0001.w.513869">ierst</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c66988_0001.w.513870">wesen</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c66988_0001.w.513871">soude</w>

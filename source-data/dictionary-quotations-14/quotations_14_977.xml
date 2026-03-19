@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25135" lemma="LATEN" partition="train" sense-id="mnw.25135.sense.70" xml:id="c25135_0392">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c25135_0392">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25135.sense.70</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25135</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.977">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c25135_0392.w.133218">Van</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c25135_0392.w.133219">sinen</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c25135_0392.pc.floating.00052068" lemma="…">…</pc>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c25135_0392.w.133225">niet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c25135_0392.w.133226">ne</w>
-          <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.25135.sense.70" xml:id="c25135_0392.w.133227">liet</w>
+          <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c25135_0392.w.133227" lemmaRef="mnw.25135.sense.70">liet</w>
           <w cert="1.0" lemma="korten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c25135_0392.w.133228">corten</w>
           <pc pos="PC" xml:id="c25135_0392.pc.post.00052069" lemma=",">,</pc>
         </q>

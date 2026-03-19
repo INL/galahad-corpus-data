@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27293" lemma="LUUSTEREN" partition="train" sense-id="mnw.27293.sense.6" xml:id="c27293_0010">
-        <date atLeast="1488" atMost="1488" timeSpan="1450-1500" />
+      <cit xml:id="c27293_0010">
+        <note>
+          <ab>
+            <date atLeast="1488" atMost="1488" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LUUSTEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27293.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27293</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.675">
           <pc join="right" pos="PC" xml:id="c27293_0010.pc.pre.00244260" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c27293_0010.w.629327">Doe</w>
           <pc pos="PC" xml:id="c27293_0010.pc.post.00244261" lemma=")">)</pc>
-          <w cert="1.0" lemma="luisteren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.27293.sense.6" xml:id="c27293_0010.w.629328">luysterde</w>
+          <w cert="1.0" lemma="luisteren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c27293_0010.w.629328" lemmaRef="mnw.27293.sense.6">luysterde</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c27293_0010.w.629329">hem</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27293_0010.w.629330">dat</w>
           <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27293_0010.w.629331">wijf</w>

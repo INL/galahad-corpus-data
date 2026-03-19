@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40780" lemma="OVERMOEDICHEIT" partition="train" sense-id="mnw.40780.sense.3" xml:id="c40780_0005">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c40780_0005">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERMOEDICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40780.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40780</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1672">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c40780_0005.w.1461279">Dit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c40780_0005.w.1461280">waren</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c40780_0005.pc.post.00581155" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c40780_0005.w.1461284">die</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c40780_0005.w.1461285">met</w>
-          <w cert="1.0" lemma="overmoedigheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40780.sense.3" xml:id="c40780_0005.w.1461286">overmoedicheden</w>
+          <w cert="1.0" lemma="overmoedigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c40780_0005.w.1461286" lemmaRef="mnw.40780.sense.3">overmoedicheden</w>
           <pc pos="PC" xml:id="c40780_0005.pc.floating.00581156" lemma="…">…</pc>
           <w cert="1.0" lemma="winnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c40780_0005.w.1461288">wonnen</w>
           <w cert="1.0" lemma="dat+landschap" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c40780_0005.w.1461289">dlantscap</w>

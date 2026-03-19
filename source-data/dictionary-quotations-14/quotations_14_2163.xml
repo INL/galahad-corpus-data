@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53872" lemma="SPEL" partition="train" sense-id="mnw.53872.sense.45" xml:id="c53872_0325">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c53872_0325">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SPEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53872.sense.45</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2163">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53872_0325.w.1256707">Si</w>
           <w cert="1.0" lemma="vlieden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c53872_0325.w.1256708">vloon</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="knaap" pos="NOU-C(number=sg)" resp="roland" xml:id="c53872_0325.w.1256715">knape</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c53872_0325.w.1256716">hadde</w>
           <w cert="1.0" lemma="lelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c53872_0325.w.1256717">leelic</w>
-          <w cert="1.0" lemma="spel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53872.sense.45" xml:id="c53872_0325.w.1256718">spel</w>
+          <w cert="1.0" lemma="spel" pos="NOU-C(number=sg)" resp="roland" xml:id="c53872_0325.w.1256718" lemmaRef="mnw.53872.sense.45">spel</w>
           <pc pos="PC" xml:id="c53872_0325.pc.floating.00521703" lemma=",">,</pc>
         </q>
       </cit>

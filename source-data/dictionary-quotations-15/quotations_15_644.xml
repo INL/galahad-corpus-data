@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26115" lemma="LIEFHEBBER" partition="train" sense-id="mnw.26115.sense.1" xml:id="c26115_0003">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c26115_0003">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LIEFHEBBER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26115.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26115</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.644">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c26115_0003.w.370474">Soo</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c26115_0003.w.370475">saell</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c26115_0003.w.370482">die</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c26115_0003.w.370483">Got</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c26115_0003.w.370484">sinen</w>
-          <w cert="1.0" lemma="liefhebber" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.26115.sense.1" xml:id="c26115_0003.w.370485">lieffhebberen</w>
+          <w cert="1.0" lemma="liefhebber" pos="NOU-C(number=pl)" resp="roland" xml:id="c26115_0003.w.370485" lemmaRef="mnw.26115.sense.1">lieffhebberen</w>
           <w cert="1.0" lemma="geloven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c26115_0003.w.370486">gelaefft</w>
           <pc join="right" pos="PC" xml:id="c26115_0003.pc.pre.00143607" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c26115_0003.w.370487">beloofd</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63001" lemma="VERHEETEN" partition="train" sense-id="mnw.63001.sense.2" xml:id="c63001_0000">
-        <date atLeast="1434" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c63001_0000">
+        <note>
+          <ab>
+            <date atLeast="1434" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERHEETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63001.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63001</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1800">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c63001_0000.w.1341241">Dat</w>
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c63001_0000.w.1341242">schone</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="klaar" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c63001_0000.w.1341252">claer</w>
           <w cert="1.0" lemma="branden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63001_0000.w.1341253">brant</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63001_0000.w.1341254">ende</w>
-          <w cert="1.0" lemma="verheten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.63001.sense.2" xml:id="c63001_0000.w.1341255">verheit</w>
+          <w cert="1.0" lemma="verheten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63001_0000.w.1341255" lemmaRef="mnw.63001.sense.2">verheit</w>
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63001_0000.w.1341256">dengenen</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63001_0000.w.1341257">die</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c63001_0000.w.1341258">bi</w>

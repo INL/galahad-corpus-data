@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22245" lemma="CNIE" partition="train" sense-id="mnw.22245.sense.1" xml:id="c22245_0006">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c22245_0006">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CNIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22245.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22245</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.883">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c22245_0006.w.1119376">Doen</w>
           <w cert="1.0" lemma="nedervallen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c22245_0006.w.1119377">viel<join n="mw_971331" />
@@ -60,7 +73,7 @@
           </w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c22245_0006.w.1119382">op</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c22245_0006.w.1119383">sine</w>
-          <w cert="1.0" lemma="knie" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.22245.sense.1" xml:id="c22245_0006.w.1119384">knien</w>
+          <w cert="1.0" lemma="knie" pos="NOU-C(number=pl)" resp="roland" xml:id="c22245_0006.w.1119384" lemmaRef="mnw.22245.sense.1">knien</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22245_0006.w.1119385">ende</w>
           <w cert="1.0" lemma="batten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c22245_0006.w.1119386">bat</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c22245_0006.w.1119387">Gode</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02216" lemma="BANDERSIDE" partition="train" sense-id="mnw.02216.sense.11" xml:id="c02216_0030">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c02216_0030">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BANDERSIDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02216.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02216</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.85">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c02216_0030.w.396427">Ene</w>
           <w cert="1.0" lemma="venster" pos="NOU-C(number=sg)" resp="roland" xml:id="c02216_0030.w.396428">veinstre</w>
@@ -58,7 +71,7 @@
           </w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c02216_0030.w.396432">sach</w>
           <w cert="1.0" lemma="zitten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c02216_0030.w.396433">sitten</w>
-          <w cert="1.0" lemma="banderzijde" pos="ADP(type=pre)" resp="roland" sense-id="mnw.02216.sense.11" xml:id="c02216_0030.w.396434">banderside</w>
+          <w cert="1.0" lemma="banderzijde" pos="ADP(type=pre)" resp="roland" xml:id="c02216_0030.w.396434" lemmaRef="mnw.02216.sense.11">banderside</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02216_0030.w.396435">den</w>
           <w cert="1.0" lemma="muur" pos="NOU-C(number=sg)" resp="roland" xml:id="c02216_0030.w.396436">mure</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c02216_0030.w.396437">in</w>

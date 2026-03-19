@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12964" lemma="GESONDEN" partition="train" sense-id="mnw.12964.sense.2" xml:id="c12964_0007">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c12964_0007">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GESONDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12964.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12964</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.340">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c12964_0007.w.1214130">So</w>
           <w cert="1.0" lemma="zullen+du" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c12964_0007.w.1214131">seltu</w>
-          <w cert="1.0" lemma="gezonden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.12964.sense.2" xml:id="c12964_0007.w.1214132">ghesonden</w>
+          <w cert="1.0" lemma="gezonden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c12964_0007.w.1214132" lemmaRef="mnw.12964.sense.2">ghesonden</w>
           <pc join="right" pos="PC" xml:id="c12964_0007.pc.pre.00508794" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12964_0007.w.1214133">nl.</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c12964_0007.w.1214134">Joseph</w>

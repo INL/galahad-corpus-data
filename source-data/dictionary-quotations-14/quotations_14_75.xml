@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01968" lemma="AVENTURE" partition="train" sense-id="mnw.01968.sense.20" xml:id="c01968_0090">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c01968_0090">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>AVENTURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01968.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01968</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.75">
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c01968_0090.w.353577">Op</w>
-          <w cert="1.0" lemma="avontuur" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.01968.sense.20" xml:id="c01968_0090.w.353578">aventure</w>
+          <w cert="1.0" lemma="avontuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c01968_0090.w.353578" lemmaRef="mnw.01968.sense.20">aventure</w>
           <w cert="1.0" lemma="wat" pos="PD(type=indef,position=free)" resp="roland" xml:id="c01968_0090.w.353579">wat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c01968_0090.w.353580">sijns</w>
           <w cert="1.0" lemma="geschieden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c01968_0090.w.353581">ghescie</w>

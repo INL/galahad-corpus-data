@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63431" lemma="VERLATEN" partition="train" sense-id="mnw.63431.sense.7" xml:id="c63431_0039">
-        <date atLeast="1485" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c63431_0039">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERLATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63431.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63431</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1819">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c63431_0039.w.1462218">Ic</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63431_0039.w.1462219">wil</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63431_0039.w.1462235">mach</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63431_0039.w.1462236">u</w>
           <w cert="1.0" lemma="des" pos="ADV(type=reg)" resp="thomas" xml:id="c63431_0039.w.1462237">des</w>
-          <w cert="1.0" lemma="verlaten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.63431.sense.7" xml:id="c63431_0039.w.1462238">verlaten</w>
+          <w cert="1.0" lemma="verlaten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c63431_0039.w.1462238" lemmaRef="mnw.63431.sense.7">verlaten</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c63431_0039.w.1462239">niet</w>
           <pc pos="PC" xml:id="c63431_0039.pc.post.00584539" lemma=",">,</pc>
         </q>

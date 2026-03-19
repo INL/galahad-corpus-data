@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41772" lemma="PARAVIJS" partition="train" sense-id="mnw.41772.sense.1" xml:id="c41772_0003">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c41772_0003">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PARAVIJS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41772.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41772</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1072">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c41772_0003.w.84743">Als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c41772_0003.w.84744">die</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="parvijs" pos="NOU-C(number=sg,WF=mis)" resp="thomas" xml:id="c41772_0003.w.84764">paernijs</w>
           <pc join="right" pos="PC" xml:id="c41772_0003.pc.pre.00032132" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41772_0003.w.84765">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.41772.sense.1" xml:id="c41772_0003.w.84766">paervijs</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41772_0003.w.84766" lemmaRef="mnw.41772.sense.1">paervijs</w>
           <pc pos="PC" xml:id="c41772_0003.pc.floating.00032134" lemma=",">,</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41772_0003.w.84768">zooals</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41772_0003.w.84769">er</w>

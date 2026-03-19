@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33676" lemma="OMMELEGGEN" partition="train" sense-id="mnw.33676.sense.3" xml:id="c33676_0010">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c33676_0010">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OMMELEGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33676.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33676</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1400">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c33676_0010.w.101946">Die</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c33676_0010.w.101947">den</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c33676_0010.w.101958">ware</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c33676_0010.w.101959">dat</w>
           <w cert="1.0" lemma="hij+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c33676_0010.w.101960">hijt</w>
-          <w cert="1.0" lemma="omleggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.33676.sense.3" xml:id="c33676_0010.w.101961">omleide</w>
+          <w cert="1.0" lemma="omleggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c33676_0010.w.101961" lemmaRef="mnw.33676.sense.3">omleide</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c33676_0010.w.101962">omme</w>
           <pc join="right" pos="PC" xml:id="c33676_0010.pc.pre.00042095" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c33676_0010.w.101963">goed</w>

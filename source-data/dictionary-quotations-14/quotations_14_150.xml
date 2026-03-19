@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03341" lemma="BERECHTEN" partition="test" sense-id="mnw.03341.sense.8" xml:id="c03341_0020">
-        <date atLeast="1301" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c03341_0020">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BERECHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03341.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03341</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.150">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c03341_0020.w.653850">Hie</w>
           <w cert="1.0" lemma="mogen+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c03341_0020.w.653851">machse</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03341_0020.w.653855">ende</w>
           <w cert="1.0" lemma="bedwingen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03341_0020.w.653856">bedwinghen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03341_0020.w.653857">ende</w>
-          <w cert="1.0" lemma="berechten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.03341.sense.8" xml:id="c03341_0020.w.653858">berechten</w>
+          <w cert="1.0" lemma="berechten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03341_0020.w.653858" lemmaRef="mnw.03341.sense.8">berechten</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c03341_0020.w.653859">omme</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03341_0020.w.653860">der</w>
           <w cert="1.0" lemma="meentocht" pos="NOU-C(number=sg)" resp="roland" xml:id="c03341_0020.w.653861">meentucht</w>

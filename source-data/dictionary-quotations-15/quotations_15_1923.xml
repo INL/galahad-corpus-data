@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65383" lemma="VERVREUCHDEN" partition="train" sense-id="mnw.65383.sense.1" xml:id="c65383_0007">
-        <date atLeast="1479" atMost="1479" timeSpan="1450-1500" />
+      <cit xml:id="c65383_0007">
+        <note>
+          <ab>
+            <date atLeast="1479" atMost="1479" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERVREUCHDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65383.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65383</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1923">
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c65383_0007.w.175091">Du</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c65383_0007.w.175092">hebste</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="ader" pos="NOU-C(number=pl)" resp="roland" xml:id="c65383_0007.w.175100">aderen</w>
           <w cert="1.0" lemma="daarvan" pos="ADV(type=pron)" resp="thomas" xml:id="c65383_0007.w.175101">van<join n="mw_236528" />
           </w>
-          <w cert="1.0" lemma="vervreugden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.65383.sense.1" xml:id="c65383_0007.w.175102">vervruechden</w>
+          <w cert="1.0" lemma="vervreugden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c65383_0007.w.175102" lemmaRef="mnw.65383.sense.1">vervruechden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c65383_0007.w.175103">ende</w>
           <w cert="1.0" lemma="verblijden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c65383_0007.w.175104">verbliden</w>
           <pc pos="PC" xml:id="c65383_0007.pc.post.00068325" lemma=",">,</pc>

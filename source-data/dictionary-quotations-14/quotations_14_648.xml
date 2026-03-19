@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14508" lemma="GOMME" partition="train" sense-id="mnw.14508.sense.1" xml:id="c14508_0004">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c14508_0004">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GOMME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14508.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14508</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.648">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c14508_0004.w.1495103">So</w>
           <w cert="1.0" lemma="uitwerpen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c14508_0004.w.1495104">werpt<join n="mw_450718" />
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="uitwerpen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c14508_0004.w.1495108">uut<join n="mw_450718" />
           </w>
           <w cert="1.0" lemma="enerhande" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c14508_0004.w.1495109">erehande</w>
-          <w cert="1.0" lemma="gom" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14508.sense.1" xml:id="c14508_0004.w.1495110">gomme</w>
+          <w cert="1.0" lemma="gom" pos="NOU-C(number=sg)" resp="roland" xml:id="c14508_0004.w.1495110" lemmaRef="mnw.14508.sense.1">gomme</w>
           <pc pos="PC" xml:id="c14508_0004.pc.floating.00625701" lemma=",">,</pc>
         </q>
       </cit>

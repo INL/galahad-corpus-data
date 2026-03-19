@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62206" lemma="VERBLODEN" partition="train" sense-id="mnw.62206.sense.7" xml:id="c62206_0021">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c62206_0021">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERBLODEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62206.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62206</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2532">
           <pc pos="PC" xml:id="c62206_0021.pc.floating.00452759" lemma="—">—</pc>
           <w cert="1.0" lemma="Benedicta" pos="NOU-P" resp="roland" xml:id="c62206_0021.w.1122944">Benedicte</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c62206_0021.w.1122945">sonder</w>
-          <w cert="1.0" lemma="verbloden" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.62206.sense.7" xml:id="c62206_0021.w.1122946">verblooden</w>
+          <w cert="1.0" lemma="verbloden" pos="NOU-C(number=sg)" resp="roland" xml:id="c62206_0021.w.1122946" lemmaRef="mnw.62206.sense.7">verblooden</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c62206_0021.w.1122947">ghinc</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c62206_0021.w.1122948">daer</w>
           <w cert="1.0" lemma="togen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c62206_0021.w.1122949">toogen</w>

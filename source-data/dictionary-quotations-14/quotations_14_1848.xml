@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45200" lemma="RAM" partition="train" sense-id="mnw.45200.sense.2" xml:id="c45200_0016">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c45200_0016">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>RAM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45200.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45200</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1848">
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c45200_0016.w.722702">Jeghen</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c45200_0016.w.722703">dat</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c45200_0016.pc.post.00283837" lemma=")">)</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c45200_0016.w.722706">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c45200_0016.w.722707">den</w>
-          <w cert="1.0" lemma="ram" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.45200.sense.2" xml:id="c45200_0016.w.722708">ram</w>
+          <w cert="1.0" lemma="ram" pos="NOU-C(number=sg)" resp="roland" xml:id="c45200_0016.w.722708" lemmaRef="mnw.45200.sense.2">ram</w>
           <pc pos="PC" xml:id="c45200_0016.pc.floating.00283838" lemma=",">,</pc>
         </q>
       </cit>

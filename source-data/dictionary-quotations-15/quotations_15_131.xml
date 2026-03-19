@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04098" lemma="BEVAEN" partition="train" sense-id="mnw.04098.sense.23" xml:id="c04098_0058">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c04098_0058">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BEVAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04098.sense.23</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04098</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.131">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c04098_0058.w.834950">Si</w>
           <w cert="1.0" lemma="liggen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c04098_0058.w.834951">leghet</w>
           <w cert="1.0" lemma="arm" pos="NOU-C(number=sg)" resp="thomas" xml:id="c04098_0058.w.834952">arm</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c04098_0058.w.834953">ende</w>
           <w cert="1.0" lemma="arm" pos="NOU-C(number=sg)" resp="thomas" xml:id="c04098_0058.w.834954">arm</w>
-          <w cert="1.0" lemma="bevangen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.04098.sense.23" xml:id="c04098_0058.w.834955">bevaen</w>
+          <w cert="1.0" lemma="bevangen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c04098_0058.w.834955" lemmaRef="mnw.04098.sense.23">bevaen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c04098_0058.w.834956">in</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c04098_0058.w.834957">ghenen</w>
           <w cert="1.0" lemma="boomgaard" pos="NOU-C(number=sg)" resp="thomas" xml:id="c04098_0058.w.834958">boegaert</w>

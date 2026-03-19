@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30475" lemma="MOGEN" partition="train" sense-id="mnw.30475.sense.22" xml:id="c30475_0196">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c30475_0196">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30475.sense.22</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30475</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.761">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30475_0196.w.1261000">Sy</w>
           <pc join="right" pos="PC" xml:id="c30475_0196.pc.pre.00495298" lemma="(">(</pc>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="lang" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c30475_0196.w.1261013">lanc</w>
           <w cert="1.0" lemma="leven" pos="NOU-C(number=sg)" resp="roland" xml:id="c30475_0196.w.1261014">leven</w>
           <pc pos="PC" xml:id="c30475_0196.pc.post.00495301" lemma=",">,</pc>
-          <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.30475.sense.22" xml:id="c30475_0196.w.1261015">mocht</w>
+          <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c30475_0196.w.1261015" lemmaRef="mnw.30475.sense.22">mocht</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c30475_0196.w.1261016">hem</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c30475_0196.w.1261017">werden</w>
           <pc pos="PC" xml:id="c30475_0196.pc.post.00495302" lemma=",">,</pc>

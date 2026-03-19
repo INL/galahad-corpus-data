@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33522" lemma="OMME" partition="train" sense-id="mnw.33522.sense.52" xml:id="c33522_0255">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c33522_0255">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OMME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33522.sense.52</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33522</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1388">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c33522_0255.w.65536">Doe</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33522_0255.w.65537">hi</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c33522_0255.w.65541">tot</w>
           <w cert="1.0" lemma="A." pos="NOU-P(WF=abbr)" resp="thomas" xml:id="c33522_0255.w.65542">A.</w>
           <pc pos="PC" xml:id="c33522_0255.pc.floating.00027058" lemma="..">..</pc>
-          <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.33522.sense.52" xml:id="c33522_0255.w.65544">om</w>
+          <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c33522_0255.w.65544" lemmaRef="mnw.33522.sense.52">om</w>
           <w cert="1.0" lemma="schip" pos="NOU-C(number=sg)" resp="roland" xml:id="c33522_0255.w.65545">scepe</w>
           <w cert="1.0" lemma="aldaar" pos="ADV(type=reg)" resp="thomas" xml:id="c33522_0255.w.65546">aldair</w>
           <pc pos="PC" xml:id="c33522_0255.pc.post.00027059" lemma=",">,</pc>

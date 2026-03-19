@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62135" lemma="VERBERNEN" partition="dev" sense-id="mnw.62135.sense.3" xml:id="c62135_0026">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c62135_0026">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERBERNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62135.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62135</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1747">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62135_0026.w.1093991">Die</w>
           <w cert="1.0" lemma="hitte" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62135_0026.w.1093992">hette<join n="mw_374411" />
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="hitte" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62135_0026.w.1093993">n<join n="mw_374411" />
           </w>
           <pc pos="PC" xml:id="c62135_0026.pc.post.00441227" lemma=")">)</pc>
-          <w cert="1.0" lemma="verbranden+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" sense-id="mnw.62135.sense.3" xml:id="c62135_0026.w.1093994">verbarntse</w>
+          <w cert="1.0" lemma="verbranden+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c62135_0026.w.1093994" lemmaRef="mnw.62135.sense.3">verbarntse</w>
           <pc join="right" pos="PC" xml:id="c62135_0026.pc.pre.00441228" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c62135_0026.w.1093995">fleumen</w>
           <pc pos="PC" xml:id="c62135_0026.pc.post.00441229" lemma=")">)</pc>

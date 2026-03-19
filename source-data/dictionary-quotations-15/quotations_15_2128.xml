@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71148" lemma="WEDERBUUC" partition="train" sense-id="mnw.71148.sense.1" xml:id="c71148_0000">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c71148_0000">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WEDERBUUC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71148.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71148</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2128">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c71148_0000.w.1415744">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c71148_0000.w.1415745">sy</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="half" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c71148_0000.w.1415749">halven</w>
           <w cert="1.0" lemma="hamel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c71148_0000.w.1415750">hamel</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c71148_0000.w.1415751">of</w>
-          <w cert="1.0" lemma="weerbuik" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.71148.sense.1" xml:id="c71148_0000.w.1415752">weerbuyc</w>
+          <w cert="1.0" lemma="weerbuik" pos="NOU-C(number=sg)" resp="thomas" xml:id="c71148_0000.w.1415752" lemmaRef="mnw.71148.sense.1">weerbuyc</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c71148_0000.w.1415753">ende</w>
           <w cert="1.0" lemma="vijf" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c71148_0000.w.1415754">vijf</w>
           <w cert="1.0" lemma="kuiken" pos="NOU-C(number=pl)" resp="roland" xml:id="c71148_0000.w.1415755">kiekene</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54563" lemma="STAKEN" partition="train" sense-id="mnw.54563.sense.6" xml:id="c54563_0015">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c54563_0015">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54563.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54563</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1487">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c54563_0015.w.1425897">Hi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c54563_0015.w.1425898">es</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c54563_0015.w.1425903">die</w>
           <w cert="1.0" lemma="hemel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c54563_0015.w.1425904">hemel</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c54563_0015.w.1425905">es</w>
-          <w cert="1.0" lemma="staken" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.54563.sense.6" xml:id="c54563_0015.w.1425906">ghestaect</w>
+          <w cert="1.0" lemma="staken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c54563_0015.w.1425906" lemmaRef="mnw.54563.sense.6">ghestaect</w>
           <pc pos="PC" xml:id="c54563_0015.pc.floating.00590390" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64239" lemma="VERROEKELOSEN" partition="train" sense-id="mnw.64239.sense.2" xml:id="c64239_0005">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c64239_0005">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERROEKELOSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64239.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64239</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2671">
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c64239_0005.w.1691682">Alle</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c64239_0005.w.1691683">dijnghe</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c64239_0005.pc.post.00674439" lemma=";">;</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64239_0005.w.1691689">ende</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64239_0005.w.1691690">si</w>
-          <w cert="1.0" lemma="verroekelozen+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.64239.sense.2" xml:id="c64239_0005.w.1691691">verroekeloosdent</w>
+          <w cert="1.0" lemma="verroekelozen+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c64239_0005.w.1691691" lemmaRef="mnw.64239.sense.2">verroekeloosdent</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64239_0005.w.1691692">ende</w>
           <w cert="1.0" lemma="weggaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c64239_0005.w.1691693">ghinghen<join n="mw_679183" />
           </w>

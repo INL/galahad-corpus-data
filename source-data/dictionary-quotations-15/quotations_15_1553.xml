@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56274" lemma="SULLEN" partition="dev" sense-id="mnw.56274.sense.16" xml:id="c56274_0171">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c56274_0171">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SULLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56274.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56274</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1553">
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c56274_0171.w.1812704">Man</w>
           <pc pos="PC" xml:id="c56274_0171.pc.post.00748156" lemma=",">,</pc>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c56274_0171.w.1812715">wijs</w>
           <pc pos="PC" xml:id="c56274_0171.pc.post.00748160" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+du" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c56274_0171.w.1812716">dattu</w>
-          <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.56274.sense.16" xml:id="c56274_0171.w.1812717">souts</w>
+          <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56274_0171.w.1812717" lemmaRef="mnw.56274.sense.16">souts</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c56274_0171.w.1812718">in</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c56274_0171.w.1812719">derre</w>
           <w cert="1.0" lemma="wijze" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56274_0171.w.1812720">wijs</w>

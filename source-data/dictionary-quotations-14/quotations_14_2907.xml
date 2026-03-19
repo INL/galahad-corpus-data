@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69231" lemma="VRO" partition="train" sense-id="mnw.69231.sense.1" xml:id="c69231_0000">
-        <date atLeast="1291" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c69231_0000">
+        <note>
+          <ab>
+            <date atLeast="1291" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VRO</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69231.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69231</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2907">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69231_0000.w.1009632">Si</w>
           <w cert="1.0" lemma="lopen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c69231_0000.w.1009633">liepen</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c69231_0000.w.1009643">daer</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c69231_0000.w.1009644">was</w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c69231_0000.w.1009645">menech</w>
-          <w cert="1.0" lemma="vro" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.69231.sense.1" xml:id="c69231_0000.w.1009646">vro</w>
+          <w cert="1.0" lemma="vro" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c69231_0000.w.1009646" lemmaRef="mnw.69231.sense.1">vro</w>
           <pc pos="PC" xml:id="c69231_0000.pc.floating.00404011" lemma=",">,</pc>
         </q>
       </cit>

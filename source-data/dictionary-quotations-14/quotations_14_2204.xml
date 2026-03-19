@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54631" lemma="STAMERDE" partition="train" sense-id="mnw.54631.sense.1" xml:id="c54631_0000">
-        <date atLeast="1382" atMost="1387" timeSpan="1350-1400" />
+      <cit xml:id="c54631_0000">
+        <note>
+          <ab>
+            <date atLeast="1382" atMost="1387" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>STAMERDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54631.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54631</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2204">
           <w cert="1.0" lemma="H." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c54631_0000.w.1440519">H.</w>
           <w cert="1.0" lemma="Z." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c54631_0000.w.1440520">Z.</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c54631_0000.w.1440527">horen</w>
           <w cert="1.0" lemma="gezel" pos="NOU-C(number=pl)" resp="roland" xml:id="c54631_0000.w.1440528">ghesellen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c54631_0000.w.1440529">ende</w>
-          <w cert="1.0" lemma="stamerd" pos="AA(degree=pos,position=prenom)" resp="roland" sense-id="mnw.54631.sense.1" xml:id="c54631_0000.w.1440530">stamerden</w>
+          <w cert="1.0" lemma="stamerd" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c54631_0000.w.1440530" lemmaRef="mnw.54631.sense.1">stamerden</w>
           <w cert="1.0" lemma="Heinen" pos="NOU-P" resp="roland" xml:id="c54631_0000.w.1440531">Heynen</w>
           <pc pos="PC" xml:id="c54631_0000.pc.post.00596374" lemma=",">,</pc>
         </q>

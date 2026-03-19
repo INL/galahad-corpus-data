@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18225" lemma="HOUTARE" partition="train" sense-id="mnw.18225.sense.1" xml:id="c18225_0000">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c18225_0000">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HOUTARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18225.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18225</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.757">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c18225_0000.w.459864">Van</w>
           <w cert="1.0" lemma="Lippijn" pos="NOU-P" resp="roland" xml:id="c18225_0000.w.459865">Lippine</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c18225_0000.pc.post.00187856" lemma=",">,</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c18225_0000.w.459869">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c18225_0000.w.459870">den</w>
-          <w cert="1.0" lemma="altaar" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18225.sense.1" xml:id="c18225_0000.w.459871">houtare</w>
+          <w cert="1.0" lemma="altaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c18225_0000.w.459871" lemmaRef="mnw.18225.sense.1">houtare</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c18225_0000.w.459872">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c18225_0000.w.459873">van</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c18225_0000.w.459874">den</w>

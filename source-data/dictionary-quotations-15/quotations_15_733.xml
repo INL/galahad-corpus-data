@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29517" lemma="METTENTIJT" partition="train" sense-id="mnw.29517.sense.1" xml:id="c29517_0000">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c29517_0000">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>METTENTIJT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29517.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29517</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.733">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c29517_0000.w.1040120">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c29517_0000.w.1040121">hi</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="vangen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c29517_0000.w.1040123">ghevanghen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c29517_0000.w.1040124">was</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c29517_0000.w.1040125">te</w>
-          <w cert="1.0" lemma="mettentijd" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.29517.sense.1" xml:id="c29517_0000.w.1040126">mattentiden</w>
+          <w cert="1.0" lemma="mettentijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c29517_0000.w.1040126" lemmaRef="mnw.29517.sense.1">mattentiden</w>
           <pc pos="PC" xml:id="c29517_0000.pc.floating.00407343" lemma=",">,</pc>
         </q>
       </cit>

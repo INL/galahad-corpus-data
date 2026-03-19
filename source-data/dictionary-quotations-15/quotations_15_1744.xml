@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62080" lemma="VERBAREN" partition="train" sense-id="mnw.62080.sense.14" xml:id="c62080_0058">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c62080_0058">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERBAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62080.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62080</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1744">
           <w cert="1.0" lemma="overmorgen" pos="ADV(type=reg)" resp="thomas" xml:id="c62080_0058.w.1083060">Overmorghen</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c62080_0058.w.1083061">soo</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="vrede" pos="NOU-C(number=sg)" resp="roland" xml:id="c62080_0058.w.1083064">vrede</w>
           <pc pos="PC" xml:id="c62080_0058.pc.floating.00436851" lemma="…,">…,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c62080_0058.w.1083066">alse</w>
-          <w cert="1.0" lemma="verbaren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.62080.sense.14" xml:id="c62080_0058.w.1083067">verbaert</w>
+          <w cert="1.0" lemma="verbaren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c62080_0058.w.1083067" lemmaRef="mnw.62080.sense.14">verbaert</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62080_0058.w.1083068">dat</w>
           <w cert="1.0" lemma="zonneschijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62080_0058.w.1083069">sonneschijn</w>
           <pc pos="PC" xml:id="c62080_0058.pc.post.00436852" lemma=",">,</pc>

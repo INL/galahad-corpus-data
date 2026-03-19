@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37125" lemma="ONTAME" partition="train" sense-id="mnw.37125.sense.1" xml:id="c37125_0005">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c37125_0005">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTAME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37125.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37125</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1500">
           <w cert="1.0" lemma="deus" pos="NOU-C(number=sg)" resp="roland" xml:id="c37125_0005.w.616261">Deus</w>
           <pc pos="PC" xml:id="c37125_0005.pc.post.00250854" lemma=",">,</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="ontaam" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c37125_0005.w.616270">ontamen</w>
           <pc join="right" pos="PC" xml:id="c37125_0005.pc.pre.00250855" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c37125_0005.w.616271">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.37125.sense.1" xml:id="c37125_0005.w.616272">ontame</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c37125_0005.w.616272" lemmaRef="mnw.37125.sense.1">ontame</w>
           <pc pos="PC" xml:id="c37125_0005.pc.floating.00250857" lemma=")">)</pc>
           <pc pos="PC" xml:id="c37125_0005.pc.floating.00250858" lemma=",">,</pc>
         </q>

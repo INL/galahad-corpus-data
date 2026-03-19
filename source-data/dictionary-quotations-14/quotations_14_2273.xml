@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56274" lemma="SULLEN" partition="dev" sense-id="mnw.56274.sense.11" xml:id="c56274_0090">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c56274_0090">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SULLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56274.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56274</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2273">
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c56274_0090.w.1810822">Du</w>
-          <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.56274.sense.11" xml:id="c56274_0090.w.1810823">salt</w>
+          <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c56274_0090.w.1810823" lemmaRef="mnw.56274.sense.11">salt</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c56274_0090.w.1810824">gaen</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c56274_0090.w.1810825">ten</w>
           <w cert="1.0" lemma="paap" pos="NOU-C(number=pl)" resp="roland" xml:id="c56274_0090.w.1810826">papen</w>

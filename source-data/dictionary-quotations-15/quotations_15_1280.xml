@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48920" lemma="SCHARPELIKE" partition="train" sense-id="mnw.48920.sense.1" xml:id="c48920_0003">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c48920_0003">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHARPELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48920.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48920</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1280">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c48920_0003.w.244112">Doe</w>
           <w cert="1.0" lemma="aanspreken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c48920_0003.w.244113">sprac<join n="mw_734495" />
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="melaats" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c48920_0003.w.244116">malaetschen</w>
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48920_0003.w.244117">mensche</w>
           <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="c48920_0003.w.244118">noch</w>
-          <w cert="1.0" lemma="scherpelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.48920.sense.1" xml:id="c48920_0003.w.244119">scerpelike</w>
+          <w cert="1.0" lemma="scherpelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c48920_0003.w.244119" lemmaRef="mnw.48920.sense.1">scerpelike</w>
           <w cert="1.0" lemma="aanspreken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c48920_0003.w.244120">aen<join n="mw_734495" />
           </w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c48920_0003.w.244121">ende</w>

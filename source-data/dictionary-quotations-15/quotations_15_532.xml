@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21758" lemma="CLASSE" partition="train" sense-id="mnw.21758.sense.2" xml:id="c21758_0002">
-        <date atLeast="1479" atMost="1479" timeSpan="1450-1500" />
+      <cit xml:id="c21758_0002">
+        <note>
+          <ab>
+            <date atLeast="1479" atMost="1479" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CLASSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21758.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21758</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.532">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c21758_0002.w.1028437">Den</w>
           <w cert="1.0" lemma="jongen" pos="NOU-C(number=sg)" resp="roland" xml:id="c21758_0002.w.1028438">jonghen</w>
@@ -58,7 +71,7 @@
           </w>
           <pc pos="PC" xml:id="c21758_0002.pc.post.00415853" lemma=",">,</pc>
           <w cert="1.0" lemma="of+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c21758_0002.w.1028443">oft</w>
-          <w cert="1.0" lemma="klas" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21758.sense.2" xml:id="c21758_0002.w.1028444">classen</w>
+          <w cert="1.0" lemma="klas" pos="NOU-C(number=pl)" resp="roland" xml:id="c21758_0002.w.1028444" lemmaRef="mnw.21758.sense.2">classen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c21758_0002.w.1028445">gheweest</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c21758_0002.w.1028446">waren</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21758_0002.w.1028447">van</w>

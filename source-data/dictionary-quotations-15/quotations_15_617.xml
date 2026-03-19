@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25281" lemma="LEDICH" partition="dev" sense-id="mnw.25281.sense.9" xml:id="c25281_0027">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c25281_0027">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LEDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25281.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25281</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.617">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c25281_0027.w.161182">Hi</w>
           <w cert="1.0" lemma="afnemen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c25281_0027.w.161183">neemt<join n="mw_27304" />
@@ -65,7 +78,7 @@
           <pc pos="PC" xml:id="c25281_0027.pc.post.00062872" lemma=",">,</pc>
           <w cert="1.0" lemma="los" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c25281_0027.w.161194">los</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25281_0027.w.161195">ende</w>
-          <w cert="1.0" lemma="ledig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.25281.sense.9" xml:id="c25281_0027.w.161196">ledich</w>
+          <w cert="1.0" lemma="ledig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c25281_0027.w.161196" lemmaRef="mnw.25281.sense.9">ledich</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25281_0027.w.161197">ons</w>
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c25281_0027.w.161198">selfs</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25281_0027.w.161199">ende</w>

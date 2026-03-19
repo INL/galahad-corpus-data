@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68702" lemma="VORT" partition="train" sense-id="mnw.68702.sense.1" xml:id="c68702_0002">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c68702_0002">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VORT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68702.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68702</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2045">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68702_0002.w.858519">Hy</w>
           <w cert="1.0" lemma="doen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c68702_0002.w.858520">dedese</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68702_0002.w.858535">men</w>
           <w cert="1.0" lemma="werpen+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c68702_0002.w.858536">werpse</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c68702_0002.w.858537">met</w>
-          <w cert="1.0" lemma="vort" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.68702.sense.1" xml:id="c68702_0002.w.858538">vortten</w>
+          <w cert="1.0" lemma="vort" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c68702_0002.w.858538" lemmaRef="mnw.68702.sense.1">vortten</w>
           <w cert="1.0" lemma="appel" pos="NOU-C(number=pl)" resp="roland" xml:id="c68702_0002.w.858539">appelen</w>
           <pc pos="PC" xml:id="c68702_0002.pc.post.00344733" lemma=",">,</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c68702_0002.w.858540">met</w>

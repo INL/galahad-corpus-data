@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07278" lemma="DORELIDEN" partition="train" sense-id="mnw.07278.sense.5" xml:id="c07278_0020">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c07278_0020">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DORELIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07278.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07278</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.319">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07278_0020.w.245727">Hi</w>
-          <w cert="1.0" lemma="doorlijden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.07278.sense.5" xml:id="c07278_0020.w.245728">leet<join n="mw_853529" />
+          <w cert="1.0" lemma="doorlijden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07278_0020.w.245728" lemmaRef="mnw.07278.sense.5">leet<join n="mw_853529" />
           </w>
-          <w cert="1.0" lemma="doorlijden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.07278.sense.5" xml:id="c07278_0020.w.245729">dore<join n="mw_853529" />
+          <w cert="1.0" lemma="doorlijden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07278_0020.w.245729" lemmaRef="mnw.07278.sense.5">dore<join n="mw_853529" />
           </w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c07278_0020.w.245730">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07278_0020.w.245731">der</w>

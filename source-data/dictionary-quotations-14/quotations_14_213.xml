@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04100" lemma="BEVALLEN" partition="train" sense-id="mnw.04100.sense.10" xml:id="c04100_0016">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c04100_0016">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BEVALLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04100.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04100</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.213">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c04100_0016.w.838247">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c04100_0016.w.838248">der</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c04100_0016.w.838254">hi</w>
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c04100_0016.w.838255">of<join n="mw_652360" />
           </w>
-          <w cert="1.0" lemma="bevallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.04100.sense.10" xml:id="c04100_0016.w.838256">bevallet</w>
+          <w cert="1.0" lemma="bevallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c04100_0016.w.838256" lemmaRef="mnw.04100.sense.10">bevallet</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c04100_0016.w.838257">te</w>
           <w cert="1.0" lemma="wet" pos="NOU-C(number=sg)" resp="roland" xml:id="c04100_0016.w.838258">wette</w>
           <pc pos="PC" xml:id="c04100_0016.pc.post.00327780" lemma=",">,</pc>

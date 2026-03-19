@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25487" lemma="LEGENDE" partition="train" sense-id="mnw.25487.sense.5" xml:id="c25487_0005">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c25487_0005">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LEGENDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25487.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25487</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.621">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c25487_0005.w.206864">Den</w>
           <w cert="1.0" lemma="brief" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25487_0005.w.206865">brieff</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c25487_0005.w.206870">also</w>
           <w cert="1.0" lemma="Ovidius" pos="NOU-P" resp="roland" xml:id="c25487_0005.w.206871">Ovidius</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c25487_0005.w.206872">hoor</w>
-          <w cert="1.0" lemma="legende" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25487.sense.5" xml:id="c25487_0005.w.206873">legende</w>
+          <w cert="1.0" lemma="legende" pos="NOU-C(number=sg)" resp="roland" xml:id="c25487_0005.w.206873" lemmaRef="mnw.25487.sense.5">legende</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c25487_0005.w.206874">in</w>
           <w cert="1.0" lemma="epistel" pos="NOU-C(number=pl)" resp="roland" xml:id="c25487_0005.w.206875">epistolen</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25487_0005.w.206876">heeft</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17482" lemma="HOECSTEDE" partition="train" sense-id="mnw.17482.sense.1" xml:id="c17482_0000">
-        <date atLeast="1380" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c17482_0000">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HOECSTEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17482.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17482</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.726">
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c17482_0000.w.330769">Vander</w>
           <w cert="1.0" lemma="ander" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c17482_0000.w.330770">ander</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c17482_0000.w.330776">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c17482_0000.w.330777">is</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c17482_0000.w.330778">de</w>
-          <w cert="1.0" lemma="hoekstede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.17482.sense.1" xml:id="c17482_0000.w.330779">hoecstede</w>
+          <w cert="1.0" lemma="hoekstede" pos="NOU-C(number=sg)" resp="roland" xml:id="c17482_0000.w.330779" lemmaRef="mnw.17482.sense.1">hoecstede</w>
           <pc pos="PC" xml:id="c17482_0000.pc.floating.00135590" lemma=",">,</pc>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c17482_0000.w.330781">hadde</w>
           <w cert="1.0" lemma="Gerrit" pos="NOU-P" resp="roland" xml:id="c17482_0000.w.330782">Gherijt</w>

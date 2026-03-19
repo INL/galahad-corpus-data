@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00709" lemma="AESGELT" partition="train" sense-id="mnw.00709.sense.1" xml:id="c00709_0000">
-        <date atLeast="1419" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c00709_0000">
+        <note>
+          <ab>
+            <date atLeast="1419" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>AESGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00709.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00709</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.21">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c00709_0000.w.141805">Item</w>
           <pc pos="PC" xml:id="c00709_0000.pc.floating.00056196" lemma="..">..</pc>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c00709_0000.pc.floating.00056197" lemma="..">..</pc>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c00709_0000.w.141810">voir</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c00709_0000.w.141811">hoir</w>
-          <w cert="1.0" lemma="aasgeld" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.00709.sense.1" xml:id="c00709_0000.w.141812">aesgelt</w>
+          <w cert="1.0" lemma="aasgeld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c00709_0000.w.141812" lemmaRef="mnw.00709.sense.1">aesgelt</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c00709_0000.w.141813">voir</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c00709_0000.w.141814">horen</w>
           <w cert="1.0" lemma="vogel" pos="NOU-C(number=pl)" resp="roland" xml:id="c00709_0000.w.141815">vogelen</w>

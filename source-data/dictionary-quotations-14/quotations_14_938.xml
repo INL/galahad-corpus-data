@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23812" lemma="CREI" partition="train" sense-id="mnw.23812.sense.1" xml:id="c23812_0000">
-        <date atLeast="1380" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c23812_0000">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CREI</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23812.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23812</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.938">
           <pc join="right" pos="PC" xml:id="c23812_0000.pc.pre.00570268" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c23812_0000.w.1419338">Doe</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="A." pos="NOU-P(WF=abbr)" resp="thomas" xml:id="c23812_0000.w.1419343">A.</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c23812_0000.w.1419344">voor</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c23812_0000.w.1419345">hoor</w>
-          <w cert="1.0" lemma="kraai" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.23812.sense.1" xml:id="c23812_0000.w.1419346">crey</w>
+          <w cert="1.0" lemma="kraai" pos="NOU-C(number=sg)" resp="roland" xml:id="c23812_0000.w.1419346" lemmaRef="mnw.23812.sense.1">crey</w>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c23812_0000.w.1419347">elc</w>
           <w cert="1.0" lemma="vijf" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c23812_0000.w.1419348">v</w>
           <w cert="1.0" lemma="solidus" pos="NOU-C(number=sg,WF=abbr)" resp="thomas" xml:id="c23812_0000.w.1419349">s</w>

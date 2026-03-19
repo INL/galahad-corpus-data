@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13608" lemma="GEVOECH" partition="train" sense-id="mnw.13608.sense.26" xml:id="c13608_0125">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c13608_0125">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEVOECH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13608.sense.26</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13608</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.599">
           <w cert="1.0" lemma="Maria" pos="NOU-P" resp="roland" xml:id="c13608_0125.w.1321233">Maria</w>
           <w cert="1.0" lemma="plukken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c13608_0125.w.1321234">plocte</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c13608_0125.w.1321238">alle</w>
           <w cert="1.0" lemma="de+ander" pos="PD(type=d-p,subtype=art,position=prenom)+NUM(type=ord,position=free,representation=let)" resp="thomas" xml:id="c13608_0125.w.1321239">dandere</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c13608_0125.w.1321240">haer</w>
-          <w cert="1.0" lemma="gevoeg" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.13608.sense.26" xml:id="c13608_0125.w.1321241">ghevoech</w>
+          <w cert="1.0" lemma="gevoeg" pos="NOU-C(number=sg)" resp="roland" xml:id="c13608_0125.w.1321241" lemmaRef="mnw.13608.sense.26">ghevoech</w>
           <pc pos="PC" xml:id="c13608_0125.pc.floating.00553173" lemma=",">,</pc>
         </q>
       </cit>

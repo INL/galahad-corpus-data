@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40695" lemma="OVERLEGGEN" partition="train" sense-id="mnw.40695.sense.2" xml:id="c40695_0002">
-        <date atLeast="1361" atMost="1372" timeSpan="1350-1400" />
+      <cit xml:id="c40695_0002">
+        <note>
+          <ab>
+            <date atLeast="1361" atMost="1372" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OVERLEGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40695.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40695</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1670">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c40695_0002.w.1437599">Des</w>
           <w cert="1.0" lemma="zondag" pos="NOU-C(number=sg)" resp="roland" xml:id="c40695_0002.w.1437600">sonnendages</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c40695_0002.w.1437605">sine</w>
           <w cert="1.0" lemma="rekening" pos="NOU-C(number=sg)" resp="roland" xml:id="c40695_0002.w.1437606">rekeninghe</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c40695_0002.w.1437607">hadde</w>
-          <w cert="1.0" lemma="overleggen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.40695.sense.2" xml:id="c40695_0002.w.1437608">overleghen</w>
+          <w cert="1.0" lemma="overleggen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c40695_0002.w.1437608" lemmaRef="mnw.40695.sense.2">overleghen</w>
           <pc join="right" pos="PC" xml:id="c40695_0002.pc.pre.00572027" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40695_0002.w.1437609">juist</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40695_0002.w.1437610">ware</w>

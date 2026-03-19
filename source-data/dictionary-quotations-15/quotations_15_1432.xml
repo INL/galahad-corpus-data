@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53226" lemma="SOL" partition="train" sense-id="mnw.53226.sense.2" xml:id="c53226_0001">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c53226_0001">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SOL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53226.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53226</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1432">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c53226_0001.w.1117429">Ist</w>
           <w cert="1.0" lemma="geestelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c53226_0001.w.1117430">gheestelic</w>
@@ -75,7 +88,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c53226_0001.w.1117450">is</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c53226_0001.w.1117451">al</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c53226_0001.w.1117452">die</w>
-          <w cert="1.0" lemma="zol" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.53226.sense.2" xml:id="c53226_0001.w.1117453">sol</w>
+          <w cert="1.0" lemma="zol" pos="NOU-C(number=sg)" resp="thomas" xml:id="c53226_0001.w.1117453" lemmaRef="mnw.53226.sense.2">sol</w>
           <pc join="right" pos="PC" xml:id="c53226_0001.pc.pre.00463734" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c53226_0001.w.1117454">ieder</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c53226_0001.w.1117455">beijvert</w>

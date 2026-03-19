@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12252" lemma="GEPLAET" partition="train" sense-id="mnw.12252.sense.1" xml:id="c12252_0000">
-        <date atLeast="1409" atMost="1412" timeSpan="1400-1450" />
+      <cit xml:id="c12252_0000">
+        <note>
+          <ab>
+            <date atLeast="1409" atMost="1412" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GEPLAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12252.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12252</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.315">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c12252_0000.w.1073947">Eest</w>
           <w cert="1.0" lemma="dat+er" pos="CONJ(type=sub)+ADV(type=reg)" resp="thomas" xml:id="c12252_0000.w.1073948">datter</w>
@@ -81,7 +94,7 @@
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12252_0000.w.1073970">zal</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c12252_0000.w.1073971">ziin</w>
           <w cert="1.0" lemma="dubbel" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c12252_0000.w.1073972">dobble</w>
-          <w cert="1.0" lemma="geplaat" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.12252.sense.1" xml:id="c12252_0000.w.1073973">gheplaedt</w>
+          <w cert="1.0" lemma="geplaat" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c12252_0000.w.1073973" lemmaRef="mnw.12252.sense.1">gheplaedt</w>
           <pc pos="PC" xml:id="c12252_0000.pc.floating.00452120" lemma=":">:</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c12252_0000.w.1073975">de</w>
           <w cert="1.0" lemma="voorzegd" pos="AA(degree=pos,position=prenom,WF=abbr)" resp="thomas" xml:id="c12252_0000.w.1073976">vors.</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73799" lemma="WINNER" partition="train" sense-id="mnw.73799.sense.5" xml:id="c73799_0009">
-        <date atLeast="1452" atMost="1452" timeSpan="1450-1500" />
+      <cit xml:id="c73799_0009">
+        <note>
+          <ab>
+            <date atLeast="1452" atMost="1452" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WINNER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73799.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73799</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2265">
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73799_0009.w.1970098">Het</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c73799_0009.w.1970099">sint</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="moeder" pos="NOU-C(number=pl)" resp="roland" xml:id="c73799_0009.w.1970103">moeders</w>
           <pc pos="PC" xml:id="c73799_0009.pc.post.00773424" lemma=";">;</pc>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c73799_0009.w.1970104">gheen</w>
-          <w cert="1.0" lemma="winner" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73799.sense.5" xml:id="c73799_0009.w.1970105">wynres</w>
+          <w cert="1.0" lemma="winner" pos="NOU-C(number=sg)" resp="roland" xml:id="c73799_0009.w.1970105" lemmaRef="mnw.73799.sense.5">wynres</w>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c73799_0009.w.1970106">meer</w>
           <w cert="1.0" lemma="doder" pos="NOU-C(number=pl)" resp="roland" xml:id="c73799_0009.w.1970107">doders</w>
           <pc join="right" pos="PC" xml:id="c73799_0009.pc.pre.00773425" lemma="(">(</pc>

@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M090206" lemma="ZWAARMOEDIG" modern-lemma="zwaarmoedig" partition="test" pos="AA" sense-id="M090206.bet.30" xml:id="M090206.eg.11111">
-        <date atLeast="1554" atMost="1554" timeSpan="1550-1600" />
+      <cit xml:id="M090206.eg.11111">
+        <note>
+          <ab>
+            <date atLeast="1554" atMost="1554" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>ZWAARMOEDIG</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>AA</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M090206.bet.30</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>zwaarmoedig</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M090206</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1810">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.12911">Dat</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.12912">die</w>
@@ -68,7 +87,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.12925">alle</w>
           <w cert="1.0" lemma="bedroefd" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.12926">bedroefde</w>
           <pc pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0003928" lemma=",">,</pc>
-          <w cert="1.0" lemma="zwaarmoedig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="M090206.bet.30" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.12927">swaermoedighe</w>
+          <w cert="1.0" lemma="zwaarmoedig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.12927" lemmaRef="M090206.bet.30">swaermoedighe</w>
           <pc pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0003929" lemma=",">,</pc>
           <w cert="1.0" lemma="benauwd" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.12928">benaude</w>
           <pc pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0003930" lemma=",">,</pc>

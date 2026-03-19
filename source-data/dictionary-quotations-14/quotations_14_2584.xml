@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62888" lemma="VERGRAMEN" partition="dev" sense-id="mnw.62888.sense.3" xml:id="c62888_0011">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c62888_0011">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERGRAMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62888.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62888</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2584">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62888_0011.w.1318534">Ic</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62888_0011.w.1318535">sie</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62888_0011.w.1318547">ic</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c62888_0011.w.1318548">mine</w>
           <w cert="1.0" lemma="verwoedheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c62888_0011.w.1318549">verwoetheit</w>
-          <w cert="1.0" lemma="vergrammen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.62888.sense.3" xml:id="c62888_0011.w.1318550">vergramme</w>
+          <w cert="1.0" lemma="vergrammen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62888_0011.w.1318550" lemmaRef="mnw.62888.sense.3">vergramme</w>
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c62888_0011.w.1318551">jeghen</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62888_0011.w.1318552">hem</w>
           <pc pos="PC" xml:id="c62888_0011.pc.post.00528912" lemma=",">,</pc>

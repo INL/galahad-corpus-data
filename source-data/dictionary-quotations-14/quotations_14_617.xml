@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13963" lemma="GEWINNEN" partition="train" sense-id="mnw.13963.sense.16" xml:id="c13963_0050">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c13963_0050">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEWINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13963.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13963</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.617">
           <pc join="right" pos="PC" xml:id="c13963_0050.pc.pre.00581320" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c13963_0050.w.1389984">Si</w>
           <pc pos="PC" xml:id="c13963_0050.pc.post.00581321" lemma=")">)</pc>
-          <w cert="1.0" lemma="gewinnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.13963.sense.16" xml:id="c13963_0050.w.1389985">ghewan</w>
+          <w cert="1.0" lemma="gewinnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c13963_0050.w.1389985" lemmaRef="mnw.13963.sense.16">ghewan</w>
           <w cert="1.0" lemma="volkomenlijk" pos="ADV(type=reg)" resp="thomas" xml:id="c13963_0050.w.1389986">volcomeleke</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c13963_0050.w.1389987">haer</w>
           <w cert="1.0" lemma="horen" pos="NOU-C(number=sg)" resp="roland" xml:id="c13963_0050.w.1389988">horen</w>

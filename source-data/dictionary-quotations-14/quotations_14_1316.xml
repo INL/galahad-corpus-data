@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32180" lemma="NEDERVELLEN" partition="train" sense-id="mnw.32180.sense.5" xml:id="c32180_0002">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c32180_0002">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NEDERVELLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32180.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32180</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1316">
           <w cert="1.0" lemma="als+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c32180_0002.w.1551045">Alst</w>
           <pc join="right" pos="PC" xml:id="c32180_0002.pc.pre.00610743" lemma="(">(</pc>
@@ -66,11 +79,11 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c32180_0002.w.1551058">niet</w>
           <w cert="1.0" lemma="gedogen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c32180_0002.w.1551059">ghedoghen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c32180_0002.w.1551060">ende</w>
-          <w cert="1.0" lemma="nedervellen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.32180.sense.5" xml:id="c32180_0002.w.1551061">vellet<join n="mw_388455" />
+          <w cert="1.0" lemma="nedervellen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c32180_0002.w.1551061" lemmaRef="mnw.32180.sense.5">vellet<join n="mw_388455" />
           </w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c32180_0002.w.1551062">sine</w>
           <w cert="1.0" lemma="vleugel" pos="NOU-C(number=pl)" resp="roland" xml:id="c32180_0002.w.1551063">vlogele</w>
-          <w cert="1.0" lemma="nedervellen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.32180.sense.5" xml:id="c32180_0002.w.1551064">neder<join n="mw_388455" />
+          <w cert="1.0" lemma="nedervellen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c32180_0002.w.1551064" lemmaRef="mnw.32180.sense.5">neder<join n="mw_388455" />
           </w>
           <pc pos="PC" xml:id="c32180_0002.pc.floating.00610746" lemma=":">:</pc>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c32180_0002.w.1551066">danne</w>

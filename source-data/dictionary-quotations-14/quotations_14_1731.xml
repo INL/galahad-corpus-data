@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42472" lemma="PERT" partition="train" sense-id="mnw.42472.sense.1" xml:id="c42472_0031">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c42472_0031">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42472.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42472</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1731">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42472_0031.w.203503">Een</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c42472_0031.w.203504">goet</w>
@@ -56,7 +69,7 @@
           <pc join="right" pos="PC" xml:id="c42472_0031.pc.pre.00078528" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c42472_0031.w.203508">snel</w>
           <pc pos="PC" xml:id="c42472_0031.pc.post.00078529" lemma=")">)</pc>
-          <w cert="1.0" lemma="paard" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42472.sense.1" xml:id="c42472_0031.w.203509">part</w>
+          <w cert="1.0" lemma="paard" pos="NOU-C(number=sg)" resp="roland" xml:id="c42472_0031.w.203509" lemmaRef="mnw.42472.sense.1">part</w>
           <pc pos="PC" xml:id="c42472_0031.pc.floating.00078530" lemma=",">,</pc>
         </q>
       </cit>

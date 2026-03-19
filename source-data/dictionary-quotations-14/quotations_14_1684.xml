@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41385" lemma="PAEPSCAP" partition="train" sense-id="mnw.41385.sense.1" xml:id="c41385_0001">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c41385_0001">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PAEPSCAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41385.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41385</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1684">
           <w cert="1.0" lemma="Anna" pos="NOU-P" resp="roland" xml:id="c41385_0001.w.17880">Anna</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c41385_0001.w.17881">ende</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="Jeruzalem" pos="NOU-P" resp="roland" xml:id="c41385_0001.w.17887">Jherusalem</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c41385_0001.w.17888">ende</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c41385_0001.w.17889">hadden</w>
-          <w cert="1.0" lemma="dat+paapschap" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" sense-id="mnw.41385.sense.1" xml:id="c41385_0001.w.17890">tpaepscep</w>
+          <w cert="1.0" lemma="dat+paapschap" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c41385_0001.w.17890" lemmaRef="mnw.41385.sense.1">tpaepscep</w>
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c41385_0001.w.17891">onder</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c41385_0001.w.17892">hem</w>
           <pc pos="PC" xml:id="c41385_0001.pc.post.00006736" lemma=",">,</pc>

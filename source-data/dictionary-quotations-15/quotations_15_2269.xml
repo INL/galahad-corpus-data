@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73889" lemma="WINTISER" partition="train" sense-id="mnw.73889.sense.1" xml:id="c73889_0000">
-        <date atLeast="1430" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c73889_0000">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WINTISER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73889.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73889</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2269">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c73889_0000.w.1984364">Item</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c73889_0000.w.1984365">voir</w>
           <w cert="1.0" lemma="zevenenvijftig" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c73889_0000.w.1984366">LVII</w>
-          <w cert="1.0" lemma="windijzer" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.73889.sense.1" xml:id="c73889_0000.w.1984367">windyser</w>
+          <w cert="1.0" lemma="windijzer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c73889_0000.w.1984367" lemmaRef="mnw.73889.sense.1">windyser</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c73889_0000.w.1984368">aen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73889_0000.w.1984369">die</w>
           <w cert="1.0" lemma="glas" pos="NOU-C(number=pl)" resp="roland" xml:id="c73889_0000.w.1984370">glaze</w>

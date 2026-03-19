@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43602" lemma="PORT" partition="train" sense-id="mnw.43602.sense.1" xml:id="c43602_0062">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c43602_0062">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PORT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43602.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43602</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1774">
           <w cert="1.0" lemma="Pirrus" pos="NOU-P" resp="roland" xml:id="c43602_0062.w.411836">Pirruse</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c43602_0062.w.411837">gaf</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" xml:id="c43602_0062.w.411841">hant</w>
           <w cert="1.0" lemma="kasteel" pos="NOU-C(number=pl)" resp="roland" xml:id="c43602_0062.w.411842">castele</w>
           <pc pos="PC" xml:id="c43602_0062.pc.post.00161524" lemma=",">,</pc>
-          <w cert="1.0" lemma="poort" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.43602.sense.1" xml:id="c43602_0062.w.411843">porte</w>
+          <w cert="1.0" lemma="poort" pos="NOU-C(number=pl)" resp="roland" xml:id="c43602_0062.w.411843" lemmaRef="mnw.43602.sense.1">porte</w>
           <pc join="right" pos="PC" xml:id="c43602_0062.pc.pre.00161525" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c43602_0062.w.411844">mv</w>
           <pc pos="PC" xml:id="c43602_0062.pc.post.00161526" lemma=".)">.)</pc>

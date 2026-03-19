@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65101" lemma="VERTELLEN" partition="train" sense-id="mnw.65101.sense.4" xml:id="c65101_0006">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c65101_0006">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERTELLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65101.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65101</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1911">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c65101_0006.w.89987">Dese</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=sg)" resp="roland" xml:id="c65101_0006.w.89988">dinghe</w>
-          <w cert="1.0" lemma="vertellen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.65101.sense.4" xml:id="c65101_0006.w.89989">vertellede</w>
+          <w cert="1.0" lemma="vertellen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c65101_0006.w.89989" lemmaRef="mnw.65101.sense.4">vertellede</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c65101_0006.w.89990">ic</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c65101_0006.w.89991">in</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c65101_0006.w.89992">mynen</w>

@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M087533" lemma="WRONGEL" modern-lemma="wrongel" partition="train" pos="NOU-C" sense-id="M087533.bet.10" xml:id="M087533.eg.2432">
-        <date atLeast="1599" atMost="1599" timeSpan="1550-1600" />
+      <cit xml:id="M087533.eg.2432">
+        <note>
+          <ab>
+            <date atLeast="1599" atMost="1599" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>WRONGEL</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M087533.bet.10</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>wrongel</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M087533</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1751">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1228775">Hy</w>
           <pc join="right" pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.pre.00399275" lemma="(">(</pc>
@@ -66,7 +85,7 @@
           <pc pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00399279" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1228788">ende</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1228789">eenen</w>
-          <w cert="1.0" lemma="wrongel" pos="NOU-C(number=sg)" resp="roland" sense-id="M087533.bet.10" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1228790">wronckel</w>
+          <w cert="1.0" lemma="wrongel" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1228790" lemmaRef="M087533.bet.10">wronckel</w>
           <w cert="1.0" lemma="brood" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1228791">broots</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1228792">sonder</w>
           <w cert="1.0" lemma="desem" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1228793">deessem</w>

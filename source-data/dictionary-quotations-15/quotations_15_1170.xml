@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45615" lemma="REEFTER" partition="dev" sense-id="mnw.45615.sense.1" xml:id="c45615_0002">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c45615_0002">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>REEFTER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45615.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45615</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1170">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c45615_0002.w.840020">Daer</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c45615_0002.w.840021">was</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c45615_0002.pc.post.00329719" lemma=",">,</pc>
           <w cert="1.0" lemma="kapel" pos="NOU-C(number=sg)" resp="roland" xml:id="c45615_0002.w.840026">cappelle</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c45615_0002.w.840027">ende</w>
-          <w cert="1.0" lemma="refter" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.45615.sense.1" xml:id="c45615_0002.w.840028">reventer</w>
+          <w cert="1.0" lemma="refter" pos="NOU-C(number=sg)" resp="thomas" xml:id="c45615_0002.w.840028" lemmaRef="mnw.45615.sense.1">reventer</w>
           <pc pos="PC" xml:id="c45615_0002.pc.floating.00329720" lemma=",">,</pc>
         </q>
       </cit>

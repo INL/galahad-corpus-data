@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29091" lemma="MENGEN" partition="dev" sense-id="mnw.29091.sense.2" xml:id="c29091_0018">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c29091_0018">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MENGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29091.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29091</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.720">
           <w cert="1.0" lemma="om+dat" pos="ADP(type=pre)+PD(type=d-p,position=free)" resp="thomas" xml:id="c29091_0018.w.944330">Omdat</w>
           <pc join="right" pos="PC" xml:id="c29091_0018.pc.pre.00367861" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c29091_0018.w.944334">es</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c29091_0018.w.944335">daer</w>
           <w cert="1.0" lemma="water" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29091_0018.w.944336">water</w>
-          <w cert="1.0" lemma="mengen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.29091.sense.2" xml:id="c29091_0018.w.944337">geminct</w>
+          <w cert="1.0" lemma="mengen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c29091_0018.w.944337" lemmaRef="mnw.29091.sense.2">geminct</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c29091_0018.w.944338">ende</w>
           <w cert="1.0" lemma="wijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29091_0018.w.944339">wijn</w>
           <pc pos="PC" xml:id="c29091_0018.pc.post.00367863" lemma=",">,</pc>

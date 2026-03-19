@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20149" lemma="CABUUS" partition="train" sense-id="mnw.20149.sense.2" xml:id="c20149_0002">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c20149_0002">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CABUUS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20149.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20149</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.499">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c20149_0002.w.759097">Die</w>
           <w cert="1.0" lemma="blad" pos="NOU-C(number=pl)" resp="roland" xml:id="c20149_0002.w.759098">bladeren</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="lappates" pos="NOU-C(number=sg)" resp="thomas" xml:id="c20149_0002.w.759100">lappates</w>
           <pc pos="PC" xml:id="c20149_0002.pc.post.00308374" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c20149_0002.w.759101">dats</w>
-          <w cert="1.0" lemma="kabuiskool" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.20149.sense.2" xml:id="c20149_0002.w.759102">cabuuscoolen</w>
+          <w cert="1.0" lemma="kabuiskool" pos="NOU-C(number=pl)" resp="roland" xml:id="c20149_0002.w.759102" lemmaRef="mnw.20149.sense.2">cabuuscoolen</w>
           <pc pos="PC" xml:id="c20149_0002.pc.floating.00308375" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c20149_0002.w.759104">die</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c20149_0002.w.759105">syn</w>

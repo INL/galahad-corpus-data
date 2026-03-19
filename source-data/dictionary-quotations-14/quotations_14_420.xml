@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10269" lemma="GAWECH" partition="train" sense-id="mnw.10269.sense.1" xml:id="c10269_0000">
-        <date atLeast="1331" atMost="1331" timeSpan="1300-1350" />
+      <cit xml:id="c10269_0000">
+        <note>
+          <ab>
+            <date atLeast="1331" atMost="1331" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GAWECH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10269.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10269</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.420">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c10269_0000.w.692416">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c10269_0000.w.692417">den</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c10269_0000.w.692427">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c10269_0000.w.692428">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c10269_0000.w.692429">den</w>
-          <w cert="1.0" lemma="gaweg" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.10269.sense.1" xml:id="c10269_0000.w.692430">gawech</w>
+          <w cert="1.0" lemma="gaweg" pos="NOU-C(number=sg)" resp="roland" xml:id="c10269_0000.w.692430" lemmaRef="mnw.10269.sense.1">gawech</w>
           <w cert="1.0" lemma="binnen" pos="ADP(type=pre)" resp="thomas" xml:id="c10269_0000.w.692431">binnen</w>
           <w cert="1.0" lemma="tweeëndertig" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c10269_0000.w.692432">32</w>
           <w cert="1.0" lemma="roede" pos="NOU-C(number=pl)" resp="roland" xml:id="c10269_0000.w.692433">roeden</w>

@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27992" lemma="MANSMAN" partition="train" sense-id="mnw.27992.sense.1" xml:id="c27992_0005">
-        <date atLeast="1486" atMost="1496" timeSpan="1450-1500" />
+      <cit xml:id="c27992_0005">
+        <note>
+          <ab>
+            <date atLeast="1486" atMost="1496" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MANSMAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27992.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27992</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.692">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c27992_0005.w.780103">Als</w>
-          <w cert="1.0" lemma="mansman" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.27992.sense.1" xml:id="c27992_0005.w.780104">manssman</w>
+          <w cert="1.0" lemma="mansman" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27992_0005.w.780104" lemmaRef="mnw.27992.sense.1">manssman</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c27992_0005.w.780105">een</w>
           <w cert="1.0" lemma="leen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27992_0005.w.780106">leen</w>
           <w cert="1.0" lemma="vervreemden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c27992_0005.w.780107">vervreempt</w>

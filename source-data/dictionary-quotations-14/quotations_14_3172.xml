@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74314" lemma="WOLVINNE" partition="train" sense-id="mnw.74314.sense.1" xml:id="c74314_0006">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c74314_0006">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WOLVINNE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74314.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74314</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3172">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c74314_0006.w.2060649">Die</w>
           <w cert="1.0" lemma="kind" pos="NOU-C(number=pl)" resp="roland" xml:id="c74314_0006.w.2060650">kindre</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c74314_0006.w.2060666">te</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c74314_0006.w.2060667">hem</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c74314_0006.w.2060668">eene</w>
-          <w cert="1.0" lemma="wolvin" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.74314.sense.1" xml:id="c74314_0006.w.2060669">wolfinne</w>
+          <w cert="1.0" lemma="wolvin" pos="NOU-C(number=sg)" resp="roland" xml:id="c74314_0006.w.2060669" lemmaRef="mnw.74314.sense.1">wolfinne</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c74314_0006.w.2060670">quam</w>
           <pc pos="PC" xml:id="c74314_0006.pc.post.00807986" lemma=",">,</pc>
           <w cert="1.0" lemma="die+zij" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c74314_0006.w.2060671">diese</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01970" lemma="AVENTUREN" partition="train" sense-id="mnw.01970.sense.2" xml:id="c01970_0001">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c01970_0001">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>AVENTUREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01970.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01970</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.76">
           <w cert="1.0" lemma="nochtan" pos="ADV(type=reg)" resp="thomas" xml:id="c01970_0001.w.356447">Nochtan</w>
           <w cert="1.0" lemma="vinden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c01970_0001.w.356448">vant</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c01970_0001.w.356454">ende</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c01970_0001.w.356455">hevet</w>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c01970_0001.w.356456">also</w>
-          <w cert="1.0" lemma="avonturen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.01970.sense.2" xml:id="c01970_0001.w.356457">gheaventuurt</w>
+          <w cert="1.0" lemma="avonturen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c01970_0001.w.356457" lemmaRef="mnw.01970.sense.2">gheaventuurt</w>
           <pc pos="PC" xml:id="c01970_0001.pc.floating.00141148" lemma=",">,</pc>
         </q>
       </cit>

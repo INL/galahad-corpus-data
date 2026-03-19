@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71104" lemma="WEDERBEGEVEN" partition="train" sense-id="mnw.71104.sense.1" xml:id="c71104_0000">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c71104_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WEDERBEGEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71104.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71104</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3008">
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=sg)" resp="roland" xml:id="c71104_0000.w.1409561">Ridder</w>
           <pc pos="PC" xml:id="c71104_0000.pc.post.00564365" lemma=",">,</pc>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="leven" pos="NOU-C(number=sg)" resp="thomas" xml:id="c71104_0000.w.1409572">leven</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c71104_0000.w.1409573">sonder</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c71104_0000.w.1409574">enech</w>
-          <w cert="1.0" lemma="wederbegeven" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.71104.sense.1" xml:id="c71104_0000.w.1409575">wederbegheven</w>
+          <w cert="1.0" lemma="wederbegeven" pos="NOU-C(number=sg)" resp="roland" xml:id="c71104_0000.w.1409575" lemmaRef="mnw.71104.sense.1">wederbegheven</w>
           <pc pos="PC" xml:id="c71104_0000.pc.floating.00564368" lemma=",">,</pc>
         </q>
       </cit>

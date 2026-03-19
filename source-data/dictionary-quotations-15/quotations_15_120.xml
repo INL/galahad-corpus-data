@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03992" lemma="BET" partition="train" sense-id="mnw.03992.sense.76" xml:id="c03992_0245">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c03992_0245">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03992.sense.76</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03992</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.120">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c03992_0245.w.811580">Al</w>
           <w cert="1.0" lemma="nijgen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c03992_0245.w.811581">neghe</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c03992_0245.w.811589">hem</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c03992_0245.w.811590">niet</w>
           <w cert="1.0" lemma="te" pos="ADV(type=reg)" resp="roland" xml:id="c03992_0245.w.811591">te</w>
-          <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.03992.sense.76" xml:id="c03992_0245.w.811592">bat</w>
+          <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" xml:id="c03992_0245.w.811592" lemmaRef="mnw.03992.sense.76">bat</w>
           <pc pos="PC" xml:id="c03992_0245.pc.floating.00317562" lemma=",">,</pc>
         </q>
       </cit>

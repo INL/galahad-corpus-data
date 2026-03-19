@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36926" lemma="ONSCULDICH" partition="train" sense-id="mnw.36926.sense.2" xml:id="c36926_0010">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c36926_0010">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONSCULDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36926.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36926</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1491">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c36926_0010.w.587003">Hem</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c36926_0010.w.587004">allen</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36926_0010.w.587020">die</w>
           <w cert="1.0" lemma="schuldige" pos="NOU-C(number=sg)" resp="roland" xml:id="c36926_0010.w.587021">sculdege</w>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36926_0010.w.587022">entie</w>
-          <w cert="1.0" lemma="onschuldige" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.36926.sense.2" xml:id="c36926_0010.w.587023">onsculdege</w>
+          <w cert="1.0" lemma="onschuldige" pos="NOU-C(number=sg)" resp="roland" xml:id="c36926_0010.w.587023" lemmaRef="mnw.36926.sense.2">onsculdege</w>
           <pc pos="PC" xml:id="c36926_0010.pc.floating.00239173" lemma=",">,</pc>
         </q>
       </cit>

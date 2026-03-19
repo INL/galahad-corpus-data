@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00973" lemma="AFTEBREKEN" partition="train" sense-id="mnw.00973.sense.4" xml:id="c00973_0013">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c00973_0013">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>AFTEBREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00973.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00973</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.32">
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c00973_0013.w.199246">Dijn</w>
           <w cert="1.0" lemma="staart" pos="NOU-C(number=sg)" resp="thomas" xml:id="c00973_0013.w.199247">steert</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c00973_0013.pc.post.00078049" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c00973_0013.w.199250">es</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c00973_0013.w.199251">u</w>
-          <w cert="1.0" lemma="aftebreken" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.00973.sense.4" xml:id="c00973_0013.w.199252">aftebroken</w>
+          <w cert="1.0" lemma="aftebreken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c00973_0013.w.199252" lemmaRef="mnw.00973.sense.4">aftebroken</w>
           <pc pos="PC" xml:id="c00973_0013.pc.floating.00078050" lemma=",">,</pc>
         </q>
       </cit>

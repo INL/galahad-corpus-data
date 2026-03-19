@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03526" lemma="BESAEDDE" partition="train" sense-id="mnw.03526.sense.1" xml:id="c03526_0000">
-        <date atLeast="1399" atMost="1399" timeSpan="1350-1400" />
+      <cit xml:id="c03526_0000">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1399" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BESAEDDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03526.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03526</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.168">
           <w cert="1.0" lemma="alzulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c03526_0000.w.695158">Alsulken</w>
           <w cert="1.0" lemma="prijs" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03526_0000.w.695159">prijs</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c03526_0000.pc.post.00271007" lemma=",">,</pc>
           <w cert="1.0" lemma="lating" pos="NOU-C(number=sg)" resp="roland" xml:id="c03526_0000.w.695161">latinghe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03526_0000.w.695162">ende</w>
-          <w cert="1.0" lemma="bezaadte" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.03526.sense.1" xml:id="c03526_0000.w.695163">besaedde</w>
+          <w cert="1.0" lemma="bezaadte" pos="NOU-C(number=sg)" resp="roland" xml:id="c03526_0000.w.695163" lemmaRef="mnw.03526.sense.1">besaedde</w>
           <pc pos="PC" xml:id="c03526_0000.pc.floating.00271008" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c03526_0000.w.695165">als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03526_0000.w.695166">den</w>

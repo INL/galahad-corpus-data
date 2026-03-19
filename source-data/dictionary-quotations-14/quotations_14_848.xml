@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21144" lemma="KEREN" partition="train" sense-id="mnw.21144.sense.21" xml:id="c21144_0104">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c21144_0104">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21144.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21144</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.848">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21144_0104.w.923049">Men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21144_0104.w.923050">sal</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21144_0104.w.923055">ende</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c21144_0104.w.923056">ooc</w>
           <w cert="1.0" lemma="onderwijl" pos="ADV(type=reg)" resp="thomas" xml:id="c21144_0104.w.923057">onderwilen</w>
-          <w cert="1.0" lemma="keren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.21144.sense.21" xml:id="c21144_0104.w.923058">keren</w>
+          <w cert="1.0" lemma="keren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21144_0104.w.923058" lemmaRef="mnw.21144.sense.21">keren</w>
           <pc pos="PC" xml:id="c21144_0104.pc.floating.00373310" lemma=",">,</pc>
         </q>
       </cit>

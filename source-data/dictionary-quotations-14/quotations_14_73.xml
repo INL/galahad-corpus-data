@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01955" lemma="AVECAET" partition="train" sense-id="mnw.01955.sense.1" xml:id="c01955_0000">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c01955_0000">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>AVECAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01955.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01955</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.73">
           <w cert="1.0" lemma="taalman" pos="NOU-C(number=pl)" resp="roland" xml:id="c01955_0000.w.350026">Taelmanne</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c01955_0000.w.350027">ende</w>
-          <w cert="1.0" lemma="advocaat" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.01955.sense.1" xml:id="c01955_0000.w.350028">avecaten</w>
+          <w cert="1.0" lemma="advocaat" pos="NOU-C(number=pl)" resp="roland" xml:id="c01955_0000.w.350028" lemmaRef="mnw.01955.sense.1">avecaten</w>
           <pc pos="PC" xml:id="c01955_0000.pc.floating.00138720" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c01955_0000.w.350030">die</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c01955_0000.w.350031">om</w>

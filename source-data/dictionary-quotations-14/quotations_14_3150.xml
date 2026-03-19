@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73656" lemma="WILSAM" partition="train" sense-id="mnw.73656.sense.2" xml:id="c73656_0000">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c73656_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WILSAM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73656.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73656</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3150">
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c73656_0000.w.1937365">Vore</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c73656_0000.w.1937366">Gode</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c73656_0000.w.1937367">en</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73656_0000.w.1937368">wert</w>
           <w cert="1.0" lemma="nooit" pos="ADV(type=reg)" resp="thomas" xml:id="c73656_0000.w.1937369">noyt</w>
-          <w cert="1.0" lemma="wilzaam" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.73656.sense.2" xml:id="c73656_0000.w.1937370">wilsam</w>
+          <w cert="1.0" lemma="wilzaam" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c73656_0000.w.1937370" lemmaRef="mnw.73656.sense.2">wilsam</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c73656_0000.w.1937371">noch</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73656_0000.w.1937372">ter</w>
           <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="roland" xml:id="c73656_0000.w.1937373">werelt</w>

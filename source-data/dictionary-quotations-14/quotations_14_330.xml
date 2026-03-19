@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07560" lemma="DRAGEN" partition="train" sense-id="mnw.07560.sense.134" xml:id="c07560_0334">
-        <date atLeast="1342" atMost="1342" timeSpan="1300-1350" />
+      <cit xml:id="c07560_0334">
+        <note>
+          <ab>
+            <date atLeast="1342" atMost="1342" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07560.sense.134</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07560</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.330">
           <w cert="1.0" lemma="verzoeken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c07560_0334.w.289310">Versouken</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c07560_0334.w.289311">no</w>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c07560_0334.pc.post.00124576" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c07560_0334.w.289322">die</w>
           <w cert="1.0" lemma="daarwaart" pos="ADV(type=reg)" resp="thomas" xml:id="c07560_0334.w.289323">daerwaert</w>
-          <w cert="1.0" lemma="dragen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.07560.sense.134" xml:id="c07560_0334.w.289324">draghen</w>
+          <w cert="1.0" lemma="dragen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c07560_0334.w.289324" lemmaRef="mnw.07560.sense.134">draghen</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07560_0334.w.289325">moghen</w>
           <pc pos="PC" xml:id="c07560_0334.pc.post.00124577" lemma=",">,</pc>
         </q>

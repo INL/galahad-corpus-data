@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26265" lemma="LIJCSEME" partition="train" sense-id="mnw.26265.sense.1" xml:id="c26265_0012">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c26265_0012">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LIJCSEME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26265.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26265</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1055">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c26265_0012.w.431515">Dat</w>
           <w cert="1.0" lemma="herts" pos="NOU-C(number=sg)" resp="roland" xml:id="c26265_0012.w.431516">haerts</w>
@@ -64,7 +77,7 @@
           </w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c26265_0012.w.431526">doet</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c26265_0012.w.431527">in</w>
-          <w cert="1.0" lemma="liksem" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26265.sense.1" xml:id="c26265_0012.w.431528">lijxeme</w>
+          <w cert="1.0" lemma="liksem" pos="NOU-C(number=sg)" resp="roland" xml:id="c26265_0012.w.431528" lemmaRef="mnw.26265.sense.1">lijxeme</w>
           <w cert="1.0" lemma="wassen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c26265_0012.w.431529">wassen</w>
           <w cert="1.0" lemma="haar" pos="NOU-C(number=sg)" resp="thomas" xml:id="c26265_0012.w.431530">haer</w>
           <pc pos="PC" xml:id="c26265_0012.pc.post.00167694" lemma=",">,</pc>

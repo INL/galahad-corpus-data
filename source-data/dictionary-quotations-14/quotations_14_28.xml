@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00463" lemma="AENNEMEN" partition="test" sense-id="mnw.00463.sense.21" xml:id="c00463_0117">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c00463_0117">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>AENNEMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00463.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00463</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.28">
           <w cert="1.0" lemma="totdat+de" pos="CONJ(type=sub)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c00463_0117.w.92453">Tote<join n="mw_199570" />
           </w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c00463_0117.w.92457">ende</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c00463_0117.w.92458">hem</w>
           <w cert="1.0" lemma="weder" pos="ADV(type=reg)" resp="thomas" xml:id="c00463_0117.w.92459">weder</w>
-          <w cert="1.0" lemma="aannemen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00463.sense.21" xml:id="c00463_0117.w.92460">anenamen</w>
+          <w cert="1.0" lemma="aannemen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00463_0117.w.92460" lemmaRef="mnw.00463.sense.21">anenamen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c00463_0117.w.92461">die</w>
           <w cert="1.0" lemma="keizerskroon" pos="NOU-C(number=sg)" resp="roland" xml:id="c00463_0117.w.92462">keysercrone</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c00463_0117.w.92463">ende</w>

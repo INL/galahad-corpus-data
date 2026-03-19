@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03760" lemma="BESLAEN" partition="train" sense-id="mnw.03760.sense.7" xml:id="c03760_0017">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c03760_0017">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BESLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03760.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03760</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.188">
           <w cert="1.0" lemma="straat" pos="NOU-C(number=pl)" resp="roland" xml:id="c03760_0017.w.751384">Straten</w>
           <pc pos="PC" xml:id="c03760_0017.pc.post.00293187" lemma=",">,</pc>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c03760_0017.w.751388">worden</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03760_0017.w.751389">metten</w>
           <w cert="1.0" lemma="dode" pos="NOU-C(number=pl)" resp="roland" xml:id="c03760_0017.w.751390">doden</w>
-          <w cert="1.0" lemma="beslaan" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.03760.sense.7" xml:id="c03760_0017.w.751391">beslegen</w>
+          <w cert="1.0" lemma="beslaan" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c03760_0017.w.751391" lemmaRef="mnw.03760.sense.7">beslegen</w>
           <pc pos="PC" xml:id="c03760_0017.pc.floating.00293188" lemma=",">,</pc>
         </q>
       </cit>

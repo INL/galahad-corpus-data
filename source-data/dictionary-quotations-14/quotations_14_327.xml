@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07484" lemma="DORSTICHEIT" partition="train" sense-id="mnw.07484.sense.1" xml:id="c07484_0000">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c07484_0000">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DORSTICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07484.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07484</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.327">
           <w cert="1.0" lemma="nacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c07484_0000.w.271183">Nachts</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c07484_0000.w.271184">met</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c07484_0000.w.271185">groter</w>
-          <w cert="1.0" lemma="dorstigheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.07484.sense.1" xml:id="c07484_0000.w.271186">durstechede</w>
+          <w cert="1.0" lemma="dorstigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c07484_0000.w.271186" lemmaRef="mnw.07484.sense.1">durstechede</w>
           <pc pos="PC" xml:id="c07484_0000.pc.floating.00116797" lemma=",">,</pc>
           <w cert="1.0" lemma="klimmen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07484_0000.w.271188">clommen</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07484_0000.w.271189">si</w>

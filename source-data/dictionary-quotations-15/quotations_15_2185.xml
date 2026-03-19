@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72528" lemma="WERC" partition="train" sense-id="mnw.72528.sense.32" xml:id="c72528_0075">
-        <date atLeast="1424" atMost="1434" timeSpan="1400-1450" />
+      <cit xml:id="c72528_0075">
+        <note>
+          <ab>
+            <date atLeast="1424" atMost="1434" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WERC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72528.sense.32</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72528</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2185">
           <w cert="1.0" lemma="Willem" pos="NOU-P" resp="roland" xml:id="c72528_0075.w.1671180">Willem</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c72528_0075.w.1671181">van</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72528_0075.w.1671184">heeft</w>
           <w cert="1.0" lemma="werken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c72528_0075.w.1671185">gewrocht</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72528_0075.w.1671186">int</w>
-          <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.72528.sense.32" xml:id="c72528_0075.w.1671187">werc</w>
+          <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72528_0075.w.1671187" lemmaRef="mnw.72528.sense.32">werc</w>
           <w cert="1.0" lemma="voorschrijven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c72528_0075.w.1671188">voirscreven</w>
           <w cert="1.0" lemma="vijf" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c72528_0075.w.1671189">5</w>
           <w cert="1.0" lemma="dag" pos="NOU-C(number=pl)" resp="roland" xml:id="c72528_0075.w.1671190">dagen</w>

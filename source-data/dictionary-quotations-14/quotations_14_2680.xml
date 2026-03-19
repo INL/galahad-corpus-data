@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64561" lemma="VERSIEN" partition="train" sense-id="mnw.64561.sense.17" xml:id="c64561_0098">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c64561_0098">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERSIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64561.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64561</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2680">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c64561_0098.w.1778864">Een</w>
           <w cert="1.0" lemma="licht" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c64561_0098.w.1778865">licht</w>
@@ -56,7 +69,7 @@
           <pc join="right" pos="PC" xml:id="c64561_0098.pc.pre.00708934" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c64561_0098.w.1778869">Simson</w>
           <pc pos="PC" xml:id="c64561_0098.pc.post.00708935" lemma=")">)</pc>
-          <w cert="1.0" lemma="verzien" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.64561.sense.17" xml:id="c64561_0098.w.1778870">versien</w>
+          <w cert="1.0" lemma="verzien" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c64561_0098.w.1778870" lemmaRef="mnw.64561.sense.17">versien</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64561_0098.w.1778871">ende</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64561_0098.w.1778872">hi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64561_0098.w.1778873">es</w>

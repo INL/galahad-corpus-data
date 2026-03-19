@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37293" lemma="ONTERDEN" partition="train" sense-id="mnw.37293.sense.1" xml:id="c37293_0001">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c37293_0001">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTERDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37293.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37293</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1511">
           <w cert="1.0" lemma="zaan" pos="ADV(type=reg)" resp="roland" xml:id="c37293_0001.w.668812">Saen</w>
           <w cert="1.0" lemma="daarnaar" pos="ADV(type=pron)" resp="thomas" xml:id="c37293_0001.w.668813">daernaer</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="dode" pos="NOU-C(number=pl)" resp="thomas" xml:id="c37293_0001.w.668821">dooden</w>
           <w cert="1.0" lemma="zaan" pos="ADV(type=reg)" resp="roland" xml:id="c37293_0001.w.668822">saen</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c37293_0001.w.668823">heeft</w>
-          <w cert="1.0" lemma="ontaarden" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.37293.sense.1" xml:id="c37293_0001.w.668824">ontaerd</w>
+          <w cert="1.0" lemma="ontaarden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c37293_0001.w.668824" lemmaRef="mnw.37293.sense.1">ontaerd</w>
           <pc pos="PC" xml:id="c37293_0001.pc.floating.00271939" lemma=",">,</pc>
         </q>
       </cit>

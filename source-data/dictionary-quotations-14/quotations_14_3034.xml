@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72064" lemma="WEL" partition="train" sense-id="mnw.72064.sense.29" xml:id="c72064_0296">
-        <date atLeast="1380" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c72064_0296">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72064.sense.29</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72064</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3034">
           <pc join="right" pos="PC" xml:id="c72064_0296.pc.pre.00619201" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72064_0296.w.1542677">Si</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="voet" pos="NOU-C(number=pl)" resp="roland" xml:id="c72064_0296.w.1542681">voete</w>
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c72064_0296.w.1542682">onder</w>
           <w cert="1.0" lemma="dat+paard" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c72064_0296.w.1542683">tpaert</w>
-          <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.72064.sense.29" xml:id="c72064_0296.w.1542684">wel</w>
+          <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c72064_0296.w.1542684" lemmaRef="mnw.72064.sense.29">wel</w>
           <w cert="1.0" lemma="onzoet" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c72064_0296.w.1542685">onsoete</w>
           <pc pos="PC" xml:id="c72064_0296.pc.post.00619203" lemma=",">,</pc>
         </q>

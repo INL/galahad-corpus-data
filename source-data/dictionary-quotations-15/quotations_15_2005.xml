@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67433" lemma="VOLCOMENLIKE" partition="train" sense-id="mnw.67433.sense.1" xml:id="c67433_0020">
-        <date atLeast="1478" atMost="1478" timeSpan="1450-1500" />
+      <cit xml:id="c67433_0020">
+        <note>
+          <ab>
+            <date atLeast="1478" atMost="1478" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VOLCOMENLIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67433.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67433</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2005">
           <w cert="1.0" lemma="opdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c67433_0020.w.624386">Op<join n="mw_941163" />
           </w>
@@ -54,7 +67,7 @@
           </w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67433_0020.w.624388">dat</w>
           <w cert="1.0" lemma="gebed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67433_0020.w.624389">ghebet</w>
-          <w cert="1.0" lemma="volkomenlijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.67433.sense.1" xml:id="c67433_0020.w.624390">volcomelic</w>
+          <w cert="1.0" lemma="volkomenlijk" pos="ADV(type=reg)" resp="thomas" xml:id="c67433_0020.w.624390" lemmaRef="mnw.67433.sense.1">volcomelic</w>
           <w cert="1.0" lemma="ontvankelijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c67433_0020.w.624391">ontfanclic</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c67433_0020.w.624392">sij</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c67433_0020.w.624393">gode</w>

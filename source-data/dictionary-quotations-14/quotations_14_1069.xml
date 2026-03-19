@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26801" lemma="LOMBAERT" partition="train" sense-id="mnw.26801.sense.1" xml:id="c26801_0011">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c26801_0011">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LOMBAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26801.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26801</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1069">
           <w cert="1.0" lemma="betalen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c26801_0011.w.513211">Bitailt</w>
           <w cert="1.0" lemma="Heinrik" pos="NOU-P" resp="roland" xml:id="c26801_0011.w.513212">Henric</w>
           <pc pos="PC" xml:id="c26801_0011.pc.post.00199166" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c26801_0011.w.513213">den</w>
-          <w cert="1.0" lemma="Lombard" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26801.sense.1" xml:id="c26801_0011.w.513214">lombaert</w>
+          <w cert="1.0" lemma="Lombard" pos="NOU-C(number=sg)" resp="roland" xml:id="c26801_0011.w.513214" lemmaRef="mnw.26801.sense.1">lombaert</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c26801_0011.w.513215">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c26801_0011.w.513216">den</w>
           <w cert="1.0" lemma="Berg" pos="NOU-P" resp="roland" xml:id="c26801_0011.w.513217">Berghe</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62851" lemma="VERGIFFENISSE" partition="train" sense-id="mnw.62851.sense.1" xml:id="c62851_0001">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c62851_0001">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERGIFFENISSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62851.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62851</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2583">
           <pc join="right" pos="PC" xml:id="c62851_0001.pc.pre.00525906" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c62851_0001.w.1311494">Doe</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c62851_0001.w.1311499">sine</w>
           <w cert="1.0" lemma="gebed" pos="NOU-C(number=sg)" resp="roland" xml:id="c62851_0001.w.1311500">gebede</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c62851_0001.w.1311501">om</w>
-          <w cert="1.0" lemma="vergiffenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.62851.sense.1" xml:id="c62851_0001.w.1311502">vergevenesse</w>
+          <w cert="1.0" lemma="vergiffenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c62851_0001.w.1311502" lemmaRef="mnw.62851.sense.1">vergevenesse</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62851_0001.w.1311503">ende</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c62851_0001.w.1311504">om</w>
           <w cert="1.0" lemma="doopsel" pos="NOU-C(number=sg)" resp="roland" xml:id="c62851_0001.w.1311505">doopsel</w>

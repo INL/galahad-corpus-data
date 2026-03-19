@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12703" lemma="GESCEIT" partition="test" sense-id="mnw.12703.sense.15" xml:id="c12703_0055">
-        <date atLeast="1389" atMost="1389" timeSpan="1350-1400" />
+      <cit xml:id="c12703_0055">
+        <note>
+          <ab>
+            <date atLeast="1389" atMost="1389" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GESCEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12703.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12703</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.561">
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c12703_0055.w.1164726">Tote</w>
           <w cert="1.0" lemma="drie" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c12703_0055.w.1164727">drie</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c12703_0055.pc.post.00488677" lemma=",">,</pc>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12703_0055.w.1164733">int</w>
           <w cert="1.0" lemma="recht" pos="NOU-C(number=sg)" resp="roland" xml:id="c12703_0055.w.1164734">rechte</w>
-          <w cert="1.0" lemma="gescheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12703.sense.15" xml:id="c12703_0055.w.1164735">ghescheet</w>
+          <w cert="1.0" lemma="gescheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c12703_0055.w.1164735" lemmaRef="mnw.12703.sense.15">ghescheet</w>
           <pc pos="PC" xml:id="c12703_0055.pc.floating.00488678" lemma=",">,</pc>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c12703_0055.w.1164737">daer</w>
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c12703_0055.w.1164738">nu</w>

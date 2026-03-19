@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63101" lemma="VERHOLENISSE" partition="train" sense-id="mnw.63101.sense.1" xml:id="c63101_0000">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c63101_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERHOLENISSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63101.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63101</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2600">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c63101_0000.w.1368718">Want</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c63101_0000.w.1368719">in</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="leven" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63101_0000.w.1368721">leven</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c63101_0000.w.1368722">nieman</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c63101_0000.w.1368723">Gods</w>
-          <w cert="1.0" lemma="verholenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.63101.sense.1" xml:id="c63101_0000.w.1368724">verholenisse</w>
+          <w cert="1.0" lemma="verholenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c63101_0000.w.1368724" lemmaRef="mnw.63101.sense.1">verholenisse</w>
           <w cert="1.0" lemma="vinden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c63101_0000.w.1368725">vinden</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63101_0000.w.1368726">can</w>
           <pc pos="PC" xml:id="c63101_0000.pc.post.00548436" lemma=",">,</pc>

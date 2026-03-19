@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49942" lemma="SCHOL" partition="train" sense-id="mnw.49942.sense.1" xml:id="c49942_0000">
-        <date atLeast="1454" atMost="1473" timeSpan="1450-1500" />
+      <cit xml:id="c49942_0000">
+        <note>
+          <ab>
+            <date atLeast="1454" atMost="1473" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHOL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49942.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49942</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1319">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c49942_0000.w.447714">Dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c49942_0000.w.447715">gij</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="hals" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49942_0000.w.447734">hals</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49942_0000.w.447735">ende</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c49942_0000.w.447736">niet</w>
-          <w cert="1.0" lemma="schol" pos="AA(degree=comp,position=free)" resp="thomas" sense-id="mnw.49942.sense.1" xml:id="c49942_0000.w.447737">scholder</w>
+          <w cert="1.0" lemma="schol" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c49942_0000.w.447737" lemmaRef="mnw.49942.sense.1">scholder</w>
           <w cert="1.0" lemma="toe" pos="ADV(type=reg)" resp="thomas" xml:id="c49942_0000.w.447738">toe</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c49942_0000.w.447739">maken</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c49942_0000.w.447740">of</w>

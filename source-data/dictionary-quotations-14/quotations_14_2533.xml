@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62207" lemma="VERBLODET" partition="train" sense-id="mnw.62207.sense.1" xml:id="c62207_0001">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c62207_0001">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERBLODET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62207.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62207</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2533">
           <w cert="1.0" lemma="zodat" pos="CONJ(type=sub)" resp="roland" xml:id="c62207_0001.w.1123016">So<join n="mw_833909" />
           </w>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c62207_0001.pc.post.00452794" lemma=";">;</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62207_0001.w.1123026">si</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c62207_0001.w.1123027">worden</w>
-          <w cert="1.0" lemma="verblood" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.62207.sense.1" xml:id="c62207_0001.w.1123028">verbloot</w>
+          <w cert="1.0" lemma="verblood" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c62207_0001.w.1123028" lemmaRef="mnw.62207.sense.1">verbloot</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62207_0001.w.1123029">ende</w>
           <w cert="1.0" lemma="traag" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c62207_0001.w.1123030">trage</w>
           <pc pos="PC" xml:id="c62207_0001.pc.post.00452795" lemma=",">,</pc>

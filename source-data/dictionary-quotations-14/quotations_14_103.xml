@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02518" lemma="BEDIEDEN" partition="train" sense-id="mnw.02518.sense.8" xml:id="c02518_0025">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c02518_0025">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BEDIEDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02518.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02518</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.103">
           <w cert="1.0" lemma="alsof" pos="CONJ(type=sub)" resp="roland" xml:id="c02518_0025.w.456340">Alse<join n="mw_787055" />
           </w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c02518_0025.w.456348">so</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c02518_0025.w.456349">was</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02518_0025.w.456350">ic</w>
-          <w cert="1.0" lemma="beduiden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.02518.sense.8" xml:id="c02518_0025.w.456351">beduut</w>
+          <w cert="1.0" lemma="beduiden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c02518_0025.w.456351" lemmaRef="mnw.02518.sense.8">beduut</w>
           <pc pos="PC" xml:id="c02518_0025.pc.floating.00178848" lemma=",”">,”</pc>
         </q>
       </cit>

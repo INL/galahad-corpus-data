@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70632" lemma="WARMOES" partition="train" sense-id="mnw.70632.sense.1" xml:id="c70632_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c70632_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WARMOES</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70632.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70632</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2981">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70632_0000.w.1309960">Ic</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70632_0000.w.1309961">sach</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c70632_0000.w.1309962">dat</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c70632_0000.w.1309963">dat</w>
-          <w cert="1.0" lemma="warmoes" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70632.sense.1" xml:id="c70632_0000.w.1309964">waermoes</w>
+          <w cert="1.0" lemma="warmoes" pos="NOU-C(number=sg)" resp="roland" xml:id="c70632_0000.w.1309964" lemmaRef="mnw.70632.sense.1">waermoes</w>
           <w cert="1.0" lemma="zieden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c70632_0000.w.1309965">zoot</w>
           <pc pos="PC" xml:id="c70632_0000.pc.post.00524839" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c70632_0000.w.1309966">dies</w>

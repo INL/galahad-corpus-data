@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51224" lemma="SEKEREN" partition="train" sense-id="mnw.51224.sense.3" xml:id="c51224_0018">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c51224_0018">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SEKEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51224.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51224</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2057">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c51224_0018.w.682806">Al</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c51224_0018.w.682807">dat</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c51224_0018.w.682810">die</w>
           <w cert="1.0" lemma="jonkvrouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c51224_0018.w.682811">joncfrouwe</w>
           <pc pos="PC" xml:id="c51224_0018.pc.post.00282831" lemma=",">,</pc>
-          <w cert="1.0" lemma="zekeren+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.51224.sense.3" xml:id="c51224_0018.w.682812">sekerdi</w>
+          <w cert="1.0" lemma="zekeren+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c51224_0018.w.682812" lemmaRef="mnw.51224.sense.3">sekerdi</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c51224_0018.w.682813">hare</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51224_0018.w.682814">ende</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c51224_0018.w.682815">gaf</w>

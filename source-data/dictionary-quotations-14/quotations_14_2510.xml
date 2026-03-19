@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61568" lemma="VEDELE" partition="train" sense-id="mnw.61568.sense.1" xml:id="c61568_0005">
-        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c61568_0005">
+        <note>
+          <ab>
+            <date atLeast="1290" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VEDELE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61568.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61568</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2510">
           <w cert="1.0" lemma="gige" pos="NOU-C(number=pl)" resp="roland" xml:id="c61568_0005.w.991706">Gigen</w>
           <pc join="right" pos="PC" xml:id="c61568_0005.pc.pre.00400291" lemma="(">(</pc>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="orgel" pos="NOU-C(number=pl)" resp="thomas" xml:id="c61568_0005.w.991714">orgelen</w>
           <pc pos="PC" xml:id="c61568_0005.pc.post.00400299" lemma=")">)</pc>
           <pc pos="PC" xml:id="c61568_0005.pc.floating.00400300" lemma=",">,</pc>
-          <w cert="1.0" lemma="vedel" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.61568.sense.1" xml:id="c61568_0005.w.991716">vedelen</w>
+          <w cert="1.0" lemma="vedel" pos="NOU-C(number=pl)" resp="roland" xml:id="c61568_0005.w.991716" lemmaRef="mnw.61568.sense.1">vedelen</w>
           <pc pos="PC" xml:id="c61568_0005.pc.floating.00400301" lemma=",">,</pc>
           <w cert="1.0" lemma="harmonie" pos="NOU-C(number=pl)" resp="thomas" xml:id="c61568_0005.w.991718">armoniën</w>
           <pc pos="PC" xml:id="c61568_0005.pc.post.00400302" lemma=",">,</pc>

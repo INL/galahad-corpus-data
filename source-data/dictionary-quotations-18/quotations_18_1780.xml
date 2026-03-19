@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M090550" lemma="ZWERMER" modern-lemma="zwermer" partition="test" pos="NOU-C" sense-id="M090550.bet.4" xml:id="M090550.eg.22343">
-        <date atLeast="1736" atMost="1736" timeSpan="1700-1750" />
+      <cit xml:id="M090550.eg.22343">
+        <note>
+          <ab>
+            <date atLeast="1736" atMost="1736" extent="1700-1750" />
+            <interpGrp type="lemma">
+              <interp>ZWERMER</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M090550.bet.4</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>zwermer</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M090550</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1780">
           <pc pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.floating.0170880" lemma="—">—</pc>
           <w cert="1.0" lemma="er" pos="ADV(type=reg)" resp="roland" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.527087">Er</w>
@@ -80,7 +99,7 @@
           <w cert="1.0" lemma="gewoonlijk" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.527113">gewoonlijk</w>
           <w cert="1.0" lemma="noemen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.527114">genoemd</w>
           <pc join="right" pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.pre.0170885" lemma="”">”</pc>
-          <w cert="1.0" lemma="zwermertje" pos="NOU-C(number=pl)" resp="roland" sense-id="M090550.bet.4" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.527115">Swermertjes</w>
+          <w cert="1.0" lemma="zwermertje" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.527115" lemmaRef="M090550.bet.4">Swermertjes</w>
           <pc pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0170886" lemma="”,">”,</pc>
         </q>
       </cit>

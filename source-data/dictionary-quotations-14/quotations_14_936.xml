@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23783" lemma="CRAUWEN" partition="train" sense-id="mnw.23783.sense.2" xml:id="c23783_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c23783_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CRAUWEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23783.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23783</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.936">
           <w cert="1.0" lemma="teerst" pos="ADV(type=reg)" resp="thomas" xml:id="c23783_0000.w.1413822">Teersten</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c23783_0000.w.1413823">hi</w>
-          <w cert="1.0" lemma="krauwen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.23783.sense.2" xml:id="c23783_0000.w.1413824">crauwen</w>
+          <w cert="1.0" lemma="krauwen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c23783_0000.w.1413824" lemmaRef="mnw.23783.sense.2">crauwen</w>
           <w cert="1.0" lemma="beginnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c23783_0000.w.1413825">beghinnet</w>
           <pc pos="PC" xml:id="c23783_0000.pc.post.00568088" lemma=",">,</pc>
           <w cert="1.0" lemma="zodat" pos="CONJ(type=sub)" resp="roland" xml:id="c23783_0000.w.1413826">so<join n="mw_145656" />

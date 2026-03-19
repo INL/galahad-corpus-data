@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56848" lemma="SWINENVLEESCH" partition="train" sense-id="mnw.56848.sense.1" xml:id="c56848_0002">
-        <date atLeast="1390" atMost="1390" timeSpan="1350-1400" />
+      <cit xml:id="c56848_0002">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1390" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SWINENVLEESCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56848.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56848</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2299">
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56848_0002.w.1911932">Wert</w>
           <w cert="1.0" lemma="zaak" pos="NOU-C(number=sg)" resp="roland" xml:id="c56848_0002.w.1911933">zake</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="ongaaf" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c56848_0002.w.1911941">ongheve</w>
           <w cert="1.0" lemma="rundvlees" pos="NOU-C(number=sg)" resp="roland" xml:id="c56848_0002.w.1911942">rintvleysch</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c56848_0002.w.1911943">oft</w>
-          <w cert="1.0" lemma="zwijnenvlees" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.56848.sense.1" xml:id="c56848_0002.w.1911944">swinenvleysch</w>
+          <w cert="1.0" lemma="zwijnenvlees" pos="NOU-C(number=sg)" resp="roland" xml:id="c56848_0002.w.1911944" lemmaRef="mnw.56848.sense.1">swinenvleysch</w>
           <pc pos="PC" xml:id="c56848_0002.pc.floating.00791103" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c56848_0002.w.1911946">de</w>
           <w cert="1.0" lemma="geld" pos="NOU-C(number=sg)" resp="roland" xml:id="c56848_0002.w.1911947">gelt</w>

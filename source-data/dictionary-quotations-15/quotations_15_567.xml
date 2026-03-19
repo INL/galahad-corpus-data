@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22983" lemma="CONTEMPLACIE" partition="train" sense-id="mnw.22983.sense.2" xml:id="c22983_0006">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c22983_0006">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>CONTEMPLACIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22983.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22983</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.567">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c22983_0006.w.1247966">So</w>
           <pc join="right" pos="PC" xml:id="c22983_0006.pc.pre.00502761" lemma="(">(</pc>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="thomas" xml:id="c22983_0006.w.1247979">vader</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c22983_0006.w.1247980">in</w>
           <w cert="1.0" lemma="de+opperst" pos="PD(type=d-p,subtype=art,position=prenom)+AA(degree=sup,position=prenom)" resp="thomas" xml:id="c22983_0006.w.1247981">dupperste</w>
-          <w cert="1.0" lemma="contemplatie" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.22983.sense.2" xml:id="c22983_0006.w.1247982">contemplacie</w>
+          <w cert="1.0" lemma="contemplatie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c22983_0006.w.1247982" lemmaRef="mnw.22983.sense.2">contemplacie</w>
           <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" xml:id="c22983_0006.w.1247983">uut</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c22983_0006.w.1247984">minnen</w>
           <w cert="1.0" lemma="toekomen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c22983_0006.w.1247985">toequam</w>

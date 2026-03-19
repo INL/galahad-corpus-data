@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33522" lemma="OMME" partition="train" sense-id="mnw.33522.sense.54" xml:id="c33522_0302">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c33522_0302">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OMME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33522.sense.54</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33522</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1385">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c33522_0302.w.66556">Dat</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c33522_0302.w.66557">daer</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c33522_0302.pc.floating.00027483" lemma="…">…</pc>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c33522_0302.w.66561">gene</w>
           <w cert="1.0" lemma="hope" pos="NOU-C(number=sg)" resp="roland" xml:id="c33522_0302.w.66562">hope</w>
-          <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.33522.sense.54" xml:id="c33522_0302.w.66563">om</w>
+          <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c33522_0302.w.66563" lemmaRef="mnw.33522.sense.54">om</w>
           <pc join="right" pos="PC" xml:id="c33522_0302.pc.pre.00027484" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c33522_0302.w.66564">op</w>
           <pc pos="PC" xml:id="c33522_0302.pc.post.00027485" lemma=";">;</pc>

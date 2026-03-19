@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63472" lemma="VERLEGGEN" partition="test" sense-id="mnw.63472.sense.9" xml:id="c63472_0018">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c63472_0018">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERLEGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63472.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63472</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2630">
           <pc pos="PC" xml:id="c63472_0018.pc.floating.00590091" lemma="—">—</pc>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c63472_0018.w.1476296">Dese</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c63472_0018.w.1476298">en</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63472_0018.w.1476299">werde</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c63472_0018.w.1476300">niet</w>
-          <w cert="1.0" lemma="verleggen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.63472.sense.9" xml:id="c63472_0018.w.1476301">verleit</w>
+          <w cert="1.0" lemma="verleggen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c63472_0018.w.1476301" lemmaRef="mnw.63472.sense.9">verleit</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c63472_0018.w.1476302">in</w>
           <w cert="1.0" lemma="du" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c63472_0018.w.1476303">di</w>
           <pc join="right" pos="PC" xml:id="c63472_0018.pc.pre.00590092" lemma="(">(</pc>

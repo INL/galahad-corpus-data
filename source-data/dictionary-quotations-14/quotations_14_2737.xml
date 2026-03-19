@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65611" lemma="VERWERREN" partition="train" sense-id="mnw.65611.sense.13" xml:id="c65611_0012">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c65611_0012">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERWERREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65611.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65611</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2737">
           <w cert="1.0" lemma="nimmer" pos="ADV(type=reg)" resp="thomas" xml:id="c65611_0012.w.240193">Nemmer</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c65611_0012.w.240194">en</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c65611_0012.pc.post.00094029" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c65611_0012.w.240197">als</w>
           <w cert="1.0" lemma="du" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c65611_0012.w.240198">di</w>
-          <w cert="1.0" lemma="verward" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.65611.sense.13" xml:id="c65611_0012.w.240199">verwerret</w>
+          <w cert="1.0" lemma="verward" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c65611_0012.w.240199" lemmaRef="mnw.65611.sense.13">verwerret</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c65611_0012.w.240200">es</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c65611_0012.w.240201">die</w>
           <w cert="1.0" lemma="zede" pos="NOU-C(number=sg)" resp="roland" xml:id="c65611_0012.w.240202">zede</w>

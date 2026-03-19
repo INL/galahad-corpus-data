@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46187" lemma="RIBAUT" partition="dev" sense-id="mnw.46187.sense.4" xml:id="c46187_0016">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c46187_0016">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>RIBAUT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46187.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46187</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1885">
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c46187_0016.w.949958">Sulke</w>
           <w cert="1.0" lemma="leraar" pos="NOU-C(number=pl)" resp="roland" xml:id="c46187_0016.w.949959">lereren</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="ries" pos="NOU-C(number=pl)" resp="roland" xml:id="c46187_0016.w.949971">riesen</w>
           <w cert="1.0" lemma="wijf" pos="NOU-C(number=pl)" resp="roland" xml:id="c46187_0016.w.949972">wiven</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c46187_0016.w.949973">ende</w>
-          <w cert="1.0" lemma="rabauw" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.46187.sense.4" xml:id="c46187_0016.w.949974">ribauden</w>
+          <w cert="1.0" lemma="rabauw" pos="NOU-C(number=pl)" resp="roland" xml:id="c46187_0016.w.949974" lemmaRef="mnw.46187.sense.4">ribauden</w>
           <pc pos="PC" xml:id="c46187_0016.pc.floating.00373275" lemma=",">,</pc>
         </q>
       </cit>

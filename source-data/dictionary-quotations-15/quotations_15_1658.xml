@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59445" lemma="TRONE" partition="train" sense-id="mnw.59445.sense.9" xml:id="c59445_0095">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c59445_0095">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TRONE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59445.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59445</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1658">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c59445_0095.w.534206">Si</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c59445_0095.w.534207">es</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c59445_0095.w.534213">onder</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c59445_0095.w.534214">des</w>
           <w cert="1.0" lemma="hemel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59445_0095.w.534215">hemels</w>
-          <w cert="1.0" lemma="troon" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.59445.sense.9" xml:id="c59445_0095.w.534216">trone</w>
+          <w cert="1.0" lemma="troon" pos="NOU-C(number=sg)" resp="roland" xml:id="c59445_0095.w.534216" lemmaRef="mnw.59445.sense.9">trone</w>
           <pc pos="PC" xml:id="c59445_0095.pc.floating.00216832" lemma=",">,</pc>
         </q>
       </cit>

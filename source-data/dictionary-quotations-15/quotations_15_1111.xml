@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43700" lemma="POSCH" partition="train" sense-id="mnw.43700.sense.1" xml:id="c43700_0000">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c43700_0000">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>POSCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43700.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43700</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1111">
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c43700_0000.w.428448">Voort</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c43700_0000.w.428449">en</w>
@@ -91,7 +104,7 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c43700_0000.w.428483">en</w>
           <w cert="1.0" lemma="moeten+men" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c43700_0000.w.428484">moetmen</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c43700_0000.w.428485">gheen</w>
-          <w cert="1.0" lemma="pos" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.43700.sense.1" xml:id="c43700_0000.w.428486">posche</w>
+          <w cert="1.0" lemma="pos" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c43700_0000.w.428486" lemmaRef="mnw.43700.sense.1">posche</w>
           <w cert="1.0" lemma="boter" pos="NOU-C(number=sg)" resp="thomas" xml:id="c43700_0000.w.428487">butter</w>
           <w cert="1.0" lemma="verkopen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c43700_0000.w.428488">vercopen</w>
           <pc pos="PC" xml:id="c43700_0000.pc.floating.00167920" lemma="…">…</pc>

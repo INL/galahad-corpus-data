@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52767" lemma="SMEKEN" partition="test" sense-id="mnw.52767.sense.3" xml:id="c52767_0020">
-        <date atLeast="1469" atMost="1469" timeSpan="1450-1500" />
+      <cit xml:id="c52767_0020">
+        <note>
+          <ab>
+            <date atLeast="1469" atMost="1469" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SMEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52767.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52767</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1419">
           <pc join="right" pos="PC" xml:id="c52767_0020.pc.pre.00418834" lemma="(">(</pc>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c52767_0020.w.1009073">Men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c52767_0020.w.1009074">sal</w>
           <pc pos="PC" xml:id="c52767_0020.pc.post.00418835" lemma=")">)</pc>
           <w cert="1.0" lemma="immer" pos="ADV(type=reg)" resp="thomas" xml:id="c52767_0020.w.1009075">ummer</w>
-          <w cert="1.0" lemma="smeken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.52767.sense.3" xml:id="c52767_0020.w.1009076">smeken</w>
+          <w cert="1.0" lemma="smeken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c52767_0020.w.1009076" lemmaRef="mnw.52767.sense.3">smeken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c52767_0020.w.1009077">ende</w>
           <w cert="1.0" lemma="nijgen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c52767_0020.w.1009078">nygen</w>
           <pc pos="PC" xml:id="c52767_0020.pc.post.00418836" lemma=",">,</pc>

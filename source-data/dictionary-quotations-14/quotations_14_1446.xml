@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35598" lemma="ONGELT" partition="train" sense-id="mnw.35598.sense.1" xml:id="c35598_0025">
-        <date atLeast="1336" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c35598_0025">
+        <note>
+          <ab>
+            <date atLeast="1336" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35598.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35598</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1446">
           <w cert="1.0" lemma="W." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c35598_0025.w.387238">W.</w>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c35598_0025.w.387239">over</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c35598_0025.w.387242">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c35598_0025.w.387243">hij</w>
           <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c35598_0025.w.387244">ontfing</w>
-          <w cert="1.0" lemma="dat+ongeld" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.35598.sense.1" xml:id="c35598_0025.w.387245">donghelt</w>
+          <w cert="1.0" lemma="dat+ongeld" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c35598_0025.w.387245" lemmaRef="mnw.35598.sense.1">donghelt</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c35598_0025.w.387246">vander</w>
           <w cert="1.0" lemma="samenkoperij" pos="NOU-C(number=sg)" resp="roland" xml:id="c35598_0025.w.387247">saemcoperiën</w>
           <w cert="1.0" lemma="van+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c35598_0025.w.387248">vanden</w>

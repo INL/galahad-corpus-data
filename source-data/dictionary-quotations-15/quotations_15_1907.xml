@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64886" lemma="VERSTEVEN" partition="train" sense-id="mnw.64886.sense.2" xml:id="c64886_0001">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c64886_0001">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERSTEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64886.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64886</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1907">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c64886_0001.w.42712">Alle</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c64886_0001.w.42713">die</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="Kanaän" pos="NOU-P" resp="roland" xml:id="c64886_0001.w.42717">Chanaan</w>
           <w cert="1.0" lemma="wonen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c64886_0001.w.42718">woonden</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c64886_0001.w.42719">worden</w>
-          <w cert="1.0" lemma="versteven" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.64886.sense.2" xml:id="c64886_0001.w.42720">versteeft</w>
+          <w cert="1.0" lemma="versteven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c64886_0001.w.42720" lemmaRef="mnw.64886.sense.2">versteeft</w>
           <pc pos="PC" xml:id="c64886_0001.pc.floating.00016327" lemma=",">,</pc>
           <w cert="1.0" lemma="angst" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64886_0001.w.42722">anxt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64886_0001.w.42723">ende</w>

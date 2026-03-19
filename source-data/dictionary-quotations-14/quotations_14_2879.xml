@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68894" lemma="VRACHT" partition="train" sense-id="mnw.68894.sense.3" xml:id="c68894_0002">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c68894_0002">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VRACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68894.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68894</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2879">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c68894_0002.w.901815">Van</w>
-          <w cert="1.0" lemma="vracht" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.68894.sense.3" xml:id="c68894_0002.w.901816">vrechten</w>
+          <w cert="1.0" lemma="vracht" pos="NOU-C(number=pl)" resp="roland" xml:id="c68894_0002.w.901816" lemmaRef="mnw.68894.sense.3">vrechten</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c68894_0002.w.901817">van</w>
           <w cert="1.0" lemma="wijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c68894_0002.w.901818">wine</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68894_0002.w.901819">ende</w>

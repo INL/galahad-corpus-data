@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M079730" lemma="VERZORGEN" modern-lemma="verzorgen" partition="train" pos="VRB" sense-id="M079730.bet.26" xml:id="M079730.eg.39211">
-        <date atLeast="1574" atMost="1574" timeSpan="1550-1600" />
+      <cit xml:id="M079730.eg.39211">
+        <note>
+          <ab>
+            <date atLeast="1574" atMost="1574" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>VERZORGEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M079730.bet.26</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>verzorgen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M079730</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1363">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.642829">Zij</w>
           <pc join="right" pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.pre.00209534" lemma="(">(</pc>
@@ -57,7 +76,7 @@
           <pc join="right" pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.pre.00209537" lemma="(">(</pc>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.642833">zullen</w>
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00209538" lemma=")">)</pc>
-          <w cert="1.0" lemma="verzorgen" pos="VRB(finiteness=inf)" resp="roland" sense-id="M079730.bet.26" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.642834">verzorgen</w>
+          <w cert="1.0" lemma="verzorgen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.642834" lemmaRef="M079730.bet.26">verzorgen</w>
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00209539" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.642835">dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.642836">de</w>

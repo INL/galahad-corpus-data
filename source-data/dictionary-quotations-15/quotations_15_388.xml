@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15135" lemma="GRUUTBIER" partition="train" sense-id="mnw.15135.sense.1" xml:id="c15135_0000">
-        <date atLeast="1399" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c15135_0000">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GRUUTBIER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15135.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15135</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.388">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c15135_0000.w.1594309">So</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c15135_0000.w.1594310">en</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c15135_0000.w.1594327">gheen</w>
           <w cert="1.0" lemma="hopbier" pos="NOU-C(number=sg)" resp="thomas" xml:id="c15135_0000.w.1594328">hoppenbier</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c15135_0000.w.1594329">noch</w>
-          <w cert="1.0" lemma="gruitbier" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.15135.sense.1" xml:id="c15135_0000.w.1594330">gruytbier</w>
+          <w cert="1.0" lemma="gruitbier" pos="NOU-C(number=sg)" resp="thomas" xml:id="c15135_0000.w.1594330" lemmaRef="mnw.15135.sense.1">gruytbier</w>
           <w cert="1.0" lemma="brouwen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c15135_0000.w.1594331">brouwen</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c15135_0000.w.1594332">om</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c15135_0000.w.1594333">te</w>

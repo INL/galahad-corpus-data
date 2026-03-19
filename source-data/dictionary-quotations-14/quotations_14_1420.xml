@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34620" lemma="ONDERLAET" partition="train" sense-id="mnw.34620.sense.1" xml:id="c34620_0004">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c34620_0004">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONDERLAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34620.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34620</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1420">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c34620_0004.w.242925">Wat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c34620_0004.w.242926">es</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c34620_0004.pc.post.00100543" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c34620_0004.w.242931">die</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c34620_0004.w.242932">sonder</w>
-          <w cert="1.0" lemma="onderlaat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.34620.sense.1" xml:id="c34620_0004.w.242933">onderlaet</w>
+          <w cert="1.0" lemma="onderlaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c34620_0004.w.242933" lemmaRef="mnw.34620.sense.1">onderlaet</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c34620_0004.w.242934">ende</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c34620_0004.w.242935">met</w>
           <w cert="1.0" lemma="volharden" pos="NOU-C(number=sg)" resp="roland" xml:id="c34620_0004.w.242936">vulherdene</w>

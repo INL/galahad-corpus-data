@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30189" lemma="MISTROOSTEN" partition="train" sense-id="mnw.30189.sense.4" xml:id="c30189_0003">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c30189_0003">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MISTROOSTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30189.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30189</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.747">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30189_0003.w.1187877">Die</w>
           <w cert="1.0" lemma="ootmoedig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c30189_0003.w.1187878">ootmoedighe</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c30189_0003.w.1187883">niet</w>
           <w cert="1.0" lemma="verwanen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c30189_0003.w.1187884">verwanen</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c30189_0003.w.1187885">noch</w>
-          <w cert="1.0" lemma="mistroosten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.30189.sense.4" xml:id="c30189_0003.w.1187886">mistroosten</w>
+          <w cert="1.0" lemma="mistroosten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c30189_0003.w.1187886" lemmaRef="mnw.30189.sense.4">mistroosten</w>
           <pc pos="PC" xml:id="c30189_0003.pc.floating.00466130" lemma=",">,</pc>
         </q>
       </cit>

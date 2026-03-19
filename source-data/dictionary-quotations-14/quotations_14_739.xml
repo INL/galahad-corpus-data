@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17827" lemma="HONEN" partition="train" sense-id="mnw.17827.sense.1" xml:id="c17827_0020">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c17827_0020">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HONEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17827.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17827</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.739">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c17827_0020.w.381197">Als</w>
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c17827_0020.w.381198">dus</w>
-          <w cert="1.0" lemma="honen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.17827.sense.1" xml:id="c17827_0020.w.381199">ghehoont</w>
+          <w cert="1.0" lemma="honen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c17827_0020.w.381199" lemmaRef="mnw.17827.sense.1">ghehoont</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c17827_0020.w.381200">was</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c17827_0020.w.381201">die</w>
           <w cert="1.0" lemma="jonkvrouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c17827_0020.w.381202">ioncfrouwe</w>

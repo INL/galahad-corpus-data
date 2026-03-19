@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58262" lemma="TOCHT" partition="train" sense-id="mnw.58262.sense.12" xml:id="c58262_0031">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c58262_0031">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TOCHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58262.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58262</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1599">
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c58262_0031.w.286798">Bi</w>
           <w cert="1.0" lemma="angst" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58262_0031.w.286799">anxte</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58262_0031.w.286803">wijf</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c58262_0031.w.286804">haer</w>
           <w cert="1.0" lemma="recht" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c58262_0031.w.286805">rechte</w>
-          <w cert="1.0" lemma="tocht" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.58262.sense.12" xml:id="c58262_0031.w.286806">tsucht</w>
+          <w cert="1.0" lemma="tocht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58262_0031.w.286806" lemmaRef="mnw.58262.sense.12">tsucht</w>
           <pc pos="PC" xml:id="c58262_0031.pc.floating.00117112" lemma=",">,</pc>
         </q>
       </cit>

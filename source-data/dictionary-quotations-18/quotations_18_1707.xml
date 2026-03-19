@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M087190" lemma="WORDEN" modern-lemma="worden" partition="train" pos="VRB" sense-id="M087190.bet.23" xml:id="M087190.eg.31974">
-        <date atLeast="1773" atMost="1773" timeSpan="1750-1800" />
+      <cit xml:id="M087190.eg.31974">
+        <note>
+          <ab>
+            <date atLeast="1773" atMost="1773" extent="1750-1800" />
+            <interpGrp type="lemma">
+              <interp>WORDEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M087190.bet.23</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>worden</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M087190</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1707">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.843346">Ik</w>
           <pc join="right" pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.pre.00271832" lemma="(">(</pc>
@@ -91,7 +110,7 @@
           </w>
           <w cert="1.0" lemma="ervan" pos="ADV(type=pron)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.843378">van<join n="mw_653909" />
           </w>
-          <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="roland" sense-id="M087190.bet.23" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.843379">worden</w>
+          <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.843379" lemmaRef="M087190.bet.23">worden</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.843380">zoude</w>
           <pc pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00271838" lemma=",">,</pc>
         </q>

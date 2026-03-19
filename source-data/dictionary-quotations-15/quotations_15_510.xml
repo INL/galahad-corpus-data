@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20607" lemma="CAPITELHUUS" partition="train" sense-id="mnw.20607.sense.1" xml:id="c20607_0000">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c20607_0000">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CAPITELHUUS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20607.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20607</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.510">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c20607_0000.w.822610">Doe</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c20607_0000.w.822611">int</w>
-          <w cert="1.0" lemma="kapittelhuis" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.20607.sense.1" xml:id="c20607_0000.w.822612">capittelhuus</w>
+          <w cert="1.0" lemma="kapittelhuis" pos="NOU-C(number=sg)" resp="thomas" xml:id="c20607_0000.w.822612" lemmaRef="mnw.20607.sense.1">capittelhuus</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c20607_0000.w.822613">gheen</w>
           <w cert="1.0" lemma="onschuld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c20607_0000.w.822614">onscout</w>
           <w cert="1.0" lemma="zoeken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c20607_0000.w.822615">ghesocht</w>

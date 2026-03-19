@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M074564" lemma="VERBANNEN" modern-lemma="verbannen" partition="test" pos="VRB" sense-id="M074564.bet.10" xml:id="M074564.eg.4641">
-        <date atLeast="1557" atMost="1557" timeSpan="1550-1600" />
+      <cit xml:id="M074564.eg.4641">
+        <note>
+          <ab>
+            <date atLeast="1557" atMost="1557" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>VERBANNEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M074564.bet.10</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>verbannen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M074564</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1018">
           <pc pos="PC" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.floating.00380957" lemma="—">—</pc>
           <w cert="1.0" lemma="waarom" pos="ADV(type=pron)" resp="thomas" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.1093053">Waeromme</w>
@@ -60,7 +79,7 @@
           <w cert="1.0" lemma="woest" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.1093061">woeste</w>
           <w cert="1.0" lemma="enigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.1093062">eenicheyt</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.1093063">ons</w>
-          <w cert="1.0" lemma="verbannen" pos="NOU-C(number=sg)" resp="roland" sense-id="M074564.bet.10" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.1093064">verbannens</w>
+          <w cert="1.0" lemma="verbannen" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.1093064" lemmaRef="M074564.bet.10">verbannens</w>
           <pc join="right" pos="PC" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.pre.00380958" lemma="(">(</pc>
           <w cert="1.0" lemma="Latijn" pos="NOU-P(WF=abbr)" resp="thomas" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.w.1093065">lat</w>
           <pc pos="PC" xml:id="INT_6afde73a-795e-4899-bea0-2c7abda69b01.pc.post.00380959" lemma=".:">.:</pc>

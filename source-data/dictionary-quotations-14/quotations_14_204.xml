@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03977" lemma="BESWELTEN" partition="train" sense-id="mnw.03977.sense.2" xml:id="c03977_0008">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c03977_0008">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BESWELTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03977.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03977</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.204">
           <w cert="1.0" lemma="mettien" pos="ADV(type=reg)" resp="thomas" xml:id="c03977_0008.w.803744">Mettien</w>
-          <w cert="1.0" lemma="bezwelten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.03977.sense.2" xml:id="c03977_0008.w.803745">beswalt</w>
+          <w cert="1.0" lemma="bezwelten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c03977_0008.w.803745" lemmaRef="mnw.03977.sense.2">beswalt</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03977_0008.w.803746">die</w>
           <w cert="1.0" lemma="keizerin" pos="NOU-C(number=sg)" resp="roland" xml:id="c03977_0008.w.803747">keiserinne</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03977_0008.w.803748">ende</w>

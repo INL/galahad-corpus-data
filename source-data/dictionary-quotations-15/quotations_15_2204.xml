@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72661" lemma="WERRINGE" partition="train" sense-id="mnw.72661.sense.3" xml:id="c72661_0034">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c72661_0034">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WERRINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72661.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72661</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2204">
           <w cert="1.0" lemma="alzo" pos="CONJ(type=sub)" resp="thomas" xml:id="c72661_0034.w.1710005">Alsoo</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c72661_0034.w.1710006">ons</w>
@@ -72,7 +85,7 @@
           </w>
           <w cert="1.0" lemma="spruiten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c72661_0034.w.1710024">sproot</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72661_0034.w.1710025">die</w>
-          <w cert="1.0" lemma="warring" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72661.sense.3" xml:id="c72661_0034.w.1710026">werringe</w>
+          <w cert="1.0" lemma="warring" pos="NOU-C(number=sg)" resp="roland" xml:id="c72661_0034.w.1710026" lemmaRef="mnw.72661.sense.3">werringe</w>
           <pc pos="PC" xml:id="c72661_0034.pc.floating.00678637" lemma=",">,</pc>
         </q>
       </cit>

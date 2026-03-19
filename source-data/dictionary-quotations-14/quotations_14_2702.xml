@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64818" lemma="VERSTAEN" partition="train" sense-id="mnw.64818.sense.46" xml:id="c64818_0241">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c64818_0241">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERSTAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64818.sense.46</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64818</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2702">
           <pc join="right" pos="PC" xml:id="c64818_0241.pc.pre.00002933" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64818_0241.w.7501">Hi</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="driewerf" pos="ADV(type=reg)" resp="thomas" xml:id="c64818_0241.w.7503">driewerf</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64818_0241.w.7504">ende</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c64818_0241.w.7505">dede</w>
-          <w cert="1.0" lemma="verstaan" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.64818.sense.46" xml:id="c64818_0241.w.7506">verstaen</w>
+          <w cert="1.0" lemma="verstaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c64818_0241.w.7506" lemmaRef="mnw.64818.sense.46">verstaen</w>
           <pc pos="PC" xml:id="c64818_0241.pc.floating.00002935" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c64818_0241.w.7508">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64818_0241.w.7509">hi</w>

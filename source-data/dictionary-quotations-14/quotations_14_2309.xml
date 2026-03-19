@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57010" lemma="TALE" partition="train" sense-id="mnw.57010.sense.1" xml:id="c57010_0045">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c57010_0045">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TALE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57010.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57010</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2309">
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57010_0045.w.29335">Ghi</w>
           <pc join="right" pos="PC" xml:id="c57010_0045.pc.pre.00012000" lemma="(">(</pc>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c57010_0045.w.29344">van</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57010_0045.w.29345">u</w>
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c57010_0045.w.29346">horen</w>
-          <w cert="1.0" lemma="taal" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.57010.sense.1" xml:id="c57010_0045.w.29347">tale</w>
+          <w cert="1.0" lemma="taal" pos="NOU-C(number=sg)" resp="roland" xml:id="c57010_0045.w.29347" lemmaRef="mnw.57010.sense.1">tale</w>
           <pc pos="PC" xml:id="c57010_0045.pc.floating.00012004" lemma=",">,</pc>
         </q>
       </cit>

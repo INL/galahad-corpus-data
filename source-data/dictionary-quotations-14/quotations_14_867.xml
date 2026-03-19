@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21875" lemma="CLEMMEN" partition="train" sense-id="mnw.21875.sense.2" xml:id="c21875_0043">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c21875_0043">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CLEMMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21875.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21875</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.867">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21875_0043.w.1051299">Hi</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21875_0043.w.1051300">can</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21875_0043.w.1051309">siet</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c21875_0043.w.1051310">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c21875_0043.w.1051311">sinen</w>
-          <w cert="1.0" lemma="klimmen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21875.sense.2" xml:id="c21875_0043.w.1051312">clemmen</w>
+          <w cert="1.0" lemma="klimmen" pos="NOU-C(number=sg)" resp="roland" xml:id="c21875_0043.w.1051312" lemmaRef="mnw.21875.sense.2">clemmen</w>
           <pc pos="PC" xml:id="c21875_0043.pc.floating.00425095" lemma=",">,</pc>
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="roland" xml:id="c21875_0043.w.1051314">waer</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c21875_0043.w.1051315">die</w>

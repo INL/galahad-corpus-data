@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41616" lemma="PANDEN" partition="dev" sense-id="mnw.41616.sense.10" xml:id="c41616_0045">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c41616_0045">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PANDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41616.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41616</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1694">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c41616_0045.w.52690">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c41616_0045.w.52691">wie</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c41616_0045.w.52692">die</w>
           <w cert="1.0" lemma="erfachtigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c41616_0045.w.52693">eervachtichede</w>
-          <w cert="1.0" lemma="panden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.41616.sense.10" xml:id="c41616_0045.w.52694">pandt</w>
+          <w cert="1.0" lemma="panden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c41616_0045.w.52694" lemmaRef="mnw.41616.sense.10">pandt</w>
           <pc join="right" pos="PC" xml:id="c41616_0045.pc.pre.00020200" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41616_0045.w.52695">beslag</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41616_0045.w.52696">legt</w>

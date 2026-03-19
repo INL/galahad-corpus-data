@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58575" lemma="TOESEGGEN" partition="train" sense-id="mnw.58575.sense.13" xml:id="c58575_0040">
-        <date atLeast="1413" atMost="1413" timeSpan="1400-1450" />
+      <cit xml:id="c58575_0040">
+        <note>
+          <ab>
+            <date atLeast="1413" atMost="1413" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TOESEGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58575.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58575</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1619">
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c58575_0040.w.348864">Alle</w>
           <w cert="1.0" lemma="zaak" pos="NOU-C(number=pl)" resp="thomas" xml:id="c58575_0040.w.348865">zaken</w>
@@ -78,7 +91,7 @@
           <w cert="1.0" lemma="corrigeren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58575_0040.w.348885">corrigieren</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c58575_0040.w.348886">sonder</w>
           <w cert="1.0" lemma="iemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c58575_0040.w.348887">yemants</w>
-          <w cert="1.0" lemma="toezeggen" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.58575.sense.13" xml:id="c58575_0040.w.348888">toesegghen</w>
+          <w cert="1.0" lemma="toezeggen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58575_0040.w.348888" lemmaRef="mnw.58575.sense.13">toesegghen</w>
           <pc pos="PC" xml:id="c58575_0040.pc.floating.00142075" lemma=",">,</pc>
         </q>
       </cit>

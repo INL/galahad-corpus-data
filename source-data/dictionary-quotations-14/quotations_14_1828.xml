@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44815" lemma="QUELEN" partition="train" sense-id="mnw.44815.sense.3" xml:id="c44815_0029">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c44815_0029">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>QUELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44815.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44815</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1828">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c44815_0029.w.621382">Die</w>
           <w cert="1.0" lemma="patriarch" pos="NOU-C(number=sg)" resp="roland" xml:id="c44815_0029.w.621383">patriaerc</w>
-          <w cert="1.0" lemma="kwelen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.44815.sense.3" xml:id="c44815_0029.w.621384">qual</w>
+          <w cert="1.0" lemma="kwelen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c44815_0029.w.621384" lemmaRef="mnw.44815.sense.3">qual</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c44815_0029.w.621385">van</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c44815_0029.w.621386">desen</w>
           <pc join="right" pos="PC" xml:id="c44815_0029.pc.pre.00244641" lemma="(">(</pc>

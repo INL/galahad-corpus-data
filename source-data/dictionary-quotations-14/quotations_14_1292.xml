@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31655" lemma="NAGELEN" partition="train" sense-id="mnw.31655.sense.1" xml:id="c31655_0000">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c31655_0000">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NAGELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31655.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31655</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1292">
           <pc join="right" pos="PC" xml:id="c31655_0000.pc.pre.00570513" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c31655_0000.w.1448858">Si</w>
           <pc pos="PC" xml:id="c31655_0000.pc.post.00570514" lemma=")">)</pc>
-          <w cert="1.0" lemma="nagelen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.31655.sense.1" xml:id="c31655_0000.w.1448859">nagheldene</w>
+          <w cert="1.0" lemma="nagelen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c31655_0000.w.1448859" lemmaRef="mnw.31655.sense.1">nagheldene</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c31655_0000.w.1448860">daer</w>
           <pc pos="PC" xml:id="c31655_0000.pc.post.00570515" lemma=",">,</pc>
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c31655_0000.w.1448861">jeghen</w>

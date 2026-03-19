@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61124" lemma="VAEC" partition="train" sense-id="mnw.61124.sense.1" xml:id="c61124_0012">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c61124_0012">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VAEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61124.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61124</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1701">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61124_0012.w.847810">Die</w>
-          <w cert="1.0" lemma="vaak" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.61124.sense.1" xml:id="c61124_0012.w.847811">vaec</w>
+          <w cert="1.0" lemma="vaak" pos="NOU-C(number=sg)" resp="thomas" xml:id="c61124_0012.w.847811" lemmaRef="mnw.61124.sense.1">vaec</w>
           <w cert="1.0" lemma="aankomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c61124_0012.w.847812">comt<join n="mw_151945" />
           </w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61124_0012.w.847813">mi</w>

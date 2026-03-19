@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69849" lemma="WAER" partition="train" sense-id="mnw.69849.sense.1" xml:id="c69849_0004">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c69849_0004">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WAER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69849.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69849</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2941">
           <pc join="right" pos="PC" xml:id="c69849_0004.pc.pre.00456901" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69849_0004.w.1138838">Hi</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c69849_0004.w.1138842">sine</w>
           <w cert="1.0" lemma="gewaad" pos="NOU-C(number=sg)" resp="roland" xml:id="c69849_0004.w.1138843">gewade</w>
           <pc pos="PC" xml:id="c69849_0004.pc.post.00456903" lemma=",">,</pc>
-          <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="roland" sense-id="mnw.69849.sense.1" xml:id="c69849_0004.w.1138844">waer</w>
+          <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="roland" xml:id="c69849_0004.w.1138844" lemmaRef="mnw.69849.sense.1">waer</w>
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69849_0004.w.1138845">het</w>
           <w cert="1.0" lemma="vergaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c69849_0004.w.1138846">verginc</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69849_0004.w.1138847">ons</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11945" lemma="GEMOET" partition="train" sense-id="mnw.11945.sense.1" xml:id="c11945_0000">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c11945_0000">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEMOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11945.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11945</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.513">
           <w cert="1.0" lemma="tevoren" pos="ADV(type=reg)" resp="thomas" xml:id="c11945_0000.w.999575">Te<join n="mw_46684" />
           </w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c11945_0000.w.999582">lieden</w>
           <w cert="1.0" lemma="dat+gezelschap" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c11945_0000.w.999583">tgeselscap</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c11945_0000.w.999584">ende</w>
-          <w cert="1.0" lemma="dat+gemoet" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.11945.sense.1" xml:id="c11945_0000.w.999585">tgemoet</w>
+          <w cert="1.0" lemma="dat+gemoet" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c11945_0000.w.999585" lemmaRef="mnw.11945.sense.1">tgemoet</w>
           <pc pos="PC" xml:id="c11945_0000.pc.floating.00421886" lemma=",">,</pc>
         </q>
       </cit>

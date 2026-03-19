@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63468" lemma="VERLEGEN" partition="train" sense-id="mnw.63468.sense.3" xml:id="c63468_0002">
-        <date atLeast="1343" atMost="1344" timeSpan="1300-1350" />
+      <cit xml:id="c63468_0002">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1344" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERLEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63468.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63468</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2629">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c63468_0002.w.1474857">Van</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c63468_0002.w.1474858">eene<join n="mw_339276" />
@@ -56,7 +69,7 @@
           </w>
           <pc pos="PC" xml:id="c63468_0002.pc.post.00589560" lemma=")">)</pc>
           <w cert="1.0" lemma="paard" pos="NOU-C(number=sg)" resp="roland" xml:id="c63468_0002.w.1474860">paerde</w>
-          <w cert="1.0" lemma="verlegen" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.63468.sense.3" xml:id="c63468_0002.w.1474861">verleghen</w>
+          <w cert="1.0" lemma="verlegen" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c63468_0002.w.1474861" lemmaRef="mnw.63468.sense.3">verleghen</w>
           <pc pos="PC" xml:id="c63468_0002.pc.floating.00589561" lemma="…">…</pc>
           <w cert="1.0" lemma="drie" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c63468_0002.w.1474863">3</w>
           <w cert="1.0" lemma="gulden" pos="NOU-C(number=sg)" resp="roland" xml:id="c63468_0002.w.1474864">ghulden</w>

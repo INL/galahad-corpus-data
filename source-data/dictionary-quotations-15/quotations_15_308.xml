@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11937" lemma="GEMOEDE" partition="train" sense-id="mnw.11937.sense.12" xml:id="c11937_0046">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c11937_0046">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEMOEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11937.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11937</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.308">
           <w cert="1.0" lemma="gehoorzaamheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c11937_0046.w.998162">Ghehoirsamheit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c11937_0046.w.998163">es</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="onderdanig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c11937_0046.w.998166">onderdanich</w>
           <pc pos="PC" xml:id="c11937_0046.pc.post.00421302" lemma=",">,</pc>
           <w cert="1.0" lemma="gebrookzaam" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c11937_0046.w.998167">ghebroecksam</w>
-          <w cert="1.0" lemma="gemoed" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.11937.sense.12" xml:id="c11937_0046.w.998168">gemoede</w>
+          <w cert="1.0" lemma="gemoed" pos="NOU-C(number=sg)" resp="roland" xml:id="c11937_0046.w.998168" lemmaRef="mnw.11937.sense.12">gemoede</w>
           <pc pos="PC" xml:id="c11937_0046.pc.floating.00421303" lemma=",">,</pc>
         </q>
       </cit>

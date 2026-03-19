@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66786" lemma="VLOCH" partition="train" sense-id="mnw.66786.sense.2" xml:id="c66786_0001">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c66786_0001">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VLOCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66786.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66786</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2793">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66786_0001.w.469872">Der</w>
           <w cert="1.0" lemma="vogel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66786_0001.w.469873">vogel</w>
@@ -86,7 +99,7 @@
           <w cert="1.0" lemma="vliegen" pos="VRB(finiteness=prespart)" resp="roland" xml:id="c66786_0001.w.469900">vligende</w>
           <pc pos="PC" xml:id="c66786_0001.pc.post.00187990" lemma=";">;</pc>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c66786_0001.w.469901">dese</w>
-          <w cert="1.0" lemma="vleug" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.66786.sense.2" xml:id="c66786_0001.w.469902">vloch</w>
+          <w cert="1.0" lemma="vleug" pos="NOU-C(number=sg)" resp="roland" xml:id="c66786_0001.w.469902" lemmaRef="mnw.66786.sense.2">vloch</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c66786_0001.w.469903">es</w>
           <w cert="1.0" lemma="begeerte" pos="NOU-C(number=sg)" resp="roland" xml:id="c66786_0001.w.469904">begerde</w>
           <pc pos="PC" xml:id="c66786_0001.pc.post.00187991" lemma=",">,</pc>

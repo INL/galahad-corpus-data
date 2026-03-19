@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25442" lemma="LEESTEN" partition="train" sense-id="mnw.25442.sense.8" xml:id="c25442_0020">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c25442_0020">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LEESTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25442.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25442</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.618">
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c25442_0020.w.191703">Daer<join n="mw_659295" />
           </w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="poëet" pos="NOU-C(number=pl)" resp="roland" xml:id="c25442_0020.w.191721">poëten</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c25442_0020.w.191722">van</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c25442_0020.w.191723">hem</w>
-          <w cert="1.0" lemma="leesten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.25442.sense.8" xml:id="c25442_0020.w.191724">leesten</w>
+          <w cert="1.0" lemma="leesten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25442_0020.w.191724" lemmaRef="mnw.25442.sense.8">leesten</w>
           <pc pos="PC" xml:id="c25442_0020.pc.floating.00074145" lemma=",">,</pc>
         </q>
       </cit>

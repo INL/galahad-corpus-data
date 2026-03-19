@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36942" lemma="ONSEDICH" partition="train" sense-id="mnw.36942.sense.1" xml:id="c36942_0002">
-        <date atLeast="1408" atMost="1414" timeSpan="1400-1450" />
+      <cit xml:id="c36942_0002">
+        <note>
+          <ab>
+            <date atLeast="1408" atMost="1414" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONSEDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36942.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36942</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.923">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c36942_0002.w.590586">Wie</w>
-          <w cert="1.0" lemma="onzedig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.36942.sense.1" xml:id="c36942_0002.w.590587">onzedighe</w>
+          <w cert="1.0" lemma="onzedig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c36942_0002.w.590587" lemmaRef="mnw.36942.sense.1">onzedighe</w>
           <w cert="1.0" lemma="klerk" pos="NOU-C(number=pl)" resp="roland" xml:id="c36942_0002.w.590588">clercken</w>
           <pc join="right" pos="PC" xml:id="c36942_0002.pc.pre.00240504" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36942_0002.w.590589">clerici</w>

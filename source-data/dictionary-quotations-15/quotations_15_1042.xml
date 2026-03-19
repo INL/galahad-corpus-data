@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40707" lemma="OVERLIDEN" partition="dev" sense-id="mnw.40707.sense.36" xml:id="c40707_0122">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c40707_0122">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OVERLIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40707.sense.36</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40707</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1042">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c40707_0122.w.1444049">Hoe</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40707_0122.w.1444050">si</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="dat+bloed" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c40707_0122.w.1444057">tbloet</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c40707_0122.w.1444058">mijn</w>
           <w cert="1.0" lemma="aanschijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c40707_0122.w.1444059">anscijn</w>
-          <w cert="1.0" lemma="overlijden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.40707.sense.36" xml:id="c40707_0122.w.1444060">overleet</w>
+          <w cert="1.0" lemma="overlijden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c40707_0122.w.1444060" lemmaRef="mnw.40707.sense.36">overleet</w>
           <pc pos="PC" xml:id="c40707_0122.pc.floating.00574601" lemma=",">,</pc>
         </q>
       </cit>

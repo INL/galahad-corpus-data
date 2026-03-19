@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07482" lemma="DORSTICH" partition="train" sense-id="mnw.07482.sense.4" xml:id="c07482_0006">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c07482_0006">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DORSTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07482.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07482</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.326">
           <w cert="1.0" lemma="het+zijn" pos="PD(type=pers,position=free)+VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c07482_0006.w.271013">Hets</w>
           <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" xml:id="c07482_0006.w.271014">bet</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c07482_0006.w.271021">ende</w>
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07482_0006.w.271022">horen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c07482_0006.w.271023">ende</w>
-          <w cert="1.0" lemma="dorstig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.07482.sense.4" xml:id="c07482_0006.w.271024">dorstich</w>
+          <w cert="1.0" lemma="dorstig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c07482_0006.w.271024" lemmaRef="mnw.07482.sense.4">dorstich</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c07482_0006.w.271025">zijn</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c07482_0006.w.271026">om</w>
           <w cert="1.0" lemma="de+heer" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c07482_0006.w.271027">sheren</w>

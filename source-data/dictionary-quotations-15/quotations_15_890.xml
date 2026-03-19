@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35542" lemma="ONGELEEST" partition="train" sense-id="mnw.35542.sense.1" xml:id="c35542_0000">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c35542_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONGELEEST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35542.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35542</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.890">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c35542_0000.w.375090">Die</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c35542_0000.w.375091">man</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c35542_0000.w.375105">die</w>
           <w cert="1.0" lemma="eerste" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c35542_0000.w.375106">eerste</w>
           <w cert="1.0" lemma="schuldiging" pos="NOU-C(number=sg)" resp="roland" xml:id="c35542_0000.w.375107">sculdichghinghe</w>
-          <w cert="1.0" lemma="ongeleest" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35542.sense.1" xml:id="c35542_0000.w.375108">ongheleyst</w>
+          <w cert="1.0" lemma="ongeleest" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35542_0000.w.375108" lemmaRef="mnw.35542.sense.1">ongheleyst</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c35542_0000.w.375109">is</w>
           <pc pos="PC" xml:id="c35542_0000.pc.post.00153604" lemma=",">,</pc>
         </q>

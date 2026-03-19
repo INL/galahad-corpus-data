@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70185" lemma="WALLEN" partition="train" sense-id="mnw.70185.sense.6" xml:id="c70185_0046">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c70185_0046">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WALLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70185.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70185</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2955">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70185_0046.w.1205654">Die</w>
           <w cert="1.0" lemma="grondeloos" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c70185_0046.w.1205655">grondeloze</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70185_0046.w.1205662">ende</w>
           <w cert="1.0" lemma="eeuwelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c70185_0046.w.1205663">eweliken</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c70185_0046.w.1205664">in</w>
-          <w cert="1.0" lemma="wallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.70185.sense.6" xml:id="c70185_0046.w.1205665">walle</w>
+          <w cert="1.0" lemma="wallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70185_0046.w.1205665" lemmaRef="mnw.70185.sense.6">walle</w>
           <pc pos="PC" xml:id="c70185_0046.pc.floating.00483784" lemma=",">,</pc>
         </q>
       </cit>

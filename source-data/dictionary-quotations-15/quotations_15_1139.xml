@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44656" lemma="QUACKEL" partition="train" sense-id="mnw.44656.sense.1" xml:id="c44656_0000">
-        <date atLeast="1470" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c44656_0000">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>QUACKEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44656.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44656</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1139">
           <w cert="1.0" lemma="merel" pos="NOU-C(number=pl)" resp="roland" xml:id="c44656_0000.w.591454">Merlen</w>
           <pc pos="PC" xml:id="c44656_0000.pc.post.00232982" lemma=",">,</pc>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c44656_0000.pc.post.00232984" lemma=",">,</pc>
           <w cert="1.0" lemma="kalander" pos="NOU-C(number=pl)" resp="roland" xml:id="c44656_0000.w.591457">callanderen</w>
           <pc pos="PC" xml:id="c44656_0000.pc.post.00232985" lemma=",">,</pc>
-          <w cert="1.0" lemma="kwakkel" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.44656.sense.1" xml:id="c44656_0000.w.591458">quackelen</w>
+          <w cert="1.0" lemma="kwakkel" pos="NOU-C(number=pl)" resp="roland" xml:id="c44656_0000.w.591458" lemmaRef="mnw.44656.sense.1">quackelen</w>
           <pc pos="PC" xml:id="c44656_0000.pc.floating.00232986" lemma=",">,</pc>
           <w cert="1.0" lemma="nachtegaal" pos="NOU-C(number=pl)" resp="roland" xml:id="c44656_0000.w.591460">nachtegalen</w>
           <pc pos="PC" xml:id="c44656_0000.pc.post.00232987" lemma=",">,</pc>

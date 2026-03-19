@@ -45,10 +45,23 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41809" lemma="PARLEMENT" partition="train" sense-id="mnw.41809.sense.21" xml:id="c41809_0078">
-        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c41809_0078">
+        <note>
+          <ab>
+            <date atLeast="1290" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PARLEMENT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41809.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41809</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1704">
-          <w cert="1.0" lemma="parlement" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41809.sense.21" xml:id="c41809_0078.w.97236">Parlement</w>
+          <w cert="1.0" lemma="parlement" pos="NOU-C(number=sg)" resp="roland" xml:id="c41809_0078.w.97236" lemmaRef="mnw.41809.sense.21">Parlement</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c41809_0078.w.97237">mocht</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c41809_0078.w.97238">men</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c41809_0078.w.97239">daer</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39106" lemma="OOSTAL" partition="train" sense-id="mnw.39106.sense.1" xml:id="c39106_0008">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c39106_0008">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OOSTAL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39106.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39106</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1586">
           <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c39106_0008.w.1046073">Wtgheven</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c39106_0008.w.1046074">van</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c39106_0008.pc.floating.00418932" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c39106_0008.w.1046086">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c39106_0008.w.1046087">die</w>
-          <w cert="1.0" lemma="oostal" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.39106.sense.1" xml:id="c39106_0008.w.1046088">oestele</w>
+          <w cert="1.0" lemma="oostal" pos="NOU-C(number=pl)" resp="roland" xml:id="c39106_0008.w.1046088" lemmaRef="mnw.39106.sense.1">oestele</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c39106_0008.w.1046089">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c39106_0008.w.1046090">die</w>
           <w cert="1.0" lemma="springaal" pos="NOU-C(number=pl)" resp="roland" xml:id="c39106_0008.w.1046091">springane</w>

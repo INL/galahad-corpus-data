@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30139" lemma="MISSELIKE" partition="test" sense-id="mnw.30139.sense.5" xml:id="c30139_0012">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c30139_0012">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MISSELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30139.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30139</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1231">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c30139_0012.w.1178681">Een</w>
           <w cert="1.0" lemma="worm" pos="NOU-C(number=sg)" resp="roland" xml:id="c30139_0012.w.1178682">woorm</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c30139_0012.w.1178684">rups</w>
           <pc pos="PC" xml:id="c30139_0012.pc.post.00462462" lemma=")">)</pc>
           <pc pos="PC" xml:id="c30139_0012.pc.floating.00462463" lemma="....,">....,</pc>
-          <w cert="1.0" lemma="misselijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.30139.sense.5" xml:id="c30139_0012.w.1178686">misselec</w>
+          <w cert="1.0" lemma="misselijk" pos="ADV(type=reg)" resp="thomas" xml:id="c30139_0012.w.1178686" lemmaRef="mnw.30139.sense.5">misselec</w>
           <w cert="1.0" lemma="geverfd" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c30139_0012.w.1178687">ghevaerwet</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30139_0012.w.1178688">mach</w>
           <w cert="1.0" lemma="men+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c30139_0012.w.1178689">mense</w>

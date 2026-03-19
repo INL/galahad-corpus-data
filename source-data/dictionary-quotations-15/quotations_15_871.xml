@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34872" lemma="ONDERVALLEN" partition="train" sense-id="mnw.34872.sense.1" xml:id="c34872_0001">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c34872_0001">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONDERVALLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34872.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.871">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c34872_0001.w.285367">Die</w>
           <w cert="1.0" lemma="deugd" pos="NOU-C(number=sg)" resp="thomas" xml:id="c34872_0001.w.285368">dueghet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c34872_0001.w.285369">en</w>
-          <w cert="1.0" lemma="ondervallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.34872.sense.1" xml:id="c34872_0001.w.285370">ondervalt</w>
+          <w cert="1.0" lemma="ondervallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c34872_0001.w.285370" lemmaRef="mnw.34872.sense.1">ondervalt</w>
           <pc join="right" pos="PC" xml:id="c34872_0001.pc.pre.00118032" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c34872_0001.w.285371">men</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c34872_0001.w.285372">zou</w>

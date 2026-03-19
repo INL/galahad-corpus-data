@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70532" lemma="WAPENTURE" partition="test" sense-id="mnw.70532.sense.1" xml:id="c70532_0020">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c70532_0020">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WAPENTURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70532.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70532</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2109">
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c70532_0020.w.1288084">Aldus</w>
           <w cert="1.0" lemma="klimmen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70532_0020.w.1288085">clam</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70532_0020.w.1288098">ende</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c70532_0020.w.1288099">mit</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c70532_0020.w.1288100">sinen</w>
-          <w cert="1.0" lemma="wapentuur" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.70532.sense.1" xml:id="c70532_0020.w.1288101">wapentueres</w>
+          <w cert="1.0" lemma="wapentuur" pos="NOU-C(number=pl)" resp="thomas" xml:id="c70532_0020.w.1288101" lemmaRef="mnw.70532.sense.1">wapentueres</w>
           <pc pos="PC" xml:id="c70532_0020.pc.floating.00516485" lemma=",">,</pc>
         </q>
       </cit>

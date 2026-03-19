@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17546" lemma="HOERE" partition="train" sense-id="mnw.17546.sense.1" xml:id="c17546_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c17546_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HOERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17546.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17546</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.728">
           <pc join="right" pos="PC" xml:id="c17546_0000.pc.pre.00137640" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c17546_0000.w.335689">Hi</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c17546_0000.w.335699">hare</w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c17546_0000.w.335700">menichge</w>
           <w cert="1.0" lemma="kwaad" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c17546_0000.w.335701">quade</w>
-          <w cert="1.0" lemma="hoor" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.17546.sense.1" xml:id="c17546_0000.w.335702">hore</w>
+          <w cert="1.0" lemma="hoor" pos="NOU-C(number=sg)" resp="roland" xml:id="c17546_0000.w.335702" lemmaRef="mnw.17546.sense.1">hore</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c17546_0000.w.335703">ende</w>
           <w cert="1.0" lemma="keren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c17546_0000.w.335704">kerijt</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c17546_0000.w.335705">met</w>

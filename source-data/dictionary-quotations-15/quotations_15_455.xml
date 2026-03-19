@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18422" lemma="HOVETMAN" partition="dev" sense-id="mnw.18422.sense.1" xml:id="c18422_0030">
-        <date atLeast="1407" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c18422_0030">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HOVETMAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18422.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18422</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.455">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c18422_0030.w.497317">De</w>
           <pc join="right" pos="PC" xml:id="c18422_0030.pc.pre.00203035" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c18422_0030.w.497321">voor</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18422_0030.w.497322">ons</w>
           <pc pos="PC" xml:id="c18422_0030.pc.post.00203037" lemma=",">,</pc>
-          <w cert="1.0" lemma="hoofdman" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.18422.sense.1" xml:id="c18422_0030.w.497323">hooftmans</w>
+          <w cert="1.0" lemma="hoofdman" pos="NOU-C(number=pl)" resp="roland" xml:id="c18422_0030.w.497323" lemmaRef="mnw.18422.sense.1">hooftmans</w>
           <pc pos="PC" xml:id="c18422_0030.pc.floating.00203038" lemma=",">,</pc>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c18422_0030.w.497325">voor</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18422_0030.w.497326">em</w>

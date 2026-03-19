@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50522" lemma="SCHRIVER" partition="train" sense-id="mnw.50522.sense.3" xml:id="c50522_0018">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c50522_0018">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SCHRIVER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50522.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50522</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2041">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c50522_0018.w.566559">Den</w>
-          <w cert="1.0" lemma="schrijver" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.50522.sense.3" xml:id="c50522_0018.w.566560">scrivers</w>
+          <w cert="1.0" lemma="schrijver" pos="NOU-C(number=pl)" resp="roland" xml:id="c50522_0018.w.566560" lemmaRef="mnw.50522.sense.3">scrivers</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c50522_0018.w.566561">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c50522_0018.w.566562">die</w>
           <w cert="1.0" lemma="vierschaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c50522_0018.w.566563">vierscarne</w>

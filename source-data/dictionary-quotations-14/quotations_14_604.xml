@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13702" lemma="GEVROEDEN" partition="train" sense-id="mnw.13702.sense.6" xml:id="c13702_0033">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c13702_0033">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEVROEDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13702.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13702</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.604">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c13702_0033.w.1338756">Als</w>
           <pc join="right" pos="PC" xml:id="c13702_0033.pc.pre.00560274" lemma="(">(</pc>
           <w cert="1.0" lemma="zo" pos="CONJ(type=sub)" resp="thomas" xml:id="c13702_0033.w.1338757">so</w>
           <pc pos="PC" xml:id="c13702_0033.pc.post.00560275" lemma=")">)</pc>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c13702_0033.w.1338758">ic</w>
-          <w cert="1.0" lemma="gevroeden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.13702.sense.6" xml:id="c13702_0033.w.1338759">gevroede</w>
+          <w cert="1.0" lemma="gevroeden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c13702_0033.w.1338759" lemmaRef="mnw.13702.sense.6">gevroede</w>
           <pc pos="PC" xml:id="c13702_0033.pc.floating.00560276" lemma=",">,</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c13702_0033.w.1338761">zooals</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c13702_0033.w.1338762">ik</w>

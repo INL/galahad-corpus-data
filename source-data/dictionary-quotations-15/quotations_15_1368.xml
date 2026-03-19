@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51577" lemma="SETTINGE" partition="train" sense-id="mnw.51577.sense.16" xml:id="c51577_0046">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c51577_0046">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SETTINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51577.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51577</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1368">
           <pc pos="PC" xml:id="c51577_0046.pc.floating.00312773" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c51577_0046.pc.pre.00312774" lemma="“">“</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c51577_0046.w.753200">ooc</w>
           <w cert="1.0" lemma="zoeken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c51577_0046.w.753201">soeken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51577_0046.w.753202">ende</w>
-          <w cert="1.0" lemma="zetting" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51577.sense.16" xml:id="c51577_0046.w.753203">settinghe</w>
+          <w cert="1.0" lemma="zetting" pos="NOU-C(number=sg)" resp="roland" xml:id="c51577_0046.w.753203" lemmaRef="mnw.51577.sense.16">settinghe</w>
           <pc pos="PC" xml:id="c51577_0046.pc.floating.00312775" lemma="”">”</pc>
         </q>
       </cit>

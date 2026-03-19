@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09572" lemma="FEL" partition="train" sense-id="mnw.09572.sense.12" xml:id="c09572_0091">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c09572_0091">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>FEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09572.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09572</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.394">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c09572_0091.w.586306">Een</w>
           <w cert="1.0" lemma="wreed" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c09572_0091.w.586307">wreet</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="sterk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c09572_0091.w.586316">starc</w>
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=sg)" resp="roland" xml:id="c09572_0091.w.586317">ridder</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c09572_0091.w.586318">ende</w>
-          <w cert="1.0" lemma="fel" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.09572.sense.12" xml:id="c09572_0091.w.586319">fel</w>
+          <w cert="1.0" lemma="fel" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c09572_0091.w.586319" lemmaRef="mnw.09572.sense.12">fel</w>
           <pc pos="PC" xml:id="c09572_0091.pc.floating.00252930" lemma=",">,</pc>
         </q>
       </cit>

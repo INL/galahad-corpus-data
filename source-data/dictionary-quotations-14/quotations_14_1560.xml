@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38110" lemma="ONTVAREN" partition="train" sense-id="mnw.38110.sense.3" xml:id="c38110_0032">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c38110_0032">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTVAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38110.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38110</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1560">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c38110_0032.w.871948">In</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c38110_0032.w.871949">dier</w>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c38110_0032.pc.post.00349941" lemma=")">)</pc>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c38110_0032.w.871962">en</w>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c38110_0032.w.871963">laten</w>
-          <w cert="1.0" lemma="ontvaren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.38110.sense.3" xml:id="c38110_0032.w.871964">ontfaren</w>
+          <w cert="1.0" lemma="ontvaren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c38110_0032.w.871964" lemmaRef="mnw.38110.sense.3">ontfaren</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c38110_0032.w.871965">niet</w>
           <pc pos="PC" xml:id="c38110_0032.pc.post.00349942" lemma=",">,</pc>
         </q>

@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32729" lemma="NODE" partition="train" sense-id="mnw.32729.sense.1" xml:id="c32729_0001">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c32729_0001">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NODE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32729.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32729</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1359">
           <w cert="1.0" lemma="Karel" pos="NOU-P" resp="roland" xml:id="c32729_0001.w.1677401">Carle</w>
           <pc pos="PC" xml:id="c32729_0001.pc.post.00663208" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c32729_0001.w.1677402">die</w>
-          <w cert="1.0" lemma="node" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.32729.sense.1" xml:id="c32729_0001.w.1677403">node</w>
+          <w cert="1.0" lemma="node" pos="ADV(type=reg)" resp="thomas" xml:id="c32729_0001.w.1677403" lemmaRef="mnw.32729.sense.1">node</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32729_0001.w.1677404">sach</w>
           <pc join="right" pos="PC" xml:id="c32729_0001.pc.pre.00663209" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c32729_0001.w.1677405">ongaarne</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17005" lemma="HERT-EVELE" partition="train" sense-id="mnw.17005.sense.1" xml:id="c17005_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c17005_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HERT-EVELE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17005.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17005</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.721">
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c17005_0000.w.276601">Mans</w>
           <w cert="1.0" lemma="hart" pos="NOU-C(number=sg)" resp="roland" xml:id="c17005_0000.w.276602">herte</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="pijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c17005_0000.w.276611">pine</w>
           <pc pos="PC" xml:id="c17005_0000.pc.post.00113345" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c17005_0000.w.276612">als</w>
-          <w cert="1.0" lemma="harteuvel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.17005.sense.1" xml:id="c17005_0000.w.276613">herte-evele</w>
+          <w cert="1.0" lemma="harteuvel" pos="NOU-C(number=sg)" resp="roland" xml:id="c17005_0000.w.276613" lemmaRef="mnw.17005.sense.1">herte-evele</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c17005_0000.w.276614">es</w>
           <pc pos="PC" xml:id="c17005_0000.pc.post.00113346" lemma=",">,</pc>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c17005_0000.w.276615">blivet</w>

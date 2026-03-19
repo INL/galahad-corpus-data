@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41784" lemma="PARDOEN" partition="train" sense-id="mnw.41784.sense.3" xml:id="c41784_0024">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c41784_0024">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PARDOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41784.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41784</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1073">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c41784_0024.w.87351">Doen</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c41784_0024.w.87352">gaf</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="sermoen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c41784_0024.w.87366">sermoen</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c41784_0024.w.87367">ghegeven</w>
           <w cert="1.0" lemma="vals" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c41784_0024.w.87368">valsch</w>
-          <w cert="1.0" lemma="pardon" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.41784.sense.3" xml:id="c41784_0024.w.87369">pardoen</w>
+          <w cert="1.0" lemma="pardon" pos="NOU-C(number=sg)" resp="thomas" xml:id="c41784_0024.w.87369" lemmaRef="mnw.41784.sense.3">pardoen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c41784_0024.w.87370">ende</w>
           <w cert="1.0" lemma="loos" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c41784_0024.w.87371">loos</w>
           <pc pos="PC" xml:id="c41784_0024.pc.post.00033003" lemma=",">,</pc>

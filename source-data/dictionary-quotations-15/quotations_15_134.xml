@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04142" lemma="BEVESTEN" partition="train" sense-id="mnw.04142.sense.2" xml:id="c04142_0000">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c04142_0000">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BEVESTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04142.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04142</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.134">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c04142_0000.w.845580">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c04142_0000.w.845581">hi</w>
           <w cert="1.0" lemma="sluiten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c04142_0000.w.845582">slute</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c04142_0000.w.845583">ende</w>
-          <w cert="1.0" lemma="bevesten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.04142.sense.2" xml:id="c04142_0000.w.845584">beveste</w>
+          <w cert="1.0" lemma="bevesten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c04142_0000.w.845584" lemmaRef="mnw.04142.sense.2">beveste</w>
           <pc join="right" pos="PC" xml:id="c04142_0000.pc.pre.00330912" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c04142_0000.w.845585">in</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c04142_0000.w.845586">het</w>

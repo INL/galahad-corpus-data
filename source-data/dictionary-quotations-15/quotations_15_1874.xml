@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64293" lemma="VERSAECHT" partition="train" sense-id="mnw.64293.sense.1" xml:id="c64293_0009">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c64293_0009">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERSAECHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64293.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64293</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1874">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c64293_0009.w.1702352">Dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c64293_0009.w.1702353">ic</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c64293_0009.pc.post.00678909" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c64293_0009.w.1702355">ware</w>
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c64293_0009.w.1702356">aldus</w>
-          <w cert="1.0" lemma="versaagd" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.64293.sense.1" xml:id="c64293_0009.w.1702357">versaeght</w>
+          <w cert="1.0" lemma="versaagd" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c64293_0009.w.1702357" lemmaRef="mnw.64293.sense.1">versaeght</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c64293_0009.w.1702358">omme</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c64293_0009.w.1702359">enen</w>
           <w cert="1.0" lemma="droom" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64293_0009.w.1702360">droom</w>

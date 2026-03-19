@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M009641" lemma="BOEK" modern-lemma="boek" partition="train" pos="NOU-C" sense-id="M009641.bet.13" xml:id="M009641.eg.42722">
-        <date atLeast="1548" atMost="1548" timeSpan="1500-1550" />
+      <cit xml:id="M009641.eg.42722">
+        <note>
+          <ab>
+            <date atLeast="1548" atMost="1548" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>BOEK</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M009641.bet.13</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>boek</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M009641</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.99">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138526">Met</w>
           <w cert="1.0" lemma="dezelve" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138527">die<join n="mw_904838" />
@@ -63,7 +82,7 @@
           <w cert="1.0" lemma="dichten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138534">Dichte</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138535">ick</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138536">minen</w>
-          <w cert="1.0" lemma="boek" pos="NOU-C(number=sg)" resp="roland" sense-id="M009641.bet.13" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138537">bouck</w>
+          <w cert="1.0" lemma="boek" pos="NOU-C(number=sg)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138537" lemmaRef="M009641.bet.13">bouck</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138538">van</w>
           <w cert="1.0" lemma="Piraam" pos="NOU-P" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138539">Piraem</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.138540">en</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19549" lemma="INVLIETINGE" partition="train" sense-id="mnw.19549.sense.1" xml:id="c19549_0001">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c19549_0001">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>INVLIETINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19549.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19549</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.485">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c19549_0001.w.660144">Al</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c19549_0001.w.660145">heeft</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="ander" pos="NUM(type=ord,position=free,representation=let)" resp="thomas" xml:id="c19549_0001.w.660155">ander</w>
           <pc pos="PC" xml:id="c19549_0001.pc.post.00268338" lemma=",">,</pc>
           <w cert="1.0" lemma="overmits" pos="ADP(type=pre)" resp="thomas" xml:id="c19549_0001.w.660156">overmits</w>
-          <w cert="1.0" lemma="invlieting" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.19549.sense.1" xml:id="c19549_0001.w.660157">invlietinghe</w>
+          <w cert="1.0" lemma="invlieting" pos="NOU-C(number=sg)" resp="roland" xml:id="c19549_0001.w.660157" lemmaRef="mnw.19549.sense.1">invlietinghe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c19549_0001.w.660158">der</w>
           <w cert="1.0" lemma="planeet" pos="NOU-C(number=pl)" resp="roland" xml:id="c19549_0001.w.660159">planeten</w>
           <pc pos="PC" xml:id="c19549_0001.pc.post.00268339" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03861" lemma="BESPREKEN" partition="train" sense-id="mnw.03861.sense.5" xml:id="c03861_0003">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c03861_0003">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BESPREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03861.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03861</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.111">
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c03861_0003.w.774375">Wille</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c03861_0003.w.774376">een</w>
@@ -68,7 +81,7 @@
           <pc pos="PC" xml:id="c03861_0003.pc.post.00302590" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03861_0003.w.774390">ende</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c03861_0003.w.774391">wel</w>
-          <w cert="1.0" lemma="bespreken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.03861.sense.5" xml:id="c03861_0003.w.774392">bespreken</w>
+          <w cert="1.0" lemma="bespreken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03861_0003.w.774392" lemmaRef="mnw.03861.sense.5">bespreken</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c03861_0003.w.774393">voor</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03861_0003.w.774394">de</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=pl)" resp="roland" xml:id="c03861_0003.w.774395">heeren</w>

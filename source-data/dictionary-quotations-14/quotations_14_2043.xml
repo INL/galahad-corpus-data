@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50541" lemma="SCHRODER" partition="train" sense-id="mnw.50541.sense.1" xml:id="c50541_0015">
-        <date atLeast="1346" atMost="1349" timeSpan="1300-1350" />
+      <cit xml:id="c50541_0015">
+        <note>
+          <ab>
+            <date atLeast="1346" atMost="1349" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SCHRODER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50541.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50541</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2043">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c50541_0015.w.572346">Den</w>
-          <w cert="1.0" lemma="schrooier" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.50541.sense.1" xml:id="c50541_0015.w.572347">scrooders</w>
+          <w cert="1.0" lemma="schrooier" pos="NOU-C(number=pl)" resp="roland" xml:id="c50541_0015.w.572347" lemmaRef="mnw.50541.sense.1">scrooders</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c50541_0015.w.572348">van</w>
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c50541_0015.w.572349">4</w>
           <w cert="1.0" lemma="vat" pos="NOU-C(number=pl)" resp="thomas" xml:id="c50541_0015.w.572350">vaten</w>

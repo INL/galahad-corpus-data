@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05047" lemma="BOOS" partition="train" sense-id="mnw.05047.sense.3" xml:id="c05047_0004">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c05047_0004">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BOOS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05047.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05047</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.237">
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c05047_0004.w.978047">Het</w>
           <pc join="right" pos="PC" xml:id="c05047_0004.pc.pre.00386450" lemma="(">(</pc>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c05047_0004.pc.post.00386451" lemma=")">)</pc>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c05047_0004.w.978049">heeft</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c05047_0004.w.978050">eenen</w>
-          <w cert="1.0" lemma="boos" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.05047.sense.3" xml:id="c05047_0004.w.978051">bozen</w>
+          <w cert="1.0" lemma="boos" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c05047_0004.w.978051" lemmaRef="mnw.05047.sense.3">bozen</w>
           <w cert="1.0" lemma="list" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05047_0004.w.978052">list</w>
           <pc pos="PC" xml:id="c05047_0004.pc.post.00386452" lemma=",">,</pc>
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c05047_0004.w.978053">het</w>

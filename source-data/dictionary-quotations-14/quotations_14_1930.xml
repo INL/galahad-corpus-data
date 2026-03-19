@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47039" lemma="ROMEIN" partition="train" sense-id="mnw.47039.sense.1" xml:id="c47039_0003">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c47039_0003">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ROMEIN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47039.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47039</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1930">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c47039_0003.w.1146387">Om</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c47039_0003.w.1146388">te</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="smart" pos="NOU-C(number=sg)" resp="roland" xml:id="c47039_0003.w.1146391">smerte</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c47039_0003.w.1146392">hadde</w>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c47039_0003.w.1146393">elc</w>
-          <w cert="1.0" lemma="Romein" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.47039.sense.1" xml:id="c47039_0003.w.1146394">Romeyn</w>
+          <w cert="1.0" lemma="Romein" pos="NOU-C(number=sg)" resp="roland" xml:id="c47039_0003.w.1146394" lemmaRef="mnw.47039.sense.1">Romeyn</w>
           <w cert="1.0" lemma="wil" pos="NOU-C(number=sg)" resp="roland" xml:id="c47039_0003.w.1146395">wille</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c47039_0003.w.1146396">ende</w>
           <w cert="1.0" lemma="hart" pos="NOU-C(number=sg)" resp="roland" xml:id="c47039_0003.w.1146397">herte</w>

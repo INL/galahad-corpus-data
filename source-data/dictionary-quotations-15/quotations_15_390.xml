@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15487" lemma="HALLEHERE" partition="train" sense-id="mnw.15487.sense.1" xml:id="c15487_0007">
-        <date atLeast="1459" atMost="1459" timeSpan="1450-1500" />
+      <cit xml:id="c15487_0007">
+        <note>
+          <ab>
+            <date atLeast="1459" atMost="1459" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>HALLEHERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15487.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15487</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.390">
           <w cert="1.0" lemma="M." pos="NOU-P(WF=abbr)" resp="thomas" xml:id="c15487_0007.w.31975">M</w>
           <pc pos="PC" xml:id="c15487_0007.pc.post.00012947" lemma=".,">.,</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="zijlieden" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c15487_0007.w.31979">huerlieden</w>
           <w cert="1.0" lemma="metgezel" pos="NOU-C(number=pl)" resp="roland" xml:id="c15487_0007.w.31980">medeghesellen</w>
           <pc pos="PC" xml:id="c15487_0007.pc.post.00012950" lemma=",">,</pc>
-          <w cert="1.0" lemma="hallenheer" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.15487.sense.1" xml:id="c15487_0007.w.31981">halheeren</w>
+          <w cert="1.0" lemma="hallenheer" pos="NOU-C(number=pl)" resp="roland" xml:id="c15487_0007.w.31981" lemmaRef="mnw.15487.sense.1">halheeren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c15487_0007.w.31982">ende</w>
           <w cert="1.0" lemma="waardeerder" pos="NOU-C(number=pl)" resp="thomas" xml:id="c15487_0007.w.31983">wardeerders</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c15487_0007.w.31984">van</w>

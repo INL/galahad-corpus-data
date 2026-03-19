@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01212" lemma="ALF" partition="test" sense-id="mnw.01212.sense.1" xml:id="c01212_0000">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c01212_0000">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ALF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01212.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01212</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.38">
           <w cert="1.0" lemma="wat" pos="INT" resp="roland" xml:id="c01212_0000.w.240327">Wat</w>
           <w cert="1.0" lemma="duivel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01212_0000.w.240328">duvel</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01212_0000.w.240332">werelt</w>
           <w cert="1.0" lemma="plagen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c01212_0000.w.240333">geplaecht</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c01212_0000.w.240334">met</w>
-          <w cert="1.0" lemma="alf" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.01212.sense.1" xml:id="c01212_0000.w.240335">alven</w>
+          <w cert="1.0" lemma="alf" pos="NOU-C(number=pl)" resp="roland" xml:id="c01212_0000.w.240335" lemmaRef="mnw.01212.sense.1">alven</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c01212_0000.w.240336">ende</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c01212_0000.w.240337">met</w>
           <w cert="1.0" lemma="elvin" pos="NOU-C(number=pl)" resp="roland" xml:id="c01212_0000.w.240338">elvinnen</w>

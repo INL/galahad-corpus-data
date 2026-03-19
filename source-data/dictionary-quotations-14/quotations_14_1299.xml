@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31882" lemma="NASLOCKEN" partition="train" sense-id="mnw.31882.sense.1" xml:id="c31882_0000">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c31882_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NASLOCKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31882.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31882</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1299">
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c31882_0000.w.1483487">Gif</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c31882_0000.w.1483488">eme</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c31882_0000.w.1483493">eyn</w>
           <w cert="1.0" lemma="luttik" pos="NOU-C(number=sg)" resp="roland" xml:id="c31882_0000.w.1483494">luttik</w>
           <w cert="1.0" lemma="suiker" pos="NOU-C(number=sg)" resp="roland" xml:id="c31882_0000.w.1483495">sukeres</w>
-          <w cert="1.0" lemma="naslikken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.31882.sense.1" xml:id="c31882_0000.w.1483496">nasluken</w>
+          <w cert="1.0" lemma="naslikken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c31882_0000.w.1483496" lemmaRef="mnw.31882.sense.1">nasluken</w>
           <pc pos="PC" xml:id="c31882_0000.pc.floating.00584220" lemma=",">,</pc>
         </q>
       </cit>

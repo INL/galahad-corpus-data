@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53872" lemma="SPEL" partition="train" sense-id="mnw.53872.sense.45" xml:id="c53872_0334">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c53872_0334">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SPEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53872.sense.45</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2166">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53872_0334.w.1256938">Hi</w>
           <w cert="1.0" lemma="komen+ertoe" pos="VRB(finiteness=fin,tense=past)+ADV(type=pron)" resp="roland" xml:id="c53872_0334.w.1256939">quamer<join n="mw_161462" />
@@ -62,7 +75,7 @@
           </w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c53872_0334.w.1256946">een</w>
           <w cert="1.0" lemma="euvel" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c53872_0334.w.1256947">evel</w>
-          <w cert="1.0" lemma="spel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53872.sense.45" xml:id="c53872_0334.w.1256948">spel</w>
+          <w cert="1.0" lemma="spel" pos="NOU-C(number=sg)" resp="roland" xml:id="c53872_0334.w.1256948" lemmaRef="mnw.53872.sense.45">spel</w>
           <pc join="right" pos="PC" xml:id="c53872_0334.pc.pre.00521781" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c53872_0334.w.1256949">richtte</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c53872_0334.w.1256950">er</w>

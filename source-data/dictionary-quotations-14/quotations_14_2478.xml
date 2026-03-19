@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61155" lemma="VAERDICH" partition="train" sense-id="mnw.61155.sense.4" xml:id="c61155_0003">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c61155_0003">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VAERDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61155.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61155</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2478">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c61155_0003.w.862071">Dat</w>
           <w cert="1.0" lemma="binnen" pos="ADP(type=pre)" resp="thomas" xml:id="c61155_0003.w.862072">binnen</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c61155_0003.w.862087">dan</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c61155_0003.w.862088">is</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61155_0003.w.862089">soe</w>
-          <w cert="1.0" lemma="vaardig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.61155.sense.4" xml:id="c61155_0003.w.862090">vaerdech</w>
+          <w cert="1.0" lemma="vaardig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c61155_0003.w.862090" lemmaRef="mnw.61155.sense.4">vaerdech</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c61155_0003.w.862091">ende</w>
           <w cert="1.0" lemma="snel" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c61155_0003.w.862092">snel</w>
           <pc join="right" pos="PC" xml:id="c61155_0003.pc.pre.00348131" lemma="(">(</pc>

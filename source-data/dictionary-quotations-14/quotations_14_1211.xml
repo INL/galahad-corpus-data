@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29841" lemma="MINNELIKE" partition="train" sense-id="mnw.29841.sense.1" xml:id="c29841_0002">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c29841_0002">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MINNELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29841.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29841</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1211">
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c29841_0002.w.1115050">Also</w>
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c29841_0002.w.1115051">sprict</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="minnelijk" pos="ADV(type=reg)" resp="roland" xml:id="c29841_0002.w.1115062">minnetlike</w>
           <pc join="right" pos="PC" xml:id="c29841_0002.pc.pre.00437357" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c29841_0002.w.1115063">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.29841.sense.1" xml:id="c29841_0002.w.1115064">minnentlike</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c29841_0002.w.1115064" lemmaRef="mnw.29841.sense.1">minnentlike</w>
           <pc pos="PC" xml:id="c29841_0002.pc.floating.00437359" lemma=")">)</pc>
           <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c29841_0002.w.1115066">ontfaen</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29841_0002.w.1115067">mettier</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.24292" lemma="CUDDE" partition="train" sense-id="mnw.24292.sense.4" xml:id="c24292_0011">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c24292_0011">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CUDDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.24292.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.24292</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.597">
           <w cert="1.0" lemma="klerk" pos="NOU-C(number=sg)" resp="roland" xml:id="c24292_0011.w.1496379">Clerke</w>
           <pc pos="PC" xml:id="c24292_0011.pc.post.00601473" lemma=",">,</pc>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="neder" pos="ADV(type=reg)" resp="thomas" xml:id="c24292_0011.w.1496399">neder</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c24292_0011.w.1496400">bi</w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c24292_0011.w.1496401">menegen</w>
-          <w cert="1.0" lemma="kudde" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.24292.sense.4" xml:id="c24292_0011.w.1496402">cudde</w>
+          <w cert="1.0" lemma="kudde" pos="NOU-C(number=sg)" resp="thomas" xml:id="c24292_0011.w.1496402" lemmaRef="mnw.24292.sense.4">cudde</w>
           <w cert="1.0" lemma="ongeteld" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c24292_0011.w.1496403">ongetelt</w>
           <pc pos="PC" xml:id="c24292_0011.pc.post.00601477" lemma=",">,</pc>
         </q>

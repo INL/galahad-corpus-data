@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41568" lemma="PALME" partition="train" sense-id="mnw.41568.sense.2" xml:id="c41568_0006">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c41568_0006">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PALME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41568.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41568</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1691">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c41568_0006.w.45661">Een</w>
           <w cert="1.0" lemma="korfje" pos="NOU-C(number=sg)" resp="roland" xml:id="c41568_0006.w.45662">corvekijn</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c41568_0006.w.45663">van</w>
-          <w cert="1.0" lemma="palm" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.41568.sense.2" xml:id="c41568_0006.w.45664">palmen</w>
+          <w cert="1.0" lemma="palm" pos="NOU-C(number=pl)" resp="roland" xml:id="c41568_0006.w.45664" lemmaRef="mnw.41568.sense.2">palmen</w>
           <pc pos="PC" xml:id="c41568_0006.pc.floating.00017560" lemma=",">,</pc>
           <w cert="1.0" lemma="rein" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c41568_0006.w.45666">reine</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c41568_0006.w.45667">ende</w>

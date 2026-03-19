@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30432" lemma="MOET" partition="train" sense-id="mnw.30432.sense.1" xml:id="c30432_0026">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c30432_0026">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30432.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30432</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1245">
           <w cert="1.0" lemma="scherp" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c30432_0026.w.1233239">Scarpe</w>
           <w cert="1.0" lemma="vin" pos="NOU-C(number=pl)" resp="thomas" xml:id="c30432_0026.w.1233240">vinnen</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c30432_0026.w.1233251">als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c30432_0026.w.1233252">hem</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c30432_0026.w.1233253">die</w>
-          <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.30432.sense.1" xml:id="c30432_0026.w.1233254">moet</w>
+          <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c30432_0026.w.1233254" lemmaRef="mnw.30432.sense.1">moet</w>
           <w cert="1.0" lemma="zinken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30432_0026.w.1233255">sinket</w>
           <w cert="1.0" lemma="weder" pos="ADV(type=reg)" resp="thomas" xml:id="c30432_0026.w.1233256">weder</w>
           <pc pos="PC" xml:id="c30432_0026.pc.post.00484406" lemma=",">,</pc>

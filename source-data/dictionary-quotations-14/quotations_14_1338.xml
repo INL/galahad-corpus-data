@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32484" lemma="NIDICH" partition="train" sense-id="mnw.32484.sense.3" xml:id="c32484_0010">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c32484_0010">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NIDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32484.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32484</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1338">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c32484_0010.w.1616654">Dit</w>
           <w cert="1.0" lemma="dier" pos="NOU-C(number=sg)" resp="roland" xml:id="c32484_0010.w.1616655">dier</w>
           <w cert="1.0" lemma="slachten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c32484_0010.w.1616656">slacht</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c32484_0010.w.1616657">den</w>
-          <w cert="1.0" lemma="nijdige" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.32484.sense.3" xml:id="c32484_0010.w.1616658">nidighen</w>
+          <w cert="1.0" lemma="nijdige" pos="NOU-C(number=sg)" resp="roland" xml:id="c32484_0010.w.1616658" lemmaRef="mnw.32484.sense.3">nidighen</w>
           <w cert="1.0" lemma="best" pos="AA(degree=sup,position=free)" resp="roland" xml:id="c32484_0010.w.1616659">best</w>
           <pc pos="PC" xml:id="c32484_0010.pc.post.00637717" lemma=":">:</pc>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c32484_0010.w.1616660">wie</w>

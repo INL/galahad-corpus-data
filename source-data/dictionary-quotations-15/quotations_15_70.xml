@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02563" lemma="BEDRACH" partition="train" sense-id="mnw.02563.sense.2" xml:id="c02563_0004">
-        <date atLeast="1432" atMost="1468" timeSpan="1450-1500" />
+      <cit xml:id="c02563_0004">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1468" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BEDRACH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02563.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02563</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.70">
           <w cert="1.0" lemma="quod" pos="RES(type=for)" resp="thomas" xml:id="c02563_0004.w.464254">Quod</w>
           <w cert="1.0" lemma="nullus" pos="RES(type=for)" resp="thomas" xml:id="c02563_0004.w.464255">nullus</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="que" pos="RES(type=for)" resp="thomas" xml:id="c02563_0004.w.464261">que</w>
           <w cert="1.0" lemma="vulgariter" pos="RES(type=for)" resp="thomas" xml:id="c02563_0004.w.464262">vulgariter</w>
           <w cert="1.0" lemma="dicitur" pos="RES(type=for)" resp="thomas" xml:id="c02563_0004.w.464263">dicitur</w>
-          <w cert="1.0" lemma="bedrag" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.02563.sense.2" xml:id="c02563_0004.w.464264">bedrach</w>
+          <w cert="1.0" lemma="bedrag" pos="NOU-C(number=sg)" resp="roland" xml:id="c02563_0004.w.464264" lemmaRef="mnw.02563.sense.2">bedrach</w>
           <pc pos="PC" xml:id="c02563_0004.pc.floating.00181877" lemma=",">,</pc>
         </q>
       </cit>

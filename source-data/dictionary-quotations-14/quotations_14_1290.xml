@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31625" lemma="NAEST" partition="train" sense-id="mnw.31625.sense.2" xml:id="c31625_0007">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c31625_0007">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NAEST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31625.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31625</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1290">
           <w cert="1.0" lemma="dies" pos="ADV(type=reg)" resp="roland" xml:id="c31625_0007.w.1442280">Dies</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c31625_0007.w.1442281">es</w>
@@ -54,7 +67,7 @@
           <pc join="right" pos="PC" xml:id="c31625_0007.pc.pre.00567907" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c31625_0007.w.1442283">Lucas</w>
           <pc pos="PC" xml:id="c31625_0007.pc.post.00567908" lemma=")">)</pc>
-          <w cert="1.0" lemma="na" pos="AA(degree=sup,position=free)" resp="thomas" sense-id="mnw.31625.sense.2" xml:id="c31625_0007.w.1442284">naest</w>
+          <w cert="1.0" lemma="na" pos="AA(degree=sup,position=free)" resp="thomas" xml:id="c31625_0007.w.1442284" lemmaRef="mnw.31625.sense.2">naest</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c31625_0007.w.1442285">den</w>
           <w cert="1.0" lemma="os" pos="NOU-C(number=sg)" resp="roland" xml:id="c31625_0007.w.1442286">osse</w>
           <w cert="1.0" lemma="zetten" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c31625_0007.w.1442287">gheset</w>

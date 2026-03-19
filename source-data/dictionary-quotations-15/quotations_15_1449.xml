@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53733" lemma="SPANNEN" partition="train" sense-id="mnw.53733.sense.16" xml:id="c53733_0068">
-        <date atLeast="1408" atMost="1414" timeSpan="1400-1450" />
+      <cit xml:id="c53733_0068">
+        <note>
+          <ab>
+            <date atLeast="1408" atMost="1414" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SPANNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53733.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53733</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1449">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c53733_0068.w.1224884">Den</w>
           <w cert="1.0" lemma="koopman" pos="NOU-C(number=sg)" resp="thomas" xml:id="c53733_0068.w.1224885">coopman</w>
@@ -77,7 +90,7 @@
           </w>
           <w cert="1.0" lemma="daarvoor" pos="ADV(type=pron)" resp="thomas" xml:id="c53733_0068.w.1224907">voir<join n="mw_980404" />
           </w>
-          <w cert="1.0" lemma="spannen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.53733.sense.16" xml:id="c53733_0068.w.1224908">spannen</w>
+          <w cert="1.0" lemma="spannen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c53733_0068.w.1224908" lemmaRef="mnw.53733.sense.16">spannen</w>
           <pc pos="PC" xml:id="c53733_0068.pc.floating.00508560" lemma=",">,</pc>
         </q>
       </cit>

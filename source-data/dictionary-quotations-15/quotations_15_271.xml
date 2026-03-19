@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10546" lemma="GEBRUUC" partition="train" sense-id="mnw.10546.sense.3" xml:id="c10546_0010">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c10546_0010">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GEBRUUC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10546.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10546</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.271">
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c10546_0010.w.751062">Heere</w>
           <w cert="1.0" lemma="Otto" pos="NOU-P" resp="roland" xml:id="c10546_0010.w.751063">Otte</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="Heverlee" pos="NOU-P" resp="roland" xml:id="c10546_0010.w.751067">Heverle</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c10546_0010.w.751068">hadde</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c10546_0010.w.751069">in</w>
-          <w cert="1.0" lemma="gebruik" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.10546.sense.3" xml:id="c10546_0010.w.751070">ghebruic</w>
+          <w cert="1.0" lemma="gebruik" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10546_0010.w.751070" lemmaRef="mnw.10546.sense.3">ghebruic</w>
           <pc pos="PC" xml:id="c10546_0010.pc.floating.00320942" lemma=",">,</pc>
         </q>
       </cit>

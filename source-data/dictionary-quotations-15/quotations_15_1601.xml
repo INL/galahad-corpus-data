@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58319" lemma="TOEBRINGEN" partition="train" sense-id="mnw.58319.sense.11" xml:id="c58319_0043">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c58319_0043">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TOEBRINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58319.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58319</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1601">
           <w cert="1.0" lemma="dat+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c58319_0043.w.300827">Datse</w>
           <pc join="right" pos="PC" xml:id="c58319_0043.pc.pre.00122810" lemma="(">(</pc>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58319_0043.w.300838">spel</w>
           <pc pos="PC" xml:id="c58319_0043.pc.post.00122816" lemma=")">)</pc>
           <w cert="1.0" lemma="onnuttelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c58319_0043.w.300839">onnutteliken</w>
-          <w cert="1.0" lemma="toebrengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.58319.sense.11" xml:id="c58319_0043.w.300840">toebrenghen</w>
+          <w cert="1.0" lemma="toebrengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c58319_0043.w.300840" lemmaRef="mnw.58319.sense.11">toebrenghen</w>
           <pc pos="PC" xml:id="c58319_0043.pc.floating.00122817" lemma=",">,</pc>
         </q>
       </cit>

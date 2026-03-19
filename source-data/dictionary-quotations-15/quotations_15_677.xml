@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27340" lemma="MACHTELIKE" partition="train" sense-id="mnw.27340.sense.2" xml:id="c27340_0003">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c27340_0003">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MACHTELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27340.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27340</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.677">
           <w cert="1.0" lemma="na+die" pos="ADP(type=pre)+PD(type=d-p,position=free)" resp="thomas" xml:id="c27340_0003.w.641108">Nader</w>
           <w cert="1.0" lemma="welk" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="c27340_0003.w.641109">welker</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c27340_0003.w.641111">de</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27340_0003.w.641112">bajert</w>
           <pc pos="PC" xml:id="c27340_0003.pc.post.00248935" lemma=")">)</pc>
-          <w cert="1.0" lemma="machtelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.27340.sense.2" xml:id="c27340_0003.w.641113">machtelic</w>
+          <w cert="1.0" lemma="machtelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c27340_0003.w.641113" lemmaRef="mnw.27340.sense.2">machtelic</w>
           <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c27340_0003.w.641114">ontfanghende</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c27340_0003.w.641115">was</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c27340_0003.w.641116">alle</w>

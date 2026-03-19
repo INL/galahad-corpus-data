@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01492" lemma="AMER" partition="train" sense-id="mnw.01492.sense.1" xml:id="c01492_0000">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c01492_0000">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>AMER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01492.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01492</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.41">
           <w cert="1.0" lemma="dat+er" pos="CONJ(type=sub)+ADV(type=reg)" resp="thomas" xml:id="c01492_0000.w.284306">Datter</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c01492_0000.w.284307">veel</w>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c01492_0000.pc.post.00112683" lemma=",">,</pc>
           <w cert="1.0" lemma="gerst" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01492_0000.w.284317">gerst</w>
           <pc pos="PC" xml:id="c01492_0000.pc.post.00112684" lemma=",">,</pc>
-          <w cert="1.0" lemma="amer" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.01492.sense.1" xml:id="c01492_0000.w.284318">amer</w>
+          <w cert="1.0" lemma="amer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01492_0000.w.284318" lemmaRef="mnw.01492.sense.1">amer</w>
           <pc pos="PC" xml:id="c01492_0000.pc.floating.00112685" lemma=",">,</pc>
           <w cert="1.0" lemma="spelt" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01492_0000.w.284320">spelt</w>
           <pc pos="PC" xml:id="c01492_0000.pc.post.00112686" lemma=",">,</pc>

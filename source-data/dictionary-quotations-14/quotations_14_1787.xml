@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43862" lemma="PREDICARE" partition="train" sense-id="mnw.43862.sense.1" xml:id="c43862_0013">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c43862_0013">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PREDICARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43862.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43862</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1787">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c43862_0013.w.452631">Des</w>
           <w cert="1.0" lemma="visser" pos="NOU-C(number=sg)" resp="roland" xml:id="c43862_0013.w.452632">visschers</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c43862_0013.pc.post.00177908" lemma=")">)</pc>
           <pc pos="PC" xml:id="c43862_0013.pc.floating.00177909" lemma="…,">…,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c43862_0013.w.452635">des</w>
-          <w cert="1.0" lemma="prediker" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.43862.sense.1" xml:id="c43862_0013.w.452636">predikars</w>
+          <w cert="1.0" lemma="prediker" pos="NOU-C(number=sg)" resp="roland" xml:id="c43862_0013.w.452636" lemmaRef="mnw.43862.sense.1">predikars</w>
           <pc join="right" pos="PC" xml:id="c43862_0013.pc.pre.00177910" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c43862_0013.w.452637">Paulus</w>
           <pc pos="PC" xml:id="c43862_0013.pc.post.00177911" lemma=")">)</pc>

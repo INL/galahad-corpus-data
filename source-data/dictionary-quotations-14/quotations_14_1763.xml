@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43290" lemma="POENT" partition="train" sense-id="mnw.43290.sense.29" xml:id="c43290_0148">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c43290_0148">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>POENT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43290.sense.29</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43290</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1763">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c43290_0148.w.360390">Die</w>
           <w cert="1.0" lemma="anders" pos="ADV(type=reg)" resp="thomas" xml:id="c43290_0148.w.360391">anders</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c43290_0148.w.360397">hi</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c43290_0148.w.360398">in</w>
           <w cert="1.0" lemma="krank" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c43290_0148.w.360399">crancken</w>
-          <w cert="1.0" lemma="punt" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.43290.sense.29" xml:id="c43290_0148.w.360400">poente</w>
+          <w cert="1.0" lemma="punt" pos="NOU-C(number=sg)" resp="roland" xml:id="c43290_0148.w.360400" lemmaRef="mnw.43290.sense.29">poente</w>
           <w cert="1.0" lemma="leven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c43290_0148.w.360401">leeft</w>
           <pc pos="PC" xml:id="c43290_0148.pc.post.00141413" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c43290_0148.w.360402">ende</w>

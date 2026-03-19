@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11745" lemma="GELUUT" partition="train" sense-id="mnw.11745.sense.1" xml:id="c11745_0022">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c11745_0022">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GELUUT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11745.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11745</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.486">
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c11745_0022.w.955720">Dus</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c11745_0022.w.955721">bleef</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c11745_0022.w.955722">sonder</w>
-          <w cert="1.0" lemma="geluid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.11745.sense.1" xml:id="c11745_0022.w.955723">gheluut</w>
+          <w cert="1.0" lemma="geluid" pos="NOU-C(number=sg)" resp="roland" xml:id="c11745_0022.w.955723" lemmaRef="mnw.11745.sense.1">gheluut</w>
           <pc join="right" pos="PC" xml:id="c11745_0022.pc.pre.00404399" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c11745_0022.w.955724">zonder</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c11745_0022.w.955725">rumoer</w>

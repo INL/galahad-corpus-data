@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64123" lemma="VERPLOMPEN" partition="train" sense-id="mnw.64123.sense.1" xml:id="c64123_0000">
-        <date atLeast="1493" atMost="1493" timeSpan="1450-1500" />
+      <cit xml:id="c64123_0000">
+        <note>
+          <ab>
+            <date atLeast="1493" atMost="1493" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERPLOMPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64123.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64123</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1866">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64123_0000.w.1658658">Sie</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64123_0000.w.1658659">moten</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c64123_0000.w.1658663">hore</w>
           <w cert="1.0" lemma="zin" pos="NOU-C(number=pl)" resp="roland" xml:id="c64123_0000.w.1658664">sinnen</w>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c64123_0000.w.1658665">alsoo</w>
-          <w cert="1.0" lemma="verplompen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.64123.sense.1" xml:id="c64123_0000.w.1658666">verplumpet</w>
+          <w cert="1.0" lemma="verplompen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c64123_0000.w.1658666" lemmaRef="mnw.64123.sense.1">verplumpet</w>
           <pc pos="PC" xml:id="c64123_0000.pc.floating.00661303" lemma=",">,</pc>
           <w cert="1.0" lemma="opdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c64123_0000.w.1658668">opdat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64123_0000.w.1658669">sie</w>

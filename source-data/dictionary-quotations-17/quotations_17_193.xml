@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M009641" lemma="BOEK" modern-lemma="boek" partition="train" pos="NOU-C" sense-id="M009641.bet.80" xml:id="M009641.eg.42857">
-        <date atLeast="1625" atMost="1625" timeSpan="1600-1650" />
+      <cit xml:id="M009641.eg.42857">
+        <note>
+          <ab>
+            <date atLeast="1625" atMost="1625" extent="1600-1650" />
+            <interpGrp type="lemma">
+              <interp>BOEK</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M009641.bet.80</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>boek</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M009641</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.193">
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.144663">Laat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.144664">de</w>
@@ -75,7 +94,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.144684">den</w>
           <w cert="1.0" lemma="maagdenboek" pos="NOU-C(number=sg)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.144685">maegden<join n="mw_282605" />
           </w>
-          <w cert="1.0" lemma="maagdenboek" pos="NOU-C(number=sg)" resp="roland" sense-id="M009641.bet.80" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.144686">boek<join n="mw_282605" />
+          <w cert="1.0" lemma="maagdenboek" pos="NOU-C(number=sg)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.144686" lemmaRef="M009641.bet.80">boek<join n="mw_282605" />
           </w>
           <pc pos="PC" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.pc.post.0049947" lemma=",">,</pc>
         </q>

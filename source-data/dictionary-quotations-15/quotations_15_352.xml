@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13666" lemma="GEVOLCT" partition="train" sense-id="mnw.13666.sense.1" xml:id="c13666_0000">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c13666_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GEVOLCT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13666.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13666</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.352">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c13666_0000.w.1334208">Dese</w>
           <w cert="1.0" lemma="stad" pos="NOU-C(number=sg)" resp="thomas" xml:id="c13666_0000.w.1334209">stat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c13666_0000.w.1334210">is</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c13666_0000.w.1334211">wel</w>
-          <w cert="1.0" lemma="gevolkt" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.13666.sense.1" xml:id="c13666_0000.w.1334212">ghevolct</w>
+          <w cert="1.0" lemma="gevolkt" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c13666_0000.w.1334212" lemmaRef="mnw.13666.sense.1">ghevolct</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c13666_0000.w.1334213">ende</w>
           <w cert="1.0" lemma="muren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c13666_0000.w.1334214">ghemuyrt</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c13666_0000.w.1334215">mit</w>

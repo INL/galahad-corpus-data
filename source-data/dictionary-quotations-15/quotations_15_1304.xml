@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49555" lemma="SCHIETEN" partition="train" sense-id="mnw.49555.sense.6" xml:id="c49555_0054">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c49555_0054">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHIETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49555.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49555</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1304">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49555_0054.w.374598">Die</w>
           <w cert="1.0" lemma="zomer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49555_0054.w.374599">Somer</w>
-          <w cert="1.0" lemma="schieten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.49555.sense.6" xml:id="c49555_0054.w.374600">scoot</w>
+          <w cert="1.0" lemma="schieten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c49555_0054.w.374600" lemmaRef="mnw.49555.sense.6">scoot</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c49555_0054.w.374601">met</w>
           <w cert="1.0" lemma="vlijt" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49555_0054.w.374602">vlijt</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49555_0054.w.374603">ter</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49831" lemma="SCHIVE" partition="train" sense-id="mnw.49831.sense.1" xml:id="c49831_0008">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c49831_0008">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHIVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49831.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49831</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1317">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49831_0008.w.429807">Die</w>
           <w cert="1.0" lemma="lier" pos="NOU-C(number=sg)" resp="roland" xml:id="c49831_0008.w.429808">lyre</w>
@@ -82,7 +95,7 @@
           <w cert="1.0" lemma="einde" pos="NOU-C(number=sg)" resp="roland" xml:id="c49831_0008.w.429833">eynden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49831_0008.w.429834">ende</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c49831_0008.w.429835">een</w>
-          <w cert="1.0" lemma="schijf" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.49831.sense.1" xml:id="c49831_0008.w.429836">schive</w>
+          <w cert="1.0" lemma="schijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c49831_0008.w.429836" lemmaRef="mnw.49831.sense.1">schive</w>
           <w cert="1.0" lemma="strijken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c49831_0008.w.429837">strijct</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49831_0008.w.429838">die</w>
           <w cert="1.0" lemma="snaar" pos="NOU-C(number=pl)" resp="roland" xml:id="c49831_0008.w.429839">snaren</w>

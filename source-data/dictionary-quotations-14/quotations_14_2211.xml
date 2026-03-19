@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54740" lemma="STATBOMEN" partition="train" sense-id="mnw.54740.sense.2" xml:id="c54740_0005">
-        <date atLeast="1384" atMost="1407" timeSpan="1350-1400" />
+      <cit xml:id="c54740_0005">
+        <note>
+          <ab>
+            <date atLeast="1384" atMost="1407" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>STATBOMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54740.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54740</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2211">
           <w cert="1.0" lemma="werken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c54740_0005.w.1472851">Ghewrocht</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c54740_0005.w.1472852">an</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c54740_0005.w.1472859">ten</w>
           <w cert="1.0" lemma="Damme" pos="NOU-P" resp="roland" xml:id="c54740_0005.w.1472860">Damme</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c54740_0005.w.1472861">te</w>
-          <w cert="1.0" lemma="stadbomen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.54740.sense.2" xml:id="c54740_0005.w.1472862">stedbomene</w>
+          <w cert="1.0" lemma="stadbomen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c54740_0005.w.1472862" lemmaRef="mnw.54740.sense.2">stedbomene</w>
           <pc pos="PC" xml:id="c54740_0005.pc.floating.00609479" lemma=",">,</pc>
         </q>
       </cit>

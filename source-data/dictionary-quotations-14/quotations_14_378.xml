@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08890" lemma="ENTWEE" partition="train" sense-id="mnw.08890.sense.1" xml:id="c08890_0001">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c08890_0001">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ENTWEE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08890.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08890</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.378">
           <w cert="1.0" lemma="gelijkerwijs" pos="ADV(type=reg)" resp="thomas" xml:id="c08890_0001.w.501190">Geliker<join n="mw_725196" />
           </w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="muur" pos="NOU-C(number=sg)" resp="roland" xml:id="c08890_0001.w.501194">muer</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c08890_0001.w.501195">een</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=sg)" resp="roland" xml:id="c08890_0001.w.501196">denc</w>
-          <w cert="1.0" lemma="intwee" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.08890.sense.1" xml:id="c08890_0001.w.501197">entween</w>
+          <w cert="1.0" lemma="intwee" pos="ADV(type=reg)" resp="thomas" xml:id="c08890_0001.w.501197" lemmaRef="mnw.08890.sense.1">entween</w>
           <w cert="1.0" lemma="delen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c08890_0001.w.501198">deilt</w>
           <pc pos="PC" xml:id="c08890_0001.pc.post.00216633" lemma=",">,</pc>
           <w cert="1.0" lemma="daardoor+zij" pos="ADV(type=pron)+PD(type=pers,position=free)" resp="roland" xml:id="c08890_0001.w.501199">darse<join n="mw_138549" />

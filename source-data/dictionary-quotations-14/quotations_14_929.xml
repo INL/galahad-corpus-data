@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23735" lemma="CRANC" partition="test" sense-id="mnw.23735.sense.2" xml:id="c23735_0008">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c23735_0008">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CRANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23735.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23735</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.929">
           <w cert="1.0" lemma="mager" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c23735_0008.w.1399197">Magher</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c23735_0008.w.1399198">was</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c23735_0008.w.1399199">hi</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c23735_0008.w.1399200">ende</w>
-          <w cert="1.0" lemma="krank" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.23735.sense.2" xml:id="c23735_0008.w.1399201">cranc</w>
+          <w cert="1.0" lemma="krank" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c23735_0008.w.1399201" lemmaRef="mnw.23735.sense.2">cranc</w>
           <pc pos="PC" xml:id="c23735_0008.pc.floating.00562186" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+hij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c23735_0008.w.1399203">datti</w>
           <w cert="1.0" lemma="kuim" pos="ADV(type=reg)" resp="thomas" xml:id="c23735_0008.w.1399204">cume</w>

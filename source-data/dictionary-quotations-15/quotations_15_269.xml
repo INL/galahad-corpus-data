@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10538" lemma="GEBRUKEN" partition="train" sense-id="mnw.10538.sense.12" xml:id="c10538_0062">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c10538_0062">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GEBRUKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10538.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10538</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.269">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c10538_0062.w.748858">Des</w>
           <w cert="1.0" lemma="kind" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10538_0062.w.748859">kints</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c10538_0062.w.748865">ende</w>
           <w cert="1.0" lemma="laten+dat" pos="VRB(finiteness=fin,tense=past)+PD(type=d-p,position=free)" resp="thomas" xml:id="c10538_0062.w.748866">liets</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c10538_0062.w.748867">hem</w>
-          <w cert="1.0" lemma="gebruiken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.10538.sense.12" xml:id="c10538_0062.w.748868">gebruken</w>
+          <w cert="1.0" lemma="gebruiken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c10538_0062.w.748868" lemmaRef="mnw.10538.sense.12">gebruken</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c10538_0062.w.748869">al</w>
           <pc pos="PC" xml:id="c10538_0062.pc.post.00320111" lemma=",">,</pc>
         </q>

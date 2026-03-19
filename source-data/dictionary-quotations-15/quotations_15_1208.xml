@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46832" lemma="ROEREN" partition="test" sense-id="mnw.46832.sense.24" xml:id="c46832_0124">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c46832_0124">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ROEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46832.sense.24</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46832</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1208">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c46832_0124.w.1113819">Enen</w>
           <w cert="1.0" lemma="brief" pos="NOU-C(number=sg)" resp="thomas" xml:id="c46832_0124.w.1113820">brieff</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c46832_0124.w.1113823">hi</w>
           <w cert="1.0" lemma="daarin" pos="ADV(type=pron)" resp="thomas" xml:id="c46832_0124.w.1113824">in<join n="mw_736238" />
           </w>
-          <w cert="1.0" lemma="roeren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.46832.sense.24" xml:id="c46832_0124.w.1113825">roerde</w>
+          <w cert="1.0" lemma="roeren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c46832_0124.w.1113825" lemmaRef="mnw.46832.sense.24">roerde</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c46832_0124.w.1113826">ende</w>
           <w cert="1.0" lemma="begeren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c46832_0124.w.1113827">beghaerde</w>
           <pc pos="PC" xml:id="c46832_0124.pc.post.00438023" lemma=",">,</pc>

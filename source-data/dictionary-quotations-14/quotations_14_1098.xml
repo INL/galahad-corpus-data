@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27232" lemma="LUSTEN" partition="train" sense-id="mnw.27232.sense.1" xml:id="c27232_0003">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c27232_0003">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LUSTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27232.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27232</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1098">
           <w cert="1.0" lemma="bij+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27232_0003.w.611361">Bider</w>
           <w cert="1.0" lemma="wand" pos="NOU-C(number=sg)" resp="roland" xml:id="c27232_0003.w.611362">want</w>
@@ -67,7 +80,7 @@
           <pc pos="PC" xml:id="c27232_0003.pc.post.00236822" lemma=".)">.)</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27232_0003.w.611374">des</w>
           <pc pos="PC" xml:id="c27232_0003.pc.post.00236823" lemma=")">)</pc>
-          <w cert="1.0" lemma="lusten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.27232.sense.1" xml:id="c27232_0003.w.611375">luste</w>
+          <w cert="1.0" lemma="lusten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c27232_0003.w.611375" lemmaRef="mnw.27232.sense.1">luste</w>
           <w cert="1.0" lemma="best" pos="AA(degree=sup,position=free)" resp="roland" xml:id="c27232_0003.w.611376">best</w>
           <pc pos="PC" xml:id="c27232_0003.pc.post.00236824" lemma=",">,</pc>
         </q>

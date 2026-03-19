@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61519" lemma="VAT" partition="train" sense-id="mnw.61519.sense.8" xml:id="c61519_0127">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c61519_0127">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61519.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61519</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1727">
           <w cert="1.0" lemma="Nikodemus" pos="NOU-P" resp="roland" xml:id="c61519_0127.w.978647">Nicodemus</w>
           <pc pos="PC" xml:id="c61519_0127.pc.post.00394999" lemma=",">,</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="c61519_0127.w.978655">meinsche</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61519_0127.w.978656">int</w>
           <w cert="1.0" lemma="aards" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c61519_0127.w.978657">eerdsche</w>
-          <w cert="1.0" lemma="vat" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.61519.sense.8" xml:id="c61519_0127.w.978658">vat</w>
+          <w cert="1.0" lemma="vat" pos="NOU-C(number=sg)" resp="thomas" xml:id="c61519_0127.w.978658" lemmaRef="mnw.61519.sense.8">vat</w>
           <w cert="1.0" lemma="anderwerf" pos="ADV(type=reg)" resp="thomas" xml:id="c61519_0127.w.978659">anderwaerven</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c61519_0127.w.978660">soude</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c61519_0127.w.978661">gaen</w>

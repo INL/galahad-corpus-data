@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29268" lemma="MERKEN" partition="test" sense-id="mnw.29268.sense.29" xml:id="c29268_0124">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c29268_0124">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MERKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29268.sense.29</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29268</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1180">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c29268_0124.w.993125">Want</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29268_0124.w.993126">hi</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c29268_0124.w.993132">als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29268_0124.w.993133">hi</w>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c29268_0124.w.993134">dit</w>
-          <w cert="1.0" lemma="merken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.29268.sense.29" xml:id="c29268_0124.w.993135">merct</w>
+          <w cert="1.0" lemma="merken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c29268_0124.w.993135" lemmaRef="mnw.29268.sense.29">merct</w>
           <pc pos="PC" xml:id="c29268_0124.pc.floating.00387749" lemma=",">,</pc>
         </q>
       </cit>

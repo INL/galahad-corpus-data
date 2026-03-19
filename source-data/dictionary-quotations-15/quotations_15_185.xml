@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06739" lemma="DINCSTAL" partition="train" sense-id="mnw.06739.sense.1" xml:id="c06739_0004">
-        <date atLeast="1408" atMost="1414" timeSpan="1400-1450" />
+      <cit xml:id="c06739_0004">
+        <note>
+          <ab>
+            <date atLeast="1408" atMost="1414" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DINCSTAL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06739.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06739</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.185">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c06739_0004.w.153914">Van</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c06739_0004.w.153915">allen</w>
@@ -88,7 +101,7 @@
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c06739_0004.w.153944">an</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c06739_0004.w.153945">der</w>
           <w cert="1.0" lemma="poort" pos="NOU-C(number=sg)" resp="roland" xml:id="c06739_0004.w.153946">poorte</w>
-          <w cert="1.0" lemma="dingstal" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.06739.sense.1" xml:id="c06739_0004.w.153947">dingstal</w>
+          <w cert="1.0" lemma="dingstal" pos="NOU-C(number=sg)" resp="thomas" xml:id="c06739_0004.w.153947" lemmaRef="mnw.06739.sense.1">dingstal</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c06739_0004.w.153948">off</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c06739_0004.w.153949">int</w>
           <w cert="1.0" lemma="erfhuis" pos="NOU-C(number=sg)" resp="thomas" xml:id="c06739_0004.w.153950">erffhuys</w>

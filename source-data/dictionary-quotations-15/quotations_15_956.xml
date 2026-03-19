@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37900" lemma="ONTSIEN" partition="dev" sense-id="mnw.37900.sense.3" xml:id="c37900_0009">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c37900_0009">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTSIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37900.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37900</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.956">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37900_0009.w.805659">Men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c37900_0009.w.805660">sal</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c37900_0009.w.805661">den</w>
           <w cert="1.0" lemma="vijand" pos="NOU-C(number=sg)" resp="thomas" xml:id="c37900_0009.w.805662">viant</w>
           <w cert="1.0" lemma="altoos" pos="ADV(type=reg)" resp="thomas" xml:id="c37900_0009.w.805663">altoos</w>
-          <w cert="1.0" lemma="ontzien" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.37900.sense.3" xml:id="c37900_0009.w.805664">ontsien</w>
+          <w cert="1.0" lemma="ontzien" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c37900_0009.w.805664" lemmaRef="mnw.37900.sense.3">ontsien</w>
           <pc pos="PC" xml:id="c37900_0009.pc.floating.00324427" lemma=",">,</pc>
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c37900_0009.w.805666">hoe</w>
           <w cert="1.0" lemma="krank" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c37900_0009.w.805667">cranc</w>

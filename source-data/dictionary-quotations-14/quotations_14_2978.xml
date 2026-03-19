@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70576" lemma="WARE" partition="test" sense-id="mnw.70576.sense.1" xml:id="c70576_0011">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c70576_0011">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70576.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70576</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2978">
           <w cert="1.0" lemma="galigaan" pos="NOU-C(number=sg)" resp="roland" xml:id="c70576_0011.w.1292998">Galigaen</w>
           <pc pos="PC" xml:id="c70576_0011.pc.post.00518479" lemma=",">,</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70576_0011.w.1293002">ende</w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="c70576_0011.w.1293003">meneghe</w>
           <w cert="1.0" lemma="duur" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c70576_0011.w.1293004">diere</w>
-          <w cert="1.0" lemma="waar" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.70576.sense.1" xml:id="c70576_0011.w.1293005">ware</w>
+          <w cert="1.0" lemma="waar" pos="NOU-C(number=sg)" resp="thomas" xml:id="c70576_0011.w.1293005" lemmaRef="mnw.70576.sense.1">ware</w>
           <pc join="right" pos="PC" xml:id="c70576_0011.pc.pre.00518482" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c70576_0011.w.1293006">kostbare</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c70576_0011.w.1293007">specerij</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70986" lemma="WECHSENDEN" partition="train" sense-id="mnw.70986.sense.1" xml:id="c70986_0000">
-        <date atLeast="1443" atMost="1451" timeSpan="1400-1450" />
+      <cit xml:id="c70986_0000">
+        <note>
+          <ab>
+            <date atLeast="1443" atMost="1451" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WECHSENDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70986.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70986</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2122">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c70986_0000.w.1379155">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70986_0000.w.1379156">se</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70986_0000.w.1379163">und</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70986_0000.w.1379164">dat</w>
           <w cert="1.0" lemma="kwaad" pos="NOU-C(number=sg)" resp="thomas" xml:id="c70986_0000.w.1379165">quade</w>
-          <w cert="1.0" lemma="wegzenden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.70986.sense.1" xml:id="c70986_0000.w.1379166">wechsonden</w>
+          <w cert="1.0" lemma="wegzenden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70986_0000.w.1379166" lemmaRef="mnw.70986.sense.1">wechsonden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70986_0000.w.1379167">ende</w>
           <w cert="1.0" lemma="verkopen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70986_0000.w.1379168">vercochten</w>
           <pc pos="PC" xml:id="c70986_0000.pc.post.00552509" lemma=",">,</pc>

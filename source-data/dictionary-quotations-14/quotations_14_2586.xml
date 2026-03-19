@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62904" lemma="VERGRONDEN" partition="train" sense-id="mnw.62904.sense.1" xml:id="c62904_0014">
-        <date atLeast="1359" atMost="1386" timeSpan="1350-1400" />
+      <cit xml:id="c62904_0014">
+        <note>
+          <ab>
+            <date atLeast="1359" atMost="1386" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERGRONDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62904.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62904</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2586">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c62904_0014.w.1321566">Van</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c62904_0014.w.1321567">hare</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c62904_0014.pc.post.00530140" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62904_0014.w.1321571">die</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c62904_0014.w.1321572">nieman</w>
-          <w cert="1.0" lemma="vergronden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.62904.sense.1" xml:id="c62904_0014.w.1321573">vergrunden</w>
+          <w cert="1.0" lemma="vergronden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c62904_0014.w.1321573" lemmaRef="mnw.62904.sense.1">vergrunden</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c62904_0014.w.1321574">en</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62904_0014.w.1321575">can</w>
           <pc pos="PC" xml:id="c62904_0014.pc.post.00530141" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50849" lemma="SEDEWARE" partition="train" sense-id="mnw.50849.sense.1" xml:id="c50849_0013">
-        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c50849_0013">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SEDEWARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50849.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50849</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2050">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c50849_0013.w.623426">Van</w>
           <w cert="1.0" lemma="galigaan" pos="NOU-C(number=sg)" resp="roland" xml:id="c50849_0013.w.623427">galigane</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c50849_0013.pc.floating.00257643" lemma="…">…</pc>
           <w cert="1.0" lemma="wormkruid" pos="NOU-C(number=sg)" resp="roland" xml:id="c50849_0013.w.623429">woremcruut</w>
           <pc pos="PC" xml:id="c50849_0013.pc.post.00257644" lemma=",">,</pc>
-          <w cert="1.0" lemma="zedoar" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.50849.sense.1" xml:id="c50849_0013.w.623430">zedeware</w>
+          <w cert="1.0" lemma="zedoar" pos="NOU-C(number=sg)" resp="roland" xml:id="c50849_0013.w.623430" lemmaRef="mnw.50849.sense.1">zedeware</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50849_0013.w.623431">ende</w>
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c50849_0013.w.623432">voort</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c50849_0013.w.623433">van</w>

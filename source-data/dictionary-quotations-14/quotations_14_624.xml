@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14058" lemma="GICHTICHEIT" partition="train" sense-id="mnw.14058.sense.1" xml:id="c14058_0008">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c14058_0008">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GICHTICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14058.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14058</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.624">
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c14058_0008.w.1413293">God</w>
           <w cert="1.0" lemma="tekenen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c14058_0008.w.1413294">tekenden</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14058_0008.w.1413297">int</w>
           <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="roland" xml:id="c14058_0008.w.1413298">hooft</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14058_0008.w.1413299">metter</w>
-          <w cert="1.0" lemma="jichtigheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14058.sense.1" xml:id="c14058_0008.w.1413300">juchtechede</w>
+          <w cert="1.0" lemma="jichtigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c14058_0008.w.1413300" lemmaRef="mnw.14058.sense.1">juchtechede</w>
           <pc join="right" pos="PC" xml:id="c14058_0008.pc.pre.00590756" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c14058_0008.w.1413301">daarmede</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c14058_0008.w.1413302">dat</w>

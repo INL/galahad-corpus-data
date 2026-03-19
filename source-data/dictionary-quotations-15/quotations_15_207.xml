@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07560" lemma="DRAGEN" partition="train" sense-id="mnw.07560.sense.125" xml:id="c07560_0276">
-        <date atLeast="1470" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c07560_0276">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>DRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07560.sense.125</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07560</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.207">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c07560_0276.w.287617">Ic</w>
           <w cert="1.0" lemma="weten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c07560_0276.w.287618">weet</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="thomas" xml:id="c07560_0276.w.287620">waer</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c07560_0276.w.287621">u</w>
           <w cert="1.0" lemma="taal" pos="NOU-C(number=sg)" resp="roland" xml:id="c07560_0276.w.287622">tale</w>
-          <w cert="1.0" lemma="dragen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.07560.sense.125" xml:id="c07560_0276.w.287623">draghet</w>
+          <w cert="1.0" lemma="dragen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07560_0276.w.287623" lemmaRef="mnw.07560.sense.125">draghet</w>
           <pc pos="PC" xml:id="c07560_0276.pc.floating.00123919" lemma=";">;</pc>
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c07560_0276.w.287625">wat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07560_0276.w.287626">ghy</w>

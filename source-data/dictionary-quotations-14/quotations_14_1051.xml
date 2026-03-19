@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26208" lemma="LIJF" partition="train" sense-id="mnw.26208.sense.57" xml:id="c26208_0305">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c26208_0305">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LIJF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26208.sense.57</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26208</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1051">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c26208_0305.w.415609">Al</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c26208_0305.w.415610">mochte</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c26208_0305.w.415613">der</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c26208_0305.w.415614">martelaren</w>
           <pc pos="PC" xml:id="c26208_0305.pc.post.00161557" lemma=")">)</pc>
-          <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26208.sense.57" xml:id="c26208_0305.w.415615">live</w>
+          <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c26208_0305.w.415615" lemmaRef="mnw.26208.sense.57">live</w>
           <pc join="right" pos="PC" xml:id="c26208_0305.pc.pre.00161558" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c26208_0305.w.415616">mv</w>
           <pc pos="PC" xml:id="c26208_0305.pc.post.00161559" lemma=".,">.,</pc>

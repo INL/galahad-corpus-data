@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03018" lemma="BECOMMERTHEIT" partition="train" sense-id="mnw.03018.sense.1" xml:id="c03018_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c03018_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BECOMMERTHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03018.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03018</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.130">
           <w cert="1.0" lemma="zelden" pos="ADV(type=reg)" resp="thomas" xml:id="c03018_0000.w.578122">Selden</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03018_0000.w.578123">was</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="ontdaan" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c03018_0000.w.578126">ondaen</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c03018_0000.w.578127">omme</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c03018_0000.w.578128">enege</w>
-          <w cert="1.0" lemma="bekommerdheid" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.03018.sense.1" xml:id="c03018_0000.w.578129">becommerthede</w>
+          <w cert="1.0" lemma="bekommerdheid" pos="NOU-C(number=pl)" resp="roland" xml:id="c03018_0000.w.578129" lemmaRef="mnw.03018.sense.1">becommerthede</w>
           <pc pos="PC" xml:id="c03018_0000.pc.floating.00225487" lemma=",">,</pc>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c03018_0000.w.578131">en</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03018_0000.w.578132">ware</w>

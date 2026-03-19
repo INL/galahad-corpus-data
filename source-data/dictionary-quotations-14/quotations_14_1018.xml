@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25915" lemma="LEVEREN" partition="train" sense-id="mnw.25915.sense.4" xml:id="c25915_0016">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c25915_0016">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LEVEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25915.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25915</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1018">
           <w cert="1.0" lemma="dat+hij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c25915_0016.w.301271">Datti</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c25915_0016.w.301272">soude</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="woud" pos="NOU-C(number=sg)" resp="roland" xml:id="c25915_0016.w.301278">woude</w>
           <pc pos="PC" xml:id="c25915_0016.pc.floating.00116842" lemma="…,">…,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25915_0016.w.301280">ende</w>
-          <w cert="1.0" lemma="leveren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.25915.sense.4" xml:id="c25915_0016.w.301281">leveren</w>
+          <w cert="1.0" lemma="leveren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c25915_0016.w.301281" lemmaRef="mnw.25915.sense.4">leveren</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c25915_0016.w.301282">hem</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c25915_0016.w.301283">den</w>
           <w cert="1.0" lemma="dier" pos="NOU-C(number=pl)" resp="roland" xml:id="c25915_0016.w.301284">dieren</w>

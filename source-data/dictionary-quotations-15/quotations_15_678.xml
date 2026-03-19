@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27377" lemma="MAECH" partition="test" sense-id="mnw.27377.sense.2" xml:id="c27377_0040">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c27377_0040">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MAECH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27377.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27377</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.678">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c27377_0040.w.649732">Want</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c27377_0040.w.649733">hi</w>
-          <w cert="1.0" lemma="maag" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.27377.sense.2" xml:id="c27377_0040.w.649734">maghe</w>
+          <w cert="1.0" lemma="maag" pos="NOU-C(number=sg)" resp="roland" xml:id="c27377_0040.w.649734" lemmaRef="mnw.27377.sense.2">maghe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c27377_0040.w.649735">ende</w>
           <w cert="1.0" lemma="gebuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c27377_0040.w.649736">ghebure</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c27377_0040.w.649737">haer</w>

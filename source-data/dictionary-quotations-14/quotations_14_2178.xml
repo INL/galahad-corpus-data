@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54270" lemma="SPORE" partition="train" sense-id="mnw.54270.sense.1" xml:id="c54270_0009">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c54270_0009">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SPORE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54270.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54270</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2178">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c54270_0009.w.1330783">Omme</w>
           <w cert="1.0" lemma="gereide" pos="NOU-C(number=pl)" resp="roland" xml:id="c54270_0009.w.1330784">ghereiden</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c54270_0009.pc.post.00552567" lemma=",">,</pc>
           <w cert="1.0" lemma="breidel" pos="NOU-C(number=pl)" resp="roland" xml:id="c54270_0009.w.1330786">breidele</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c54270_0009.w.1330787">ende</w>
-          <w cert="1.0" lemma="spoor" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.54270.sense.1" xml:id="c54270_0009.w.1330788">sporen</w>
+          <w cert="1.0" lemma="spoor" pos="NOU-C(number=pl)" resp="roland" xml:id="c54270_0009.w.1330788" lemmaRef="mnw.54270.sense.1">sporen</w>
           <pc pos="PC" xml:id="c54270_0009.pc.floating.00552568" lemma=",">,</pc>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c54270_0009.w.1330790">te</w>
           <w cert="1.0" lemma="hof" pos="NOU-C(number=sg)" resp="roland" xml:id="c54270_0009.w.1330791">hove</w>

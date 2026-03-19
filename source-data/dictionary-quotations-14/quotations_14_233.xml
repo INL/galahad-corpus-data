@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04888" lemma="BOETE" partition="train" sense-id="mnw.04888.sense.11" xml:id="c04888_0046">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c04888_0046">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BOETE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04888.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04888</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.233">
           <w cert="1.0" lemma="hebben+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c04888_0046.w.961920">Hebbic</w>
           <w cert="1.0" lemma="iet" pos="PD(type=indef,position=free)" resp="roland" xml:id="c04888_0046.w.961921">iet</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="willen+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c04888_0046.w.961926">willic</w>
           <w cert="1.0" lemma="gaarne" pos="ADV(type=reg)" resp="thomas" xml:id="c04888_0046.w.961927">gherne</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c04888_0046.w.961928">in</w>
-          <w cert="1.0" lemma="boete" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.04888.sense.11" xml:id="c04888_0046.w.961929">boeten</w>
+          <w cert="1.0" lemma="boete" pos="NOU-C(number=sg)" resp="roland" xml:id="c04888_0046.w.961929" lemmaRef="mnw.04888.sense.11">boeten</w>
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c04888_0046.w.961930">staen</w>
           <pc pos="PC" xml:id="c04888_0046.pc.post.00379691" lemma=",">,</pc>
         </q>

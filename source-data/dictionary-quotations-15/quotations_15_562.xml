@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22875" lemma="CONFUUS" partition="train" sense-id="mnw.22875.sense.1" xml:id="c22875_0004">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c22875_0004">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CONFUUS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22875.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22875</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.562">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c22875_0004.w.1218607">Si</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c22875_0004.w.1218608">mosten</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c22875_0004.w.1218615">Babel</w>
           <pc pos="PC" xml:id="c22875_0004.pc.post.00491036" lemma=")">)</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c22875_0004.w.1218616">mit</w>
-          <w cert="1.0" lemma="confuus" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.22875.sense.1" xml:id="c22875_0004.w.1218617">confusen</w>
+          <w cert="1.0" lemma="confuus" pos="NOU-C(number=sg)" resp="roland" xml:id="c22875_0004.w.1218617" lemmaRef="mnw.22875.sense.1">confusen</w>
           <w cert="1.0" lemma="achterlaten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c22875_0004.w.1218618">afterlaten</w>
           <pc pos="PC" xml:id="c22875_0004.pc.floating.00491037" lemma="…;">…;</pc>
           <w cert="1.0" lemma="Babel" pos="NOU-P" resp="roland" xml:id="c22875_0004.w.1218620">Babel</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c22875_0004.w.1218622">is</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c22875_0004.w.1218623">te</w>
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c22875_0004.w.1218624">seggen</w>
-          <w cert="1.0" lemma="confuus" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.22875.sense.1" xml:id="c22875_0004.w.1218625">confuus</w>
+          <w cert="1.0" lemma="confuus" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c22875_0004.w.1218625" lemmaRef="mnw.22875.sense.1">confuus</w>
           <pc pos="PC" xml:id="c22875_0004.pc.floating.00491038" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45389" lemma="RAU" partition="dev" sense-id="mnw.45389.sense.1" xml:id="c45389_0001">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c45389_0001">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>RAU</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45389.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45389</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1161">
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c45389_0001.w.764691">Dan</w>
           <w cert="1.0" lemma="schreien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c45389_0001.w.764692">screyde</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="rood" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c45389_0001.w.764700">root</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c45389_0001.w.764701">waren</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c45389_0001.w.764702">als</w>
-          <w cert="1.0" lemma="rauw" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.45389.sense.1" xml:id="c45389_0001.w.764703">raeu</w>
+          <w cert="1.0" lemma="rauw" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c45389_0001.w.764703" lemmaRef="mnw.45389.sense.1">raeu</w>
           <w cert="1.0" lemma="vlees" pos="NOU-C(number=sg)" resp="thomas" xml:id="c45389_0001.w.764704">vleis</w>
           <pc pos="PC" xml:id="c45389_0001.pc.post.00300493" lemma=",">,</pc>
         </q>

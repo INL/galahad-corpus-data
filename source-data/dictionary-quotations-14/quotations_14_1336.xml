@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32484" lemma="NIDICH" partition="train" sense-id="mnw.32484.sense.2" xml:id="c32484_0002">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c32484_0002">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NIDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32484.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32484</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1336">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c32484_0002.w.1616420">Die</w>
-          <w cert="1.0" lemma="nijdig" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.32484.sense.2" xml:id="c32484_0002.w.1616421">nidech</w>
+          <w cert="1.0" lemma="nijdig" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c32484_0002.w.1616421" lemmaRef="mnw.32484.sense.2">nidech</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c32484_0002.w.1616422">es</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c32484_0002.w.1616423">van</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c32484_0002.w.1616424">naturen</w>

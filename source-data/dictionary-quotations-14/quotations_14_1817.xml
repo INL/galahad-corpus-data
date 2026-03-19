@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44504" lemma="PUTERIE" partition="train" sense-id="mnw.44504.sense.1" xml:id="c44504_0002">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c44504_0002">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PUTERIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44504.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44504</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1817">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c44504_0002.w.556902">Was</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c44504_0002.w.556903">ic</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="hij+ne" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="roland" xml:id="c44504_0002.w.556913">hine</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c44504_0002.w.556914">moste</w>
           <w cert="1.0" lemma="elder" pos="ADV(type=reg)" resp="thomas" xml:id="c44504_0002.w.556915">elre</w>
-          <w cert="1.0" lemma="puterij" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.44504.sense.1" xml:id="c44504_0002.w.556916">puteriën</w>
+          <w cert="1.0" lemma="puterij" pos="NOU-C(number=sg)" resp="roland" xml:id="c44504_0002.w.556916" lemmaRef="mnw.44504.sense.1">puteriën</w>
           <w cert="1.0" lemma="plegen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c44504_0002.w.556917">plien</w>
           <pc pos="PC" xml:id="c44504_0002.pc.post.00219066" lemma="?">?</pc>
         </q>

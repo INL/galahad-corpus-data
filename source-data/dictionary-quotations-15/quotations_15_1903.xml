@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64831" lemma="VERSTANDENISSE" partition="test" sense-id="mnw.64831.sense.8" xml:id="c64831_0070">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c64831_0070">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERSTANDENISSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64831.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64831</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1903">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c64831_0070.w.17023">Dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c64831_0070.w.17024">ic</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c64831_0070.w.17032">die</w>
           <w cert="1.0" lemma="kleinheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64831_0070.w.17033">cleynheyt</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c64831_0070.w.17034">mijnre</w>
-          <w cert="1.0" lemma="verstandenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.64831.sense.8" xml:id="c64831_0070.w.17035">verstantenisse</w>
+          <w cert="1.0" lemma="verstandenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c64831_0070.w.17035" lemmaRef="mnw.64831.sense.8">verstantenisse</w>
           <pc pos="PC" xml:id="c64831_0070.pc.floating.00006538" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63209" lemma="VERCALLEN" partition="train" sense-id="mnw.63209.sense.3" xml:id="c63209_0012">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c63209_0012">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERCALLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63209.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63209</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1806">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c63209_0012.w.1391286">Ic</w>
           <w cert="1.0" lemma="opklimmen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63209_0012.w.1391287">clam<join n="mw_110463" />
@@ -69,7 +82,7 @@
           <pc pos="PC" xml:id="c63209_0012.pc.post.00557296" lemma=")">)</pc>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c63209_0012.w.1391299">Gods</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63209_0012.w.1391300">ende</w>
-          <w cert="1.0" lemma="verkallen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.63209.sense.3" xml:id="c63209_0012.w.1391301">vercallede</w>
+          <w cert="1.0" lemma="verkallen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63209_0012.w.1391301" lemmaRef="mnw.63209.sense.3">vercallede</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c63209_0012.w.1391302">dat</w>
           <w cert="1.0" lemma="evangelium" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63209_0012.w.1391303">ewangelium</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c63209_0012.w.1391304">mit</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44113" lemma="PROEVEN" partition="train" sense-id="mnw.44113.sense.2" xml:id="c44113_0013">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c44113_0013">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PROEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44113.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44113</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1126">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c44113_0013.w.501655">Ic</w>
           <w cert="1.0" lemma="willen+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c44113_0013.w.501656">wilt</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="proeven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c44113_0013.w.501658">prouwen</w>
           <pc join="right" pos="PC" xml:id="c44113_0013.pc.pre.00197047" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c44113_0013.w.501659">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.44113.sense.2" xml:id="c44113_0013.w.501660">prouven</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c44113_0013.w.501660" lemmaRef="mnw.44113.sense.2">prouven</w>
           <pc pos="PC" xml:id="c44113_0013.pc.floating.00197049" lemma=")">)</pc>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c44113_0013.w.501662">bi</w>
           <w cert="1.0" lemma="clergie" pos="NOU-C(number=pl)" resp="roland" xml:id="c44113_0013.w.501663">clergiën</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54022" lemma="SPIKER" partition="train" sense-id="mnw.54022.sense.4" xml:id="c54022_0011">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c54022_0011">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SPIKER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54022.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54022</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1466">
           <w cert="1.0" lemma="zeven" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c54022_0011.w.1292783">VII</w>
           <w cert="1.0" lemma="waag" pos="NOU-C(number=pl)" resp="roland" xml:id="c54022_0011.w.1292784">waghen</w>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c54022_0011.pc.post.00536780" lemma=")">)</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c54022_0011.w.1292793">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c54022_0011.w.1292794">den</w>
-          <w cert="1.0" lemma="spijker" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.54022.sense.4" xml:id="c54022_0011.w.1292795">spikere</w>
+          <w cert="1.0" lemma="spijker" pos="NOU-C(number=sg)" resp="roland" xml:id="c54022_0011.w.1292795" lemmaRef="mnw.54022.sense.4">spikere</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c54022_0011.w.1292796">van</w>
           <w cert="1.0" lemma="Brugge" pos="NOU-P" resp="roland" xml:id="c54022_0011.w.1292797">Brugghe</w>
           <pc pos="PC" xml:id="c54022_0011.pc.post.00536781" lemma=",">,</pc>

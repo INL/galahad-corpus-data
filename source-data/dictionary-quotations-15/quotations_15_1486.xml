@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54559" lemma="STAKE" partition="train" sense-id="mnw.54559.sense.9" xml:id="c54559_0023">
-        <date atLeast="1492" atMost="1492" timeSpan="1450-1500" />
+      <cit xml:id="c54559_0023">
+        <note>
+          <ab>
+            <date atLeast="1492" atMost="1492" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>STAKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54559.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54559</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1486">
           <pc pos="PC" xml:id="c54559_0023.pc.floating.00589481" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c54559_0023.pc.pre.00589482" lemma="“">“</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c54559_0023.w.1423733">die</w>
           <w cert="1.0" lemma="Oudmannenvliet" pos="NOU-P" resp="thomas" xml:id="c54559_0023.w.1423734">outmannenvlyet</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c54559_0023.w.1423735">mitten</w>
-          <w cert="1.0" lemma="staak" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.54559.sense.9" xml:id="c54559_0023.w.1423736">staicken</w>
+          <w cert="1.0" lemma="staak" pos="NOU-C(number=pl)" resp="roland" xml:id="c54559_0023.w.1423736" lemmaRef="mnw.54559.sense.9">staicken</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c54559_0023.w.1423737">van</w>
           <w cert="1.0" lemma="Staicxkeen" pos="NOU-P" resp="thomas" xml:id="c54559_0023.w.1423738">Staicxkeen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c54559_0023.w.1423739">ende</w>

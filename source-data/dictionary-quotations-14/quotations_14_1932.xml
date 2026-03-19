@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47090" lemma="RONNEN" partition="train" sense-id="mnw.47090.sense.6" xml:id="c47090_0009">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c47090_0009">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>RONNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47090.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47090</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1932">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c47090_0009.w.1152910">Warent</w>
           <w cert="1.0" lemma="monnik" pos="NOU-C(number=pl)" resp="roland" xml:id="c47090_0009.w.1152911">moenken</w>
@@ -58,7 +71,7 @@
           </w>
           <w cert="1.0" lemma="samen" pos="ADV(type=reg)" resp="thomas" xml:id="c47090_0009.w.1152917">samen<join n="mw_182400" />
           </w>
-          <w cert="1.0" lemma="ronnen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.47090.sense.6" xml:id="c47090_0009.w.1152918">ronnen</w>
+          <w cert="1.0" lemma="ronnen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c47090_0009.w.1152918" lemmaRef="mnw.47090.sense.6">ronnen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c47090_0009.w.1152919">in</w>
           <w cert="1.0" lemma="huwelijk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47090_0009.w.1152920">huwelike</w>
           <pc pos="PC" xml:id="c47090_0009.pc.post.00454132" lemma=",">,</pc>

@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42869" lemma="PLADIJN" partition="train" sense-id="mnw.42869.sense.1" xml:id="c42869_0001">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c42869_0001">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PLADIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42869.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42869</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1743">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c42869_0001.w.269247">Van</w>
           <w cert="1.0" lemma="twintig" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c42869_0001.w.269248">XX</w>
-          <w cert="1.0" lemma="pladen" pos="AA(degree=pos,position=prenom)" resp="roland" sense-id="mnw.42869.sense.1" xml:id="c42869_0001.w.269249">pladinen</w>
+          <w cert="1.0" lemma="pladen" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c42869_0001.w.269249" lemmaRef="mnw.42869.sense.1">pladinen</w>
           <w cert="1.0" lemma="nap" pos="NOU-C(number=pl)" resp="roland" xml:id="c42869_0001.w.269250">nappen</w>
           <pc pos="PC" xml:id="c42869_0001.pc.post.00104972" lemma=",">,</pc>
           <w cert="1.0" lemma="geklaveeld" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c42869_0001.w.269251">yclavielt</w>

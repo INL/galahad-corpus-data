@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72509" lemma="WERF" partition="train" sense-id="mnw.72509.sense.2" xml:id="c72509_0034">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c72509_0034">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WERF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72509.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72509</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3071">
           <w cert="1.0" lemma="Parthonopeus" pos="NOU-P" resp="roland" xml:id="c72509_0034.w.1666138">Parthonopeus</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c72509_0034.w.1666139">wart</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72509_0034.w.1666140">die</w>
-          <w cert="1.0" lemma="werf" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.72509.sense.2" xml:id="c72509_0034.w.1666141">warf</w>
+          <w cert="1.0" lemma="werf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72509_0034.w.1666141" lemmaRef="mnw.72509.sense.2">warf</w>
           <pc join="right" pos="PC" xml:id="c72509_0034.pc.pre.00663392" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c72509_0034.w.1666142">toen</w>
           <pc pos="PC" xml:id="c72509_0034.pc.post.00663393" lemma=")">)</pc>

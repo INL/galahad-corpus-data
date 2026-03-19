@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38809" lemma="ONVREDE" partition="dev" sense-id="mnw.38809.sense.11" xml:id="c38809_0051">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c38809_0051">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONVREDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38809.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38809</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1579">
           <w cert="1.0" lemma="te+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c38809_0051.w.982951">Ten</w>
           <w cert="1.0" lemma="leste" pos="NOU-C(number=sg)" resp="thomas" xml:id="c38809_0051.w.982952">lesten</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c38809_0051.w.982958">bellum</w>
           <pc pos="PC" xml:id="c38809_0051.pc.post.00394031" lemma=")">)</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c38809_0051.w.982959">den</w>
-          <w cert="1.0" lemma="onvrede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.38809.sense.11" xml:id="c38809_0051.w.982960">onvrede</w>
+          <w cert="1.0" lemma="onvrede" pos="NOU-C(number=sg)" resp="roland" xml:id="c38809_0051.w.982960" lemmaRef="mnw.38809.sense.11">onvrede</w>
           <w cert="1.0" lemma="tussen" pos="ADP(type=pre)" resp="thomas" xml:id="c38809_0051.w.982961">tusschen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c38809_0051.w.982962">die</w>
           <w cert="1.0" lemma="ander" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c38809_0051.w.982963">andere</w>

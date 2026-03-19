@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37223" lemma="ONTDECKEN" partition="train" sense-id="mnw.37223.sense.12" xml:id="c37223_0028">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c37223_0028">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTDECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37223.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37223</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1504">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c37223_0028.w.650877">In</w>
           <w cert="1.0" lemma="de+aarde" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c37223_0028.w.650878">daerde</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c37223_0028.w.650889">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c37223_0028.w.650890">die</w>
           <w cert="1.0" lemma="aarde" pos="NOU-C(number=sg)" resp="roland" xml:id="c37223_0028.w.650891">aerde</w>
-          <w cert="1.0" lemma="ontdekken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.37223.sense.12" xml:id="c37223_0028.w.650892">ontdecken</w>
+          <w cert="1.0" lemma="ontdekken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37223_0028.w.650892" lemmaRef="mnw.37223.sense.12">ontdecken</w>
           <pc pos="PC" xml:id="c37223_0028.pc.floating.00264625" lemma=",">,</pc>
         </q>
       </cit>

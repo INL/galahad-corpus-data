@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46088" lemma="RESINNE" partition="train" sense-id="mnw.46088.sense.1" xml:id="c46088_0001">
-        <date atLeast="1455" atMost="1475" timeSpan="1450-1500" />
+      <cit xml:id="c46088_0001">
+        <note>
+          <ab>
+            <date atLeast="1455" atMost="1475" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>RESINNE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46088.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46088</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1184">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c46088_0001.w.932193">Dat</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="thomas" xml:id="c46088_0001.w.932194">lant</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c46088_0001.w.932201">ende</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c46088_0001.w.932202">myt</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c46088_0001.w.932203">groten</w>
-          <w cert="1.0" lemma="reuzin" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.46088.sense.1" xml:id="c46088_0001.w.932204">roesinnen</w>
+          <w cert="1.0" lemma="reuzin" pos="NOU-C(number=pl)" resp="roland" xml:id="c46088_0001.w.932204" lemmaRef="mnw.46088.sense.1">roesinnen</w>
           <pc pos="PC" xml:id="c46088_0001.pc.floating.00366239" lemma=",">,</pc>
         </q>
       </cit>

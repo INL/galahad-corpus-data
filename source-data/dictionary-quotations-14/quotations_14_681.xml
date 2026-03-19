@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15702" lemma="HANTGEWRANC" partition="train" sense-id="mnw.15702.sense.1" xml:id="c15702_0000">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c15702_0000">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HANTGEWRANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15702.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15702</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.681">
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c15702_0000.w.86903">Haer</w>
           <w cert="1.0" lemma="handslag" pos="NOU-C(number=sg)" resp="roland" xml:id="c15702_0000.w.86904">hantslach</w>
           <pc pos="PC" xml:id="c15702_0000.pc.post.00034615" lemma=",">,</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c15702_0000.w.86905">haer</w>
-          <w cert="1.0" lemma="handgewrang" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.15702.sense.1" xml:id="c15702_0000.w.86906">hantghewranc</w>
+          <w cert="1.0" lemma="handgewrang" pos="NOU-C(number=sg)" resp="roland" xml:id="c15702_0000.w.86906" lemmaRef="mnw.15702.sense.1">hantghewranc</w>
           <pc pos="PC" xml:id="c15702_0000.pc.floating.00034616" lemma=",">,</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c15702_0000.w.86908">haer</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c15702_0000.w.86909">groot</w>

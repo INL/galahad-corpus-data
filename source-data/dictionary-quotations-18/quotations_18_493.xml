@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M040737" lemma="NASPOREN" modern-lemma="nasporen" partition="dev" pos="VRB" sense-id="M040737.bet.2" xml:id="M040737.eg.29962">
-        <date atLeast="1772" atMost="1772" timeSpan="1750-1800" />
+      <cit xml:id="M040737.eg.29962">
+        <note>
+          <ab>
+            <date atLeast="1772" atMost="1772" extent="1750-1800" />
+            <interpGrp type="lemma">
+              <interp>NASPOREN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M040737.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>nasporen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M040737</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.493">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.538204">Men</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.538205">ziet</w>
@@ -67,7 +86,7 @@
           <w cert="1.0" lemma="reuk" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.538219">Reuk</w>
           <pc pos="PC" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.pc.post.0175634" lemma=",">,</pc>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.538220">zullen</w>
-          <w cert="1.0" lemma="nasporen" pos="VRB(finiteness=inf)" resp="roland" sense-id="M040737.bet.2" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.538221">naspooren</w>
+          <w cert="1.0" lemma="nasporen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.w.538221" lemmaRef="M040737.bet.2">naspooren</w>
           <pc pos="PC" xml:id="INT_7360015a-16d4-4435-b514-7e5aac3dc495.pc.post.0175635" lemma=",">,</pc>
         </q>
       </cit>

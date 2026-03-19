@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44113" lemma="PROEVEN" partition="train" sense-id="mnw.44113.sense.9" xml:id="c44113_0109">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c44113_0109">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PROEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44113.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44113</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1807">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c44113_0109.w.504275">Daer</w>
-          <w cert="1.0" lemma="proeven+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.44113.sense.9" xml:id="c44113_0109.w.504276">proevedi</w>
+          <w cert="1.0" lemma="proeven+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c44113_0109.w.504276" lemmaRef="mnw.44113.sense.9">proevedi</w>
           <w cert="1.0" lemma="dat+ros" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c44113_0109.w.504277">tors</w>
           <pc pos="PC" xml:id="c44113_0109.pc.post.00198046" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c44113_0109.w.504278">die</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33522" lemma="OMME" partition="train" sense-id="mnw.33522.sense.23" xml:id="c33522_0163">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c33522_0163">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OMME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33522.sense.23</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33522</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.842">
           <pc join="right" pos="PC" xml:id="c33522_0163.pc.pre.00026046" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c33522_0163.w.63161">Christus</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c33522_0163.w.63170">door</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c33522_0163.w.63171">onsen</w>
           <w cert="1.0" lemma="nood" pos="NOU-C(number=sg)" resp="thomas" xml:id="c33522_0163.w.63172">noot</w>
-          <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.33522.sense.23" xml:id="c33522_0163.w.63173">om</w>
+          <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c33522_0163.w.63173" lemmaRef="mnw.33522.sense.23">om</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c33522_0163.w.63174">onse</w>
           <w cert="1.0" lemma="arm" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c33522_0163.w.63175">arme</w>
           <w cert="1.0" lemma="katijvigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c33522_0163.w.63176">keytivichede</w>

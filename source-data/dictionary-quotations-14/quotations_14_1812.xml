@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44255" lemma="PROVENCHE" partition="train" sense-id="mnw.44255.sense.1" xml:id="c44255_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c44255_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PROVENCHE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44255.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44255</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1812">
           <pc join="right" pos="PC" xml:id="c44255_0000.pc.pre.00207684" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c44255_0000.w.528009">Doe</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="Marteel" pos="NOU-P" resp="roland" xml:id="c44255_0000.w.528010">Marteel</w>
           <w cert="1.0" lemma="weder" pos="ADV(type=reg)" resp="thomas" xml:id="c44255_0000.w.528011">weder</w>
           <w cert="1.0" lemma="verwerven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c44255_0000.w.528012">verwaerf</w>
-          <w cert="1.0" lemma="Provence" pos="NOU-P" resp="roland" sense-id="mnw.44255.sense.1" xml:id="c44255_0000.w.528013">Proventse</w>
+          <w cert="1.0" lemma="Provence" pos="NOU-P" resp="roland" xml:id="c44255_0000.w.528013" lemmaRef="mnw.44255.sense.1">Proventse</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c44255_0000.w.528014">ende</w>
           <w cert="1.0" lemma="Arle le blanc" pos="NOU-P" resp="roland" xml:id="c44255_0000.w.528015">Arleblanke</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c44255_0000.w.528016">de</w>

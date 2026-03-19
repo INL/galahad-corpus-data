@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70503" lemma="WAPENGERUCHTE" partition="train" sense-id="mnw.70503.sense.1" xml:id="c70503_0003">
-        <date atLeast="1419" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c70503_0003">
+        <note>
+          <ab>
+            <date atLeast="1419" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WAPENGERUCHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70503.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70503</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2108">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c70503_0003.w.1283348">Weert</w>
           <w cert="1.0" lemma="zaak" pos="NOU-C(number=sg)" resp="roland" xml:id="c70503_0003.w.1283349">sake</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c70503_0003.w.1283359">die</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c70503_0003.w.1283360">sal</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c70503_0003.w.1283361">een</w>
-          <w cert="1.0" lemma="wapengerucht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70503.sense.1" xml:id="c70503_0003.w.1283362">wapengerochte</w>
+          <w cert="1.0" lemma="wapengerucht" pos="NOU-C(number=sg)" resp="roland" xml:id="c70503_0003.w.1283362" lemmaRef="mnw.70503.sense.1">wapengerochte</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c70503_0003.w.1283363">maken</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c70503_0003.w.1283364">op</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70503_0003.w.1283365">die</w>

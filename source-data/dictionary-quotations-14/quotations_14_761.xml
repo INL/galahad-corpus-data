@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18293" lemma="HOUWEN" partition="dev" sense-id="mnw.18293.sense.13" xml:id="c18293_0044">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c18293_0044">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HOUWEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18293.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18293</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.761">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18293_0044.w.467627">Si</w>
           <w cert="1.0" lemma="zagen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c18293_0044.w.467628">sagen</w>
-          <w cert="1.0" lemma="houwen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.18293.sense.13" xml:id="c18293_0044.w.467629">houwen</w>
+          <w cert="1.0" lemma="houwen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c18293_0044.w.467629" lemmaRef="mnw.18293.sense.13">houwen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c18293_0044.w.467630">ende</w>
           <w cert="1.0" lemma="steken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c18293_0044.w.467631">steken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c18293_0044.w.467632">ende</w>

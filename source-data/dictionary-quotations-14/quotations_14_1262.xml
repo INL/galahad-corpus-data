@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30678" lemma="MONIC" partition="dev" sense-id="mnw.30678.sense.1" xml:id="c30678_0047">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c30678_0047">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MONIC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30678.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30678</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1262">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30678_0047.w.1289403">Die</w>
           <w cert="1.0" lemma="kerk" pos="NOU-C(number=pl)" resp="roland" xml:id="c30678_0047.w.1289404">kerke</w>
           <pc pos="PC" xml:id="c30678_0047.pc.floating.00506531" lemma="…">…</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30678_0047.w.1289406">sijn</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c30678_0047.w.1289407">van</w>
-          <w cert="1.0" lemma="monnik" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.30678.sense.1" xml:id="c30678_0047.w.1289408">monken</w>
+          <w cert="1.0" lemma="monnik" pos="NOU-C(number=pl)" resp="roland" xml:id="c30678_0047.w.1289408" lemmaRef="mnw.30678.sense.1">monken</w>
           <pc pos="PC" xml:id="c30678_0047.pc.floating.00506532" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c30678_0047.w.1289410">die</w>
           <w cert="1.0" lemma="verweend" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c30678_0047.w.1289411">verweent</w>

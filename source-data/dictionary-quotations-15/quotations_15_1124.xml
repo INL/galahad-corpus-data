@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44064" lemma="PRISIE" partition="train" sense-id="mnw.44064.sense.2" xml:id="c44064_0006">
-        <date atLeast="1456" atMost="1456" timeSpan="1450-1500" />
+      <cit xml:id="c44064_0006">
+        <note>
+          <ab>
+            <date atLeast="1456" atMost="1456" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PRISIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44064.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44064</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1124">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c44064_0006.w.493537">Van</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c44064_0006.w.493538">allen</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c44064_0006.pc.post.00193990" lemma=",">,</pc>
           <w cert="1.0" lemma="lating" pos="NOU-C(number=pl)" resp="roland" xml:id="c44064_0006.w.493545">latinghen</w>
           <pc pos="PC" xml:id="c44064_0006.pc.post.00193991" lemma=",">,</pc>
-          <w cert="1.0" lemma="prisie" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.44064.sense.2" xml:id="c44064_0006.w.493546">prysiën</w>
+          <w cert="1.0" lemma="prisie" pos="NOU-C(number=pl)" resp="roland" xml:id="c44064_0006.w.493546" lemmaRef="mnw.44064.sense.2">prysiën</w>
           <pc pos="PC" xml:id="c44064_0006.pc.floating.00193992" lemma=",">,</pc>
           <w cert="1.0" lemma="achterstel" pos="NOU-C(number=pl)" resp="roland" xml:id="c44064_0006.w.493548">achterstellen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c44064_0006.w.493549">van</w>

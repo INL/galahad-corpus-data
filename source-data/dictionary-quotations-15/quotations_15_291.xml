@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11551" lemma="GELIDEN" partition="train" sense-id="mnw.11551.sense.2" xml:id="c11551_0012">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c11551_0012">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GELIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11551.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11551</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.291">
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11551_0012.w.902029">Wy</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c11551_0012.w.902030">en</w>
-          <w cert="1.0" lemma="gelijden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.11551.sense.2" xml:id="c11551_0012.w.902031">gelyden</w>
+          <w cert="1.0" lemma="gelijden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c11551_0012.w.902031" lemmaRef="mnw.11551.sense.2">gelyden</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c11551_0012.w.902032">niet</w>
           <pc pos="PC" xml:id="c11551_0012.pc.post.00382996" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c11551_0012.w.902033">dat</w>

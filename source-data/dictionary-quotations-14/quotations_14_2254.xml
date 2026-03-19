@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55791" lemma="STRENGE" partition="train" sense-id="mnw.55791.sense.7" xml:id="c55791_0016">
-        <date atLeast="1330" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c55791_0016">
+        <note>
+          <ab>
+            <date atLeast="1330" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STRENGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55791.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55791</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2254">
           <w cert="1.0" lemma="J." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c55791_0016.w.1710499">J.</w>
           <w cert="1.0" lemma="D." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c55791_0016.w.1710500">D.'s</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c55791_0016.w.1710502">hevet</w>
           <pc pos="PC" xml:id="c55791_0016.pc.post.00706356" lemma=")">)</pc>
           <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c55791_0016.w.1710503">twe</w>
-          <w cert="1.0" lemma="streng" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.55791.sense.7" xml:id="c55791_0016.w.1710504">strenghen</w>
+          <w cert="1.0" lemma="streng" pos="NOU-C(number=pl)" resp="roland" xml:id="c55791_0016.w.1710504" lemmaRef="mnw.55791.sense.7">strenghen</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c55791_0016.w.1710505">an</w>
           <w cert="1.0" lemma="W." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c55791_0016.w.1710506">W.'s</w>
           <w cert="1.0" lemma="hofstede" pos="NOU-C(number=sg)" resp="roland" xml:id="c55791_0016.w.1710507">hofstede</w>

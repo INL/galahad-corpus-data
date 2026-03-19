@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73049" lemma="WIE" partition="train" sense-id="mnw.73049.sense.2" xml:id="c73049_0010">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c73049_0010">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73049.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73049</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2229">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c73049_0010.w.1808899">Nu</w>
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c73049_0010.w.1808900">hoort</w>
-          <w cert="1.0" lemma="wie" pos="ADV(type=reg)" resp="roland" sense-id="mnw.73049.sense.2" xml:id="c73049_0010.w.1808901">wie</w>
+          <w cert="1.0" lemma="wie" pos="ADV(type=reg)" resp="roland" xml:id="c73049_0010.w.1808901" lemmaRef="mnw.73049.sense.2">wie</w>
           <w cert="1.0" lemma="hij+dat" pos="PD(type=pers,position=free)+PD(type=d-p,position=free)" resp="thomas" xml:id="c73049_0010.w.1808902">hijs</w>
           <w cert="1.0" lemma="eerst" pos="ADV(type=reg)" resp="thomas" xml:id="c73049_0010.w.1808903">ierst</w>
           <w cert="1.0" lemma="begonnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73049_0010.w.1808904">begonste</w>

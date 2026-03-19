@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70931" lemma="WECH" partition="train" sense-id="mnw.70931.sense.33" xml:id="c70931_0123">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c70931_0123">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WECH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70931.sense.33</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70931</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2121">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c70931_0123.w.1368220">Dese</w>
           <w cert="1.0" lemma="heilig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c70931_0123.w.1368221">helighe</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c70931_0123.w.1368229">in</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c70931_0123.w.1368230">een</w>
           <w cert="1.0" lemma="volkomen" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c70931_0123.w.1368231">vulcomen</w>
-          <w cert="1.0" lemma="weg" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.70931.sense.33" xml:id="c70931_0123.w.1368232">wech</w>
+          <w cert="1.0" lemma="weg" pos="NOU-C(number=sg)" resp="thomas" xml:id="c70931_0123.w.1368232" lemmaRef="mnw.70931.sense.33">wech</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70931_0123.w.1368233">ende</w>
           <w cert="1.0" lemma="leven" pos="NOU-C(number=sg)" resp="roland" xml:id="c70931_0123.w.1368234">leven</w>
           <pc pos="PC" xml:id="c70931_0123.pc.post.00547957" lemma=",">,</pc>

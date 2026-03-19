@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29046" lemma="MEMORIE" partition="train" sense-id="mnw.29046.sense.8" xml:id="c29046_0029">
-        <date atLeast="1399" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c29046_0029">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MEMORIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29046.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.716">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c29046_0029.w.931034">So</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c29046_0029.w.931035">en</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29046_0029.w.931048">men</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29046_0029.w.931049">der</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c29046_0029.w.931050">lude</w>
-          <w cert="1.0" lemma="memorie" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.29046.sense.8" xml:id="c29046_0029.w.931051">memorie</w>
+          <w cert="1.0" lemma="memorie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29046_0029.w.931051" lemmaRef="mnw.29046.sense.8">memorie</w>
           <w cert="1.0" lemma="daarvan" pos="ADV(type=pron)" resp="thomas" xml:id="c29046_0029.w.931052">van<join n="mw_426609" />
           </w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c29046_0029.w.931053">doen</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56566" lemma="SWARTEN" partition="train" sense-id="mnw.56566.sense.2" xml:id="c56566_0001">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c56566_0001">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SWARTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56566.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56566</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1561">
           <w cert="1.0" lemma="beginnen+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c56566_0001.w.1867629">Beghinnet</w>
           <pc join="right" pos="PC" xml:id="c56566_0001.pc.pre.00771772" lemma="(">(</pc>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c56566_0001.w.1867631">urine</w>
           <pc pos="PC" xml:id="c56566_0001.pc.post.00771773" lemma=")">)</pc>
           <w cert="1.0" lemma="toe" pos="ADP(type=pre)" resp="thomas" xml:id="c56566_0001.w.1867632">toe</w>
-          <w cert="1.0" lemma="zwarten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.56566.sense.2" xml:id="c56566_0001.w.1867633">zwarten</w>
+          <w cert="1.0" lemma="zwarten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c56566_0001.w.1867633" lemmaRef="mnw.56566.sense.2">zwarten</w>
           <pc pos="PC" xml:id="c56566_0001.pc.floating.00771774" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c56566_0001.w.1867635">soo</w>
           <w cert="1.0" lemma="willen+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c56566_0001.w.1867636">wilt</w>

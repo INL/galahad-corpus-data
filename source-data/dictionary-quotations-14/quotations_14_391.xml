@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09334" lemma="EVELEN" partition="train" sense-id="mnw.09334.sense.1" xml:id="c09334_0002">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c09334_0002">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>EVELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09334.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09334</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.391">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c09334_0002.w.553953">Zo</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c09334_0002.w.553954">wie</w>
@@ -66,7 +79,7 @@
           </w>
           <w cert="1.0" lemma="erbinnen" pos="ADV(type=pron)" resp="thomas" xml:id="c09334_0002.w.553968">binnen<join n="mw_852169" />
           </w>
-          <w cert="1.0" lemma="euvelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.09334.sense.1" xml:id="c09334_0002.w.553969">evelt</w>
+          <w cert="1.0" lemma="euvelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c09334_0002.w.553969" lemmaRef="mnw.09334.sense.1">evelt</w>
           <pc pos="PC" xml:id="c09334_0002.pc.floating.00239265" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c09334_0002.w.553971">dat</w>
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c09334_0002.w.553972">sta</w>

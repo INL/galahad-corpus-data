@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39797" lemma="OPVOEREN" partition="train" sense-id="mnw.39797.sense.2" xml:id="c39797_0011">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c39797_0011">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OPVOEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39797.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39797</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1009">
           <pc pos="PC" xml:id="c39797_0011.pc.floating.00492504" lemma="—">—</pc>
           <pc join="right" pos="PC" xml:id="c39797_0011.pc.pre.00492505" lemma="(">(</pc>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c39797_0011.w.1234999">heeft</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c39797_0011.w.1235000">de</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c39797_0011.w.1235001">nature</w>
-          <w cert="1.0" lemma="opvoeren" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.39797.sense.2" xml:id="c39797_0011.w.1235002">opghevoert</w>
+          <w cert="1.0" lemma="opvoeren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c39797_0011.w.1235002" lemmaRef="mnw.39797.sense.2">opghevoert</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c39797_0011.w.1235003">in</w>
           <w cert="1.0" lemma="vrijheid" pos="NOU-C(number=pl)" resp="roland" xml:id="c39797_0011.w.1235004">vriheiden</w>
           <pc pos="PC" xml:id="c39797_0011.pc.post.00492510" lemma=",">,</pc>

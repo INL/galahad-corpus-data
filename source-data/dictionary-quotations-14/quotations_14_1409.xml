@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34294" lemma="ONBEWAERT" partition="train" sense-id="mnw.34294.sense.1" xml:id="c34294_0006">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c34294_0006">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONBEWAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34294.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34294</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1409">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c34294_0006.w.184196">Met</w>
           <w cert="1.0" lemma="loosheid" pos="NOU-C(number=pl)" resp="roland" xml:id="c34294_0006.w.184197">loosheden</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c34294_0006.w.184206">blivet</w>
           <w cert="1.0" lemma="dat+fruit" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c34294_0006.w.184207">tfruut</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c34294_0006.w.184208">al</w>
-          <w cert="1.0" lemma="onbewaard" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.34294.sense.1" xml:id="c34294_0006.w.184209">onbewaert</w>
+          <w cert="1.0" lemma="onbewaard" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c34294_0006.w.184209" lemmaRef="mnw.34294.sense.1">onbewaert</w>
           <pc pos="PC" xml:id="c34294_0006.pc.floating.00076568" lemma=",">,</pc>
         </q>
       </cit>

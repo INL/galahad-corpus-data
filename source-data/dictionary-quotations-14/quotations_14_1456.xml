@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35958" lemma="ONGESLAGEN" partition="train" sense-id="mnw.35958.sense.2" xml:id="c35958_0000">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c35958_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONGESLAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35958.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35958</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1456">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c35958_0000.w.437673">Om</w>
           <w cert="1.0" lemma="sterven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c35958_0000.w.437674">sterven</w>
@@ -80,7 +93,7 @@
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c35958_0000.w.437695">liet</w>
           <w cert="1.0" lemma="hij+hij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c35958_0000.w.437696">hine</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c35958_0000.w.437697">al</w>
-          <w cert="1.0" lemma="ongeslagen" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35958.sense.2" xml:id="c35958_0000.w.437698">onghesleghen</w>
+          <w cert="1.0" lemma="ongeslagen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35958_0000.w.437698" lemmaRef="mnw.35958.sense.2">onghesleghen</w>
           <pc pos="PC" xml:id="c35958_0000.pc.floating.00178988" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c35958_0000.w.437700">ende</w>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c35958_0000.w.437701">liet</w>

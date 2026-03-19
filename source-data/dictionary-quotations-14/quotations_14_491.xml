@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11785" lemma="GEMAKEN" partition="train" sense-id="mnw.11785.sense.7" xml:id="c11785_0038">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c11785_0038">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEMAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11785.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11785</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.491">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c11785_0038.w.964602">Dat</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c11785_0038.w.964603">mach</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c11785_0038.w.964604">niemen</w>
-          <w cert="1.0" lemma="gemaken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.11785.sense.7" xml:id="c11785_0038.w.964605">ghemaken</w>
+          <w cert="1.0" lemma="gemaken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11785_0038.w.964605" lemmaRef="mnw.11785.sense.7">ghemaken</w>
           <pc pos="PC" xml:id="c11785_0038.pc.floating.00407851" lemma=",">,</pc>
           <pc pos="PC" xml:id="c11785_0038.pc.floating.00407852" lemma="..">..</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c11785_0038.w.964608">dat</w>

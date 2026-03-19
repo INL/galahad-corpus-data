@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03760" lemma="BESLAEN" partition="dev" sense-id="mnw.03760.sense.19" xml:id="c03760_0052">
-        <date atLeast="1343" atMost="1344" timeSpan="1300-1350" />
+      <cit xml:id="c03760_0052">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1344" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BESLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03760.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03760</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.186">
           <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c03760_0052.w.752278">Twee</w>
           <w cert="1.0" lemma="ton" pos="NOU-C(number=pl)" resp="roland" xml:id="c03760_0052.w.752279">tonnen</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="harnas" pos="NOU-C(number=sg)" resp="roland" xml:id="c03760_0052.w.752282">harnasch</w>
           <w cert="1.0" lemma="in" pos="ADV(type=reg)" resp="thomas" xml:id="c03760_0052.w.752283">in</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c03760_0052.w.752284">te</w>
-          <w cert="1.0" lemma="beslaan" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.03760.sense.19" xml:id="c03760_0052.w.752285">beslane</w>
+          <w cert="1.0" lemma="beslaan" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03760_0052.w.752285" lemmaRef="mnw.03760.sense.19">beslane</w>
           <pc pos="PC" xml:id="c03760_0052.pc.floating.00293520" lemma=",">,</pc>
         </q>
       </cit>

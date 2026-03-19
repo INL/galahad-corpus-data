@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45647" lemma="REERECHT" partition="train" sense-id="mnw.45647.sense.1" xml:id="c45647_0002">
-        <date atLeast="1388" atMost="1388" timeSpan="1350-1400" />
+      <cit xml:id="c45647_0002">
+        <note>
+          <ab>
+            <date atLeast="1388" atMost="1388" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>REERECHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45647.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45647</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1869">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c45647_0002.w.845516">Dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45647_0002.w.845517">die</w>
@@ -70,9 +83,9 @@
           <pc pos="PC" xml:id="c45647_0002.pc.post.00331856" lemma=",">,</pc>
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c45647_0002.w.845535">voort</w>
           <w cert="1.0" lemma="strekken" pos="VRB(finiteness=prespart)" resp="roland" xml:id="c45647_0002.w.845536">streckende</w>
-          <w cert="1.0" lemma="reerecht" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.45647.sense.1" xml:id="c45647_0002.w.845537">ree<join n="mw_596778" />
+          <w cert="1.0" lemma="reerecht" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c45647_0002.w.845537" lemmaRef="mnw.45647.sense.1">ree<join n="mw_596778" />
           </w>
-          <w cert="1.0" lemma="reerecht" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.45647.sense.1" xml:id="c45647_0002.w.845538">recht<join n="mw_596778" />
+          <w cert="1.0" lemma="reerecht" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c45647_0002.w.845538" lemmaRef="mnw.45647.sense.1">recht<join n="mw_596778" />
           </w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c45647_0002.w.845539">op</w>
           <w cert="1.0" lemma="Waalwijker" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c45647_0002.w.845540">Waelwincker</w>

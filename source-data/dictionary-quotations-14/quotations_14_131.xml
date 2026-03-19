@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03024" lemma="BECOPEN" partition="train" sense-id="mnw.03024.sense.8" xml:id="c03024_0019">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c03024_0019">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BECOPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03024.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03024</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.131">
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03024_0019.w.579900">Hadde</w>
           <w cert="1.0" lemma="een" pos="NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c03024_0019.w.579901">een</w>
@@ -76,7 +89,7 @@
           <w cert="1.0" lemma="anders" pos="ADV(type=reg)" resp="thomas" xml:id="c03024_0019.w.579917">anders</w>
           <w cert="1.0" lemma="doen+hij+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c03024_0019.w.579918">dadijt</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c03024_0019.w.579919">hem</w>
-          <w cert="1.0" lemma="bekopen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.03024.sense.8" xml:id="c03024_0019.w.579920">becoopen</w>
+          <w cert="1.0" lemma="bekopen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03024_0019.w.579920" lemmaRef="mnw.03024.sense.8">becoopen</w>
           <pc pos="PC" xml:id="c03024_0019.pc.floating.00226198" lemma=",">,</pc>
         </q>
       </cit>

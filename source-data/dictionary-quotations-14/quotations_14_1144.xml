@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28277" lemma="MATE" partition="train" sense-id="mnw.28277.sense.26" xml:id="c28277_0165">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c28277_0165">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MATE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28277.sense.26</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28277</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1144">
           <pc join="right" pos="PC" xml:id="c28277_0165.pc.pre.00323014" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28277_0165.w.832957">Si</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="herberg" pos="NOU-C(number=sg)" resp="roland" xml:id="c28277_0165.w.832964">erbergen</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c28277_0165.w.832965">met</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c28277_0165.w.832966">goeder</w>
-          <w cert="1.0" lemma="maat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28277.sense.26" xml:id="c28277_0165.w.832967">mate</w>
+          <w cert="1.0" lemma="maat" pos="NOU-C(number=sg)" resp="roland" xml:id="c28277_0165.w.832967" lemmaRef="mnw.28277.sense.26">mate</w>
           <pc pos="PC" xml:id="c28277_0165.pc.floating.00323016" lemma=",">,</pc>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c28277_0165.w.832969">sonder</w>
           <w cert="1.0" lemma="miskwaam" pos="NOU-C(number=sg)" resp="roland" xml:id="c28277_0165.w.832970">mesquame</w>

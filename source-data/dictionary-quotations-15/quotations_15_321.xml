@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12376" lemma="GERECHT" partition="train" sense-id="mnw.12376.sense.7" xml:id="c12376_0086">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c12376_0086">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GERECHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12376.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12376</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.321">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c12376_0086.w.1096179">Die</w>
-          <w cert="1.0" lemma="gerecht" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.12376.sense.7" xml:id="c12376_0086.w.1096180">gherecht</w>
+          <w cert="1.0" lemma="gerecht" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c12376_0086.w.1096180" lemmaRef="mnw.12376.sense.7">gherecht</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12376_0086.w.1096181">ende</w>
           <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c12376_0086.w.1096182">wijs</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12376_0086.w.1096183">es</w>

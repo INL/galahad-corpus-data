@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48553" lemma="SCHAEC" partition="test" sense-id="mnw.48553.sense.3" xml:id="c48553_0020">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c48553_0020">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHAEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48553.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48553</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1267">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c48553_0020.w.162744">Ic</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c48553_0020.w.162745">hadde</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="schaak" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48553_0020.w.162749">scaekens</w>
           <pc join="right" pos="PC" xml:id="c48553_0020.pc.pre.00067645" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48553_0020.w.162750">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="roland" sense-id="mnw.48553.sense.3" xml:id="c48553_0020.w.162751">scaekes</w>
+          <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c48553_0020.w.162751" lemmaRef="mnw.48553.sense.3">scaekes</w>
           <pc pos="PC" xml:id="c48553_0020.pc.floating.00067647" lemma=",">,</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48553_0020.w.162753">of</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48553_0020.w.162754">gen.</w>

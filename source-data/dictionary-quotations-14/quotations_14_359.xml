@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08398" lemma="EER" partition="dev" sense-id="mnw.08398.sense.4" xml:id="c08398_0021">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c08398_0021">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>EER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08398.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08398</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.359">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c08398_0021.w.412597">Den</w>
           <w cert="1.0" lemma="tribuut" pos="NOU-C(number=sg)" resp="roland" xml:id="c08398_0021.w.412598">tribuut</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c08398_0021.w.412600">dien</w>
           <w cert="1.0" lemma="weleer" pos="ADV(type=reg)" resp="thomas" xml:id="c08398_0021.w.412601">wilen<join n="mw_952827" />
           </w>
-          <w cert="1.0" lemma="weleer" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.08398.sense.4" xml:id="c08398_0021.w.412602">eer<join n="mw_952827" />
+          <w cert="1.0" lemma="weleer" pos="ADV(type=reg)" resp="thomas" xml:id="c08398_0021.w.412602" lemmaRef="mnw.08398.sense.4">eer<join n="mw_952827" />
           </w>
           <w cert="1.0" lemma="winnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c08398_0021.w.412603">wan</w>
           <pc pos="PC" xml:id="c08398_0021.pc.floating.00178112" lemma="…">…</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20949" lemma="KEER" partition="test" sense-id="mnw.20949.sense.54" xml:id="c20949_0201">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c20949_0201">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>KEER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20949.sense.54</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20949</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.828">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c20949_0201.w.876456">Doe</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c20949_0201.w.876457">ghinc</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c20949_0201.pc.post.00355412" lemma=";">;</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c20949_0201.w.876460">met</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c20949_0201.w.876461">dien</w>
-          <w cert="1.0" lemma="keer" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.20949.sense.54" xml:id="c20949_0201.w.876462">kere</w>
+          <w cert="1.0" lemma="keer" pos="NOU-C(number=sg)" resp="roland" xml:id="c20949_0201.w.876462" lemmaRef="mnw.20949.sense.54">kere</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c20949_0201.w.876463">dat</w>
           <w cert="1.0" lemma="omdragen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c20949_0201.w.876464">ommedroech</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c20949_0201.w.876465">die</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16002" lemma="HAVENEN" partition="train" sense-id="mnw.16002.sense.3" xml:id="c16002_0016">
-        <date atLeast="1420" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c16002_0016">
+        <note>
+          <ab>
+            <date atLeast="1420" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HAVENEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16002.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16002</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.404">
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c16002_0016.w.129953">Gegeven</w>
           <pc pos="PC" xml:id="c16002_0016.pc.floating.00052952" lemma="..">..</pc>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c16002_0016.pc.post.00052954" lemma=",">,</pc>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c16002_0016.w.129965">mede</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c16002_0016.w.129966">te</w>
-          <w cert="1.0" lemma="havenen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.16002.sense.3" xml:id="c16002_0016.w.129967">havenen</w>
+          <w cert="1.0" lemma="havenen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c16002_0016.w.129967" lemmaRef="mnw.16002.sense.3">havenen</w>
           <pc pos="PC" xml:id="c16002_0016.pc.floating.00052955" lemma=",">,</pc>
           <w cert="1.0" lemma="tien" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c16002_0016.w.129969">10</w>
           <w cert="1.0" lemma="Engels" pos="AA(degree=pos,position=prenom,WF=abbr)" resp="thomas" xml:id="c16002_0016.w.129970">eng.</w>

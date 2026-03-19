@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74424" lemma="WORM" partition="train" sense-id="mnw.74424.sense.1" xml:id="c74424_0003">
-        <date atLeast="1452" atMost="1452" timeSpan="1450-1500" />
+      <cit xml:id="c74424_0003">
+        <note>
+          <ab>
+            <date atLeast="1452" atMost="1452" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WORM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74424.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74424</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2303">
           <w cert="1.0" lemma="zoeken+du" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c74424_0003.w.2090699">Suekestu</w>
           <w cert="1.0" lemma="dierbaarheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c74424_0003.w.2090700">duerberheit</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c74424_0003.w.2090714">dyn</w>
           <w cert="1.0" lemma="overdeksel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c74424_0003.w.2090715">overdecsel</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c74424_0003.w.2090716">sullen</w>
-          <w cert="1.0" lemma="worm" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.74424.sense.1" xml:id="c74424_0003.w.2090717">wormen</w>
+          <w cert="1.0" lemma="worm" pos="NOU-C(number=pl)" resp="roland" xml:id="c74424_0003.w.2090717" lemmaRef="mnw.74424.sense.1">wormen</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c74424_0003.w.2090718">wesen</w>
           <pc pos="PC" xml:id="c74424_0003.pc.post.00819641" lemma=",">,</pc>
         </q>

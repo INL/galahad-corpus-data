@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72405" lemma="WENTELEN" partition="train" sense-id="mnw.72405.sense.7" xml:id="c72405_0014">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c72405_0014">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WENTELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72405.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72405</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3049">
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c72405_0014.w.1600494">Grote</w>
           <w cert="1.0" lemma="baar" pos="NOU-C(number=pl)" resp="roland" xml:id="c72405_0014.w.1600495">baren</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="vervaren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72405_0014.w.1600501">vervaren</w>
           <pc pos="PC" xml:id="c72405_0014.pc.post.00641348" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c72405_0014.w.1600502">maer</w>
-          <w cert="1.0" lemma="wentelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.72405.sense.7" xml:id="c72405_0014.w.1600503">wentelen</w>
+          <w cert="1.0" lemma="wentelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72405_0014.w.1600503" lemmaRef="mnw.72405.sense.7">wentelen</w>
           <pc join="right" pos="PC" xml:id="c72405_0014.pc.pre.00641349" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c72405_0014.w.1600504">var.</w>
           <w cert="1.0" lemma="wentelen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c72405_0014.w.1600505">wintelen</w>

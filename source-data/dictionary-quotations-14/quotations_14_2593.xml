@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62985" lemma="VERHEELEN" partition="train" sense-id="mnw.62985.sense.6" xml:id="c62985_0004">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c62985_0004">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERHEELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62985.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62985</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2593">
           <w cert="1.0" lemma="daarna" pos="ADV(type=pron)" resp="thomas" xml:id="c62985_0004.w.1339369">Daerna</w>
           <w cert="1.0" lemma="laten+men+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c62985_0004.w.1339370">laetment</w>
@@ -74,7 +87,7 @@
           </w>
           <w cert="1.0" lemma="samen" pos="ADV(type=reg)" resp="thomas" xml:id="c62985_0004.w.1339386">samen<join n="mw_13647" />
           </w>
-          <w cert="1.0" lemma="verhelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.62985.sense.6" xml:id="c62985_0004.w.1339387">verheilen</w>
+          <w cert="1.0" lemma="verhelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62985_0004.w.1339387" lemmaRef="mnw.62985.sense.6">verheilen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62985_0004.w.1339388">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c62985_0004.w.1339389">haer</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c62985_0004.w.1339390">nature</w>

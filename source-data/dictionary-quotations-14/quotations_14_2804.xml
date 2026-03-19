@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67013" lemma="VOEGEN" partition="train" sense-id="mnw.67013.sense.37" xml:id="c67013_0123">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c67013_0123">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VOEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67013.sense.37</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67013</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2804">
           <w cert="1.0" lemma="liegen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c67013_0123.w.522566">Lieghen</w>
           <pc pos="PC" xml:id="c67013_0123.pc.post.00209141" lemma=",">,</pc>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c67013_0123.pc.post.00209143" lemma=",">,</pc>
           <w cert="1.0" lemma="strijken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c67013_0123.w.522573">striken</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c67013_0123.w.522574">wel</w>
-          <w cert="1.0" lemma="voegen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.67013.sense.37" xml:id="c67013_0123.w.522575">voecht</w>
+          <w cert="1.0" lemma="voegen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67013_0123.w.522575" lemmaRef="mnw.67013.sense.37">voecht</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c67013_0123.w.522576">ende</w>
           <w cert="1.0" lemma="zitten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67013_0123.w.522577">sit</w>
           <pc pos="PC" xml:id="c67013_0123.pc.post.00209144" lemma=";">;</pc>

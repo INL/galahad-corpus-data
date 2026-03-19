@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72622" lemma="WERPMAEL" partition="train" sense-id="mnw.72622.sense.1" xml:id="c72622_0000">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c72622_0000">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WERPMAEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72622.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72622</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3080">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c72622_0000.w.1704875">Doe</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c72622_0000.w.1704876">wilde</w>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c72622_0000.pc.post.00676645" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c72622_0000.w.1704889">als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72622_0000.w.1704890">hi</w>
-          <w cert="1.0" lemma="dat+werpmaal" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" sense-id="mnw.72622.sense.1" xml:id="c72622_0000.w.1704891">dwerpmael</w>
+          <w cert="1.0" lemma="dat+werpmaal" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c72622_0000.w.1704891" lemmaRef="mnw.72622.sense.1">dwerpmael</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c72622_0000.w.1704892">van</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c72622_0000.w.1704893">enen</w>
           <w cert="1.0" lemma="steen" pos="NOU-C(number=sg)" resp="roland" xml:id="c72622_0000.w.1704894">steene</w>

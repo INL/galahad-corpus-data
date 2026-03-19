@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49555" lemma="SCHIETEN" partition="train" sense-id="mnw.49555.sense.19" xml:id="c49555_0101">
-        <date atLeast="1421" atMost="1441" timeSpan="1400-1450" />
+      <cit xml:id="c49555_0101">
+        <note>
+          <ab>
+            <date atLeast="1421" atMost="1441" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHIETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49555.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49555</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1303">
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c49555_0101.w.376132">Ganc</w>
           <w cert="1.0" lemma="tot+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49555_0101.w.376133">totter</w>
           <w cert="1.0" lemma="zee" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49555_0101.w.376134">zee</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49555_0101.w.376135">ende</w>
-          <w cert="1.0" lemma="schieten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.49555.sense.19" xml:id="c49555_0101.w.376136">schiet</w>
+          <w cert="1.0" lemma="schieten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c49555_0101.w.376136" lemmaRef="mnw.49555.sense.19">schiet</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c49555_0101.w.376137">enen</w>
           <w cert="1.0" lemma="hoek" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49555_0101.w.376138">hoec</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49555_0101.w.376139">ende</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60254" lemma="UTEBREKEN" partition="train" sense-id="mnw.60254.sense.4" xml:id="c60254_0008">
-        <date atLeast="1412" atMost="1415" timeSpan="1400-1450" />
+      <cit xml:id="c60254_0008">
+        <note>
+          <ab>
+            <date atLeast="1412" atMost="1415" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>UTEBREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60254.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60254</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1676">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60254_0008.w.658725">Die</w>
           <w cert="1.0" lemma="maaltijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c60254_0008.w.658726">maeltijt</w>
@@ -72,10 +85,10 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c60254_0008.w.658743">hare</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c60254_0008.w.658744">minne</w>
           <pc pos="PC" xml:id="c60254_0008.pc.post.00268442" lemma=")">)</pc>
-          <w cert="1.0" lemma="uitbreken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.60254.sense.4" xml:id="c60254_0008.w.658745">uyt<join n="mw_600439" />
+          <w cert="1.0" lemma="uitbreken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c60254_0008.w.658745" lemmaRef="mnw.60254.sense.4">uyt<join n="mw_600439" />
           </w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c60254_0008.w.658746">te</w>
-          <w cert="1.0" lemma="uitbreken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.60254.sense.4" xml:id="c60254_0008.w.658747">broken<join n="mw_600439" />
+          <w cert="1.0" lemma="uitbreken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c60254_0008.w.658747" lemmaRef="mnw.60254.sense.4">broken<join n="mw_600439" />
           </w>
           <pc pos="PC" xml:id="c60254_0008.pc.floating.00268443" lemma=",">,</pc>
         </q>

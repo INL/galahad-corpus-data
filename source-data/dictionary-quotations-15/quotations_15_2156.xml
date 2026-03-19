@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72221" lemma="WELLICH" partition="train" sense-id="mnw.72221.sense.1" xml:id="c72221_0000">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c72221_0000">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WELLICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72221.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72221</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2156">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c72221_0000.w.1573064">Hi</w>
           <pc join="right" pos="PC" xml:id="c72221_0000.pc.pre.00630439" lemma="(">(</pc>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c72221_0000.w.1573079">ende</w>
           <w cert="1.0" lemma="dwingen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c72221_0000.w.1573080">dwinghet</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72221_0000.w.1573081">die</w>
-          <w cert="1.0" lemma="wellig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.72221.sense.1" xml:id="c72221_0000.w.1573082">wellighe</w>
+          <w cert="1.0" lemma="wellig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c72221_0000.w.1573082" lemmaRef="mnw.72221.sense.1">wellighe</w>
           <w cert="1.0" lemma="beroering" pos="NOU-C(number=sg)" resp="roland" xml:id="c72221_0000.w.1573083">berueringe</w>
           <pc pos="PC" xml:id="c72221_0000.pc.post.00630442" lemma=",">,</pc>
         </q>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53598" lemma="SOUT" partition="train" sense-id="mnw.53598.sense.1" xml:id="c53598_0001">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c53598_0001">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SOUT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53598.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53598</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1447">
           <w cert="1.0" lemma="onderwijl" pos="ADV(type=reg)" resp="thomas" xml:id="c53598_0001.w.1199350">Onderwilen</w>
           <w cert="1.0" lemma="worden+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c53598_0001.w.1199351">werdet</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c53598_0001.w.1199352">zeewater</w>
           <pc pos="PC" xml:id="c53598_0001.pc.post.00497831" lemma=")">)</pc>
           <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" xml:id="c53598_0001.w.1199353">wt</w>
-          <w cert="1.0" lemma="zout" pos="AA(degree=pos,position=prenom)" resp="roland" sense-id="mnw.53598.sense.1" xml:id="c53598_0001.w.1199354">souten</w>
+          <w cert="1.0" lemma="zout" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c53598_0001.w.1199354" lemmaRef="mnw.53598.sense.1">souten</w>
           <pc join="right" pos="PC" xml:id="c53598_0001.pc.pre.00497832" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c53598_0001.w.1199355">zie</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c53598_0001.w.1199356">het</w>
@@ -70,7 +83,7 @@
           <pc pos="PC" xml:id="c53598_0001.pc.post.00497835" lemma=",">,</pc>
           <w cert="1.0" lemma="thent" pos="ADP(type=pre)" resp="thomas" xml:id="c53598_0001.w.1199364">thent</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c53598_0001.w.1199365">in</w>
-          <w cert="1.0" lemma="zout" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53598.sense.1" xml:id="c53598_0001.w.1199366">soute</w>
+          <w cert="1.0" lemma="zout" pos="NOU-C(number=sg)" resp="roland" xml:id="c53598_0001.w.1199366" lemmaRef="mnw.53598.sense.1">soute</w>
           <w cert="1.0" lemma="verkeren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c53598_0001.w.1199367">verkeert</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c53598_0001.w.1199368">werdt</w>
           <pc pos="PC" xml:id="c53598_0001.pc.post.00497836" lemma=",">,</pc>

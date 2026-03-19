@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49532" lemma="SCHIERE" partition="train" sense-id="mnw.49532.sense.4" xml:id="c49532_0037">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c49532_0037">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SCHIERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49532.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49532</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2005">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49532_0037.w.368058">Die</w>
           <w cert="1.0" lemma="zot" pos="NOU-C(number=sg)" resp="roland" xml:id="c49532_0037.w.368059">sot</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c49532_0037.w.368062">ten</w>
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="roland" xml:id="c49532_0037.w.368063">coninc</w>
           <w cert="1.0" lemma="luid" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c49532_0037.w.368064">lude</w>
-          <w cert="1.0" lemma="schier" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.49532.sense.4" xml:id="c49532_0037.w.368065">sciere</w>
+          <w cert="1.0" lemma="schier" pos="ADV(type=reg)" resp="thomas" xml:id="c49532_0037.w.368065" lemmaRef="mnw.49532.sense.4">sciere</w>
           <pc pos="PC" xml:id="c49532_0037.pc.floating.00151596" lemma=":">:</pc>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c49532_0037.w.368067">en</w>
           <w cert="1.0" lemma="mislaten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c49532_0037.w.368068">meslaet</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02638" lemma="BEDUWEN" partition="train" sense-id="mnw.02638.sense.2" xml:id="c02638_0002">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c02638_0002">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BEDUWEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02638.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02638</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.112">
           <pc join="right" pos="PC" xml:id="c02638_0002.pc.pre.00187561" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c02638_0002.w.479041">Dat</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02638_0002.w.479043">de</w>
           <w cert="1.0" lemma="kundig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c02638_0002.w.479044">condege</w>
           <w cert="1.0" lemma="hovaart" pos="NOU-C(number=sg)" resp="roland" xml:id="c02638_0002.w.479045">hovaerde</w>
-          <w cert="1.0" lemma="beduwen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.02638.sense.2" xml:id="c02638_0002.w.479046">beduwe</w>
+          <w cert="1.0" lemma="beduwen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c02638_0002.w.479046" lemmaRef="mnw.02638.sense.2">beduwe</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c02638_0002.w.479047">met</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c02638_0002.w.479048">groter</w>
           <w cert="1.0" lemma="onwaarde" pos="NOU-C(number=sg)" resp="roland" xml:id="c02638_0002.w.479049">onwaerde</w>

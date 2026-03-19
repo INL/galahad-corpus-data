@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66442" lemma="VITSDOM" partition="train" sense-id="mnw.66442.sense.1" xml:id="c66442_0003">
-        <date atLeast="1419" atMost="1419" timeSpan="1400-1450" />
+      <cit xml:id="c66442_0003">
+        <note>
+          <ab>
+            <date atLeast="1419" atMost="1419" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VITSDOM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66442.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66442</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1965">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66442_0003.w.411401">Die</w>
           <w cert="1.0" lemma="trezorier" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66442_0003.w.411402">tresorier</w>
           <pc pos="PC" xml:id="c66442_0003.pc.post.00163652" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66442_0003.w.411403">die</w>
-          <w cert="1.0" lemma="vitsdom" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.66442.sense.1" xml:id="c66442_0003.w.411404">visdom</w>
+          <w cert="1.0" lemma="vitsdom" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66442_0003.w.411404" lemmaRef="mnw.66442.sense.1">visdom</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c66442_0003.w.411405">en</w>
           <w cert="1.0" lemma="anders" pos="ADV(type=reg)" resp="thomas" xml:id="c66442_0003.w.411406">anders</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66442_0003.w.411407">die</w>

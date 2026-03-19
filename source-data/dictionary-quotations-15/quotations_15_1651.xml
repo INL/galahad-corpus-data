@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59170" lemma="TRANSENERER" partition="train" sense-id="mnw.59170.sense.1" xml:id="c59170_0000">
-        <date atLeast="1434" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c59170_0000">
+        <note>
+          <ab>
+            <date atLeast="1434" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TRANSENERER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59170.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59170</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1651">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c59170_0000.w.482613">Den</w>
-          <w cert="1.0" lemma="transeneerder" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.59170.sense.1" xml:id="c59170_0000.w.482614">transinierre</w>
+          <w cert="1.0" lemma="transeneerder" pos="NOU-C(number=sg)" resp="roland" xml:id="c59170_0000.w.482614" lemmaRef="mnw.59170.sense.1">transinierre</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c59170_0000.w.482615">sal</w>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c59170_0000.w.482616">dan</w>
           <pc join="right" pos="PC" xml:id="c59170_0000.pc.pre.00195272" lemma="(">(</pc>

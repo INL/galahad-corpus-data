@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.24967" lemma="LANTRECHT" partition="train" sense-id="mnw.24967.sense.1" xml:id="c24967_0001">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c24967_0001">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LANTRECHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.24967.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.24967</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.605">
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c24967_0001.w.91108">Ons</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="roland" xml:id="c24967_0001.w.91109">lants</w>
@@ -77,7 +90,7 @@
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="c24967_0001.w.91131">na</w>
           <w cert="1.0" lemma="bescheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c24967_0001.w.91132">bescheit</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c24967_0001.w.91133">bi</w>
-          <w cert="1.0" lemma="landrecht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.24967.sense.1" xml:id="c24967_0001.w.91134">lantrechte</w>
+          <w cert="1.0" lemma="landrecht" pos="NOU-C(number=sg)" resp="roland" xml:id="c24967_0001.w.91134" lemmaRef="mnw.24967.sense.1">lantrechte</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c24967_0001.w.91135">of</w>
           <w cert="1.0" lemma="gewoonlijkheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c24967_0001.w.91136">ghewoonlijcheit</w>
           <pc pos="PC" xml:id="c24967_0001.pc.post.00035895" lemma=",">,</pc>

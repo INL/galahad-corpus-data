@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36811" lemma="ONREINICHEIT" partition="train" sense-id="mnw.36811.sense.4" xml:id="c36811_0007">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c36811_0007">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONREINICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36811.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36811</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.919">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c36811_0007.w.566141">Doe</w>
           <w cert="1.0" lemma="uitgaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c36811_0007.w.566142">ginck<join n="mw_284701" />
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c36811_0007.w.566152">mit</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c36811_0007.w.566153">voel</w>
           <w cert="1.0" lemma="grof" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c36811_0007.w.566154">graver</w>
-          <w cert="1.0" lemma="onreinigheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.36811.sense.4" xml:id="c36811_0007.w.566155">onreynicheit</w>
+          <w cert="1.0" lemma="onreinigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c36811_0007.w.566155" lemmaRef="mnw.36811.sense.4">onreynicheit</w>
           <pc pos="PC" xml:id="c36811_0007.pc.floating.00230738" lemma=",">,</pc>
         </q>
       </cit>

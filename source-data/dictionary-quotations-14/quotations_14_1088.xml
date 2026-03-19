@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27071" lemma="LOVEN" partition="train" sense-id="mnw.27071.sense.5" xml:id="c27071_0006">
-        <date atLeast="1380" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c27071_0006">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LOVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27071.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27071</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1088">
           <w cert="1.0" lemma="toen+men" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c27071_0006.w.578754">Doemen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27071_0006.w.578755">die</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c27071_0006.w.578768">den</w>
           <w cert="1.0" lemma="paus" pos="NOU-C(number=sg)" resp="roland" xml:id="c27071_0006.w.578769">paeus</w>
           <w cert="1.0" lemma="Urbanus" pos="NOU-P" resp="roland" xml:id="c27071_0006.w.578770">Urbanus</w>
-          <w cert="1.0" lemma="loven" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.27071.sense.5" xml:id="c27071_0006.w.578771">loofden</w>
+          <w cert="1.0" lemma="loven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c27071_0006.w.578771" lemmaRef="mnw.27071.sense.5">loofden</w>
           <pc join="right" pos="PC" xml:id="c27071_0006.pc.pre.00223827" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27071_0006.w.578772">hem</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27071_0006.w.578773">aanhingen</w>

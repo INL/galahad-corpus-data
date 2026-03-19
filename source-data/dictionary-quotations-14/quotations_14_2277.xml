@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56364" lemma="SUSTENANCE" partition="train" sense-id="mnw.56364.sense.1" xml:id="c56364_0002">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c56364_0002">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SUSTENANCE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56364.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56364</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2277">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c56364_0002.w.1821388">Den</w>
           <w cert="1.0" lemma="jakobijn" pos="NOU-C(number=pl)" resp="roland" xml:id="c56364_0002.w.1821389">Jacopinen</w>
           <pc pos="PC" xml:id="c56364_0002.pc.post.00751929" lemma=",">,</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c56364_0002.w.1821390">van</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c56364_0002.w.1821391">haerre</w>
-          <w cert="1.0" lemma="sustenance" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.56364.sense.1" xml:id="c56364_0002.w.1821392">sostenanche</w>
+          <w cert="1.0" lemma="sustenance" pos="NOU-C(number=sg)" resp="roland" xml:id="c56364_0002.w.1821392" lemmaRef="mnw.56364.sense.1">sostenanche</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c56364_0002.w.1821393">ghedaen</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c56364_0002.w.1821394">bi</w>
           <w cert="1.0" lemma="schepen" pos="NOU-C(number=pl)" resp="thomas" xml:id="c56364_0002.w.1821395">schepenen</w>

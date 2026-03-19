@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64160" lemma="VERRACHTEN" partition="train" sense-id="mnw.64160.sense.1" xml:id="c64160_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c64160_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERRACHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64160.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64160</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2667">
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c64160_0000.w.1663951">Int</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="roland" xml:id="c64160_0000.w.1663952">lant</w>
@@ -79,7 +92,7 @@
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c64160_0000.w.1663970">want</w>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c64160_0000.w.1663971">dit</w>
           <w cert="1.0" lemma="hout" pos="NOU-C(number=sg)" resp="roland" xml:id="c64160_0000.w.1663972">hout</w>
-          <w cert="1.0" lemma="verrachten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.64160.sense.1" xml:id="c64160_0000.w.1663973">verrachten</w>
+          <w cert="1.0" lemma="verrachten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c64160_0000.w.1663973" lemmaRef="mnw.64160.sense.1">verrachten</w>
           <w cert="1.0" lemma="tehand" pos="ADV(type=reg)" resp="thomas" xml:id="c64160_0000.w.1663974">te<join n="mw_328235" />
           </w>
           <w cert="1.0" lemma="tehand" pos="ADV(type=reg)" resp="thomas" xml:id="c64160_0000.w.1663975">hant<join n="mw_328235" />

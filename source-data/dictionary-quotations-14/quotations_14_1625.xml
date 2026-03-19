@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39855" lemma="ORBARE" partition="train" sense-id="mnw.39855.sense.5" xml:id="c39855_0011">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c39855_0011">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ORBARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39855.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39855</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1625">
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c39855_0011.w.1248895">Die<join n="mw_724362" />
           </w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="nacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c39855_0011.w.1248902">nachte</w>
           <pc pos="PC" xml:id="c39855_0011.pc.post.00497964" lemma=",">,</pc>
           <w cert="1.0" lemma="hebben+dat" pos="VRB(finiteness=fin,tense=pres)+PD(type=d-p,position=free)" resp="roland" xml:id="c39855_0011.w.1248903">hebbens</w>
-          <w cert="1.0" lemma="oorbaar" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.39855.sense.5" xml:id="c39855_0011.w.1248904">orbore</w>
+          <w cert="1.0" lemma="oorbaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c39855_0011.w.1248904" lemmaRef="mnw.39855.sense.5">orbore</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c39855_0011.w.1248905">van</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c39855_0011.w.1248906">dien</w>
           <pc join="right" pos="PC" xml:id="c39855_0011.pc.pre.00497965" lemma="(">(</pc>

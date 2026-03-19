@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51986" lemma="SIMPELIKE" partition="train" sense-id="mnw.51986.sense.1" xml:id="c51986_0004">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c51986_0004">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SIMPELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51986.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51986</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2086">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c51986_0004.w.834981">Dat</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c51986_0004.w.834982">wi</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="schrijven" pos="VRB(finiteness=inf)" resp="roland" xml:id="c51986_0004.w.834994">scriven</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c51986_0004.w.834995">wel</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51986_0004.w.834996">ende</w>
-          <w cert="1.0" lemma="simpellijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.51986.sense.1" xml:id="c51986_0004.w.834997">simpelike</w>
+          <w cert="1.0" lemma="simpellijk" pos="ADV(type=reg)" resp="thomas" xml:id="c51986_0004.w.834997" lemmaRef="mnw.51986.sense.1">simpelike</w>
           <pc pos="PC" xml:id="c51986_0004.pc.floating.00347456" lemma=",">,</pc>
         </q>
       </cit>

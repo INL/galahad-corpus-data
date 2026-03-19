@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55787" lemma="STREMMEN" partition="train" sense-id="mnw.55787.sense.7" xml:id="c55787_0013">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c55787_0013">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>STREMMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55787.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55787</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2253">
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c55787_0013.w.1709157">Of</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c55787_0013.w.1709158">die</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c55787_0013.w.1709173">van</w>
           <w cert="1.0" lemma="bloed" pos="NOU-C(number=sg)" resp="roland" xml:id="c55787_0013.w.1709174">bloede</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c55787_0013.w.1709175">te</w>
-          <w cert="1.0" lemma="stremmen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.55787.sense.7" xml:id="c55787_0013.w.1709176">stremmene</w>
+          <w cert="1.0" lemma="stremmen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c55787_0013.w.1709176" lemmaRef="mnw.55787.sense.7">stremmene</w>
           <pc pos="PC" xml:id="c55787_0013.pc.floating.00705796" lemma=",">,</pc>
         </q>
       </cit>

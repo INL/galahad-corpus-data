@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23684" lemma="CRAENGELT" partition="train" sense-id="mnw.23684.sense.1" xml:id="c23684_0003">
-        <date atLeast="1431" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c23684_0003">
+        <note>
+          <ab>
+            <date atLeast="1431" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>CRAENGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23684.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23684</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.586">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c23684_0003.w.1388794">So</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c23684_0003.w.1388795">siin</w>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c23684_0003.pc.post.00558174" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c23684_0003.w.1388804">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c23684_0003.w.1388805">se</w>
-          <w cert="1.0" lemma="kraangeld" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.23684.sense.1" xml:id="c23684_0003.w.1388806">cranegelt</w>
+          <w cert="1.0" lemma="kraangeld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23684_0003.w.1388806" lemmaRef="mnw.23684.sense.1">cranegelt</w>
           <pc pos="PC" xml:id="c23684_0003.pc.floating.00558175" lemma=",">,</pc>
           <w cert="1.0" lemma="schrootgeld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23684_0003.w.1388808">schrodegelt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c23684_0003.w.1388809">und</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51225" lemma="SEKERHEIT" partition="train" sense-id="mnw.51225.sense.1" xml:id="c51225_0003">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c51225_0003">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SEKERHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51225.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51225</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1354">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c51225_0003.w.684621">Dit</w>
           <w cert="1.0" lemma="leven" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51225_0003.w.684622">leven</w>
@@ -60,7 +73,7 @@
           </w>
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c51225_0003.w.684629">gheene<join n="mw_233393" />
           </w>
-          <w cert="1.0" lemma="zekerheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51225.sense.1" xml:id="c51225_0003.w.684630">sekerhede</w>
+          <w cert="1.0" lemma="zekerheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c51225_0003.w.684630" lemmaRef="mnw.51225.sense.1">sekerhede</w>
           <pc pos="PC" xml:id="c51225_0003.pc.floating.00283507" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c51225_0003.w.684632">maer</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c51225_0003.w.684633">een</w>

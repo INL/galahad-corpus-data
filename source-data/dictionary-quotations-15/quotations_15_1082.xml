@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41943" lemma="PATRONERSE" partition="train" sense-id="mnw.41943.sense.2" xml:id="c41943_0009">
-        <date atLeast="1479" atMost="1479" timeSpan="1450-1500" />
+      <cit xml:id="c41943_0009">
+        <note>
+          <ab>
+            <date atLeast="1479" atMost="1479" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PATRONERSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41943.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41943</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1082">
           <pc join="right" pos="PC" xml:id="c41943_0009.pc.pre.00050102" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c41943_0009.w.132544">Doe</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="betrouwen" pos="NOU-C(number=sg)" resp="roland" xml:id="c41943_0009.w.132549">betrouwen</w>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c41943_0009.w.132550">tot</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c41943_0009.w.132551">sijnre</w>
-          <w cert="1.0" lemma="patroonster" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.41943.sense.2" xml:id="c41943_0009.w.132552">patroonster</w>
+          <w cert="1.0" lemma="patroonster" pos="NOU-C(number=sg)" resp="thomas" xml:id="c41943_0009.w.132552" lemmaRef="mnw.41943.sense.2">patroonster</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c41943_0009.w.132553">die</w>
           <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="thomas" xml:id="c41943_0009.w.132554">moeder</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c41943_0009.w.132555">gods</w>

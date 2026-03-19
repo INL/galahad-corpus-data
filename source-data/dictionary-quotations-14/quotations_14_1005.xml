@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25773" lemma="LEREN" partition="test" sense-id="mnw.25773.sense.4" xml:id="c25773_0049">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c25773_0049">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25773.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25773</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1005">
           <w cert="1.0" lemma="kwaad" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c25773_0049.w.260091">Quade</w>
           <w cert="1.0" lemma="tong" pos="NOU-C(number=sg)" resp="roland" xml:id="c25773_0049.w.260092">tonge</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c25773_0049.w.260096">die</w>
           <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="roland" xml:id="c25773_0049.w.260097">moeder</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c25773_0049.w.260098">heeft</w>
-          <w cert="1.0" lemma="leren" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.25773.sense.4" xml:id="c25773_0049.w.260099">geleert</w>
+          <w cert="1.0" lemma="leren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c25773_0049.w.260099" lemmaRef="mnw.25773.sense.4">geleert</w>
           <w cert="1.0" lemma="verraden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c25773_0049.w.260100">verraden</w>
           <pc pos="PC" xml:id="c25773_0049.pc.post.00100840" lemma=",">,</pc>
           <w cert="1.0" lemma="liegen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c25773_0049.w.260101">liegen</w>

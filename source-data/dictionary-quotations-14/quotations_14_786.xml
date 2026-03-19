@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19259" lemma="INCOMEN" partition="test" sense-id="mnw.19259.sense.6" xml:id="c19259_0022">
-        <date atLeast="1325" atMost="1330" timeSpan="1300-1350" />
+      <cit xml:id="c19259_0022">
+        <note>
+          <ab>
+            <date atLeast="1325" atMost="1330" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>INCOMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19259.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19259</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.786">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c19259_0022.w.615432">So</w>
           <w cert="1.0" lemma="zullen+wij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c19259_0022.w.615433">soudewi</w>
-          <w cert="1.0" lemma="inkomen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.19259.sense.6" xml:id="c19259_0022.w.615434">incomen</w>
+          <w cert="1.0" lemma="inkomen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c19259_0022.w.615434" lemmaRef="mnw.19259.sense.6">incomen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c19259_0022.w.615435">te</w>
           <w cert="1.0" lemma="Deventer" pos="NOU-P" resp="roland" xml:id="c19259_0022.w.615436">Deventer</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c19259_0022.w.615437">in</w>

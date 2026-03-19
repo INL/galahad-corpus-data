@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17827" lemma="HONEN" partition="train" sense-id="mnw.17827.sense.1" xml:id="c17827_0007">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c17827_0007">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HONEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17827.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17827</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.738">
           <w cert="1.0" lemma="pardon" pos="NOU-C(number=sg)" resp="roland" xml:id="c17827_0007.w.380817">Pardon</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c17827_0007.w.380818">van</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="tevoren" pos="ADV(type=reg)" resp="thomas" xml:id="c17827_0007.w.380824">voren<join n="mw_676180" />
           </w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c17827_0007.w.380825">hadde</w>
-          <w cert="1.0" lemma="honen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.17827.sense.1" xml:id="c17827_0007.w.380826">ghehoont</w>
+          <w cert="1.0" lemma="honen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c17827_0007.w.380826" lemmaRef="mnw.17827.sense.1">ghehoont</w>
           <pc pos="PC" xml:id="c17827_0007.pc.floating.00155350" lemma=",">,</pc>
         </q>
       </cit>

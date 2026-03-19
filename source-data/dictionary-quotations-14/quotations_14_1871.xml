@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45799" lemma="REIMERSOEN" partition="train" sense-id="mnw.45799.sense.1" xml:id="c45799_0001">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c45799_0001">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>REIMERSOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45799.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45799</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1871">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c45799_0001.w.873849">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c45799_0001.w.873850">den</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c45799_0001.pc.floating.00343001" lemma="…">…</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c45799_0001.w.873855">van</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c45799_0001.w.873856">haren</w>
-          <w cert="1.0" lemma="reimersoen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.45799.sense.1" xml:id="c45799_0001.w.873857">reimerchoene</w>
+          <w cert="1.0" lemma="reimersoen" pos="NOU-C(number=sg)" resp="roland" xml:id="c45799_0001.w.873857" lemmaRef="mnw.45799.sense.1">reimerchoene</w>
           <pc pos="PC" xml:id="c45799_0001.pc.floating.00343002" lemma=",">,</pc>
         </q>
       </cit>

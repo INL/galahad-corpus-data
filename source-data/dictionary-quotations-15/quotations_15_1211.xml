@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47012" lemma="ROLIË" partition="train" sense-id="mnw.47012.sense.1" xml:id="c47012_0000">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c47012_0000">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ROLIË</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47012.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47012</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1211">
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c47012_0000.w.1140894">Ter</w>
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c47012_0000.w.1140895">zelver</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c47012_0000.w.1140906">die</w>
           <w cert="1.0" lemma="schriftuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c47012_0000.w.1140907">scriftuere</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c47012_0000.w.1140908">der</w>
-          <w cert="1.0" lemma="rolie" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.47012.sense.1" xml:id="c47012_0000.w.1140909">roliën</w>
+          <w cert="1.0" lemma="rolie" pos="NOU-C(number=pl)" resp="roland" xml:id="c47012_0000.w.1140909" lemmaRef="mnw.47012.sense.1">roliën</w>
           <pc join="right" pos="PC" xml:id="c47012_0000.pc.pre.00449171" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c47012_0000.w.1140910">gelijk</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c47012_0000.w.1140911">de</w>

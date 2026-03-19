@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20892" lemma="CAUTIOEN" partition="train" sense-id="mnw.20892.sense.2" xml:id="c20892_0001">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c20892_0001">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CAUTIOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20892.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20892</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.825">
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c20892_0001.w.859367">Nem</w>
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c20892_0001.w.859368">dijn</w>
-          <w cert="1.0" lemma="cautioen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.20892.sense.2" xml:id="c20892_0001.w.859369">causioen</w>
+          <w cert="1.0" lemma="cautioen" pos="NOU-C(number=sg)" resp="roland" xml:id="c20892_0001.w.859369" lemmaRef="mnw.20892.sense.2">causioen</w>
           <pc pos="PC" xml:id="c20892_0001.pc.floating.00348980" lemma="..">..</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c20892_0001.w.859371">ende</w>
           <w cert="1.0" lemma="schrijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c20892_0001.w.859372">scrijf</w>

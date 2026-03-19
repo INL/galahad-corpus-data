@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02444" lemma="BEDDEN" partition="train" sense-id="mnw.02444.sense.6" xml:id="c02444_0010">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c02444_0010">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEDDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02444.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02444</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.98">
           <w cert="1.0" lemma="Flandrijs" pos="NOU-P" resp="roland" xml:id="c02444_0010.w.439031">Flandrijs</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c02444_0010.w.439032">was</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="bedden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c02444_0010.w.439038">ghebeidt</w>
           <pc join="right" pos="PC" xml:id="c02444_0010.pc.pre.00172138" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c02444_0010.w.439039">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.02444.sense.6" xml:id="c02444_0010.w.439040">ghebedt</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c02444_0010.w.439040" lemmaRef="mnw.02444.sense.6">ghebedt</w>
           <pc pos="PC" xml:id="c02444_0010.pc.floating.00172140" lemma=")">)</pc>
           <pc pos="PC" xml:id="c02444_0010.pc.floating.00172141" lemma=",">,</pc>
         </q>

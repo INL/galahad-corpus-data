@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69781" lemma="WAEYEN" partition="train" sense-id="mnw.69781.sense.5" xml:id="c69781_0016">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c69781_0016">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WAEYEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69781.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69781</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2083">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69781_0016.w.1120008">Men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69781_0016.w.1120009">sal</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c69781_0016.w.1120016">als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c69781_0016.w.1120017">die</w>
           <w cert="1.0" lemma="wind" pos="NOU-C(number=sg)" resp="thomas" xml:id="c69781_0016.w.1120018">wint</w>
-          <w cert="1.0" lemma="waaien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.69781.sense.5" xml:id="c69781_0016.w.1120019">waeydt</w>
+          <w cert="1.0" lemma="waaien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69781_0016.w.1120019" lemmaRef="mnw.69781.sense.5">waeydt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c69781_0016.w.1120020">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c69781_0016.w.1120021">die</w>
           <w cert="1.0" lemma="regen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c69781_0016.w.1120022">regen</w>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49196" lemma="SCHELLE" partition="train" sense-id="mnw.49196.sense.1" xml:id="c49196_0019">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c49196_0019">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHELLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49196.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49196</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1288">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c49196_0019.w.296529">Dat</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c49196_0019.w.296530">niemene</w>
           <w cert="1.0" lemma="klok" pos="NOU-C(number=sg)" resp="roland" xml:id="c49196_0019.w.296531">clocke</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c49196_0019.w.296532">of</w>
-          <w cert="1.0" lemma="schel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.49196.sense.1" xml:id="c49196_0019.w.296533">scelle</w>
+          <w cert="1.0" lemma="schel" pos="NOU-C(number=sg)" resp="roland" xml:id="c49196_0019.w.296533" lemmaRef="mnw.49196.sense.1">scelle</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c49196_0019.w.296534">en</w>
           <w cert="1.0" lemma="opslaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c49196_0019.w.296535">sla<join n="mw_142308" />
           </w>

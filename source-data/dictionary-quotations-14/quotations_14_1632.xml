@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40023" lemma="ORLOF" partition="train" sense-id="mnw.40023.sense.18" xml:id="c40023_0097">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c40023_0097">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ORLOF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40023.sense.18</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40023</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1632">
           <w cert="1.0" lemma="morgen" pos="ADV(type=reg)" resp="roland" xml:id="c40023_0097.w.1294079">Morgen</w>
           <w cert="1.0" lemma="vroe" pos="ADV(type=reg)" resp="thomas" xml:id="c40023_0097.w.1294080">vroe</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c40023_0097.w.1294092">minen</w>
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="roland" xml:id="c40023_0097.w.1294093">vader</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c40023_0097.w.1294094">sonder</w>
-          <w cert="1.0" lemma="oorlof" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40023.sense.18" xml:id="c40023_0097.w.1294095">orlof</w>
+          <w cert="1.0" lemma="oorlof" pos="NOU-C(number=sg)" resp="roland" xml:id="c40023_0097.w.1294095" lemmaRef="mnw.40023.sense.18">orlof</w>
           <pc pos="PC" xml:id="c40023_0097.pc.floating.00515529" lemma=",">,</pc>
         </q>
       </cit>

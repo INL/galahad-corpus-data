@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05084" lemma="BORCHSCAP" partition="train" sense-id="mnw.05084.sense.1" xml:id="c05084_0000">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c05084_0000">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BORCHSCAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05084.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05084</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.238">
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c05084_0000.w.981920">Oec</w>
           <w cert="1.0" lemma="geloven+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c05084_0000.w.981921">gelovic</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c05084_0000.w.981924">mach</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c05084_0000.w.981925">des</w>
           <w cert="1.0" lemma="paus" pos="NOU-C(number=sg)" resp="roland" xml:id="c05084_0000.w.981926">paues</w>
-          <w cert="1.0" lemma="borgschap" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05084.sense.1" xml:id="c05084_0000.w.981927">borgscepe</w>
+          <w cert="1.0" lemma="borgschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c05084_0000.w.981927" lemmaRef="mnw.05084.sense.1">borgscepe</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c05084_0000.w.981928">wale</w>
           <w cert="1.0" lemma="vast" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c05084_0000.w.981929">vaster</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c05084_0000.w.981930">dan</w>

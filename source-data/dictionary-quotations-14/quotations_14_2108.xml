@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52339" lemma="SLEEC" partition="train" sense-id="mnw.52339.sense.1" xml:id="c52339_0002">
-        <date atLeast="1380" atMost="1410" timeSpan="1350-1400" />
+      <cit xml:id="c52339_0002">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1410" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SLEEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52339.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52339</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2108">
           <w cert="1.0" lemma="W." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c52339_0002.w.938331">W.</w>
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c52339_0002.w.938332">houd</w>
@@ -78,7 +91,7 @@
           <pc pos="PC" xml:id="c52339_0002.pc.floating.00389571" lemma=",">,</pc>
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c52339_0002.w.938356">item</w>
           <w cert="1.0" lemma="achtentwintig" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c52339_0002.w.938357">XXVIII</w>
-          <w cert="1.0" lemma="sleek" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.52339.sense.1" xml:id="c52339_0002.w.938358">sleeke</w>
+          <w cert="1.0" lemma="sleek" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c52339_0002.w.938358" lemmaRef="mnw.52339.sense.1">sleeke</w>
           <w cert="1.0" lemma="vat" pos="NOU-C(number=pl)" resp="thomas" xml:id="c52339_0002.w.938359">vaten</w>
           <pc join="right" pos="PC" xml:id="c52339_0002.pc.pre.00389572" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c52339_0002.w.938360">langs</w>

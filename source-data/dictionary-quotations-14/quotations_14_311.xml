@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07008" lemma="DOMPHEIT" partition="train" sense-id="mnw.07008.sense.2" xml:id="c07008_0012">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c07008_0012">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DOMPHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07008.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07008</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.311">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c07008_0012.w.210257">Dat</w>
           <w cert="1.0" lemma="gij+hij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c07008_0012.w.210258">ghine</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="wijsdom" pos="NOU-C(number=sg)" resp="roland" xml:id="c07008_0012.w.210269">wijsdom</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=postnom)" resp="roland" xml:id="c07008_0012.w.210270">groot</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c07008_0012.w.210271">ende</w>
-          <w cert="1.0" lemma="domheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.07008.sense.2" xml:id="c07008_0012.w.210272">dompheit</w>
+          <w cert="1.0" lemma="domheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c07008_0012.w.210272" lemmaRef="mnw.07008.sense.2">dompheit</w>
           <pc pos="PC" xml:id="c07008_0012.pc.floating.00089139" lemma=",">,</pc>
         </q>
       </cit>

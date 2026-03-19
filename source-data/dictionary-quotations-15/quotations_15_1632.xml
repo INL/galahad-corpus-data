@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58823" lemma="TONEN" partition="train" sense-id="mnw.58823.sense.8" xml:id="c58823_0042">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c58823_0042">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TONEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58823.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58823</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1632">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c58823_0042.w.403692">Ic</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c58823_0042.w.403693">en</w>
-          <w cert="1.0" lemma="tonen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.58823.sense.8" xml:id="c58823_0042.w.403694">toonde</w>
+          <w cert="1.0" lemma="tonen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c58823_0042.w.403694" lemmaRef="mnw.58823.sense.8">toonde</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c58823_0042.w.403695">niet</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c58823_0042.w.403696">al</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c58823_0042.w.403697">mijn</w>

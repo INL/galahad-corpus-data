@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M030205" lemma="KAP" modern-lemma="kap" partition="test" pos="NOU-C" sense-id="M030205.bet.101" xml:id="M030205.eg.25753">
-        <date atLeast="1567" atMost="1567" timeSpan="1550-1600" />
+      <cit xml:id="M030205.eg.25753">
+        <note>
+          <ab>
+            <date atLeast="1567" atMost="1567" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>KAP</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M030205.bet.101</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>kap</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M030205</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.317">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539194">Den</w>
           <w cert="1.0" lemma="toren" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539195">turre</w>
@@ -64,7 +83,7 @@
           <pc pos="PC" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.floating.00180979" lemma="…">…</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539204">dat</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539205">die</w>
-          <w cert="1.0" lemma="kap" pos="NOU-C(number=sg)" resp="roland" sense-id="M030205.bet.101" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539206">cappe</w>
+          <w cert="1.0" lemma="kap" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539206" lemmaRef="M030205.bet.101">cappe</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539207">van</w>
           <w cert="1.0" lemma="boven" pos="ADV(type=reg)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539208">boven</w>
           <w cert="1.0" lemma="nedervallen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.539209">nederviel</w>

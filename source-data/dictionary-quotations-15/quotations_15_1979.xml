@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66825" lemma="VLOET" partition="train" sense-id="mnw.66825.sense.15" xml:id="c66825_0064">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c66825_0064">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VLOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66825.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66825</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1979">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66825_0064.w.479831">Si</w>
           <pc join="right" pos="PC" xml:id="c66825_0064.pc.pre.00191999" lemma="(">(</pc>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="drinken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c66825_0064.w.479834">drinken</w>
           <w cert="1.0" lemma="uit+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66825_0064.w.479835">uter</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c66825_0064.w.479836">minnen</w>
-          <w cert="1.0" lemma="vloed" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.66825.sense.15" xml:id="c66825_0064.w.479837">vloet</w>
+          <w cert="1.0" lemma="vloed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66825_0064.w.479837" lemmaRef="mnw.66825.sense.15">vloet</w>
           <pc pos="PC" xml:id="c66825_0064.pc.floating.00192001" lemma=",">,</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66825_0064.w.479839">si</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66825_0064.w.479840">moghen</w>

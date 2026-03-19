@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30432" lemma="MOET" partition="train" sense-id="mnw.30432.sense.13" xml:id="c30432_0068">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c30432_0068">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30432.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30432</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1247">
           <pc join="right" pos="PC" xml:id="c30432_0068.pc.pre.00484945" lemma="(">(</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c30432_0068.w.1234707">Die</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="hij+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c30432_0068.w.1234717">hise</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c30432_0068.w.1234718">in</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c30432_0068.w.1234719">ghenen</w>
-          <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30432.sense.13" xml:id="c30432_0068.w.1234720">moede</w>
+          <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="roland" xml:id="c30432_0068.w.1234720" lemmaRef="mnw.30432.sense.13">moede</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30432_0068.w.1234721">mach</w>
           <w cert="1.0" lemma="belopen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30432_0068.w.1234722">belopen</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c30432_0068.w.1234723">sonder</w>

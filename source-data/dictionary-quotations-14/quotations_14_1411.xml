@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34349" lemma="ONBRUUC" partition="train" sense-id="mnw.34349.sense.1" xml:id="c34349_0013">
-        <date atLeast="1308" atMost="1308" timeSpan="1300-1350" />
+      <cit xml:id="c34349_0013">
+        <note>
+          <ab>
+            <date atLeast="1308" atMost="1308" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONBRUUC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34349.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34349</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1411">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c34349_0013.w.191334">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c34349_0013.w.191335">den</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c34349_0013.w.191339">die</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c34349_0013.w.191340">van</w>
           <w cert="1.0" lemma="Waterland" pos="NOU-P" resp="roland" xml:id="c34349_0013.w.191341">Waterland</w>
-          <w cert="1.0" lemma="onbruik" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.34349.sense.1" xml:id="c34349_0013.w.191342">ombruke</w>
+          <w cert="1.0" lemma="onbruik" pos="NOU-C(number=sg)" resp="roland" xml:id="c34349_0013.w.191342" lemmaRef="mnw.34349.sense.1">ombruke</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c34349_0013.w.191343">doen</w>
           <pc pos="PC" xml:id="c34349_0013.pc.post.00079398" lemma=",">,</pc>
         </q>

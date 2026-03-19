@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22639" lemma="COLFBANE" partition="train" sense-id="mnw.22639.sense.1" xml:id="c22639_0000">
-        <date atLeast="1485" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c22639_0000">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>COLFBANE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22639.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22639</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.554">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c22639_0000.w.1169327">Dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c22639_0000.w.1169328">die</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="klootbaan" pos="NOU-C(number=sg)" resp="roland" xml:id="c22639_0000.w.1169340">clootbane</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22639_0000.w.1169341">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c22639_0000.w.1169342">die</w>
-          <w cert="1.0" lemma="kolfbaan" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.22639.sense.1" xml:id="c22639_0000.w.1169343">colfbane</w>
+          <w cert="1.0" lemma="kolfbaan" pos="NOU-C(number=sg)" resp="roland" xml:id="c22639_0000.w.1169343" lemmaRef="mnw.22639.sense.1">colfbane</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22639_0000.w.1169344">ende</w>
           <w cert="1.0" lemma="dergelijk" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c22639_0000.w.1169345">dierghelijck</w>
           <pc pos="PC" xml:id="c22639_0000.pc.post.00471688" lemma=",">,</pc>

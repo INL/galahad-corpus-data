@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72064" lemma="WEL" partition="train" sense-id="mnw.72064.sense.27" xml:id="c72064_0247">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c72064_0247">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72064.sense.27</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72064</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2146">
           <w cert="1.0" lemma="rusten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c72064_0247.w.1541723">Rust</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c72064_0247.w.1541724">een</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c72064_0247.w.1541728">selt</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c72064_0247.w.1541729">wesen</w>
           <w cert="1.0" lemma="te" pos="ADV(type=reg)" resp="roland" xml:id="c72064_0247.w.1541730">te</w>
-          <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.72064.sense.27" xml:id="c72064_0247.w.1541731">bet</w>
+          <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" xml:id="c72064_0247.w.1541731" lemmaRef="mnw.72064.sense.27">bet</w>
           <w cert="1.0" lemma="gemoed" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c72064_0247.w.1541732">ghemoet</w>
           <pc pos="PC" xml:id="c72064_0247.pc.post.00618864" lemma=",">,</pc>
         </q>

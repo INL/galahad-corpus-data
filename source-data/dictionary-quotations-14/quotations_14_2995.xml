@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70790" lemma="WATERGANC" partition="train" sense-id="mnw.70790.sense.6" xml:id="c70790_0009">
-        <date atLeast="1328" atMost="1336" timeSpan="1300-1350" />
+      <cit xml:id="c70790_0009">
+        <note>
+          <ab>
+            <date atLeast="1328" atMost="1336" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WATERGANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70790.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70790</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2995">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c70790_0009.w.1344272">Die</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70790_0009.w.1344273">van</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70790_0009.w.1344292">der</w>
           <w cert="1.0" lemma="Duist" pos="NOU-P" resp="roland" xml:id="c70790_0009.w.1344293">Duyst</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c70790_0009.w.1344294">enen</w>
-          <w cert="1.0" lemma="watergang" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70790.sense.6" xml:id="c70790_0009.w.1344295">waterganc</w>
+          <w cert="1.0" lemma="watergang" pos="NOU-C(number=sg)" resp="roland" xml:id="c70790_0009.w.1344295" lemmaRef="mnw.70790.sense.6">waterganc</w>
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c70790_0009.w.1344296">jeghen</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c70790_0009.w.1344297">haren</w>
           <w cert="1.0" lemma="Arnoud" pos="NOU-P" resp="roland" xml:id="c70790_0009.w.1344298">Arnoude</w>

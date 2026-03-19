@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15624" lemma="HANGEN" partition="train" sense-id="mnw.15624.sense.13" xml:id="c15624_0034">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c15624_0034">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>HANGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15624.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15624</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.391">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c15624_0034.w.54134">Si</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c15624_0034.w.54135">saghen</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c15624_0034.w.54140">hoe</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c15624_0034.w.54141">haer</w>
           <w cert="1.0" lemma="staartje" pos="NOU-C(number=pl)" resp="thomas" xml:id="c15624_0034.w.54142">steertghens</w>
-          <w cert="1.0" lemma="hangen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.15624.sense.13" xml:id="c15624_0034.w.54143">hinghen</w>
+          <w cert="1.0" lemma="hangen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c15624_0034.w.54143" lemmaRef="mnw.15624.sense.13">hinghen</w>
           <pc pos="PC" xml:id="c15624_0034.pc.floating.00022042" lemma=",">,</pc>
         </q>
       </cit>

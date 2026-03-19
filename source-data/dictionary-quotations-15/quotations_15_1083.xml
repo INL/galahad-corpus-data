@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42064" lemma="PEGEL" partition="train" sense-id="mnw.42064.sense.1" xml:id="c42064_0000">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c42064_0000">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PEGEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42064.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42064</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1083">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c42064_0000.w.141866">Item</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c42064_0000.w.141867">soo</w>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c42064_0000.pc.post.00054082" lemma=",">,</pc>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c42064_0000.w.141881">op</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42064_0000.w.141882">enen</w>
-          <w cert="1.0" lemma="pegel" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.42064.sense.1" xml:id="c42064_0000.w.141883">peghel</w>
+          <w cert="1.0" lemma="pegel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42064_0000.w.141883" lemmaRef="mnw.42064.sense.1">peghel</w>
           <w cert="1.0" lemma="die+men" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c42064_0000.w.141884">dimen</w>
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c42064_0000.w.141885">daertoe</w>
           <w cert="1.0" lemma="ordineren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c42064_0000.w.141886">ordineren</w>

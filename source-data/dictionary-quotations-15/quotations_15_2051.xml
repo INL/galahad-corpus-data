@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68808" lemma="VORTSETTEN" partition="train" sense-id="mnw.68808.sense.2" xml:id="c68808_0008">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c68808_0008">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VORTSETTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68808.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68808</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2051">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c68808_0008.w.882969">Dat</w>
           <w cert="1.0" lemma="meest" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c68808_0008.w.882970">meeste</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68808_0008.w.882973">men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c68808_0008.w.882974">sal</w>
           <w cert="1.0" lemma="meest" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c68808_0008.w.882975">meest</w>
-          <w cert="1.0" lemma="voortzetten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.68808.sense.2" xml:id="c68808_0008.w.882976">voortsetten</w>
+          <w cert="1.0" lemma="voortzetten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c68808_0008.w.882976" lemmaRef="mnw.68808.sense.2">voortsetten</w>
           <w cert="1.0" lemma="overal" pos="ADV(type=reg)" resp="thomas" xml:id="c68808_0008.w.882977">overal</w>
           <pc pos="PC" xml:id="c68808_0008.pc.post.00354675" lemma=",">,</pc>
         </q>

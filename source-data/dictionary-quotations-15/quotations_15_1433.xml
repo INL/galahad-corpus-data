@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53229" lemma="SOLAES" partition="train" sense-id="mnw.53229.sense.17" xml:id="c53229_0048">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c53229_0048">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SOLAES</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53229.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53229</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1433">
           <w cert="1.0" lemma="eer" pos="CONJ(type=sub)" resp="thomas" xml:id="c53229_0048.w.1119275">Eer</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c53229_0048.w.1119276">hi</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c53229_0048.pc.post.00464377" lemma=")">)</pc>
           <w cert="1.0" lemma="verkrijgen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c53229_0048.w.1119282">vercrijcht</w>
           <pc pos="PC" xml:id="c53229_0048.pc.floating.00464378" lemma="…">…</pc>
-          <w cert="1.0" lemma="solaas" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53229.sense.17" xml:id="c53229_0048.w.1119284">solaes</w>
+          <w cert="1.0" lemma="solaas" pos="NOU-C(number=sg)" resp="roland" xml:id="c53229_0048.w.1119284" lemmaRef="mnw.53229.sense.17">solaes</w>
           <pc pos="PC" xml:id="c53229_0048.pc.floating.00464379" lemma=",">,</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c53229_0048.w.1119286">hi</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c53229_0048.w.1119287">sal</w>

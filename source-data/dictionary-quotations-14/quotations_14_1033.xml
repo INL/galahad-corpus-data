@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26053" lemma="LIDEN" partition="train" sense-id="mnw.26053.sense.7" xml:id="c26053_0040">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c26053_0040">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26053.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26053</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1033">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c26053_0040.w.337257">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c26053_0040.w.337258">hi</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c26053_0040.w.337260">die</w>
           <w cert="1.0" lemma="wester+Goot" pos="AA(degree=pos,position=prenom)+NOU-C(number=pl)" resp="roland" xml:id="c26053_0040.w.337261">Wester-Goten</w>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c26053_0040.w.337262">late</w>
-          <w cert="1.0" lemma="lijden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.26053.sense.7" xml:id="c26053_0040.w.337263">liden</w>
+          <w cert="1.0" lemma="lijden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c26053_0040.w.337263" lemmaRef="mnw.26053.sense.7">liden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26053_0040.w.337264">ende</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c26053_0040.w.337265">hi</w>
           <w cert="1.0" lemma="bestaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c26053_0040.w.337266">besta</w>

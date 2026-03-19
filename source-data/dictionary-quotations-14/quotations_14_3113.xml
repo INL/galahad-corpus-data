@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73101" lemma="WIEL" partition="train" sense-id="mnw.73101.sense.1" xml:id="c73101_0003">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c73101_0003">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WIEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73101.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73101</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3113">
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c73101_0003.w.1815645">Vort</w>
           <w cert="1.0" lemma="seigen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c73101_0003.w.1815646">zeight</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="trekken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c73101_0003.w.1815660">ghetruken</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73101_0003.w.1815661">waren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c73101_0003.w.1815662">ende</w>
-          <w cert="1.0" lemma="dat+wiel" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.73101.sense.1" xml:id="c73101_0003.w.1815663">twiel</w>
+          <w cert="1.0" lemma="dat+wiel" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c73101_0003.w.1815663" lemmaRef="mnw.73101.sense.1">twiel</w>
           <w cert="1.0" lemma="af" pos="ADV(type=reg)" resp="roland" xml:id="c73101_0003.w.1815664">of</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c73101_0003.w.1815665">ghedaen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c73101_0003.w.1815666">van</w>

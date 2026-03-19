@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37736" lemma="ONTRIDDEREN" partition="train" sense-id="mnw.37736.sense.1" xml:id="c37736_0000">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c37736_0000">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTRIDDEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37736.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37736</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1532">
           <w cert="1.0" lemma="Titus" pos="NOU-P" resp="roland" xml:id="c37736_0000.w.771947">Tytus</w>
           <pc pos="PC" xml:id="c37736_0000.pc.floating.00311319" lemma="..">..</pc>
-          <w cert="1.0" lemma="ontridderen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.37736.sense.1" xml:id="c37736_0000.w.771949">ontridderdene</w>
+          <w cert="1.0" lemma="ontridderen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c37736_0000.w.771949" lemmaRef="mnw.37736.sense.1">ontridderdene</w>
           <pc pos="PC" xml:id="c37736_0000.pc.floating.00311320" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c37736_0000.w.771951">ende</w>
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c37736_0000.w.771952">nam</w>

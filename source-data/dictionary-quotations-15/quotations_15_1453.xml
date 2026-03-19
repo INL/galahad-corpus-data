@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53872" lemma="SPEL" partition="test" sense-id="mnw.53872.sense.17" xml:id="c53872_0205">
-        <date atLeast="1470" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c53872_0205">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SPEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53872.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1453">
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c53872_0205.w.1252740">Mer</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c53872_0205.w.1252741">doch</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c53872_0205.w.1252749">al</w>
           <w cert="1.0" lemma="verstaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c53872_0205.w.1252750">verstaen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c53872_0205.w.1252751">te</w>
-          <w cert="1.0" lemma="spel" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.53872.sense.17" xml:id="c53872_0205.w.1252752">speel</w>
+          <w cert="1.0" lemma="spel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c53872_0205.w.1252752" lemmaRef="mnw.53872.sense.17">speel</w>
           <pc pos="PC" xml:id="c53872_0205.pc.floating.00520288" lemma=",">,</pc>
         </q>
       </cit>

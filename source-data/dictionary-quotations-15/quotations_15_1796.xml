@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62856" lemma="VERGIFTEN" partition="test" sense-id="mnw.62856.sense.5" xml:id="c62856_0017">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c62856_0017">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERGIFTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62856.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62856</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1796">
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c62856_0017.w.1313401">Ghiftinge</w>
           <pc pos="PC" xml:id="c62856_0017.pc.post.00526689" lemma=".">.</pc>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c62856_0017.w.1313404">de</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c62856_0017.w.1313405">sijn</w>
           <w cert="1.0" lemma="goed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62856_0017.w.1313406">guet</w>
-          <w cert="1.0" lemma="vergiften" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.62856.sense.5" xml:id="c62856_0017.w.1313407">verghift</w>
+          <w cert="1.0" lemma="vergiften" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c62856_0017.w.1313407" lemmaRef="mnw.62856.sense.5">verghift</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62856_0017.w.1313408">ende</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c62856_0017.w.1313409">dat</w>
           <w cert="1.0" lemma="allijkewel" pos="ADV(type=reg)" resp="thomas" xml:id="c62856_0017.w.1313410">allikewal</w>

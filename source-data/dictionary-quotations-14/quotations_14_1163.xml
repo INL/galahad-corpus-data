@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28993" lemma="MELC" partition="train" sense-id="mnw.28993.sense.3" xml:id="c28993_0014">
-        <date atLeast="1359" atMost="1386" timeSpan="1350-1400" />
+      <cit xml:id="c28993_0014">
+        <note>
+          <ab>
+            <date atLeast="1359" atMost="1386" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MELC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28993.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28993</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1163">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c28993_0014.w.925074">Dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c28993_0014.w.925075">was</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="ding" pos="NOU-C(number=sg)" resp="roland" xml:id="c28993_0014.w.925078">dinc</w>
           <pc pos="PC" xml:id="c28993_0014.pc.post.00360207" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c28993_0014.w.925079">dat</w>
-          <w cert="1.0" lemma="melk" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28993.sense.3" xml:id="c28993_0014.w.925080">melc</w>
+          <w cert="1.0" lemma="melk" pos="NOU-C(number=sg)" resp="roland" xml:id="c28993_0014.w.925080" lemmaRef="mnw.28993.sense.3">melc</w>
           <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" xml:id="c28993_0014.w.925081">ut</w>
           <w cert="1.0" lemma="maagdelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c28993_0014.w.925082">maegdelec</w>
           <w cert="1.0" lemma="borst" pos="NOU-C(number=sg)" resp="roland" xml:id="c28993_0014.w.925083">borste</w>

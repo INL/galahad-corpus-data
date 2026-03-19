@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01970" lemma="AVENTUREN" partition="train" sense-id="mnw.01970.sense.3" xml:id="c01970_0020">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c01970_0020">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>AVENTUREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01970.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01970</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.52">
           <pc join="right" pos="PC" xml:id="c01970_0020.pc.pre.00141291" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c01970_0020.w.356836">Als</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c01970_0020.w.356844">wort</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c01970_0020.w.356845">dat</w>
           <w cert="1.0" lemma="schip" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01970_0020.w.356846">scip</w>
-          <w cert="1.0" lemma="avonturen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.01970.sense.3" xml:id="c01970_0020.w.356847">gheaventuert</w>
+          <w cert="1.0" lemma="avonturen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c01970_0020.w.356847" lemmaRef="mnw.01970.sense.3">gheaventuert</w>
           <pc pos="PC" xml:id="c01970_0020.pc.floating.00141294" lemma=",">,</pc>
         </q>
       </cit>

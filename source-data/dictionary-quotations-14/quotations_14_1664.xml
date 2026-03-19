@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40578" lemma="OVERHERE" partition="train" sense-id="mnw.40578.sense.1" xml:id="c40578_0000">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c40578_0000">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OVERHERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40578.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40578</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1664">
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c40578_0000.w.1419076">Daertoe</w>
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=pl)" resp="roland" xml:id="c40578_0000.w.1419077">riddren</w>
@@ -73,7 +86,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c40578_0000.w.1419096">so</w>
           <w cert="1.0" lemma="mogen+gij+dat" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)+PD(type=d-p,position=free)" resp="thomas" xml:id="c40578_0000.w.1419097">moghedijs</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c40578_0000.w.1419098">wesen</w>
-          <w cert="1.0" lemma="overheer" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.40578.sense.1" xml:id="c40578_0000.w.1419099">overhere</w>
+          <w cert="1.0" lemma="overheer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c40578_0000.w.1419099" lemmaRef="mnw.40578.sense.1">overhere</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c40578_0000.w.1419100">ende</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c40578_0000.w.1419101">hebben</w>
           <w cert="1.0" lemma="rijk" pos="NOU-C(number=pl)" resp="roland" xml:id="c40578_0000.w.1419102">riken</w>

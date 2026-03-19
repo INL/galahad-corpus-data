@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63504" lemma="VERLEVEN" partition="train" sense-id="mnw.63504.sense.5" xml:id="c63504_0015">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c63504_0015">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERLEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63504.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63504</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2634">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c63504_0015.w.1491310">Haer</w>
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c63504_0015.w.1491311">ne<join n="mw_131954" />
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c63504_0015.w.1491312">gheen<join n="mw_131954" />
           </w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c63504_0015.w.1491313">ne</w>
-          <w cert="1.0" lemma="verleven" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.63504.sense.5" xml:id="c63504_0015.w.1491314">verlevede</w>
+          <w cert="1.0" lemma="verleven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63504_0015.w.1491314" lemmaRef="mnw.63504.sense.5">verlevede</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c63504_0015.w.1491315">ooc</w>
           <w cert="1.0" lemma="drie" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c63504_0015.w.1491316">drie</w>
           <w cert="1.0" lemma="jaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c63504_0015.w.1491317">jaer</w>

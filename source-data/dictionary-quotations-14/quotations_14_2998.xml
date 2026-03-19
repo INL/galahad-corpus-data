@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70914" lemma="WATERWIJF" partition="train" sense-id="mnw.70914.sense.1" xml:id="c70914_0000">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c70914_0000">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WATERWIJF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70914.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70914</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2998">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c70914_0000.w.1360648">Den</w>
-          <w cert="1.0" lemma="waterwijf" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70914.sense.1" xml:id="c70914_0000.w.1360649">waterwive</w>
+          <w cert="1.0" lemma="waterwijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c70914_0000.w.1360649" lemmaRef="mnw.70914.sense.1">waterwive</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70914_0000.w.1360650">van</w>
           <w cert="1.0" lemma="water" pos="NOU-C(number=sg)" resp="roland" xml:id="c70914_0000.w.1360651">water</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c70914_0000.w.1360652">te</w>

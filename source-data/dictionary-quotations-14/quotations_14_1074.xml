@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26904" lemma="LOOS" partition="test" sense-id="mnw.26904.sense.9" xml:id="c26904_0048">
-        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c26904_0048">
+        <note>
+          <ab>
+            <date atLeast="1290" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LOOS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26904.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26904</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1074">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c26904_0048.w.535692">Die</w>
           <w cert="1.0" lemma="spiegel" pos="NOU-C(number=sg)" resp="roland" xml:id="c26904_0048.w.535693">spiegel</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c26904_0048.w.535694">was</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c26904_0048.w.535695">niet</w>
-          <w cert="1.0" lemma="loos" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.26904.sense.9" xml:id="c26904_0048.w.535696">loos</w>
+          <w cert="1.0" lemma="loos" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c26904_0048.w.535696" lemmaRef="mnw.26904.sense.9">loos</w>
           <pc pos="PC" xml:id="c26904_0048.pc.floating.00207957" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c26904_0048.w.535698">maer</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c26904_0048.w.535699">al</w>

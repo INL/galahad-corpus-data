@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47032" lemma="ROMANIE" partition="train" sense-id="mnw.47032.sense.1" xml:id="c47032_0003">
-        <date atLeast="1460" atMost="1486" timeSpan="1450-1500" />
+      <cit xml:id="c47032_0003">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1486" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ROMANIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47032.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47032</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1212">
           <w cert="1.0" lemma="dat+men" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c47032_0003.w.1144708">Datmen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c47032_0003.w.1144709">die</w>
           <w cert="1.0" lemma="malvezij" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47032_0003.w.1144710">malevezey</w>
           <pc pos="PC" xml:id="c47032_0003.pc.post.00450626" lemma=",">,</pc>
-          <w cert="1.0" lemma="romenij" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.47032.sense.1" xml:id="c47032_0003.w.1144711">romanye</w>
+          <w cert="1.0" lemma="romenij" pos="NOU-C(number=sg)" resp="roland" xml:id="c47032_0003.w.1144711" lemmaRef="mnw.47032.sense.1">romanye</w>
           <pc pos="PC" xml:id="c47032_0003.pc.floating.00450627" lemma=",">,</pc>
           <w cert="1.0" lemma="hipocras" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47032_0003.w.1144713">ypocras</w>
           <pc pos="PC" xml:id="c47032_0003.pc.post.00450628" lemma=",">,</pc>

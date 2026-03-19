@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M080438" lemma="VISCHSPAAN" modern-lemma="visspaan" partition="train" pos="NOU-C" sense-id="M080438.bet.2" xml:id="M080438.eg.20554">
-        <date atLeast="1500" atMost="1500" timeSpan="1500-1550" />
+      <cit xml:id="M080438.eg.20554">
+        <note>
+          <ab>
+            <date atLeast="1500" atMost="1500" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>VISCHSPAAN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M080438.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>visspaan</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M080438</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1412">
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.floating.00472264" lemma="—">—</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1454539">Van</w>
@@ -73,7 +92,7 @@
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00472268" lemma=".">.</pc>
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1454560">Item</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1454561">een</w>
-          <w cert="1.0" lemma="visspaan" pos="NOU-C(number=sg)" resp="roland" sense-id="M080438.bet.2" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1454562">visspaen</w>
+          <w cert="1.0" lemma="visspaan" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1454562" lemmaRef="M080438.bet.2">visspaen</w>
           <w cert="1.0" lemma="enzovoort|enzovoorts" pos="ADV(type=reg,WF=abbr)|ADV(type=reg,WF=abbr)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1454563">enz.,</w>
         </q>
       </cit>

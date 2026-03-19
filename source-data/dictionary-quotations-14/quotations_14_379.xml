@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08942" lemma="ERDERIKE" partition="train" sense-id="mnw.08942.sense.1" xml:id="c08942_0019">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c08942_0019">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ERDERIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08942.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08942</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.379">
           <pc join="right" pos="PC" xml:id="c08942_0019.pc.pre.00219418" lemma="(">(</pc>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c08942_0019.w.507173">God</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c08942_0019.w.507177">enighen</w>
           <w cert="1.0" lemma="zoon" pos="NOU-C(number=sg)" resp="roland" xml:id="c08942_0019.w.507178">sone</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c08942_0019.w.507179">in</w>
-          <w cert="1.0" lemma="aardrijk" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.08942.sense.1" xml:id="c08942_0019.w.507180">eertrike</w>
+          <w cert="1.0" lemma="aardrijk" pos="NOU-C(number=sg)" resp="roland" xml:id="c08942_0019.w.507180" lemmaRef="mnw.08942.sense.1">eertrike</w>
           <pc pos="PC" xml:id="c08942_0019.pc.floating.00219419" lemma=")">)</pc>
           <pc pos="PC" xml:id="c08942_0019.pc.floating.00219420" lemma=";">;</pc>
         </q>

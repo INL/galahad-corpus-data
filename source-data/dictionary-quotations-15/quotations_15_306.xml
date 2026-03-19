@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11894" lemma="GEMERC" partition="train" sense-id="mnw.11894.sense.2" xml:id="c11894_0009">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c11894_0009">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEMERC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11894.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11894</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.306">
           <w cert="1.0" lemma="mis" pos="NOU-C(number=sg)" resp="roland" xml:id="c11894_0009.w.989876">Misse</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11894_0009.w.989877">doen</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="devotie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c11894_0009.w.989884">devocie</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c11894_0009.w.989885">ende</w>
           <w cert="1.0" lemma="inwendig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c11894_0009.w.989886">inwendich</w>
-          <w cert="1.0" lemma="gemerk" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.11894.sense.2" xml:id="c11894_0009.w.989887">ghemerc</w>
+          <w cert="1.0" lemma="gemerk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c11894_0009.w.989887" lemmaRef="mnw.11894.sense.2">ghemerc</w>
           <pc pos="PC" xml:id="c11894_0009.pc.floating.00417946" lemma=",">,</pc>
         </q>
       </cit>

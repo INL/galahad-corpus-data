@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10260" lemma="GAVE" partition="train" sense-id="mnw.10260.sense.5" xml:id="c10260_0021">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c10260_0021">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GAVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10260.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10260</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.259">
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c10260_0021.w.691124">Dus</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c10260_0021.w.691125">sal</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c10260_0021.w.691132">de</w>
           <w cert="1.0" lemma="paai" pos="NOU-C(number=sg)" resp="roland" xml:id="c10260_0021.w.691133">paye</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c10260_0021.w.691134">wesen</w>
-          <w cert="1.0" lemma="gave" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.10260.sense.5" xml:id="c10260_0021.w.691135">gave</w>
+          <w cert="1.0" lemma="gave" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10260_0021.w.691135" lemmaRef="mnw.10260.sense.5">gave</w>
           <pc pos="PC" xml:id="c10260_0021.pc.floating.00296843" lemma=",">,</pc>
         </q>
       </cit>

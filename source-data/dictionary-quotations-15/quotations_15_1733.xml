@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61774" lemma="VEILICH" partition="train" sense-id="mnw.61774.sense.1" xml:id="c61774_0002">
-        <date atLeast="1431" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c61774_0002">
+        <note>
+          <ab>
+            <date atLeast="1431" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VEILICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61774.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61774</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1733">
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c61774_0002.w.1011671">Te</w>
           <w cert="1.0" lemma="water" pos="NOU-C(number=sg)" resp="roland" xml:id="c61774_0002.w.1011672">watere</w>
@@ -67,7 +80,7 @@
           <pc pos="PC" xml:id="c61774_0002.pc.floating.00408447" lemma="…">…</pc>
           <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c61774_0002.w.1011686">vri</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c61774_0002.w.1011687">ende</w>
-          <w cert="1.0" lemma="veilig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.61774.sense.1" xml:id="c61774_0002.w.1011688">velich</w>
+          <w cert="1.0" lemma="veilig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c61774_0002.w.1011688" lemmaRef="mnw.61774.sense.1">velich</w>
           <pc pos="PC" xml:id="c61774_0002.pc.floating.00408448" lemma=",">,</pc>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c61774_0002.w.1011690">zonder</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c61774_0002.w.1011691">in</w>

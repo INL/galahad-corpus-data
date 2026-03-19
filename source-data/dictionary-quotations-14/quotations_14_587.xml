@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13413" lemma="GETROUWINGE" partition="train" sense-id="mnw.13413.sense.1" xml:id="c13413_0001">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c13413_0001">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GETROUWINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13413.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13413</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.587">
           <w cert="1.0" lemma="benedijen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c13413_0001.w.1283784">Ghebenedijt</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c13413_0001.w.1283785">es</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c13413_0001.pc.post.00537787" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c13413_0001.w.1283792">ende</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c13413_0001.w.1283793">sine</w>
-          <w cert="1.0" lemma="getrouwing" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.13413.sense.1" xml:id="c13413_0001.w.1283794">ghetrouwinghe</w>
+          <w cert="1.0" lemma="getrouwing" pos="NOU-C(number=sg)" resp="roland" xml:id="c13413_0001.w.1283794" lemmaRef="mnw.13413.sense.1">ghetrouwinghe</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c13413_0001.w.1283795">wert</w>
           <w cert="1.0" lemma="in+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c13413_0001.w.1283796">inden</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c13413_0001.w.1283797">here</w>

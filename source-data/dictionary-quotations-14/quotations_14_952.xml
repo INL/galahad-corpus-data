@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.24556" lemma="LACH" partition="train" sense-id="mnw.24556.sense.1" xml:id="c24556_0001">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c24556_0001">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LACH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.24556.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.24556</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.952">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c24556_0001.w.3030">Die</w>
           <w cert="1.0" lemma="knaap" pos="NOU-C(number=sg)" resp="roland" xml:id="c24556_0001.w.3031">knape</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c24556_0001.w.3032">gaf</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c24556_0001.w.3033">enen</w>
-          <w cert="1.0" lemma="lach" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.24556.sense.1" xml:id="c24556_0001.w.3034">lach</w>
+          <w cert="1.0" lemma="lach" pos="NOU-C(number=sg)" resp="thomas" xml:id="c24556_0001.w.3034" lemmaRef="mnw.24556.sense.1">lach</w>
           <pc pos="PC" xml:id="c24556_0001.pc.floating.00001291" lemma=",">,</pc>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c24556_0001.w.3036">daer</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c24556_0001.w.3037">hi</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05515" lemma="BROET" partition="train" sense-id="mnw.05515.sense.3" xml:id="c05515_0007">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c05515_0007">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BROET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05515.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05515</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.165">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c05515_0007.w.1040480">Ic</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c05515_0007.w.1040481">hadde</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c05515_0007.w.1040496">te</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c05515_0007.w.1040497">éénen</w>
           <pc pos="PC" xml:id="c05515_0007.pc.post.00412896" lemma=")">)</pc>
-          <w cert="1.0" lemma="broed" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05515.sense.3" xml:id="c05515_0007.w.1040498">broede</w>
+          <w cert="1.0" lemma="broed" pos="NOU-C(number=sg)" resp="roland" xml:id="c05515_0007.w.1040498" lemmaRef="mnw.05515.sense.3">broede</w>
           <pc pos="PC" xml:id="c05515_0007.pc.floating.00412897" lemma=",">,</pc>
         </q>
       </cit>

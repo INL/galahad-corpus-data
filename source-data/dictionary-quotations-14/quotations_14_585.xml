@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13370" lemma="GETOUWE" partition="train" sense-id="mnw.13370.sense.1" xml:id="c13370_0010">
-        <date atLeast="1343" atMost="1346" timeSpan="1300-1350" />
+      <cit xml:id="c13370_0010">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1346" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GETOUWE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13370.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13370</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.585">
           <w cert="1.0" lemma="vijf" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c13370_0010.w.1274381">Vijf</w>
           <w cert="1.0" lemma="metselaar" pos="NOU-C(number=pl)" resp="roland" xml:id="c13370_0010.w.1274382">metselaren</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c13370_0010.w.1274385">hem</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c13370_0010.w.1274386">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c13370_0010.w.1274387">hoer</w>
-          <w cert="1.0" lemma="getouw" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.13370.sense.1" xml:id="c13370_0010.w.1274388">ghetouwe</w>
+          <w cert="1.0" lemma="getouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c13370_0010.w.1274388" lemmaRef="mnw.13370.sense.1">ghetouwe</w>
           <pc pos="PC" xml:id="c13370_0010.pc.floating.00533826" lemma=",">,</pc>
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c13370_0010.w.1274390">doe</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c13370_0010.w.1274391">si</w>

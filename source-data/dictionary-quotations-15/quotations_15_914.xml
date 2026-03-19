@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36737" lemma="ONORDENE" partition="train" sense-id="mnw.36737.sense.1" xml:id="c36737_0004">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c36737_0004">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONORDENE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36737.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36737</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.914">
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c36737_0004.w.550123">Uwe</w>
           <w cert="1.0" lemma="consciëntie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c36737_0004.w.550124">consciencie</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="werk" pos="NOU-C(number=pl)" resp="thomas" xml:id="c36737_0004.w.550138">werken</w>
           <pc pos="PC" xml:id="c36737_0004.pc.floating.00224521" lemma="…,">…,</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c36737_0004.w.550140">in</w>
-          <w cert="1.0" lemma="onorde" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.36737.sense.1" xml:id="c36737_0004.w.550141">onordinen</w>
+          <w cert="1.0" lemma="onorde" pos="NOU-C(number=pl)" resp="roland" xml:id="c36737_0004.w.550141" lemmaRef="mnw.36737.sense.1">onordinen</w>
           <pc pos="PC" xml:id="c36737_0004.pc.floating.00224522" lemma=",">,</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c36737_0004.w.550143">in</w>
           <w cert="1.0" lemma="onrecht" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c36737_0004.w.550144">onrechter</w>

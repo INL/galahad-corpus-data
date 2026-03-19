@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40269" lemma="OUTVADER" partition="train" sense-id="mnw.40269.sense.1" xml:id="c40269_0001">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c40269_0001">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OUTVADER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40269.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40269</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1025">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c40269_0001.w.1339710">Een</w>
-          <w cert="1.0" lemma="oudvader" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.40269.sense.1" xml:id="c40269_0001.w.1339711">outvader</w>
+          <w cert="1.0" lemma="oudvader" pos="NOU-C(number=sg)" resp="thomas" xml:id="c40269_0001.w.1339711" lemmaRef="mnw.40269.sense.1">outvader</w>
           <w cert="1.0" lemma="heten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c40269_0001.w.1339712">hete</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c40269_0001.w.1339713">sinen</w>
           <w cert="1.0" lemma="jonger" pos="NOU-C(number=sg)" resp="thomas" xml:id="c40269_0001.w.1339714">jongher</w>

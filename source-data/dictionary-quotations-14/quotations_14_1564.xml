@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38161" lemma="ONTVINDEN" partition="train" sense-id="mnw.38161.sense.8" xml:id="c38161_0015">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c38161_0015">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTVINDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38161.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38161</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1564">
           <w cert="1.0" lemma="ai" pos="INT" resp="thomas" xml:id="c38161_0015.w.889794">Ay</w>
           <pc pos="PC" xml:id="c38161_0015.pc.post.00356943" lemma=",">,</pc>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c38161_0015.w.889808">hare</w>
           <w cert="1.0" lemma="toeverlaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c38161_0015.w.889809">toeverlaet</w>
           <pc pos="PC" xml:id="c38161_0015.pc.post.00356948" lemma=",">,</pc>
-          <w cert="1.0" lemma="ontvinden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.38161.sense.8" xml:id="c38161_0015.w.889810">ontfint</w>
+          <w cert="1.0" lemma="ontvinden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c38161_0015.w.889810" lemmaRef="mnw.38161.sense.8">ontfint</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c38161_0015.w.889811">der</w>
           <w cert="1.0" lemma="verdeler" pos="NOU-C(number=sg)" resp="roland" xml:id="c38161_0015.w.889812">verdeylder</w>
           <pc join="right" pos="PC" xml:id="c38161_0015.pc.pre.00356949" lemma="(">(</pc>

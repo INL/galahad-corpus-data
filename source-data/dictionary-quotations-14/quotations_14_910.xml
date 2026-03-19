@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22993" lemma="CONTERFEITEN" partition="train" sense-id="mnw.22993.sense.2" xml:id="c22993_0012">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c22993_0012">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CONTERFEITEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22993.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22993</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.910">
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c22993_0012.w.1249820">Voor</w>
           <w cert="1.0" lemma="valser" pos="NOU-C(number=pl)" resp="roland" xml:id="c22993_0012.w.1249821">valschers</w>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c22993_0012.pc.post.00503507" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c22993_0012.w.1249828">sijn</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c22993_0012.w.1249829">te</w>
-          <w cert="1.0" lemma="konterfeiten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.22993.sense.2" xml:id="c22993_0012.w.1249830">conterfetene</w>
+          <w cert="1.0" lemma="konterfeiten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c22993_0012.w.1249830" lemmaRef="mnw.22993.sense.2">conterfetene</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c22993_0012.w.1249831">goet</w>
           <pc pos="PC" xml:id="c22993_0012.pc.post.00503508" lemma=",">,</pc>
         </q>

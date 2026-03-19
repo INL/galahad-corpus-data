@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02485" lemma="BEDEM" partition="train" sense-id="mnw.02485.sense.1" xml:id="c02485_0000">
-        <date atLeast="1384" atMost="1407" timeSpan="1350-1400" />
+      <cit xml:id="c02485_0000">
+        <note>
+          <ab>
+            <date atLeast="1384" atMost="1407" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEDEM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02485.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02485</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.99">
           <w cert="1.0" lemma="kopen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c02485_0000.w.443864">Ghecocht</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c02485_0000.w.443865">eenen</w>
-          <w cert="1.0" lemma="bedem" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.02485.sense.1" xml:id="c02485_0000.w.443866">bedem</w>
+          <w cert="1.0" lemma="bedem" pos="NOU-C(number=sg)" resp="roland" xml:id="c02485_0000.w.443866" lemmaRef="mnw.02485.sense.1">bedem</w>
           <pc pos="PC" xml:id="c02485_0000.pc.floating.00174054" lemma="..,">..,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c02485_0000.w.443868">ende</w>
           <w cert="1.0" lemma="drie" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c02485_0000.w.443869">drie</w>

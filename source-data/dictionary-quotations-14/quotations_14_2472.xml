@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61028" lemma="UTEWERPEN" partition="train" sense-id="mnw.61028.sense.12" xml:id="c61028_0023">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c61028_0023">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>UTEWERPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61028.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61028</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2472">
           <pc pos="PC" xml:id="c61028_0023.pc.floating.00335807" lemma="—">—</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61028_0023.w.831379">Hi</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c61028_0023.w.831392">lijf</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c61028_0023.w.831393">ende</w>
           <w cert="1.0" lemma="bloed" pos="NOU-C(number=sg)" resp="roland" xml:id="c61028_0023.w.831394">bloet</w>
-          <w cert="1.0" lemma="uitwerpen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.61028.sense.12" xml:id="c61028_0023.w.831395">utewarp</w>
+          <w cert="1.0" lemma="uitwerpen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c61028_0023.w.831395" lemmaRef="mnw.61028.sense.12">utewarp</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c61028_0023.w.831396">van</w>
           <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="roland" xml:id="c61028_0023.w.831397">moede</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=postnom)" resp="roland" xml:id="c61028_0023.w.831398">groot</w>

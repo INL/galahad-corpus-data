@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37295" lemma="ONTEREN" partition="dev" sense-id="mnw.37295.sense.1" xml:id="c37295_0005">
-        <date atLeast="1325" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c37295_0005">
+        <note>
+          <ab>
+            <date atLeast="1325" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37295.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37295</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1512">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c37295_0005.w.669302">Als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37295_0005.w.669303">hi</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="men+hij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c37295_0005.w.669313">menne</w>
           <w cert="1.0" lemma="zaan" pos="ADV(type=reg)" resp="thomas" xml:id="c37295_0005.w.669314">zaen</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c37295_0005.w.669315">hebben</w>
-          <w cert="1.0" lemma="onteren" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.37295.sense.1" xml:id="c37295_0005.w.669316">onteert</w>
+          <w cert="1.0" lemma="onteren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c37295_0005.w.669316" lemmaRef="mnw.37295.sense.1">onteert</w>
           <pc join="right" pos="PC" xml:id="c37295_0005.pc.pre.00272116" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c37295_0005.w.669317">te</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c37295_0005.w.669318">schande</w>

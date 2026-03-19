@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19082" lemma="INDRIVEN" partition="train" sense-id="mnw.19082.sense.2" xml:id="c19082_0000">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c19082_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>INDRIVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19082.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19082</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.474">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c19082_0000.w.593576">De</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c19082_0000.w.593577">man</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c19082_0000.w.593586">mit</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c19082_0000.w.593587">sinen</w>
           <w cert="1.0" lemma="vee" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19082_0000.w.593588">vie</w>
-          <w cert="1.0" lemma="indrijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.19082.sense.2" xml:id="c19082_0000.w.593589">indrijft</w>
+          <w cert="1.0" lemma="indrijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c19082_0000.w.593589" lemmaRef="mnw.19082.sense.2">indrijft</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c19082_0000.w.593590">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c19082_0000.w.593591">des</w>
           <w cert="1.0" lemma="morgen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19082_0000.w.593592">morghens</w>

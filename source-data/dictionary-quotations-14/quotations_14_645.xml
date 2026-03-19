@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14506" lemma="GOME" partition="train" sense-id="mnw.14506.sense.7" xml:id="c14506_0087">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c14506_0087">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GOME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14506.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14506</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.645">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c14506_0087.w.1492347">Si</w>
           <pc join="right" pos="PC" xml:id="c14506_0087.pc.pre.00624577" lemma="(">(</pc>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c14506_0087.pc.post.00624580" lemma=",">,</pc>
           <w cert="1.0" lemma="zij+ne" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="thomas" xml:id="c14506_0087.w.1492356">sine</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c14506_0087.w.1492357">heves</w>
-          <w cert="1.0" lemma="goom" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14506.sense.7" xml:id="c14506_0087.w.1492358">goom</w>
+          <w cert="1.0" lemma="goom" pos="NOU-C(number=sg)" resp="roland" xml:id="c14506_0087.w.1492358" lemmaRef="mnw.14506.sense.7">goom</w>
           <pc join="right" pos="PC" xml:id="c14506_0087.pc.pre.00624581" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c14506_0087.w.1492359">het</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c14506_0087.w.1492360">kan</w>

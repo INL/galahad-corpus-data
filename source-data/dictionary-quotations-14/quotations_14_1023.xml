@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25990" lemma="LICHT" partition="train" sense-id="mnw.25990.sense.9" xml:id="c25990_0069">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c25990_0069">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LICHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25990.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25990</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1023">
           <pc join="right" pos="PC" xml:id="c25990_0069.pc.pre.00123320" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25990_0069.w.318002">Hi</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="uitbrengen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c25990_0069.w.318003">brochte<join n="mw_313581" />
           </w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c25990_0069.w.318004">dat</w>
-          <w cert="1.0" lemma="licht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25990.sense.9" xml:id="c25990_0069.w.318005">lecht</w>
+          <w cert="1.0" lemma="licht" pos="NOU-C(number=sg)" resp="roland" xml:id="c25990_0069.w.318005" lemmaRef="mnw.25990.sense.9">lecht</w>
           <w cert="1.0" lemma="getrokken" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c25990_0069.w.318006">getrecket</w>
           <w cert="1.0" lemma="uitbrengen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c25990_0069.w.318007">uut<join n="mw_313581" />
           </w>

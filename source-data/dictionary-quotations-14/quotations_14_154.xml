@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03359" lemma="BEREIDEN" partition="train" sense-id="mnw.03359.sense.21" xml:id="c03359_0054">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c03359_0054">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEREIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03359.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03359</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.154">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03359_0054.w.662755">Die</w>
           <w cert="1.0" lemma="toverij" pos="NOU-C(number=sg)" resp="roland" xml:id="c03359_0054.w.662756">tovernie</w>
@@ -69,7 +82,7 @@
           </w>
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c03359_0054.w.662770">met<join n="mw_899581" />
           </w>
-          <w cert="1.0" lemma="bereiden" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.03359.sense.21" xml:id="c03359_0054.w.662771">bereit</w>
+          <w cert="1.0" lemma="bereiden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c03359_0054.w.662771" lemmaRef="mnw.03359.sense.21">bereit</w>
           <pc pos="PC" xml:id="c03359_0054.pc.floating.00258169" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c03359_0054.w.662773">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c03359_0054.w.662774">hi</w>

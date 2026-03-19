@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03720" lemma="BESETTEN" partition="test" sense-id="mnw.03720.sense.2" xml:id="c03720_0000">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c03720_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BESETTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03720.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03720</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.179">
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c03720_0000.w.732429">Elc</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c03720_0000.w.732430">van</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c03720_0000.pc.post.00285976" lemma=")">)</pc>
           <pc pos="PC" xml:id="c03720_0000.pc.floating.00285977" lemma="…">…</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c03720_0000.w.732434">es</w>
-          <w cert="1.0" lemma="bezetten" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.03720.sense.2" xml:id="c03720_0000.w.732435">beset</w>
+          <w cert="1.0" lemma="bezetten" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c03720_0000.w.732435" lemmaRef="mnw.03720.sense.2">beset</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c03720_0000.w.732436">met</w>
           <w cert="1.0" lemma="maand" pos="NOU-C(number=pl)" resp="roland" xml:id="c03720_0000.w.732437">maenden</w>
           <w cert="1.0" lemma="drie" pos="NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c03720_0000.w.732438">drien</w>

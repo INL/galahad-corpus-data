@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64659" lemma="VERSLUMEN" partition="train" sense-id="mnw.64659.sense.1" xml:id="c64659_0000">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c64659_0000">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERSLUMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64659.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64659</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2691">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c64659_0000.w.1813506">Dat</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c64659_0000.w.1813507">niet</w>
@@ -66,7 +79,7 @@
           </w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c64659_0000.w.1813519">die</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c64659_0000.w.1813520">goet</w>
-          <w cert="1.0" lemma="versluimen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.64659.sense.1" xml:id="c64659_0000.w.1813521">verslumen</w>
+          <w cert="1.0" lemma="versluimen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64659_0000.w.1813521" lemmaRef="mnw.64659.sense.1">verslumen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c64659_0000.w.1813522">te</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c64659_0000.w.1813523">doene</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c64659_0000.w.1813524">der</w>

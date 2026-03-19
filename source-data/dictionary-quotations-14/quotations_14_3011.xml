@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71324" lemma="WEDERLONEN" partition="train" sense-id="mnw.71324.sense.1" xml:id="c71324_0001">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c71324_0001">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WEDERLONEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71324.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71324</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3011">
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c71324_0001.w.1435715">Dan</w>
           <w cert="1.0" lemma="zullen+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c71324_0001.w.1435716">salic</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c71324_0001.pc.post.00575339" lemma=")">)</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c71324_0001.w.1435718">hare</w>
           <w cert="1.0" lemma="misdaad" pos="NOU-C(number=sg)" resp="roland" xml:id="c71324_0001.w.1435719">mesdaet</w>
-          <w cert="1.0" lemma="wederlonen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.71324.sense.1" xml:id="c71324_0001.w.1435720">wederlonen</w>
+          <w cert="1.0" lemma="wederlonen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c71324_0001.w.1435720" lemmaRef="mnw.71324.sense.1">wederlonen</w>
           <pc join="right" pos="PC" xml:id="c71324_0001.pc.pre.00575340" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c71324_0001.w.1435721">hun</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c71324_0001.w.1435722">het</w>

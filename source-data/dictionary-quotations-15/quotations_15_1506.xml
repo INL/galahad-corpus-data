@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55072" lemma="STEKEN" partition="test" sense-id="mnw.55072.sense.81" xml:id="c55072_0299">
-        <date atLeast="1432" atMost="1468" timeSpan="1450-1500" />
+      <cit xml:id="c55072_0299">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1468" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>STEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55072.sense.81</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55072</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1506">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c55072_0299.w.1536168">Als</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c55072_0299.w.1536169">men</w>
-          <w cert="1.0" lemma="steken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.55072.sense.81" xml:id="c55072_0299.w.1536170">stac</w>
+          <w cert="1.0" lemma="steken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c55072_0299.w.1536170" lemmaRef="mnw.55072.sense.81">stac</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c55072_0299.w.1536171">up</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c55072_0299.w.1536172">de</w>
           <w cert="1.0" lemma="markt" pos="NOU-C(number=sg)" resp="thomas" xml:id="c55072_0299.w.1536173">maerct</w>

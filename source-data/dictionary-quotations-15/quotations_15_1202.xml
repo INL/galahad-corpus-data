@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46782" lemma="ROEKELOSE" partition="train" sense-id="mnw.46782.sense.1" xml:id="c46782_0001">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c46782_0001">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ROEKELOSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46782.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46782</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1202">
           <pc join="right" pos="PC" xml:id="c46782_0001.pc.pre.00427657" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c46782_0001.w.1087351">Si</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c46782_0001.w.1087356">het</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c46782_0001.w.1087357">hout</w>
           <pc pos="PC" xml:id="c46782_0001.pc.post.00427660" lemma=")">)</pc>
-          <w cert="1.0" lemma="roekeloos" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.46782.sense.1" xml:id="c46782_0001.w.1087358">roekelose</w>
+          <w cert="1.0" lemma="roekeloos" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c46782_0001.w.1087358" lemmaRef="mnw.46782.sense.1">roekelose</w>
           <pc pos="PC" xml:id="c46782_0001.pc.floating.00427661" lemma=",">,</pc>
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c46782_0001.w.1087360">daeraf</w>
           <w cert="1.0" lemma="beginnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c46782_0001.w.1087361">began</w>

@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72943" lemma="WEVEAMBACHT" partition="train" sense-id="mnw.72943.sense.2" xml:id="c72943_0005">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c72943_0005">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WEVEAMBACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72943.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72943</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3103">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c72943_0005.w.1788848">Item</w>
           <w cert="1.0" lemma="lenen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c72943_0005.w.1788849">yleent</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c72943_0005.w.1788850">den</w>
-          <w cert="1.0" lemma="weefambacht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72943.sense.2" xml:id="c72943_0005.w.1788851">weveambochte</w>
+          <w cert="1.0" lemma="weefambacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c72943_0005.w.1788851" lemmaRef="mnw.72943.sense.2">weveambochte</w>
           <pc pos="PC" xml:id="c72943_0005.pc.floating.00706725" lemma=",">,</pc>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c72943_0005.w.1788853">bi</w>
           <w cert="1.0" lemma="Christiaan" pos="NOU-P" resp="roland" xml:id="c72943_0005.w.1788854">Christiaens</w>

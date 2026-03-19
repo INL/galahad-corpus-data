@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30432" lemma="MOET" partition="train" sense-id="mnw.30432.sense.20" xml:id="c30432_0200">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c30432_0200">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30432.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30432</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1246">
           <w cert="1.0" lemma="du+ne" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="thomas" xml:id="c30432_0200.w.1238029">Dune</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c30432_0200.w.1238030">salt</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="begeren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30432_0200.w.1238034">begheren</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c30432_0200.w.1238035">in</w>
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c30432_0200.w.1238036">dinen</w>
-          <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.30432.sense.20" xml:id="c30432_0200.w.1238037">moet</w>
+          <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c30432_0200.w.1238037" lemmaRef="mnw.30432.sense.20">moet</w>
           <pc pos="PC" xml:id="c30432_0200.pc.floating.00486251" lemma=",">,</pc>
         </q>
       </cit>

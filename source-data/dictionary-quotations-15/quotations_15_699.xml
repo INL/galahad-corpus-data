@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28308" lemma="MATERNE" partition="train" sense-id="mnw.28308.sense.1" xml:id="c28308_0000">
-        <date atLeast="1425" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c28308_0000">
+        <note>
+          <ab>
+            <date atLeast="1425" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MATERNE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28308.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28308</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.699">
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c28308_0000.w.839803">Jeghen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c28308_0000.w.839804">den</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="kool" pos="NOU-C(number=pl)" resp="roland" xml:id="c28308_0000.w.839812">colen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c28308_0000.w.839813">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c28308_0000.w.839814">der</w>
-          <w cert="1.0" lemma="materne" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28308.sense.1" xml:id="c28308_0000.w.839815">maternen</w>
+          <w cert="1.0" lemma="materne" pos="NOU-C(number=sg)" resp="roland" xml:id="c28308_0000.w.839815" lemmaRef="mnw.28308.sense.1">maternen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c28308_0000.w.839816">ende</w>
           <w cert="1.0" lemma="stampen+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c28308_0000.w.839817">dampet</w>
           <w cert="1.0" lemma="gader" pos="ADV(type=reg)" resp="thomas" xml:id="c28308_0000.w.839818">te<join n="mw_21586" />

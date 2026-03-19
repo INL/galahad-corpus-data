@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28492" lemma="MEDEMAGET" partition="train" sense-id="mnw.28492.sense.1" xml:id="c28492_0000">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c28492_0000">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MEDEMAGET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28492.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28492</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.703">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28492_0000.w.858650">Si</w>
           <pc join="right" pos="PC" xml:id="c28492_0000.pc.pre.00333564" lemma="(">(</pc>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="zorgvuldig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c28492_0000.w.858653">sorchvoudich</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c28492_0000.w.858654">voor</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c28492_0000.w.858655">haren</w>
-          <w cert="1.0" lemma="medemaagd" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.28492.sense.1" xml:id="c28492_0000.w.858656">medemaechden</w>
+          <w cert="1.0" lemma="medemaagd" pos="NOU-C(number=pl)" resp="roland" xml:id="c28492_0000.w.858656" lemmaRef="mnw.28492.sense.1">medemaechden</w>
           <pc pos="PC" xml:id="c28492_0000.pc.floating.00333566" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c28492_0000.w.858658">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28492_0000.w.858659">si</w>

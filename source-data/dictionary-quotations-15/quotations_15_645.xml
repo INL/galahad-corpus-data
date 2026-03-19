@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26126" lemma="LIEFLIJC" partition="dev" sense-id="mnw.26126.sense.3" xml:id="c26126_0019">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c26126_0019">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LIEFLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26126.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26126</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.645">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c26126_0019.w.371660">Dat</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c26126_0019.w.371661">dat</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c26126_0019.w.371664">ontvangst</w>
           <pc pos="PC" xml:id="c26126_0019.pc.post.00144098" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c26126_0019.w.371665">was</w>
-          <w cert="1.0" lemma="lieflijk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.26126.sense.3" xml:id="c26126_0019.w.371666">lievelic</w>
+          <w cert="1.0" lemma="lieflijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c26126_0019.w.371666" lemmaRef="mnw.26126.sense.3">lievelic</w>
           <w cert="1.0" lemma="zeer" pos="ADV(type=reg)" resp="thomas" xml:id="c26126_0019.w.371667">seere</w>
           <pc pos="PC" xml:id="c26126_0019.pc.post.00144099" lemma=",">,</pc>
         </q>

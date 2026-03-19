@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40707" lemma="OVERLIDEN" partition="dev" sense-id="mnw.40707.sense.2" xml:id="c40707_0002">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c40707_0002">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERLIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40707.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40707</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1671">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c40707_0002.w.1440796">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40707_0002.w.1440797">si</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c40707_0002.w.1440801">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c40707_0002.w.1440802">haer</w>
           <w cert="1.0" lemma="ondank" pos="NOU-C(number=sg)" resp="roland" xml:id="c40707_0002.w.1440803">ondanx</w>
-          <w cert="1.0" lemma="overlijden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.40707.sense.2" xml:id="c40707_0002.w.1440804">overleden</w>
+          <w cert="1.0" lemma="overlijden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c40707_0002.w.1440804" lemmaRef="mnw.40707.sense.2">overleden</w>
           <pc join="right" pos="PC" xml:id="c40707_0002.pc.pre.00573257" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40707_0002.w.1440805">over</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40707_0002.w.1440806">de</w>

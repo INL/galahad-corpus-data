@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15226" lemma="HACHTE" partition="train" sense-id="mnw.15226.sense.1" xml:id="c15226_0011">
-        <date atLeast="1325" atMost="1360" timeSpan="1300-1350" />
+      <cit xml:id="c15226_0011">
+        <note>
+          <ab>
+            <date atLeast="1325" atMost="1360" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HACHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15226.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15226</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.669">
           <w cert="1.0" lemma="Bernhard" pos="NOU-P" resp="roland" xml:id="c15226_0011.w.1421">Barnaerde</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c15226_0011.w.1422">van</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c15226_0011.w.1425">was</w>
           <w cert="1.0" lemma="in+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c15226_0011.w.1426">ins</w>
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="roland" xml:id="c15226_0011.w.1427">conincs</w>
-          <w cert="1.0" lemma="hacht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.15226.sense.1" xml:id="c15226_0011.w.1428">hachte</w>
+          <w cert="1.0" lemma="hacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c15226_0011.w.1428" lemmaRef="mnw.15226.sense.1">hachte</w>
           <pc pos="PC" xml:id="c15226_0011.pc.floating.00000659" lemma=",">,</pc>
         </q>
       </cit>

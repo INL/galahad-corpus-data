@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33663" lemma="OMMECRINC" partition="train" sense-id="mnw.33663.sense.1" xml:id="c33663_0000">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c33663_0000">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OMMECRINC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33663.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33663</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1398">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33663_0000.w.99139">Hi</w>
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c33663_0000.w.99140">horde</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="einde" pos="NOU-C(number=sg)" resp="roland" xml:id="c33663_0000.w.99156">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c33663_0000.w.99157">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c33663_0000.w.99158">den</w>
-          <w cert="1.0" lemma="omkring" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.33663.sense.1" xml:id="c33663_0000.w.99159">ommecringhe</w>
+          <w cert="1.0" lemma="omkring" pos="NOU-C(number=sg)" resp="roland" xml:id="c33663_0000.w.99159" lemmaRef="mnw.33663.sense.1">ommecringhe</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c33663_0000.w.99160">ter</w>
           <w cert="1.0" lemma="Oudenburg" pos="NOU-P" resp="roland" xml:id="c33663_0000.w.99161">Oudeburgh</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c33663_0000.w.99162">voor</w>

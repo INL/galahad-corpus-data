@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36741" lemma="ONORDINEERLIKE" partition="train" sense-id="mnw.36741.sense.1" xml:id="c36741_0000">
-        <date atLeast="1460" atMost="1465" timeSpan="1450-1500" />
+      <cit xml:id="c36741_0000">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1465" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONORDINEERLIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36741.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36741</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.915">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36741_0000.w.550323">Die</w>
           <w cert="1.0" lemma="rede" pos="NOU-C(number=sg)" resp="roland" xml:id="c36741_0000.w.550324">rede</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c36741_0000.w.550342">ende</w>
           <w cert="1.0" lemma="menen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c36741_0000.w.550343">ghemeent</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c36741_0000.w.550344">werde</w>
-          <w cert="1.0" lemma="onordineerlijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.36741.sense.1" xml:id="c36741_0000.w.550345">onordinierliken</w>
+          <w cert="1.0" lemma="onordineerlijk" pos="ADV(type=reg)" resp="thomas" xml:id="c36741_0000.w.550345" lemmaRef="mnw.36741.sense.1">onordinierliken</w>
           <pc pos="PC" xml:id="c36741_0000.pc.floating.00224598" lemma=",">,</pc>
           <pc join="right" pos="PC" xml:id="c36741_0000.pc.pre.00224599" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c36741_0000.w.550347">Ruusbroec</w>

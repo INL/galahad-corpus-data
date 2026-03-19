@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06782" lemma="DISPERANTIE" partition="train" sense-id="mnw.06782.sense.1" xml:id="c06782_0000">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c06782_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DISPERANTIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06782.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06782</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.187">
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c06782_0000.w.159095">Op</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c06782_0000.w.159096">siin</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="thomas" xml:id="c06782_0000.w.159105">raet</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c06782_0000.w.159106">met</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c06782_0000.w.159107">groter</w>
-          <w cert="1.0" lemma="desperantie" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06782.sense.1" xml:id="c06782_0000.w.159108">desperancien</w>
+          <w cert="1.0" lemma="desperantie" pos="NOU-C(number=sg)" resp="roland" xml:id="c06782_0000.w.159108" lemmaRef="mnw.06782.sense.1">desperancien</w>
           <pc pos="PC" xml:id="c06782_0000.pc.floating.00066870" lemma=",">,</pc>
         </q>
       </cit>

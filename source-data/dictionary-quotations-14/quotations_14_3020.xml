@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71528" lemma="WEDERSTRIDEN" partition="train" sense-id="mnw.71528.sense.1" xml:id="c71528_0002">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c71528_0002">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WEDERSTRIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71528.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71528</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3020">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c71528_0002.w.1472114">Ic</w>
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c71528_0002.w.1472115">bemt</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c71528_0002.w.1472124">te</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c71528_0002.w.1472125">uwen</w>
           <w cert="1.0" lemma="leed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c71528_0002.w.1472126">lede</w>
-          <w cert="1.0" lemma="wederstrijden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.71528.sense.1" xml:id="c71528_0002.w.1472127">wederstrijt</w>
+          <w cert="1.0" lemma="wederstrijden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c71528_0002.w.1472127" lemmaRef="mnw.71528.sense.1">wederstrijt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c71528_0002.w.1472128">ende</w>
           <w cert="1.0" lemma="wederzeggen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c71528_0002.w.1472129">wedersegget</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c71528_0002.w.1472130">dat</w>

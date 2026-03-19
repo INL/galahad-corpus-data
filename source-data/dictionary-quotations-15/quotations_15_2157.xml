@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72227" lemma="WELLINGE" partition="train" sense-id="mnw.72227.sense.2" xml:id="c72227_0000">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c72227_0000">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WELLINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72227.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72227</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2157">
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72227_0000.w.1573592">Ghij</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c72227_0000.w.1573593">en</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c72227_0000.w.1573601">noch</w>
           <w cert="1.0" lemma="pap" pos="NOU-C(number=sg)" resp="roland" xml:id="c72227_0000.w.1573602">pappe</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c72227_0000.w.1573603">noch</w>
-          <w cert="1.0" lemma="welling" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72227.sense.2" xml:id="c72227_0000.w.1573604">wellinghe</w>
+          <w cert="1.0" lemma="welling" pos="NOU-C(number=sg)" resp="roland" xml:id="c72227_0000.w.1573604" lemmaRef="mnw.72227.sense.2">wellinghe</w>
           <pc pos="PC" xml:id="c72227_0000.pc.floating.00630682" lemma=",">,</pc>
         </q>
       </cit>

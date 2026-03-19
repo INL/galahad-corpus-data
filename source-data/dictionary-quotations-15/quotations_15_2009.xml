@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67602" lemma="VOLSTRENGEN" partition="train" sense-id="mnw.67602.sense.1" xml:id="c67602_0001">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c67602_0001">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VOLSTRENGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67602.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67602</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2009">
           <pc join="right" pos="PC" xml:id="c67602_0001.pc.pre.00260353" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c67602_0001.w.651784">Als</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67602_0001.w.651791">die</w>
           <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67602_0001.w.651792">werelt</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c67602_0001.w.651793">mocht</w>
-          <w cert="1.0" lemma="volstrengen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.67602.sense.1" xml:id="c67602_0001.w.651794">volstringen</w>
+          <w cert="1.0" lemma="volstrengen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c67602_0001.w.651794" lemmaRef="mnw.67602.sense.1">volstringen</w>
           <pc pos="PC" xml:id="c67602_0001.pc.floating.00260355" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c67602_0001.w.651796">so</w>
           <w cert="1.0" lemma="mogen+du" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c67602_0001.w.651797">mochstu</w>

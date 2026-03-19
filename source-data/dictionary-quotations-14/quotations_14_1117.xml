@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27735" lemma="MAKINGE" partition="train" sense-id="mnw.27735.sense.2" xml:id="c27735_0005">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c27735_0005">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MAKINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27735.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27735</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1117">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27735_0005.w.718457">Des</w>
           <w cert="1.0" lemma="onbevlekt" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c27735_0005.w.718458">onbevlects</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c27735_0005.w.718464">vor</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27735_0005.w.718465">der</w>
           <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="roland" xml:id="c27735_0005.w.718466">werelt</w>
-          <w cert="1.0" lemma="making" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.27735.sense.2" xml:id="c27735_0005.w.718467">makinge</w>
+          <w cert="1.0" lemma="making" pos="NOU-C(number=sg)" resp="roland" xml:id="c27735_0005.w.718467" lemmaRef="mnw.27735.sense.2">makinge</w>
           <pc pos="PC" xml:id="c27735_0005.pc.floating.00278579" lemma=",">,</pc>
         </q>
       </cit>

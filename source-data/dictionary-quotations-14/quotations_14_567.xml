@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12852" lemma="GESELSCAP" partition="train" sense-id="mnw.12852.sense.21" xml:id="c12852_0093">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c12852_0093">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GESELSCAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12852.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12852</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.567">
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c12852_0093.w.1193155">Tote</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c12852_0093.w.1193156">dier</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c12852_0093.w.1193160">mach</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="roland" xml:id="c12852_0093.w.1193161">sijn</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c12852_0093.w.1193162">in</w>
-          <w cert="1.0" lemma="gezelschap" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12852.sense.21" xml:id="c12852_0093.w.1193163">gheselscape</w>
+          <w cert="1.0" lemma="gezelschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c12852_0093.w.1193163" lemmaRef="mnw.12852.sense.21">gheselscape</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c12852_0093.w.1193164">met</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12852_0093.w.1193165">u</w>
           <pc pos="PC" xml:id="c12852_0093.pc.post.00500122" lemma=",">,</pc>

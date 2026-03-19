@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60840" lemma="UTESPANNEN" partition="train" sense-id="mnw.60840.sense.1" xml:id="c60840_0000">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c60840_0000">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>UTESPANNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60840.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60840</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1694">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60840_0000.w.787722">Die</w>
           <w cert="1.0" lemma="schoot" pos="NOU-C(number=sg)" resp="thomas" xml:id="c60840_0000.w.787723">scoot</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c60840_0000.w.787724">des</w>
           <w cert="1.0" lemma="gemoed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c60840_0000.w.787725">ghemoedes</w>
           <w cert="1.0" lemma="breed" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c60840_0000.w.787726">breet</w>
-          <w cert="1.0" lemma="uitspannen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.60840.sense.1" xml:id="c60840_0000.w.787727">wtghespannen</w>
+          <w cert="1.0" lemma="uitspannen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c60840_0000.w.787727" lemmaRef="mnw.60840.sense.1">wtghespannen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60840_0000.w.787728">is</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c60840_0000.w.787729">ende</w>
           <w cert="1.0" lemma="ernstelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c60840_0000.w.787730">naernstelic</w>

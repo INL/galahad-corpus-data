@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20402" lemma="CAMERE" partition="train" sense-id="mnw.20402.sense.2" xml:id="c20402_0021">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c20402_0021">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CAMERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20402.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20402</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.504">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c20402_0021.w.791558">Soo</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c20402_0021.w.791559">wort</w>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c20402_0021.pc.post.00321785" lemma=")">)</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c20402_0021.w.791568">enen</w>
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c20402_0021.w.791569">schonen</w>
-          <w cert="1.0" lemma="kamer" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.20402.sense.2" xml:id="c20402_0021.w.791570">camer</w>
+          <w cert="1.0" lemma="kamer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c20402_0021.w.791570" lemmaRef="mnw.20402.sense.2">camer</w>
           <pc pos="PC" xml:id="c20402_0021.pc.floating.00321786" lemma=",">,</pc>
           <w cert="1.0" lemma="daarin" pos="ADV(type=pron)" resp="thomas" xml:id="c20402_0021.w.791572">daer<join n="mw_174519" />
           </w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37546" lemma="ONTLEIDEN" partition="train" sense-id="mnw.37546.sense.16" xml:id="c37546_0021">
-        <date atLeast="1317" atMost="1317" timeSpan="1300-1350" />
+      <cit xml:id="c37546_0021">
+        <note>
+          <ab>
+            <date atLeast="1317" atMost="1317" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTLEIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37546.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37546</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1527">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c37546_0021.w.739483">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37546_0021.w.739484">men</w>
@@ -87,7 +100,7 @@
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c37546_0021.w.739508">omme</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c37546_0021.w.739509">de</w>
           <w cert="1.0" lemma="schuld" pos="NOU-C(number=sg)" resp="roland" xml:id="c37546_0021.w.739510">scult</w>
-          <w cert="1.0" lemma="te+ontleiden" pos="ADP(type=pre)+VRB(finiteness=inf)" resp="thomas" sense-id="mnw.37546.sense.16" xml:id="c37546_0021.w.739511">tontledene</w>
+          <w cert="1.0" lemma="te+ontleiden" pos="ADP(type=pre)+VRB(finiteness=inf)" resp="thomas" xml:id="c37546_0021.w.739511" lemmaRef="mnw.37546.sense.16">tontledene</w>
           <pc pos="PC" xml:id="c37546_0021.pc.floating.00298542" lemma=",">,</pc>
         </q>
       </cit>

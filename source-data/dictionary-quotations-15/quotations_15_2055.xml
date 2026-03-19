@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68962" lemma="VREDE" partition="test" sense-id="mnw.68962.sense.47" xml:id="c68962_0271">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c68962_0271">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VREDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68962.sense.47</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68962</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2055">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c68962_0271.w.924066">Ic</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c68962_0271.w.924067">sal</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c68962_0271.w.924073">seles</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c68962_0271.w.924074">wel</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c68962_0271.w.924075">in</w>
-          <w cert="1.0" lemma="vrede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.68962.sense.47" xml:id="c68962_0271.w.924076">vreden</w>
+          <w cert="1.0" lemma="vrede" pos="NOU-C(number=sg)" resp="roland" xml:id="c68962_0271.w.924076" lemmaRef="mnw.68962.sense.47">vreden</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c68962_0271.w.924077">sijn</w>
           <pc pos="PC" xml:id="c68962_0271.pc.post.00370753" lemma=",">,</pc>
         </q>

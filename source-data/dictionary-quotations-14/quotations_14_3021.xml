@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71610" lemma="WEDERWERDICHEIT" partition="train" sense-id="mnw.71610.sense.1" xml:id="c71610_0000">
-        <date atLeast="1393" atMost="1402" timeSpan="1350-1400" />
+      <cit xml:id="c71610_0000">
+        <note>
+          <ab>
+            <date atLeast="1393" atMost="1402" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WEDERWERDICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71610.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71610</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3021">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c71610_0000.w.1480761">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c71610_0000.w.1480762">si</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c71610_0000.w.1480770">dats</w>
           <w cert="1.0" lemma="wedervechten" pos="NOU-C(number=sg)" resp="roland" xml:id="c71610_0000.w.1480771">wedervechtene</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c71610_0000.w.1480772">of</w>
-          <w cert="1.0" lemma="wederwaardigheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.71610.sense.1" xml:id="c71610_0000.w.1480773">wederwerdecheit</w>
+          <w cert="1.0" lemma="wederwaardigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c71610_0000.w.1480773" lemmaRef="mnw.71610.sense.1">wederwerdecheit</w>
           <w cert="1.0" lemma="volduren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c71610_0000.w.1480774">volduerde</w>
           <pc pos="PC" xml:id="c71610_0000.pc.post.00593799" lemma=",">,</pc>
         </q>

@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53085" lemma="SOE" partition="train" sense-id="mnw.53085.sense.1" xml:id="c53085_0000">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c53085_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SOE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53085.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53085</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2125">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c53085_0000.w.1084315">Ene</w>
           <w cert="1.0" lemma="wijl" pos="NOU-C(number=sg)" resp="roland" xml:id="c53085_0000.w.1084316">wile</w>
-          <w cert="1.0" lemma="zeggen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.53085.sense.1" xml:id="c53085_0000.w.1084317">seitsoe</w>
+          <w cert="1.0" lemma="zeggen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c53085_0000.w.1084317" lemmaRef="mnw.53085.sense.1">seitsoe</w>
           <pc pos="PC" xml:id="c53085_0000.pc.floating.00450393" lemma=",">,</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53085_0000.w.1084319">si</w>
           <pc join="right" pos="PC" xml:id="c53085_0000.pc.pre.00450394" lemma="(">(</pc>

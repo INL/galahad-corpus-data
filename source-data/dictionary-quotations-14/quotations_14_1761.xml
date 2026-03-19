@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43205" lemma="PLUCKEN" partition="train" sense-id="mnw.43205.sense.5" xml:id="c43205_0006">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c43205_0006">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PLUCKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43205.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43205</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1761">
           <w cert="1.0" lemma="ik+ne" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="thomas" xml:id="c43205_0006.w.344364">Ine</w>
           <w cert="1.0" lemma="dorsen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43205_0006.w.344365">dorste</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c43205_0006.w.344369">die</w>
           <w cert="1.0" lemma="roos" pos="NOU-C(number=pl)" resp="roland" xml:id="c43205_0006.w.344370">rosen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c43205_0006.w.344371">te</w>
-          <w cert="1.0" lemma="plukken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.43205.sense.5" xml:id="c43205_0006.w.344372">plockene</w>
+          <w cert="1.0" lemma="plukken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c43205_0006.w.344372" lemmaRef="mnw.43205.sense.5">plockene</w>
           <pc pos="PC" xml:id="c43205_0006.pc.floating.00134864" lemma=",">,</pc>
         </q>
       </cit>

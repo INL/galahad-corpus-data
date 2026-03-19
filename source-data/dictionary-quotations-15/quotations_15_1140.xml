@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44674" lemma="QUALIJCVAERT" partition="train" sense-id="mnw.44674.sense.1" xml:id="c44674_0000">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c44674_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>QUALIJCVAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44674.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44674</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1140">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c44674_0000.w.595158">Dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c44674_0000.w.595159">ic</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="spijzen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c44674_0000.w.595164">spise</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c44674_0000.w.595165">mitter</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c44674_0000.w.595166">lude</w>
-          <w cert="1.0" lemma="kwalijkvaren" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.44674.sense.1" xml:id="c44674_0000.w.595167">qualicvaren</w>
+          <w cert="1.0" lemma="kwalijkvaren" pos="NOU-C(number=sg)" resp="thomas" xml:id="c44674_0000.w.595167" lemmaRef="mnw.44674.sense.1">qualicvaren</w>
           <pc pos="PC" xml:id="c44674_0000.pc.floating.00234420" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53701" lemma="SPAKE" partition="train" sense-id="mnw.53701.sense.2" xml:id="c53701_0000">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c53701_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SPAKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53701.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53701</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2153">
           <pc join="right" pos="PC" xml:id="c53701_0000.pc.pre.00505233" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53701_0000.w.1216817">Hi</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="dat+vier" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c53701_0000.w.1216835">tfier</w>
           <w cert="1.0" lemma="springen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c53701_0000.w.1216836">spranc</w>
           <w cert="1.0" lemma="uit+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c53701_0000.w.1216837">uten</w>
-          <w cert="1.0" lemma="spaak" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.53701.sense.2" xml:id="c53701_0000.w.1216838">spaken</w>
+          <w cert="1.0" lemma="spaak" pos="NOU-C(number=pl)" resp="roland" xml:id="c53701_0000.w.1216838" lemmaRef="mnw.53701.sense.2">spaken</w>
           <pc join="right" pos="PC" xml:id="c53701_0000.pc.pre.00505236" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c53701_0000.w.1216839">hs</w>
           <pc pos="PC" xml:id="c53701_0000.pc.post.00505237" lemma=".;">.;</pc>

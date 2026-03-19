@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29435" lemma="MET" partition="train" sense-id="mnw.29435.sense.5" xml:id="c29435_0042">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c29435_0042">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29435.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29435</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1191">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c29435_0042.w.1027123">Dat</w>
-          <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.29435.sense.5" xml:id="c29435_0042.w.1027124">met</w>
+          <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c29435_0042.w.1027124" lemmaRef="mnw.29435.sense.5">met</w>
           <pc join="right" pos="PC" xml:id="c29435_0042.pc.pre.00402043" lemma="(">(</pc>
           <pc cert="1.0" lemma="=" pos="PC" resp="thomas" xml:id="c29435_0042.w.1027125">=</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c29435_0042.w.1027126">daermet</w>

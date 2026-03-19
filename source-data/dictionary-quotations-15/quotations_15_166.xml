@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05618" lemma="BRUUCWARE" partition="train" sense-id="mnw.05618.sense.1" xml:id="c05618_0006">
-        <date atLeast="1403" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c05618_0006">
+        <note>
+          <ab>
+            <date atLeast="1403" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BRUUCWARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05618.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05618</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.166">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c05618_0006.w.1051671">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c05618_0006.w.1051672">hy</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="vertijgen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c05618_0006.w.1051676">vertyen</w>
           <pc pos="PC" xml:id="c05618_0006.pc.floating.00417641" lemma="..">..</pc>
           <w cert="1.0" lemma="alzulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c05618_0006.w.1051678">alsulcke</w>
-          <w cert="1.0" lemma="bruikwaar" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.05618.sense.1" xml:id="c05618_0006.w.1051679">bruycweer</w>
+          <w cert="1.0" lemma="bruikwaar" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05618_0006.w.1051679" lemmaRef="mnw.05618.sense.1">bruycweer</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c05618_0006.w.1051680">ende</w>
           <w cert="1.0" lemma="erfpacht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05618_0006.w.1051681">erffpacht</w>
           <pc pos="PC" xml:id="c05618_0006.pc.post.00417642" lemma=",">,</pc>

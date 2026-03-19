@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26053" lemma="LIDEN" partition="train" sense-id="mnw.26053.sense.7" xml:id="c26053_0039">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c26053_0039">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26053.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26053</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1034">
           <w cert="1.0" lemma="des" pos="ADV(type=reg)" resp="thomas" xml:id="c26053_0039.w.337234">Des</w>
           <w cert="1.0" lemma="offeren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c26053_0039.w.337235">offerts</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26053_0039.w.337241">ende</w>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c26053_0039.w.337242">laets</w>
           <w cert="1.0" lemma="Jupiter" pos="NOU-P" resp="roland" xml:id="c26053_0039.w.337243">Jupiter</w>
-          <w cert="1.0" lemma="lijden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.26053.sense.7" xml:id="c26053_0039.w.337244">liden</w>
+          <w cert="1.0" lemma="lijden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c26053_0039.w.337244" lemmaRef="mnw.26053.sense.7">liden</w>
           <pc pos="PC" xml:id="c26053_0039.pc.floating.00130601" lemma=",">,</pc>
         </q>
       </cit>

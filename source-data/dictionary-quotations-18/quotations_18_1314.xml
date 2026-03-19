@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M077789" lemma="VERRUILEN" modern-lemma="verruilen" partition="train" pos="VRB" sense-id="M077789.bet.10" xml:id="M077789.eg.29297">
-        <date atLeast="1724" atMost="1724" timeSpan="1700-1750" />
+      <cit xml:id="M077789.eg.29297">
+        <note>
+          <ab>
+            <date atLeast="1724" atMost="1724" extent="1700-1750" />
+            <interpGrp type="lemma">
+              <interp>VERRUILEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M077789.bet.10</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>verruilen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M077789</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1314">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.325710">Zy</w>
           <pc join="right" pos="PC" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.pre.00110376" lemma="(">(</pc>
@@ -74,7 +93,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.325726">zy</w>
           <w cert="1.0" lemma="tegen" pos="ADP(type=pre)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.325727">tegen</w>
           <w cert="1.0" lemma="malkander" pos="PD(type=recip,position=free)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.325728">malkander</w>
-          <w cert="1.0" lemma="verruilen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="M077789.bet.10" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.325729">verruylden</w>
+          <w cert="1.0" lemma="verruilen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.325729" lemmaRef="M077789.bet.10">verruylden</w>
           <pc pos="PC" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00110381" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12033" lemma="GENENDE" partition="train" sense-id="mnw.12033.sense.7" xml:id="c12033_0053">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c12033_0053">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GENENDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12033.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12033</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.522">
           <pc join="right" pos="PC" xml:id="c12033_0053.pc.pre.00432544" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12033_0053.w.1025815">Hi</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c12033_0053.w.1025817">sijn</w>
           <w cert="1.0" lemma="zwaard" pos="NOU-C(number=sg)" resp="roland" xml:id="c12033_0053.w.1025818">swaert</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c12033_0053.w.1025819">met</w>
-          <w cert="1.0" lemma="genende" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12033.sense.7" xml:id="c12033_0053.w.1025820">geninde</w>
+          <w cert="1.0" lemma="genende" pos="NOU-C(number=sg)" resp="roland" xml:id="c12033_0053.w.1025820" lemmaRef="mnw.12033.sense.7">geninde</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12033_0053.w.1025821">ende</w>
           <w cert="1.0" lemma="afslaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c12033_0053.w.1025822">sloech<join n="mw_590044" />
           </w>

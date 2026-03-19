@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43046" lemma="PLEGEN" partition="test" sense-id="mnw.43046.sense.7" xml:id="c43046_0012">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c43046_0012">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PLEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43046.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1751">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c43046_0012.w.302754">Alle</w>
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c43046_0012.w.302755">die<join n="mw_597239" />
@@ -55,7 +68,7 @@
           </w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c43046_0012.w.302757">die</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c43046_0012.w.302758">sijns</w>
-          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.43046.sense.7" xml:id="c43046_0012.w.302759">plaghen</w>
+          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43046_0012.w.302759" lemmaRef="mnw.43046.sense.7">plaghen</w>
           <pc join="right" pos="PC" xml:id="c43046_0012.pc.pre.00118302" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c43046_0012.w.302760">van</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c43046_0012.w.302761">zijne</w>

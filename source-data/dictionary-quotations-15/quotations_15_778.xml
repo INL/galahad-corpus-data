@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31348" lemma="MUURPLATE" partition="train" sense-id="mnw.31348.sense.1" xml:id="c31348_0001">
-        <date atLeast="1468" atMost="1497" timeSpan="1450-1500" />
+      <cit xml:id="c31348_0001">
+        <note>
+          <ab>
+            <date atLeast="1468" atMost="1497" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MUURPLATE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31348.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31348</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.778">
           <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="c31348_0001.w.1385626">Noch</w>
           <w cert="1.0" lemma="acht" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c31348_0001.w.1385627">VIII</w>
-          <w cert="1.0" lemma="muurplaat" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.31348.sense.1" xml:id="c31348_0001.w.1385628">muerplaten</w>
+          <w cert="1.0" lemma="muurplaat" pos="NOU-C(number=pl)" resp="roland" xml:id="c31348_0001.w.1385628" lemmaRef="mnw.31348.sense.1">muerplaten</w>
           <pc pos="PC" xml:id="c31348_0001.pc.floating.00545268" lemma=",">,</pc>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c31348_0001.w.1385630">elc</w>
           <w cert="1.0" lemma="lang" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c31348_0001.w.1385631">lanc</w>

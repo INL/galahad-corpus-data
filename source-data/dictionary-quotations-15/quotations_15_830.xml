@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32999" lemma="NOSELOC" partition="train" sense-id="mnw.32999.sense.1" xml:id="c32999_0003">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c32999_0003">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NOSELOC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32999.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32999</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.830">
           <w cert="1.0" lemma="totdat+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c32999_0003.w.1731862">Tot<join n="mw_479718" />
           </w>
@@ -54,7 +67,7 @@
           </w>
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c32999_0003.w.1731864">door</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c32999_0003.w.1731865">uwe</w>
-          <w cert="1.0" lemma="neuslok" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.32999.sense.1" xml:id="c32999_0003.w.1731866">nooslocken</w>
+          <w cert="1.0" lemma="neuslok" pos="NOU-C(number=pl)" resp="roland" xml:id="c32999_0003.w.1731866" lemmaRef="mnw.32999.sense.1">nooslocken</w>
           <w cert="1.0" lemma="uitkomen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c32999_0003.w.1731867">comen<join n="mw_889532" />
           </w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c32999_0003.w.1731868">sal</w>

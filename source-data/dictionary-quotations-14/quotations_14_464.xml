@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11172" lemma="GEHOREN" partition="train" sense-id="mnw.11172.sense.5" xml:id="c11172_0040">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c11172_0040">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEHOREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11172.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11172</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.464">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c11172_0040.w.843431">Doe</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11172_0040.w.843432">si</w>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c11172_0040.w.843433">dit</w>
-          <w cert="1.0" lemma="gehoren" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.11172.sense.5" xml:id="c11172_0040.w.843434">ghehoorden</w>
+          <w cert="1.0" lemma="gehoren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c11172_0040.w.843434" lemmaRef="mnw.11172.sense.5">ghehoorden</w>
           <pc pos="PC" xml:id="c11172_0040.pc.floating.00359402" lemma=",">,</pc>
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c11172_0040.w.843436">doe</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c11172_0040.w.843437">worden</w>

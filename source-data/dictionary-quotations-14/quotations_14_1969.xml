@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48336" lemma="SAP" partition="train" sense-id="mnw.48336.sense.2" xml:id="c48336_0006">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c48336_0006">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48336.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48336</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1969">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48336_0006.w.116566">Die</w>
           <w cert="1.0" lemma="dauw" pos="NOU-C(number=sg)" resp="roland" xml:id="c48336_0006.w.116567">dou</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c48336_0006.w.116568">ende</w>
-          <w cert="1.0" lemma="dat+sap" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.48336.sense.2" xml:id="c48336_0006.w.116569">tsap</w>
+          <w cert="1.0" lemma="dat+sap" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c48336_0006.w.116569" lemmaRef="mnw.48336.sense.2">tsap</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c48336_0006.w.116570">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c48336_0006.w.116571">den</w>
           <w cert="1.0" lemma="boom" pos="NOU-C(number=pl)" resp="roland" xml:id="c48336_0006.w.116572">bomen</w>

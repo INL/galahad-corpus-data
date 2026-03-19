@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64398" lemma="VERSCHIETEN" partition="train" sense-id="mnw.64398.sense.15" xml:id="c64398_0040">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c64398_0040">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERSCHIETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64398.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64398</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1877">
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c64398_0040.w.1736629">Int</w>
           <pc join="right" pos="PC" xml:id="c64398_0040.pc.pre.00692425" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           </w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c64398_0040.w.1736632">als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c64398_0040.w.1736633">hi</w>
-          <w cert="1.0" lemma="verschieten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.64398.sense.15" xml:id="c64398_0040.w.1736634">verscoot</w>
+          <w cert="1.0" lemma="verschieten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c64398_0040.w.1736634" lemmaRef="mnw.64398.sense.15">verscoot</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c64398_0040.w.1736635">was</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64398_0040.w.1736636">hy</w>
           <w cert="1.0" lemma="bijna" pos="ADV(type=reg)" resp="thomas" xml:id="c64398_0040.w.1736637">byna</w>

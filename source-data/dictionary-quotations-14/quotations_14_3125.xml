@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73480" lemma="WIJS" partition="train" sense-id="mnw.73480.sense.6" xml:id="c73480_0055">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c73480_0055">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WIJS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73480.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73480</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3125">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73480_0055.w.1865322">De</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c73480_0055.w.1865323">grote</w>
-          <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.73480.sense.6" xml:id="c73480_0055.w.1865324">wise</w>
+          <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c73480_0055.w.1865324" lemmaRef="mnw.73480.sense.6">wise</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c73480_0055.w.1865325">here</w>
           <pc join="right" pos="PC" xml:id="c73480_0055.pc.pre.00735778" lemma="(">(</pc>
           <pc cert="1.0" lemma="=" pos="PC" resp="thomas" xml:id="c73480_0055.w.1865326">=</pc>

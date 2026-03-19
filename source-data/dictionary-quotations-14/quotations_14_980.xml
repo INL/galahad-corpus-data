@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25143" lemma="LATIJN" partition="train" sense-id="mnw.25143.sense.4" xml:id="c25143_0028">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c25143_0028">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LATIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25143.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25143</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.980">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25143_0028.w.141390">Hi</w>
           <w cert="1.0" lemma="willen+er" pos="VRB(finiteness=fin,tense=past)+ADV(type=reg)" resp="roland" xml:id="c25143_0028.w.141391">wilder</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="best" pos="AA(degree=sup,position=free)" resp="roland" xml:id="c25143_0028.w.141402">best</w>
           <w cert="1.0" lemma="kennen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25143_0028.w.141403">kinnen</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c25143_0028.w.141404">haer</w>
-          <w cert="1.0" lemma="Latijn" pos="NOU-P" resp="roland" sense-id="mnw.25143.sense.4" xml:id="c25143_0028.w.141405">latijn</w>
+          <w cert="1.0" lemma="Latijn" pos="NOU-P" resp="roland" xml:id="c25143_0028.w.141405" lemmaRef="mnw.25143.sense.4">latijn</w>
           <pc pos="PC" xml:id="c25143_0028.pc.floating.00055144" lemma=",">,</pc>
         </q>
       </cit>

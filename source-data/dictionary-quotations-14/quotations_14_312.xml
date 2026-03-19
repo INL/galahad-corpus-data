@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07012" lemma="DONDER" partition="train" sense-id="mnw.07012.sense.1" xml:id="c07012_0003">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c07012_0003">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DONDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07012.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07012</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.312">
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="roland" xml:id="c07012_0003.w.210684">Waer</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c07012_0003.w.210685">so</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="steen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c07012_0003.w.210688">steen</w>
           <pc pos="PC" xml:id="c07012_0003.pc.post.00089318" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+er" pos="CONJ(type=sub)+ADV(type=reg)" resp="thomas" xml:id="c07012_0003.w.210689">datter</w>
-          <w cert="1.0" lemma="donder" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.07012.sense.1" xml:id="c07012_0003.w.210690">donre</w>
+          <w cert="1.0" lemma="donder" pos="NOU-C(number=sg)" resp="roland" xml:id="c07012_0003.w.210690" lemmaRef="mnw.07012.sense.1">donre</w>
           <w cert="1.0" lemma="schaden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07012_0003.w.210691">scaet</w>
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,position=free)" resp="roland" xml:id="c07012_0003.w.210692">engheen</w>
           <pc pos="PC" xml:id="c07012_0003.pc.post.00089319" lemma=",">,</pc>

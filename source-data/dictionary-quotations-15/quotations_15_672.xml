@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27143" lemma="LUDEN" partition="dev" sense-id="mnw.27143.sense.5" xml:id="c27143_0029">
-        <date atLeast="1443" atMost="1451" timeSpan="1400-1450" />
+      <cit xml:id="c27143_0029">
+        <note>
+          <ab>
+            <date atLeast="1443" atMost="1451" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LUDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27143.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27143</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.672">
           <pc join="right" pos="PC" xml:id="c27143_0029.pc.pre.00231108" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c27143_0029.w.597113">Si</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="donker" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c27143_0029.w.597117">dunkeren</w>
           <w cert="1.0" lemma="woord" pos="NOU-C(number=pl)" resp="thomas" xml:id="c27143_0029.w.597118">woorden</w>
           <w cert="1.0" lemma="genoeg" pos="ADV(type=reg)" resp="thomas" xml:id="c27143_0029.w.597119">ghenoech</w>
-          <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.27143.sense.5" xml:id="c27143_0029.w.597120">luden</w>
+          <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="thomas" xml:id="c27143_0029.w.597120" lemmaRef="mnw.27143.sense.5">luden</w>
           <pc pos="PC" xml:id="c27143_0029.pc.floating.00231110" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c27143_0029.w.597122">dat</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c27143_0029.w.597123">de</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10233" lemma="GAST" partition="dev" sense-id="mnw.10233.sense.12" xml:id="c10233_0055">
-        <date atLeast="1470" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c10233_0055">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GAST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10233.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10233</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.258">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c10233_0055.w.684781">So</w>
           <w cert="1.0" lemma="na" pos="ADV(type=reg)" resp="thomas" xml:id="c10233_0055.w.684782">na</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c10233_0055.w.684784">sy</w>
           <w cert="1.0" lemma="rijden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c10233_0055.w.684785">ryden</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c10233_0055.w.684786">den</w>
-          <w cert="1.0" lemma="gast" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.10233.sense.12" xml:id="c10233_0055.w.684787">gasten</w>
+          <w cert="1.0" lemma="gast" pos="NOU-C(number=pl)" resp="roland" xml:id="c10233_0055.w.684787" lemmaRef="mnw.10233.sense.12">gasten</w>
           <pc pos="PC" xml:id="c10233_0055.pc.floating.00294242" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c10233_0055.w.684789">dat</w>
           <w cert="1.0" lemma="zij+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c10233_0055.w.684790">syse</w>

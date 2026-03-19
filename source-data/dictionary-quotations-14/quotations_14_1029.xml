@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26044" lemma="LICION" partition="train" sense-id="mnw.26044.sense.1" xml:id="c26044_0000">
-        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c26044_0000">
+        <note>
+          <ab>
+            <date atLeast="1290" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LICION</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26044.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26044</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1029">
           <w cert="1.0" lemma="salterion" pos="NOU-C(number=sg)" resp="roland" xml:id="c26044_0000.w.333836">Salterion</w>
           <pc pos="PC" xml:id="c26044_0000.pc.post.00129371" lemma=",">,</pc>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c26044_0000.pc.post.00129375" lemma=",">,</pc>
           <w cert="1.0" lemma="koor" pos="NOU-C(number=sg)" resp="roland" xml:id="c26044_0000.w.333842">chore</w>
           <pc pos="PC" xml:id="c26044_0000.pc.post.00129376" lemma=",">,</pc>
-          <w cert="1.0" lemma="licion" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.26044.sense.1" xml:id="c26044_0000.w.333843">licion</w>
+          <w cert="1.0" lemma="licion" pos="NOU-C(number=sg)" resp="thomas" xml:id="c26044_0000.w.333843" lemmaRef="mnw.26044.sense.1">licion</w>
           <pc pos="PC" xml:id="c26044_0000.pc.floating.00129377" lemma=",">,</pc>
           <pc pos="PC" xml:id="c26044_0000.pc.floating.00129378" lemma="..,">..,</pc>
           <w cert="1.0" lemma="instrument" pos="NOU-C(number=pl)" resp="roland" xml:id="c26044_0000.w.333846">instrumente</w>

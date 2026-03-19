@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10149" lemma="GANS" partition="train" sense-id="mnw.10149.sense.8" xml:id="c10149_0070">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c10149_0070">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GANS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10149.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10149</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.417">
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c10149_0070.w.673340">Danne</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c10149_0070.w.673341">so</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c10149_0070.w.673343">hi</w>
           <pc pos="PC" xml:id="c10149_0070.pc.floating.00289324" lemma="..">..</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c10149_0070.w.673345">den</w>
-          <w cert="1.0" lemma="gans" pos="AA(degree=sup,position=prenom)" resp="thomas" sense-id="mnw.10149.sense.8" xml:id="c10149_0070.w.673346">gansten</w>
+          <w cert="1.0" lemma="gans" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="c10149_0070.w.673346" lemmaRef="mnw.10149.sense.8">gansten</w>
           <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="roland" xml:id="c10149_0070.w.673347">raet</w>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c10149_0070.w.673348">enten</w>
           <w cert="1.0" lemma="beste" pos="NOU-C(number=sg)" resp="roland" xml:id="c10149_0070.w.673349">besten</w>

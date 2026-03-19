@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54563" lemma="STAKEN" partition="test" sense-id="mnw.54563.sense.11" xml:id="c54563_0021">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c54563_0021">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>STAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54563.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54563</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2200">
           <pc join="right" pos="PC" xml:id="c54563_0021.pc.pre.00590486" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c54563_0021.w.1426108">De</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c54563_0021.w.1426122">daer</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c54563_0021.w.1426123">te</w>
           <w cert="1.0" lemma="varen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c54563_0021.w.1426124">vaerne</w>
-          <w cert="1.0" lemma="staken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.54563.sense.11" xml:id="c54563_0021.w.1426125">staect</w>
+          <w cert="1.0" lemma="staken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c54563_0021.w.1426125" lemmaRef="mnw.54563.sense.11">staect</w>
           <pc pos="PC" xml:id="c54563_0021.pc.floating.00590490" lemma=",">,</pc>
         </q>
       </cit>

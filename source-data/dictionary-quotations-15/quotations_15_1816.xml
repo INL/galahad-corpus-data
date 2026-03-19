@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63419" lemma="VERLANC" partition="train" sense-id="mnw.63419.sense.3" xml:id="c63419_0010">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c63419_0010">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERLANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63419.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63419</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1816">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c63419_0010.w.1458430">Al</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63419_0010.w.1458431">es</w>
@@ -76,7 +89,7 @@
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c63419_0010.w.1458451">al</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63419_0010.w.1458452">es</w>
           <w cert="1.0" lemma="klein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c63419_0010.w.1458453">clein</w>
-          <w cert="1.0" lemma="verlang" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.63419.sense.3" xml:id="c63419_0010.w.1458454">verlanc</w>
+          <w cert="1.0" lemma="verlang" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63419_0010.w.1458454" lemmaRef="mnw.63419.sense.3">verlanc</w>
           <pc join="right" pos="PC" xml:id="c63419_0010.pc.pre.00583104" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63419_0010.w.1458455">weinig</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63419_0010.w.1458456">gelegen</w>

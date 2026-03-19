@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.24419" lemma="CURE" partition="test" sense-id="mnw.24419.sense.1" xml:id="c24419_0000">
-        <date atLeast="1359" atMost="1386" timeSpan="1350-1400" />
+      <cit xml:id="c24419_0000">
+        <note>
+          <ab>
+            <date atLeast="1359" atMost="1386" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.24419.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.24419</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.947">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c24419_0000.w.1509800">De</w>
           <w cert="1.0" lemma="priester" pos="NOU-C(number=sg)" resp="roland" xml:id="c24419_0000.w.1509801">priester</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c24419_0000.w.1509804">haers</w>
           <w cert="1.0" lemma="lichaam" pos="NOU-C(number=sg)" resp="roland" xml:id="c24419_0000.w.1509805">lichamen</w>
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c24419_0000.w.1509806">nam</w>
-          <w cert="1.0" lemma="kuur" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.24419.sense.1" xml:id="c24419_0000.w.1509807">cure</w>
+          <w cert="1.0" lemma="kuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c24419_0000.w.1509807" lemmaRef="mnw.24419.sense.1">cure</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c24419_0000.w.1509808">ende</w>
           <w cert="1.0" lemma="waar" pos="NOU-C(number=sg)" resp="thomas" xml:id="c24419_0000.w.1509809">ware</w>
           <pc pos="PC" xml:id="c24419_0000.pc.post.00606701" lemma=",">,</pc>

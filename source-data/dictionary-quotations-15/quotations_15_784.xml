@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31649" lemma="NAGEBUUR" partition="train" sense-id="mnw.31649.sense.1" xml:id="c31649_0007">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c31649_0007">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NAGEBUUR</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31649.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31649</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.784">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c31649_0007.w.1445980">Daer</w>
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=pl)" resp="roland" xml:id="c31649_0007.w.1445981">ridders</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c31649_0007.pc.post.00569396" lemma=",">,</pc>
           <w cert="1.0" lemma="vreemde" pos="NOU-C(number=sg)" resp="thomas" xml:id="c31649_0007.w.1445986">vremde</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c31649_0007.w.1445987">ende</w>
-          <w cert="1.0" lemma="nagebuur" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.31649.sense.1" xml:id="c31649_0007.w.1445988">nagheboere</w>
+          <w cert="1.0" lemma="nagebuur" pos="NOU-C(number=sg)" resp="thomas" xml:id="c31649_0007.w.1445988" lemmaRef="mnw.31649.sense.1">nagheboere</w>
           <pc pos="PC" xml:id="c31649_0007.pc.floating.00569397" lemma=",">,</pc>
           <w cert="1.0" lemma="tonen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31649_0007.w.1445990">toonden</w>
           <w cert="1.0" lemma="ridderlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c31649_0007.w.1445991">ridderlijke</w>

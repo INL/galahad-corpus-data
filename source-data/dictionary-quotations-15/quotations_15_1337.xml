@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50471" lemma="SCHRIFTURE" partition="train" sense-id="mnw.50471.sense.5" xml:id="c50471_0005">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c50471_0005">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHRIFTURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50471.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50471</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1337">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c50471_0005.w.555224">Doe</w>
           <w cert="1.0" lemma="roepen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c50471_0005.w.555225">riep</w>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c50471_0005.pc.floating.00229265" lemma="…,">…,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c50471_0005.w.555234">dat</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c50471_0005.w.555235">mine</w>
-          <w cert="1.0" lemma="schriftuur" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.50471.sense.5" xml:id="c50471_0005.w.555236">scrifture</w>
+          <w cert="1.0" lemma="schriftuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c50471_0005.w.555236" lemmaRef="mnw.50471.sense.5">scrifture</w>
           <pc join="right" pos="PC" xml:id="c50471_0005.pc.pre.00229266" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50471_0005.w.555237">hetgeen</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50471_0005.w.555238">ik</w>

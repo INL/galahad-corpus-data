@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30553" lemma="MOLENCORF" partition="train" sense-id="mnw.30553.sense.1" xml:id="c30553_0000">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c30553_0000">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MOLENCORF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30553.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30553</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.762">
           <w cert="1.0" lemma="crathera" pos="NOU-C(number=sg)" resp="thomas" xml:id="c30553_0000.w.1274735">Crathera</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c30553_0000.w.1274736">is</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="luiken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c30553_0000.w.1274743">gelooken</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c30553_0000.w.1274744">als</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c30553_0000.w.1274745">een</w>
-          <w cert="1.0" lemma="molenkorf" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.30553.sense.1" xml:id="c30553_0000.w.1274746">moolencorff</w>
+          <w cert="1.0" lemma="molenkorf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c30553_0000.w.1274746" lemmaRef="mnw.30553.sense.1">moolencorff</w>
           <pc pos="PC" xml:id="c30553_0000.pc.floating.00500746" lemma=",">,</pc>
         </q>
       </cit>

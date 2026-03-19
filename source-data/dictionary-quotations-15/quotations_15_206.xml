@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07516" lemma="DOVEN" partition="train" sense-id="mnw.07516.sense.1" xml:id="c07516_0005">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c07516_0005">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DOVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07516.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07516</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.206">
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07516_0005.w.273731">Het</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07516_0005.w.273732">doet</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c07516_0005.w.273735">dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07516_0005.w.273736">ghi</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c07516_0005.w.273737">so</w>
-          <w cert="1.0" lemma="doven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.07516.sense.1" xml:id="c07516_0005.w.273738">dooft</w>
+          <w cert="1.0" lemma="doven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07516_0005.w.273738" lemmaRef="mnw.07516.sense.1">dooft</w>
           <pc pos="PC" xml:id="c07516_0005.pc.floating.00118033" lemma=",">,</pc>
         </q>
       </cit>

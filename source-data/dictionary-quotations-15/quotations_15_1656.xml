@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59298" lemma="TREPAS" partition="train" sense-id="mnw.59298.sense.1" xml:id="c59298_0001">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c59298_0001">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TREPAS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59298.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59298</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1656">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c59298_0001.w.513390">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c59298_0001.w.513391">hi</w>
@@ -66,7 +79,7 @@
           </w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c59298_0001.w.513404">een</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c59298_0001.w.513405">groot</w>
-          <w cert="1.0" lemma="trepas" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.59298.sense.1" xml:id="c59298_0001.w.513406">trepas</w>
+          <w cert="1.0" lemma="trepas" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59298_0001.w.513406" lemmaRef="mnw.59298.sense.1">trepas</w>
           <w cert="1.0" lemma="daartussen" pos="ADV(type=pron)" resp="thomas" xml:id="c59298_0001.w.513407">tusscen<join n="mw_232362" />
           </w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c59298_0001.w.513408">es</w>

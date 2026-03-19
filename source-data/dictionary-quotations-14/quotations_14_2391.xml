@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59043" lemma="TOTE" partition="dev" sense-id="mnw.59043.sense.10" xml:id="c59043_0133">
-        <date atLeast="1380" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c59043_0133">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TOTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59043.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59043</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2391">
           <pc pos="PC" xml:id="c59043_0133.pc.floating.00184307" lemma="—">—</pc>
           <pc join="right" pos="PC" xml:id="c59043_0133.pc.pre.00184308" lemma="(">(</pc>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c59043_0133.pc.post.00184309" lemma=")">)</pc>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c59043_0133.w.456165">bleven</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c59043_0133.w.456166">daer</w>
-          <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.59043.sense.10" xml:id="c59043_0133.w.456167">tote</w>
+          <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c59043_0133.w.456167" lemmaRef="mnw.59043.sense.10">tote</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c59043_0133.w.456168">op</w>
           <w cert="1.0" lemma="de+een" pos="PD(type=d-p,subtype=art,position=prenom)+NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c59043_0133.w.456169">deen</w>
           <w cert="1.0" lemma="dag" pos="NOU-C(number=sg)" resp="roland" xml:id="c59043_0133.w.456170">dach</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42680" lemma="PILEN" partition="train" sense-id="mnw.42680.sense.1" xml:id="c42680_0000">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c42680_0000">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PILEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42680.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42680</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1093">
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c42680_0000.w.232184">Up</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c42680_0000.w.232185">de</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="laken" pos="NOU-C(number=sg)" resp="roland" xml:id="c42680_0000.w.232192">lakene</w>
           <w cert="1.0" lemma="aan" pos="ADV(type=reg)" resp="thomas" xml:id="c42680_0000.w.232193">an</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c42680_0000.w.232194">te</w>
-          <w cert="1.0" lemma="pijlen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.42680.sense.1" xml:id="c42680_0000.w.232195">pijlne</w>
+          <w cert="1.0" lemma="pijlen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c42680_0000.w.232195" lemmaRef="mnw.42680.sense.1">pijlne</w>
           <pc pos="PC" xml:id="c42680_0000.pc.floating.00089863" lemma=",">,</pc>
         </q>
       </cit>

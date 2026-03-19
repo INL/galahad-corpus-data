@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49963" lemma="SCHOLENARE" partition="train" sense-id="mnw.49963.sense.1" xml:id="c49963_0000">
-        <date atLeast="1480" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c49963_0000">
+        <note>
+          <ab>
+            <date atLeast="1480" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHOLENARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49963.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49963</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1321">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c49963_0000.w.455245">Een</w>
-          <w cert="1.0" lemma="scholenaar" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.49963.sense.1" xml:id="c49963_0000.w.455246">scolenaer</w>
+          <w cert="1.0" lemma="scholenaar" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49963_0000.w.455246" lemmaRef="mnw.49963.sense.1">scolenaer</w>
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c49963_0000.w.455247">doe</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c49963_0000.w.455248">hi</w>
           <w cert="1.0" lemma="bekeren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c49963_0000.w.455249">bekeerde</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50460" lemma="SCHRIËN" partition="train" sense-id="mnw.50460.sense.1" xml:id="c50460_0000">
-        <date atLeast="1470" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c50460_0000">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHRIËN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50460.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50460</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1335">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c50460_0000.w.551917">Ic</w>
           <w cert="1.0" lemma="wanen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c50460_0000.w.551918">waen</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c50460_0000.w.551924">hoort</w>
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c50460_0000.w.551925">hoe</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c50460_0000.w.551926">sy</w>
-          <w cert="1.0" lemma="schriën" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.50460.sense.1" xml:id="c50460_0000.w.551927">scryen</w>
+          <w cert="1.0" lemma="schriën" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c50460_0000.w.551927" lemmaRef="mnw.50460.sense.1">scryen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50460_0000.w.551928">ende</w>
           <w cert="1.0" lemma="gebaren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c50460_0000.w.551929">ghebaren</w>
           <pc pos="PC" xml:id="c50460_0000.pc.post.00227830" lemma=",">,</pc>

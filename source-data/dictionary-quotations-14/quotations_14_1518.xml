@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37336" lemma="ONTGRAVEN" partition="train" sense-id="mnw.37336.sense.2" xml:id="c37336_0006">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c37336_0006">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTGRAVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37336.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37336</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1518">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c37336_0006.w.689560">Een</w>
           <w cert="1.0" lemma="hout" pos="NOU-C(number=sg)" resp="roland" xml:id="c37336_0006.w.689561">hout</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="stede" pos="NOU-C(number=sg)" resp="roland" xml:id="c37336_0006.w.689567">stede</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c37336_0006.w.689568">die</w>
           <w cert="1.0" lemma="aarde" pos="NOU-C(number=sg)" resp="roland" xml:id="c37336_0006.w.689569">erde</w>
-          <w cert="1.0" lemma="ontgraven" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.37336.sense.2" xml:id="c37336_0006.w.689570">ontgroeven</w>
+          <w cert="1.0" lemma="ontgraven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37336_0006.w.689570" lemmaRef="mnw.37336.sense.2">ontgroeven</w>
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c37336_0006.w.689571">mede<join n="mw_993135" />
           </w>
           <pc pos="PC" xml:id="c37336_0006.pc.post.00279338" lemma=",">,</pc>

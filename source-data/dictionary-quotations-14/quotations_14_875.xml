@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22101" lemma="CLOP" partition="dev" sense-id="mnw.22101.sense.3" xml:id="c22101_0014">
-        <date atLeast="1359" atMost="1386" timeSpan="1350-1400" />
+      <cit xml:id="c22101_0014">
+        <note>
+          <ab>
+            <date atLeast="1359" atMost="1386" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CLOP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22101.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22101</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.875">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c22101_0014.w.1092379">Si</w>
           <w cert="1.0" lemma="opstaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c22101_0014.w.1092380">stont<join n="mw_799220" />
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="uitlokken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c22101_0014.w.1092387">ute<join n="mw_361969" />
           </w>
           <w cert="1.0" lemma="te+een" pos="ADP(type=pre)+PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c22101_0014.w.1092388">tenen</w>
-          <w cert="1.0" lemma="klop" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.22101.sense.3" xml:id="c22101_0014.w.1092389">cloppe</w>
+          <w cert="1.0" lemma="klop" pos="NOU-C(number=sg)" resp="roland" xml:id="c22101_0014.w.1092389" lemmaRef="mnw.22101.sense.3">cloppe</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c22101_0014.w.1092390">al</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c22101_0014.w.1092391">de</w>
           <w cert="1.0" lemma="hond" pos="NOU-C(number=pl)" resp="thomas" xml:id="c22101_0014.w.1092392">honden</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32925" lemma="NOPEN" partition="test" sense-id="mnw.32925.sense.28" xml:id="c32925_0068">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c32925_0068">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NOPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32925.sense.28</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32925</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.829">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c32925_0068.w.1722047">Wat</w>
           <w cert="1.0" lemma="willen+du" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c32925_0068.w.1722048">wiltu</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="pijnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c32925_0068.w.1722051">pijns</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c32925_0068.w.1722052">mi</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c32925_0068.w.1722053">ende</w>
-          <w cert="1.0" lemma="nopen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.32925.sense.28" xml:id="c32925_0068.w.1722054">nopes</w>
+          <w cert="1.0" lemma="nopen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c32925_0068.w.1722054" lemmaRef="mnw.32925.sense.28">nopes</w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c32925_0068.w.1722055">mede</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c32925_0068.w.1722056">met</w>
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c32925_0068.w.1722057">dinen</w>

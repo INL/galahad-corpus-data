@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14729" lemma="GRAS" partition="test" sense-id="mnw.14729.sense.10" xml:id="c14729_0067">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c14729_0067">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GRAS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14729.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14729</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.659">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c14729_0067.w.1528112">Daer</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c14729_0067.w.1528113">hi</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c14729_0067.w.1528116">in</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c14729_0067.w.1528117">enen</w>
           <w cert="1.0" lemma="groen" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c14729_0067.w.1528118">groenen</w>
-          <w cert="1.0" lemma="gras" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14729.sense.10" xml:id="c14729_0067.w.1528119">grase</w>
+          <w cert="1.0" lemma="gras" pos="NOU-C(number=sg)" resp="roland" xml:id="c14729_0067.w.1528119" lemmaRef="mnw.14729.sense.10">grase</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c14729_0067.w.1528120">slouch</w>
           <pc pos="PC" xml:id="c14729_0067.pc.post.00639723" lemma=",">,</pc>
         </q>

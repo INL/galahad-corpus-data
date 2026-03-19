@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34649" lemma="ONDERLINGE" partition="test" sense-id="mnw.34649.sense.1" xml:id="c34649_0001">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c34649_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONDERLINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34649.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34649</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1421">
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c34649_0001.w.245542">Haer</w>
           <pc join="right" pos="PC" xml:id="c34649_0001.pc.pre.00101717" lemma="(">(</pc>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c34649_0001.w.245544">katten</w>
           <pc pos="PC" xml:id="c34649_0001.pc.post.00101718" lemma=")">)</pc>
           <w cert="1.0" lemma="vechten" pos="NOU-C(number=sg)" resp="thomas" xml:id="c34649_0001.w.245545">vechten</w>
-          <w cert="1.0" lemma="onderling" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.34649.sense.1" xml:id="c34649_0001.w.245546">onderlanghe</w>
+          <w cert="1.0" lemma="onderling" pos="ADV(type=reg)" resp="thomas" xml:id="c34649_0001.w.245546" lemmaRef="mnw.34649.sense.1">onderlanghe</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c34649_0001.w.245547">es</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c34649_0001.w.245548">groot</w>
           <pc pos="PC" xml:id="c34649_0001.pc.post.00101719" lemma=",">,</pc>

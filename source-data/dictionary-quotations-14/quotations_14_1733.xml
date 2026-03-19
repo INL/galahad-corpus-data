@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42628" lemma="PIJNLIJCHEIT" partition="train" sense-id="mnw.42628.sense.3" xml:id="c42628_0017">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c42628_0017">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PIJNLIJCHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42628.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42628</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1733">
           <w cert="1.0" lemma="de+ootmoedige" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c42628_0017.w.223644">Domoedege</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c42628_0017.w.223645">adde</w>
@@ -73,7 +86,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42628_0017.w.223666">ende</w>
           <w cert="1.0" lemma="verdrijven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c42628_0017.w.223667">verdreef</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c42628_0017.w.223668">de</w>
-          <w cert="1.0" lemma="pijnlijkheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42628.sense.3" xml:id="c42628_0017.w.223669">pijnlichede</w>
+          <w cert="1.0" lemma="pijnlijkheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c42628_0017.w.223669" lemmaRef="mnw.42628.sense.3">pijnlichede</w>
           <pc pos="PC" xml:id="c42628_0017.pc.floating.00086522" lemma=",">,</pc>
         </q>
       </cit>

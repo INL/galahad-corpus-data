@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72489" lemma="WERELTLIJC" partition="train" sense-id="mnw.72489.sense.3" xml:id="c72489_0070">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c72489_0070">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WERELTLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72489.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72489</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2179">
           <w cert="1.0" lemma="bezien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c72489_0070.w.1653199">Besie</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c72489_0070.w.1653200">den</w>
@@ -74,7 +87,7 @@
           <pc pos="PC" xml:id="c72489_0070.pc.post.00659194" lemma=",">,</pc>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="thomas" xml:id="c72489_0070.w.1653218">of</w>
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c72489_0070.w.1653219">dinen</w>
-          <w cert="1.0" lemma="wereldlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.72489.sense.3" xml:id="c72489_0070.w.1653220">weerliken</w>
+          <w cert="1.0" lemma="wereldlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c72489_0070.w.1653220" lemmaRef="mnw.72489.sense.3">weerliken</w>
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72489_0070.w.1653221">vader</w>
           <pc pos="PC" xml:id="c72489_0070.pc.post.00659195" lemma=",">,</pc>
         </q>

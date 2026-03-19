@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36131" lemma="ONGEVALLICHEIT" partition="train" sense-id="mnw.36131.sense.1" xml:id="c36131_0004">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c36131_0004">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONGEVALLICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36131.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36131</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1460">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c36131_0004.w.462469">Doe</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c36131_0004.w.462470">si</w>
@@ -90,7 +103,7 @@
           <w cert="1.0" lemma="bidden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c36131_0004.w.462502">gebeden</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c36131_0004.w.462503">van</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c36131_0004.w.462504">diere</w>
-          <w cert="1.0" lemma="ongevalligheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.36131.sense.1" xml:id="c36131_0004.w.462505">ongevallicheden</w>
+          <w cert="1.0" lemma="ongevalligheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c36131_0004.w.462505" lemmaRef="mnw.36131.sense.1">ongevallicheden</w>
           <pc pos="PC" xml:id="c36131_0004.pc.floating.00189214" lemma=",">,</pc>
         </q>
       </cit>

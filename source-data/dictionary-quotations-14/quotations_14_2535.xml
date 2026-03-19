@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62222" lemma="VERBODINGE" partition="train" sense-id="mnw.62222.sense.1" xml:id="c62222_0002">
-        <date atLeast="1380" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c62222_0002">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERBODINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62222.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62222</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2535">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c62222_0002.w.1126163">Doe</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c62222_0002.w.1126164">ons</w>
-          <w cert="1.0" lemma="verboding" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.62222.sense.1" xml:id="c62222_0002.w.1126165">verbodinghe</w>
+          <w cert="1.0" lemma="verboding" pos="NOU-C(number=sg)" resp="roland" xml:id="c62222_0002.w.1126165" lemmaRef="mnw.62222.sense.1">verbodinghe</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62222_0002.w.1126166">quam</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62222_0002.w.1126167">vander</w>
           <w cert="1.0" lemma="verzamening" pos="NOU-C(number=sg)" resp="roland" xml:id="c62222_0002.w.1126168">versameninghe</w>

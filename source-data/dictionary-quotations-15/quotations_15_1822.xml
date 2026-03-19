@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63450" lemma="VERLEDIGEN" partition="train" sense-id="mnw.63450.sense.2" xml:id="c63450_0001">
-        <date atLeast="1455" atMost="1455" timeSpan="1450-1500" />
+      <cit xml:id="c63450_0001">
+        <note>
+          <ab>
+            <date atLeast="1455" atMost="1455" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERLEDIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63450.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63450</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1822">
           <w cert="1.0" lemma="dat+er" pos="CONJ(type=sub)+ADV(type=reg)" resp="thomas" xml:id="c63450_0001.w.1471791">Datter</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c63450_0001.w.1471792">gheen</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c63450_0001.w.1471807">mit</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="c63450_0001.w.1471808">enighen</w>
           <w cert="1.0" lemma="mirakel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63450_0001.w.1471809">mirakel</w>
-          <w cert="1.0" lemma="verledigen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.63450.sense.2" xml:id="c63450_0001.w.1471810">verledichde</w>
+          <w cert="1.0" lemma="verledigen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63450_0001.w.1471810" lemmaRef="mnw.63450.sense.2">verledichde</w>
           <pc pos="PC" xml:id="c63450_0001.pc.floating.00588351" lemma=",">,</pc>
         </q>
       </cit>

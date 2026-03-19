@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08223" lemma="EDELIKE" partition="train" sense-id="mnw.08223.sense.1" xml:id="c08223_0000">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c08223_0000">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>EDELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08223.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08223</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.355">
           <pc join="right" pos="PC" xml:id="c08223_0000.pc.pre.00165981" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c08223_0000.w.384599">Hi</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c08223_0000.w.384606">ooc</w>
           <w cert="1.0" lemma="geboren" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c08223_0000.w.384607">gheboren</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c08223_0000.w.384608">so</w>
-          <w cert="1.0" lemma="edellijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.08223.sense.1" xml:id="c08223_0000.w.384609">edelike</w>
+          <w cert="1.0" lemma="edellijk" pos="ADV(type=reg)" resp="thomas" xml:id="c08223_0000.w.384609" lemmaRef="mnw.08223.sense.1">edelike</w>
           <pc pos="PC" xml:id="c08223_0000.pc.floating.00165983" lemma=",">,</pc>
         </q>
       </cit>

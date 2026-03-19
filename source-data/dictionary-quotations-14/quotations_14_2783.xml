@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66638" lemma="VLEC" partition="train" sense-id="mnw.66638.sense.1" xml:id="c66638_0010">
-        <date atLeast="1383" atMost="1383" timeSpan="1350-1400" />
+      <cit xml:id="c66638_0010">
+        <note>
+          <ab>
+            <date atLeast="1383" atMost="1383" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VLEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66638.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66638</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2783">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c66638_0010.w.438440">Een</w>
           <w cert="1.0" lemma="schip" pos="NOU-C(number=sg)" resp="roland" xml:id="c66638_0010.w.438441">scip</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="os" pos="NOU-C(number=sg)" resp="roland" xml:id="c66638_0010.w.438448">osse</w>
           <pc pos="PC" xml:id="c66638_0010.pc.post.00175186" lemma=",">,</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c66638_0010.w.438449">met</w>
-          <w cert="1.0" lemma="vlek" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.66638.sense.1" xml:id="c66638_0010.w.438450">vleken</w>
+          <w cert="1.0" lemma="vlek" pos="NOU-C(number=pl)" resp="roland" xml:id="c66638_0010.w.438450" lemmaRef="mnw.66638.sense.1">vleken</w>
           <pc pos="PC" xml:id="c66638_0010.pc.floating.00175187" lemma=",">,</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c66638_0010.w.438452">met</w>
           <w cert="1.0" lemma="boter" pos="NOU-C(number=sg)" resp="roland" xml:id="c66638_0010.w.438453">botren</w>

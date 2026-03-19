@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70141" lemma="WACHEIT" partition="train" sense-id="mnw.70141.sense.1" xml:id="c70141_0010">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c70141_0010">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WACHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70141.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70141</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2953">
           <w cert="1.0" lemma="branden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70141_0010.w.1198122">Bernt</w>
           <w cert="1.0" lemma="essen" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c70141_0010.w.1198123">esscen</w>
           <w cert="1.0" lemma="hout" pos="NOU-C(number=sg)" resp="roland" xml:id="c70141_0010.w.1198124">hout</w>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70141_0010.w.1198125">entie</w>
-          <w cert="1.0" lemma="wakheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70141.sense.1" xml:id="c70141_0010.w.1198126">wacheit</w>
+          <w cert="1.0" lemma="wakheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c70141_0010.w.1198126" lemmaRef="mnw.70141.sense.1">wacheit</w>
           <w cert="1.0" lemma="die+er" pos="PD(type=d-p,position=free)+ADV(type=reg)" resp="roland" xml:id="c70141_0010.w.1198127">diere</w>
           <w cert="1.0" lemma="te+einde" pos="ADP(type=pre)+NOU-C(number=sg)" resp="roland" xml:id="c70141_0010.w.1198128">tenden</w>
           <w cert="1.0" lemma="uitlopen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70141_0010.w.1198129">uutloopt</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49125" lemma="SCHEIDEN" partition="dev" sense-id="mnw.49125.sense.11" xml:id="c49125_0019">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c49125_0019">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHEIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49125.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49125</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1988">
           <w cert="1.0" lemma="Gaudijn" pos="NOU-P" resp="roland" xml:id="c49125_0019.w.272798">Gaudijn</w>
           <w cert="1.0" lemma="komen+ertoe" pos="VRB(finiteness=fin,tense=past)+ADV(type=pron)" resp="roland" xml:id="c49125_0019.w.272799">quamer<join n="mw_995968" />
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="dringen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c49125_0019.w.272801">gedronghen</w>
           <pc pos="PC" xml:id="c49125_0019.pc.floating.00112708" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49125_0019.w.272803">ende</w>
-          <w cert="1.0" lemma="scheiden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.49125.sense.11" xml:id="c49125_0019.w.272804">sciet</w>
+          <w cert="1.0" lemma="scheiden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c49125_0019.w.272804" lemmaRef="mnw.49125.sense.11">sciet</w>
           <w cert="1.0" lemma="gene" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c49125_0019.w.272805">gheent</w>
           <w cert="1.0" lemma="parlement" pos="NOU-C(number=sg)" resp="roland" xml:id="c49125_0019.w.272806">parlement</w>
           <pc join="right" pos="PC" xml:id="c49125_0019.pc.pre.00112709" lemma="(">(</pc>

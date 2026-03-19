@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59523" lemma="TROUWEN" partition="test" sense-id="mnw.59523.sense.3" xml:id="c59523_0003">
-        <date atLeast="1470" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c59523_0003">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TROUWEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59523.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59523</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1663">
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c59523_0003.w.557922">Aldus</w>
           <w cert="1.0" lemma="toegaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c59523_0003.w.557923">ghingen<join n="mw_233381" />
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c59523_0003.w.557932">dese</w>
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c59523_0003.w.557933">IIII</w>
           <w cert="1.0" lemma="persoon" pos="NOU-C(number=pl)" resp="roland" xml:id="c59523_0003.w.557934">personen</w>
-          <w cert="1.0" lemma="trouwen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.59523.sense.3" xml:id="c59523_0003.w.557935">getruwet</w>
+          <w cert="1.0" lemma="trouwen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c59523_0003.w.557935" lemmaRef="mnw.59523.sense.3">getruwet</w>
           <pc pos="PC" xml:id="c59523_0003.pc.floating.00226163" lemma="…">…</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c59523_0003.w.557937">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c59523_0003.w.557938">den</w>

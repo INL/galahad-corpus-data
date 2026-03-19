@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60207" lemma="UTE" partition="test" sense-id="mnw.60207.sense.2" xml:id="c60207_0021">
-        <date atLeast="1375" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c60207_0021">
+        <note>
+          <ab>
+            <date atLeast="1375" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>UTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60207.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60207</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2440">
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c60207_0021.w.646554">Niemene</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c60207_0021.w.646555">mochte</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c60207_0021.pc.floating.00263433" lemma="…,">…,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60207_0021.w.646559">die</w>
           <w cert="1.0" lemma="drinken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c60207_0021.w.646560">dronke</w>
-          <w cert="1.0" lemma="uit+die" pos="ADP(type=pre)+PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" sense-id="mnw.60207.sense.2" xml:id="c60207_0021.w.646561">utien</w>
+          <w cert="1.0" lemma="uit+die" pos="ADP(type=pre)+PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c60207_0021.w.646561" lemmaRef="mnw.60207.sense.2">utien</w>
           <w cert="1.0" lemma="duur" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c60207_0021.w.646562">dieren</w>
           <w cert="1.0" lemma="vat" pos="NOU-C(number=pl)" resp="roland" xml:id="c60207_0021.w.646563">vate</w>
           <pc pos="PC" xml:id="c60207_0021.pc.post.00263434" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12592" lemma="GERUCHTE" partition="train" sense-id="mnw.12592.sense.4" xml:id="c12592_0051">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c12592_0051">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GERUCHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12592.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12592</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.551">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c12592_0051.w.1142884">Om</w>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c12592_0051.w.1142885">dit</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c12592_0051.pc.post.00480044" lemma=",">,</pc>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c12592_0051.w.1142887">omme</w>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c12592_0051.w.1142888">dit</w>
-          <w cert="1.0" lemma="gerucht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12592.sense.4" xml:id="c12592_0051.w.1142889">gerocht</w>
+          <w cert="1.0" lemma="gerucht" pos="NOU-C(number=sg)" resp="roland" xml:id="c12592_0051.w.1142889" lemmaRef="mnw.12592.sense.4">gerocht</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c12592_0051.w.1142890">was</w>
           <w cert="1.0" lemma="Paulus" pos="NOU-P" resp="roland" xml:id="c12592_0051.w.1142891">Paulus</w>
           <w cert="1.0" lemma="weder" pos="ADV(type=reg)" resp="thomas" xml:id="c12592_0051.w.1142892">weder</w>

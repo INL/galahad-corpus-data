@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M058950" lemma="RENTE" modern-lemma="rente" partition="dev" pos="NOU-C" sense-id="M058950.bet.39" xml:id="M058950.eg.122539">
-        <date atLeast="1548" atMost="1548" timeSpan="1500-1550" />
+      <cit xml:id="M058950.eg.122539">
+        <note>
+          <ab>
+            <date atLeast="1548" atMost="1548" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>RENTE</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M058950.bet.39</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>rente</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M058950</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.643">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.1297719">De</w>
           <w cert="1.0" lemma="pachter" pos="NOU-C(number=sg)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.1297720">pachter</w>
@@ -61,7 +80,7 @@
           <w cert="1.0" lemma="M." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.1297727">M.</w>
           <pc pos="PC" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.floating.00406523" lemma="…">…</pc>
           <w cert="1.0" lemma="alzulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.1297729">alzulcke</w>
-          <w cert="1.0" lemma="rente" pos="NOU-C(number=pl)" resp="roland" sense-id="M058950.bet.39" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.1297730">renten</w>
+          <w cert="1.0" lemma="rente" pos="NOU-C(number=pl)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.1297730" lemmaRef="M058950.bet.39">renten</w>
           <pc pos="PC" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.post.00406524" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.1297731">als</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.1297732">zy</w>

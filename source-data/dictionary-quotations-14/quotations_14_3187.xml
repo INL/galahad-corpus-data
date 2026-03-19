@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74610" lemma="WREET" partition="train" sense-id="mnw.74610.sense.24" xml:id="c74610_0125">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c74610_0125">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WREET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74610.sense.24</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74610</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3187">
           <w cert="1.0" lemma="somwijl" pos="ADV(type=reg)" resp="thomas" xml:id="c74610_0125.w.2128657">Som<join n="mw_243309" />
           </w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c74610_0125.w.2128667">vanden</w>
           <w cert="1.0" lemma="koud" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c74610_0125.w.2128668">couden</w>
           <w cert="1.0" lemma="winter" pos="NOU-C(number=sg)" resp="thomas" xml:id="c74610_0125.w.2128669">winter</w>
-          <w cert="1.0" lemma="wreed" pos="AA(degree=pos,position=postnom)" resp="roland" sense-id="mnw.74610.sense.24" xml:id="c74610_0125.w.2128670">wreet</w>
+          <w cert="1.0" lemma="wreed" pos="AA(degree=pos,position=postnom)" resp="roland" xml:id="c74610_0125.w.2128670" lemmaRef="mnw.74610.sense.24">wreet</w>
           <pc join="right" pos="PC" xml:id="c74610_0125.pc.pre.00834208" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c74610_0125.w.2128671">fel</w>
           <pc pos="PC" xml:id="c74610_0125.pc.post.00834209" lemma=")">)</pc>

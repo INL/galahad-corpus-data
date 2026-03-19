@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57253" lemma="TEBERSTEN" partition="train" sense-id="mnw.57253.sense.1" xml:id="c57253_0005">
-        <date atLeast="1332" atMost="1332" timeSpan="1300-1350" />
+      <cit xml:id="c57253_0005">
+        <note>
+          <ab>
+            <date atLeast="1332" atMost="1332" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TEBERSTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57253.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57253</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2326">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c57253_0005.w.95990">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c57253_0005.w.95991">wie</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="steen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c57253_0005.w.95995">steen</w>
           <pc pos="PC" xml:id="c57253_0005.pc.post.00039296" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c57253_0005.w.95996">die</w>
-          <w cert="1.0" lemma="tebarsten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.57253.sense.1" xml:id="c57253_0005.w.95997">teberst</w>
+          <w cert="1.0" lemma="tebarsten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c57253_0005.w.95997" lemmaRef="mnw.57253.sense.1">teberst</w>
           <pc pos="PC" xml:id="c57253_0005.pc.floating.00039297" lemma=",">,</pc>
         </q>
       </cit>

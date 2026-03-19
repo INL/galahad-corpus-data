@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25238" lemma="LECHGELT" partition="train" sense-id="mnw.25238.sense.1" xml:id="c25238_0005">
-        <date atLeast="1377" atMost="1378" timeSpan="1350-1400" />
+      <cit xml:id="c25238_0005">
+        <note>
+          <ab>
+            <date atLeast="1377" atMost="1378" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LECHGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25238.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25238</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.982">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c25238_0005.w.152148">Die</w>
           <w cert="1.0" lemma="wintergerst" pos="NOU-C(number=sg)" resp="roland" xml:id="c25238_0005.w.152149">wintergherst</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c25238_0005.w.152166">dat</w>
           <w cert="1.0" lemma="verkopen" pos="NOU-C(number=sg)" resp="roland" xml:id="c25238_0005.w.152167">vercoopen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c25238_0005.w.152168">te</w>
-          <w cert="1.0" lemma="leggeld" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25238.sense.1" xml:id="c25238_0005.w.152169">legghelde</w>
+          <w cert="1.0" lemma="leggeld" pos="NOU-C(number=sg)" resp="roland" xml:id="c25238_0005.w.152169" lemmaRef="mnw.25238.sense.1">legghelde</w>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c25238_0005.w.152170">tot</w>
           <w cert="1.0" lemma="beide" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c25238_0005.w.152171">beyden</w>
           <w cert="1.0" lemma="blok" pos="NOU-C(number=pl)" resp="roland" xml:id="c25238_0005.w.152172">blocken</w>

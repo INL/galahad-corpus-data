@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37505" lemma="ONTCRACHTEN" partition="test" sense-id="mnw.37505.sense.1" xml:id="c37505_0013">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c37505_0013">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTCRACHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37505.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37505</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1525">
           <w cert="1.0" lemma="W." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c37505_0013.w.729885">W.</w>
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37505_0013.w.729886">zeighet</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37505_0013.w.729898">men</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c37505_0013.w.729899">de</w>
           <w cert="1.0" lemma="gevangen" pos="NOU-C(number=sg)" resp="roland" xml:id="c37505_0013.w.729900">ghevanghene</w>
-          <w cert="1.0" lemma="ontkrachten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.37505.sense.1" xml:id="c37505_0013.w.729901">ontcrachte</w>
+          <w cert="1.0" lemma="ontkrachten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37505_0013.w.729901" lemmaRef="mnw.37505.sense.1">ontcrachte</w>
           <pc pos="PC" xml:id="c37505_0013.pc.floating.00294727" lemma=",">,</pc>
         </q>
       </cit>

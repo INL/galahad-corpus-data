@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12644" lemma="GESAETHEIT" partition="train" sense-id="mnw.12644.sense.1" xml:id="c12644_0000">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c12644_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GESAETHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12644.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12644</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.329">
           <w cert="1.0" lemma="klein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c12644_0000.w.1151537">Cleyne</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c12644_0000.w.1151538">dinghen</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12644_0000.w.1151547">wi</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c12644_0000.w.1151548">mit</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c12644_0000.w.1151549">alre</w>
-          <w cert="1.0" lemma="gezaatheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.12644.sense.1" xml:id="c12644_0000.w.1151550">ghesaetheit</w>
+          <w cert="1.0" lemma="gezaatheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12644_0000.w.1151550" lemmaRef="mnw.12644.sense.1">ghesaetheit</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12644_0000.w.1151551">ende</w>
           <w cert="1.0" lemma="verduldigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12644_0000.w.1151552">verduldicheit</w>
           <w cert="1.0" lemma="lijden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c12644_0000.w.1151553">liden</w>

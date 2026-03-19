@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13062" lemma="GESPREKEN" partition="train" sense-id="mnw.13062.sense.5" xml:id="c13062_0016">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c13062_0016">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GESPREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13062.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13062</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.570">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c13062_0016.w.1225633">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c13062_0016.w.1225634">soe</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c13062_0016.w.1225640">een</w>
           <w cert="1.0" lemma="woord" pos="NOU-C(number=sg)" resp="roland" xml:id="c13062_0016.w.1225641">woort</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c13062_0016.w.1225642">niet</w>
-          <w cert="1.0" lemma="gespreken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.13062.sense.5" xml:id="c13062_0016.w.1225643">ghespreken</w>
+          <w cert="1.0" lemma="gespreken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c13062_0016.w.1225643" lemmaRef="mnw.13062.sense.5">ghespreken</w>
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c13062_0016.w.1225644">doe</w>
           <pc pos="PC" xml:id="c13062_0016.pc.post.00513623" lemma=",">,</pc>
         </q>

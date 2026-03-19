@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04132" lemma="BEVEN" partition="train" sense-id="mnw.04132.sense.10" xml:id="c04132_0014">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c04132_0014">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04132.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04132</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.133">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c04132_0014.w.844703">Hoe</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c04132_0014.w.844704">komt</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="meer" pos="ADV(type=reg)" resp="thomas" xml:id="c04132_0014.w.844712">meer</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c04132_0014.w.844713">de</w>
           <w cert="1.0" lemma="keuze" pos="NOU-C(number=sg)" resp="roland" xml:id="c04132_0014.w.844714">keuse</w>
-          <w cert="1.0" lemma="beven" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.04132.sense.10" xml:id="c04132_0014.w.844715">beven</w>
+          <w cert="1.0" lemma="beven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c04132_0014.w.844715" lemmaRef="mnw.04132.sense.10">beven</w>
           <pc pos="PC" xml:id="c04132_0014.pc.floating.00330539" lemma=",">,</pc>
         </q>
       </cit>

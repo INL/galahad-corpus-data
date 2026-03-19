@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21197" lemma="KERKER" partition="train" sense-id="mnw.21197.sense.1" xml:id="c21197_0005">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c21197_0005">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KERKER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21197.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21197</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.851">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21197_0005.w.935396">Sijn</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21197_0005.w.935397">si</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c21197_0005.pc.floating.00378005" lemma="..">..</pc>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c21197_0005.w.935401">of</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c21197_0005.w.935402">in</w>
-          <w cert="1.0" lemma="kerker" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21197.sense.1" xml:id="c21197_0005.w.935403">karkere</w>
+          <w cert="1.0" lemma="kerker" pos="NOU-C(number=sg)" resp="roland" xml:id="c21197_0005.w.935403" lemmaRef="mnw.21197.sense.1">karkere</w>
           <w cert="1.0" lemma="vangen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c21197_0005.w.935404">gevaen</w>
           <pc pos="PC" xml:id="c21197_0005.pc.post.00378006" lemma=",">,</pc>
         </q>

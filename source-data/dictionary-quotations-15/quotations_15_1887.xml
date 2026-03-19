@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64570" lemma="VERSIEREN" partition="dev" sense-id="mnw.64570.sense.1" xml:id="c64570_0012">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c64570_0012">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERSIEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64570.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64570</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1887">
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c64570_0012.w.1787113">Sich</w>
           <pc pos="PC" xml:id="c64570_0012.pc.post.00712058" lemma=",">,</pc>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="geen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c64570_0012.w.1787121">gheen</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64570_0012.w.1787122">can</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c64570_0012.w.1787123">ic</w>
-          <w cert="1.0" lemma="versieren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.64570.sense.1" xml:id="c64570_0012.w.1787124">versieren</w>
+          <w cert="1.0" lemma="versieren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c64570_0012.w.1787124" lemmaRef="mnw.64570.sense.1">versieren</w>
           <pc pos="PC" xml:id="c64570_0012.pc.floating.00712061" lemma=",">,</pc>
         </q>
       </cit>

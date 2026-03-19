@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59464" lemma="TROOSTEN" partition="test" sense-id="mnw.59464.sense.8" xml:id="c59464_0085">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c59464_0085">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TROOSTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59464.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59464</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2414">
           <w cert="1.0" lemma="trekken+er" pos="VRB(finiteness=fin,tense=pres)+ADV(type=reg)" resp="roland" xml:id="c59464_0085.w.544312">Trecter</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c59464_0085.w.544313">enech</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c59464_0085.w.544319">hi</w>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c59464_0085.w.544320">dan</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c59464_0085.w.544321">ende</w>
-          <w cert="1.0" lemma="troosten+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.59464.sense.8" xml:id="c59464_0085.w.544322">troostse</w>
+          <w cert="1.0" lemma="troosten+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c59464_0085.w.544322" lemmaRef="mnw.59464.sense.8">troostse</w>
           <w cert="1.0" lemma="dat+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c59464_0085.w.544323">datsi</w>
           <w cert="1.0" lemma="aanvolgen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c59464_0085.w.544324">volghen<join n="mw_856305" />
           </w>

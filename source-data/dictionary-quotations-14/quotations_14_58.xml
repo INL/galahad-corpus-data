@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01401" lemma="ALSO" partition="train" sense-id="mnw.01401.sense.10" xml:id="c01401_0031">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c01401_0031">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ALSO</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01401.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01401</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.58">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c01401_0031.w.267027">Den</w>
           <w cert="1.0" lemma="gramme" pos="NOU-C(number=sg)" resp="roland" xml:id="c01401_0031.w.267028">grammen</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c01401_0031.w.267032">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c01401_0031.w.267033">hi</w>
           <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="c01401_0031.w.267034">noch</w>
-          <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.01401.sense.10" xml:id="c01401_0031.w.267035">alsoe</w>
+          <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c01401_0031.w.267035" lemmaRef="mnw.01401.sense.10">alsoe</w>
           <w cert="1.0" lemma="machtig" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c01401_0031.w.267036">machtech</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c01401_0031.w.267037">es</w>
           <pc pos="PC" xml:id="c01401_0031.pc.post.00105673" lemma=",">,</pc>

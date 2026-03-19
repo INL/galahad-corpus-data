@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52022" lemma="SINGEN" partition="train" sense-id="mnw.52022.sense.5" xml:id="c52022_0013">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c52022_0013">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52022.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52022</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2092">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c52022_0013.w.851516">So</w>
           <w cert="1.0" lemma="wanen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c52022_0013.w.851517">waent</w>
@@ -72,7 +85,7 @@
           <pc pos="PC" xml:id="c52022_0013.pc.post.00354235" lemma=")">)</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c52022_0013.w.851534">hi</w>
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c52022_0013.w.851535">hoort</w>
-          <w cert="1.0" lemma="zingen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.52022.sense.5" xml:id="c52022_0013.w.851536">singhen</w>
+          <w cert="1.0" lemma="zingen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c52022_0013.w.851536" lemmaRef="mnw.52022.sense.5">singhen</w>
           <pc join="right" pos="PC" xml:id="c52022_0013.pc.pre.00354236" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c52022_0013.w.851537">janken</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c52022_0013.w.851538">van</w>

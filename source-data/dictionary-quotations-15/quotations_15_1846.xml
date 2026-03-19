@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63766" lemma="VERMETSEN" partition="train" sense-id="mnw.63766.sense.1" xml:id="c63766_0003">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c63766_0003">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERMETSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63766.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63766</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1846">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c63766_0003.w.1574429">Dat</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c63766_0003.w.1574430">gheen</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c63766_0003.w.1574441">met</w>
           <w cert="1.0" lemma="steen" pos="NOU-C(number=pl)" resp="roland" xml:id="c63766_0003.w.1574442">steenen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63766_0003.w.1574443">ende</w>
-          <w cert="1.0" lemma="vermetsen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" sense-id="mnw.63766.sense.1" xml:id="c63766_0003.w.1574444">vermetstense</w>
+          <w cert="1.0" lemma="vermetsen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c63766_0003.w.1574444" lemmaRef="mnw.63766.sense.1">vermetstense</w>
           <w cert="1.0" lemma="binnen" pos="ADP(type=pre)" resp="thomas" xml:id="c63766_0003.w.1574445">binnen</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c63766_0003.w.1574446">hare<join n="mw_461225" />
           </w>

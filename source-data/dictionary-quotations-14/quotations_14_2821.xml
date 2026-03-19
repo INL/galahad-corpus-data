@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67232" lemma="VOGET" partition="train" sense-id="mnw.67232.sense.1" xml:id="c67232_0019">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c67232_0019">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VOGET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67232.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67232</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2821">
           <w cert="1.0" lemma="buiten" pos="ADP(type=pre)" resp="thomas" xml:id="c67232_0019.w.568347">Buten</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c67232_0019.w.568348">haerre</w>
-          <w cert="1.0" lemma="voogd" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.67232.sense.1" xml:id="c67232_0019.w.568349">voochden</w>
+          <w cert="1.0" lemma="voogd" pos="NOU-C(number=pl)" resp="roland" xml:id="c67232_0019.w.568349" lemmaRef="mnw.67232.sense.1">voochden</w>
           <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="roland" xml:id="c67232_0019.w.568350">rade</w>
           <pc join="right" pos="PC" xml:id="c67232_0019.pc.pre.00227472" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c67232_0019.w.568351">nl.</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c67232_0019.w.568361">hadde</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c67232_0019.w.568362">soe</w>
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c67232_0019.w.568363">negeene</w>
-          <w cert="1.0" lemma="voogd" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.67232.sense.1" xml:id="c67232_0019.w.568364">voochden</w>
+          <w cert="1.0" lemma="voogd" pos="NOU-C(number=pl)" resp="roland" xml:id="c67232_0019.w.568364" lemmaRef="mnw.67232.sense.1">voochden</w>
           <pc pos="PC" xml:id="c67232_0019.pc.floating.00227478" lemma=",">,</pc>
         </q>
       </cit>

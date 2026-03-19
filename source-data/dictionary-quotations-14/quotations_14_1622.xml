@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39825" lemma="OPWERPEN" partition="test" sense-id="mnw.39825.sense.8" xml:id="c39825_0011">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c39825_0011">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OPWERPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39825.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39825</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1622">
           <pc join="right" pos="PC" xml:id="c39825_0011.pc.pre.00494948" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c39825_0011.w.1241313">Als</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c39825_0011.w.1241326">l.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c39825_0011.w.1241327">lelicheit</w>
           <pc pos="PC" xml:id="c39825_0011.pc.post.00494954" lemma=")">)</pc>
-          <w cert="1.0" lemma="opwerpen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.39825.sense.8" xml:id="c39825_0011.w.1241328">upwerpen</w>
+          <w cert="1.0" lemma="opwerpen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c39825_0011.w.1241328" lemmaRef="mnw.39825.sense.8">upwerpen</w>
           <pc join="right" pos="PC" xml:id="c39825_0011.pc.pre.00494955" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c39825_0011.w.1241329">var.</w>
           <w cert="1.0" lemma="lelijkheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c39825_0011.w.1241330">leelicheit</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53164" lemma="SOETHEIT" partition="train" sense-id="mnw.53164.sense.5" xml:id="c53164_0019">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c53164_0019">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SOETHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53164.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53164</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2132">
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c53164_0019.w.1109675">Door</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c53164_0019.w.1109676">uwe</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c53164_0019.pc.post.00460351" lemma=",">,</pc>
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c53164_0019.w.1109678">door</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c53164_0019.w.1109679">uwe</w>
-          <w cert="1.0" lemma="zoetheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53164.sense.5" xml:id="c53164_0019.w.1109680">soetheit</w>
+          <w cert="1.0" lemma="zoetheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c53164_0019.w.1109680" lemmaRef="mnw.53164.sense.5">soetheit</w>
           <pc pos="PC" xml:id="c53164_0019.pc.floating.00460352" lemma="…">…</pc>
           <w cert="1.0" lemma="troosten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c53164_0019.w.1109682">troost</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53164_0019.w.1109683">mi</w>

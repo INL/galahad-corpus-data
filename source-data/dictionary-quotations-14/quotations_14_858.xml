@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21602" lemma="KINT" partition="train" sense-id="mnw.21602.sense.17" xml:id="c21602_0101">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c21602_0101">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>KINT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21602.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21602</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.858">
           <w cert="1.0" lemma="vrouwe" pos="NOU-C(number=sg)" resp="roland" xml:id="c21602_0101.w.993979">Vrouwe</w>
           <pc pos="PC" xml:id="c21602_0101.pc.floating.00401875" lemma="…,">…,</pc>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c21602_0101.w.993995">so</w>
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c21602_0101.w.993996">scone</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c21602_0101.w.993997">een</w>
-          <w cert="1.0" lemma="kind" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21602.sense.17" xml:id="c21602_0101.w.993998">kint</w>
+          <w cert="1.0" lemma="kind" pos="NOU-C(number=sg)" resp="roland" xml:id="c21602_0101.w.993998" lemmaRef="mnw.21602.sense.17">kint</w>
           <pc pos="PC" xml:id="c21602_0101.pc.floating.00401878" lemma=",">,</pc>
         </q>
       </cit>

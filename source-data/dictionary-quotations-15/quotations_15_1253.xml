@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48250" lemma="SANDALE" partition="train" sense-id="mnw.48250.sense.1" xml:id="c48250_0001">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c48250_0001">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SANDALE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48250.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48250</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1253">
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c48250_0001.w.103708">Alle</w>
           <w cert="1.0" lemma="manier" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48250_0001.w.103709">maneer</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c48250_0001.pc.floating.00043159" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c48250_0001.w.103713">ende</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c48250_0001.w.103714">alle</w>
-          <w cert="1.0" lemma="sandel" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.48250.sense.1" xml:id="c48250_0001.w.103715">sandalen</w>
+          <w cert="1.0" lemma="sandel" pos="NOU-C(number=pl)" resp="roland" xml:id="c48250_0001.w.103715" lemmaRef="mnw.48250.sense.1">sandalen</w>
           <pc pos="PC" xml:id="c48250_0001.pc.floating.00043160" lemma=",">,</pc>
           <w cert="1.0" lemma="nachtschade" pos="NOU-C(number=pl)" resp="roland" xml:id="c48250_0001.w.103717">nachtschaden</w>
           <pc pos="PC" xml:id="c48250_0001.pc.post.00043161" lemma=",">,</pc>

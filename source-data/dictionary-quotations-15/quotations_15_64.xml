@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02303" lemma="BAREN" partition="train" sense-id="mnw.02303.sense.10" xml:id="c02303_0034">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c02303_0034">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02303.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02303</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.64">
           <w cert="1.0" lemma="mettien" pos="ADV(type=reg)" resp="thomas" xml:id="c02303_0034.w.415222">Mettien</w>
           <w cert="1.0" lemma="zien+ik" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c02303_0034.w.415223">sagic</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="omtrent" pos="ADP(type=pre)" resp="thomas" xml:id="c02303_0034.w.415228">omtrent</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02303_0034.w.415229">den</w>
           <w cert="1.0" lemma="boom" pos="NOU-C(number=sg)" resp="roland" xml:id="c02303_0034.w.415230">bome</w>
-          <w cert="1.0" lemma="baren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.02303.sense.10" xml:id="c02303_0034.w.415231">baren</w>
+          <w cert="1.0" lemma="baren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c02303_0034.w.415231" lemmaRef="mnw.02303.sense.10">baren</w>
           <pc pos="PC" xml:id="c02303_0034.pc.floating.00162894" lemma=",">,</pc>
         </q>
       </cit>

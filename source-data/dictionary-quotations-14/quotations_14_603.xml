@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13652" lemma="GEVOGELTE" partition="train" sense-id="mnw.13652.sense.1" xml:id="c13652_0003">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c13652_0003">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEVOGELTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13652.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13652</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.603">
           <w cert="1.0" lemma="menigerhande" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c13652_0003.w.1331195">Menigerande</w>
           <w cert="1.0" lemma="vogel" pos="NOU-C(number=pl)" resp="roland" xml:id="c13652_0003.w.1331196">vogelen</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="cel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c13652_0003.w.1331201">celle</w>
           <pc pos="PC" xml:id="c13652_0003.pc.floating.00557187" lemma="…;">…;</pc>
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c13652_0003.w.1331203">of</w>
-          <w cert="1.0" lemma="dat+gevogelte" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.13652.sense.1" xml:id="c13652_0003.w.1331204">tgevogelte</w>
+          <w cert="1.0" lemma="dat+gevogelte" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c13652_0003.w.1331204" lemmaRef="mnw.13652.sense.1">tgevogelte</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c13652_0003.w.1331205">woude</w>
           <pc pos="PC" xml:id="c13652_0003.pc.post.00557188" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c13652_0003.w.1331206">dat</w>

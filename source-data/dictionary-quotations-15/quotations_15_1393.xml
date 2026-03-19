@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52221" lemma="SLAEN" partition="train" sense-id="mnw.52221.sense.50" xml:id="c52221_0235">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c52221_0235">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52221.sense.50</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52221</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1393">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c52221_0235.w.899123">Daer</w>
           <pc join="right" pos="PC" xml:id="c52221_0235.pc.pre.00373581" lemma="(">(</pc>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c52221_0235.w.899128">men</w>
           <pc pos="PC" xml:id="c52221_0235.pc.post.00373583" lemma=",">,</pc>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c52221_0235.w.899129">daer</w>
-          <w cert="1.0" lemma="slijten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.52221.sense.50" xml:id="c52221_0235.w.899130">sleet</w>
+          <w cert="1.0" lemma="slijten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c52221_0235.w.899130" lemmaRef="mnw.52221.sense.50">sleet</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c52221_0235.w.899131">men</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c52221_0235.w.899132">die</w>
           <w cert="1.0" lemma="hand" pos="NOU-C(number=pl)" resp="roland" xml:id="c52221_0235.w.899133">hande</w>

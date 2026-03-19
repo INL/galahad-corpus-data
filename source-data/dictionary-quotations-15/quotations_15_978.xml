@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38951" lemma="ONWETEN" partition="train" sense-id="mnw.38951.sense.2" xml:id="c38951_0000">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c38951_0000">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONWETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38951.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38951</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.978">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c38951_0000.w.1017574">Hoe</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c38951_0000.w.1017575">dat</w>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c38951_0000.pc.post.00407595" lemma=",">,</pc>
           <w cert="1.0" lemma="weten" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c38951_0000.w.1017582">wetene</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="thomas" xml:id="c38951_0000.w.1017583">of</w>
-          <w cert="1.0" lemma="onweten" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.38951.sense.2" xml:id="c38951_0000.w.1017584">onwetene</w>
+          <w cert="1.0" lemma="onweten" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c38951_0000.w.1017584" lemmaRef="mnw.38951.sense.2">onwetene</w>
           <pc pos="PC" xml:id="c38951_0000.pc.floating.00407596" lemma=",">,</pc>
           <w cert="1.0" lemma="slapen" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c38951_0000.w.1017586">slapende</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="thomas" xml:id="c38951_0000.w.1017587">of</w>

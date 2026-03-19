@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74046" lemma="WITEN" partition="train" sense-id="mnw.74046.sense.1" xml:id="c74046_0007">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c74046_0007">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WITEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74046.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3167">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c74046_0007.w.2026712">Dit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c74046_0007.w.2026713">es</w>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c74046_0007.pc.post.00794711" lemma=".">.</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c74046_0007.w.2026725">Mar</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c74046_0007.w.2026726">dat</w>
-          <w cert="1.0" lemma="wijten+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.74046.sense.1" xml:id="c74046_0007.w.2026727">witic</w>
+          <w cert="1.0" lemma="wijten+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c74046_0007.w.2026727" lemmaRef="mnw.74046.sense.1">witic</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c74046_0007.w.2026728">al</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c74046_0007.w.2026729">minen</w>
           <w cert="1.0" lemma="zonde" pos="NOU-C(number=pl)" resp="roland" xml:id="c74046_0007.w.2026730">sonden</w>

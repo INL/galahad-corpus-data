@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47479" lemma="RUGGE" partition="test" sense-id="mnw.47479.sense.10" xml:id="c47479_0058">
-        <date atLeast="1420" atMost="1440" timeSpan="1400-1450" />
+      <cit xml:id="c47479_0058">
+        <note>
+          <ab>
+            <date atLeast="1420" atMost="1440" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>RUGGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47479.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47479</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1227">
           <pc join="right" pos="PC" xml:id="c47479_0058.pc.pre.00479362" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c47479_0058.w.1213163">Aflaat</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c47479_0058.w.1213173">in</w>
           <w cert="1.0" lemma="doogzaamheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47479_0058.w.1213174">doochsamheit</w>
           <w cert="1.0" lemma="achter" pos="ADP(type=pre)" resp="thomas" xml:id="c47479_0058.w.1213175">achter</w>
-          <w cert="1.0" lemma="rug" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.47479.sense.10" xml:id="c47479_0058.w.1213176">rugghe</w>
+          <w cert="1.0" lemma="rug" pos="NOU-C(number=sg)" resp="roland" xml:id="c47479_0058.w.1213176" lemmaRef="mnw.47479.sense.10">rugghe</w>
           <w cert="1.0" lemma="tegens" pos="ADP(type=pre)" resp="thomas" xml:id="c47479_0058.w.1213177">teghens</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c47479_0058.w.1213178">ander</w>
           <w cert="1.0" lemma="mens" pos="NOU-C(number=pl)" resp="roland" xml:id="c47479_0058.w.1213179">menschen</w>

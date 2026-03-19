@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48307" lemma="SANTE" partition="train" sense-id="mnw.48307.sense.1" xml:id="c48307_0005">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c48307_0005">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SANTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48307.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48307</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1254">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c48307_0005.w.113486">Hi</w>
           <w cert="1.0" lemma="presenteren+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c48307_0005.w.113487">presentierden</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c48307_0005.w.113492">als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48307_0005.w.113493">den</w>
           <w cert="1.0" lemma="eerste" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c48307_0005.w.113494">eersten</w>
-          <w cert="1.0" lemma="zante" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48307.sense.1" xml:id="c48307_0005.w.113495">zancte</w>
+          <w cert="1.0" lemma="zante" pos="NOU-C(number=sg)" resp="roland" xml:id="c48307_0005.w.113495" lemmaRef="mnw.48307.sense.1">zancte</w>
           <pc join="right" pos="PC" xml:id="c48307_0005.pc.pre.00047303" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48307_0005.w.113496">l.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48307_0005.w.113497">zantte</w>

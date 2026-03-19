@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42132" lemma="PELGRIMAGE" partition="train" sense-id="mnw.42132.sense.4" xml:id="c42132_0029">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c42132_0029">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PELGRIMAGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42132.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42132</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1087">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c42132_0029.w.150572">Wie</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c42132_0029.w.150573">dat</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c42132_0029.w.150582">ontfaen</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c42132_0029.w.150583">die</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c42132_0029.w.150584">mogen</w>
-          <w cert="1.0" lemma="pelgrimage" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.42132.sense.4" xml:id="c42132_0029.w.150585">pelegrimagiën</w>
+          <w cert="1.0" lemma="pelgrimage" pos="NOU-C(number=pl)" resp="thomas" xml:id="c42132_0029.w.150585" lemmaRef="mnw.42132.sense.4">pelegrimagiën</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c42132_0029.w.150586">gaen</w>
           <pc pos="PC" xml:id="c42132_0029.pc.post.00057309" lemma=",">,</pc>
         </q>

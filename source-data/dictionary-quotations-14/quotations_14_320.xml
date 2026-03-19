@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07323" lemma="DORERIDEN" partition="train" sense-id="mnw.07323.sense.3" xml:id="c07323_0006">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c07323_0006">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DORERIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07323.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07323</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.320">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c07323_0006.w.249701">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07323_0006.w.249702">hi</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c07323_0006.w.249704">al</w>
           <w cert="1.0" lemma="Vlaanderland" pos="NOU-P" resp="roland" xml:id="c07323_0006.w.249705">Vlaendrenlant</w>
           <pc pos="PC" xml:id="c07323_0006.pc.floating.00106855" lemma="..">..</pc>
-          <w cert="1.0" lemma="doorrijden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.07323.sense.3" xml:id="c07323_0006.w.249707">dorriden</w>
+          <w cert="1.0" lemma="doorrijden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c07323_0006.w.249707" lemmaRef="mnw.07323.sense.3">dorriden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c07323_0006.w.249708">ende</w>
           <w cert="1.0" lemma="doorbreken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c07323_0006.w.249709">dorbreken</w>
           <pc pos="PC" xml:id="c07323_0006.pc.post.00106856" lemma=",">,</pc>

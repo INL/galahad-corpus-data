@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03483" lemma="BEROUWENESSE" partition="train" sense-id="mnw.03483.sense.1" xml:id="c03483_0003">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c03483_0003">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BEROUWENESSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03483.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03483</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.166">
           <w cert="1.0" lemma="François" pos="NOU-P" resp="roland" xml:id="c03483_0003.w.689008">Fransoys</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c03483_0003.w.689009">die</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="aan+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03483_0003.w.689011">anden</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03483_0003.w.689012">man</w>
           <pc pos="PC" xml:id="c03483_0003.pc.floating.00268484" lemma="..">..</pc>
-          <w cert="1.0" lemma="berouwenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.03483.sense.1" xml:id="c03483_0003.w.689014">berounesse</w>
+          <w cert="1.0" lemma="berouwenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c03483_0003.w.689014" lemmaRef="mnw.03483.sense.1">berounesse</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c03483_0003.w.689015">in</w>
           <w cert="1.0" lemma="recht" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c03483_0003.w.689016">rechter</w>
           <w cert="1.0" lemma="waarheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c03483_0003.w.689017">waerhede</w>

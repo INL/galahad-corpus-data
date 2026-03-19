@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19720" lemma="JAERGELT" partition="train" sense-id="mnw.19720.sense.1" xml:id="c19720_0006">
-        <date atLeast="1437" atMost="1442" timeSpan="1400-1450" />
+      <cit xml:id="c19720_0006">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1442" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>JAERGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19720.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19720</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.490">
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c19720_0006.w.686143">Omdat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c19720_0006.w.686144">sy</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="gekrijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c19720_0006.w.686147">ghecríeghen</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c19720_0006.w.686148">en</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c19720_0006.w.686149">costen</w>
-          <w cert="1.0" lemma="dat+jaargeld" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" sense-id="mnw.19720.sense.1" xml:id="c19720_0006.w.686150">tjaergheldt</w>
+          <w cert="1.0" lemma="dat+jaargeld" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c19720_0006.w.686150" lemmaRef="mnw.19720.sense.1">tjaergheldt</w>
           <pc join="right" pos="PC" xml:id="c19720_0006.pc.pre.00278623" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c19720_0006.w.686151">de</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c19720_0006.w.686152">jaarlijksche</w>

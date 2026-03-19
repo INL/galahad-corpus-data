@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30714" lemma="MONSTERINGE" partition="train" sense-id="mnw.30714.sense.2" xml:id="c30714_0000">
-        <date atLeast="1336" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c30714_0000">
+        <note>
+          <ab>
+            <date atLeast="1336" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MONSTERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30714.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30714</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1264">
           <w cert="1.0" lemma="P." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c30714_0000.w.1294406">P.</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c30714_0000.w.1294407">hem</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c30714_0000.pc.post.00508603" lemma=",">,</pc>
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c30714_0000.w.1294414">doe</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30714_0000.w.1294415">sij</w>
-          <w cert="1.0" lemma="monstering" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30714.sense.2" xml:id="c30714_0000.w.1294416">monsteringhen</w>
+          <w cert="1.0" lemma="monstering" pos="NOU-C(number=sg)" resp="roland" xml:id="c30714_0000.w.1294416" lemmaRef="mnw.30714.sense.2">monsteringhen</w>
           <pc join="right" pos="PC" xml:id="c30714_0000.pc.pre.00508604" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c30714_0000.w.1294417">l.-ghe</w>
           <pc pos="PC" xml:id="c30714_0000.pc.post.00508605" lemma="?)">?)</pc>

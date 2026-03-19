@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07180" lemma="DOREBREKEN" partition="train" sense-id="mnw.07180.sense.2" xml:id="c07180_0002">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c07180_0002">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DOREBREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07180.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07180</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.317">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c07180_0002.w.237222">Als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07180_0002.w.237223">die</w>
@@ -76,7 +89,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c07180_0002.w.237243">hem</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07180_0002.w.237244">die</w>
           <w cert="1.0" lemma="hersenen" pos="NOU-C(number=pl)" resp="roland" xml:id="c07180_0002.w.237245">hersine</w>
-          <w cert="1.0" lemma="doorbreken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.07180.sense.2" xml:id="c07180_0002.w.237246">doerbreect</w>
+          <w cert="1.0" lemma="doorbreken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07180_0002.w.237246" lemmaRef="mnw.07180.sense.2">doerbreect</w>
           <pc pos="PC" xml:id="c07180_0002.pc.floating.00101202" lemma=",">,</pc>
         </q>
       </cit>

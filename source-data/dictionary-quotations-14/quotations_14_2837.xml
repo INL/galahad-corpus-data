@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67426" lemma="VOLCOMEN" partition="train" sense-id="mnw.67426.sense.17" xml:id="c67426_0039">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c67426_0039">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOLCOMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67426.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67426</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2837">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c67426_0039.w.619108">Een</w>
           <w cert="1.0" lemma="zuchten" pos="NOU-C(number=sg)" resp="roland" xml:id="c67426_0039.w.619109">suchten</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="ontwee" pos="ADV(type=reg)" resp="thomas" xml:id="c67426_0039.w.619116">ontwee</w>
           <pc pos="PC" xml:id="c67426_0039.pc.post.00247136" lemma=",">,</pc>
           <w cert="1.0" lemma="eer+het" pos="CONJ(type=coor)+PD(type=pers,position=free)" resp="thomas" xml:id="c67426_0039.w.619117">eert</w>
-          <w cert="1.0" lemma="volkomen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.67426.sense.17" xml:id="c67426_0039.w.619118">vulquam</w>
+          <w cert="1.0" lemma="volkomen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c67426_0039.w.619118" lemmaRef="mnw.67426.sense.17">vulquam</w>
           <pc pos="PC" xml:id="c67426_0039.pc.floating.00247137" lemma=",">,</pc>
         </q>
       </cit>

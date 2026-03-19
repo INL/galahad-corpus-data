@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34411" lemma="ONDER" partition="train" sense-id="mnw.34411.sense.29" xml:id="c34411_0091">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c34411_0091">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34411.sense.29</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34411</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.858">
           <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="c34411_0091.w.204493">Noch</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c34411_0091.w.204494">soude</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="daaronder" pos="ADV(type=pron)" resp="thomas" xml:id="c34411_0091.w.204500">daer<join n="mw_967886" />
           </w>
           <w cert="1.0" lemma="willen+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c34411_0091.w.204501">willic</w>
-          <w cert="1.0" lemma="daaronder" pos="ADV(type=pron)" resp="thomas" sense-id="mnw.34411.sense.29" xml:id="c34411_0091.w.204502">onder<join n="mw_967886" />
+          <w cert="1.0" lemma="daaronder" pos="ADV(type=pron)" resp="thomas" xml:id="c34411_0091.w.204502" lemmaRef="mnw.34411.sense.29">onder<join n="mw_967886" />
           </w>
           <w cert="1.0" lemma="zetten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c34411_0091.w.204503">setten</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c34411_0091.w.204504">mijn</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47352" lemma="ROUCLEET" partition="train" sense-id="mnw.47352.sense.1" xml:id="c47352_0001">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c47352_0001">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ROUCLEET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47352.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47352</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1940">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c47352_0001.w.1191673">Met</w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c47352_0001.w.1191674">menegen</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="Ardennen" pos="NOU-P" resp="thomas" xml:id="c47352_0001.w.1191681">Ardane</w>
           <pc pos="PC" xml:id="c47352_0001.pc.post.00470573" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c47352_0001.w.1191682">die</w>
-          <w cert="1.0" lemma="rouwkleed" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.47352.sense.1" xml:id="c47352_0001.w.1191683">raucleder</w>
+          <w cert="1.0" lemma="rouwkleed" pos="NOU-C(number=pl)" resp="roland" xml:id="c47352_0001.w.1191683" lemmaRef="mnw.47352.sense.1">raucleder</w>
           <w cert="1.0" lemma="aanhebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c47352_0001.w.1191684">hadden<join n="mw_707297" />
           </w>
           <w cert="1.0" lemma="aanhebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c47352_0001.w.1191685">ane<join n="mw_707297" />

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45814" lemma="REINE" partition="train" sense-id="mnw.45814.sense.22" xml:id="c45814_0058">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c45814_0058">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>REINE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45814.sense.22</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45814</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1872">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c45814_0058.w.877278">Haer</w>
           <pc join="right" pos="PC" xml:id="c45814_0058.pc.pre.00344383" lemma="(">(</pc>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c45814_0058.w.877287">soe</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c45814_0058.w.877288">hare</w>
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c45814_0058.w.877289">hilde</w>
-          <w cert="1.0" lemma="rein" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.45814.sense.22" xml:id="c45814_0058.w.877290">reene</w>
+          <w cert="1.0" lemma="rein" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c45814_0058.w.877290" lemmaRef="mnw.45814.sense.22">reene</w>
           <pc pos="PC" xml:id="c45814_0058.pc.floating.00344386" lemma=",">,</pc>
         </q>
       </cit>

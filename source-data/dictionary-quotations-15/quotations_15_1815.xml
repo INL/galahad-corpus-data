@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63416" lemma="VERLANGEN" partition="train" sense-id="mnw.63416.sense.9" xml:id="c63416_0044">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c63416_0044">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERLANGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63416.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63416</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1815">
           <w cert="1.0" lemma="willen+ik" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c63416_0044.w.1456153">Woudic</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c63416_0044.w.1456154">al</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63416_0044.w.1456165">u</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63416_0044.w.1456166">mochte</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c63416_0044.w.1456167">ooc</w>
-          <w cert="1.0" lemma="verlangen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.63416.sense.9" xml:id="c63416_0044.w.1456168">verlanghen</w>
+          <w cert="1.0" lemma="verlangen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c63416_0044.w.1456168" lemmaRef="mnw.63416.sense.9">verlanghen</w>
           <pc pos="PC" xml:id="c63416_0044.pc.floating.00582273" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19946" lemma="JOGET" partition="train" sense-id="mnw.19946.sense.5" xml:id="c19946_0028">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c19946_0028">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>JOGET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19946.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19946</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.806">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c19946_0028.w.730933">Die</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19946_0028.w.730934">man</w>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c19946_0028.pc.post.00296255" lemma=",">,</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c19946_0028.w.730945">in</w>
           <w cert="1.0" lemma="vol" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c19946_0028.w.730946">volre</w>
-          <w cert="1.0" lemma="jeugd" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.19946.sense.5" xml:id="c19946_0028.w.730947">joget</w>
+          <w cert="1.0" lemma="jeugd" pos="NOU-C(number=sg)" resp="roland" xml:id="c19946_0028.w.730947" lemmaRef="mnw.19946.sense.5">joget</w>
           <pc pos="PC" xml:id="c19946_0028.pc.floating.00296256" lemma=",">,</pc>
         </q>
       </cit>

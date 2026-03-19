@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32365" lemma="NERNSTACHT" partition="train" sense-id="mnw.32365.sense.1" xml:id="c32365_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c32365_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NERNSTACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32365.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32365</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1329">
           <w cert="1.0" lemma="zodat" pos="CONJ(type=sub)" resp="roland" xml:id="c32365_0000.w.1592090">So<join n="mw_726524" />
           </w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c32365_0000.w.1592100">wijs</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32365_0000.w.1592101">waren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c32365_0000.w.1592102">ende</w>
-          <w cert="1.0" lemma="ernstacht" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.32365.sense.1" xml:id="c32365_0000.w.1592103">neerstachte</w>
+          <w cert="1.0" lemma="ernstacht" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c32365_0000.w.1592103" lemmaRef="mnw.32365.sense.1">neerstachte</w>
           <pc pos="PC" xml:id="c32365_0000.pc.floating.00627628" lemma=",">,</pc>
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c32365_0000.w.1592105">om<join n="mw_840148" />
           </w>

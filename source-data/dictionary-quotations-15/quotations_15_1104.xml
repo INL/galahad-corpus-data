@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43046" lemma="PLEGEN" partition="train" sense-id="mnw.43046.sense.42" xml:id="c43046_0261">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c43046_0261">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PLEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43046.sense.42</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1104">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c43046_0261.w.310290">Wat</w>
           <w cert="1.0" lemma="een" pos="NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c43046_0261.w.310291">een</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="jong" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c43046_0261.w.310293">jongher</w>
           <w cert="1.0" lemma="jeugd" pos="NOU-C(number=sg)" resp="thomas" xml:id="c43046_0261.w.310294">joghet</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c43046_0261.w.310295">hevet</w>
-          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.43046.sense.42" xml:id="c43046_0261.w.310296">gheplogen</w>
+          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c43046_0261.w.310296" lemmaRef="mnw.43046.sense.42">gheplogen</w>
           <pc pos="PC" xml:id="c43046_0261.pc.floating.00121089" lemma=",">,</pc>
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c43046_0261.w.310298">al</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past,WF=mis)" resp="thomas" xml:id="c43046_0261.w.310299">woldi</w>

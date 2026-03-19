@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59018" lemma="TORSEN" partition="train" sense-id="mnw.59018.sense.2" xml:id="c59018_0016">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c59018_0016">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TORSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59018.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59018</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2389">
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c59018_0016.w.448869">Elc</w>
           <w cert="1.0" lemma="zadelen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c59018_0016.w.448870">sadelde</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c59018_0016.w.448872">heren</w>
           <w cert="1.0" lemma="paard" pos="NOU-C(number=sg)" resp="roland" xml:id="c59018_0016.w.448873">paert</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c59018_0016.w.448874">ende</w>
-          <w cert="1.0" lemma="torsen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.59018.sense.2" xml:id="c59018_0016.w.448875">torsten</w>
+          <w cert="1.0" lemma="torsen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c59018_0016.w.448875" lemmaRef="mnw.59018.sense.2">torsten</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c59018_0016.w.448876">hare</w>
           <w cert="1.0" lemma="zomer" pos="NOU-C(number=pl)" resp="roland" xml:id="c59018_0016.w.448877">somers</w>
           <w cert="1.0" lemma="schier" pos="ADV(type=reg)" resp="thomas" xml:id="c59018_0016.w.448878">sciere</w>

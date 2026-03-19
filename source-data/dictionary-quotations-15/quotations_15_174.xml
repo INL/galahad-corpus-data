@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06205" lemma="DAT" partition="test" sense-id="mnw.06205.sense.12" xml:id="c06205_0071">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c06205_0071">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06205.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06205</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.174">
           <w cert="1.0" lemma="het+ne+zijn" pos="PD(type=pers,position=free)+ADV(type=reg)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c06205_0071.w.62408">Ens</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c06205_0071.w.62409">niemen</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="genoegen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c06205_0071.w.62416">ghenoughet</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c06205_0071.w.62417">te</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c06205_0071.w.62418">dien</w>
-          <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" sense-id="mnw.06205.sense.12" xml:id="c06205_0071.w.62419">dat</w>
+          <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c06205_0071.w.62419" lemmaRef="mnw.06205.sense.12">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c06205_0071.w.62420">hi</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c06205_0071.w.62421">hevet</w>
           <pc pos="PC" xml:id="c06205_0071.pc.post.00025730" lemma=",">,</pc>

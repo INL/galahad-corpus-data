@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26208" lemma="LIJF" partition="train" sense-id="mnw.26208.sense.64" xml:id="c26208_0365">
-        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c26208_0365">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LIJF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26208.sense.64</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26208</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1052">
           <w cert="1.0" lemma="sterven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c26208_0365.w.417068">Storve</w>
           <w cert="1.0" lemma="dat+voorzegd" pos="PD(type=d-p,subtype=art,position=prenom)+AA(degree=pos,position=prenom,WF=abbr)" resp="thomas" xml:id="c26208_0365.w.417069">tvoors.</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c26208_0365.w.417078">van</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c26208_0365.w.417079">zijns</w>
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c26208_0365.w.417080">zelves</w>
-          <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26208.sense.64" xml:id="c26208_0365.w.417081">live</w>
+          <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c26208_0365.w.417081" lemmaRef="mnw.26208.sense.64">live</w>
           <pc pos="PC" xml:id="c26208_0365.pc.floating.00162137" lemma=",">,</pc>
         </q>
       </cit>

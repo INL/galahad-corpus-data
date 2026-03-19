@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04032" lemma="BETEREN" partition="train" sense-id="mnw.04032.sense.7" xml:id="c04032_0024">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c04032_0024">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BETEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04032.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04032</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.209">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c04032_0024.w.821397">Die</w>
           <w cert="1.0" lemma="rijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c04032_0024.w.821398">rike</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c04032_0024.w.821401">u</w>
           <w cert="1.0" lemma="geleiden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c04032_0024.w.821402">geleden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c04032_0024.w.821403">ende</w>
-          <w cert="1.0" lemma="beteren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.04032.sense.7" xml:id="c04032_0024.w.821404">betren</w>
+          <w cert="1.0" lemma="beteren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c04032_0024.w.821404" lemmaRef="mnw.04032.sense.7">betren</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c04032_0024.w.821405">uwen</w>
           <w cert="1.0" lemma="arbeid" pos="NOU-C(number=sg)" resp="roland" xml:id="c04032_0024.w.821406">aerbeit</w>
           <pc pos="PC" xml:id="c04032_0024.pc.post.00321231" lemma=",">,</pc>

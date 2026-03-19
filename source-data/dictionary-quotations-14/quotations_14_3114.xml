@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73119" lemma="WIELMAKER" partition="train" sense-id="mnw.73119.sense.1" xml:id="c73119_0004">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c73119_0004">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WIELMAKER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73119.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73119</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3114">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c73119_0004.w.1819053">Item</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c73119_0004.w.1819054">van</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73119_0004.w.1819055">den</w>
           <w cert="1.0" lemma="ambacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c73119_0004.w.1819056">ambochte</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c73119_0004.w.1819057">van</w>
-          <w cert="1.0" lemma="wielmaker" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.73119.sense.1" xml:id="c73119_0004.w.1819058">wielmakers</w>
+          <w cert="1.0" lemma="wielmaker" pos="NOU-C(number=pl)" resp="thomas" xml:id="c73119_0004.w.1819058" lemmaRef="mnw.73119.sense.1">wielmakers</w>
           <pc pos="PC" xml:id="c73119_0004.pc.floating.00718188" lemma=",">,</pc>
           <w cert="1.0" lemma="twintig" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c73119_0004.w.1819060">XX</w>
           <w cert="1.0" lemma="libra" pos="NOU-C(number=sg,WF=abbr)" resp="roland" xml:id="c73119_0004.w.1819061">lb</w>

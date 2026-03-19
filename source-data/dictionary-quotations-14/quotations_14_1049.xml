@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26208" lemma="LIJF" partition="test" sense-id="mnw.26208.sense.40" xml:id="c26208_0162">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c26208_0162">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LIJF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26208.sense.40</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26208</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1049">
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c26208_0162.w.412340">Aldus</w>
           <pc join="right" pos="PC" xml:id="c26208_0162.pc.pre.00160195" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="mogen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c26208_0162.w.412344">mogedi</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=inf)" resp="roland" xml:id="c26208_0162.w.412345">bliven</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c26208_0162.w.412346">te</w>
-          <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26208.sense.40" xml:id="c26208_0162.w.412347">live</w>
+          <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c26208_0162.w.412347" lemmaRef="mnw.26208.sense.40">live</w>
           <pc pos="PC" xml:id="c26208_0162.pc.floating.00160197" lemma=",">,</pc>
         </q>
       </cit>

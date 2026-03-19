@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14099" lemma="GIFTEN" partition="train" sense-id="mnw.14099.sense.2" xml:id="c14099_0012">
-        <date atLeast="1370" atMost="1370" timeSpan="1350-1400" />
+      <cit xml:id="c14099_0012">
+        <note>
+          <ab>
+            <date atLeast="1370" atMost="1370" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GIFTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14099.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14099</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.627">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c14099_0012.w.1424133">Dat</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c14099_0012.w.1424134">niemene</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c14099_0012.w.1424138">iof</w>
           <w cert="1.0" lemma="bruidegom" pos="NOU-C(number=sg)" resp="roland" xml:id="c14099_0012.w.1424139">brudegome</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c14099_0012.w.1424140">en</w>
-          <w cert="1.0" lemma="giften" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.14099.sense.2" xml:id="c14099_0012.w.1424141">ghifte</w>
+          <w cert="1.0" lemma="giften" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c14099_0012.w.1424141" lemmaRef="mnw.14099.sense.2">ghifte</w>
           <pc pos="PC" xml:id="c14099_0012.pc.floating.00595358" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c14099_0012.w.1424143">dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c14099_0012.w.1424144">men</w>

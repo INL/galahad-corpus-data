@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43934" lemma="PRESENTEREN" partition="test" sense-id="mnw.43934.sense.3" xml:id="c43934_0010">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c43934_0010">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PRESENTEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43934.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43934</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1791">
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=sg)" resp="roland" xml:id="c43934_0010.w.466487">Ridder</w>
           <pc pos="PC" xml:id="c43934_0010.pc.floating.00183293" lemma="…,">…,</pc>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c43934_0010.w.466501">mi</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c43934_0010.w.466502">u</w>
           <w cert="1.0" lemma="ros" pos="NOU-C(number=sg)" resp="thomas" xml:id="c43934_0010.w.466503">ors</w>
-          <w cert="1.0" lemma="presenteren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.43934.sense.3" xml:id="c43934_0010.w.466504">prosenteret</w>
+          <w cert="1.0" lemma="presenteren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c43934_0010.w.466504" lemmaRef="mnw.43934.sense.3">prosenteret</w>
           <pc join="right" pos="PC" xml:id="c43934_0010.pc.pre.00183295" lemma="(">(</pc>
           <pc cert="1.0" lemma="=" pos="PC" resp="thomas" xml:id="c43934_0010.w.466505">=</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c43934_0010.w.466506">prosenteredet</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36586" lemma="ONMATE" partition="train" sense-id="mnw.36586.sense.2" xml:id="c36586_0037">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c36586_0037">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONMATE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36586.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36586</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1474">
           <w cert="1.0" lemma="dat+er" pos="CONJ(type=sub)+ADV(type=reg)" resp="thomas" xml:id="c36586_0037.w.525026">Datter</w>
           <pc pos="PC" xml:id="c36586_0037.pc.floating.00214327" lemma="..">..</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="roekeloosheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c36586_0037.w.525034">roukeloosheden</w>
           <pc pos="PC" xml:id="c36586_0037.pc.post.00214330" lemma=",">,</pc>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c36586_0037.w.525035">bi</w>
-          <w cert="1.0" lemma="onmaat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.36586.sense.2" xml:id="c36586_0037.w.525036">ommaten</w>
+          <w cert="1.0" lemma="onmaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c36586_0037.w.525036" lemmaRef="mnw.36586.sense.2">ommaten</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36586_0037.w.525037">vanden</w>
           <w cert="1.0" lemma="onnut" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c36586_0037.w.525038">onnutten</w>
           <w cert="1.0" lemma="prelaat" pos="NOU-C(number=pl)" resp="roland" xml:id="c36586_0037.w.525039">prelaten</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29229" lemma="MEREN" partition="train" sense-id="mnw.29229.sense.20" xml:id="c29229_0093">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c29229_0093">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29229.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29229</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1178">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c29229_0093.w.981911">Dat</w>
           <w cert="1.0" lemma="waardschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c29229_0093.w.981912">werscap</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29229_0093.w.981919">si</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29229_0093.w.981920">die</w>
           <w cert="1.0" lemma="vriendschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c29229_0093.w.981921">vrienscap</w>
-          <w cert="1.0" lemma="meren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.29229.sense.20" xml:id="c29229_0093.w.981922">meren</w>
+          <w cert="1.0" lemma="meren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c29229_0093.w.981922" lemmaRef="mnw.29229.sense.20">meren</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c29229_0093.w.981923">doet</w>
           <pc pos="PC" xml:id="c29229_0093.pc.post.00383248" lemma=",">,</pc>
         </q>

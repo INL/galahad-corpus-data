@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31398" lemma="NACHT" partition="train" sense-id="mnw.31398.sense.20" xml:id="c31398_0100">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c31398_0100">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31398.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31398</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.779">
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c31398_0100.w.1403265">Int</w>
           <w cert="1.0" lemma="graf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c31398_0100.w.1403266">graf</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c31398_0100.w.1403274">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c31398_0100.w.1403275">der</w>
           <w cert="1.0" lemma="heilig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c31398_0100.w.1403276">helighen</w>
-          <w cert="1.0" lemma="paasnacht" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.31398.sense.20" xml:id="c31398_0100.w.1403277">paeschnacht</w>
+          <w cert="1.0" lemma="paasnacht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c31398_0100.w.1403277" lemmaRef="mnw.31398.sense.20">paeschnacht</w>
           <pc pos="PC" xml:id="c31398_0100.pc.floating.00552644" lemma=",">,</pc>
         </q>
       </cit>

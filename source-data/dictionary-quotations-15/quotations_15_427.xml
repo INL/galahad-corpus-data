@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17326" lemma="HINDEREN" partition="dev" sense-id="mnw.17326.sense.2" xml:id="c17326_0006">
-        <date atLeast="1408" atMost="1414" timeSpan="1400-1450" />
+      <cit xml:id="c17326_0006">
+        <note>
+          <ab>
+            <date atLeast="1408" atMost="1414" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HINDEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17326.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17326</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.427">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c17326_0006.w.307382">Waert</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c17326_0006.w.307383">dat</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="recht" pos="NOU-C(number=sg)" resp="roland" xml:id="c17326_0006.w.307388">recht</w>
           <w cert="1.0" lemma="ergen" pos="ADV(type=reg)" resp="thomas" xml:id="c17326_0006.w.307389">erghent</w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c17326_0006.w.307390">mede</w>
-          <w cert="1.0" lemma="hinderen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.17326.sense.2" xml:id="c17326_0006.w.307391">ghehinnert</w>
+          <w cert="1.0" lemma="hinderen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c17326_0006.w.307391" lemmaRef="mnw.17326.sense.2">ghehinnert</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c17326_0006.w.307392">ware</w>
           <pc pos="PC" xml:id="c17326_0006.pc.post.00126338" lemma=",">,</pc>
         </q>

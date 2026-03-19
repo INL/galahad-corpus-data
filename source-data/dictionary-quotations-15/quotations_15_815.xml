@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32602" lemma="NIEUMARE" partition="train" sense-id="mnw.32602.sense.1" xml:id="c32602_0002">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c32602_0002">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NIEUMARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32602.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32602</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.815">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c32602_0002.w.1637453">Ic</w>
           <w cert="1.0" lemma="brengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c32602_0002.w.1637454">bringhe</w>
-          <w cert="1.0" lemma="nieuwmare" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.32602.sense.1" xml:id="c32602_0002.w.1637455">nieumare</w>
+          <w cert="1.0" lemma="nieuwmare" pos="NOU-C(number=sg)" resp="roland" xml:id="c32602_0002.w.1637455" lemmaRef="mnw.32602.sense.1">nieumare</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c32602_0002.w.1637456">van</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c32602_0002.w.1637457">onsen</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c32602_0002.w.1637458">Here</w>

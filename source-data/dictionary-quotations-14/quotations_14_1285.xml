@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31536" lemma="NAER" partition="dev" sense-id="mnw.31536.sense.12" xml:id="c31536_0070">
-        <date atLeast="1325" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c31536_0070">
+        <note>
+          <ab>
+            <date atLeast="1325" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NAER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31536.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31536</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1285">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c31536_0070.w.1424642">Ic</w>
           <w cert="1.0" lemma="zullen+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c31536_0070.w.1424643">salt</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c31536_0070.w.1424658">die</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c31536_0070.w.1424659">hem</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c31536_0070.w.1424660">so</w>
-          <w cert="1.0" lemma="naar" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.31536.sense.12" xml:id="c31536_0070.w.1424661">naer</w>
+          <w cert="1.0" lemma="naar" pos="ADV(type=reg)" resp="thomas" xml:id="c31536_0070.w.1424661" lemmaRef="mnw.31536.sense.12">naer</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c31536_0070.w.1424662">sullen</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c31536_0070.w.1424663">gaen</w>
           <pc pos="PC" xml:id="c31536_0070.pc.post.00561227" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12499" lemma="GERINEN" partition="train" sense-id="mnw.12499.sense.1" xml:id="c12499_0013">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c12499_0013">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GERINEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12499.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12499</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.548">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c12499_0013.w.1127938">Dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12499_0013.w.1127939">ic</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" xml:id="c12499_0013.w.1127946">mont</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c12499_0013.w.1127947">den</w>
           <w cert="1.0" lemma="blad" pos="NOU-C(number=pl)" resp="roland" xml:id="c12499_0013.w.1127948">bladeren</w>
-          <w cert="1.0" lemma="gerijnen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.12499.sense.1" xml:id="c12499_0013.w.1127949">gerinen</w>
+          <w cert="1.0" lemma="gerijnen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c12499_0013.w.1127949" lemmaRef="mnw.12499.sense.1">gerinen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c12499_0013.w.1127950">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c12499_0013.w.1127951">den</w>
           <w cert="1.0" lemma="knop" pos="NOU-C(number=pl)" resp="roland" xml:id="c12499_0013.w.1127952">cnoppen</w>

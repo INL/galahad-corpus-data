@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65239" lemma="VERVAEN" partition="test" sense-id="mnw.65239.sense.6" xml:id="c65239_0007">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c65239_0007">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERVAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65239.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65239</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2720">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c65239_0007.w.134020">Die</w>
           <w cert="1.0" lemma="burggraaf" pos="NOU-C(number=sg)" resp="roland" xml:id="c65239_0007.w.134021">borchgrave</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=postnom)" resp="roland" xml:id="c65239_0007.w.134039">groot</w>
           <pc pos="PC" xml:id="c65239_0007.pc.post.00052272" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c65239_0007.w.134040">ende</w>
-          <w cert="1.0" lemma="vervangen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.65239.sense.6" xml:id="c65239_0007.w.134041">vervinc</w>
+          <w cert="1.0" lemma="vervangen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c65239_0007.w.134041" lemmaRef="mnw.65239.sense.6">vervinc</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c65239_0007.w.134042">al</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c65239_0007.w.134043">zijn</w>
           <w cert="1.0" lemma="gebluw" pos="NOU-C(number=sg)" resp="roland" xml:id="c65239_0007.w.134044">gheblu</w>

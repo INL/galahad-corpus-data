@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08607" lemma="EISCEN" partition="dev" sense-id="mnw.08607.sense.4" xml:id="c08607_0028">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c08607_0028">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>EISCEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08607.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08607</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.364">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c08607_0028.w.446498">Doe</w>
-          <w cert="1.0" lemma="eisen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.08607.sense.4" xml:id="c08607_0028.w.446499">iesch</w>
+          <w cert="1.0" lemma="eisen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c08607_0028.w.446499" lemmaRef="mnw.08607.sense.4">iesch</w>
           <w cert="1.0" lemma="hij+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c08607_0028.w.446500">hise</w>
           <pc join="right" pos="PC" xml:id="c08607_0028.pc.pre.00192528" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c08607_0028.w.446501">de</w>

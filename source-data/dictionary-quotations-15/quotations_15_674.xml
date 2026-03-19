@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27259" lemma="LUTSEN" partition="train" sense-id="mnw.27259.sense.2" xml:id="c27259_0001">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c27259_0001">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LUTSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27259.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27259</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.674">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27259_0001.w.617322">Die</w>
           <w cert="1.0" lemma="ring" pos="NOU-C(number=sg)" resp="roland" xml:id="c27259_0001.w.617323">ringe</w>
@@ -77,7 +90,7 @@
           </w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c27259_0001.w.617343">sij</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c27259_0001.w.617344">niet</w>
-          <w cert="1.0" lemma="lutsen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.27259.sense.2" xml:id="c27259_0001.w.617345">lutsen</w>
+          <w cert="1.0" lemma="lutsen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c27259_0001.w.617345" lemmaRef="mnw.27259.sense.2">lutsen</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c27259_0001.w.617346">en</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c27259_0001.w.617347">mochten</w>
           <pc pos="PC" xml:id="c27259_0001.pc.post.00239354" lemma=",">,</pc>

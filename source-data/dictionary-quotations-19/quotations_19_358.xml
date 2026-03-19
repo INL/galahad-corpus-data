@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M025371" lemma="HEMELSCH" modern-lemma="hemels" partition="train" pos="AA ADV" sense-id="M025371.sense.13" xml:id="M025371.eg.9559">
-        <date atLeast="1820" atMost="1820" timeSpan="1800-1850" />
+      <cit xml:id="M025371.eg.9559">
+        <note>
+          <ab>
+            <date atLeast="1820" atMost="1820" extent="1800-1850" />
+            <interpGrp type="lemma">
+              <interp>HEMELSCH</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>AA ADV</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M025371.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>hemels</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M025371</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.358">
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.468439">Tot</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.468440">de</w>
@@ -54,7 +73,7 @@
           <w cert="1.0" lemma="ziel" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.468442">ziel</w>
           <pc pos="PC" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.floating.0177443" lemma="…">…</pc>
           <w cert="1.0" lemma="het" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.468444">Het</w>
-          <w cert="1.0" lemma="hemels" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="M025371.sense.13" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.468445">hemelsch</w>
+          <w cert="1.0" lemma="hemels" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.468445" lemmaRef="M025371.sense.13">hemelsch</w>
           <pc join="right" pos="PC" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.pre.0177444" lemma="”">”</pc>
           <w cert="1.0" lemma="welkom" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.w.468446">Welkom</w>
           <pc pos="PC" xml:id="INT_92f43f75-82f1-4bb3-a876-4a19e5b94557.pc.post.0177445" lemma="!”">!”</pc>

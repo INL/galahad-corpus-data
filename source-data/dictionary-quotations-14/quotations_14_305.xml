@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06915" lemma="DOGEDELIJC" partition="train" sense-id="mnw.06915.sense.2" xml:id="c06915_0008">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c06915_0008">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DOGEDELIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06915.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06915</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.305">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c06915_0008.w.192623">Syn</w>
-          <w cert="1.0" lemma="deugdelijk" pos="AA(degree=pos,position=prenom)" resp="roland" sense-id="mnw.06915.sense.2" xml:id="c06915_0008.w.192624">dogedelec</w>
+          <w cert="1.0" lemma="deugdelijk" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c06915_0008.w.192624" lemmaRef="mnw.06915.sense.2">dogedelec</w>
           <w cert="1.0" lemma="hoofs" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c06915_0008.w.192625">hoefsche</w>
           <w cert="1.0" lemma="zin" pos="NOU-C(number=sg)" resp="roland" xml:id="c06915_0008.w.192626">sin</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c06915_0008.w.192627">die</w>

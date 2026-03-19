@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67643" lemma="VOLWASSEN" partition="test" sense-id="mnw.67643.sense.3" xml:id="c67643_0012">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c67643_0012">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOLWASSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67643.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67643</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2849">
           <pc pos="PC" xml:id="c67643_0012.pc.floating.00262469" lemma="—">—</pc>
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c67643_0012.w.657161">Nu</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c67643_0012.pc.floating.00262472" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c67643_0012.w.657169">ende</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67643_0012.w.657170">es</w>
-          <w cert="1.0" lemma="volwassen" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.67643.sense.3" xml:id="c67643_0012.w.657171">volwassen</w>
+          <w cert="1.0" lemma="volwassen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c67643_0012.w.657171" lemmaRef="mnw.67643.sense.3">volwassen</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c67643_0012.w.657172">bi</w>
           <w cert="1.0" lemma="hoog" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c67643_0012.w.657173">hoger</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c67643_0012.w.657174">minnen</w>

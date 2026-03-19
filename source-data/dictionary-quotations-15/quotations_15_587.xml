@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23694" lemma="CRAGE" partition="train" sense-id="mnw.23694.sense.2" xml:id="c23694_0015">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c23694_0015">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CRAGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23694.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23694</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.587">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="c23694_0015.w.1390070">Wye</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c23694_0015.w.1390071">dat</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c23694_0015.pc.post.00558681" lemma=",">,</pc>
           <w cert="1.0" lemma="verliezen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c23694_0015.w.1390075">verloir</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c23694_0015.w.1390076">sijn</w>
-          <w cert="1.0" lemma="kraag" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.23694.sense.2" xml:id="c23694_0015.w.1390077">craghe</w>
+          <w cert="1.0" lemma="kraag" pos="NOU-C(number=sg)" resp="roland" xml:id="c23694_0015.w.1390077" lemmaRef="mnw.23694.sense.2">craghe</w>
           <pc pos="PC" xml:id="c23694_0015.pc.floating.00558682" lemma=",">,</pc>
         </q>
       </cit>

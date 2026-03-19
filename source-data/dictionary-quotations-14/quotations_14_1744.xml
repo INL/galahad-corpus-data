@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42870" lemma="PLADIJS" partition="train" sense-id="mnw.42870.sense.1" xml:id="c42870_0003">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c42870_0003">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PLADIJS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42870.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42870</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1744">
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c42870_0003.w.269871">Al</w>
           <w cert="1.0" lemma="plat" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c42870_0003.w.269872">plat</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c42870_0003.w.269874">als</w>
           <w cert="1.0" lemma="bot" pos="NOU-C(number=sg)" resp="roland" xml:id="c42870_0003.w.269875">botte</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42870_0003.w.269876">ende</w>
-          <w cert="1.0" lemma="pladijs" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42870.sense.1" xml:id="c42870_0003.w.269877">pladijs</w>
+          <w cert="1.0" lemma="pladijs" pos="NOU-C(number=sg)" resp="roland" xml:id="c42870_0003.w.269877" lemmaRef="mnw.42870.sense.1">pladijs</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c42870_0003.w.269878">worden</w>
           <w cert="1.0" lemma="vet" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c42870_0003.w.269879">vetter</w>
           <pc pos="PC" xml:id="c42870_0003.pc.floating.00105266" lemma="…">…</pc>

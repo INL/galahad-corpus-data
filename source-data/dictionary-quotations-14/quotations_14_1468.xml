@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36420" lemma="ONIKEL" partition="train" sense-id="mnw.36420.sense.1" xml:id="c36420_0000">
-        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c36420_0000">
+        <note>
+          <ab>
+            <date atLeast="1290" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONIKEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36420.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36420</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1468">
           <w cert="1.0" lemma="de+een" pos="PD(type=d-p,subtype=art,position=prenom)+NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c36420_0000.w.495635">Deen</w>
           <pc join="right" pos="PC" xml:id="c36420_0000.pc.pre.00202430" lemma="(">(</pc>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36420_0000.w.495647">die</w>
           <w cert="1.0" lemma="derde" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c36420_0000.w.495648">derde</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c36420_0000.w.495649">een</w>
-          <w cert="1.0" lemma="onikel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.36420.sense.1" xml:id="c36420_0000.w.495650">onikel</w>
+          <w cert="1.0" lemma="onikel" pos="NOU-C(number=sg)" resp="roland" xml:id="c36420_0000.w.495650" lemmaRef="mnw.36420.sense.1">onikel</w>
           <pc pos="PC" xml:id="c36420_0000.pc.floating.00202434" lemma=",">,</pc>
           <pc pos="PC" xml:id="c36420_0000.pc.floating.00202435" lemma="…">…</pc>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36420_0000.w.495653">entie</w>

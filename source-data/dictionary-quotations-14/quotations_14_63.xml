@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01556" lemma="ANDERS" partition="train" sense-id="mnw.01556.sense.2" xml:id="c01556_0016">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c01556_0016">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ANDERS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01556.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01556</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.63">
           <w cert="1.0" lemma="daarwaart" pos="ADV(type=reg)" resp="thomas" xml:id="c01556_0016.w.297260">Daerwert</w>
           <w cert="1.0" lemma="rijden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c01556_0016.w.297261">reet</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="vuur" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01556_0016.w.297270">viere</w>
           <pc pos="PC" xml:id="c01556_0016.pc.post.00117741" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c01556_0016.w.297271">want</w>
-          <w cert="1.0" lemma="anders" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.01556.sense.2" xml:id="c01556_0016.w.297272">anders</w>
+          <w cert="1.0" lemma="anders" pos="ADV(type=reg)" resp="thomas" xml:id="c01556_0016.w.297272" lemmaRef="mnw.01556.sense.2">anders</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c01556_0016.w.297273">was</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c01556_0016.w.297274">hem</w>
           <w cert="1.0" lemma="klaarheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c01556_0016.w.297275">claerheit</w>

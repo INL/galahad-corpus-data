@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37229" lemma="ONTDERVEN" partition="train" sense-id="mnw.37229.sense.2" xml:id="c37229_0001">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c37229_0001">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTDERVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37229.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37229</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.931">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c37229_0001.w.653001">Ic</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37229_0001.w.653002">wille</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="naam" pos="NOU-C(number=sg)" resp="roland" xml:id="c37229_0001.w.653011">name</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c37229_0001.w.653012">van</w>
           <w cert="1.0" lemma="Borne" pos="NOU-P" resp="roland" xml:id="c37229_0001.w.653013">Borne</w>
-          <w cert="1.0" lemma="ontderven" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.37229.sense.2" xml:id="c37229_0001.w.653014">ontderven</w>
+          <w cert="1.0" lemma="ontderven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c37229_0001.w.653014" lemmaRef="mnw.37229.sense.2">ontderven</w>
           <pc pos="PC" xml:id="c37229_0001.pc.floating.00265443" lemma=",">,</pc>
         </q>
       </cit>

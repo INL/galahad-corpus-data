@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58696" lemma="TOEVLUCHT" partition="train" sense-id="mnw.58696.sense.1" xml:id="c58696_0002">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c58696_0002">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TOEVLUCHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58696.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58696</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1629">
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c58696_0002.w.379115">Dijn</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c58696_0002.w.379116">God</w>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c58696_0002.pc.post.00153747" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c58696_0002.w.379122">die</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c58696_0002.w.379123">haer</w>
-          <w cert="1.0" lemma="toevlucht" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.58696.sense.1" xml:id="c58696_0002.w.379124">toevlucht</w>
+          <w cert="1.0" lemma="toevlucht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58696_0002.w.379124" lemmaRef="mnw.58696.sense.1">toevlucht</w>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c58696_0002.w.379125">tot</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c58696_0002.w.379126">hem</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c58696_0002.w.379127">maken</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52253" lemma="SLAKEN" partition="test" sense-id="mnw.52253.sense.17" xml:id="c52253_0024">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c52253_0024">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SLAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52253.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52253</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1397">
           <pc pos="PC" xml:id="c52253_0024.pc.floating.00379943" lemma="—">—</pc>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c52253_0024.w.914766">Dan</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c52253_0024.w.914768">die</w>
           <w cert="1.0" lemma="persoon" pos="NOU-C(number=sg)" resp="thomas" xml:id="c52253_0024.w.914769">persoon</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c52253_0024.w.914770">doen</w>
-          <w cert="1.0" lemma="slaken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.52253.sense.17" xml:id="c52253_0024.w.914771">slacken</w>
+          <w cert="1.0" lemma="slaken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c52253_0024.w.914771" lemmaRef="mnw.52253.sense.17">slacken</w>
           <pc join="right" pos="PC" xml:id="c52253_0024.pc.pre.00379944" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c52253_0024.w.914772">laten</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c52253_0024.w.914773">schieten</w>

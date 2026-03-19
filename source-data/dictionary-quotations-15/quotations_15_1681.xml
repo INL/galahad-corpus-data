@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60401" lemma="UTEGESTORTEN" partition="train" sense-id="mnw.60401.sense.1" xml:id="c60401_0001">
-        <date atLeast="1470" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c60401_0001">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>UTEGESTORTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60401.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60401</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1681">
           <pc pos="PC" xml:id="c60401_0001.pc.floating.00281498" lemma="—">—</pc>
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c60401_0001.w.692555">Al</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c60401_0001.w.692558">mijne</w>
           <w cert="1.0" lemma="katijvig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c60401_0001.w.692559">kativighe</w>
           <w cert="1.0" lemma="ziel" pos="NOU-C(number=sg)" resp="roland" xml:id="c60401_0001.w.692560">ziele</w>
-          <w cert="1.0" lemma="uitgestorten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.60401.sense.1" xml:id="c60401_0001.w.692561">uytghestortten</w>
+          <w cert="1.0" lemma="uitgestorten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c60401_0001.w.692561" lemmaRef="mnw.60401.sense.1">uytghestortten</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c60401_0001.w.692562">mit</w>
           <w cert="1.0" lemma="geween" pos="NOU-C(number=sg)" resp="roland" xml:id="c60401_0001.w.692563">gheweene</w>
           <pc pos="PC" xml:id="c60401_0001.pc.post.00281499" lemma=",">,</pc>

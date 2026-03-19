@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02956" lemma="BEKEER" partition="train" sense-id="mnw.02956.sense.1" xml:id="c02956_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c02956_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BEKEER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02956.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02956</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.85">
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c02956_0000.w.554981">Sonder</w>
           <w cert="1.0" lemma="bekennis" pos="NOU-C(number=sg)" resp="roland" xml:id="c02956_0000.w.554982">bekennisse</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c02956_0000.w.554984">selfs</w>
           <pc pos="PC" xml:id="c02956_0000.pc.post.00216829" lemma=",">,</pc>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c02956_0000.w.554985">sonder</w>
-          <w cert="1.0" lemma="bekeer" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.02956.sense.1" xml:id="c02956_0000.w.554986">bekeer</w>
+          <w cert="1.0" lemma="bekeer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02956_0000.w.554986" lemmaRef="mnw.02956.sense.1">bekeer</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c02956_0000.w.554987">ende</w>
           <w cert="1.0" lemma="rouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c02956_0000.w.554988">rouwe</w>
           <pc pos="PC" xml:id="c02956_0000.pc.post.00216830" lemma=",">,</pc>

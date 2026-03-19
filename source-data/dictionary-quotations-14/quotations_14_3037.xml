@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72142" lemma="WELGEMAECT" partition="dev" sense-id="mnw.72142.sense.4" xml:id="c72142_0013">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c72142_0013">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WELGEMAECT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72142.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72142</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3037">
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c72142_0013.w.1557633">An</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c72142_0013.w.1557634">den</w>
@@ -55,9 +68,9 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c72142_0013.w.1557637">van</w>
           <w cert="1.0" lemma="goud" pos="NOU-C(number=sg)" resp="roland" xml:id="c72142_0013.w.1557638">goude</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c72142_0013.w.1557639">een</w>
-          <w cert="1.0" lemma="welgemaakt" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.72142.sense.4" xml:id="c72142_0013.w.1557640">wel<join n="mw_312854" />
+          <w cert="1.0" lemma="welgemaakt" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c72142_0013.w.1557640" lemmaRef="mnw.72142.sense.4">wel<join n="mw_312854" />
           </w>
-          <w cert="1.0" lemma="welgemaakt" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.72142.sense.4" xml:id="c72142_0013.w.1557641">gemaect<join n="mw_312854" />
+          <w cert="1.0" lemma="welgemaakt" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c72142_0013.w.1557641" lemmaRef="mnw.72142.sense.4">gemaect<join n="mw_312854" />
           </w>
           <w cert="1.0" lemma="ring" pos="NOU-C(number=sg)" resp="roland" xml:id="c72142_0013.w.1557642">rinc</w>
           <pc pos="PC" xml:id="c72142_0013.pc.post.00624604" lemma=",">,</pc>

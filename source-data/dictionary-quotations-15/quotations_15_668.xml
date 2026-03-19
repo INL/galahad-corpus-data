@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27018" lemma="LOSSINGE" partition="train" sense-id="mnw.27018.sense.3" xml:id="c27018_0002">
-        <date atLeast="1444" atMost="1444" timeSpan="1400-1450" />
+      <cit xml:id="c27018_0002">
+        <note>
+          <ab>
+            <date atLeast="1444" atMost="1444" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LOSSINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27018.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27018</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.668">
           <w cert="1.0" lemma="Gijsbrecht" pos="NOU-P" resp="roland" xml:id="c27018_0002.w.564792">Ghijsbrecht</w>
           <pc pos="PC" xml:id="c27018_0002.pc.floating.00218932" lemma="…,">…,</pc>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c27018_0002.pc.post.00218933" lemma=",">,</pc>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c27018_0002.w.564801">tot</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c27018_0002.w.564802">sijnre</w>
-          <w cert="1.0" lemma="lossing" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.27018.sense.3" xml:id="c27018_0002.w.564803">lossinge</w>
+          <w cert="1.0" lemma="lossing" pos="NOU-C(number=sg)" resp="roland" xml:id="c27018_0002.w.564803" lemmaRef="mnw.27018.sense.3">lossinge</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27018_0002.w.564804">ter</w>
           <w cert="1.0" lemma="hulp" pos="NOU-C(number=sg)" resp="roland" xml:id="c27018_0002.w.564805">hulpe</w>
           <w cert="1.0" lemma="vijf" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c27018_0002.w.564806">V</w>

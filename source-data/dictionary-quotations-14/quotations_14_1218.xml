@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29972" lemma="MISERICORDE" partition="train" sense-id="mnw.29972.sense.1" xml:id="c29972_0004">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c29972_0004">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MISERICORDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29972.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29972</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1218">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c29972_0004.w.1137815">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c29972_0004.w.1137816">wie</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c29972_0004.w.1137824">met</w>
           <w cert="1.0" lemma="ruiting" pos="NOU-C(number=pl)" resp="roland" xml:id="c29972_0004.w.1137825">rutinghen</w>
           <pc pos="PC" xml:id="c29972_0004.pc.post.00446551" lemma=",">,</pc>
-          <w cert="1.0" lemma="misericorde" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.29972.sense.1" xml:id="c29972_0004.w.1137826">misericorde</w>
+          <w cert="1.0" lemma="misericorde" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29972_0004.w.1137826" lemmaRef="mnw.29972.sense.1">misericorde</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c29972_0004.w.1137827">jof</w>
           <w cert="1.0" lemma="gepunt" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c29972_0004.w.1137828">ghepointen</w>
           <w cert="1.0" lemma="mes" pos="NOU-C(number=sg)" resp="roland" xml:id="c29972_0004.w.1137829">messe</w>

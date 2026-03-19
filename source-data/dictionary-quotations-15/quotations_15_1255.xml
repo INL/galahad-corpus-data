@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48350" lemma="SARASIJNSCH" partition="train" sense-id="mnw.48350.sense.2" xml:id="c48350_0003">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c48350_0003">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SARASIJNSCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48350.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48350</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1255">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c48350_0003.w.118710">Hi</w>
           <pc join="right" pos="PC" xml:id="c48350_0003.pc.pre.00049472" lemma="(">(</pc>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c48350_0003.w.118716">die</w>
           <w cert="1.0" lemma="Grieks" pos="NOU-P" resp="roland" xml:id="c48350_0003.w.118717">griex</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c48350_0003.w.118718">ende</w>
-          <w cert="1.0" lemma="Saracinoois" pos="NOU-P" resp="roland" sense-id="mnw.48350.sense.2" xml:id="c48350_0003.w.118719">sarrasinois</w>
+          <w cert="1.0" lemma="Saracinoois" pos="NOU-P" resp="roland" xml:id="c48350_0003.w.118719" lemmaRef="mnw.48350.sense.2">sarrasinois</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c48350_0003.w.118720">can</w>
           <pc pos="PC" xml:id="c48350_0003.pc.post.00049475" lemma=",">,</pc>
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c48350_0003.w.118721">wat</w>

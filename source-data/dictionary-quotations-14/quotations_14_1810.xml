@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44195" lemma="PROPERTEIT" partition="train" sense-id="mnw.44195.sense.1" xml:id="c44195_0002">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c44195_0002">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PROPERTEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44195.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44195</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1810">
           <w cert="1.0" lemma="natuurlijkheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c44195_0002.w.521394">Naturlechede</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c44195_0002.w.521395">die</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c44195_0002.w.521404">elc</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c44195_0002.w.521405">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c44195_0002.w.521406">sijn</w>
-          <w cert="1.0" lemma="properteit" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.44195.sense.1" xml:id="c44195_0002.w.521407">propertheit</w>
+          <w cert="1.0" lemma="properteit" pos="NOU-C(number=sg)" resp="roland" xml:id="c44195_0002.w.521407" lemmaRef="mnw.44195.sense.1">propertheit</w>
           <pc pos="PC" xml:id="c44195_0002.pc.floating.00204901" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30219" lemma="MISVOEREN" partition="train" sense-id="mnw.30219.sense.1" xml:id="c30219_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c30219_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MISVOEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30219.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30219</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1237">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30219_0000.w.1196482">Die</w>
           <w cert="1.0" lemma="baljuw" pos="NOU-C(number=sg)" resp="roland" xml:id="c30219_0000.w.1196483">bailliu</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c30219_0000.w.1196488">soude</w>
           <w cert="1.0" lemma="vangen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30219_0000.w.1196489">vaen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c30219_0000.w.1196490">ende</w>
-          <w cert="1.0" lemma="misvoeren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.30219.sense.1" xml:id="c30219_0000.w.1196491">mesfoeren</w>
+          <w cert="1.0" lemma="misvoeren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30219_0000.w.1196491" lemmaRef="mnw.30219.sense.1">mesfoeren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c30219_0000.w.1196492">ende</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30219_0000.w.1196493">slaen</w>
           <pc pos="PC" xml:id="c30219_0000.pc.post.00469562" lemma=",">,</pc>

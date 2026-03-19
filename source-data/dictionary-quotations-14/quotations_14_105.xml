@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02521" lemma="BEDIEDER" partition="train" sense-id="mnw.02521.sense.1" xml:id="c02521_0000">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c02521_0000">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BEDIEDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02521.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02521</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.105">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c02521_0000.w.457439">Sine</w>
-          <w cert="1.0" lemma="beduider" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.02521.sense.1" xml:id="c02521_0000.w.457440">bedieders</w>
+          <w cert="1.0" lemma="beduider" pos="NOU-C(number=pl)" resp="roland" xml:id="c02521_0000.w.457440" lemmaRef="mnw.02521.sense.1">bedieders</w>
           <pc join="right" pos="PC" xml:id="c02521_0000.pc.pre.00179280" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c02521_0000.w.457441">nl.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c02521_0000.w.457442">van</w>

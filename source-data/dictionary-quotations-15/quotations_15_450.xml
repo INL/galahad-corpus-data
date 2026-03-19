@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18306" lemma="HOVAERDE" partition="train" sense-id="mnw.18306.sense.1" xml:id="c18306_0002">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c18306_0002">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HOVAERDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18306.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18306</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.450">
           <w cert="1.0" lemma="dies" pos="ADV(type=reg)" resp="roland" xml:id="c18306_0002.w.468945">Dies</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c18306_0002.w.468946">wert</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c18306_0002.pc.post.00191685" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c18306_0002.w.468953">en</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c18306_0002.w.468954">met</w>
-          <w cert="1.0" lemma="hovaart" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18306.sense.1" xml:id="c18306_0002.w.468955">hooveerden</w>
+          <w cert="1.0" lemma="hovaart" pos="NOU-C(number=sg)" resp="roland" xml:id="c18306_0002.w.468955" lemmaRef="mnw.18306.sense.1">hooveerden</w>
           <pc pos="PC" xml:id="c18306_0002.pc.floating.00191686" lemma="…">…</pc>
           <w cert="1.0" lemma="bevangen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c18306_0002.w.468957">bevaen</w>
           <pc pos="PC" xml:id="c18306_0002.pc.post.00191687" lemma=",">,</pc>

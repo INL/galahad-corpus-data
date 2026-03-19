@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16355" lemma="HEILICHEDE" partition="train" sense-id="mnw.16355.sense.3" xml:id="c16355_0011">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c16355_0011">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HEILICHEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16355.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16355</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.698">
           <pc join="right" pos="PC" xml:id="c16355_0011.pc.pre.00075973" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c16355_0011.w.186433">Een</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c16355_0011.pc.floating.00075975" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c16355_0011.w.186436">die</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c16355_0011.w.186437">van</w>
-          <w cert="1.0" lemma="heiligheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.16355.sense.3" xml:id="c16355_0011.w.186438">heilecheit</w>
+          <w cert="1.0" lemma="heiligheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c16355_0011.w.186438" lemmaRef="mnw.16355.sense.3">heilecheit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c16355_0011.w.186439">was</w>
           <w cert="1.0" lemma="geraken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c16355_0011.w.186440">geraect</w>
           <pc pos="PC" xml:id="c16355_0011.pc.post.00075976" lemma=",">,</pc>

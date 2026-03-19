@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63431" lemma="VERLATEN" partition="train" sense-id="mnw.63431.sense.5" xml:id="c63431_0008">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c63431_0008">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERLATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63431.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63431</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1818">
           <pc join="right" pos="PC" xml:id="c63431_0008.pc.pre.00584216" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63431_0008.w.1461387">Hi</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c63431_0008.w.1461390">ambtenaren</w>
           <pc pos="PC" xml:id="c63431_0008.pc.post.00584219" lemma=")">)</pc>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c63431_0008.w.1461391">moghen</w>
-          <w cert="1.0" lemma="verlaten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.63431.sense.5" xml:id="c63431_0008.w.1461392">verlaten</w>
+          <w cert="1.0" lemma="verlaten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c63431_0008.w.1461392" lemmaRef="mnw.63431.sense.5">verlaten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63431_0008.w.1461393">ende</w>
           <w cert="1.0" lemma="afstellen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c63431_0008.w.1461394">ofstellen</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c63431_0008.w.1461395">als</w>

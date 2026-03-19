@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14131" lemma="GILE" partition="train" sense-id="mnw.14131.sense.9" xml:id="c14131_0016">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c14131_0016">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GILE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14131.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14131</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.628">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c14131_0016.w.1429356">Met</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c14131_0016.w.1429357">deser</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c14131_0016.pc.post.00597439" lemma=",">,</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c14131_0016.w.1429359">met</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c14131_0016.w.1429360">derre</w>
-          <w cert="1.0" lemma="gijl" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14131.sense.9" xml:id="c14131_0016.w.1429361">ghile</w>
+          <w cert="1.0" lemma="gijl" pos="NOU-C(number=sg)" resp="roland" xml:id="c14131_0016.w.1429361" lemmaRef="mnw.14131.sense.9">ghile</w>
           <w cert="1.0" lemma="omgaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c14131_0016.w.1429362">ghinc<join n="mw_547410" />
           </w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c14131_0016.w.1429363">hi</w>

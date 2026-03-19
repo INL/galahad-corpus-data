@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63320" lemma="VERCOPEN" partition="train" sense-id="mnw.63320.sense.12" xml:id="c63320_0045">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c63320_0045">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERCOPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63320.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63320</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1813">
           <pc join="right" pos="PC" xml:id="c63320_0045.pc.pre.00572554" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c63320_0045.w.1430823">Hi</w>
@@ -84,7 +97,7 @@
           <pc pos="PC" xml:id="c63320_0045.pc.post.00572560" lemma=";">;</pc>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63320_0045.w.1430848">gy</w>
           <w cert="1.0" lemma="hebben+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c63320_0045.w.1430849">haddet</w>
-          <w cert="1.0" lemma="verkopen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.63320.sense.12" xml:id="c63320_0045.w.1430850">verkocht</w>
+          <w cert="1.0" lemma="verkopen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c63320_0045.w.1430850" lemmaRef="mnw.63320.sense.12">verkocht</w>
           <pc pos="PC" xml:id="c63320_0045.pc.floating.00572561" lemma=",">,</pc>
           <w cert="1.0" lemma="des" pos="ADV(type=reg)" resp="roland" xml:id="c63320_0045.w.1430852">des</w>
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c63320_0045.w.1430853">waert</w>

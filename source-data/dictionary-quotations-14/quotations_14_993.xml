@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25348" lemma="LEEN" partition="train" sense-id="mnw.25348.sense.1" xml:id="c25348_0014">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c25348_0014">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LEEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25348.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25348</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.993">
           <w cert="1.0" lemma="nooit" pos="ADV(type=reg)" resp="thomas" xml:id="c25348_0014.w.177438">Noyt</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c25348_0014.w.177439">ne</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c25348_0014.w.177450">here</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c25348_0014.w.177451">te</w>
           <w cert="1.0" lemma="zoeken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c25348_0014.w.177452">soekene</w>
-          <w cert="1.0" lemma="leen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25348.sense.1" xml:id="c25348_0014.w.177453">leen</w>
+          <w cert="1.0" lemma="leen" pos="NOU-C(number=sg)" resp="roland" xml:id="c25348_0014.w.177453" lemmaRef="mnw.25348.sense.1">leen</w>
           <pc pos="PC" xml:id="c25348_0014.pc.floating.00068960" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69301" lemma="VROMELIKE" partition="train" sense-id="mnw.69301.sense.2" xml:id="c69301_0006">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c69301_0006">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VROMELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69301.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69301</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2919">
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c69301_0006.w.1035991">Niemene</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c69301_0006.w.1035992">ne</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69301_0006.w.1035997">var</w>
           <pc pos="PC" xml:id="c69301_0006.pc.post.00414742" lemma=".">.</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c69301_0006.w.1035998">G.</w>
-          <w cert="1.0" lemma="vromelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.69301.sense.2" xml:id="c69301_0006.w.1035999">vromelike</w>
+          <w cert="1.0" lemma="vromelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c69301_0006.w.1035999" lemmaRef="mnw.69301.sense.2">vromelike</w>
           <pc pos="PC" xml:id="c69301_0006.pc.floating.00414744" lemma=")">)</pc>
           <pc pos="PC" xml:id="c69301_0006.pc.floating.00414745" lemma=",">,</pc>
           <w cert="1.0" lemma="hij+ne" pos="PD(type=pers,position=free)+CONJ(type=sub)" resp="thomas" xml:id="c69301_0006.w.1036002">hine</w>

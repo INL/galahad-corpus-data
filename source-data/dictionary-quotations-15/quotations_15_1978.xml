@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66813" lemma="VLOEKEN" partition="train" sense-id="mnw.66813.sense.9" xml:id="c66813_0040">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c66813_0040">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VLOEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66813.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66813</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1978">
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c66813_0040.w.475016">Dus</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66813_0040.w.475017">moet</w>
@@ -68,7 +81,7 @@
           <pc pos="PC" xml:id="c66813_0040.pc.post.00190123" lemma=",">,</pc>
           <w cert="1.0" lemma="bidden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c66813_0040.w.475030">bidden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c66813_0040.w.475031">ende</w>
-          <w cert="1.0" lemma="vloeken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.66813.sense.9" xml:id="c66813_0040.w.475032">vloeken</w>
+          <w cert="1.0" lemma="vloeken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c66813_0040.w.475032" lemmaRef="mnw.66813.sense.9">vloeken</w>
           <pc pos="PC" xml:id="c66813_0040.pc.floating.00190124" lemma=",">,</pc>
         </q>
       </cit>

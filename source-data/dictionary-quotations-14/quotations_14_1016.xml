@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25890" lemma="LEVEN" partition="train" sense-id="mnw.25890.sense.2" xml:id="c25890_0018">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c25890_0018">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25890.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25890</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1016">
           <w cert="1.0" lemma="helen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25890_0018.w.292496">Helet</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c25890_0018.w.292497">minen</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c25890_0018.w.292499">so</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25890_0018.w.292500">mach</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25890_0018.w.292501">ic</w>
-          <w cert="1.0" lemma="leven" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.25890.sense.2" xml:id="c25890_0018.w.292502">leven</w>
+          <w cert="1.0" lemma="leven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c25890_0018.w.292502" lemmaRef="mnw.25890.sense.2">leven</w>
           <w cert="1.0" lemma="veel" pos="ADV(type=reg)" resp="roland" xml:id="c25890_0018.w.292503">vele</w>
           <w cert="1.0" lemma="te" pos="ADV(type=reg)" resp="thomas" xml:id="c25890_0018.w.292504">te</w>
           <w cert="1.0" lemma="zacht" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c25890_0018.w.292505">sachter</w>

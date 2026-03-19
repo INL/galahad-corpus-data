@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63057" lemma="VERHEVEN" partition="train" sense-id="mnw.63057.sense.4" xml:id="c63057_0002">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c63057_0002">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERHEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63057.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63057</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1802">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63057_0002.w.1355456">Die</w>
           <pc join="right" pos="PC" xml:id="c63057_0002.pc.pre.00543086" lemma="(">(</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="meer" pos="ADV(type=reg)" resp="thomas" xml:id="c63057_0002.w.1355462">meer</w>
           <pc pos="PC" xml:id="c63057_0002.pc.floating.00543090" lemma="…,">…,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63057_0002.w.1355464">ende</w>
-          <w cert="1.0" lemma="verheven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.63057.sense.4" xml:id="c63057_0002.w.1355465">verheve</w>
+          <w cert="1.0" lemma="verheven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63057_0002.w.1355465" lemmaRef="mnw.63057.sense.4">verheve</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c63057_0002.w.1355466">hem</w>
           <w cert="1.0" lemma="des" pos="ADV(type=reg)" resp="roland" xml:id="c63057_0002.w.1355467">des</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c63057_0002.w.1355468">niet</w>

@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21682" lemma="CLAERLIJC" partition="train" sense-id="mnw.21682.sense.1" xml:id="c21682_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c21682_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CLAERLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21682.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21682</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.863">
           <w cert="1.0" lemma="het+zijn" pos="PD(type=pers,position=free)+VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c21682_0000.w.1011272">Ets</w>
-          <w cert="1.0" lemma="klaarlijk" pos="AA(degree=comp,position=free)" resp="thomas" sense-id="mnw.21682.sense.1" xml:id="c21682_0000.w.1011273">clerleker</w>
+          <w cert="1.0" lemma="klaarlijk" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c21682_0000.w.1011273" lemmaRef="mnw.21682.sense.1">clerleker</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c21682_0000.w.1011274">dan</w>
           <w cert="1.0" lemma="dat+zonneschijn" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c21682_0000.w.1011275">tsonneschijn</w>
           <w cert="1.0" lemma="openbaar" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c21682_0000.w.1011276">oppenbaer</w>

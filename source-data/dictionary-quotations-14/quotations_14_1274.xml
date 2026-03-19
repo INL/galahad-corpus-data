@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31045" lemma="MOUDE" partition="train" sense-id="mnw.31045.sense.4" xml:id="c31045_0014">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c31045_0014">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOUDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31045.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31045</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1274">
           <w cert="1.0" lemma="luttel" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c31045_0014.w.1352456">Lettel</w>
           <w cert="1.0" lemma="vinden+men+er" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)+ADV(type=reg)" resp="roland" xml:id="c31045_0014.w.1352457">vintmer</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="eer" pos="CONJ(type=sub)" resp="thomas" xml:id="c31045_0014.w.1352465">eer</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c31045_0014.w.1352466">hem</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c31045_0014.w.1352467">die</w>
-          <w cert="1.0" lemma="moude" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.31045.sense.4" xml:id="c31045_0014.w.1352468">moude</w>
+          <w cert="1.0" lemma="moude" pos="NOU-C(number=sg)" resp="roland" xml:id="c31045_0014.w.1352468" lemmaRef="mnw.31045.sense.4">moude</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31045_0014.w.1352469">was</w>
           <w cert="1.0" lemma="beluiken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c31045_0014.w.1352470">beloken</w>
           <pc pos="PC" xml:id="c31045_0014.pc.post.00532103" lemma=",">,</pc>

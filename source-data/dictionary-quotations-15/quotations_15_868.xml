@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34771" lemma="ONDERSIELE" partition="train" sense-id="mnw.34771.sense.1" xml:id="c34771_0000">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c34771_0000">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONDERSIELE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34771.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34771</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.868">
           <w cert="1.0" lemma="te+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c34771_0000.w.266160">Ten</w>
           <w cert="1.0" lemma="eerste" pos="NOU-C(number=sg)" resp="thomas" xml:id="c34771_0000.w.266161">yersten</w>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c34771_0000.pc.post.00110173" lemma=",">,</pc>
           <w cert="1.0" lemma="toe" pos="ADP(type=pre)" resp="thomas" xml:id="c34771_0000.w.266171">to</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c34771_0000.w.266172">hoor</w>
-          <w cert="1.0" lemma="onderziel" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.34771.sense.1" xml:id="c34771_0000.w.266173">onderziel</w>
+          <w cert="1.0" lemma="onderziel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c34771_0000.w.266173" lemmaRef="mnw.34771.sense.1">onderziel</w>
           <w cert="1.0" lemma="tien" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c34771_0000.w.266174">X</w>
           <w cert="1.0" lemma="ave maria" pos="NOU-C(number=sg)" resp="roland" xml:id="c34771_0000.w.266175">Ave<join n="mw_963833" />
           </w>

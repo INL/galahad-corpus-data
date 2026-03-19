@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25087" lemma="LASERS" partition="train" sense-id="mnw.25087.sense.1" xml:id="c25087_0004">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c25087_0004">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LASERS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25087.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25087</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.973">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25087_0004.w.107795">Hi</w>
           <w cert="1.0" lemma="dienen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c25087_0004.w.107796">diende</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="mild" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c25087_0004.w.107798">milder</w>
           <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" xml:id="c25087_0004.w.107799">hant</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c25087_0004.w.107800">den</w>
-          <w cert="1.0" lemma="lazers" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.25087.sense.1" xml:id="c25087_0004.w.107801">lazersen</w>
+          <w cert="1.0" lemma="lazers" pos="NOU-C(number=pl)" resp="roland" xml:id="c25087_0004.w.107801" lemmaRef="mnw.25087.sense.1">lazersen</w>
           <pc pos="PC" xml:id="c25087_0004.pc.floating.00042195" lemma=",">,</pc>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c25087_0004.w.107803">daer</w>
           <w cert="1.0" lemma="hij+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c25087_0004.w.107804">hise</w>

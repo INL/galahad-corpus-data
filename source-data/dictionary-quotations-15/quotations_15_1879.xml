@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64488" lemma="VERSCHUVEN" partition="dev" sense-id="mnw.64488.sense.1" xml:id="c64488_0008">
-        <date atLeast="1476" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c64488_0008">
+        <note>
+          <ab>
+            <date atLeast="1476" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERSCHUVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64488.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64488</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1879">
           <w cert="1.0" lemma="exempel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64488_0008.w.1756993">Exempel</w>
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64488_0008.w.1756994">nemet</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c64488_0008.w.1757002">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c64488_0008.w.1757003">hi</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c64488_0008.w.1757004">wert</w>
-          <w cert="1.0" lemma="verschuiven" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.64488.sense.1" xml:id="c64488_0008.w.1757005">verschoven</w>
+          <w cert="1.0" lemma="verschuiven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c64488_0008.w.1757005" lemmaRef="mnw.64488.sense.1">verschoven</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c64488_0008.w.1757006">al</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c64488_0008.w.1757007">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c64488_0008.w.1757008">sijns</w>

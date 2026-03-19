@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59275" lemma="TRECKEN" partition="train" sense-id="mnw.59275.sense.4" xml:id="c59275_0005">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c59275_0005">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TRECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59275.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59275</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2401">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c59275_0005.w.500667">Si</w>
-          <w cert="1.0" lemma="trekken" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.59275.sense.4" xml:id="c59275_0005.w.500668">traken</w>
+          <w cert="1.0" lemma="trekken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c59275_0005.w.500668" lemmaRef="mnw.59275.sense.4">traken</w>
           <w cert="1.0" lemma="dat+zeil" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c59275_0005.w.500669">tseil</w>
           <w cert="1.0" lemma="boven" pos="ADV(type=reg)" resp="thomas" xml:id="c59275_0005.w.500670">boven</w>
           <w cert="1.0" lemma="hoog" pos="ADV(type=reg)" resp="thomas" xml:id="c59275_0005.w.500671">hooch</w>

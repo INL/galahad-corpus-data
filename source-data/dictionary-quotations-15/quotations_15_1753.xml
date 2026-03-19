@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62169" lemma="VERBINDEN" partition="train" sense-id="mnw.62169.sense.26" xml:id="c62169_0050">
-        <date atLeast="1495" atMost="1495" timeSpan="1450-1500" />
+      <cit xml:id="c62169_0050">
+        <note>
+          <ab>
+            <date atLeast="1495" atMost="1495" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERBINDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62169.sense.26</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62169</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1753">
           <w cert="1.0" lemma="Jezus" pos="NOU-P" resp="roland" xml:id="c62169_0050.w.1110162">Jhesus</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c62169_0050.w.1110163">is</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c62169_0050.w.1110169">hem</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c62169_0050.w.1110170">in</w>
           <w cert="1.0" lemma="penitentie" pos="NOU-C(number=sg)" resp="roland" xml:id="c62169_0050.w.1110171">penitenciën</w>
-          <w cert="1.0" lemma="verbinden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.62169.sense.26" xml:id="c62169_0050.w.1110172">verbinden</w>
+          <w cert="1.0" lemma="verbinden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c62169_0050.w.1110172" lemmaRef="mnw.62169.sense.26">verbinden</w>
           <pc pos="PC" xml:id="c62169_0050.pc.floating.00447544" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08774" lemma="EMMERTOE" partition="train" sense-id="mnw.08774.sense.2" xml:id="c08774_0006">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c08774_0006">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>EMMERTOE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08774.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08774</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.367">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c08774_0006.w.468456">Die</w>
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="roland" xml:id="c08774_0006.w.468457">vader</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c08774_0006.pc.floating.00202732" lemma="..">..</pc>
           <w cert="1.0" lemma="nochtan" pos="ADV(type=reg)" resp="thomas" xml:id="c08774_0006.w.468463">nochtan</w>
           <w cert="1.0" lemma="willen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c08774_0006.w.468464">wildi</w>
-          <w cert="1.0" lemma="immertoe" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.08774.sense.2" xml:id="c08774_0006.w.468465">embertoe</w>
+          <w cert="1.0" lemma="immertoe" pos="ADV(type=reg)" resp="thomas" xml:id="c08774_0006.w.468465" lemmaRef="mnw.08774.sense.2">embertoe</w>
           <w cert="1.0" lemma="Lancelot" pos="NOU-P" resp="thomas" xml:id="c08774_0006.w.468466">Lancelote</w>
           <w cert="1.0" lemma="oplopen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c08774_0006.w.468467">oplopen</w>
           <pc pos="PC" xml:id="c08774_0006.pc.post.00202733" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07560" lemma="DRAGEN" partition="train" sense-id="mnw.07560.sense.66" xml:id="c07560_0201">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c07560_0201">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07560.sense.66</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07560</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.331">
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07560_0201.w.285086">Ter</w>
           <w cert="1.0" lemma="stede" pos="NOU-C(number=sg)" resp="roland" xml:id="c07560_0201.w.285087">stede</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c07560_0201.pc.post.00122826" lemma=",">,</pc>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c07560_0201.w.285093">wert</w>
           <w cert="1.0" lemma="dat+keizerrijk" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c07560_0201.w.285094">tkeiserike</w>
-          <w cert="1.0" lemma="dragen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.07560.sense.66" xml:id="c07560_0201.w.285095">gedregen</w>
+          <w cert="1.0" lemma="dragen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c07560_0201.w.285095" lemmaRef="mnw.07560.sense.66">gedregen</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c07560_0201.w.285096">aen</w>
           <pc pos="PC" xml:id="c07560_0201.pc.floating.00122827" lemma="…">…</pc>
           <w cert="1.0" lemma="Valeriaan" pos="NOU-P" resp="roland" xml:id="c07560_0201.w.285098">Valeriane</w>

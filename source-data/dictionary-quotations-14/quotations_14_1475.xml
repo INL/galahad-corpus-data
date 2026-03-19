@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36606" lemma="ONMENICH" partition="train" sense-id="mnw.36606.sense.1" xml:id="c36606_0001">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c36606_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONMENICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36606.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36606</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1475">
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c36606_0001.w.528234">Wel</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c36606_0001.w.528235">heeft</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="die+het" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c36606_0001.w.528241">diet</w>
           <w cert="1.0" lemma="nutten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c36606_0001.w.528242">nutten</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c36606_0001.w.528243">mach</w>
-          <w cert="1.0" lemma="onmenig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" sense-id="mnw.36606.sense.1" xml:id="c36606_0001.w.528244">ommenech</w>
+          <w cert="1.0" lemma="onmenig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c36606_0001.w.528244" lemmaRef="mnw.36606.sense.1">ommenech</w>
           <w cert="1.0" lemma="jaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c36606_0001.w.528245">jaer</w>
           <pc pos="PC" xml:id="c36606_0001.pc.post.00215678" lemma=",">,</pc>
         </q>

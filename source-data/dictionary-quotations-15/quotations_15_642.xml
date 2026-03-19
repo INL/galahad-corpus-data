@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26098" lemma="LIEF" partition="train" sense-id="mnw.26098.sense.9" xml:id="c26098_0028">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c26098_0028">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LIEF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26098.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26098</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.642">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c26098_0028.w.366132">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c26098_0028.w.366133">hi</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c26098_0028.w.366146">zijn</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c26098_0028.w.366147">eigen</w>
           <pc pos="PC" xml:id="c26098_0028.pc.post.00141903" lemma=")">)</pc>
-          <w cert="1.0" lemma="lief" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.26098.sense.9" xml:id="c26098_0028.w.366148">lieve</w>
+          <w cert="1.0" lemma="lief" pos="NOU-C(number=sg)" resp="thomas" xml:id="c26098_0028.w.366148" lemmaRef="mnw.26098.sense.9">lieve</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26098_0028.w.366149">ende</w>
           <w cert="1.0" lemma="gevoeg" pos="NOU-C(number=sg)" resp="thomas" xml:id="c26098_0028.w.366150">ghevoeghe</w>
           <pc pos="PC" xml:id="c26098_0028.pc.post.00141904" lemma=",">,</pc>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01646" lemma="ANXT" partition="dev" sense-id="mnw.01646.sense.3" xml:id="c01646_0015">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c01646_0015">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ANXT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01646.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01646</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.43">
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c01646_0015.w.309220">Ane</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c01646_0015.w.309221">den</w>
           <w cert="1.0" lemma="stad" pos="NOU-C(number=pl)" resp="roland" xml:id="c01646_0015.w.309222">steden</w>
           <w cert="1.0" lemma="daar+men" pos="ADV(type=reg)+PD(type=pers,position=free)" resp="thomas" xml:id="c01646_0015.w.309223">daermen</w>
-          <w cert="1.0" lemma="angst" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.01646.sense.3" xml:id="c01646_0015.w.309224">anx</w>
+          <w cert="1.0" lemma="angst" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01646_0015.w.309224" lemmaRef="mnw.01646.sense.3">anx</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c01646_0015.w.309225">hevet</w>
           <pc pos="PC" xml:id="c01646_0015.pc.post.00122389" lemma=",">,</pc>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c01646_0015.w.309226">daer</w>

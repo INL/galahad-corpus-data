@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69299" lemma="VROMELIJC" partition="train" sense-id="mnw.69299.sense.1" xml:id="c69299_0000">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c69299_0000">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VROMELIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69299.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69299</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2918">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c69299_0000.w.1035579">Doe</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c69299_0000.w.1035580">maecte</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="zingen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c69299_0000.w.1035591">zanc</w>
           <pc pos="PC" xml:id="c69299_0000.pc.post.00414576" lemma=",">,</pc>
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c69299_0000.w.1035592">hoe</w>
-          <w cert="1.0" lemma="vromelijk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.69299.sense.1" xml:id="c69299_0000.w.1035593">vroomelic</w>
+          <w cert="1.0" lemma="vromelijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c69299_0000.w.1035593" lemmaRef="mnw.69299.sense.1">vroomelic</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c69299_0000.w.1035594">dat</w>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c69299_0000.w.1035595">elc</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c69299_0000.w.1035596">was</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23509" lemma="COSTERESSE" partition="train" sense-id="mnw.23509.sense.1" xml:id="c23509_0001">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c23509_0001">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>COSTERESSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23509.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23509</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.581">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c23509_0001.w.1355089">Dat</w>
           <w cert="1.0" lemma="horloge" pos="NOU-C(number=sg)" resp="roland" xml:id="c23509_0001.w.1355090">orley</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c23509_0001.w.1355094">sloech</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c23509_0001.w.1355095">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c23509_0001.w.1355096">die</w>
-          <w cert="1.0" lemma="kosteres" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.23509.sense.1" xml:id="c23509_0001.w.1355097">costerisse</w>
+          <w cert="1.0" lemma="kosteres" pos="NOU-C(number=sg)" resp="roland" xml:id="c23509_0001.w.1355097" lemmaRef="mnw.23509.sense.1">costerisse</w>
           <w cert="1.0" lemma="in+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c23509_0001.w.1355098">inder</w>
           <w cert="1.0" lemma="kerk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23509_0001.w.1355099">kerke</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c23509_0001.w.1355100">niet</w>

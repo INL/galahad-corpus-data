@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28694" lemma="MEENSAMHEIT" partition="train" sense-id="mnw.28694.sense.1" xml:id="c28694_0001">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c28694_0001">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MEENSAMHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28694.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28694</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1152">
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28694_0001.w.872467">Ghi</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c28694_0001.w.872468">en</w>
@@ -68,7 +81,7 @@
           </w>
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c28694_0001.w.872482">houden</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c28694_0001.w.872483">wilt</w>
-          <w cert="1.0" lemma="meenzaamheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28694.sense.1" xml:id="c28694_0001.w.872484">meensaemhede</w>
+          <w cert="1.0" lemma="meenzaamheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c28694_0001.w.872484" lemmaRef="mnw.28694.sense.1">meensaemhede</w>
           <pc pos="PC" xml:id="c28694_0001.pc.floating.00339329" lemma=",">,</pc>
         </q>
       </cit>

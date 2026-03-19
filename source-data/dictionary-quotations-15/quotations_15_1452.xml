@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53808" lemma="SPEELLIET" partition="train" sense-id="mnw.53808.sense.1" xml:id="c53808_0000">
-        <date atLeast="1480" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c53808_0000">
+        <note>
+          <ab>
+            <date atLeast="1480" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SPEELLIET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53808.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53808</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1452">
           <w cert="1.0" lemma="nimmermeer" pos="ADV(type=reg)" resp="thomas" xml:id="c53808_0000.w.1240721">Nemmermeer</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c53808_0000.w.1240722">en</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c53808_0000.w.1240727">in</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c53808_0000.w.1240728">mine</w>
           <w cert="1.0" lemma="kerk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c53808_0000.w.1240729">kerke</w>
-          <w cert="1.0" lemma="speelliedje" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.53808.sense.1" xml:id="c53808_0000.w.1240730">speelliedekijns</w>
+          <w cert="1.0" lemma="speelliedje" pos="NOU-C(number=pl)" resp="thomas" xml:id="c53808_0000.w.1240730" lemmaRef="mnw.53808.sense.1">speelliedekijns</w>
           <w cert="1.0" lemma="zingen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c53808_0000.w.1240731">singhen</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c53808_0000.w.1240732">sal</w>
           <pc pos="PC" xml:id="c53808_0000.pc.post.00515311" lemma=",">,</pc>

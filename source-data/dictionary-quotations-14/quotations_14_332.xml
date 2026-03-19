@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07560" lemma="DRAGEN" partition="train" sense-id="mnw.07560.sense.107" xml:id="c07560_0256">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c07560_0256">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07560.sense.107</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07560</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.332">
           <w cert="1.0" lemma="deus" pos="NOU-C(number=sg)" resp="roland" xml:id="c07560_0256.w.287007">Deus</w>
           <pc pos="PC" xml:id="c07560_0256.pc.post.00123636" lemma=",">,</pc>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c07560_0256.w.287009">scone</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c07560_0256.w.287010">haer</w>
           <w cert="1.0" lemma="ros" pos="NOU-C(number=sg)" resp="roland" xml:id="c07560_0256.w.287011">orse</w>
-          <w cert="1.0" lemma="dragen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.07560.sense.107" xml:id="c07560_0256.w.287012">draghen</w>
+          <w cert="1.0" lemma="dragen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c07560_0256.w.287012" lemmaRef="mnw.07560.sense.107">draghen</w>
           <pc pos="PC" xml:id="c07560_0256.pc.floating.00123637" lemma=",">,</pc>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c07560_0256.w.287014">daer</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07560_0256.w.287015">si</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27834" lemma="MAN" partition="train" sense-id="mnw.27834.sense.34" xml:id="c27834_0224">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c27834_0224">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27834.sense.34</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27834</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.690">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c27834_0224.w.738885">Ic</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c27834_0224.w.738886">hebbe</w>
@@ -77,7 +90,7 @@
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c27834_0224.w.738908">bliven</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c27834_0224.w.738909">mijns</w>
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c27834_0224.w.738910">selves</w>
-          <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.27834.sense.34" xml:id="c27834_0224.w.738911">man</w>
+          <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c27834_0224.w.738911" lemmaRef="mnw.27834.sense.34">man</w>
           <pc pos="PC" xml:id="c27834_0224.pc.floating.00286899" lemma=",">,</pc>
         </q>
       </cit>

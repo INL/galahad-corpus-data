@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02502" lemma="BEDERVEN" partition="train" sense-id="mnw.02502.sense.7" xml:id="c02502_0033">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c02502_0033">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEDERVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02502.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02502</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.102">
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c02502_0033.w.451484">Dan</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02502_0033.w.451485">wille</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c02502_0033.w.451492">hem</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c02502_0033.w.451493">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c02502_0033.w.451494">hem</w>
-          <w cert="1.0" lemma="bederven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.02502.sense.7" xml:id="c02502_0033.w.451495">bedarf</w>
+          <w cert="1.0" lemma="bederven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02502_0033.w.451495" lemmaRef="mnw.02502.sense.7">bedarf</w>
           <pc pos="PC" xml:id="c02502_0033.pc.floating.00176971" lemma=",">,</pc>
         </q>
       </cit>

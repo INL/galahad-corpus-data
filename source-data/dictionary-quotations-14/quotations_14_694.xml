@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16271" lemma="HEFFEN" partition="train" sense-id="mnw.16271.sense.30" xml:id="c16271_0112">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c16271_0112">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HEFFEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16271.sense.30</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16271</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.694">
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c16271_0112.w.172078">Het</w>
-          <w cert="1.0" lemma="heffen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.16271.sense.30" xml:id="c16271_0112.w.172079">hief</w>
+          <w cert="1.0" lemma="heffen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c16271_0112.w.172079" lemmaRef="mnw.16271.sense.30">hief</w>
           <pc pos="PC" xml:id="c16271_0112.pc.floating.00070008" lemma="…">…</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c16271_0112.w.172081">een</w>
           <w cert="1.0" lemma="storm" pos="NOU-C(number=sg)" resp="roland" xml:id="c16271_0112.w.172082">storm</w>

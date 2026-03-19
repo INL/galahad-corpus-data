@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31339" lemma="MUUR" partition="train" sense-id="mnw.31339.sense.1" xml:id="c31339_0000">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c31339_0000">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MUUR</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31339.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31339</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.777">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c31339_0000.w.1383829">Dit</w>
           <w cert="1.0" lemma="vrijthof" pos="NOU-C(number=sg)" resp="thomas" xml:id="c31339_0000.w.1383830">vrijthof</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="ommuren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c31339_0000.w.1383832">ommuert</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c31339_0000.w.1383833">mit</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="roland" xml:id="c31339_0000.w.1383834">eenre</w>
-          <w cert="1.0" lemma="muur" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.31339.sense.1" xml:id="c31339_0000.w.1383835">mueren</w>
+          <w cert="1.0" lemma="muur" pos="NOU-C(number=sg)" resp="roland" xml:id="c31339_0000.w.1383835" lemmaRef="mnw.31339.sense.1">mueren</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c31339_0000.w.1383836">van</w>
           <w cert="1.0" lemma="marmersteen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c31339_0000.w.1383837">marmersteen</w>
           <pc pos="PC" xml:id="c31339_0000.pc.post.00544597" lemma=",">,</pc>

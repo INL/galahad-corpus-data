@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38809" lemma="ONVREDE" partition="test" sense-id="mnw.38809.sense.6" xml:id="c38809_0030">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c38809_0030">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONVREDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38809.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38809</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1578">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c38809_0030.w.982375">Die</w>
           <w cert="1.0" lemma="Deen" pos="NOU-C(number=pl)" resp="roland" xml:id="c38809_0030.w.982376">Deenen</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="doorvaren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c38809_0030.w.982381">dorvoeren</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c38809_0030.w.982382">met</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c38809_0030.w.982383">groter</w>
-          <w cert="1.0" lemma="onvrede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.38809.sense.6" xml:id="c38809_0030.w.982384">onvreden</w>
+          <w cert="1.0" lemma="onvrede" pos="NOU-C(number=sg)" resp="roland" xml:id="c38809_0030.w.982384" lemmaRef="mnw.38809.sense.6">onvreden</w>
           <pc pos="PC" xml:id="c38809_0030.pc.floating.00393797" lemma=",">,</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c38809_0030.w.982386">met</w>
           <w cert="1.0" lemma="overmoed" pos="NOU-C(number=sg)" resp="roland" xml:id="c38809_0030.w.982387">overmoede</w>

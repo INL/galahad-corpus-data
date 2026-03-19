@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57343" lemma="TEGAEN" partition="train" sense-id="mnw.57343.sense.12" xml:id="c57343_0053">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c57343_0053">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TEGAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57343.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57343</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2333">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c57343_0053.w.113180">Hoe</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57343_0053.w.113181">hi</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c57343_0053.w.113188">keizer</w>
           <pc pos="PC" xml:id="c57343_0053.pc.post.00046252" lemma=")">)</pc>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c57343_0053.w.113189">doet</w>
-          <w cert="1.0" lemma="tegaan" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.57343.sense.12" xml:id="c57343_0053.w.113190">tegaen</w>
+          <w cert="1.0" lemma="tegaan" pos="VRB(finiteness=inf)" resp="roland" xml:id="c57343_0053.w.113190" lemmaRef="mnw.57343.sense.12">tegaen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c57343_0053.w.113191">ende</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c57343_0053.w.113192">wesen</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c57343_0053.w.113193">niet</w>

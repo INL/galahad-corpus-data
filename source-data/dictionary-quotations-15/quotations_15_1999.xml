@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67289" lemma="VOLBRINGER" partition="train" sense-id="mnw.67289.sense.1" xml:id="c67289_0001">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c67289_0001">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VOLBRINGER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67289.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67289</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1999">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c67289_0001.w.584542">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c67289_0001.w.584543">wie</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c67289_0001.pc.post.00233720" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c67289_0001.w.584550">mer</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c67289_0001.w.584551">een</w>
-          <w cert="1.0" lemma="volbrenger" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.67289.sense.1" xml:id="c67289_0001.w.584552">volbrengher</w>
+          <w cert="1.0" lemma="volbrenger" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67289_0001.w.584552" lemmaRef="mnw.67289.sense.1">volbrengher</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c67289_0001.w.584553">des</w>
           <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67289_0001.w.584554">wercs</w>
           <pc pos="PC" xml:id="c67289_0001.pc.post.00233721" lemma=",">,</pc>

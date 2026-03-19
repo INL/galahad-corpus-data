@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13608" lemma="GEVOECH" partition="train" sense-id="mnw.13608.sense.37" xml:id="c13608_0170">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c13608_0170">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEVOECH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13608.sense.37</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13608</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.595">
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c13608_0170.w.1322538">Oec</w>
           <w cert="1.0" lemma="zijn+ermede" pos="VRB(finiteness=fin,tense=pres)+ADV(type=pron)" resp="thomas" xml:id="c13608_0170.w.1322539">esser<join n="mw_184669" />
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="lepel" pos="NOU-C(number=sg)" resp="roland" xml:id="c13608_0170.w.1322546">lepel</w>
           <w cert="1.0" lemma="honing" pos="NOU-C(number=sg)" resp="roland" xml:id="c13608_0170.w.1322547">honichs</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c13608_0170.w.1322548">int</w>
-          <w cert="1.0" lemma="gevoeg" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.13608.sense.37" xml:id="c13608_0170.w.1322549">ghevouch</w>
+          <w cert="1.0" lemma="gevoeg" pos="NOU-C(number=sg)" resp="roland" xml:id="c13608_0170.w.1322549" lemmaRef="mnw.13608.sense.37">ghevouch</w>
           <pc pos="PC" xml:id="c13608_0170.pc.floating.00553676" lemma=",">,</pc>
         </q>
       </cit>

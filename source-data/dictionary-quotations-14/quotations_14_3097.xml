@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72855" lemma="WETACHTICH" partition="train" sense-id="mnw.72855.sense.1" xml:id="c72855_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c72855_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WETACHTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72855.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72855</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3097">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72855_0000.w.1760083">Hi</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c72855_0000.w.1760084">hem</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="afstaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c72855_0000.w.1760103">afstaen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c72855_0000.w.1760104">ende</w>
           <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c72855_0000.w.1760105">ontfaen</w>
-          <w cert="1.0" lemma="wetachtig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.72855.sense.1" xml:id="c72855_0000.w.1760106">wettachtich</w>
+          <w cert="1.0" lemma="wetachtig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c72855_0000.w.1760106" lemmaRef="mnw.72855.sense.1">wettachtich</w>
           <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c72855_0000.w.1760107">wijf</w>
           <pc pos="PC" xml:id="c72855_0000.pc.post.00696449" lemma=",">,</pc>
         </q>

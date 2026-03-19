@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71622" lemma="WEDERWILLE" partition="train" sense-id="mnw.71622.sense.1" xml:id="c71622_0005">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c71622_0005">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WEDERWILLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71622.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71622</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2137">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c71622_0005.w.1482063">Sijn</w>
           <w cert="1.0" lemma="geest" pos="NOU-C(number=sg)" resp="thomas" xml:id="c71622_0005.w.1482064">gheest</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c71622_0005.w.1482070">in</w>
           <w cert="1.0" lemma="dogen" pos="NOU-C(number=sg)" resp="roland" xml:id="c71622_0005.w.1482071">doghene</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c71622_0005.w.1482072">sonder</w>
-          <w cert="1.0" lemma="wederwil" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.71622.sense.1" xml:id="c71622_0005.w.1482073">wederwillen</w>
+          <w cert="1.0" lemma="wederwil" pos="NOU-C(number=sg)" resp="roland" xml:id="c71622_0005.w.1482073" lemmaRef="mnw.71622.sense.1">wederwillen</w>
           <w cert="1.0" lemma="leven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c71622_0005.w.1482074">leeft</w>
           <pc pos="PC" xml:id="c71622_0005.pc.post.00594304" lemma=",">,</pc>
         </q>

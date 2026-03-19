@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37675" lemma="ONTPLUKEN" partition="train" sense-id="mnw.37675.sense.13" xml:id="c37675_0066">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c37675_0066">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTPLUKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37675.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37675</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.950">
           <w cert="1.0" lemma="nochtan" pos="ADV(type=reg)" resp="thomas" xml:id="c37675_0066.w.760376">Nochtan</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c37675_0066.w.760377">woude</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c37675_0066.w.760390">sinen</w>
           <w cert="1.0" lemma="wapen" pos="NOU-C(number=pl)" resp="thomas" xml:id="c37675_0066.w.760391">wapenen</w>
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c37675_0066.w.760392">doe</w>
-          <w cert="1.0" lemma="ontpluiken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.37675.sense.13" xml:id="c37675_0066.w.760393">ontpluken</w>
+          <w cert="1.0" lemma="ontpluiken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c37675_0066.w.760393" lemmaRef="mnw.37675.sense.13">ontpluken</w>
           <pc pos="PC" xml:id="c37675_0066.pc.floating.00306895" lemma=",">,</pc>
         </q>
       </cit>

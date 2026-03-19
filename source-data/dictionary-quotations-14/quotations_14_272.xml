@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06240" lemma="DEELNARE" partition="train" sense-id="mnw.06240.sense.1" xml:id="c06240_0000">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c06240_0000">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DEELNARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06240.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06240</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.272">
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="thomas" xml:id="c06240_0000.w.73123">Ne</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c06240_0000.w.73124">wilt</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c06240_0000.w.73125">niet</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c06240_0000.w.73126">worden</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c06240_0000.w.73127">haers</w>
-          <w cert="1.0" lemma="delenaar" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06240.sense.1" xml:id="c06240_0000.w.73128">deelneren</w>
+          <w cert="1.0" lemma="delenaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c06240_0000.w.73128" lemmaRef="mnw.06240.sense.1">deelneren</w>
           <pc pos="PC" xml:id="c06240_0000.pc.floating.00030193" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c06240_0000.w.73130">want</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c06240_0000.w.73131">ghi</w>

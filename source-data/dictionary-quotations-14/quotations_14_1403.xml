@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33762" lemma="OMMESIEN" partition="dev" sense-id="mnw.33762.sense.9" xml:id="c33762_0017">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c33762_0017">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OMMESIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33762.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33762</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1403">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c33762_0017.w.113768">Dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33762_0017.w.113769">gi</w>
-          <w cert="1.0" lemma="omzien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.33762.sense.9" xml:id="c33762_0017.w.113770">onbesiet</w>
+          <w cert="1.0" lemma="omzien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c33762_0017.w.113770" lemmaRef="mnw.33762.sense.9">onbesiet</w>
           <pc pos="PC" xml:id="c33762_0017.pc.floating.00047401" lemma=",">,</pc>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c33762_0017.w.113772">wie</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33762_0017.w.113773">gi</w>

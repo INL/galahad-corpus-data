@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52221" lemma="SLAEN" partition="train" sense-id="mnw.52221.sense.3" xml:id="c52221_0006">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c52221_0006">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52221.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52221</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2101">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c52221_0006.w.892943">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c52221_0006.w.892944">wie</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c52221_0006.w.892945">andren</w>
-          <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.52221.sense.3" xml:id="c52221_0006.w.892946">slaet</w>
+          <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c52221_0006.w.892946" lemmaRef="mnw.52221.sense.3">slaet</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c52221_0006.w.892947">met</w>
           <w cert="1.0" lemma="stok" pos="NOU-C(number=pl)" resp="roland" xml:id="c52221_0006.w.892948">stocken</w>
           <pc pos="PC" xml:id="c52221_0006.pc.post.00370996" lemma=",">,</pc>

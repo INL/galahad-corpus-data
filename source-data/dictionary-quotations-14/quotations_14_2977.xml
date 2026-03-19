@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70490" lemma="WAPELDRENC" partition="train" sense-id="mnw.70490.sense.1" xml:id="c70490_0000">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c70490_0000">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WAPELDRENC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70490.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70490</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2977">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c70490_0000.w.1277762">De</w>
-          <w cert="1.0" lemma="wapeldrenk" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70490.sense.1" xml:id="c70490_0000.w.1277763">wapeldrinc</w>
+          <w cert="1.0" lemma="wapeldrenk" pos="NOU-C(number=sg)" resp="roland" xml:id="c70490_0000.w.1277763" lemmaRef="mnw.70490.sense.1">wapeldrinc</w>
           <pc pos="PC" xml:id="c70490_0000.pc.floating.00512380" lemma=".">.</pc>
           <w cert="1.0" lemma="si" pos="RES(type=for)" resp="thomas" xml:id="c70490_0000.w.1277765">Si</w>
           <w cert="1.0" lemma="homo" pos="RES(type=for)" resp="thomas" xml:id="c70490_0000.w.1277766">homo</w>

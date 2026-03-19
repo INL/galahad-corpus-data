@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25805" lemma="LESSCEN" partition="train" sense-id="mnw.25805.sense.11" xml:id="c25805_0021">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c25805_0021">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LESSCEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25805.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25805</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.630">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c25805_0021.w.271667">Een</w>
           <w cert="1.0" lemma="fontein" pos="NOU-C(number=sg)" resp="roland" xml:id="c25805_0021.w.271668">fonteine</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25805_0021.w.271671">men</w>
           <w cert="1.0" lemma="daarin" pos="ADV(type=pron)" resp="thomas" xml:id="c25805_0021.w.271672">in<join n="mw_689558" />
           </w>
-          <w cert="1.0" lemma="lessen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.25805.sense.11" xml:id="c25805_0021.w.271673">lescht</w>
+          <w cert="1.0" lemma="lessen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25805_0021.w.271673" lemmaRef="mnw.25805.sense.11">lescht</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c25805_0021.w.271674">enen</w>
           <w cert="1.0" lemma="brand" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25805_0021.w.271675">brant</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25805_0021.w.271676">ende</w>

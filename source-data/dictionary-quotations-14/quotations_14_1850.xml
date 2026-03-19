@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45362" lemma="RASTEN" partition="train" sense-id="mnw.45362.sense.3" xml:id="c45362_0012">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c45362_0012">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>RASTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45362.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45362</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1850">
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c45362_0012.w.757882">U</w>
           <w cert="1.0" lemma="lichaam" pos="NOU-C(number=sg)" resp="roland" xml:id="c45362_0012.w.757883">lichame</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c45362_0012.w.757897">God</w>
           <w cert="1.0" lemma="dat+erin" pos="CONJ(type=sub)+ADV(type=pron)" resp="thomas" xml:id="c45362_0012.w.757898">in<join n="mw_238982" />
           </w>
-          <w cert="1.0" lemma="rasten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.45362.sense.3" xml:id="c45362_0012.w.757899">raste</w>
+          <w cert="1.0" lemma="rasten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c45362_0012.w.757899" lemmaRef="mnw.45362.sense.3">raste</w>
           <pc pos="PC" xml:id="c45362_0012.pc.floating.00297820" lemma=",">,</pc>
         </q>
       </cit>

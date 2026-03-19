@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44669" lemma="QUALEN" partition="train" sense-id="mnw.44669.sense.2" xml:id="c44669_0000">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c44669_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>QUALEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44669.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44669</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1824">
           <w cert="1.0" lemma="zo+ne" pos="ADV(type=reg)+ADV(type=reg)" resp="thomas" xml:id="c44669_0000.w.594554">So<join n="mw_558804" />
           </w>
@@ -84,7 +97,7 @@
           <w cert="1.0" lemma="kracht" pos="NOU-C(number=sg)" resp="roland" xml:id="c44669_0000.w.594579">crachte</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c44669_0000.w.594580">ende</w>
           <w cert="1.0" lemma="doen+zij" pos="VRB(finiteness=inf)+PD(type=pers,position=free)" resp="roland" xml:id="c44669_0000.w.594581">doense</w>
-          <w cert="1.0" lemma="kwalen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.44669.sense.2" xml:id="c44669_0000.w.594582">qualen</w>
+          <w cert="1.0" lemma="kwalen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c44669_0000.w.594582" lemmaRef="mnw.44669.sense.2">qualen</w>
           <pc pos="PC" xml:id="c44669_0000.pc.floating.00234185" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03806" lemma="BESOEC" partition="train" sense-id="mnw.03806.sense.3" xml:id="c03806_0010">
-        <date atLeast="1301" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c03806_0010">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BESOEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03806.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03806</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.193">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c03806_0010.w.762183">Alle</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03806_0010.w.762184">die</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="berechten" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c03806_0010.w.762194">berecht</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c03806_0010.w.762195">bi</w>
           <w cert="1.0" lemma="loyaal" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c03806_0010.w.762196">loialen</w>
-          <w cert="1.0" lemma="bezoek" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.03806.sense.3" xml:id="c03806_0010.w.762197">besoeke</w>
+          <w cert="1.0" lemma="bezoek" pos="NOU-C(number=sg)" resp="roland" xml:id="c03806_0010.w.762197" lemmaRef="mnw.03806.sense.3">besoeke</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c03806_0010.w.762198">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03806_0010.w.762199">den</w>
           <w cert="1.0" lemma="graaf" pos="NOU-C(number=sg)" resp="roland" xml:id="c03806_0010.w.762200">grave</w>

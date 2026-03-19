@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11808" lemma="GEMANCHEIT" partition="train" sense-id="mnw.11808.sense.1" xml:id="c11808_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c11808_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEMANCHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11808.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11808</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.501">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11808_0000.w.970017">Die</w>
           <w cert="1.0" lemma="leeuw" pos="NOU-C(number=sg)" resp="roland" xml:id="c11808_0000.w.970018">lewe</w>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c11808_0000.pc.post.00410006" lemma=")">)</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c11808_0000.w.970025">met</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c11808_0000.w.970026">hare</w>
-          <w cert="1.0" lemma="gemangheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.11808.sense.1" xml:id="c11808_0000.w.970027">ghemanchede</w>
+          <w cert="1.0" lemma="gemangheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c11808_0000.w.970027" lemmaRef="mnw.11808.sense.1">ghemanchede</w>
           <pc pos="PC" xml:id="c11808_0000.pc.floating.00410007" lemma=",">,</pc>
         </q>
       </cit>

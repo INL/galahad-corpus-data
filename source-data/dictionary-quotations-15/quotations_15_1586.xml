@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57908" lemma="TEWRIVEN" partition="train" sense-id="mnw.57908.sense.1" xml:id="c57908_0005">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c57908_0005">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TEWRIVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57908.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57908</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1586">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c57908_0005.w.215930">Een</w>
           <w cert="1.0" lemma="aap" pos="NOU-C(number=sg)" resp="thomas" xml:id="c57908_0005.w.215931">aep</w>
           <pc pos="PC" xml:id="c57908_0005.pc.floating.00088397" lemma="…,">…,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c57908_0005.w.215933">die</w>
-          <w cert="1.0" lemma="tewrijven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.57908.sense.1" xml:id="c57908_0005.w.215934">tewreef</w>
+          <w cert="1.0" lemma="tewrijven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57908_0005.w.215934" lemmaRef="mnw.57908.sense.1">tewreef</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c57908_0005.w.215935">ende</w>
           <w cert="1.0" lemma="breken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57908_0005.w.215936">brac</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c57908_0005.w.215937">hoor</w>

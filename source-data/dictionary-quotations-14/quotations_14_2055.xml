@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51169" lemma="SEIL" partition="train" sense-id="mnw.51169.sense.1" xml:id="c51169_0005">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c51169_0005">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SEIL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51169.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51169</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2055">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c51169_0005.w.672642">Die</w>
           <w cert="1.0" lemma="stuurman" pos="NOU-C(number=sg)" resp="roland" xml:id="c51169_0005.w.672643">stierman</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c51169_0005.w.672644">dat</w>
-          <w cert="1.0" lemma="zeil" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51169.sense.1" xml:id="c51169_0005.w.672645">zeil</w>
+          <w cert="1.0" lemma="zeil" pos="NOU-C(number=sg)" resp="roland" xml:id="c51169_0005.w.672645" lemmaRef="mnw.51169.sense.1">zeil</w>
           <pc join="right" pos="PC" xml:id="c51169_0005.pc.pre.00278691" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c51169_0005.w.672646">l.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c51169_0005.w.672647">met</w>

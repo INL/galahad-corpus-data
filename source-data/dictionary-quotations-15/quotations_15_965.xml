@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38126" lemma="ONTFARMICH" partition="train" sense-id="mnw.38126.sense.1" xml:id="c38126_0007">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c38126_0007">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONTFARMICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38126.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38126</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.965">
           <w cert="1.0" lemma="dat+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c38126_0007.w.880169">Datse</w>
           <pc join="right" pos="PC" xml:id="c38126_0007.pc.pre.00353335" lemma="(">(</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c38126_0007.w.880176">doe</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c38126_0007.w.880177">hi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c38126_0007.w.880178">den</w>
-          <w cert="1.0" lemma="ontfermig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.38126.sense.1" xml:id="c38126_0007.w.880179">ontfermighen</w>
+          <w cert="1.0" lemma="ontfermig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c38126_0007.w.880179" lemmaRef="mnw.38126.sense.1">ontfermighen</w>
           <w cert="1.0" lemma="olie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c38126_0007.w.880180">olie</w>
           <pc join="right" pos="PC" xml:id="c38126_0007.pc.pre.00353338" lemma="(">(</pc>
           <pc cert="1.0" lemma="=" pos="PC" resp="thomas" xml:id="c38126_0007.w.880181">=</pc>

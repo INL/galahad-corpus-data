@@ -45,10 +45,23 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52076" lemma="SINT" partition="dev" sense-id="mnw.52076.sense.3" xml:id="c52076_0020">
-        <date atLeast="1444" atMost="1444" timeSpan="1400-1450" />
+      <cit xml:id="c52076_0020">
+        <note>
+          <ab>
+            <date atLeast="1444" atMost="1444" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SINT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52076.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52076</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1389">
-          <w cert="1.0" lemma="sint" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.52076.sense.3" xml:id="c52076_0020.w.863389">Sint</w>
+          <w cert="1.0" lemma="sint" pos="ADV(type=reg)" resp="thomas" xml:id="c52076_0020.w.863389" lemmaRef="mnw.52076.sense.3">Sint</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c52076_0020.w.863390">dat</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c52076_0020.w.863391">onse</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c52076_0020.w.863392">Here</w>

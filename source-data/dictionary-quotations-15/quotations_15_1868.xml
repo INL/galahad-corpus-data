@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64178" lemma="VERRADINNE" partition="train" sense-id="mnw.64178.sense.1" xml:id="c64178_0000">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c64178_0000">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERRADINNE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64178.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64178</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1868">
           <w cert="1.0" lemma="och" pos="INT" resp="thomas" xml:id="c64178_0000.w.1670895">Och</w>
           <w cert="1.0" lemma="Venus" pos="NOU-P" resp="roland" xml:id="c64178_0000.w.1670896">Venus</w>
           <pc pos="PC" xml:id="c64178_0000.pc.post.00666195" lemma=",">,</pc>
           <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64178_0000.w.1670897">vrou</w>
-          <w cert="1.0" lemma="verradin" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.64178.sense.1" xml:id="c64178_0000.w.1670898">verradinne</w>
+          <w cert="1.0" lemma="verradin" pos="NOU-C(number=sg)" resp="roland" xml:id="c64178_0000.w.1670898" lemmaRef="mnw.64178.sense.1">verradinne</w>
           <pc pos="PC" xml:id="c64178_0000.pc.floating.00666196" lemma=",">,</pc>
           <w cert="1.0" lemma="waarom" pos="ADV(type=pron)" resp="thomas" xml:id="c64178_0000.w.1670900">waer<join n="mw_880069" />
           </w>

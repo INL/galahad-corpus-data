@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48775" lemma="SCHAMP" partition="test" sense-id="mnw.48775.sense.7" xml:id="c48775_0028">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c48775_0028">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SCHAMP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48775.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48775</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1982">
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c48775_0028.w.215503">Niemene</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c48775_0028.w.215504">en</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c48775_0028.w.215517">zij</w>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c48775_0028.w.215518">over</w>
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c48775_0028.w.215519">zulken</w>
-          <w cert="1.0" lemma="schamp" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48775.sense.7" xml:id="c48775_0028.w.215520">scamp</w>
+          <w cert="1.0" lemma="schamp" pos="NOU-C(number=sg)" resp="roland" xml:id="c48775_0028.w.215520" lemmaRef="mnw.48775.sense.7">scamp</w>
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c48775_0028.w.215521">stonden</w>
           <pc pos="PC" xml:id="c48775_0028.pc.post.00088996" lemma=",">,</pc>
         </q>

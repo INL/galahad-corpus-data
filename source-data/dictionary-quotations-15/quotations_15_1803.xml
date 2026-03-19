@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63090" lemma="VERHOGEN" partition="train" sense-id="mnw.63090.sense.3" xml:id="c63090_0001">
-        <date atLeast="1495" atMost="1495" timeSpan="1450-1500" />
+      <cit xml:id="c63090_0001">
+        <note>
+          <ab>
+            <date atLeast="1495" atMost="1495" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERHOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63090.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63090</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1803">
           <pc pos="PC" xml:id="c63090_0001.pc.floating.00547090" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c63090_0001.pc.pre.00547091" lemma="“">“</pc>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c63090_0001.pc.post.00547092" lemma=",">,</pc>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c63090_0001.w.1365522">ooc</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c63090_0001.w.1365523">int</w>
-          <w cert="1.0" lemma="verheugen" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.63090.sense.3" xml:id="c63090_0001.w.1365524">verhoghen</w>
+          <w cert="1.0" lemma="verheugen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63090_0001.w.1365524" lemmaRef="mnw.63090.sense.3">verhoghen</w>
           <pc pos="PC" xml:id="c63090_0001.pc.floating.00547093" lemma="”">”</pc>
         </q>
       </cit>

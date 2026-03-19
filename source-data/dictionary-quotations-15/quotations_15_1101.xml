@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43046" lemma="PLEGEN" partition="dev" sense-id="mnw.43046.sense.29" xml:id="c43046_0181">
-        <date atLeast="1475" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c43046_0181">
+        <note>
+          <ab>
+            <date atLeast="1475" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PLEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43046.sense.29</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1101">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c43046_0181.w.308120">Al</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c43046_0181.w.308121">wort</w>
@@ -75,7 +88,7 @@
           <w cert="1.0" lemma="loos" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c43046_0181.w.308139">loser</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c43046_0181.w.308140">minnen</w>
           <w cert="1.0" lemma="die+men" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c43046_0181.w.308141">diemen</w>
-          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.43046.sense.29" xml:id="c43046_0181.w.308142">pliet</w>
+          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c43046_0181.w.308142" lemmaRef="mnw.43046.sense.29">pliet</w>
           <pc pos="PC" xml:id="c43046_0181.pc.floating.00120268" lemma=",">,</pc>
         </q>
       </cit>

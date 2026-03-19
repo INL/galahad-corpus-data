@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62149" lemma="VERBETERINGE" partition="train" sense-id="mnw.62149.sense.1" xml:id="c62149_0001">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c62149_0001">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERBETERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62149.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62149</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1749">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c62149_0001.w.1099812">Weert</w>
           <w cert="1.0" lemma="zaak" pos="NOU-C(number=sg)" resp="roland" xml:id="c62149_0001.w.1099813">sake</w>
@@ -113,7 +126,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62149_0001.w.1099866">hadde</w>
           <pc pos="PC" xml:id="c62149_0001.pc.post.00443589" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62149_0001.w.1099867">die</w>
-          <w cert="1.0" lemma="verbetering" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.62149.sense.1" xml:id="c62149_0001.w.1099868">verbeteringe</w>
+          <w cert="1.0" lemma="verbetering" pos="NOU-C(number=sg)" resp="roland" xml:id="c62149_0001.w.1099868" lemmaRef="mnw.62149.sense.1">verbeteringe</w>
           <w cert="1.0" lemma="geld" pos="NOU-C(number=pl)" resp="roland" xml:id="c62149_0001.w.1099869">gelden</w>
           <w cert="1.0" lemma="toe" pos="ADP(type=pre)" resp="thomas" xml:id="c62149_0001.w.1099870">toe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62149_0001.w.1099871">der</w>

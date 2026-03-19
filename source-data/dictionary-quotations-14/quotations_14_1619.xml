@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39730" lemma="OPTEBREKEN" partition="train" sense-id="mnw.39730.sense.2" xml:id="c39730_0000">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c39730_0000">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OPTEBREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39730.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39730</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1619">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c39730_0000.w.1222926">Dat</w>
           <w cert="1.0" lemma="mijnheer" pos="NOU-C(number=sg)" resp="roland" xml:id="c39730_0000.w.1222927">mijn<join n="mw_255496" />
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c39730_0000.w.1222932">dat</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c39730_0000.w.1222933">sine</w>
           <w cert="1.0" lemma="deur" pos="NOU-C(number=sg)" resp="roland" xml:id="c39730_0000.w.1222934">deure</w>
-          <w cert="1.0" lemma="optebreken" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.39730.sense.2" xml:id="c39730_0000.w.1222935">uptebroken</w>
+          <w cert="1.0" lemma="optebreken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c39730_0000.w.1222935" lemmaRef="mnw.39730.sense.2">uptebroken</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c39730_0000.w.1222936">was</w>
           <pc pos="PC" xml:id="c39730_0000.pc.post.00487577" lemma=",">,</pc>
         </q>

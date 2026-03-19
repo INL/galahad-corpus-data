@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15661" lemma="HANSEBROEDER" partition="train" sense-id="mnw.15661.sense.1" xml:id="c15661_0000">
-        <date atLeast="1380" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c15661_0000">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HANSEBROEDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15661.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15661</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.675">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c15661_0000.w.58944">Dat</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c15661_0000.w.58945">niemene</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c15661_0000.w.58951">vry</w>
           <w cert="1.0" lemma="viskoper" pos="NOU-C(number=sg)" resp="roland" xml:id="c15661_0000.w.58952">vischcopere</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c15661_0000.w.58953">ende</w>
-          <w cert="1.0" lemma="hanzebroeder" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.15661.sense.1" xml:id="c15661_0000.w.58954">anzebroeder</w>
+          <w cert="1.0" lemma="hanzebroeder" pos="NOU-C(number=sg)" resp="roland" xml:id="c15661_0000.w.58954" lemmaRef="mnw.15661.sense.1">anzebroeder</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c15661_0000.w.58955">es</w>
           <pc pos="PC" xml:id="c15661_0000.pc.post.00023987" lemma=",">,</pc>
           <w cert="1.0" lemma="generhande" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c15661_0000.w.58956">gheenrande</w>

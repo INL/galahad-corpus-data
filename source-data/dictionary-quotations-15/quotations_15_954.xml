@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37770" lemma="ONTRUCKEN" partition="train" sense-id="mnw.37770.sense.1" xml:id="c37770_0001">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c37770_0001">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTRUCKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37770.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37770</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.954">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c37770_0001.w.777312">Dat</w>
           <w cert="1.0" lemma="dusdanig" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c37770_0001.w.777313">dusdanighe</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="in+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c37770_0001.w.777316">inden</w>
           <w cert="1.0" lemma="derde" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c37770_0001.w.777317">derden</w>
           <w cert="1.0" lemma="hemel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c37770_0001.w.777318">hemel</w>
-          <w cert="1.0" lemma="ontrukken" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.37770.sense.1" xml:id="c37770_0001.w.777319">ontruct</w>
+          <w cert="1.0" lemma="ontrukken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c37770_0001.w.777319" lemmaRef="mnw.37770.sense.1">ontruct</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c37770_0001.w.777320">was</w>
           <pc pos="PC" xml:id="c37770_0001.pc.post.00313468" lemma=",">,</pc>
         </q>

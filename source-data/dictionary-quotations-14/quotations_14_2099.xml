@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52221" lemma="SLAEN" partition="train" sense-id="mnw.52221.sense.82" xml:id="c52221_0322">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c52221_0322">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52221.sense.82</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52221</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2099">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c52221_0322.w.901754">Dat</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c52221_0322.w.901755">die</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="hebben+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c52221_0322.w.901770">haddi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c52221_0322.w.901771">den</w>
           <w cert="1.0" lemma="zin" pos="NOU-C(number=sg)" resp="roland" xml:id="c52221_0322.w.901772">sin</w>
-          <w cert="1.0" lemma="slaan" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.52221.sense.82" xml:id="c52221_0322.w.901773">ghesleghen</w>
+          <w cert="1.0" lemma="slaan" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c52221_0322.w.901773" lemmaRef="mnw.52221.sense.82">ghesleghen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c52221_0322.w.901774">ende</w>
           <w cert="1.0" lemma="gereden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c52221_0322.w.901775">ghereedde</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c52221_0322.w.901776">hem</w>

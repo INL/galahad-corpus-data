@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73260" lemma="WIJN" partition="train" sense-id="mnw.73260.sense.10" xml:id="c73260_0062">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c73260_0062">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73260.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73260</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2239">
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73260_0062.w.1842531">Entie</w>
           <w cert="1.0" lemma="hertog" pos="NOU-C(number=sg)" resp="roland" xml:id="c73260_0062.w.1842532">hertoge</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="rijp" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c73260_0062.w.1842551">ripe</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c73260_0062.w.1842552">wert</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73260_0062.w.1842553">den</w>
-          <w cert="1.0" lemma="wijn" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.73260.sense.10" xml:id="c73260_0062.w.1842554">wijn</w>
+          <w cert="1.0" lemma="wijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c73260_0062.w.1842554" lemmaRef="mnw.73260.sense.10">wijn</w>
           <pc pos="PC" xml:id="c73260_0062.pc.floating.00727168" lemma=",">,</pc>
         </q>
       </cit>

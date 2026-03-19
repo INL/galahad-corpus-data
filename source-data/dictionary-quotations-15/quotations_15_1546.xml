@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56096" lemma="STUUR" partition="train" sense-id="mnw.56096.sense.21" xml:id="c56096_0079">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c56096_0079">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STUUR</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56096.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56096</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1546">
           <pc join="right" pos="PC" xml:id="c56096_0079.pc.pre.00733671" lemma="(">(</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c56096_0079.w.1777693">So</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="penitentie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56096_0079.w.1777704">penitencie</w>
           <w cert="1.0" lemma="hard" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c56096_0079.w.1777705">hardt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c56096_0079.w.1777706">ende</w>
-          <w cert="1.0" lemma="stuur" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.56096.sense.21" xml:id="c56096_0079.w.1777707">stuere</w>
+          <w cert="1.0" lemma="stuur" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c56096_0079.w.1777707" lemmaRef="mnw.56096.sense.21">stuere</w>
           <pc pos="PC" xml:id="c56096_0079.pc.floating.00733674" lemma=",">,</pc>
         </q>
       </cit>

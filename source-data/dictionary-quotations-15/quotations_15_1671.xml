@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60009" lemma="TWEEVOUDICH" partition="train" sense-id="mnw.60009.sense.1" xml:id="c60009_0008">
-        <date atLeast="1475" atMost="1495" timeSpan="1450-1500" />
+      <cit xml:id="c60009_0008">
+        <note>
+          <ab>
+            <date atLeast="1475" atMost="1495" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TWEEVOUDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60009.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60009</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1671">
           <w cert="1.0" lemma="eer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c60009_0008.w.608613">Eer</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c60009_0008.w.608614">ende</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c60009_0008.w.608626">allen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c60009_0008.w.608627">in</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c60009_0008.w.608628">een</w>
-          <w cert="1.0" lemma="tweevoudig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.60009.sense.1" xml:id="c60009_0008.w.608629">twevoudich</w>
+          <w cert="1.0" lemma="tweevoudig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c60009_0008.w.608629" lemmaRef="mnw.60009.sense.1">twevoudich</w>
           <w cert="1.0" lemma="strik" pos="NOU-C(number=sg)" resp="thomas" xml:id="c60009_0008.w.608630">strick</w>
           <pc pos="PC" xml:id="c60009_0008.pc.post.00247610" lemma=",">,</pc>
         </q>

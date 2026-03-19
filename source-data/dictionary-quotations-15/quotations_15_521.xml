@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21222" lemma="KERCHERE" partition="train" sense-id="mnw.21222.sense.1" xml:id="c21222_0011">
-        <date atLeast="1452" atMost="1501" timeSpan="1450-1500" />
+      <cit xml:id="c21222_0011">
+        <note>
+          <ab>
+            <date atLeast="1452" atMost="1501" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>KERCHERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21222.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21222</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.521">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c21222_0011.w.939157">De</w>
           <w cert="1.0" lemma="buurrechter" pos="NOU-C(number=pl)" resp="roland" xml:id="c21222_0011.w.939158">buerrechters</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c21222_0011.w.939159">sullen</w>
           <pc pos="PC" xml:id="c21222_0011.pc.floating.00379551" lemma="…">…</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c21222_0011.w.939161">den</w>
-          <w cert="1.0" lemma="kerkheer" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21222.sense.1" xml:id="c21222_0011.w.939162">kercheren</w>
+          <w cert="1.0" lemma="kerkheer" pos="NOU-C(number=pl)" resp="roland" xml:id="c21222_0011.w.939162" lemmaRef="mnw.21222.sense.1">kercheren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21222_0011.w.939163">ende</w>
           <w cert="1.0" lemma="kerkvoogd" pos="NOU-C(number=pl)" resp="roland" xml:id="c21222_0011.w.939164">kerckvogeden</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c21222_0011.w.939165">myt</w>

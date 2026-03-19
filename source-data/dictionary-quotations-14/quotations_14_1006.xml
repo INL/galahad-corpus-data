@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25778" lemma="LERINGE" partition="train" sense-id="mnw.25778.sense.1" xml:id="c25778_0013">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c25778_0013">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25778.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25778</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1006">
           <w cert="1.0" lemma="hier" pos="ADV(type=reg)" resp="thomas" xml:id="c25778_0013.w.261323">Hier</w>
           <pc join="right" pos="PC" xml:id="c25778_0013.pc.pre.00101330" lemma="(">(</pc>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25778_0013.w.261330">ende</w>
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c25778_0013.w.261331">daertoe</w>
           <w cert="1.0" lemma="waar" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c25778_0013.w.261332">ware</w>
-          <w cert="1.0" lemma="lering" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25778.sense.1" xml:id="c25778_0013.w.261333">leringe</w>
+          <w cert="1.0" lemma="lering" pos="NOU-C(number=sg)" resp="roland" xml:id="c25778_0013.w.261333" lemmaRef="mnw.25778.sense.1">leringe</w>
           <pc pos="PC" xml:id="c25778_0013.pc.floating.00101332" lemma=",">,</pc>
         </q>
       </cit>

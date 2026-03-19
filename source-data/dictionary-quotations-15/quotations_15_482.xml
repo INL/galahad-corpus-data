@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19338" lemma="INNICH" partition="train" sense-id="mnw.19338.sense.6" xml:id="c19338_0022">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c19338_0022">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>INNICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19338.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19338</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.482">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c19338_0022.w.631503">Die</w>
           <w cert="1.0" lemma="wortel" pos="NOU-C(number=sg)" resp="roland" xml:id="c19338_0022.w.631504">wortele</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c19338_0022.w.631508">alre</w>
           <w cert="1.0" lemma="heiligheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19338_0022.w.631509">heylicheit</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c19338_0022.w.631510">in</w>
-          <w cert="1.0" lemma="innig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.19338.sense.6" xml:id="c19338_0022.w.631511">innighen</w>
+          <w cert="1.0" lemma="innig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c19338_0022.w.631511" lemmaRef="mnw.19338.sense.6">innighen</w>
           <w cert="1.0" lemma="leven" pos="NOU-C(number=sg)" resp="roland" xml:id="c19338_0022.w.631512">levene</w>
           <pc pos="PC" xml:id="c19338_0022.pc.post.00257266" lemma=",">,</pc>
         </q>

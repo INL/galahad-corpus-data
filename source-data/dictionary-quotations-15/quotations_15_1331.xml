@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50167" lemma="SCHORTEN" partition="train" sense-id="mnw.50167.sense.3" xml:id="c50167_0003">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c50167_0003">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHORTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50167.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50167</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1331">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c50167_0003.w.498752">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c50167_0003.w.498753">hi</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="schorten" pos="VRB(finiteness=inf,WF=mis)" resp="thomas" xml:id="c50167_0003.w.498757">storten</w>
           <pc join="right" pos="PC" xml:id="c50167_0003.pc.pre.00206304" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50167_0003.w.498758">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.50167.sense.3" xml:id="c50167_0003.w.498759">scorten</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50167_0003.w.498759" lemmaRef="mnw.50167.sense.3">scorten</w>
           <pc pos="PC" xml:id="c50167_0003.pc.floating.00206306" lemma=")">)</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50167_0003.w.498761">ende</w>
           <w cert="1.0" lemma="doen+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c50167_0003.w.498762">doense</w>

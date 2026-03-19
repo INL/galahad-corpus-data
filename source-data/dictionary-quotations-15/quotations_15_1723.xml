@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61421" lemma="VARKENVLEESCH" partition="train" sense-id="mnw.61421.sense.1" xml:id="c61421_0001">
-        <date atLeast="1480" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c61421_0001">
+        <note>
+          <ab>
+            <date atLeast="1480" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VARKENVLEESCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61421.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61421</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1723">
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="thomas" xml:id="c61421_0001.w.951017">Waer</w>
           <w cert="1.0" lemma="iemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c61421_0001.w.951018">yemant</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c61421_0001.w.951019">die</w>
-          <w cert="1.0" lemma="varkensvlees" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.61421.sense.1" xml:id="c61421_0001.w.951020">verkensvleysch</w>
+          <w cert="1.0" lemma="varkensvlees" pos="NOU-C(number=sg)" resp="thomas" xml:id="c61421_0001.w.951020" lemmaRef="mnw.61421.sense.1">verkensvleysch</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61421_0001.w.951021">ter</w>
           <w cert="1.0" lemma="bank" pos="NOU-C(number=sg)" resp="thomas" xml:id="c61421_0001.w.951022">banck</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c61421_0001.w.951023">sloege</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48152" lemma="SAMENINGE" partition="train" sense-id="mnw.48152.sense.4" xml:id="c48152_0001">
-        <date atLeast="1350" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c48152_0001">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SAMENINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48152.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48152</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1965">
           <w cert="1.0" lemma="Saulus" pos="NOU-P" resp="roland" xml:id="c48152_0001.w.94914">Saulus</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c48152_0001.w.94915">ooc</w>
@@ -77,7 +90,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c48152_0001.w.94938">dye</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c48152_0001.w.94939">in</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c48152_0001.w.94940">eenigher</w>
-          <w cert="1.0" lemma="zamening" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48152.sense.4" xml:id="c48152_0001.w.94941">zameninghen</w>
+          <w cert="1.0" lemma="zamening" pos="NOU-C(number=sg)" resp="roland" xml:id="c48152_0001.w.94941" lemmaRef="mnw.48152.sense.4">zameninghen</w>
           <w cert="1.0" lemma="wonen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c48152_0001.w.94942">wonen</w>
           <pc pos="PC" xml:id="c48152_0001.pc.post.00039321" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c48152_0001.w.94943">ende</w>

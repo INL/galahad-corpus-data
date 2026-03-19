@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63925" lemma="VERNEMEN" partition="dev" sense-id="mnw.63925.sense.17" xml:id="c63925_0052">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c63925_0052">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERNEMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63925.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63925</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1853">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c63925_0052.w.1608983">Als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c63925_0052.w.1608984">die</w>
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63925_0052.w.1608985">coninc</w>
-          <w cert="1.0" lemma="vernemen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.63925.sense.17" xml:id="c63925_0052.w.1608986">vernam</w>
+          <w cert="1.0" lemma="vernemen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63925_0052.w.1608986" lemmaRef="mnw.63925.sense.17">vernam</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c63925_0052.w.1608987">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c63925_0052.w.1608988">hi</w>
           <pc join="right" pos="PC" xml:id="c63925_0052.pc.pre.00641929" lemma="(">(</pc>

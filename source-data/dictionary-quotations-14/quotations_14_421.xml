@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10293" lemma="GEANGET" partition="train" sense-id="mnw.10293.sense.1" xml:id="c10293_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c10293_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEANGET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10293.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10293</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.421">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c10293_0000.w.696276">Met</w>
           <w cert="1.0" lemma="borstel" pos="NOU-C(number=pl)" resp="roland" xml:id="c10293_0000.w.696277">berstelen</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c10293_0000.w.696281">so</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c10293_0000.w.696282">es</w>
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c10293_0000.w.696283">et</w>
-          <w cert="1.0" lemma="geangd" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.10293.sense.1" xml:id="c10293_0000.w.696284">gheanghet</w>
+          <w cert="1.0" lemma="geangd" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c10293_0000.w.696284" lemmaRef="mnw.10293.sense.1">gheanghet</w>
           <pc pos="PC" xml:id="c10293_0000.pc.floating.00298948" lemma="..,">..,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c10293_0000.w.696286">die</w>
           <w cert="1.0" lemma="scherp" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c10293_0000.w.696287">scarp</w>

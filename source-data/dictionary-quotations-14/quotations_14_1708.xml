@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41917" lemma="PAT" partition="dev" sense-id="mnw.41917.sense.2" xml:id="c41917_0028">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c41917_0028">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41917.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41917</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1708">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c41917_0028.w.126993">Hi</w>
           <w cert="1.0" lemma="houwen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c41917_0028.w.126994">hieu</w>
           <pc pos="PC" xml:id="c41917_0028.pc.floating.00047929" lemma="…">…</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c41917_0028.w.126996">een</w>
-          <w cert="1.0" lemma="padeltje" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41917.sense.2" xml:id="c41917_0028.w.126997">padelkijn</w>
+          <w cert="1.0" lemma="padeltje" pos="NOU-C(number=sg)" resp="roland" xml:id="c41917_0028.w.126997" lemmaRef="mnw.41917.sense.2">padelkijn</w>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c41917_0028.w.126998">tot</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c41917_0028.w.126999">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c41917_0028.w.127000">den</w>

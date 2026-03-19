@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71161" lemma="WEDERDOEN" partition="train" sense-id="mnw.71161.sense.2" xml:id="c71161_0003">
-        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c71161_0003">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WEDERDOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71161.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71161</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3009">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c71161_0003.w.1417570">Waer</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c71161_0003.w.1417571">dat</w>
@@ -69,7 +82,7 @@
           </w>
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c71161_0003.w.1417587">ghone<join n="mw_702991" />
           </w>
-          <w cert="1.0" lemma="wederdoen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.71161.sense.2" xml:id="c71161_0003.w.1417588">wederdoen</w>
+          <w cert="1.0" lemma="wederdoen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c71161_0003.w.1417588" lemmaRef="mnw.71161.sense.2">wederdoen</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c71161_0003.w.1417589">bi</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="c71161_0003.w.1417590">wien</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c71161_0003.w.1417591">zi</w>

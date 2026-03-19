@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25790" lemma="LESEN" partition="train" sense-id="mnw.25790.sense.27" xml:id="c25790_0149">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c25790_0149">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25790.sense.27</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25790</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.629">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c25790_0149.w.267710">Nu</w>
           <w cert="1.0" lemma="merken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25790_0149.w.267711">merct</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c25790_0149.w.267718">die</w>
           <w cert="1.0" lemma="recht" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c25790_0149.w.267719">rechte</w>
           <w cert="1.0" lemma="waarheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25790_0149.w.267720">waerheit</w>
-          <w cert="1.0" lemma="lezen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.25790.sense.27" xml:id="c25790_0149.w.267721">lesen</w>
+          <w cert="1.0" lemma="lezen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c25790_0149.w.267721" lemmaRef="mnw.25790.sense.27">lesen</w>
           <pc pos="PC" xml:id="c25790_0149.pc.floating.00103833" lemma=",">,</pc>
         </q>
       </cit>

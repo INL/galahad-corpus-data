@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67329" lemma="VOLDRAGEN" partition="train" sense-id="mnw.67329.sense.2" xml:id="c67329_0005">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c67329_0005">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOLDRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67329.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67329</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2827">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c67329_0005.w.592827">Nu</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67329_0005.w.592828">es</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c67329_0005.w.592835">ende</w>
           <w cert="1.0" lemma="negen" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c67329_0005.w.592836">IX</w>
           <w cert="1.0" lemma="maand" pos="NOU-C(number=pl)" resp="roland" xml:id="c67329_0005.w.592837">maende</w>
-          <w cert="1.0" lemma="voldragen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.67329.sense.2" xml:id="c67329_0005.w.592838">voldregen</w>
+          <w cert="1.0" lemma="voldragen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c67329_0005.w.592838" lemmaRef="mnw.67329.sense.2">voldregen</w>
           <w cert="1.0" lemma="binnen" pos="ADV(type=reg)" resp="thomas" xml:id="c67329_0005.w.592839">binnen</w>
           <pc pos="PC" xml:id="c67329_0005.pc.post.00236846" lemma=",">,</pc>
         </q>

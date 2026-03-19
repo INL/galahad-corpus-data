@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30432" lemma="MOET" partition="dev" sense-id="mnw.30432.sense.19" xml:id="c30432_0187">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c30432_0187">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30432.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30432</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1242">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30432_0187.w.1237652">Die</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c30432_0187.w.1237653">minne</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c30432_0187.w.1237657">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30432_0187.w.1237658">si</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c30432_0187.w.1237659">haren</w>
-          <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.30432.sense.19" xml:id="c30432_0187.w.1237660">moet</w>
+          <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c30432_0187.w.1237660" lemmaRef="mnw.30432.sense.19">moet</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c30432_0187.w.1237661">den</w>
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=sg)" resp="roland" xml:id="c30432_0187.w.1237662">ridder</w>
           <w cert="1.0" lemma="ontdekken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c30432_0187.w.1237663">ontdecte</w>

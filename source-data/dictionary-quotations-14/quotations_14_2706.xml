@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64884" lemma="VERSTERVENISSE" partition="test" sense-id="mnw.64884.sense.1" xml:id="c64884_0003">
-        <date atLeast="1305" atMost="1305" timeSpan="1300-1350" />
+      <cit xml:id="c64884_0003">
+        <note>
+          <ab>
+            <date atLeast="1305" atMost="1305" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERSTERVENISSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64884.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64884</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2706">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c64884_0003.w.41921">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64884_0003.w.41922">men</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c64884_0003.w.41933">no</w>
           <w cert="1.0" lemma="koop" pos="NOU-C(number=sg)" resp="roland" xml:id="c64884_0003.w.41934">coop</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c64884_0003.w.41935">no</w>
-          <w cert="1.0" lemma="versterfenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.64884.sense.1" xml:id="c64884_0003.w.41936">verstervenesse</w>
+          <w cert="1.0" lemma="versterfenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c64884_0003.w.41936" lemmaRef="mnw.64884.sense.1">verstervenesse</w>
           <pc join="right" pos="PC" xml:id="c64884_0003.pc.pre.00016060" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c64884_0003.w.41937">successierecht</w>
           <pc pos="PC" xml:id="c64884_0003.pc.post.00016061" lemma=";">;</pc>
@@ -81,7 +94,7 @@
           <w cert="1.0" lemma="brand" pos="NOU-C(number=sg)" resp="roland" xml:id="c64884_0003.w.41946">brande</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c64884_0003.w.41947">no</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c64884_0003.w.41948">bi</w>
-          <w cert="1.0" lemma="versterfenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.64884.sense.1" xml:id="c64884_0003.w.41949">verstervenesse</w>
+          <w cert="1.0" lemma="versterfenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c64884_0003.w.41949" lemmaRef="mnw.64884.sense.1">verstervenesse</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c64884_0003.w.41950">no</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c64884_0003.w.41951">bi</w>
           <w cert="1.0" lemma="koop" pos="NOU-C(number=sg)" resp="roland" xml:id="c64884_0003.w.41952">cope</w>

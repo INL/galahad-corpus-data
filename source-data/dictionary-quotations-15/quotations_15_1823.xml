@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63464" lemma="VERLEESTEN" partition="dev" sense-id="mnw.63464.sense.2" xml:id="c63464_0006">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c63464_0006">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERLEESTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63464.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63464</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1823">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c63464_0006.w.1473885">Al</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63464_0006.w.1473886">gave</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c63464_0006.w.1473890">al</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c63464_0006.w.1473891">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c63464_0006.w.1473892">hi</w>
-          <w cert="1.0" lemma="verleesten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.63464.sense.2" xml:id="c63464_0006.w.1473893">verleisten</w>
+          <w cert="1.0" lemma="verleesten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c63464_0006.w.1473893" lemmaRef="mnw.63464.sense.2">verleisten</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63464_0006.w.1473894">mochte</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c63464_0006.w.1473895">sonder</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c63464_0006.w.1473896">hem</w>

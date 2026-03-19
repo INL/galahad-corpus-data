@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14029" lemma="GEWRANC" partition="train" sense-id="mnw.14029.sense.1" xml:id="c14029_0000">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c14029_0000">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEWRANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14029.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14029</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.622">
           <w cert="1.0" lemma="zullen+ik+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c14029_0000.w.1408331">Soudict</w>
           <w cert="1.0" lemma="vertellen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c14029_0000.w.1408332">vertellen</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="handslag" pos="NOU-C(number=sg)" resp="roland" xml:id="c14029_0000.w.1408338">hantslach</w>
           <pc pos="PC" xml:id="c14029_0000.pc.post.00588788" lemma=",">,</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c14029_0000.w.1408339">haer</w>
-          <w cert="1.0" lemma="handgewrang" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14029.sense.1" xml:id="c14029_0000.w.1408340">hantghewranc</w>
+          <w cert="1.0" lemma="handgewrang" pos="NOU-C(number=sg)" resp="roland" xml:id="c14029_0000.w.1408340" lemmaRef="mnw.14029.sense.1">hantghewranc</w>
           <pc pos="PC" xml:id="c14029_0000.pc.floating.00588789" lemma=",">,</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c14029_0000.w.1408342">haer</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c14029_0000.w.1408343">groot</w>

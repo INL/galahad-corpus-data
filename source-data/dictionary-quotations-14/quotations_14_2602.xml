@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63130" lemma="VERHOREN" partition="train" sense-id="mnw.63130.sense.3" xml:id="c63130_0000">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c63130_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERHOREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63130.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63130</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2602">
           <w cert="1.0" lemma="binnen" pos="ADV(type=reg)" resp="thomas" xml:id="c63130_0000.w.1371732">Binnen</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63130_0000.w.1371733">dien</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63130_0000.w.1371734">heft</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63130_0000.w.1371735">hi</w>
-          <w cert="1.0" lemma="verhoren" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.63130.sense.3" xml:id="c63130_0000.w.1371736">verhord</w>
+          <w cert="1.0" lemma="verhoren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c63130_0000.w.1371736" lemmaRef="mnw.63130.sense.3">verhord</w>
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63130_0000.w.1371737">sulc</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c63130_0000.w.1371738">een</w>
           <w cert="1.0" lemma="gedruis" pos="NOU-C(number=sg)" resp="roland" xml:id="c63130_0000.w.1371739">ghedrusch</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23022" lemma="CONTSCAP" partition="train" sense-id="mnw.23022.sense.1" xml:id="c23022_0006">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c23022_0006">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CONTSCAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23022.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23022</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.570">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c23022_0006.w.1253630">Mit</w>
           <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="roland" xml:id="c23022_0006.w.1253631">rade</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c23022_0006.w.1253644">land</w>
           <pc pos="PC" xml:id="c23022_0006.pc.post.00505068" lemma=")">)</pc>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c23022_0006.w.1253645">hebben</w>
-          <w cert="1.0" lemma="kondschap" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.23022.sense.1" xml:id="c23022_0006.w.1253646">conscap</w>
+          <w cert="1.0" lemma="kondschap" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23022_0006.w.1253646" lemmaRef="mnw.23022.sense.1">conscap</w>
           <pc pos="PC" xml:id="c23022_0006.pc.floating.00505069" lemma=",">,</pc>
         </q>
       </cit>

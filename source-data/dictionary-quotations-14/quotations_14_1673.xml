@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40876" lemma="OVERSCAER" partition="train" sense-id="mnw.40876.sense.1" xml:id="c40876_0000">
-        <date atLeast="1343" atMost="1346" timeSpan="1300-1350" />
+      <cit xml:id="c40876_0000">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1346" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERSCAER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40876.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40876</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1673">
           <w cert="1.0" lemma="C." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c40876_0000.w.1471335">C.</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c40876_0000.w.1471336">van</w>
-          <w cert="1.0" lemma="overschaar" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40876.sense.1" xml:id="c40876_0000.w.1471337">overscaer</w>
+          <w cert="1.0" lemma="overschaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c40876_0000.w.1471337" lemmaRef="mnw.40876.sense.1">overscaer</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c40876_0000.w.1471338">op</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c40876_0000.w.1471339">den</w>
           <w cert="1.0" lemma="broek" pos="NOU-C(number=sg)" resp="roland" xml:id="c40876_0000.w.1471340">broec</w>

@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07943" lemma="DUL" partition="train" sense-id="mnw.07943.sense.1" xml:id="c07943_0005">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c07943_0005">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DUL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07943.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07943</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.345">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07943_0005.w.340409">Ic</w>
           <w cert="1.0" lemma="katijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c07943_0005.w.340410">keitijf</w>
           <pc pos="PC" xml:id="c07943_0005.pc.post.00146805" lemma=",">,</pc>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c07943_0005.w.340411">wel</w>
           <w cert="1.0" lemma="arm" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c07943_0005.w.340412">aerme</w>
-          <w cert="1.0" lemma="dol" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.07943.sense.1" xml:id="c07943_0005.w.340413">dulle</w>
+          <w cert="1.0" lemma="dol" pos="NOU-C(number=sg)" resp="roland" xml:id="c07943_0005.w.340413" lemmaRef="mnw.07943.sense.1">dulle</w>
           <pc pos="PC" xml:id="c07943_0005.pc.floating.00146806" lemma=",">,</pc>
           <w cert="1.0" lemma="verderven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07943_0005.w.340415">verderve</w>
           <w cert="1.0" lemma="hier" pos="ADV(type=reg)" resp="thomas" xml:id="c07943_0005.w.340416">hier</w>

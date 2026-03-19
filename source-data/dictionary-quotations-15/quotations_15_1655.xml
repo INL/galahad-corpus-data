@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59277" lemma="TRECKER" partition="train" sense-id="mnw.59277.sense.3" xml:id="c59277_0003">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c59277_0003">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TRECKER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59277.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59277</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1655">
           <w cert="1.0" lemma="o" pos="INT" resp="thomas" xml:id="c59277_0003.w.511411">O</w>
           <w cert="1.0" lemma="Judas" pos="NOU-P" resp="roland" xml:id="c59277_0003.w.511412">Judas</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="onwaard" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c59277_0003.w.511416">onwert</w>
           <pc pos="PC" xml:id="c59277_0003.pc.post.00207023" lemma=",">,</pc>
           <w cert="1.0" lemma="gierig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c59277_0003.w.511417">gierich</w>
-          <w cert="1.0" lemma="trekker" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.59277.sense.3" xml:id="c59277_0003.w.511418">treckere</w>
+          <w cert="1.0" lemma="trekker" pos="NOU-C(number=sg)" resp="roland" xml:id="c59277_0003.w.511418" lemmaRef="mnw.59277.sense.3">treckere</w>
           <pc pos="PC" xml:id="c59277_0003.pc.floating.00207024" lemma=",">,</pc>
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c59277_0003.w.511420">hoe</w>
           <w cert="1.0" lemma="dorren+du" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c59277_0003.w.511421">dorstu</w>

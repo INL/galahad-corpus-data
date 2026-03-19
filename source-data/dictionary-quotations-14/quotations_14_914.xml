@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23439" lemma="CORT" partition="train" sense-id="mnw.23439.sense.11" xml:id="c23439_0029">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c23439_0029">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CORT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23439.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23439</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.914">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c23439_0029.w.1329851">Dat</w>
           <w cert="1.0" lemma="men+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c23439_0029.w.1329852">mense</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="uit+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c23439_0029.w.1329855">wter</w>
           <w cert="1.0" lemma="nood" pos="NOU-C(number=sg)" resp="roland" xml:id="c23439_0029.w.1329856">noden</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c23439_0029.w.1329857">in</w>
-          <w cert="1.0" lemma="kort" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.23439.sense.11" xml:id="c23439_0029.w.1329858">corten</w>
+          <w cert="1.0" lemma="kort" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c23439_0029.w.1329858" lemmaRef="mnw.23439.sense.11">corten</w>
           <w cert="1.0" lemma="dag" pos="NOU-C(number=pl)" resp="roland" xml:id="c23439_0029.w.1329859">dagen</w>
           <pc pos="PC" xml:id="c23439_0029.pc.post.00535002" lemma=",">,</pc>
         </q>

@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59380" lemma="TRISETOU" partition="train" sense-id="mnw.59380.sense.1" xml:id="c59380_0001">
-        <date atLeast="1382" atMost="1387" timeSpan="1350-1400" />
+      <cit xml:id="c59380_0001">
+        <note>
+          <ab>
+            <date atLeast="1382" atMost="1387" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TRISETOU</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59380.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59380</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2407">
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c59380_0001.w.523647">Vor</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c59380_0001.w.523648">een</w>
-          <w cert="1.0" lemma="trijstouw" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.59380.sense.1" xml:id="c59380_0001.w.523649">trysentouwe</w>
+          <w cert="1.0" lemma="trijstouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c59380_0001.w.523649" lemmaRef="mnw.59380.sense.1">trysentouwe</w>
           <pc pos="PC" xml:id="c59380_0001.pc.floating.00212241" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c59380_0001.w.523651">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c59380_0001.w.523652">hi</w>

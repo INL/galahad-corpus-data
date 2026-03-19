@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13481" lemma="GEVAL" partition="train" sense-id="mnw.13481.sense.9" xml:id="c13481_0059">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c13481_0059">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEVAL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13481.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13481</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.592">
           <pc pos="PC" xml:id="c13481_0059.pc.floating.00542155" lemma="—">—</pc>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c13481_0059.w.1294387">Dese</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c13481_0059.pc.post.00542157" lemma=")">)</pc>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c13481_0059.w.1294389">hadde</w>
           <w cert="1.0" lemma="dat+meest" pos="PD(type=d-p,subtype=art,position=prenom)+AA(degree=sup,position=prenom)" resp="thomas" xml:id="c13481_0059.w.1294390">dmeeste</w>
-          <w cert="1.0" lemma="geval" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.13481.sense.9" xml:id="c13481_0059.w.1294391">gheval</w>
+          <w cert="1.0" lemma="geval" pos="NOU-C(number=sg)" resp="roland" xml:id="c13481_0059.w.1294391" lemmaRef="mnw.13481.sense.9">gheval</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c13481_0059.w.1294392">metten</w>
           <pc join="right" pos="PC" xml:id="c13481_0059.pc.pre.00542158" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c13481_0059.w.1294393">succes</w>

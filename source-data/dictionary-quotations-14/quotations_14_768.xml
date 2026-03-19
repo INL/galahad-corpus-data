@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18423" lemma="HOVETMANSCAP" partition="train" sense-id="mnw.18423.sense.2" xml:id="c18423_0005">
-        <date atLeast="1380" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c18423_0005">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HOVETMANSCAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18423.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18423</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.768">
           <w cert="1.0" lemma="tien" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c18423_0005.w.497727">X</w>
-          <w cert="1.0" lemma="hoofdmanschap" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18423.sense.2" xml:id="c18423_0005.w.497728">hooftmanscap</w>
+          <w cert="1.0" lemma="hoofdmanschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c18423_0005.w.497728" lemmaRef="mnw.18423.sense.2">hooftmanscap</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c18423_0005.w.497729">van</w>
           <w cert="1.0" lemma="schut" pos="NOU-C(number=pl)" resp="roland" xml:id="c18423_0005.w.497730">scutten</w>
           <pc pos="PC" xml:id="c18423_0005.pc.post.00203175" lemma=",">,</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c18423_0005.w.497731">ghegheven</w>
           <pc pos="PC" xml:id="c18423_0005.pc.post.00203177" lemma=")">)</pc>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c18423_0005.w.497732">elke</w>
-          <w cert="1.0" lemma="hoofdmanschap" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18423.sense.2" xml:id="c18423_0005.w.497733">hooftmanscap</w>
+          <w cert="1.0" lemma="hoofdmanschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c18423_0005.w.497733" lemmaRef="mnw.18423.sense.2">hooftmanscap</w>
           <w cert="1.0" lemma="negen" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c18423_0005.w.497734">IX</w>
           <w cert="1.0" lemma="taak" pos="NOU-C(number=pl)" resp="roland" xml:id="c18423_0005.w.497735">take</w>
           <pc join="right" pos="PC" xml:id="c18423_0005.pc.pre.00203178" lemma="(">(</pc>

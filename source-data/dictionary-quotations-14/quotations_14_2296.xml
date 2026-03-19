@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56791" lemma="SWIJM" partition="train" sense-id="mnw.56791.sense.1" xml:id="c56791_0000">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c56791_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SWIJM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56791.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56791</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2296">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c56791_0000.w.1906170">Een</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56791_0000.w.1906171">man</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="jong" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c56791_0000.w.1906179">jonc</w>
           <w cert="1.0" lemma="serpent" pos="NOU-C(number=sg)" resp="roland" xml:id="c56791_0000.w.1906180">serpent</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c56791_0000.w.1906181">in</w>
-          <w cert="1.0" lemma="zwijm" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.56791.sense.1" xml:id="c56791_0000.w.1906182">swijm</w>
+          <w cert="1.0" lemma="zwijm" pos="NOU-C(number=sg)" resp="roland" xml:id="c56791_0000.w.1906182" lemmaRef="mnw.56791.sense.1">swijm</w>
           <pc pos="PC" xml:id="c56791_0000.pc.floating.00788434" lemma=";">;</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56791_0000.w.1906184">die</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56791_0000.w.1906185">man</w>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09215" lemma="ERVE" partition="train" sense-id="mnw.09215.sense.1" xml:id="c09215_0001">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c09215_0001">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ERVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09215.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09215</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.386">
           <w cert="1.0" lemma="dat+land" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c09215_0001.w.537789">Tlant</w>
           <pc pos="PC" xml:id="c09215_0001.pc.floating.00232424" lemma="..,">..,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c09215_0001.w.537791">dat</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c09215_0001.w.537792">onse</w>
-          <w cert="1.0" lemma="erf" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.09215.sense.1" xml:id="c09215_0001.w.537793">erve</w>
+          <w cert="1.0" lemma="erf" pos="NOU-C(number=sg)" resp="roland" xml:id="c09215_0001.w.537793" lemmaRef="mnw.09215.sense.1">erve</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c09215_0001.w.537794">es</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c09215_0001.w.537795">ende</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c09215_0001.w.537796">ons</w>

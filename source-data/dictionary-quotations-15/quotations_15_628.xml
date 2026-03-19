@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25790" lemma="LESEN" partition="train" sense-id="mnw.25790.sense.27" xml:id="c25790_0146">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c25790_0146">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25790.sense.27</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25790</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.628">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c25790_0146.w.267627">Een</w>
           <w cert="1.0" lemma="Jood" pos="NOU-C(number=sg)" resp="roland" xml:id="c25790_0146.w.267628">Jode</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="wet" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25790_0146.w.267634">wet</w>
           <w cert="1.0" lemma="spellen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c25790_0146.w.267635">spelde</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25790_0146.w.267636">ende</w>
-          <w cert="1.0" lemma="lezen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.25790.sense.27" xml:id="c25790_0146.w.267637">las</w>
+          <w cert="1.0" lemma="lezen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c25790_0146.w.267637" lemmaRef="mnw.25790.sense.27">las</w>
           <pc join="right" pos="PC" xml:id="c25790_0146.pc.pre.00103801" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c25790_0146.w.267638">uitlegde</w>
           <pc pos="PC" xml:id="c25790_0146.pc.post.00103802" lemma=")">)</pc>

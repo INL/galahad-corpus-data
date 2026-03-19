@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35231" lemma="ONGEBRUKICH" partition="train" sense-id="mnw.35231.sense.1" xml:id="c35231_0000">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c35231_0000">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONGEBRUKICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35231.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35231</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.880">
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c35231_0000.w.335379">Her</w>
           <w cert="1.0" lemma="Arnoud" pos="NOU-P" resp="roland" xml:id="c35231_0000.w.335380">Arnout</w>
@@ -75,7 +88,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c35231_0000.w.335400">des</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c35231_0000.w.335401">sijns</w>
           <pc pos="PC" xml:id="c35231_0000.pc.post.00137874" lemma=")">)</pc>
-          <w cert="1.0" lemma="ongebruikig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35231.sense.1" xml:id="c35231_0000.w.335402">onghebrukich</w>
+          <w cert="1.0" lemma="ongebruikig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35231_0000.w.335402" lemmaRef="mnw.35231.sense.1">onghebrukich</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c35231_0000.w.335403">bliven</w>
           <pc join="right" pos="PC" xml:id="c35231_0000.pc.pre.00137875" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c35231_0000.w.335404">blijven</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48535" lemma="SCHADINGE" partition="train" sense-id="mnw.48535.sense.1" xml:id="c48535_0000">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c48535_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHADINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48535.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48535</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1266">
           <w cert="1.0" lemma="lijen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c48535_0000.w.160082">Liet</w>
           <pc join="right" pos="PC" xml:id="c48535_0000.pc.pre.00066597" lemma="(">(</pc>
@@ -109,7 +122,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c48535_0000.w.160126">here</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c48535_0000.w.160127">om</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c48535_0000.w.160128">hore</w>
-          <w cert="1.0" lemma="schading" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48535.sense.1" xml:id="c48535_0000.w.160129">scadinghe</w>
+          <w cert="1.0" lemma="schading" pos="NOU-C(number=sg)" resp="roland" xml:id="c48535_0000.w.160129" lemmaRef="mnw.48535.sense.1">scadinghe</w>
           <w cert="1.0" lemma="manen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c48535_0000.w.160130">manen</w>
           <pc join="right" pos="PC" xml:id="c48535_0000.pc.pre.00066603" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c48535_0000.w.160131">d.</w>

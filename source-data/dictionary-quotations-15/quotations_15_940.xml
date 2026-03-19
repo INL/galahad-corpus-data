@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37336" lemma="ONTGRAVEN" partition="train" sense-id="mnw.37336.sense.1" xml:id="c37336_0000">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c37336_0000">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTGRAVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37336.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37336</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.940">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c37336_0000.w.689322">Dair</w>
-          <w cert="1.0" lemma="ontgraven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.37336.sense.1" xml:id="c37336_0000.w.689323">ontgroeven</w>
+          <w cert="1.0" lemma="ontgraven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c37336_0000.w.689323" lemmaRef="mnw.37336.sense.1">ontgroeven</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37336_0000.w.689324">sy</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c37336_0000.w.689325">en</w>
           <pc join="right" pos="PC" xml:id="c37336_0000.pc.pre.00279244" lemma="(">(</pc>

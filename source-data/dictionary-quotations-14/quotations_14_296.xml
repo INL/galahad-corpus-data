@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06768" lemma="DISCIPLINE" partition="train" sense-id="mnw.06768.sense.4" xml:id="c06768_0003">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c06768_0003">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DISCIPLINE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06768.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06768</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.296">
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c06768_0003.w.157492">Mijn</w>
           <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c06768_0003.w.157493">lijf</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c06768_0003.pc.post.00066172" lemma=";">;</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c06768_0003.w.157498">in</w>
           <w cert="1.0" lemma="allerhande" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c06768_0003.w.157499">alrehande</w>
-          <w cert="1.0" lemma="discipline" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.06768.sense.4" xml:id="c06768_0003.w.157500">dissiplinen</w>
+          <w cert="1.0" lemma="discipline" pos="NOU-C(number=pl)" resp="roland" xml:id="c06768_0003.w.157500" lemmaRef="mnw.06768.sense.4">dissiplinen</w>
           <w cert="1.0" lemma="zullen+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c06768_0003.w.157501">salic</w>
           <w cert="1.0" lemma="mij" pos="PD(type=refl,position=free)" resp="thomas" xml:id="c06768_0003.w.157502">mi</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c06768_0003.w.157503">wel</w>

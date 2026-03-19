@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51332" lemma="SELVE" partition="train" sense-id="mnw.51332.sense.8" xml:id="c51332_0086">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c51332_0086">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SELVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51332.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51332</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1356">
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c51332_0086.w.703215">Sulc</w>
           <w cert="1.0" lemma="pijnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c51332_0086.w.703216">pijnt</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51332_0086.w.703222">ende</w>
           <w cert="1.0" lemma="lonen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c51332_0086.w.703223">loont</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c51332_0086.w.703224">hem</w>
-          <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" sense-id="mnw.51332.sense.8" xml:id="c51332_0086.w.703225">selver</w>
+          <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c51332_0086.w.703225" lemmaRef="mnw.51332.sense.8">selver</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c51332_0086.w.703226">al</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c51332_0086.w.703227">mit</w>
           <w cert="1.0" lemma="kwaad" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51332_0086.w.703228">quade</w>

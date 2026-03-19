@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12096" lemma="GENOECHTE" partition="dev" sense-id="mnw.12096.sense.5" xml:id="c12096_0049">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c12096_0049">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GENOECHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12096.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12096</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.526">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c12096_0049.w.1050182">Desen</w>
           <w cert="1.0" lemma="steen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12096_0049.w.1050183">steen</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12096_0049.w.1050189">ende</w>
           <w cert="1.0" lemma="hebben+er" pos="VRB(finiteness=fin,tense=pres)+ADV(type=reg)" resp="thomas" xml:id="c12096_0049.w.1050190">hebbenre</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c12096_0049.w.1050191">in</w>
-          <w cert="1.0" lemma="geneugte" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12096.sense.5" xml:id="c12096_0049.w.1050192">ghenoechte</w>
+          <w cert="1.0" lemma="geneugte" pos="NOU-C(number=sg)" resp="roland" xml:id="c12096_0049.w.1050192" lemmaRef="mnw.12096.sense.5">ghenoechte</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=postnom)" resp="thomas" xml:id="c12096_0049.w.1050193">groet</w>
           <pc pos="PC" xml:id="c12096_0049.pc.post.00442297" lemma=",">,</pc>
         </q>

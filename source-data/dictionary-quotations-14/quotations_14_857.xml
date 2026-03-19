@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21490" lemma="KEVESDOEM" partition="train" sense-id="mnw.21490.sense.1" xml:id="c21490_0018">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c21490_0018">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KEVESDOEM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21490.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21490</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.857">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c21490_0018.w.975451">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21490_0018.w.975452">hie</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c21490_0018.w.975463">met</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c21490_0018.w.975464">hare</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c21490_0018.w.975465">in</w>
-          <w cert="1.0" lemma="keefsdom" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21490.sense.1" xml:id="c21490_0018.w.975466">keyfsdomme</w>
+          <w cert="1.0" lemma="keefsdom" pos="NOU-C(number=sg)" resp="roland" xml:id="c21490_0018.w.975466" lemmaRef="mnw.21490.sense.1">keyfsdomme</w>
           <w cert="1.0" lemma="zitten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c21490_0018.w.975467">zat</w>
           <pc pos="PC" xml:id="c21490_0018.pc.post.00394384" lemma=",">,</pc>
         </q>

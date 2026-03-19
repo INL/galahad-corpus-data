@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65260" lemma="VERVALUWEN" partition="train" sense-id="mnw.65260.sense.2" xml:id="c65260_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c65260_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERVALUWEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65260.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65260</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2722">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c65260_0000.w.143959">Sin</w>
           <pc join="right" pos="PC" xml:id="c65260_0000.pc.pre.00056101" lemma="(">(</pc>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="minnelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c65260_0000.w.143967">minlike</w>
           <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" xml:id="c65260_0000.w.143968">mont</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c65260_0000.w.143969">es</w>
-          <w cert="1.0" lemma="vervalen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.65260.sense.2" xml:id="c65260_0000.w.143970">vervalwet</w>
+          <w cert="1.0" lemma="vervalen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c65260_0000.w.143970" lemmaRef="mnw.65260.sense.2">vervalwet</w>
           <pc pos="PC" xml:id="c65260_0000.pc.floating.00056104" lemma=",">,</pc>
         </q>
       </cit>

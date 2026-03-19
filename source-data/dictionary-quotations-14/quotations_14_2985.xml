@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70700" lemma="WASDOEM" partition="train" sense-id="mnw.70700.sense.13" xml:id="c70700_0048">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c70700_0048">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WASDOEM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70700.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70700</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2985">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c70700_0048.w.1316422">Als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70700_0048.w.1316423">die</w>
@@ -73,7 +86,7 @@
           <w cert="1.0" lemma="minder" pos="AA(degree=comp,position=free)" resp="roland" xml:id="c70700_0048.w.1316443">minder</w>
           <pc pos="PC" xml:id="c70700_0048.pc.post.00527368" lemma=";">;</pc>
           <w cert="1.0" lemma="vinden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70700_0048.w.1316444">vint</w>
-          <w cert="1.0" lemma="wasdom" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70700.sense.13" xml:id="c70700_0048.w.1316445">wasdoem</w>
+          <w cert="1.0" lemma="wasdom" pos="NOU-C(number=sg)" resp="roland" xml:id="c70700_0048.w.1316445" lemmaRef="mnw.70700.sense.13">wasdoem</w>
           <pc pos="PC" xml:id="c70700_0048.pc.floating.00527369" lemma=",">,</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70700_0048.w.1316447">si</w>
           <w cert="1.0" lemma="doden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70700_0048.w.1316448">doden</w>

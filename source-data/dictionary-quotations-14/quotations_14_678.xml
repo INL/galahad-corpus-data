@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15664" lemma="HANT" partition="train" sense-id="mnw.15664.sense.164" xml:id="c15664_0366">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c15664_0366">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15664.sense.164</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15664</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.678">
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c15664_0366.w.71760">Ooc</w>
           <w cert="1.0" lemma="winnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c15664_0366.w.71761">wan</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c15664_0366.w.71768">ooc</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c15664_0366.w.71769">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c15664_0366.w.71770">sine</w>
-          <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.15664.sense.164" xml:id="c15664_0366.w.71771">hant</w>
+          <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" xml:id="c15664_0366.w.71771" lemmaRef="mnw.15664.sense.164">hant</w>
           <pc pos="PC" xml:id="c15664_0366.pc.floating.00028636" lemma=",">,</pc>
         </q>
       </cit>

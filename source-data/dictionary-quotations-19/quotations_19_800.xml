@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M060460" lemma="ROERDOMP" modern-lemma="roerdomp" partition="train" pos="NOU-C" sense-id="M060460.bet.1" xml:id="M060460.eg.12837">
-        <date atLeast="1841" atMost="1841" timeSpan="1800-1850" />
+      <cit xml:id="M060460.eg.12837">
+        <note>
+          <ab>
+            <date atLeast="1841" atMost="1841" extent="1800-1850" />
+            <interpGrp type="lemma">
+              <interp>ROERDOMP</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M060460.bet.1</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>roerdomp</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M060460</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.800">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=prenom)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714519">Wat</w>
           <w cert="1.0" lemma="wondergeschiedenis" pos="NOU-C(number=pl)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714520">wondergeschiedenissen</w>
@@ -70,7 +89,7 @@
           <w cert="1.0" lemma="stuk" pos="NOU-C(number=sg)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714535">stuk</w>
           <pc pos="PC" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.floating.00225772" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714537">en</w>
-          <w cert="1.0" lemma="roerdomp" pos="NOU-C(number=pl)" resp="thomas" sense-id="M060460.bet.1" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714538">roerdompen</w>
+          <w cert="1.0" lemma="roerdomp" pos="NOU-C(number=pl)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714538" lemmaRef="M060460.bet.1">roerdompen</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714539">die</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714540">met</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.714541">den</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42427" lemma="PERSEMIER" partition="train" sense-id="mnw.42427.sense.1" xml:id="c42427_0011">
-        <date atLeast="1440" atMost="1440" timeSpan="1400-1450" />
+      <cit xml:id="c42427_0011">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1440" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PERSEMIER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42427.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42427</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1089">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42427_0011.w.196120">Die</w>
           <w cert="1.0" lemma="rijke" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42427_0011.w.196121">rijcke</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="persemier" pos="NOU-C(number=sg,WF=mis)" resp="thomas" xml:id="c42427_0011.w.196131">parstiniers</w>
           <pc join="right" pos="PC" xml:id="c42427_0011.pc.pre.00075576" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c42427_0011.w.196132">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.42427.sense.1" xml:id="c42427_0011.w.196133">persemiers</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c42427_0011.w.196133" lemmaRef="mnw.42427.sense.1">persemiers</w>
           <pc pos="PC" xml:id="c42427_0011.pc.floating.00075578" lemma=")">)</pc>
           <w cert="1.0" lemma="knecht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42427_0011.w.196135">knecht</w>
           <pc pos="PC" xml:id="c42427_0011.pc.post.00075579" lemma=",">,</pc>

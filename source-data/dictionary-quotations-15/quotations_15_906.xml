@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36430" lemma="ONKENNESSE" partition="train" sense-id="mnw.36430.sense.2" xml:id="c36430_0001">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c36430_0001">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONKENNESSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36430.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36430</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.906">
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c36430_0001.w.496388">Ooc</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c36430_0001.w.496389">en</w>
@@ -75,7 +88,7 @@
           <w cert="1.0" lemma="anders" pos="ADV(type=reg)" resp="thomas" xml:id="c36430_0001.w.496411">anders</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c36430_0001.w.496412">dan</w>
           <w cert="1.0" lemma="overmits" pos="ADP(type=pre)" resp="thomas" xml:id="c36430_0001.w.496413">overmids</w>
-          <w cert="1.0" lemma="onkennis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.36430.sense.2" xml:id="c36430_0001.w.496414">onkennisse</w>
+          <w cert="1.0" lemma="onkennis" pos="NOU-C(number=sg)" resp="roland" xml:id="c36430_0001.w.496414" lemmaRef="mnw.36430.sense.2">onkennisse</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c36430_0001.w.496415">ons</w>
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c36430_0001.w.496416">selfs</w>
           <pc pos="PC" xml:id="c36430_0001.pc.post.00202773" lemma=",">,</pc>

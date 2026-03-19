@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M076624" lemma="VERLATEN" modern-lemma="verlaten" partition="train" pos="VRB" sense-id="M076624.bet.79" xml:id="M076624.eg.9802">
-        <date atLeast="1542" atMost="1542" timeSpan="1500-1550" />
+      <cit xml:id="M076624.eg.9802">
+        <note>
+          <ab>
+            <date atLeast="1542" atMost="1542" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>VERLATEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M076624.bet.79</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>verlaten</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M076624</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1157">
           <w cert="1.0" lemma="meester" pos="NOU-C(number=sg)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210244">Meister</w>
           <w cert="1.0" lemma="J." pos="NOU-P(WF=abbr)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210245">J.</w>
@@ -67,7 +86,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210259">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210260">hij</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210261">nyemanden</w>
-          <w cert="1.0" lemma="verlaten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="M076624.bet.79" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210262">verlaten</w>
+          <w cert="1.0" lemma="verlaten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210262" lemmaRef="M076624.bet.79">verlaten</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210263">sall</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210264">die</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.1210265">syn</w>

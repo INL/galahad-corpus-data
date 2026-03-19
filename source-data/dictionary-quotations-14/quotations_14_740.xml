@@ -45,16 +45,29 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17857" lemma="HONICHROSAET" partition="train" sense-id="mnw.17857.sense.1" xml:id="c17857_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c17857_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HONICHROSAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17857.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17857</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.740">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c17857_0000.w.386851">Van</w>
           <w cert="1.0" lemma="roos" pos="NOU-C(number=pl)" resp="roland" xml:id="c17857_0000.w.386852">rosen</w>
           <pc pos="PC" xml:id="c17857_0000.pc.floating.00157812" lemma="..">..</pc>
           <w cert="1.0" lemma="maken+men" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c17857_0000.w.386854">maectmen</w>
-          <w cert="1.0" lemma="honingrozaat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.17857.sense.1" xml:id="c17857_0000.w.386855">honech<join n="mw_586939" />
+          <w cert="1.0" lemma="honingrozaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c17857_0000.w.386855" lemmaRef="mnw.17857.sense.1">honech<join n="mw_586939" />
           </w>
-          <w cert="1.0" lemma="honingrozaat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.17857.sense.1" xml:id="c17857_0000.w.386856">rosaet<join n="mw_586939" />
+          <w cert="1.0" lemma="honingrozaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c17857_0000.w.386856" lemmaRef="mnw.17857.sense.1">rosaet<join n="mw_586939" />
           </w>
           <pc pos="PC" xml:id="c17857_0000.pc.floating.00157813" lemma=":">:</pc>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c17857_0000.w.386858">men</w>

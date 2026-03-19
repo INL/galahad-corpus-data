@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65711" lemma="VERWOET" partition="train" sense-id="mnw.65711.sense.5" xml:id="c65711_0049">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c65711_0049">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERWOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65711.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65711</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2745">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c65711_0049.w.271711">Die</w>
           <w cert="1.0" lemma="jonger" pos="NOU-C(number=pl)" resp="roland" xml:id="c65711_0049.w.271712">jongheren</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c65711_0049.w.271720">hadden</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c65711_0049.w.271721">gheweest</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c65711_0049.w.271722">al</w>
-          <w cert="1.0" lemma="verwoed" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.65711.sense.5" xml:id="c65711_0049.w.271723">verwoet</w>
+          <w cert="1.0" lemma="verwoed" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c65711_0049.w.271723" lemmaRef="mnw.65711.sense.5">verwoet</w>
           <pc pos="PC" xml:id="c65711_0049.pc.floating.00106219" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c65711_0049.w.271725">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c65711_0049.w.271726">hare</w>

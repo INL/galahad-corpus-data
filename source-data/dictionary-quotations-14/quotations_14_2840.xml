@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67452" lemma="VOLLEEST" partition="test" sense-id="mnw.67452.sense.1" xml:id="c67452_0000">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c67452_0000">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOLLEEST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67452.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67452</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2840">
           <w cert="1.0" lemma="een" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c67452_0000.w.627786">Eén</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c67452_0000.w.627787">God</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="verzekeren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c67452_0000.w.627803">versekerde</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c67452_0000.w.627804">in</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c67452_0000.w.627805">al</w>
-          <w cert="1.0" lemma="volleest" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.67452.sense.1" xml:id="c67452_0000.w.627806">voleest</w>
+          <w cert="1.0" lemma="volleest" pos="NOU-C(number=sg)" resp="roland" xml:id="c67452_0000.w.627806" lemmaRef="mnw.67452.sense.1">voleest</w>
           <pc join="right" pos="PC" xml:id="c67452_0000.pc.pre.00250525" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c67452_0000.w.627807">in</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c67452_0000.w.627808">alle</w>

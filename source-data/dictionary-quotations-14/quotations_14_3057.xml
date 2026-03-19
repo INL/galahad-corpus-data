@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72464" lemma="WERDICH" partition="train" sense-id="mnw.72464.sense.12" xml:id="c72464_0063">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c72464_0063">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WERDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72464.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72464</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3057">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c72464_0063.w.1623637">Dit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c72464_0063.w.1623638">was</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72464_0063.w.1623655">es</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72464_0063.w.1623656">miins</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c72464_0063.w.1623657">niet</w>
-          <w cert="1.0" lemma="waardig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.72464.sense.12" xml:id="c72464_0063.w.1623658">werdech</w>
+          <w cert="1.0" lemma="waardig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c72464_0063.w.1623658" lemmaRef="mnw.72464.sense.12">werdech</w>
           <pc pos="PC" xml:id="c72464_0063.pc.floating.00649661" lemma=",">,</pc>
         </q>
       </cit>

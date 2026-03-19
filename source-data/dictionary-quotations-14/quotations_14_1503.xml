@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37216" lemma="ONTDAEN" partition="train" sense-id="mnw.37216.sense.6" xml:id="c37216_0027">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c37216_0027">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTDAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37216.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37216</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1503">
           <pc pos="PC" xml:id="c37216_0027.pc.floating.00263750" lemma="—">—</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c37216_0027.w.648713">Die</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="zonde" pos="NOU-C(number=pl)" resp="roland" xml:id="c37216_0027.w.648720">sonden</w>
           <w cert="1.0" lemma="besmetten" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c37216_0027.w.648721">besmet</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c37216_0027.w.648722">ende</w>
-          <w cert="1.0" lemma="ontdaan" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.37216.sense.6" xml:id="c37216_0027.w.648723">ondaen</w>
+          <w cert="1.0" lemma="ontdaan" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c37216_0027.w.648723" lemmaRef="mnw.37216.sense.6">ondaen</w>
           <pc join="right" pos="PC" xml:id="c37216_0027.pc.pre.00263752" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c37216_0027.w.648724">in</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c37216_0027.w.648725">zedelijken</w>

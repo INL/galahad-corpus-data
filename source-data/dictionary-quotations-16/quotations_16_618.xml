@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M058327" lemma="REGIMENT" modern-lemma="regiment" partition="train" pos="NOU-C" sense-id="M058327.bet.27" xml:id="M058327.eg.106876">
-        <date atLeast="1500" atMost="1500" timeSpan="1500-1550" />
+      <cit xml:id="M058327.eg.106876">
+        <note>
+          <ab>
+            <date atLeast="1500" atMost="1500" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>REGIMENT</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M058327.bet.27</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>regiment</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M058327</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.618">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707425">Van</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707426">allen</w>
@@ -68,7 +87,7 @@
           <pc pos="PC" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.post.00222278" lemma=",">,</pc>
           <w cert="1.0" lemma="administratie" pos="NOU-C(number=sg)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707441">administratie</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707442">ende</w>
-          <w cert="1.0" lemma="regiment" pos="NOU-C(number=sg)" resp="roland" sense-id="M058327.bet.27" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707443">regimente</w>
+          <w cert="1.0" lemma="regiment" pos="NOU-C(number=sg)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707443" lemmaRef="M058327.bet.27">regimente</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=prespart)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707444">hebbende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707445">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.707446">den</w>

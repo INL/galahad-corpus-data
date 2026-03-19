@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00939" lemma="AFSITTEN" partition="train" sense-id="mnw.00939.sense.2" xml:id="c00939_0005">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c00939_0005">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>AFSITTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00939.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00939</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.29">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c00939_0005.w.190005">Soe</w>
           <w cert="1.0" lemma="wensenen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c00939_0005.w.190006">wenschene</w>
@@ -70,10 +83,10 @@
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c00939_0005.w.190020">ic</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c00939_0005.w.190021">u</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c00939_0005.w.190022">niet</w>
-          <w cert="1.0" lemma="afzitten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00939.sense.2" xml:id="c00939_0005.w.190023">af<join n="mw_3728" />
+          <w cert="1.0" lemma="afzitten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00939_0005.w.190023" lemmaRef="mnw.00939.sense.2">af<join n="mw_3728" />
           </w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c00939_0005.w.190024">en</w>
-          <w cert="1.0" lemma="afzitten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00939.sense.2" xml:id="c00939_0005.w.190025">sate<join n="mw_3728" />
+          <w cert="1.0" lemma="afzitten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00939_0005.w.190025" lemmaRef="mnw.00939.sense.2">sate<join n="mw_3728" />
           </w>
           <pc pos="PC" xml:id="c00939_0005.pc.floating.00074543" lemma=",">,</pc>
         </q>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07478" lemma="DORST" partition="train" sense-id="mnw.07478.sense.1" xml:id="c07478_0007">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c07478_0007">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DORST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07478.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07478</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.324">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c07478_0007.w.270265">Haer</w>
           <w cert="1.0" lemma="beginnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07478_0007.w.270266">begonste</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="bederven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c07478_0007.w.270270">bedaerven</w>
           <w cert="1.0" lemma="wanen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07478_0007.w.270271">waende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c07478_0007.w.270272">van</w>
-          <w cert="1.0" lemma="dorst" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.07478.sense.1" xml:id="c07478_0007.w.270273">derste</w>
+          <w cert="1.0" lemma="dorst" pos="NOU-C(number=sg)" resp="thomas" xml:id="c07478_0007.w.270273" lemmaRef="mnw.07478.sense.1">derste</w>
           <pc pos="PC" xml:id="c07478_0007.pc.floating.00116359" lemma=",">,</pc>
         </q>
       </cit>

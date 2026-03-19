@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59898" lemma="TWEE" partition="test" sense-id="mnw.59898.sense.8" xml:id="c59898_0091">
-        <date atLeast="1339" atMost="1341" timeSpan="1300-1350" />
+      <cit xml:id="c59898_0091">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1341" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TWEE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59898.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59898</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2429">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c59898_0091.w.599272">Al</w>
           <w cert="1.0" lemma="hangen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c59898_0091.w.599273">hanghet</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c59898_0091.w.599275">Christus</w>
           <pc pos="PC" xml:id="c59898_0091.pc.post.00243347" lemma=")">)</pc>
           <w cert="1.0" lemma="tussen" pos="ADP(type=pre)" resp="thomas" xml:id="c59898_0091.w.599276">tusschen</w>
-          <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" sense-id="mnw.59898.sense.8" xml:id="c59898_0091.w.599277">tween</w>
+          <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c59898_0091.w.599277" lemmaRef="mnw.59898.sense.8">tween</w>
           <w cert="1.0" lemma="hond" pos="NOU-C(number=pl)" resp="thomas" xml:id="c59898_0091.w.599278">honden</w>
           <pc pos="PC" xml:id="c59898_0091.pc.post.00243348" lemma=",">,</pc>
         </q>

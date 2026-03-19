@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67441" lemma="VOLLE" partition="train" sense-id="mnw.67441.sense.1" xml:id="c67441_0000">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c67441_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOLLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67441.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67441</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2839">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c67441_0000.w.625565">Die</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c67441_0000.w.625566">soude</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="begeren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67441_0000.w.625580">begheren</w>
           <w cert="1.0" lemma="niet" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c67441_0000.w.625581">niet</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c67441_0000.w.625582">dan</w>
-          <w cert="1.0" lemma="volle" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.67441.sense.1" xml:id="c67441_0000.w.625583">volle</w>
+          <w cert="1.0" lemma="volle" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67441_0000.w.625583" lemmaRef="mnw.67441.sense.1">volle</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c67441_0000.w.625584">van</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c67441_0000.w.625585">goeder</w>
           <w cert="1.0" lemma="spijs" pos="NOU-C(number=sg)" resp="roland" xml:id="c67441_0000.w.625586">spisen</w>

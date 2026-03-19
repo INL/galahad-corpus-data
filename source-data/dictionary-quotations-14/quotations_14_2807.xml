@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67049" lemma="VOERINGE" partition="train" sense-id="mnw.67049.sense.1" xml:id="c67049_0000">
-        <date atLeast="1343" atMost="1344" timeSpan="1300-1350" />
+      <cit xml:id="c67049_0000">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1344" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VOERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67049.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67049</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2807">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c67049_0000.w.533418">Van</w>
-          <w cert="1.0" lemma="voering" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.67049.sense.1" xml:id="c67049_0000.w.533419">voeringhe</w>
+          <w cert="1.0" lemma="voering" pos="NOU-C(number=sg)" resp="roland" xml:id="c67049_0000.w.533419" lemmaRef="mnw.67049.sense.1">voeringhe</w>
           <pc join="right" pos="PC" xml:id="c67049_0000.pc.pre.00213350" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c67049_0000.w.533420">nl.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c67049_0000.w.533421">van</w>

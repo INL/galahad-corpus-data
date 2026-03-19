@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72879" lemma="WETEN" partition="train" sense-id="mnw.72879.sense.1" xml:id="c72879_0006">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c72879_0006">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72879.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72879</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3100">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c72879_0006.w.1776853">Nu</w>
-          <w cert="1.0" lemma="weten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.72879.sense.1" xml:id="c72879_0006.w.1776854">weten</w>
+          <w cert="1.0" lemma="weten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72879_0006.w.1776854" lemmaRef="mnw.72879.sense.1">weten</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=inf,WF=mis)" resp="thomas" xml:id="c72879_0006.w.1776855">gheen</w>
           <w cert="1.0" lemma="halen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c72879_0006.w.1776856">halen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c72879_0006.w.1776857">in</w>

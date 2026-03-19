@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49532" lemma="SCHIERE" partition="train" sense-id="mnw.49532.sense.7" xml:id="c49532_0045">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c49532_0045">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHIERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49532.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49532</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1301">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c49532_0045.w.368316">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c49532_0045.w.368317">men</w>
-          <w cert="1.0" lemma="schier" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.49532.sense.7" xml:id="c49532_0045.w.368318">sciere</w>
+          <w cert="1.0" lemma="schier" pos="ADV(type=reg)" resp="thomas" xml:id="c49532_0045.w.368318" lemmaRef="mnw.49532.sense.7">sciere</w>
           <w cert="1.0" lemma="lief" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49532_0045.w.368319">liefs</w>
           <w cert="1.0" lemma="plegen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c49532_0045.w.368320">pleghen</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c49532_0045.w.368321">sal</w>

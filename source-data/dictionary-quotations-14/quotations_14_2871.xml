@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68714" lemma="VORTBRINGEN" partition="train" sense-id="mnw.68714.sense.11" xml:id="c68714_0054">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c68714_0054">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VORTBRINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68714.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68714</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2871">
           <w cert="1.0" lemma="verwaten" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c68714_0054.w.864594">Verwaten</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c68714_0054.w.864595">moeten</w>
@@ -62,9 +75,9 @@
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c68714_0054.w.864604">jeghen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c68714_0054.w.864605">die</w>
           <w cert="1.0" lemma="vrouw" pos="NOU-C(number=pl)" resp="roland" xml:id="c68714_0054.w.864606">vrouwen</w>
-          <w cert="1.0" lemma="voortbrengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.68714.sense.11" xml:id="c68714_0054.w.864607">bringhen<join n="mw_787945" />
+          <w cert="1.0" lemma="voortbrengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c68714_0054.w.864607" lemmaRef="mnw.68714.sense.11">bringhen<join n="mw_787945" />
           </w>
-          <w cert="1.0" lemma="voortbrengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.68714.sense.11" xml:id="c68714_0054.w.864608">voort<join n="mw_787945" />
+          <w cert="1.0" lemma="voortbrengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c68714_0054.w.864608" lemmaRef="mnw.68714.sense.11">voort<join n="mw_787945" />
           </w>
           <pc pos="PC" xml:id="c68714_0054.pc.floating.00347206" lemma=",">,</pc>
         </q>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73601" lemma="WILLE" partition="train" sense-id="mnw.73601.sense.7" xml:id="c73601_0036">
-        <date atLeast="1470" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c73601_0036">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WILLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73601.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73601</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2253">
           <w cert="1.0" lemma="des" pos="CONJ(type=sub)" resp="roland" xml:id="c73601_0036.w.1903633">Des</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73601_0036.w.1903634">hij</w>
@@ -88,7 +101,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73601_0036.w.1903667">hij</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c73601_0036.w.1903668">hem</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c73601_0036.w.1903669">met</w>
-          <w cert="1.0" lemma="wil" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73601.sense.7" xml:id="c73601_0036.w.1903670">wille</w>
+          <w cert="1.0" lemma="wil" pos="NOU-C(number=sg)" resp="roland" xml:id="c73601_0036.w.1903670" lemmaRef="mnw.73601.sense.7">wille</w>
           <w cert="1.0" lemma="schoolziek" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c73601_0036.w.1903671">schoolzieck</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73601_0036.w.1903672">maicte</w>
           <pc pos="PC" xml:id="c73601_0036.pc.post.00749515" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68612" lemma="VOREWIKEN" partition="train" sense-id="mnw.68612.sense.1" xml:id="c68612_0001">
-        <date atLeast="1390" atMost="1390" timeSpan="1350-1400" />
+      <cit xml:id="c68612_0001">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1390" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOREWIKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68612.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68612</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2865">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c68612_0001.w.839860">Weert</w>
           <w cert="1.0" lemma="zaak" pos="NOU-C(number=sg)" resp="roland" xml:id="c68612_0001.w.839861">zake</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c68612_0001.w.839872">man</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c68612_0001.w.839873">oft</w>
           <w cert="1.0" lemma="vrouwe" pos="NOU-C(number=sg)" resp="roland" xml:id="c68612_0001.w.839874">vrouwe</w>
-          <w cert="1.0" lemma="voorwijken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.68612.sense.1" xml:id="c68612_0001.w.839875">voorweke</w>
+          <w cert="1.0" lemma="voorwijken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c68612_0001.w.839875" lemmaRef="mnw.68612.sense.1">voorweke</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c68612_0001.w.839876">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c68612_0001.w.839877">sijn</w>
           <w cert="1.0" lemma="huis" pos="NOU-C(number=sg)" resp="roland" xml:id="c68612_0001.w.839878">huys</w>

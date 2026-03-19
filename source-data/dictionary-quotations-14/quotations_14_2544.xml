@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62372" lemma="VERDECKEN" partition="train" sense-id="mnw.62372.sense.1" xml:id="c62372_0006">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c62372_0006">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERDECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62372.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62372</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2544">
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c62372_0006.w.1160255">Ooc</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c62372_0006.w.1160256">so</w>
@@ -75,7 +88,7 @@
           <w cert="1.0" lemma="trekken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c62372_0006.w.1160279">trecken</w>
           <w cert="1.0" lemma="en+die" pos="CONJ(type=coor)+PD(type=d-p,position=free)" resp="thomas" xml:id="c62372_0006.w.1160280">entie</w>
           <w cert="1.0" lemma="altemaal" pos="ADV(type=reg)" resp="thomas" xml:id="c62372_0006.w.1160281">altemale</w>
-          <w cert="1.0" lemma="verdekken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.62372.sense.1" xml:id="c62372_0006.w.1160282">verdecken</w>
+          <w cert="1.0" lemma="verdekken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c62372_0006.w.1160282" lemmaRef="mnw.62372.sense.1">verdecken</w>
           <pc pos="PC" xml:id="c62372_0006.pc.floating.00466986" lemma=",">,</pc>
         </q>
       </cit>

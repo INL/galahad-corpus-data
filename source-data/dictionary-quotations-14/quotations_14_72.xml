@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01835" lemma="ARTE" partition="test" sense-id="mnw.01835.sense.7" xml:id="c01835_0031">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c01835_0031">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ARTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01835.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01835</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.72">
           <w cert="1.0" lemma="als+ik" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c01835_0031.w.337349">Alsic</w>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c01835_0031.w.337350">dan</w>
@@ -63,7 +76,7 @@
           <pc join="right" pos="PC" xml:id="c01835_0031.pc.pre.00133824" lemma="(">(</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c01835_0031.w.337360">den</w>
           <pc pos="PC" xml:id="c01835_0031.pc.post.00133825" lemma="?)">?)</pc>
-          <w cert="1.0" lemma="art" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.01835.sense.7" xml:id="c01835_0031.w.337361">arten</w>
+          <w cert="1.0" lemma="art" pos="NOU-C(number=pl)" resp="roland" xml:id="c01835_0031.w.337361" lemmaRef="mnw.01835.sense.7">arten</w>
           <pc pos="PC" xml:id="c01835_0031.pc.floating.00133826" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72232" lemma="WELLUST" partition="train" sense-id="mnw.72232.sense.6" xml:id="c72232_0028">
-        <date atLeast="1488" atMost="1488" timeSpan="1450-1500" />
+      <cit xml:id="c72232_0028">
+        <note>
+          <ab>
+            <date atLeast="1488" atMost="1488" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WELLUST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72232.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72232</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2158">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c72232_0028.w.1575079">Hi</w>
           <w cert="1.0" lemma="leren+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c72232_0028.w.1575080">leerdse</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="dwingen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c72232_0028.w.1575088">dwancse</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c72232_0028.w.1575089">van</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c72232_0028.w.1575090">allen</w>
-          <w cert="1.0" lemma="wellust" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.72232.sense.6" xml:id="c72232_0028.w.1575091">wellusten</w>
+          <w cert="1.0" lemma="wellust" pos="NOU-C(number=pl)" resp="roland" xml:id="c72232_0028.w.1575091" lemmaRef="mnw.72232.sense.6">wellusten</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c72232_0028.w.1575092">des</w>
           <w cert="1.0" lemma="vlees" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72232_0028.w.1575093">vleysches</w>
           <pc pos="PC" xml:id="c72232_0028.pc.post.00631250" lemma=",">,</pc>

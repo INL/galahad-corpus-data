@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30099" lemma="MISQUAME" partition="train" sense-id="mnw.30099.sense.6" xml:id="c30099_0039">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c30099_0039">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MISQUAME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30099.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30099</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1225">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c30099_0039.w.1161647">Als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30099_0039.w.1161648">hi</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c30099_0039.w.1161653">hadde</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c30099_0039.w.1161654">so</w>
           <w cert="1.0" lemma="zwaar" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c30099_0039.w.1161655">zware</w>
-          <w cert="1.0" lemma="miskwaam" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30099.sense.6" xml:id="c30099_0039.w.1161656">mesquame</w>
+          <w cert="1.0" lemma="miskwaam" pos="NOU-C(number=sg)" resp="roland" xml:id="c30099_0039.w.1161656" lemmaRef="mnw.30099.sense.6">mesquame</w>
           <pc pos="PC" xml:id="c30099_0039.pc.floating.00455947" lemma=",">,</pc>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c30099_0039.w.1161658">sine</w>
           <w cert="1.0" lemma="passie" pos="NOU-C(number=sg)" resp="roland" xml:id="c30099_0039.w.1161659">passie</w>

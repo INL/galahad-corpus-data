@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41051" lemma="OVERTALLIJC" partition="train" sense-id="mnw.41051.sense.1" xml:id="c41051_0009">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c41051_0009">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OVERTALLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41051.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41051</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1058">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c41051_0009.w.1502945">Mit</w>
           <w cert="1.0" lemma="onbedenkelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c41051_0009.w.1502946">onbedenckelicken</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="hartzeer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c41051_0009.w.1502949">hertseer</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c41051_0009.w.1502950">ende</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c41051_0009.w.1502951">mit</w>
-          <w cert="1.0" lemma="overtallijk" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.41051.sense.1" xml:id="c41051_0009.w.1502952">overtellicken</w>
+          <w cert="1.0" lemma="overtallijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c41051_0009.w.1502952" lemmaRef="mnw.41051.sense.1">overtellicken</w>
           <w cert="1.0" lemma="traan" pos="NOU-C(number=pl)" resp="roland" xml:id="c41051_0009.w.1502953">tranen</w>
           <pc pos="PC" xml:id="c41051_0009.pc.post.00597649" lemma=",">,</pc>
         </q>

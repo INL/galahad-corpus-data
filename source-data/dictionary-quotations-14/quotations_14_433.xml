@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10502" lemma="GEBREKEN" partition="test" sense-id="mnw.10502.sense.57" xml:id="c10502_0160">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c10502_0160">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEBREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10502.sense.57</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10502</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.433">
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c10502_0160.w.741941">Mochten</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c10502_0160.w.741942">si</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c10502_0160.pc.post.00317207" lemma=",">,</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c10502_0160.w.741946">hem</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="thomas" xml:id="c10502_0160.w.741947">ne</w>
-          <w cert="1.0" lemma="gebreken" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.10502.sense.57" xml:id="c10502_0160.w.741948">ghebrake</w>
+          <w cert="1.0" lemma="gebreken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c10502_0160.w.741948" lemmaRef="mnw.10502.sense.57">ghebrake</w>
           <w cert="1.0" lemma="immermeer" pos="ADV(type=reg)" resp="thomas" xml:id="c10502_0160.w.741949">emmermere</w>
           <pc pos="PC" xml:id="c10502_0160.pc.post.00317208" lemma=",">,</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c10502_0160.w.741950">videbatur</w>

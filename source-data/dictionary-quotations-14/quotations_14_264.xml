@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06141" lemma="DANC" partition="train" sense-id="mnw.06141.sense.21" xml:id="c06141_0041">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c06141_0041">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06141.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06141</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.264">
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c06141_0041.w.44205">Negheen</w>
           <w cert="1.0" lemma="dier" pos="NOU-C(number=sg)" resp="roland" xml:id="c06141_0041.w.44206">dier</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c06141_0041.w.44215">dats</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c06141_0041.w.44216">niemen</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c06141_0041.w.44217">sijns</w>
-          <w cert="1.0" lemma="dank" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06141.sense.21" xml:id="c06141_0041.w.44218">dancs</w>
+          <w cert="1.0" lemma="dank" pos="NOU-C(number=sg)" resp="roland" xml:id="c06141_0041.w.44218" lemmaRef="mnw.06141.sense.21">dancs</w>
           <w cert="1.0" lemma="begeven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c06141_0041.w.44219">beghevet</w>
           <pc pos="PC" xml:id="c06141_0041.pc.post.00017976" lemma=",">,</pc>
         </q>

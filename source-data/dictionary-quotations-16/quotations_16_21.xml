@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M090800" lemma="UNK" modern-lemma="unk" partition="train" pos="unk" sense-id="S002602.bet.6" xml:id="S002602.eg.11422">
-        <date atLeast="1580" atMost="1580" timeSpan="1550-1600" />
+      <cit xml:id="S002602.eg.11422">
+        <note>
+          <ab>
+            <date atLeast="1580" atMost="1580" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>UNK</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>unk</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>S002602.bet.6</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>unk</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M090800</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.21">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.606008">In</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.606009">den</w>
@@ -80,7 +99,7 @@
           <pc pos="PC" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.pc.post.0178103" lemma=",">,</pc>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.606035">alle</w>
           <w cert="1.0" lemma="last" pos="NOU-C(number=pl)" resp="roland" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.606036">lasten</w>
-          <w cert="1.0" lemma="aftijgen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="S002602.bet.6" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.606037">affgetogen</w>
+          <w cert="1.0" lemma="aftijgen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.w.606037" lemmaRef="S002602.bet.6">affgetogen</w>
           <pc pos="PC" xml:id="d9f6f8f0-df5d-490f-a026-53a1aa6ee7d4.pc.post.0178104" lemma=",">,</pc>
         </q>
       </cit>

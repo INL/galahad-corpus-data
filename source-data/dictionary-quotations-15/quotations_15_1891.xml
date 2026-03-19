@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64663" lemma="VERSMACHTEN" partition="test" sense-id="mnw.64663.sense.3" xml:id="c64663_0007">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c64663_0007">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERSMACHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64663.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64663</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1891">
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64663_0007.w.1814509">Ghi</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64663_0007.w.1814510">hebt</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c64663_0007.w.1814516">scone</w>
           <w cert="1.0" lemma="kind" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64663_0007.w.1814517">kint</w>
           <w cert="1.0" lemma="hebben+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c64663_0007.w.1814518">hebdi</w>
-          <w cert="1.0" lemma="versmachten" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.64663.sense.3" xml:id="c64663_0007.w.1814519">versmacht</w>
+          <w cert="1.0" lemma="versmachten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c64663_0007.w.1814519" lemmaRef="mnw.64663.sense.3">versmacht</w>
           <pc pos="PC" xml:id="c64663_0007.pc.floating.00722975" lemma=",">,</pc>
         </q>
       </cit>

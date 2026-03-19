@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67364" lemma="VOLGEN" partition="train" sense-id="mnw.67364.sense.3" xml:id="c67364_0010">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c67364_0010">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VOLGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67364.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67364</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2834">
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c67364_0010.w.599501">Omme<join n="mw_590442" />
           </w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67364_0010.w.599509">sal</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67364_0010.w.599510">die</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67364_0010.w.599511">man</w>
-          <w cert="1.0" lemma="volgen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.67364.sense.3" xml:id="c67364_0010.w.599512">volghen</w>
+          <w cert="1.0" lemma="volgen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c67364_0010.w.599512" lemmaRef="mnw.67364.sense.3">volghen</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c67364_0010.w.599513">den</w>
           <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c67364_0010.w.599514">wive</w>
           <pc pos="PC" xml:id="c67364_0010.pc.post.00239486" lemma=",">,</pc>

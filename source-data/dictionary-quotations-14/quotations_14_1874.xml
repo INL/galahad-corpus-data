@@ -45,10 +45,23 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45835" lemma="REININGE" partition="train" sense-id="mnw.45835.sense.1" xml:id="c45835_0001">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c45835_0001">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>REININGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45835.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45835</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1874">
-          <w cert="1.0" lemma="reining" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.45835.sense.1" xml:id="c45835_0001.w.882826">Reyninge</w>
+          <w cert="1.0" lemma="reining" pos="NOU-C(number=sg)" resp="roland" xml:id="c45835_0001.w.882826" lemmaRef="mnw.45835.sense.1">Reyninge</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c45835_0001.w.882827">ende</w>
           <w cert="1.0" lemma="paling" pos="NOU-C(number=sg)" resp="roland" xml:id="c45835_0001.w.882828">palinge</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c45835_0001.w.882829">duet</w>

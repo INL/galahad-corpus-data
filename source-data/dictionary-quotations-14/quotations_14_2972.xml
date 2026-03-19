@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70399" lemma="WANOF" partition="train" sense-id="mnw.70399.sense.1" xml:id="c70399_0009">
-        <date atLeast="1301" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c70399_0009">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WANOF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70399.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70399</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2972">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70399_0009.w.1260971">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70399_0009.w.1260972">der</w>
           <w cert="1.0" lemma="klaag" pos="NOU-C(number=sg)" resp="roland" xml:id="c70399_0009.w.1260973">claghe</w>
-          <w cert="1.0" lemma="waanaf" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.70399.sense.1" xml:id="c70399_0009.w.1260974">wanof</w>
+          <w cert="1.0" lemma="waanaf" pos="ADV(type=reg)" resp="thomas" xml:id="c70399_0009.w.1260974" lemmaRef="mnw.70399.sense.1">wanof</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c70399_0009.w.1260975">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70399_0009.w.1260976">hie</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70399_0009.w.1260977">sal</w>

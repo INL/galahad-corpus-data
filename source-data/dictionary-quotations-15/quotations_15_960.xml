@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38074" lemma="ONTTRECKEN" partition="dev" sense-id="mnw.38074.sense.4" xml:id="c38074_0004">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c38074_0004">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONTTRECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38074.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38074</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.960">
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c38074_0004.w.854918">Alzoo</w>
           <w cert="1.0" lemma="ontmaken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c38074_0004.w.854919">ontmaect</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c38074_0004.w.854920">ende</w>
-          <w cert="1.0" lemma="onttrekken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.38074.sense.4" xml:id="c38074_0004.w.854921">ontrecket</w>
+          <w cert="1.0" lemma="onttrekken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c38074_0004.w.854921" lemmaRef="mnw.38074.sense.4">ontrecket</w>
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c38074_0004.w.854922">di</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c38074_0004.w.854923">dese</w>
           <w cert="1.0" lemma="goddelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c38074_0004.w.854924">gotlike</w>

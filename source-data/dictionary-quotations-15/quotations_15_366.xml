@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14024" lemma="GEWOUDEN" partition="test" sense-id="mnw.14024.sense.3" xml:id="c14024_0016">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c14024_0016">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GEWOUDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14024.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14024</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.366">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c14024_0016.w.1402997">Die</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c14024_0016.w.1402998">soude</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14024_0016.w.1403007">die</w>
           <w cert="1.0" lemma="ander" pos="NUM(type=ord,position=free,representation=let)" resp="thomas" xml:id="c14024_0016.w.1403008">ander</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c14024_0016.w.1403009">des</w>
-          <w cert="1.0" lemma="gewouden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.14024.sense.3" xml:id="c14024_0016.w.1403010">ghewouden</w>
+          <w cert="1.0" lemma="gewouden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c14024_0016.w.1403010" lemmaRef="mnw.14024.sense.3">ghewouden</w>
           <pc pos="PC" xml:id="c14024_0016.pc.floating.00586751" lemma=",">,</pc>
         </q>
       </cit>

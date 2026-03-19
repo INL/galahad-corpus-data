@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30099" lemma="MISQUAME" partition="train" sense-id="mnw.30099.sense.10" xml:id="c30099_0076">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c30099_0076">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MISQUAME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30099.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30099</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1226">
           <pc pos="PC" xml:id="c30099_0076.pc.floating.00456331" lemma="—">—</pc>
           <pc join="right" pos="PC" xml:id="c30099_0076.pc.pre.00456332" lemma="(">(</pc>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c30099_0076.w.1162633">van</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c30099_0076.w.1162634">haerre</w>
           <w cert="1.0" lemma="naakt" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c30099_0076.w.1162635">naecter</w>
-          <w cert="1.0" lemma="miskwaam" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30099.sense.10" xml:id="c30099_0076.w.1162636">mesquame</w>
+          <w cert="1.0" lemma="miskwaam" pos="NOU-C(number=sg)" resp="roland" xml:id="c30099_0076.w.1162636" lemmaRef="mnw.30099.sense.10">mesquame</w>
           <pc join="right" pos="PC" xml:id="c30099_0076.pc.pre.00456334" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c30099_0076.w.1162637">over</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c30099_0076.w.1162638">hunne</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45701" lemma="REGEL" partition="train" sense-id="mnw.45701.sense.6" xml:id="c45701_0016">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c45701_0016">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>REGEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45701.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45701</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1172">
           <w cert="1.0" lemma="opdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c45701_0016.w.855302">Up<join n="mw_459694" />
           </w>
@@ -65,7 +78,7 @@
           <pc pos="PC" xml:id="c45701_0016.pc.post.00335629" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c45701_0016.w.855310">ende</w>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c45701_0016.w.855311">dan</w>
-          <w cert="1.0" lemma="regel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.45701.sense.6" xml:id="c45701_0016.w.855312">reghele</w>
+          <w cert="1.0" lemma="regel" pos="NOU-C(number=sg)" resp="roland" xml:id="c45701_0016.w.855312" lemmaRef="mnw.45701.sense.6">reghele</w>
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c45701_0016.w.855313">houden</w>
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="c45701_0016.w.855314">na</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45701_0016.w.855315">den</w>

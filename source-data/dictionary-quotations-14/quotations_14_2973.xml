@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70426" lemma="WANT" partition="train" sense-id="mnw.70426.sense.2" xml:id="c70426_0011">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c70426_0011">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70426.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70426</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2973">
           <w cert="1.0" lemma="dik" pos="ADV(type=reg)" resp="thomas" xml:id="c70426_0011.w.1263996">Dicke</w>
           <w cert="1.0" lemma="gevallen+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c70426_0011.w.1263997">ghevaltet</w>
@@ -77,7 +90,7 @@
           <w cert="1.0" lemma="klauw" pos="NOU-C(number=pl)" resp="roland" xml:id="c70426_0011.w.1264013">clauwen</w>
           <w cert="1.0" lemma="houwen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70426_0011.w.1264014">auwet</w>
           <pc pos="PC" xml:id="c70426_0011.pc.post.00506966" lemma=",">,</pc>
-          <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" sense-id="mnw.70426.sense.2" xml:id="c70426_0011.w.1264015">want</w>
+          <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c70426_0011.w.1264015" lemmaRef="mnw.70426.sense.2">want</w>
           <w cert="1.0" lemma="zelden" pos="ADV(type=reg)" resp="thomas" xml:id="c70426_0011.w.1264016">selden</w>
           <w cert="1.0" lemma="hebben+men" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c70426_0011.w.1264017">heeftmen</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c70426_0011.w.1264018">enighe</w>

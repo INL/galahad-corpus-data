@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56064" lemma="STUPE" partition="train" sense-id="mnw.56064.sense.1" xml:id="c56064_0006">
-        <date atLeast="1451" atMost="1451" timeSpan="1450-1500" />
+      <cit xml:id="c56064_0006">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1451" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>STUPE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56064.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56064</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1545">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c56064_0006.w.1770082">Is</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c56064_0006.w.1770083">des</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56064_0006.w.1770103">den</w>
           <w cert="1.0" lemma="dief" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56064_0006.w.1770104">dief</w>
           <w cert="1.0" lemma="tot+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56064_0006.w.1770105">totter</w>
-          <w cert="1.0" lemma="stuip" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.56064.sense.1" xml:id="c56064_0006.w.1770106">stupe</w>
+          <w cert="1.0" lemma="stuip" pos="NOU-C(number=sg)" resp="roland" xml:id="c56064_0006.w.1770106" lemmaRef="mnw.56064.sense.1">stupe</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c56064_0006.w.1770107">slaet</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c56064_0006.w.1770108">ende</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c56064_0006.w.1770109">men</w>

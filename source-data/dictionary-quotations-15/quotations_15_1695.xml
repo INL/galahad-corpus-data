@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60887" lemma="UTESUKEN" partition="train" sense-id="mnw.60887.sense.1" xml:id="c60887_0001">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c60887_0001">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>UTESUKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60887.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60887</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1695">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60887_0001.w.801670">Si</w>
           <pc join="right" pos="PC" xml:id="c60887_0001.pc.pre.00324123" lemma="(">(</pc>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="serpent" pos="NOU-C(number=pl)" resp="roland" xml:id="c60887_0001.w.801675">serpenten</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c60887_0001.w.801676">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60887_0001.w.801677">si</w>
-          <w cert="1.0" lemma="uitzuiken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.60887.sense.1" xml:id="c60887_0001.w.801678">wtsuken</w>
+          <w cert="1.0" lemma="uitzuiken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c60887_0001.w.801678" lemmaRef="mnw.60887.sense.1">wtsuken</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c60887_0001.w.801679">souden</w>
           <w cert="1.0" lemma="al+dat" pos="PD(type=indef,position=free)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60887_0001.w.801680">alt</w>
           <w cert="1.0" lemma="venijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c60887_0001.w.801681">venijn</w>

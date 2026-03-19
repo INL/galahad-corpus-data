@@ -45,16 +45,29 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00402" lemma="AENHEBBEN" partition="train" sense-id="mnw.00402.sense.1" xml:id="c00402_0000">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c00402_0000">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>AENHEBBEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00402.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00402</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.22">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c00402_0000.w.76791">Enen</w>
           <w cert="1.0" lemma="kasteel" pos="NOU-C(number=sg)" resp="roland" xml:id="c00402_0000.w.76792">casteel</w>
           <pc pos="PC" xml:id="c00402_0000.pc.floating.00031070" lemma="..,">..,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c00402_0000.w.76794">die</w>
-          <w cert="1.0" lemma="aanhebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00402.sense.1" xml:id="c00402_0000.w.76795">hadde<join n="mw_204294" />
+          <w cert="1.0" lemma="aanhebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00402_0000.w.76795" lemmaRef="mnw.00402.sense.1">hadde<join n="mw_204294" />
           </w>
-          <w cert="1.0" lemma="aanhebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00402.sense.1" xml:id="c00402_0000.w.76796">ane<join n="mw_204294" />
+          <w cert="1.0" lemma="aanhebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00402_0000.w.76796" lemmaRef="mnw.00402.sense.1">ane<join n="mw_204294" />
           </w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c00402_0000.w.76797">menighen</w>
           <w cert="1.0" lemma="toren" pos="NOU-C(number=sg)" resp="roland" xml:id="c00402_0000.w.76798">tor</w>

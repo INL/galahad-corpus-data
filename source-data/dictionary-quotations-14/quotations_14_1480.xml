@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36735" lemma="ONORDELIJC" partition="train" sense-id="mnw.36735.sense.2" xml:id="c36735_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c36735_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONORDELIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36735.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36735</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1480">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c36735_0000.w.549785">En</w>
           <w cert="1.0" lemma="weder" pos="ADV(type=reg)" resp="thomas" xml:id="c36735_0000.w.549786">weder</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36735_0000.w.549799">ontlixent</w>
           <pc pos="PC" xml:id="c36735_0000.pc.post.00224364" lemma=")">)</pc>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c36735_0000.w.549800">ogte</w>
-          <w cert="1.0" lemma="onordelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.36735.sense.2" xml:id="c36735_0000.w.549801">onordelike</w>
+          <w cert="1.0" lemma="onordelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c36735_0000.w.549801" lemmaRef="mnw.36735.sense.2">onordelike</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c36735_0000.w.549802">mact</w>
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c36735_0000.w.549803">jhegen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36735_0000.w.549804">der</w>

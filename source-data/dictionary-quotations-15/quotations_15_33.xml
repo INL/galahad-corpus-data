@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01004" lemma="AFTRECKINGE" partition="train" sense-id="mnw.01004.sense.1" xml:id="c01004_0000">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c01004_0000">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>AFTRECKINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01004.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01004</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.33">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c01004_0000.w.202513">Want</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c01004_0000.w.202514">natuere</w>
           <w cert="1.0" lemma="failleren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c01004_0000.w.202515">faelgieren</w>
           <w cert="1.0" lemma="begonnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c01004_0000.w.202516">begonste</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c01004_0000.w.202517">met</w>
-          <w cert="1.0" lemma="aftrekking" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.01004.sense.1" xml:id="c01004_0000.w.202518">oftreckinghen</w>
+          <w cert="1.0" lemma="aftrekking" pos="NOU-C(number=pl)" resp="roland" xml:id="c01004_0000.w.202518" lemmaRef="mnw.01004.sense.1">oftreckinghen</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c01004_0000.w.202519">harer</w>
           <w cert="1.0" lemma="woonst" pos="NOU-C(number=sg)" resp="roland" xml:id="c01004_0000.w.202520">woenste</w>
           <pc pos="PC" xml:id="c01004_0000.pc.post.00079275" lemma=",">,</pc>

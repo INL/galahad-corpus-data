@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70194" lemma="WALM" partition="train" sense-id="mnw.70194.sense.1" xml:id="c70194_0001">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c70194_0001">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WALM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70194.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70194</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2097">
           <pc join="right" pos="PC" xml:id="c70194_0001.pc.pre.00484588" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c70194_0001.w.1207553">Simson</w>
@@ -73,7 +86,7 @@
           <w cert="1.0" lemma="midden" pos="NOU-C(number=sg)" resp="roland" xml:id="c70194_0001.w.1207571">midden</w>
           <w cert="1.0" lemma="binden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70194_0001.w.1207572">bant</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c70194_0001.w.1207573">hi</w>
-          <w cert="1.0" lemma="walm" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70194.sense.1" xml:id="c70194_0001.w.1207574">walme</w>
+          <w cert="1.0" lemma="walm" pos="NOU-C(number=sg)" resp="roland" xml:id="c70194_0001.w.1207574" lemmaRef="mnw.70194.sense.1">walme</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70194_0001.w.1207575">ende</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c70194_0001.w.1207576">die</w>
           <w cert="1.0" lemma="ontsteken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70194_0001.w.1207577">ontstac</w>

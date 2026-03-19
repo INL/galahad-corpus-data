@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42371" lemma="PERKELEN" partition="train" sense-id="mnw.42371.sense.2" xml:id="c42371_0001">
-        <date atLeast="1481" atMost="1481" timeSpan="1450-1500" />
+      <cit xml:id="c42371_0001">
+        <note>
+          <ab>
+            <date atLeast="1481" atMost="1481" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PERKELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42371.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42371</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1088">
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c42371_0001.w.186349">U</w>
           <w cert="1.0" lemma="consciëntie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42371_0001.w.186350">consciencie</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c42371_0001.w.186352">daer</w>
           <w cert="1.0" lemma="murmureren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c42371_0001.w.186353">murmureert</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42371_0001.w.186354">ende</w>
-          <w cert="1.0" lemma="prikkelen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.42371.sense.2" xml:id="c42371_0001.w.186355">perkelt</w>
+          <w cert="1.0" lemma="prikkelen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c42371_0001.w.186355" lemmaRef="mnw.42371.sense.2">perkelt</w>
           <w cert="1.0" lemma="tegen" pos="ADP(type=pre)" resp="thomas" xml:id="c42371_0001.w.186356">teghen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42371_0001.w.186357">die</w>
           <w cert="1.0" lemma="zonde" pos="NOU-C(number=sg)" resp="roland" xml:id="c42371_0001.w.186358">sonde</w>

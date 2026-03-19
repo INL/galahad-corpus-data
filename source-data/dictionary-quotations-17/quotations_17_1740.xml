@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M084034" lemma="WAT" modern-lemma="wat" partition="test" pos="PD" sense-id="M084034.bet.39" xml:id="M084034.eg.21435">
-        <date atLeast="1648" atMost="1648" timeSpan="1600-1650" />
+      <cit xml:id="M084034.eg.21435">
+        <note>
+          <ab>
+            <date atLeast="1648" atMost="1648" extent="1600-1650" />
+            <interpGrp type="lemma">
+              <interp>WAT</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>PD</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M084034.bet.39</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>wat</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M084034</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1740">
           <w cert="1.0" lemma="klepperwacht" pos="NOU-C(number=sg,WF=abbr)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1442679">Klep</w>
           <pc pos="PC" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.pc.post.00472698" lemma=".">.</pc>
@@ -58,7 +77,7 @@
           <pc pos="PC" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.pc.post.00472701" lemma=".">.</pc>
           <w cert="1.0" lemma="Hesuttam" pos="NOU-P(WF=abbr)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1442683">Hes</w>
           <pc pos="PC" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.pc.post.00472702" lemma=".">.</pc>
-          <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=prenom)" resp="thomas" sense-id="M084034.bet.39" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1442684">Wat</w>
+          <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=prenom)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1442684" lemmaRef="M084034.bet.39">Wat</w>
           <w cert="1.0" lemma="droes" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1442685">droes</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1442686">is</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="INT_3431e12e-8efd-41a7-86d7-61ad4af78fe9.w.1442687">daar</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45570" lemma="REDENE" partition="test" sense-id="mnw.45570.sense.13" xml:id="c45570_0111">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c45570_0111">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>REDENE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45570.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45570</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1862">
           <pc join="right" pos="PC" xml:id="c45570_0111.pc.pre.00325375" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c45570_0111.w.828956">Hi</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c45570_0111.pc.post.00325377" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c45570_0111.w.828962">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c45570_0111.w.828963">hi</w>
-          <w cert="1.0" lemma="rede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.45570.sense.13" xml:id="c45570_0111.w.828964">redene</w>
+          <w cert="1.0" lemma="rede" pos="NOU-C(number=sg)" resp="roland" xml:id="c45570_0111.w.828964" lemmaRef="mnw.45570.sense.13">redene</w>
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c45570_0111.w.828965">name</w>
           <pc join="right" pos="PC" xml:id="c45570_0111.pc.pre.00325378" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c45570_0111.w.828966">rekenschap</w>

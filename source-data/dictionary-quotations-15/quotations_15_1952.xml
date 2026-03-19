@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65927" lemma="VIERDEL" partition="train" sense-id="mnw.65927.sense.1" xml:id="c65927_0003">
-        <date atLeast="1494" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c65927_0003">
+        <note>
+          <ab>
+            <date atLeast="1494" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VIERDEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65927.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65927</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1952">
           <w cert="1.0" lemma="pond" pos="NOU-C(number=sg)" resp="roland" xml:id="c65927_0003.w.316814">Ponde</w>
           <pc pos="PC" xml:id="c65927_0003.pc.post.00124701" lemma=",">,</pc>
           <w cert="1.0" lemma="half" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c65927_0003.w.316815">halve</w>
           <w cert="1.0" lemma="pond" pos="NOU-C(number=sg)" resp="roland" xml:id="c65927_0003.w.316816">ponde</w>
           <pc pos="PC" xml:id="c65927_0003.pc.post.00124702" lemma=",">,</pc>
-          <w cert="1.0" lemma="vierdeelpond" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.65927.sense.1" xml:id="c65927_0003.w.316817">vierdelponde</w>
+          <w cert="1.0" lemma="vierdeelpond" pos="NOU-C(number=sg)" resp="thomas" xml:id="c65927_0003.w.316817" lemmaRef="mnw.65927.sense.1">vierdelponde</w>
           <pc pos="PC" xml:id="c65927_0003.pc.floating.00124703" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c65927_0003.w.316819">ende</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c65927_0003.w.316820">sullen</w>

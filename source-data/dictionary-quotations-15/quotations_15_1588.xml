@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57988" lemma="TIDELIJC" partition="train" sense-id="mnw.57988.sense.1" xml:id="c57988_0005">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c57988_0005">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TIDELIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57988.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57988</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1588">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c57988_0005.w.223107">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57988_0005.w.223108">men</w>
-          <w cert="1.0" lemma="tijdelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.57988.sense.1" xml:id="c57988_0005.w.223109">titeleke</w>
+          <w cert="1.0" lemma="tijdelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c57988_0005.w.223109" lemmaRef="mnw.57988.sense.1">titeleke</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c57988_0005.w.223110">dinghe</w>
           <w cert="1.0" lemma="versmaden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c57988_0005.w.223111">versmaden</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57988_0005.w.223112">soude</w>

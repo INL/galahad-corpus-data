@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65937" lemma="VIERDINC" partition="train" sense-id="mnw.65937.sense.2" xml:id="c65937_0004">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c65937_0004">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VIERDINC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65937.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65937</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2756">
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c65937_0004.w.318120">IIII</w>
           <w cert="1.0" lemma="nap" pos="NOU-C(number=pl)" resp="roland" xml:id="c65937_0004.w.318121">nappe</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="een" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c65937_0004.w.318131">1</w>
           <pc lemma="/" pos="PC" xml:id="c65937_0004.w.318132">/</pc>
           <w cert="1.0" lemma="tweede" pos="NUM(type=ord,position=prenom,representation=dig)" resp="thomas" xml:id="c65937_0004.w.318133">2</w>
-          <w cert="1.0" lemma="vierding" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.65937.sense.2" xml:id="c65937_0004.w.318134">ferting</w>
+          <w cert="1.0" lemma="vierding" pos="NOU-C(number=sg)" resp="roland" xml:id="c65937_0004.w.318134" lemmaRef="mnw.65937.sense.2">ferting</w>
           <pc pos="PC" xml:id="c65937_0004.pc.floating.00125285" lemma=",">,</pc>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c65937_0004.w.318136">over</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c65937_0004.w.318137">de</w>

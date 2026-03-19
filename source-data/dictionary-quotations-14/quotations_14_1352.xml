@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32666" lemma="NIJT" partition="train" sense-id="mnw.32666.sense.2" xml:id="c32666_0013">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c32666_0013">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NIJT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32666.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32666</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1352">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c32666_0013.w.1659879">Doe</w>
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32666_0013.w.1659880">sprac</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c32666_0013.pc.floating.00655813" lemma="…;">…;</pc>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c32666_0013.w.1659890">alle</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c32666_0013.w.1659891">die</w>
-          <w cert="1.0" lemma="nijd" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.32666.sense.2" xml:id="c32666_0013.w.1659892">nide</w>
+          <w cert="1.0" lemma="nijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c32666_0013.w.1659892" lemmaRef="mnw.32666.sense.2">nide</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c32666_0013.w.1659893">die</w>
           <w cert="1.0" lemma="afvallen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c32666_0013.w.1659894">vallen<join n="mw_291463" />
           </w>

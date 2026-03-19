@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51344" lemma="SEMEIL" partition="train" sense-id="mnw.51344.sense.1" xml:id="c51344_0000">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c51344_0000">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SEMEIL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51344.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51344</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2062">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c51344_0000.w.707098">Van</w>
           <w cert="1.0" lemma="tien" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c51344_0000.w.707099">10</w>
           <w cert="1.0" lemma="pond" pos="NOU-C(number=sg)" resp="roland" xml:id="c51344_0000.w.707100">pond</w>
-          <w cert="1.0" lemma="semeil" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51344.sense.1" xml:id="c51344_0000.w.707101">semeils</w>
+          <w cert="1.0" lemma="semeil" pos="NOU-C(number=sg)" resp="roland" xml:id="c51344_0000.w.707101" lemmaRef="mnw.51344.sense.1">semeils</w>
           <pc pos="PC" xml:id="c51344_0000.pc.floating.00293035" lemma=",">,</pc>
           <w cert="1.0" lemma="bezigen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c51344_0000.w.707103">ghebesicht</w>
           <w cert="1.0" lemma="tot+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c51344_0000.w.707104">toten</w>

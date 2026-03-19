@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30002" lemma="MISHANDELEN" partition="train" sense-id="mnw.30002.sense.9" xml:id="c30002_0014">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c30002_0014">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MISHANDELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30002.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30002</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1221">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c30002_0014.w.1143012">Dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30002_0014.w.1143013">ic</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c30002_0014.w.1143015">selven</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c30002_0014.w.1143016">niet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c30002_0014.w.1143017">en</w>
-          <w cert="1.0" lemma="mishandelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.30002.sense.9" xml:id="c30002_0014.w.1143018">meshandele</w>
+          <w cert="1.0" lemma="mishandelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30002_0014.w.1143018" lemmaRef="mnw.30002.sense.9">meshandele</w>
           <pc pos="PC" xml:id="c30002_0014.pc.floating.00448566" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c30002_0014.w.1143020">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30002_0014.w.1143021">es</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55863" lemma="STRIC" partition="train" sense-id="mnw.55863.sense.5" xml:id="c55863_0027">
-        <date atLeast="1434" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c55863_0027">
+        <note>
+          <ab>
+            <date atLeast="1434" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STRIC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55863.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55863</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1539">
           <w cert="1.0" lemma="stom" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c55863_0027.w.1724773">Stom</w>
           <w cert="1.0" lemma="dier" pos="NOU-C(number=pl)" resp="roland" xml:id="c55863_0027.w.1724774">dieren</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c55863_0027.w.1724777">voor</w>
           <w cert="1.0" lemma="put" pos="NOU-C(number=pl)" resp="roland" xml:id="c55863_0027.w.1724778">putten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c55863_0027.w.1724779">ende</w>
-          <w cert="1.0" lemma="strik" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.55863.sense.5" xml:id="c55863_0027.w.1724780">stricken</w>
+          <w cert="1.0" lemma="strik" pos="NOU-C(number=pl)" resp="roland" xml:id="c55863_0027.w.1724780" lemmaRef="mnw.55863.sense.5">stricken</w>
           <pc pos="PC" xml:id="c55863_0027.pc.floating.00712284" lemma=",">,</pc>
           <w cert="1.0" lemma="daarin" pos="ADV(type=pron)" resp="thomas" xml:id="c55863_0027.w.1724782">daer<join n="mw_848245" />
           </w>

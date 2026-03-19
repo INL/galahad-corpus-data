@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31706" lemma="NACARIJN" partition="train" sense-id="mnw.31706.sense.1" xml:id="c31706_0001">
-        <date atLeast="1360" atMost="1389" timeSpan="1350-1400" />
+      <cit xml:id="c31706_0001">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1389" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NACARIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31706.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31706</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1293">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c31706_0001.w.1454109">Enen</w>
           <w cert="1.0" lemma="gitarenaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c31706_0001.w.1454110">ghisternier</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c31706_0001.pc.post.00572590" lemma=")">)</pc>
           <pc pos="PC" xml:id="c31706_0001.pc.floating.00572591" lemma="…,">…,</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c31706_0001.w.1454114">enen</w>
-          <w cert="1.0" lemma="nakarijn" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.31706.sense.1" xml:id="c31706_0001.w.1454115">nackarijn</w>
+          <w cert="1.0" lemma="nakarijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c31706_0001.w.1454115" lemmaRef="mnw.31706.sense.1">nackarijn</w>
           <pc pos="PC" xml:id="c31706_0001.pc.floating.00572592" lemma=",">,</pc>
         </q>
       </cit>

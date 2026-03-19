@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05278" lemma="BOUW" partition="train" sense-id="mnw.05278.sense.1" xml:id="c05278_0004">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c05278_0004">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BOUW</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05278.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05278</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.160">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c05278_0004.w.1003135">In</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c05278_0004.w.1003136">den</w>
           <w cert="1.0" lemma="dag" pos="NOU-C(number=sg)" resp="roland" xml:id="c05278_0004.w.1003137">dage</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c05278_0004.w.1003138">des</w>
-          <w cert="1.0" lemma="bouw" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.05278.sense.1" xml:id="c05278_0004.w.1003139">bouwes</w>
+          <w cert="1.0" lemma="bouw" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05278_0004.w.1003139" lemmaRef="mnw.05278.sense.1">bouwes</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c05278_0004.w.1003140">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c05278_0004.w.1003141">der</w>
           <w cert="1.0" lemma="overvloedigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05278_0004.w.1003142">overvloedicheit</w>

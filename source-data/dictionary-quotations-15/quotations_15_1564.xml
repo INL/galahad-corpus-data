@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56785" lemma="SWIGEN" partition="train" sense-id="mnw.56785.sense.2" xml:id="c56785_0017">
-        <date atLeast="1470" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c56785_0017">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SWIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56785.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56785</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1564">
           <w cert="1.0" lemma="P." pos="NOU-P(WF=abbr)" resp="thomas" xml:id="c56785_0017.w.1904039">P.</w>
           <w cert="1.0" lemma="toehoren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56785_0017.w.1904040">hoirde<join n="mw_44955" />
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="toehoren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56785_0017.w.1904042">toe<join n="mw_44955" />
           </w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c56785_0017.w.1904043">ende</w>
-          <w cert="1.0" lemma="zwijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.56785.sense.2" xml:id="c56785_0017.w.1904044">zwech</w>
+          <w cert="1.0" lemma="zwijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56785_0017.w.1904044" lemmaRef="mnw.56785.sense.2">zwech</w>
           <pc join="right" pos="PC" xml:id="c56785_0017.pc.pre.00787507" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c56785_0017.w.1904045">d.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c56785_0017.w.1904046">i.</w>

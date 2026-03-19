@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32254" lemma="NEGENDE" partition="train" sense-id="mnw.32254.sense.1" xml:id="c32254_0002">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c32254_0002">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NEGENDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32254.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32254</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1318">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c32254_0002.w.1562328">Dat</w>
-          <w cert="1.0" lemma="negende" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" sense-id="mnw.32254.sense.1" xml:id="c32254_0002.w.1562329">negende</w>
+          <w cert="1.0" lemma="negende" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c32254_0002.w.1562329" lemmaRef="mnw.32254.sense.1">negende</w>
           <pc join="right" pos="PC" xml:id="c32254_0002.pc.pre.00615665" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c32254_0002.w.1562330">punt</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c32254_0002.w.1562331">is</w>

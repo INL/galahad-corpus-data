@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M078394" lemma="VERSPIEDEN" modern-lemma="verspieden" partition="train" pos="VRB" sense-id="M078394.bet.15" xml:id="M078394.eg.8337">
-        <date atLeast="1564" atMost="1564" timeSpan="1550-1600" />
+      <cit xml:id="M078394.eg.8337">
+        <note>
+          <ab>
+            <date atLeast="1564" atMost="1564" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>VERSPIEDEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M078394.bet.15</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>verspieden</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M078394</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1264">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.805793">Nu</w>
           <w cert="1.0" lemma="oorlof" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.805794">oorlof</w>
@@ -67,7 +86,7 @@
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.805809">wort</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.805810">van</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.805811">ons</w>
-          <w cert="1.0" lemma="verspieden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="M078394.bet.15" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.805812">verspiet</w>
+          <w cert="1.0" lemma="verspieden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.805812" lemmaRef="M078394.bet.15">verspiet</w>
           <pc pos="PC" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00272395" lemma=",">,</pc>
         </q>
       </cit>

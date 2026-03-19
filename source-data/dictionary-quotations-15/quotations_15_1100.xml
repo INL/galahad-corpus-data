@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43003" lemma="PLATIJNMAKER" partition="train" sense-id="mnw.43003.sense.1" xml:id="c43003_0001">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c43003_0001">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PLATIJNMAKER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43003.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43003</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1100">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c43003_0001.w.298085">De</w>
-          <w cert="1.0" lemma="platijnmaker" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.43003.sense.1" xml:id="c43003_0001.w.298086">platijnmakers</w>
+          <w cert="1.0" lemma="platijnmaker" pos="NOU-C(number=pl)" resp="roland" xml:id="c43003_0001.w.298086" lemmaRef="mnw.43003.sense.1">platijnmakers</w>
           <w cert="1.0" lemma="vieren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c43003_0001.w.298087">vierden</w>
           <pc join="right" pos="PC" xml:id="c43003_0001.pc.pre.00116516" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c43003_0001.w.298088">vierden</w>

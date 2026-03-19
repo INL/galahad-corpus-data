@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M009712" lemma="BOEKWORM" modern-lemma="boekenworm" partition="train" pos="NOU-C" sense-id="M009712.bet.3" xml:id="M009712.eg.43204">
-        <date atLeast="1793" atMost="1793" timeSpan="1750-1800" />
+      <cit xml:id="M009712.eg.43204">
+        <note>
+          <ab>
+            <date atLeast="1793" atMost="1793" extent="1750-1800" />
+            <interpGrp type="lemma">
+              <interp>BOEKWORM</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M009712.bet.3</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>boekenworm</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M009712</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.118">
           <w cert="1.0" lemma="sedert" pos="ADP(type=pre)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.169511">Sedert</w>
           <w cert="1.0" lemma="voorleden" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.169512">voorleden</w>
@@ -83,7 +102,7 @@
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.169540">het</w>
           <w cert="1.0" lemma="krielen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.169541">krielt</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.169542">van</w>
-          <w cert="1.0" lemma="boekenworm" pos="NOU-C(number=pl)" resp="roland" sense-id="M009712.bet.3" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.169543">Boekwurmen</w>
+          <w cert="1.0" lemma="boekenworm" pos="NOU-C(number=pl)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.169543" lemmaRef="M009712.bet.3">Boekwurmen</w>
           <pc pos="PC" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.pc.post.0058045" lemma=")">)</pc>
           <w cert="1.0" lemma="wonen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.w.169544">woont</w>
           <pc pos="PC" xml:id="bb74decf-7355-48eb-aa3b-a0cd6fa8aa1d.pc.post.0058046" lemma=",">,</pc>

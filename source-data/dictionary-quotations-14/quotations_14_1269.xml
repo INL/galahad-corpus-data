@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30909" lemma="MORREN" partition="train" sense-id="mnw.30909.sense.1" xml:id="c30909_0001">
-        <date atLeast="1301" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c30909_0001">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MORREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30909.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30909</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1269">
           <w cert="1.0" lemma="dat+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c30909_0001.w.1326363">Datse</w>
           <pc join="right" pos="PC" xml:id="c30909_0001.pc.pre.00521365" lemma="(">(</pc>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="wisseling" pos="NOU-C(number=sg)" resp="roland" xml:id="c30909_0001.w.1326375">wisselinghe</w>
           <pc pos="PC" xml:id="c30909_0001.pc.post.00521367" lemma=",">,</pc>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c30909_0001.w.1326376">sonder</w>
-          <w cert="1.0" lemma="morren" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30909.sense.1" xml:id="c30909_0001.w.1326377">mueren</w>
+          <w cert="1.0" lemma="morren" pos="NOU-C(number=sg)" resp="roland" xml:id="c30909_0001.w.1326377" lemmaRef="mnw.30909.sense.1">mueren</w>
           <pc pos="PC" xml:id="c30909_0001.pc.floating.00521368" lemma=",">,</pc>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c30909_0001.w.1326379">sonder</w>
           <w cert="1.0" lemma="minderen" pos="NOU-C(number=sg)" resp="roland" xml:id="c30909_0001.w.1326380">mindren</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12678" lemma="GESCAL" partition="train" sense-id="mnw.12678.sense.9" xml:id="c12678_0079">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c12678_0079">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GESCAL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12678.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12678</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.558">
           <w cert="1.0" lemma="Titus" pos="NOU-P" resp="roland" xml:id="c12678_0079.w.1158711">Tytus</w>
           <pc pos="PC" xml:id="c12678_0079.pc.post.00486412" lemma=",">,</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="overdaad" pos="NOU-C(number=sg)" resp="roland" xml:id="c12678_0079.w.1158720">overdaet</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12678_0079.w.1158721">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c12678_0079.w.1158722">haer</w>
-          <w cert="1.0" lemma="geschal" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12678.sense.9" xml:id="c12678_0079.w.1158723">ghescal</w>
+          <w cert="1.0" lemma="geschal" pos="NOU-C(number=sg)" resp="roland" xml:id="c12678_0079.w.1158723" lemmaRef="mnw.12678.sense.9">ghescal</w>
           <pc pos="PC" xml:id="c12678_0079.pc.floating.00486414" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63089" lemma="VERHOGEN" partition="train" sense-id="mnw.63089.sense.15" xml:id="c63089_0085">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c63089_0085">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERHOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63089.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63089</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2599">
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c63089_0085.w.1365246">Wel</w>
           <w cert="1.0" lemma="betekenen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63089_0085.w.1365247">betekent</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="verjeugden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63089_0085.w.1365261">verjooghet</w>
           <pc join="right" pos="PC" xml:id="c63089_0085.pc.pre.00546968" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63089_0085.w.1365262">var.</w>
-          <w cert="1.0" lemma="verheugen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.63089.sense.15" xml:id="c63089_0085.w.1365263">verhoghet</w>
+          <w cert="1.0" lemma="verheugen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63089_0085.w.1365263" lemmaRef="mnw.63089.sense.15">verhoghet</w>
           <pc pos="PC" xml:id="c63089_0085.pc.floating.00546970" lemma=")">)</pc>
           <pc pos="PC" xml:id="c63089_0085.pc.floating.00546971" lemma=",">,</pc>
           <w cert="1.0" lemma="geschieden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63089_0085.w.1365266">ghesciet</w>

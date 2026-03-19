@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02769" lemma="BEGOMEN" partition="train" sense-id="mnw.02769.sense.18" xml:id="c02769_0036">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c02769_0036">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEGOMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02769.sense.18</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02769</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.115">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02769_0036.w.506665">Hi</w>
           <w cert="1.0" lemma="willen+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c02769_0036.w.506666">wildet</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c02769_0036.pc.post.00198300" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c02769_0036.w.506672">ende</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c02769_0036.w.506673">so</w>
-          <w cert="1.0" lemma="begomen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.02769.sense.18" xml:id="c02769_0036.w.506674">begomen</w>
+          <w cert="1.0" lemma="begomen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c02769_0036.w.506674" lemmaRef="mnw.02769.sense.18">begomen</w>
           <pc pos="PC" xml:id="c02769_0036.pc.floating.00198301" lemma=",">,</pc>
         </q>
       </cit>

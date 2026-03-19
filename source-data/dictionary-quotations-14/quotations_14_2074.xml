@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51618" lemma="SEVENSTERRE" partition="train" sense-id="mnw.51618.sense.1" xml:id="c51618_0001">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c51618_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SEVENSTERRE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51618.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51618</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2074">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c51618_0001.w.759328">Als</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c51618_0001.w.759329">dese</w>
@@ -58,9 +71,9 @@
           </w>
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c51618_0001.w.759334">dat<join n="mw_349924" />
           </w>
-          <w cert="1.0" lemma="Zevenster" pos="NOU-P" resp="roland" sense-id="mnw.51618.sense.1" xml:id="c51618_0001.w.759335">VII<join n="mw_536150" />
+          <w cert="1.0" lemma="Zevenster" pos="NOU-P" resp="roland" xml:id="c51618_0001.w.759335" lemmaRef="mnw.51618.sense.1">VII<join n="mw_536150" />
           </w>
-          <w cert="1.0" lemma="Zevenster" pos="NOU-P" resp="roland" sense-id="mnw.51618.sense.1" xml:id="c51618_0001.w.759336">sterre<join n="mw_536150" />
+          <w cert="1.0" lemma="Zevenster" pos="NOU-P" resp="roland" xml:id="c51618_0001.w.759336" lemmaRef="mnw.51618.sense.1">sterre<join n="mw_536150" />
           </w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c51618_0001.w.759337">hi</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c51618_0001.w.759338">siet</w>

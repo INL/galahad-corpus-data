@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64549" lemma="VERSET" partition="train" sense-id="mnw.64549.sense.1" xml:id="c64549_0004">
-        <date atLeast="1300" atMost="1300" timeSpan="1300-1350" />
+      <cit xml:id="c64549_0004">
+        <note>
+          <ab>
+            <date atLeast="1300" atMost="1300" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERSET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64549.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64549</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2678">
           <w cert="1.0" lemma="geschieden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64549_0004.w.1771603">Geschyede</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c64549_0004.w.1771604">daer</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c64549_0004.w.1771621">zoude</w>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c64549_0004.w.1771622">also</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,position=free)" resp="roland" xml:id="c64549_0004.w.1771623">vele</w>
-          <w cert="1.0" lemma="verzet" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.64549.sense.1" xml:id="c64549_0004.w.1771624">verzets</w>
+          <w cert="1.0" lemma="verzet" pos="NOU-C(number=sg)" resp="roland" xml:id="c64549_0004.w.1771624" lemmaRef="mnw.64549.sense.1">verzets</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c64549_0004.w.1771625">alse</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c64549_0004.w.1771626">enz</w>
           <pc pos="PC" xml:id="c64549_0004.pc.post.00706137" lemma=".,">.,</pc>

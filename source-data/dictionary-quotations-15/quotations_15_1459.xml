@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53880" lemma="SPELEN" partition="train" sense-id="mnw.53880.sense.20" xml:id="c53880_0098">
-        <date atLeast="1440" atMost="1440" timeSpan="1400-1450" />
+      <cit xml:id="c53880_0098">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1440" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SPELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53880.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53880</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1459">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c53880_0098.w.1262202">Die</w>
           <w cert="1.0" lemma="lier" pos="NOU-C(number=sg)" resp="roland" xml:id="c53880_0098.w.1262203">lyre</w>
@@ -63,7 +76,7 @@
           </w>
           <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c53880_0098.w.1262213">plagen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c53880_0098.w.1262214">te</w>
-          <w cert="1.0" lemma="spelen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.53880.sense.20" xml:id="c53880_0098.w.1262215">spelen</w>
+          <w cert="1.0" lemma="spelen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c53880_0098.w.1262215" lemmaRef="mnw.53880.sense.20">spelen</w>
           <pc pos="PC" xml:id="c53880_0098.pc.floating.00523902" lemma=",">,</pc>
         </q>
       </cit>

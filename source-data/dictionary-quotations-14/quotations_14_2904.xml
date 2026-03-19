@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69161" lemma="VRIESEWONDE" partition="train" sense-id="mnw.69161.sense.1" xml:id="c69161_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c69161_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VRIESEWONDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69161.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69161</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2904">
           <w cert="1.0" lemma="propinum" pos="RES(type=for)" resp="roland" xml:id="c69161_0000.w.996159">Propinum</w>
           <pc join="right" pos="PC" xml:id="c69161_0000.pc.pre.00399055" lemma="(">(</pc>
@@ -73,7 +86,7 @@
           <w cert="1.0" lemma="vrieswond" pos="NOU-C(number=sg)" resp="roland" xml:id="c69161_0000.w.996176">wriesewoude</w>
           <pc join="right" pos="PC" xml:id="c69161_0000.pc.pre.00399064" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69161_0000.w.996177">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.69161.sense.1" xml:id="c69161_0000.w.996178">vriesewonde</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69161_0000.w.996178" lemmaRef="mnw.69161.sense.1">vriesewonde</w>
           <pc pos="PC" xml:id="c69161_0000.pc.floating.00399066" lemma=")">)</pc>
           <pc pos="PC" xml:id="c69161_0000.pc.floating.00399067" lemma=",">,</pc>
           <w cert="1.0" lemma="nuttelijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c69161_0000.w.996181">nuttelec</w>

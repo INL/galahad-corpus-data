@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02501" lemma="BEDERVEN" partition="train" sense-id="mnw.02501.sense.4" xml:id="c02501_0008">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c02501_0008">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEDERVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02501.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02501</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.101">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02501_0008.w.448974">Die</w>
           <w cert="1.0" lemma="monnik" pos="NOU-C(number=pl)" resp="roland" xml:id="c02501_0008.w.448975">moonke</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02501_0008.w.448986">si</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c02501_0008.w.448987">haer</w>
           <w cert="1.0" lemma="schip" pos="NOU-C(number=sg)" resp="roland" xml:id="c02501_0008.w.448988">scip</w>
-          <w cert="1.0" lemma="bederven" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.02501.sense.4" xml:id="c02501_0008.w.448989">bederven</w>
+          <w cert="1.0" lemma="bederven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c02501_0008.w.448989" lemmaRef="mnw.02501.sense.4">bederven</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c02501_0008.w.448990">mochten</w>
           <pc pos="PC" xml:id="c02501_0008.pc.post.00176010" lemma=",">,</pc>
         </q>

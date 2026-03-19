@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25135" lemma="LATEN" partition="train" sense-id="mnw.25135.sense.50" xml:id="c25135_0173">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c25135_0173">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25135.sense.50</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25135</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.613">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c25135_0173.w.127726">Ic</w>
           <w cert="1.0" lemma="bidden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c25135_0173.w.127727">bid</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25135_0173.w.127730">ghi</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c25135_0173.w.127731">u</w>
           <w cert="1.0" lemma="spotten" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25135_0173.w.127732">spotten</w>
-          <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.25135.sense.50" xml:id="c25135_0173.w.127733">laet</w>
+          <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c25135_0173.w.127733" lemmaRef="mnw.25135.sense.50">laet</w>
           <pc pos="PC" xml:id="c25135_0173.pc.floating.00049894" lemma=",">,</pc>
         </q>
       </cit>

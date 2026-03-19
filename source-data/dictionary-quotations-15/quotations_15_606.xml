@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25103" lemma="LAST" partition="train" sense-id="mnw.25103.sense.6" xml:id="c25103_0024">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c25103_0024">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LAST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25103.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25103</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.606">
           <pc pos="PC" xml:id="c25103_0024.pc.floating.00043382" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c25103_0024.pc.pre.00043383" lemma="“">“</pc>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c25103_0024.w.110756">nu</w>
           <w cert="1.0" lemma="hebben+ik" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c25103_0024.w.110757">haddic</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c25103_0024.w.110758">minen</w>
-          <w cert="1.0" lemma="last" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.25103.sense.6" xml:id="c25103_0024.w.110759">last</w>
+          <w cert="1.0" lemma="last" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25103_0024.w.110759" lemmaRef="mnw.25103.sense.6">last</w>
           <pc pos="PC" xml:id="c25103_0024.pc.floating.00043385" lemma="(:">(:</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c25103_0024.w.110761">rast</w>
           <pc pos="PC" xml:id="c25103_0024.pc.post.00043386" lemma=")">)</pc>

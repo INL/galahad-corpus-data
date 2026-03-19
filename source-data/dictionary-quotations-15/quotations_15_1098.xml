@@ -45,16 +45,29 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42815" lemma="PISE" partition="train" sense-id="mnw.42815.sense.1" xml:id="c42815_0001">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c42815_0001">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PISE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42815.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42815</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1098">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c42815_0001.w.262288">Van</w>
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c42815_0001.w.262289">viere</w>
-          <w cert="1.0" lemma="pieze" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.42815.sense.1" xml:id="c42815_0001.w.262290">pizen</w>
+          <w cert="1.0" lemma="pieze" pos="NOU-C(number=pl)" resp="roland" xml:id="c42815_0001.w.262290" lemmaRef="mnw.42815.sense.1">pizen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42815_0001.w.262291">ende</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42815_0001.w.262292">een</w>
           <w cert="1.0" lemma="half" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c42815_0001.w.262293">halve</w>
-          <w cert="1.0" lemma="pieze" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42815.sense.1" xml:id="c42815_0001.w.262294">pise</w>
+          <w cert="1.0" lemma="pieze" pos="NOU-C(number=sg)" resp="roland" xml:id="c42815_0001.w.262294" lemmaRef="mnw.42815.sense.1">pise</w>
           <w cert="1.0" lemma="pimperneel" pos="NOU-C(number=pl)" resp="roland" xml:id="c42815_0001.w.262295">pinpernelen</w>
           <pc join="right" pos="PC" xml:id="c42815_0001.pc.pre.00102084" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c42815_0001.w.262296">eene</w>

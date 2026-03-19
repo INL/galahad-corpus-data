@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36582" lemma="ONMARE" partition="train" sense-id="mnw.36582.sense.19" xml:id="c36582_0098">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c36582_0098">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONMARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36582.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36582</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1471">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c36582_0098.w.523035">Want</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c36582_0098.w.523036">hi</w>
@@ -78,7 +91,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36582_0098.w.523059">ter</w>
           <pc pos="PC" xml:id="c36582_0098.pc.post.00213520" lemma=")">)</pc>
           <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="roland" xml:id="c36582_0098.w.523060">werelt</w>
-          <w cert="1.0" lemma="onmaar" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.36582.sense.19" xml:id="c36582_0098.w.523061">ommare</w>
+          <w cert="1.0" lemma="onmaar" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c36582_0098.w.523061" lemmaRef="mnw.36582.sense.19">ommare</w>
           <pc pos="PC" xml:id="c36582_0098.pc.floating.00213521" lemma=",">,</pc>
           <w cert="1.0" lemma="halen+hij+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c36582_0098.w.523063">haeldise</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c36582_0098.w.523064">an</w>

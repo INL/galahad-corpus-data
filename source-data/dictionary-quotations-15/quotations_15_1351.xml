@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51218" lemma="SEKER" partition="train" sense-id="mnw.51218.sense.12" xml:id="c51218_0028">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c51218_0028">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SEKER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51218.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51218</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1351">
           <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c51218_0028.w.678993">Vrouwe</w>
           <w cert="1.0" lemma="Margriet" pos="NOU-P" resp="roland" xml:id="c51218_0028.w.678994">Margriete</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="Engeland" pos="NOU-P" resp="roland" xml:id="c51218_0028.w.678996">Inghelant</w>
           <pc pos="PC" xml:id="c51218_0028.pc.post.00281243" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c51218_0028.w.678997">die</w>
-          <w cert="1.0" lemma="zeker" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.51218.sense.12" xml:id="c51218_0028.w.678998">seker</w>
+          <w cert="1.0" lemma="zeker" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c51218_0028.w.678998" lemmaRef="mnw.51218.sense.12">seker</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c51218_0028.w.678999">hevet</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c51218_0028.w.679000">van</w>
           <w cert="1.0" lemma="Brabant" pos="NOU-P" resp="roland" xml:id="c51218_0028.w.679001">Brabant</w>

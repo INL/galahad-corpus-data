@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64604" lemma="VERSITTEN" partition="train" sense-id="mnw.64604.sense.6" xml:id="c64604_0012">
-        <date atLeast="1443" atMost="1451" timeSpan="1400-1450" />
+      <cit xml:id="c64604_0012">
+        <note>
+          <ab>
+            <date atLeast="1443" atMost="1451" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERSITTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64604.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64604</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1889">
           <pc pos="PC" xml:id="c64604_0012.pc.floating.00716057" lemma="—">—</pc>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c64604_0012.w.1797332">Also</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="alzulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c64604_0012.w.1797335">alsulckes</w>
           <w cert="1.0" lemma="verbod" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64604_0012.w.1797336">verbodes</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c64604_0012.w.1797337">nicht</w>
-          <w cert="1.0" lemma="verzitten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.64604.sense.6" xml:id="c64604_0012.w.1797338">versitten</w>
+          <w cert="1.0" lemma="verzitten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c64604_0012.w.1797338" lemmaRef="mnw.64604.sense.6">versitten</w>
           <pc pos="PC" xml:id="c64604_0012.pc.floating.00716058" lemma=",">,</pc>
           <w cert="1.0" lemma="men" pos="CONJ(type=coor)" resp="thomas" xml:id="c64604_0012.w.1797340">men</w>
           <pc join="right" pos="PC" xml:id="c64604_0012.pc.pre.00716059" lemma="(">(</pc>

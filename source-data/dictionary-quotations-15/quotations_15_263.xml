@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10392" lemma="GEBINT" partition="train" sense-id="mnw.10392.sense.4" xml:id="c10392_0007">
-        <date atLeast="1432" atMost="1468" timeSpan="1450-1500" />
+      <cit xml:id="c10392_0007">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1468" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEBINT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10392.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10392</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.263">
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c10392_0007.w.716443">Te</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c10392_0007.w.716444">makene</w>
           <w cert="1.0" lemma="nieuw" pos="ADV(type=reg)" resp="thomas" xml:id="c10392_0007.w.716445">nieuwe</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c10392_0007.w.716446">een</w>
-          <w cert="1.0" lemma="gebint" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.10392.sense.4" xml:id="c10392_0007.w.716447">ghebint</w>
+          <w cert="1.0" lemma="gebint" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10392_0007.w.716447" lemmaRef="mnw.10392.sense.4">ghebint</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c10392_0007.w.716448">metter</w>
           <w cert="1.0" lemma="valbrug" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10392_0007.w.716449">valbrucge</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c10392_0007.w.716450">ende</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27539" lemma="MAER" partition="train" sense-id="mnw.27539.sense.8" xml:id="c27539_0060">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c27539_0060">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MAER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27539.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27539</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1107">
           <w cert="1.0" lemma="Parthonopeus" pos="NOU-P" resp="roland" xml:id="c27539_0060.w.683297">Parthonopeus</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c27539_0060.w.683298">hadde</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27539_0060.w.683302">Melior</w>
           <pc pos="PC" xml:id="c27539_0060.pc.post.00264754" lemma=")">)</pc>
           <pc pos="PC" xml:id="c27539_0060.pc.floating.00264755" lemma=",">,</pc>
-          <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" sense-id="mnw.27539.sense.8" xml:id="c27539_0060.w.683304">maer</w>
+          <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c27539_0060.w.683304" lemmaRef="mnw.27539.sense.8">maer</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c27539_0060.w.683305">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c27539_0060.w.683306">hi</w>
           <w cert="1.0" lemma="liggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c27539_0060.w.683307">lach</w>

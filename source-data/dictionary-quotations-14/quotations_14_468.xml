@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11443" lemma="GELARDEERT" partition="train" sense-id="mnw.11443.sense.1" xml:id="c11443_0000">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c11443_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GELARDEERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11443.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11443</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.468">
           <w cert="1.0" lemma="werenvlees" pos="NOU-C(number=sg)" resp="thomas" xml:id="c11443_0000.w.877581">Wederen<join n="mw_902655" />
           </w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c11443_0000.w.877590">van</w>
           <w cert="1.0" lemma="anguisse" pos="NOU-C(number=sg)" resp="roland" xml:id="c11443_0000.w.877591">angwissen</w>
           <pc pos="PC" xml:id="c11443_0000.pc.post.00373408" lemma=",">,</pc>
-          <w cert="1.0" lemma="larderen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.11443.sense.1" xml:id="c11443_0000.w.877592">gelardeert</w>
+          <w cert="1.0" lemma="larderen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c11443_0000.w.877592" lemmaRef="mnw.11443.sense.1">gelardeert</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c11443_0000.w.877593">met</w>
           <w cert="1.0" lemma="was" pos="NOU-C(number=sg)" resp="roland" xml:id="c11443_0000.w.877594">wasse</w>
           <pc pos="PC" xml:id="c11443_0000.pc.post.00373409" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22941" lemma="CONNEN" partition="dev" sense-id="mnw.22941.sense.1" xml:id="c22941_0007">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c22941_0007">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CONNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22941.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22941</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.907">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c22941_0007.w.1233751">Want</w>
           <w cert="1.0" lemma="gij+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c22941_0007.w.1233752">ghijt</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="bet" pos="ADV(type=reg)" resp="thomas" xml:id="c22941_0007.w.1233754">bat</w>
           <w cert="1.0" lemma="gedoen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c22941_0007.w.1233755">gedoen</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c22941_0007.w.1233756">en</w>
-          <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.22941.sense.1" xml:id="c22941_0007.w.1233757">coont</w>
+          <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c22941_0007.w.1233757" lemmaRef="mnw.22941.sense.1">coont</w>
           <pc pos="PC" xml:id="c22941_0007.pc.floating.00497076" lemma="(">(</pc>
           <pc pos="PC" xml:id="c22941_0007.pc.floating.00497077" lemma=":">:</pc>
           <w cert="1.0" lemma="lonen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c22941_0007.w.1233760">geloont</w>

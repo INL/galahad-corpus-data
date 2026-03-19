@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38172" lemma="ONTVLIEN" partition="train" sense-id="mnw.38172.sense.2" xml:id="c38172_0007">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c38172_0007">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTVLIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38172.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38172</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1565">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c38172_0007.w.891521">Si</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c38172_0007.w.891522">sach</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c38172_0007.w.891524">si</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c38172_0007.w.891525">ne</w>
           <w cert="1.0" lemma="mogen+dat" pos="VRB(finiteness=fin,tense=past)+PD(type=d-p,position=free)" resp="roland" xml:id="c38172_0007.w.891526">mochts</w>
-          <w cert="1.0" lemma="ontvlieden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.38172.sense.2" xml:id="c38172_0007.w.891527">ontvlien</w>
+          <w cert="1.0" lemma="ontvlieden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c38172_0007.w.891527" lemmaRef="mnw.38172.sense.2">ontvlien</w>
           <w cert="1.0" lemma="zij+ne" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="thomas" xml:id="c38172_0007.w.891528">si<join n="mw_432949" />
           </w>
           <pc join="right" pos="PC" xml:id="c38172_0007.pc.pre.00357761" lemma="(">(</pc>

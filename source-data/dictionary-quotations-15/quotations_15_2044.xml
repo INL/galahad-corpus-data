@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68701" lemma="VORT" partition="train" sense-id="mnw.68701.sense.3" xml:id="c68701_0014">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c68701_0014">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VORT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68701.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68701</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2044">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c68701_0014.w.855311">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68701_0014.w.855312">si</w>
           <w cert="1.0" lemma="roeien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c68701_0014.w.855313">royden</w>
-          <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.68701.sense.3" xml:id="c68701_0014.w.855314">voort</w>
+          <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c68701_0014.w.855314" lemmaRef="mnw.68701.sense.3">voort</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68701_0014.w.855315">ende</w>
           <w cert="1.0" lemma="weder" pos="ADV(type=reg)" resp="thomas" xml:id="c68701_0014.w.855316">weder</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c68701_0014.w.855317">alle</w>

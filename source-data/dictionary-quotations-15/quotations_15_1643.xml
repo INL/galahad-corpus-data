@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59032" lemma="TORTIJTSE" partition="train" sense-id="mnw.59032.sense.1" xml:id="c59032_0020">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c59032_0020">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TORTIJTSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59032.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59032</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1643">
           <pc join="right" pos="PC" xml:id="c59032_0020.pc.pre.00182520" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c59032_0020.w.451923">Si</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="wassen" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c59032_0020.w.451928">wassen</w>
           <w cert="1.0" lemma="kaars" pos="NOU-C(number=pl)" resp="roland" xml:id="c59032_0020.w.451929">kaersen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c59032_0020.w.451930">ende</w>
-          <w cert="1.0" lemma="tortijs" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.59032.sense.1" xml:id="c59032_0020.w.451931">tortijtsen</w>
+          <w cert="1.0" lemma="tortijs" pos="NOU-C(number=pl)" resp="roland" xml:id="c59032_0020.w.451931" lemmaRef="mnw.59032.sense.1">tortijtsen</w>
           <pc pos="PC" xml:id="c59032_0020.pc.floating.00182522" lemma=",">,</pc>
         </q>
       </cit>

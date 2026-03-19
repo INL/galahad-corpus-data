@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03976" lemma="BESWELMT" partition="train" sense-id="mnw.03976.sense.1" xml:id="c03976_0000">
-        <date atLeast="1479" atMost="1479" timeSpan="1450-1500" />
+      <cit xml:id="c03976_0000">
+        <note>
+          <ab>
+            <date atLeast="1479" atMost="1479" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BESWELMT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03976.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03976</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.118">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03976_0000.w.803499">Den</w>
           <w cert="1.0" lemma="Griek" pos="NOU-C(number=pl)" resp="roland" xml:id="c03976_0000.w.803500">Griecken</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="blozend" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c03976_0000.w.803506">bluesende</w>
           <w cert="1.0" lemma="aanschijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03976_0000.w.803507">aenschijn</w>
           <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c03976_0000.w.803508">vrij</w>
-          <w cert="1.0" lemma="bezwelmd" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.03976.sense.1" xml:id="c03976_0000.w.803509">beswelmt</w>
+          <w cert="1.0" lemma="bezwelmd" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c03976_0000.w.803509" lemmaRef="mnw.03976.sense.1">beswelmt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03976_0000.w.803510">ende</w>
           <w cert="1.0" lemma="lelijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c03976_0000.w.803511">leelick</w>
           <w cert="1.0" lemma="voorttogen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c03976_0000.w.803512">voort<join n="mw_756345" />

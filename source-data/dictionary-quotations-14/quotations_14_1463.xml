@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36190" lemma="ONGEVOEGE" partition="train" sense-id="mnw.36190.sense.5" xml:id="c36190_0009">
-        <date atLeast="1291" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c36190_0009">
+        <note>
+          <ab>
+            <date atLeast="1291" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONGEVOEGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36190.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36190</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1463">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c36190_0009.w.471672">Doe</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c36190_0009.w.471673">mochte</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="ongenoegen" pos="NOU-C(number=sg)" resp="roland" xml:id="c36190_0009.w.471678">ongenoege</w>
           <pc join="right" pos="PC" xml:id="c36190_0009.pc.pre.00192823" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36190_0009.w.471679">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.36190.sense.5" xml:id="c36190_0009.w.471680">ongevoege</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36190_0009.w.471680" lemmaRef="mnw.36190.sense.5">ongevoege</w>
           <pc pos="PC" xml:id="c36190_0009.pc.floating.00192825" lemma=")">)</pc>
           <w cert="1.0" lemma="zeer" pos="ADV(type=reg)" resp="thomas" xml:id="c36190_0009.w.471682">seer</w>
           <pc pos="PC" xml:id="c36190_0009.pc.post.00192826" lemma=",">,</pc>

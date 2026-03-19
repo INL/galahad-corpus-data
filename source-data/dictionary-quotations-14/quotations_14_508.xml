@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11921" lemma="GEMINEREN" partition="train" sense-id="mnw.11921.sense.1" xml:id="c11921_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c11921_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEMINEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11921.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11921</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.508">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c11921_0000.w.993927">Hoe</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11921_0000.w.993928">si</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c11921_0000.w.993932">vs.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c11921_0000.w.993933">10449</w>
           <pc pos="PC" xml:id="c11921_0000.pc.post.00419587" lemma=")">)</pc>
-          <w cert="1.0" lemma="gemineren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.11921.sense.1" xml:id="c11921_0000.w.993934">gemineren</w>
+          <w cert="1.0" lemma="gemineren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11921_0000.w.993934" lemmaRef="mnw.11921.sense.1">gemineren</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c11921_0000.w.993935">mogen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c11921_0000.w.993936">ende</w>
           <w cert="1.0" lemma="muur" pos="NOU-C(number=pl)" resp="roland" xml:id="c11921_0000.w.993937">muren</w>

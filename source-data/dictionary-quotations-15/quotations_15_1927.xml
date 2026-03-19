@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65428" lemma="VERWACHTEN" partition="train" sense-id="mnw.65428.sense.3" xml:id="c65428_0006">
-        <date atLeast="1455" atMost="1455" timeSpan="1450-1500" />
+      <cit xml:id="c65428_0006">
+        <note>
+          <ab>
+            <date atLeast="1455" atMost="1455" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERWACHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65428.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65428</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1927">
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c65428_0006.w.186429">En</w>
-          <w cert="1.0" lemma="verwachten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.65428.sense.3" xml:id="c65428_0006.w.186430">verwacht</w>
+          <w cert="1.0" lemma="verwachten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c65428_0006.w.186430" lemmaRef="mnw.65428.sense.3">verwacht</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c65428_0006.w.186431">niet</w>
           <pc pos="PC" xml:id="c65428_0006.pc.post.00072890" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c65428_0006.w.186432">dat</w>

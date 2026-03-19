@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43616" lemma="PORTE" partition="train" sense-id="mnw.43616.sense.1" xml:id="c43616_0013">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c43616_0013">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PORTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43616.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43616</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1777">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c43616_0013.w.415047">Si</w>
           <w cert="1.0" lemma="zagen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c43616_0013.w.415048">sagen</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="steken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c43616_0013.w.415051">steken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c43616_0013.w.415052">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c43616_0013.w.415053">hare</w>
-          <w cert="1.0" lemma="poort" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.43616.sense.1" xml:id="c43616_0013.w.415054">porte</w>
+          <w cert="1.0" lemma="poort" pos="NOU-C(number=sg)" resp="roland" xml:id="c43616_0013.w.415054" lemmaRef="mnw.43616.sense.1">porte</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c43616_0013.w.415055">met</w>
           <w cert="1.0" lemma="kracht" pos="NOU-C(number=sg)" resp="roland" xml:id="c43616_0013.w.415056">crachte</w>
           <w cert="1.0" lemma="breken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c43616_0013.w.415057">breken</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64859" lemma="VERSTEKEN" partition="train" sense-id="mnw.64859.sense.39" xml:id="c64859_0150">
-        <date atLeast="1455" atMost="1475" timeSpan="1450-1500" />
+      <cit xml:id="c64859_0150">
+        <note>
+          <ab>
+            <date atLeast="1455" atMost="1475" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERSTEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64859.sense.39</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64859</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1905">
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c64859_0150.w.31157">Maer</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c64859_0150.w.31158">hem</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="tegenvallen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c64859_0150.w.31164">teghens<join n="mw_338487" />
           </w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64859_0150.w.31165">ende</w>
-          <w cert="1.0" lemma="versteken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.64859.sense.39" xml:id="c64859_0150.w.31166">verstack</w>
+          <w cert="1.0" lemma="versteken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c64859_0150.w.31166" lemmaRef="mnw.64859.sense.39">verstack</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c64859_0150.w.31167">in</w>
           <w cert="1.0" lemma="Afrika" pos="NOU-P" resp="roland" xml:id="c64859_0150.w.31168">Affrike</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64859_0150.w.31169">ende</w>

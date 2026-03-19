@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67850" lemma="VOREBOECH" partition="train" sense-id="mnw.67850.sense.3" xml:id="c67850_0006">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c67850_0006">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VOREBOECH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67850.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67850</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2019">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c67850_0006.w.703544">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c67850_0006.w.703545">men</w>
-          <w cert="1.0" lemma="dat+voorborg" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" sense-id="mnw.67850.sense.3" xml:id="c67850_0006.w.703546">tvorbouch</w>
+          <w cert="1.0" lemma="dat+voorborg" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c67850_0006.w.703546" lemmaRef="mnw.67850.sense.3">tvorbouch</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c67850_0006.w.703547">van</w>
           <w cert="1.0" lemma="Kortrijk" pos="NOU-P" resp="roland" xml:id="c67850_0006.w.703548">Cortrijke</w>
           <pc pos="PC" xml:id="c67850_0006.pc.floating.00281595" lemma="…">…</pc>

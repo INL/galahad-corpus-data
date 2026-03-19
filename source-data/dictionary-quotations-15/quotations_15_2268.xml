@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73832" lemma="WINTERDACH" partition="train" sense-id="mnw.73832.sense.1" xml:id="c73832_0002">
-        <date atLeast="1444" atMost="1444" timeSpan="1400-1450" />
+      <cit xml:id="c73832_0002">
+        <note>
+          <ab>
+            <date atLeast="1444" atMost="1444" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WINTERDACH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73832.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73832</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2268">
           <w cert="1.0" lemma="alzo" pos="CONJ(type=sub)" resp="thomas" xml:id="c73832_0002.w.1979491">Alsoo</w>
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73832_0002.w.1979492">t</w>
-          <w cert="1.0" lemma="winterdag" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73832.sense.1" xml:id="c73832_0002.w.1979493">wijntterdach</w>
+          <w cert="1.0" lemma="winterdag" pos="NOU-C(number=sg)" resp="roland" xml:id="c73832_0002.w.1979493" lemmaRef="mnw.73832.sense.1">wijntterdach</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73832_0002.w.1979494">was</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c73832_0002.w.1979495">ende</w>
           <w cert="1.0" lemma="kwaad" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c73832_0002.w.1979496">quaet</w>

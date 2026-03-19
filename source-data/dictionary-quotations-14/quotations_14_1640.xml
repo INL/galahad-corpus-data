@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40205" lemma="OUDERINC" partition="train" sense-id="mnw.40205.sense.1" xml:id="c40205_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c40205_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OUDERINC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40205.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40205</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1640">
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40205_0000.w.1327649">Du</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c40205_0000.w.1327650">heves</w>
@@ -58,7 +71,7 @@
           </w>
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c40205_0000.w.1327655">onder</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c40205_0000.w.1327656">die</w>
-          <w cert="1.0" lemma="oudering" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40205.sense.1" xml:id="c40205_0000.w.1327657">ouderinghe</w>
+          <w cert="1.0" lemma="oudering" pos="NOU-C(number=sg)" resp="roland" xml:id="c40205_0000.w.1327657" lemmaRef="mnw.40205.sense.1">ouderinghe</w>
           <w cert="1.0" lemma="fier" pos="AA(degree=pos,position=postnom)" resp="roland" xml:id="c40205_0000.w.1327658">fiere</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c40205_0000.w.1327659">eene</w>
           <w cert="1.0" lemma="droef" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c40205_0000.w.1327660">droeve</w>

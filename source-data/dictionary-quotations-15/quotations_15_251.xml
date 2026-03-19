@@ -45,18 +45,31 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09928" lemma="FROLIJC" partition="train" sense-id="mnw.09928.sense.1" xml:id="c09928_0000">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c09928_0000">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>FROLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09928.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09928</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.251">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c09928_0000.w.631022">Was</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c09928_0000.w.631023">dat</w>
           <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c09928_0000.w.631024">wijf</w>
-          <w cert="1.0" lemma="vrolijk" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.09928.sense.1" xml:id="c09928_0000.w.631025">frolic</w>
+          <w cert="1.0" lemma="vrolijk" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c09928_0000.w.631025" lemmaRef="mnw.09928.sense.1">frolic</w>
           <pc pos="PC" xml:id="c09928_0000.pc.floating.00271946" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c09928_0000.w.631027">die</w>
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="thomas" xml:id="c09928_0000.w.631028">coninc</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c09928_0000.w.631029">was</w>
-          <w cert="1.0" lemma="vrolijk" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.09928.sense.1" xml:id="c09928_0000.w.631030">frolic</w>
+          <w cert="1.0" lemma="vrolijk" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c09928_0000.w.631030" lemmaRef="mnw.09928.sense.1">frolic</w>
           <pc pos="PC" xml:id="c09928_0000.pc.floating.00271947" lemma=",">,</pc>
         </q>
       </cit>

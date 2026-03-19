@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31980" lemma="NAVOLGEN" partition="train" sense-id="mnw.31980.sense.6" xml:id="c31980_0014">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c31980_0014">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NAVOLGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31980.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31980</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1303">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c31980_0014.w.1509235">Eist</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c31980_0014.w.1509236">dat</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c31980_0014.w.1509239">wolf</w>
           <pc pos="PC" xml:id="c31980_0014.pc.post.00594438" lemma=")">)</pc>
           <w cert="1.0" lemma="du" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c31980_0014.w.1509240">di</w>
-          <w cert="1.0" lemma="navolgen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.31980.sense.6" xml:id="c31980_0014.w.1509241">navolghet</w>
+          <w cert="1.0" lemma="navolgen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c31980_0014.w.1509241" lemmaRef="mnw.31980.sense.6">navolghet</w>
           <pc pos="PC" xml:id="c31980_0014.pc.floating.00594439" lemma="…,">…,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c31980_0014.w.1509243">so</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c31980_0014.w.1509244">maec</w>

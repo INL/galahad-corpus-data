@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68104" lemma="VORELEDEN" partition="train" sense-id="mnw.68104.sense.3" xml:id="c68104_0008">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c68104_0008">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VORELEDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68104.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68104</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2023">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c68104_0008.w.742581">Die</w>
           <w cert="1.0" lemma="gelofte" pos="NOU-C(number=pl)" resp="roland" xml:id="c68104_0008.w.742582">gheloften</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="hertog" pos="NOU-C(number=pl)" resp="roland" xml:id="c68104_0008.w.742586">hertogen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68104_0008.w.742587">ende</w>
           <w cert="1.0" lemma="hertogin" pos="NOU-C(number=pl)" resp="roland" xml:id="c68104_0008.w.742588">hertoginnen</w>
-          <w cert="1.0" lemma="voorleden" pos="AA(degree=pos,position=postnom)" resp="thomas" sense-id="mnw.68104.sense.3" xml:id="c68104_0008.w.742589">vorleden</w>
+          <w cert="1.0" lemma="voorleden" pos="AA(degree=pos,position=postnom)" resp="thomas" xml:id="c68104_0008.w.742589" lemmaRef="mnw.68104.sense.3">vorleden</w>
           <pc pos="PC" xml:id="c68104_0008.pc.floating.00296974" lemma=",">,</pc>
         </q>
       </cit>

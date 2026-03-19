@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.24588" lemma="LADEN" partition="train" sense-id="mnw.24588.sense.20" xml:id="c24588_0047">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c24588_0047">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.24588.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.24588</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.959">
           <w cert="1.0" lemma="dat+goed" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c24588_0047.w.18040">Tgoet</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c24588_0047.w.18041">was</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c24588_0047.w.18055">enen</w>
           <w cert="1.0" lemma="toren" pos="NOU-C(number=sg)" resp="roland" xml:id="c24588_0047.w.18056">torre</w>
           <w cert="1.0" lemma="vol" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c24588_0047.w.18057">vol</w>
-          <w cert="1.0" lemma="laden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.24588.sense.20" xml:id="c24588_0047.w.18058">loet</w>
+          <w cert="1.0" lemma="laden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c24588_0047.w.18058" lemmaRef="mnw.24588.sense.20">loet</w>
           <pc pos="PC" xml:id="c24588_0047.pc.floating.00007173" lemma=",">,</pc>
         </q>
       </cit>

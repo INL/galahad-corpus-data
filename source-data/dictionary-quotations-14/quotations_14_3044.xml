@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72306" lemma="WELWEET" partition="train" sense-id="mnw.72306.sense.2" xml:id="c72306_0001">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c72306_0001">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WELWEET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72306.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72306</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3044">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72306_0001.w.1585371">Ic</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72306_0001.w.1585372">ben</w>
           <w cert="1.0" lemma="zeker" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c72306_0001.w.1585373">seker</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c72306_0001.w.1585374">ende</w>
-          <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.72306.sense.2" xml:id="c72306_0001.w.1585375">wel</w>
-          <w cert="1.0" lemma="weten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.72306.sense.2" xml:id="c72306_0001.w.1585376">weet</w>
+          <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c72306_0001.w.1585375" lemmaRef="mnw.72306.sense.2">wel</w>
+          <w cert="1.0" lemma="weten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72306_0001.w.1585376" lemmaRef="mnw.72306.sense.2">weet</w>
           <pc pos="PC" xml:id="c72306_0001.pc.floating.00635421" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c72306_0001.w.1585378">dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72306_0001.w.1585379">u</w>

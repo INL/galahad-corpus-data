@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02939" lemma="BEJAGEN" partition="train" sense-id="mnw.02939.sense.21" xml:id="c02939_0091">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c02939_0091">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEJAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02939.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02939</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.124">
           <pc join="right" pos="PC" xml:id="c02939_0091.pc.pre.00215955" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c02939_0091.w.552650">Dat</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="vijand" pos="NOU-C(number=pl)" resp="roland" xml:id="c02939_0091.w.552653">viande</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c02939_0091.w.552654">soe</w>
           <w cert="1.0" lemma="veel" pos="ADV(type=reg)" resp="roland" xml:id="c02939_0091.w.552655">vele</w>
-          <w cert="1.0" lemma="bejagen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.02939.sense.21" xml:id="c02939_0091.w.552656">bejaghen</w>
+          <w cert="1.0" lemma="bejagen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c02939_0091.w.552656" lemmaRef="mnw.02939.sense.21">bejaghen</w>
           <pc pos="PC" xml:id="c02939_0091.pc.floating.00215957" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c02939_0091.w.552658">dat</w>
           <w cert="1.0" lemma="hij+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c02939_0091.w.552659">hijt</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39889" lemma="ORDENE" partition="train" sense-id="mnw.39889.sense.6" xml:id="c39889_0012">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c39889_0012">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ORDENE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39889.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39889</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1016">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c39889_0012.w.1262399">Si</w>
           <pc join="right" pos="PC" xml:id="c39889_0012.pc.pre.00503031" lemma="(">(</pc>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c39889_0012.w.1262418">ende</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c39889_0012.w.1262419">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c39889_0012.w.1262420">sine</w>
-          <w cert="1.0" lemma="orde" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.39889.sense.6" xml:id="c39889_0012.w.1262421">ordine</w>
+          <w cert="1.0" lemma="orde" pos="NOU-C(number=sg)" resp="roland" xml:id="c39889_0012.w.1262421" lemmaRef="mnw.39889.sense.6">ordine</w>
           <pc pos="PC" xml:id="c39889_0012.pc.floating.00503033" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c39889_0012.w.1262423">die</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c39889_0012.w.1262424">hi</w>

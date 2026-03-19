@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14403" lemma="GOEDELIKE" partition="train" sense-id="mnw.14403.sense.3" xml:id="c14403_0035">
-        <date atLeast="1437" atMost="1442" timeSpan="1400-1450" />
+      <cit xml:id="c14403_0035">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1442" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GOEDELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14403.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14403</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.373">
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c14403_0035.w.1466979">Om<join n="mw_90384" />
           </w>
@@ -54,7 +67,7 @@
           </w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c14403_0035.w.1466981">sy</w>
           <w cert="1.0" lemma="niet" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c14403_0035.w.1466982">niet</w>
-          <w cert="1.0" lemma="goedelijks" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.14403.sense.3" xml:id="c14403_0035.w.1466983">goedelicx</w>
+          <w cert="1.0" lemma="goedelijks" pos="ADV(type=reg)" resp="thomas" xml:id="c14403_0035.w.1466983" lemmaRef="mnw.14403.sense.3">goedelicx</w>
           <w cert="1.0" lemma="gekrijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c14403_0035.w.1466984">ghecrieghen</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c14403_0035.w.1466985">en</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c14403_0035.w.1466986">costen</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73484" lemma="WIJSHEIT" partition="train" sense-id="mnw.73484.sense.1" xml:id="c73484_0017">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c73484_0017">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WIJSHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73484.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73484</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3130">
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c73484_0017.w.1870879">God</w>
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c73484_0017.w.1870880">spreect</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73484_0017.w.1870885">den</w>
           <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" xml:id="c73484_0017.w.1870886">mont</w>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73484_0017.w.1870887">entie</w>
-          <w cert="1.0" lemma="wijsheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73484.sense.1" xml:id="c73484_0017.w.1870888">wijsheit</w>
+          <w cert="1.0" lemma="wijsheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c73484_0017.w.1870888" lemmaRef="mnw.73484.sense.1">wijsheit</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c73484_0017.w.1870889">ooc</w>
           <w cert="1.0" lemma="terstond" pos="ADV(type=reg)" resp="thomas" xml:id="c73484_0017.w.1870890">ter<join n="mw_385837" />
           </w>

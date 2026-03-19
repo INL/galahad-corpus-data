@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M000586" lemma="AANNAAIEN" modern-lemma="aannaaien" partition="train" pos="VRB" sense-id="M000586.bet.5" xml:id="M000586.eg.2280">
-        <date atLeast="1865" atMost="1865" timeSpan="1850-1900" />
+      <cit xml:id="M000586.eg.2280">
+        <note>
+          <ab>
+            <date atLeast="1865" atMost="1865" extent="1850-1900" />
+            <interpGrp type="lemma">
+              <interp>AANNAAIEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M000586.bet.5</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>aannaaien</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M000586</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.5">
           <w cert="1.0" lemma="meisje" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.247582">Meisjes</w>
           <pc pos="PC" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.pc.post.0071843" lemma=",">,</pc>
@@ -57,7 +76,7 @@
           <pc pos="PC" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.pc.post.0071844" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.247587">maar</w>
           <w cert="1.0" lemma="wat" pos="ADV(type=reg)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.247588">wat</w>
-          <w cert="1.0" lemma="aannaaien" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="M000586.bet.5" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.247589">aangenaaid</w>
+          <w cert="1.0" lemma="aannaaien" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.w.247589" lemmaRef="M000586.bet.5">aangenaaid</w>
           <pc pos="PC" xml:id="INT_61d45667-a367-4443-810e-be4ab62e85b2.pc.post.0071845" lemma="!">!</pc>
         </q>
       </cit>

@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02518" lemma="BEDIEDEN" partition="train" sense-id="mnw.02518.sense.16" xml:id="c02518_0051">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c02518_0051">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEDIEDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02518.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02518</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.104">
           <pc join="right" pos="PC" xml:id="c02518_0051.pc.pre.00179101" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c02518_0051.w.457015">Die</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c02518_0051.w.457016">worm</w>
           <pc pos="PC" xml:id="c02518_0051.pc.post.00179102" lemma=")">)</pc>
           <pc pos="PC" xml:id="c02518_0051.pc.floating.00179103" lemma="..">..</pc>
-          <w cert="1.0" lemma="beduiden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.02518.sense.16" xml:id="c02518_0051.w.457018">bediet</w>
+          <w cert="1.0" lemma="beduiden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02518_0051.w.457018" lemmaRef="mnw.02518.sense.16">bediet</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02518_0051.w.457019">der</w>
           <w cert="1.0" lemma="maagd" pos="NOU-C(number=sg)" resp="roland" xml:id="c02518_0051.w.457020">Maghede</w>
           <w cert="1.0" lemma="kind" pos="NOU-C(number=sg)" resp="roland" xml:id="c02518_0051.w.457021">kint</w>

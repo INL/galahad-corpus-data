@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06574" lemma="DIENSTCNECHT" partition="train" sense-id="mnw.06574.sense.1" xml:id="c06574_0002">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c06574_0002">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>DIENSTCNECHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06574.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06574</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.182">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c06574_0002.w.124532">Die</w>
           <w cert="1.0" lemma="vijfde" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c06574_0002.w.124533">vijfte</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c06574_0002.w.124537">dat</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c06574_0002.w.124538">sijn</w>
           <w cert="1.0" lemma="eigen" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c06574_0002.w.124539">eyghine</w>
-          <w cert="1.0" lemma="dienstknecht" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.06574.sense.1" xml:id="c06574_0002.w.124540">dienstknechte</w>
+          <w cert="1.0" lemma="dienstknecht" pos="NOU-C(number=pl)" resp="roland" xml:id="c06574_0002.w.124540" lemmaRef="mnw.06574.sense.1">dienstknechte</w>
           <pc pos="PC" xml:id="c06574_0002.pc.floating.00052205" lemma=",">,</pc>
         </q>
       </cit>

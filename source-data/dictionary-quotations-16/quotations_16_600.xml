@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M057920" lemma="REDEN" modern-lemma="reden" partition="test" pos="NOU-C" sense-id="M057920.bet.21" xml:id="M057920.eg.97292">
-        <date atLeast="1500" atMost="1533" timeSpan="1500-1550" />
+      <cit xml:id="M057920.eg.97292">
+        <note>
+          <ab>
+            <date atLeast="1500" atMost="1533" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>REDEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M057920.bet.21</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>reden</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M057920</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.600">
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.337043">Dus</w>
           <w cert="1.0" lemma="roepen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.337044">riep</w>
@@ -62,7 +81,7 @@
           <w cert="1.0" lemma="bedrieger" pos="NOU-C(number=sg)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.337052">bedrieghere</w>
           <pc pos="PC" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.floating.00106327" lemma="…:">…:</pc>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.337054">By</w>
-          <w cert="1.0" lemma="reden" pos="NOU-C(number=sg)" resp="roland" sense-id="M057920.bet.21" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.337055">redene</w>
+          <w cert="1.0" lemma="reden" pos="NOU-C(number=sg)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.337055" lemmaRef="M057920.bet.21">redene</w>
           <pc pos="PC" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.pc.post.00106328" lemma=",">,</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.337056">hy</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c123f452-ea66-4c47-aa4f-7efdbd25c6b6.w.337057">heeft</w>

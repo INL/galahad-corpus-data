@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56580" lemma="SWASENEDE" partition="train" sense-id="mnw.56580.sense.2" xml:id="c56580_0001">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c56580_0001">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SWASENEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56580.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56580</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2288">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c56580_0001.w.1869389">Ic</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c56580_0001.w.1869390">ben</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c56580_0001.w.1869402">de</w>
           <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="roland" xml:id="c56580_0001.w.1869403">moeder</w>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56580_0001.w.1869404">entie</w>
-          <w cert="1.0" lemma="zwazenede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.56580.sense.2" xml:id="c56580_0001.w.1869405">zwaesnede</w>
+          <w cert="1.0" lemma="zwazenede" pos="NOU-C(number=sg)" resp="roland" xml:id="c56580_0001.w.1869405" lemmaRef="mnw.56580.sense.2">zwaesnede</w>
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c56580_0001.w.1869406">jeghen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c56580_0001.w.1869407">die</w>
           <w cert="1.0" lemma="zweger" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56580_0001.w.1869408">zwegher</w>

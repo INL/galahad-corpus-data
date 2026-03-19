@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61368" lemma="VAREN" partition="dev" sense-id="mnw.61368.sense.44" xml:id="c61368_0293">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c61368_0293">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61368.sense.44</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61368</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1719">
           <w cert="1.0" lemma="ach" pos="INT" resp="thomas" xml:id="c61368_0293.w.938913">Ach</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c61368_0293.w.938914">goede</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c61368_0293.pc.post.00378783" lemma=",">,</pc>
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c61368_0293.w.938916">hoe</w>
           <w cert="1.0" lemma="zullen+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c61368_0293.w.938917">salic</w>
-          <w cert="1.0" lemma="varen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.61368.sense.44" xml:id="c61368_0293.w.938918">varen</w>
+          <w cert="1.0" lemma="varen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c61368_0293.w.938918" lemmaRef="mnw.61368.sense.44">varen</w>
           <pc join="right" pos="PC" xml:id="c61368_0293.pc.pre.00378784" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c61368_0293.w.938919">hoe</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c61368_0293.w.938920">zal</w>

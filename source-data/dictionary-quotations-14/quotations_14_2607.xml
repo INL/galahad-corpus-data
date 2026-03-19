@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63198" lemma="VERJONNEN" partition="train" sense-id="mnw.63198.sense.1" xml:id="c63198_0001">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c63198_0001">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERJONNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63198.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63198</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2607">
           <w cert="1.0" lemma="Mordred" pos="NOU-P" resp="roland" xml:id="c63198_0001.w.1389607">Mordret</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63198_0001.w.1389608">dede</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63198_0001.w.1389616">was</w>
           <pc pos="PC" xml:id="c63198_0001.pc.post.00556599" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63198_0001.w.1389617">ende</w>
-          <w cert="1.0" lemma="vergunnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.63198.sense.1" xml:id="c63198_0001.w.1389618">verjonde</w>
+          <w cert="1.0" lemma="vergunnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63198_0001.w.1389618" lemmaRef="mnw.63198.sense.1">verjonde</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c63198_0001.w.1389619">den</w>
           <w cert="1.0" lemma="oom" pos="NOU-C(number=sg)" resp="roland" xml:id="c63198_0001.w.1389620">oom</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63198_0001.w.1389621">das</w>

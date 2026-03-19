@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52147" lemma="SITTEN" partition="train" sense-id="mnw.52147.sense.2" xml:id="c52147_0015">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c52147_0015">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SITTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52147.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52147</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2097">
           <w cert="1.0" lemma="heten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c52147_0015.w.871008">Heet</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c52147_0015.w.871009">ende</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="kind" pos="NOU-C(number=pl)" resp="roland" xml:id="c52147_0015.w.871014">kinder</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=postnom)" resp="roland" xml:id="c52147_0015.w.871015">mijn</w>
           <w cert="1.0" lemma="de+een" pos="PD(type=d-p,subtype=art,position=prenom)+NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c52147_0015.w.871016">deen</w>
-          <w cert="1.0" lemma="zitten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.52147.sense.2" xml:id="c52147_0015.w.871017">sid</w>
+          <w cert="1.0" lemma="zitten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c52147_0015.w.871017" lemmaRef="mnw.52147.sense.2">sid</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c52147_0015.w.871018">ter</w>
           <w cert="1.0" lemma="rechter" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c52147_0015.w.871019">rechter</w>
           <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" xml:id="c52147_0015.w.871020">hant</w>

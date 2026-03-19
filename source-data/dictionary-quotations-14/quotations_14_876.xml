@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22118" lemma="CLOTEN" partition="train" sense-id="mnw.22118.sense.3" xml:id="c22118_0004">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c22118_0004">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CLOTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22118.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22118</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.876">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c22118_0004.w.1096287">Van</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c22118_0004.w.1096288">desen</w>
@@ -58,7 +71,7 @@
           </w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22118_0004.w.1096293">ende</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c22118_0004.w.1096294">te</w>
-          <w cert="1.0" lemma="kloten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.22118.sense.3" xml:id="c22118_0004.w.1096295">cloten</w>
+          <w cert="1.0" lemma="kloten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c22118_0004.w.1096295" lemmaRef="mnw.22118.sense.3">cloten</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c22118_0004.w.1096296">op</w>
           <w cert="1.0" lemma="Middelburg" pos="NOU-P" resp="roland" xml:id="c22118_0004.w.1096297">Middelburch</w>
           <pc pos="PC" xml:id="c22118_0004.pc.post.00442442" lemma=",">,</pc>

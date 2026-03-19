@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04073" lemma="BETROUWENESSE" partition="train" sense-id="mnw.04073.sense.1" xml:id="c04073_0002">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c04073_0002">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BETROUWENESSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04073.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04073</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.127">
           <pc join="right" pos="PC" xml:id="c04073_0002.pc.pre.00325163" lemma="(">(</pc>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c04073_0002.w.831792">Al</w>
@@ -68,7 +81,7 @@
           <pc pos="PC" xml:id="c04073_0002.pc.post.00325166" lemma=".">.</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c04073_0002.w.831806">Met</w>
           <w cert="1.0" lemma="dusdanig" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c04073_0002.w.831807">dusdanigher</w>
-          <w cert="1.0" lemma="betrouwenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.04073.sense.1" xml:id="c04073_0002.w.831808">betrouwenessen</w>
+          <w cert="1.0" lemma="betrouwenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c04073_0002.w.831808" lemmaRef="mnw.04073.sense.1">betrouwenessen</w>
           <w cert="1.0" lemma="brengen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c04073_0002.w.831809">brocht</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c04073_0002.w.831810">hi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c04073_0002.w.831811">die</w>

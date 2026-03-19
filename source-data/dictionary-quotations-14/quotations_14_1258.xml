@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30490" lemma="MOGENTHEIT" partition="train" sense-id="mnw.30490.sense.2" xml:id="c30490_0001">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c30490_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOGENTHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30490.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30490</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1258">
           <w cert="1.0" lemma="daarom" pos="ADV(type=pron)" resp="thomas" xml:id="c30490_0001.w.1265664">Daer<join n="mw_787283" />
           </w>
@@ -54,7 +67,7 @@
           </w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30490_0001.w.1265666">des</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c30490_0001.w.1265667">mans</w>
-          <w cert="1.0" lemma="mogendheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30490.sense.2" xml:id="c30490_0001.w.1265668">mogenthede</w>
+          <w cert="1.0" lemma="mogendheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c30490_0001.w.1265668" lemmaRef="mnw.30490.sense.2">mogenthede</w>
           <pc pos="PC" xml:id="c30490_0001.pc.floating.00497172" lemma="…">…</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30490_0001.w.1265670">si</w>
           <w cert="1.0" lemma="vergeten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30490_0001.w.1265671">vergeet</w>

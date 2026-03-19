@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11457" lemma="GELATEN" partition="train" sense-id="mnw.11457.sense.20" xml:id="c11457_0085">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c11457_0085">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GELATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11457.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11457</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.287">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c11457_0085.w.880609">Hoe</w>
           <w cert="1.0" lemma="Amand" pos="NOU-P" resp="roland" xml:id="c11457_0085.w.880610">Amands</w>
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="roland" xml:id="c11457_0085.w.880611">vadere</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c11457_0085.w.880612">hem</w>
-          <w cert="1.0" lemma="gelaten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.11457.sense.20" xml:id="c11457_0085.w.880613">gheliet</w>
+          <w cert="1.0" lemma="gelaten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c11457_0085.w.880613" lemmaRef="mnw.11457.sense.20">gheliet</w>
           <pc pos="PC" xml:id="c11457_0085.pc.floating.00374634" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c11457_0085.w.880615">als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c11457_0085.w.880616">hem</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13963" lemma="GEWINNEN" partition="train" sense-id="mnw.13963.sense.23" xml:id="c13963_0143">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c13963_0143">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEWINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13963.sense.23</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13963</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.615">
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c13963_0143.w.1392082">Niemene</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c13963_0143.w.1392083">en</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="levende" pos="NOU-C(number=pl)" resp="thomas" xml:id="c13963_0143.w.1392087">levenden</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c13963_0143.w.1392088">vanden</w>
           <w cert="1.0" lemma="dode" pos="NOU-C(number=pl)" resp="roland" xml:id="c13963_0143.w.1392089">doden</w>
-          <w cert="1.0" lemma="gewinnen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.13963.sense.23" xml:id="c13963_0143.w.1392090">gewinnen</w>
+          <w cert="1.0" lemma="gewinnen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c13963_0143.w.1392090" lemmaRef="mnw.13963.sense.23">gewinnen</w>
           <pc pos="PC" xml:id="c13963_0143.pc.floating.00582247" lemma=",">,</pc>
         </q>
       </cit>

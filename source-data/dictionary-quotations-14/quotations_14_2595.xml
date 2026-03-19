@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63075" lemma="VERHITTEN" partition="test" sense-id="mnw.63075.sense.15" xml:id="c63075_0013">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c63075_0013">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERHITTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63075.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63075</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2595">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c63075_0013.w.1357866">Als</w>
-          <w cert="1.0" lemma="verhitten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.63075.sense.15" xml:id="c63075_0013.w.1357867">verhit</w>
+          <w cert="1.0" lemma="verhitten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63075_0013.w.1357867" lemmaRef="mnw.63075.sense.15">verhit</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c63075_0013.w.1357868">des</w>
           <w cert="1.0" lemma="zomer" pos="NOU-C(number=sg)" resp="roland" xml:id="c63075_0013.w.1357869">somers</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c63075_0013.w.1357870">nature</w>

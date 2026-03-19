@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47764" lemma="SACHTE" partition="train" sense-id="mnw.47764.sense.9" xml:id="c47764_0054">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c47764_0054">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SACHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47764.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47764</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1234">
           <w cert="1.0" lemma="Maria" pos="NOU-P" resp="roland" xml:id="c47764_0054.w.7613">Maria</w>
           <w cert="1.0" lemma="liggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c47764_0054.w.7614">lach</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c47764_0054.pc.post.00003202" lemma=")">)</pc>
           <w cert="1.0" lemma="zoet" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c47764_0054.w.7618">soete</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c47764_0054.w.7619">ende</w>
-          <w cert="1.0" lemma="zacht" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.47764.sense.9" xml:id="c47764_0054.w.7620">saechte</w>
+          <w cert="1.0" lemma="zacht" pos="ADV(type=reg)" resp="thomas" xml:id="c47764_0054.w.7620" lemmaRef="mnw.47764.sense.9">saechte</w>
           <w cert="1.0" lemma="veertig" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c47764_0054.w.7621">XL</w>
           <w cert="1.0" lemma="dag" pos="NOU-C(number=pl)" resp="roland" xml:id="c47764_0054.w.7622">daghe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c47764_0054.w.7623">ende</w>

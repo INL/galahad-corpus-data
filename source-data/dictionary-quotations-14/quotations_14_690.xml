@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16000" lemma="HAVENE" partition="train" sense-id="mnw.16000.sense.1" xml:id="c16000_0016">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c16000_0016">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HAVENE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16000.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16000</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.690">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c16000_0016.w.129197">Doe</w>
           <w cert="1.0" lemma="Arthur" pos="NOU-P" resp="roland" xml:id="c16000_0016.w.129198">Artur</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c16000_0016.w.129199">hadde</w>
-          <w cert="1.0" lemma="haven" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.16000.sense.1" xml:id="c16000_0016.w.129200">havene</w>
+          <w cert="1.0" lemma="haven" pos="NOU-C(number=sg)" resp="roland" xml:id="c16000_0016.w.129200" lemmaRef="mnw.16000.sense.1">havene</w>
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c16000_0016.w.129201">genomen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c16000_0016.w.129202">ende</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c16000_0016.w.129203">sijn</w>

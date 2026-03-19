@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02011" lemma="AWECH" partition="train" sense-id="mnw.02011.sense.1" xml:id="c02011_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c02011_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>AWECH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02011.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02011</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.55">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02011_0000.w.363158">De</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c02011_0000.w.363159">nature</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="ellende" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02011_0000.w.363172">ellende</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c02011_0000.w.363173">ende</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c02011_0000.w.363174">een</w>
-          <w cert="1.0" lemma="aweg" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.02011.sense.1" xml:id="c02011_0000.w.363175">awech</w>
+          <w cert="1.0" lemma="aweg" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02011_0000.w.363175" lemmaRef="mnw.02011.sense.1">awech</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c02011_0000.w.363176">ende</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c02011_0000.w.363177">een</w>
           <w cert="1.0" lemma="verdolen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02011_0000.w.363178">verdolen</w>

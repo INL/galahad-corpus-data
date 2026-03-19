@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19054" lemma="INDE" partition="train" sense-id="mnw.19054.sense.1" xml:id="c19054_0000">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c19054_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>INDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19054.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19054</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.782">
           <w cert="1.0" lemma="gerechtigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c19054_0000.w.587416">Gherechtecheit</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c19054_0000.w.587417">gaet</w>
-          <w cert="1.0" lemma="te+einde" pos="ADP(type=pre)+NOU-C(number=sg)" resp="roland" sense-id="mnw.19054.sense.1" xml:id="c19054_0000.w.587418">tinden</w>
+          <w cert="1.0" lemma="te+einde" pos="ADP(type=pre)+NOU-C(number=sg)" resp="roland" xml:id="c19054_0000.w.587418" lemmaRef="mnw.19054.sense.1">tinden</w>
           <pc join="right" pos="PC" xml:id="c19054_0000.pc.pre.00240007" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c19054_0000.w.587419">loopt</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c19054_0000.w.587420">op</w>

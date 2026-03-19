@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33603" lemma="OMMEGANC" partition="train" sense-id="mnw.33603.sense.26" xml:id="c33603_0062">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c33603_0062">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OMMEGANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33603.sense.26</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33603</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.843">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33603_0062.w.88973">Si</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c33603_0062.w.88974">hadden</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c33603_0062.w.88978">al</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c33603_0062.w.88979">der</w>
           <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c33603_0062.w.88980">weerelt</w>
-          <w cert="1.0" lemma="omgang" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.33603.sense.26" xml:id="c33603_0062.w.88981">ommeganc</w>
+          <w cert="1.0" lemma="omgang" pos="NOU-C(number=sg)" resp="thomas" xml:id="c33603_0062.w.88981" lemmaRef="mnw.33603.sense.26">ommeganc</w>
           <pc join="right" pos="PC" xml:id="c33603_0062.pc.pre.00036669" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c33603_0062.w.88982">den</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c33603_0062.w.88983">geheelen</w>

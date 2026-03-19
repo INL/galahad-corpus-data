@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04490" lemma="BISPEL" partition="train" sense-id="mnw.04490.sense.8" xml:id="c04490_0020">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c04490_0020">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BISPEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04490.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04490</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.223">
           <w cert="1.0" lemma="Architan" pos="NOU-P" resp="roland" xml:id="c04490_0020.w.908435">Architan</w>
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c04490_0020.w.908436">spreect</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c04490_0020.w.908437">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c04490_0020.w.908438">sijn</w>
-          <w cert="1.0" lemma="bijspel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.04490.sense.8" xml:id="c04490_0020.w.908439">bispel</w>
+          <w cert="1.0" lemma="bijspel" pos="NOU-C(number=sg)" resp="roland" xml:id="c04490_0020.w.908439" lemmaRef="mnw.04490.sense.8">bispel</w>
           <pc pos="PC" xml:id="c04490_0020.pc.floating.00356996" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c04490_0020.w.908441">dat</w>
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c04490_0020.w.908442">enghene</w>

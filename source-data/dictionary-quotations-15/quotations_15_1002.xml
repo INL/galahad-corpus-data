@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39646" lemma="OPSET" partition="train" sense-id="mnw.39646.sense.2" xml:id="c39646_0013">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c39646_0013">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OPSET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39646.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39646</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1002">
           <w cert="1.0" lemma="toezien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c39646_0013.w.1195362">Sich<join n="mw_596339" />
           </w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="gewoonlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c39646_0013.w.1195368">ghewoonlike</w>
           <w cert="1.0" lemma="gebed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c39646_0013.w.1195369">ghebet</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c39646_0013.w.1195370">ende</w>
-          <w cert="1.0" lemma="opzet" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.39646.sense.2" xml:id="c39646_0013.w.1195371">opsette</w>
+          <w cert="1.0" lemma="opzet" pos="NOU-C(number=sg)" resp="roland" xml:id="c39646_0013.w.1195371" lemmaRef="mnw.39646.sense.2">opsette</w>
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c39646_0013.w.1195372">di</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c39646_0013.w.1195373">niet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c39646_0013.w.1195374">en</w>

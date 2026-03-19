@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11767" lemma="GEMAELDE" partition="train" sense-id="mnw.11767.sense.1" xml:id="c11767_0001">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c11767_0001">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEMAELDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11767.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11767</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.487">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c11767_0001.w.958470">Es</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c11767_0001.w.958471">oec</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c11767_0001.w.958472">dat</w>
-          <w cert="1.0" lemma="gemaalde" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.11767.sense.1" xml:id="c11767_0001.w.958473">gemaelte</w>
+          <w cert="1.0" lemma="gemaalde" pos="NOU-C(number=sg)" resp="roland" xml:id="c11767_0001.w.958473" lemmaRef="mnw.11767.sense.1">gemaelte</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c11767_0001.w.958474">gemaect</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c11767_0001.w.958475">alse</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11767_0001.w.958476">der</w>

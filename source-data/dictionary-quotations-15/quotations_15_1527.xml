@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55571" lemma="STOPPEN" partition="train" sense-id="mnw.55571.sense.10" xml:id="c55571_0046">
-        <date atLeast="1407" atMost="1408" timeSpan="1400-1450" />
+      <cit xml:id="c55571_0046">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1408" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STOPPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55571.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55571</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1527">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c55571_0046.w.1657932">Eynen</w>
           <w cert="1.0" lemma="ketelboeter" pos="NOU-C(number=sg)" resp="thomas" xml:id="c55571_0046.w.1657933">ketelbueter</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c55571_0046.w.1657937">ende</w>
           <w cert="1.0" lemma="pot" pos="NOU-C(number=pl)" resp="roland" xml:id="c55571_0046.w.1657938">potte</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c55571_0046.w.1657939">te</w>
-          <w cert="1.0" lemma="stoppen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.55571.sense.10" xml:id="c55571_0046.w.1657940">stoppen</w>
+          <w cert="1.0" lemma="stoppen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c55571_0046.w.1657940" lemmaRef="mnw.55571.sense.10">stoppen</w>
           <pc pos="PC" xml:id="c55571_0046.pc.floating.00684874" lemma=",">,</pc>
         </q>
       </cit>

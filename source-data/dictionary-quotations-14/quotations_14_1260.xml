@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30538" lemma="MOLENE" partition="train" sense-id="mnw.30538.sense.1" xml:id="c30538_0030">
-        <date atLeast="1346" atMost="1349" timeSpan="1300-1350" />
+      <cit xml:id="c30538_0030">
+        <note>
+          <ab>
+            <date atLeast="1346" atMost="1349" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MOLENE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30538.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30538</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1260">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c30538_0030.w.1273520">Item</w>
           <w cert="1.0" lemma="ontvangen+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c30538_0030.w.1273521">ontfingsij</w>
@@ -79,7 +92,7 @@
           <w cert="1.0" lemma="week" pos="NOU-C(number=pl)" resp="roland" xml:id="c30538_0030.w.1273543">weken</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c30538_0030.w.1273544">dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c30538_0030.w.1273545">de</w>
-          <w cert="1.0" lemma="molen" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.30538.sense.1" xml:id="c30538_0030.w.1273546">molnen</w>
+          <w cert="1.0" lemma="molen" pos="NOU-C(number=pl)" resp="roland" xml:id="c30538_0030.w.1273546" lemmaRef="mnw.30538.sense.1">molnen</w>
           <w cert="1.0" lemma="stil" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c30538_0030.w.1273547">stille</w>
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c30538_0030.w.1273548">stonden</w>
           <pc pos="PC" xml:id="c30538_0030.pc.floating.00500294" lemma="…,">…,</pc>

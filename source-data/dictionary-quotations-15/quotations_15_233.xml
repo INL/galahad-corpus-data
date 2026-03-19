@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08777" lemma="EMPIRANCE" partition="train" sense-id="mnw.08777.sense.1" xml:id="c08777_0000">
-        <date atLeast="1468" atMost="1497" timeSpan="1450-1500" />
+      <cit xml:id="c08777_0000">
+        <note>
+          <ab>
+            <date atLeast="1468" atMost="1497" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>EMPIRANCE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08777.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08777</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.233">
           <w cert="1.0" lemma="divers" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c08777_0000.w.468915">Diversschen</w>
           <w cert="1.0" lemma="essayeur" pos="NOU-C(number=pl)" resp="roland" xml:id="c08777_0000.w.468916">assayeurs</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c08777_0000.w.468924">hebben</w>
           <pc pos="PC" xml:id="c08777_0000.pc.floating.00202946" lemma="..">..</pc>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c08777_0000.w.468926">omme</w>
-          <w cert="1.0" lemma="de+empirance" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.08777.sense.1" xml:id="c08777_0000.w.468927">dempirancen</w>
+          <w cert="1.0" lemma="de+empirance" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c08777_0000.w.468927" lemmaRef="mnw.08777.sense.1">dempirancen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c08777_0000.w.468928">te</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c08777_0000.w.468929">makene</w>
           <pc join="right" pos="PC" xml:id="c08777_0000.pc.pre.00202947" lemma="(">(</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44139" lemma="PROFITEREN" partition="train" sense-id="mnw.44139.sense.1" xml:id="c44139_0000">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c44139_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PROFITEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44139.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44139</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1129">
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c44139_0000.w.513624">Laet</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c44139_0000.w.513625">den</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c44139_0000.w.513635">mach</w>
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c44139_0000.w.513636">di</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c44139_0000.w.513637">niet</w>
-          <w cert="1.0" lemma="profiteren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.44139.sense.1" xml:id="c44139_0000.w.513638">profiteren</w>
+          <w cert="1.0" lemma="profiteren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c44139_0000.w.513638" lemmaRef="mnw.44139.sense.1">profiteren</w>
           <pc pos="PC" xml:id="c44139_0000.pc.floating.00201741" lemma=",">,</pc>
         </q>
       </cit>

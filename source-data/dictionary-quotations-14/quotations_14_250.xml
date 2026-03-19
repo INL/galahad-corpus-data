@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05684" lemma="BUGGLE" partition="train" sense-id="mnw.05684.sense.1" xml:id="c05684_0001">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c05684_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BUGGLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05684.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05684</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.250">
           <w cert="1.0" lemma="cortex" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05684_0001.w.1056845">Cortex</w>
-          <w cert="1.0" lemma="bugel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05684.sense.1" xml:id="c05684_0001.w.1056846">buggle</w>
+          <w cert="1.0" lemma="bugel" pos="NOU-C(number=sg)" resp="roland" xml:id="c05684_0001.w.1056846" lemmaRef="mnw.05684.sense.1">buggle</w>
           <pc pos="PC" xml:id="c05684_0001.pc.floating.00419793" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c05684_0001.w.1056848">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c05684_0001.w.1056849">es</w>

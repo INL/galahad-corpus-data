@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54717" lemma="STARC" partition="train" sense-id="mnw.54717.sense.25" xml:id="c54717_0109">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c54717_0109">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STARC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54717.sense.25</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54717</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2208">
           <pc join="right" pos="PC" xml:id="c54717_0109.pc.pre.00604875" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c54717_0109.w.1461108">Hi</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="neven" pos="ADP(type=pre)" resp="thomas" xml:id="c54717_0109.w.1461114">neven</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c54717_0109.w.1461115">een</w>
           <w cert="1.0" lemma="water" pos="NOU-C(number=sg)" resp="roland" xml:id="c54717_0109.w.1461116">water</w>
-          <w cert="1.0" lemma="sterk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.54717.sense.25" xml:id="c54717_0109.w.1461117">sterc</w>
+          <w cert="1.0" lemma="sterk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c54717_0109.w.1461117" lemmaRef="mnw.54717.sense.25">sterc</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c54717_0109.w.1461118">ende</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c54717_0109.w.1461119">groot</w>
           <pc pos="PC" xml:id="c54717_0109.pc.post.00604877" lemma=",">,</pc>

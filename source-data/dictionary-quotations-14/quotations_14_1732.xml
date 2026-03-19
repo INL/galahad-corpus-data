@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42489" lemma="PESE" partition="test" sense-id="mnw.42489.sense.2" xml:id="c42489_0005">
-        <date atLeast="1373" atMost="1376" timeSpan="1350-1400" />
+      <cit xml:id="c42489_0005">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1376" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PESE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42489.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42489</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1732">
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c42489_0005.w.205306">Vor</w>
           <w cert="1.0" lemma="armborst" pos="NOU-C(number=pl)" resp="roland" xml:id="c42489_0005.w.205307">armborste</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="verderven" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c42489_0005.w.205314">verderft</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c42489_0005.w.205315">weren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42489_0005.w.205316">ende</w>
-          <w cert="1.0" lemma="pees" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.42489.sense.2" xml:id="c42489_0005.w.205317">pesen</w>
+          <w cert="1.0" lemma="pees" pos="NOU-C(number=pl)" resp="roland" xml:id="c42489_0005.w.205317" lemmaRef="mnw.42489.sense.2">pesen</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c42489_0005.w.205318">die</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c42489_0005.w.205319">hi</w>
           <w cert="1.0" lemma="vermaken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c42489_0005.w.205320">vermaket</w>

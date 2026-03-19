@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44059" lemma="PRISEN" partition="train" sense-id="mnw.44059.sense.12" xml:id="c44059_0081">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c44059_0081">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PRISEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44059.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44059</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1123">
           <pc join="right" pos="PC" xml:id="c44059_0081.pc.pre.00193542" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c44059_0081.w.492256">Hi</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="manier" pos="NOU-C(number=pl)" resp="roland" xml:id="c44059_0081.w.492261">manieren</w>
           <pc pos="PC" xml:id="c44059_0081.pc.post.00193544" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c44059_0081.w.492262">die</w>
-          <w cert="1.0" lemma="prijzen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.44059.sense.12" xml:id="c44059_0081.w.492263">gheprijst</w>
+          <w cert="1.0" lemma="prijzen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c44059_0081.w.492263" lemmaRef="mnw.44059.sense.12">gheprijst</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c44059_0081.w.492264">van</w>
           <w cert="1.0" lemma="beding" pos="NOU-C(number=pl)" resp="roland" xml:id="c44059_0081.w.492265">bedinghen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c44059_0081.w.492266">sijn</w>

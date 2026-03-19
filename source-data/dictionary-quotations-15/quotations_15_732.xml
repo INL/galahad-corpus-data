@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29440" lemma="METAELSCH" partition="train" sense-id="mnw.29440.sense.1" xml:id="c29440_0001">
-        <date atLeast="1490" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c29440_0001">
+        <note>
+          <ab>
+            <date atLeast="1490" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>METAELSCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29440.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29440</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.732">
           <w cert="1.0" lemma="verlossen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c29440_0001.w.1028672">Verlosse</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29440_0001.w.1028673">vander</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c29440_0001.w.1028677">die</w>
           <w cert="1.0" lemma="tebreken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c29440_0001.w.1028678">tebraecste</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29440_0001.w.1028679">die</w>
-          <w cert="1.0" lemma="metaals" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.29440.sense.1" xml:id="c29440_0001.w.1028680">metaelsche</w>
+          <w cert="1.0" lemma="metaals" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c29440_0001.w.1028680" lemmaRef="mnw.29440.sense.1">metaelsche</w>
           <w cert="1.0" lemma="poort" pos="NOU-C(number=pl)" resp="roland" xml:id="c29440_0001.w.1028681">poorten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c29440_0001.w.1028682">ende</w>
           <w cert="1.0" lemma="vanden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c29440_0001.w.1028683">vandeste</w>

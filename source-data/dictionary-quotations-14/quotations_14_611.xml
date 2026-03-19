@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13835" lemma="GEWELDICHEIT" partition="train" sense-id="mnw.13835.sense.1" xml:id="c13835_0001">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c13835_0001">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEWELDICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13835.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13835</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.611">
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c13835_0001.w.1364660">God</w>
           <w cert="1.0" lemma="Heer" pos="NOU-P" resp="roland" xml:id="c13835_0001.w.1364661">here</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c13835_0001.w.1364663">door</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c13835_0001.w.1364664">uwe</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c13835_0001.w.1364665">grote</w>
-          <w cert="1.0" lemma="geweldigheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.13835.sense.1" xml:id="c13835_0001.w.1364666">gheweldicheit</w>
+          <w cert="1.0" lemma="geweldigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c13835_0001.w.1364666" lemmaRef="mnw.13835.sense.1">gheweldicheit</w>
           <pc pos="PC" xml:id="c13835_0001.pc.floating.00570931" lemma=",">,</pc>
           <w cert="1.0" lemma="troosten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c13835_0001.w.1364668">troost</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c13835_0001.w.1364669">mi</w>

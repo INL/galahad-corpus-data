@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28277" lemma="MATE" partition="train" sense-id="mnw.28277.sense.20" xml:id="c28277_0116">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c28277_0116">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MATE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28277.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28277</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.698">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c28277_0116.w.831407">Die</w>
           <w cert="1.0" lemma="dienst" pos="NOU-C(number=sg)" resp="thomas" xml:id="c28277_0116.w.831408">dienst</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="thomas" xml:id="c28277_0116.w.831417">minne</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c28277_0116.w.831418">es</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c28277_0116.w.831419">sonder</w>
-          <w cert="1.0" lemma="maat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28277.sense.20" xml:id="c28277_0116.w.831420">mate</w>
+          <w cert="1.0" lemma="maat" pos="NOU-C(number=sg)" resp="roland" xml:id="c28277_0116.w.831420" lemmaRef="mnw.28277.sense.20">mate</w>
           <w cert="1.0" lemma="allermeest" pos="AA(degree=sup,position=free)" resp="thomas" xml:id="c28277_0116.w.831421">alremeest</w>
           <pc pos="PC" xml:id="c28277_0116.pc.post.00322437" lemma=",">,</pc>
         </q>

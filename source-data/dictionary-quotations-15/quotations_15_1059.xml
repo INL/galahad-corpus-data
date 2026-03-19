@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41066" lemma="OVERTIEN" partition="train" sense-id="mnw.41066.sense.3" xml:id="c41066_0004">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c41066_0004">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OVERTIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41066.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41066</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1059">
           <pc pos="PC" xml:id="c41066_0004.pc.floating.00598450" lemma="—">—</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c41066_0004.w.1505081">Hi</w>
@@ -78,7 +91,7 @@
           <w cert="1.0" lemma="hertog" pos="NOU-C(number=sg)" resp="roland" xml:id="c41066_0004.w.1505102">hertoghe</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c41066_0004.w.1505103">metten</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c41066_0004.w.1505104">sinen</w>
-          <w cert="1.0" lemma="overtoog" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41066.sense.3" xml:id="c41066_0004.w.1505105">overtoghe</w>
+          <w cert="1.0" lemma="overtoog" pos="NOU-C(number=sg)" resp="roland" xml:id="c41066_0004.w.1505105" lemmaRef="mnw.41066.sense.3">overtoghe</w>
           <pc join="right" pos="PC" xml:id="c41066_0004.pc.pre.00598452" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c41066_0004.w.1505106">in</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41066_0004.w.1505107">aantocht</w>

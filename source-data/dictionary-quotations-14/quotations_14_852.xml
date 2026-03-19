@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21274" lemma="KERMEN" partition="train" sense-id="mnw.21274.sense.1" xml:id="c21274_0003">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c21274_0003">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KERMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21274.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21274</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.852">
           <w cert="1.0" lemma="daar+het" pos="ADV(type=reg)+PD(type=pers,position=free)" resp="thomas" xml:id="c21274_0003.w.946184">Daert</w>
           <w cert="1.0" lemma="woest" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c21274_0003.w.946185">woeste</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c21274_0003.w.946188">goet</w>
           <w cert="1.0" lemma="wenen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21274_0003.w.946189">wenen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21274_0003.w.946190">ende</w>
-          <w cert="1.0" lemma="kermen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.21274.sense.1" xml:id="c21274_0003.w.946191">carmen</w>
+          <w cert="1.0" lemma="kermen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21274_0003.w.946191" lemmaRef="mnw.21274.sense.1">carmen</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c21274_0003.w.946192">dede</w>
           <pc pos="PC" xml:id="c21274_0003.pc.post.00382200" lemma=",">,</pc>
         </q>

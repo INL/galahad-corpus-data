@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M087733" lemma="ZAAK" modern-lemma="zaak" partition="train" pos="NOU-C" sense-id="M087733.bet.325" xml:id="M087733.eg.6648">
-        <date atLeast="1566" atMost="1599" timeSpan="1550-1600" />
+      <cit xml:id="M087733.eg.6648">
+        <note>
+          <ab>
+            <date atLeast="1566" atMost="1599" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>ZAAK</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M087733.bet.325</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>zaak</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M087733</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1761">
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1429913">Siet</w>
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1429914">wat</w>
@@ -80,7 +99,7 @@
           <w cert="1.0" lemma="verzetten" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1429938">versetten</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1429939">voor</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1429940">alle</w>
-          <w cert="1.0" lemma="zaak" pos="NOU-C(number=pl)" resp="roland" sense-id="M087733.bet.325" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1429941">saecken</w>
+          <w cert="1.0" lemma="zaak" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1429941" lemmaRef="M087733.bet.325">saecken</w>
           <pc pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00465741" lemma=",">,</pc>
         </q>
       </cit>

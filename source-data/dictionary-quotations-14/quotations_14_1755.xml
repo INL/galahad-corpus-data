@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43046" lemma="PLEGEN" partition="train" sense-id="mnw.43046.sense.63" xml:id="c43046_0395">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c43046_0395">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PLEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43046.sense.63</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1755">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c43046_0395.w.314258">Die</w>
           <w cert="1.0" lemma="dief" pos="NOU-C(number=pl)" resp="roland" xml:id="c43046_0395.w.314259">dieve</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="roven" pos="NOU-C(number=sg)" resp="roland" xml:id="c43046_0395.w.314262">rovens</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c43046_0395.w.314263">ende</w>
           <w cert="1.0" lemma="moorden" pos="NOU-C(number=sg)" resp="roland" xml:id="c43046_0395.w.314264">moordens</w>
-          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.43046.sense.63" xml:id="c43046_0395.w.314265">plaghen</w>
+          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43046_0395.w.314265" lemmaRef="mnw.43046.sense.63">plaghen</w>
           <pc pos="PC" xml:id="c43046_0395.pc.floating.00122632" lemma=",">,</pc>
         </q>
       </cit>

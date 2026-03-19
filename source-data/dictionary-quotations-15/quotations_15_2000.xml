@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67313" lemma="VOLDENKEN" partition="train" sense-id="mnw.67313.sense.1" xml:id="c67313_0006">
-        <date atLeast="1478" atMost="1478" timeSpan="1450-1500" />
+      <cit xml:id="c67313_0006">
+        <note>
+          <ab>
+            <date atLeast="1478" atMost="1478" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VOLDENKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67313.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67313</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2000">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c67313_0006.w.587136">Hoe</w>
           <w cert="1.0" lemma="zalig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c67313_0006.w.587137">salich</w>
@@ -68,7 +81,7 @@
           </w>
           <w cert="1.0" lemma="mensenhart" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67313_0006.w.587152">herte<join n="mw_897377" />
           </w>
-          <w cert="1.0" lemma="voldenken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.67313.sense.1" xml:id="c67313_0006.w.587153">voldencken</w>
+          <w cert="1.0" lemma="voldenken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c67313_0006.w.587153" lemmaRef="mnw.67313.sense.1">voldencken</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c67313_0006.w.587154">noch</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c67313_0006.w.587155">geen</w>
           <w cert="1.0" lemma="tong" pos="NOU-C(number=sg)" resp="roland" xml:id="c67313_0006.w.587156">tonge</w>

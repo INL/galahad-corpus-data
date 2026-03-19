@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01140" lemma="AL" partition="train" sense-id="mnw.01140.sense.91" xml:id="c01140_0495">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c01140_0495">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>AL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01140.sense.91</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01140</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.44">
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c01140_0495.w.229449">Over</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c01140_0495.w.229450">die</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="roland" xml:id="c01140_0495.w.229456">wel</w>
           <w cert="1.0" lemma="geschapen" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c01140_0495.w.229457">gescepen</w>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c01140_0495.w.229458">over</w>
-          <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" sense-id="mnw.01140.sense.91" xml:id="c01140_0495.w.229459">al</w>
+          <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c01140_0495.w.229459" lemmaRef="mnw.01140.sense.91">al</w>
           <pc pos="PC" xml:id="c01140_0495.pc.floating.00090422" lemma=",">,</pc>
         </q>
       </cit>

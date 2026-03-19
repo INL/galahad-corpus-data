@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M008041" lemma="BETUIGEN" modern-lemma="betuigen" partition="train" pos="VRB" sense-id="M008041.bet.9" xml:id="M008041.eg.28325">
-        <date atLeast="1625" atMost="1625" timeSpan="1600-1650" />
+      <cit xml:id="M008041.eg.28325">
+        <note>
+          <ab>
+            <date atLeast="1625" atMost="1625" extent="1600-1650" />
+            <interpGrp type="lemma">
+              <interp>BETUIGEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M008041.bet.9</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>betuigen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M008041</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.164">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.102292">Ick</w>
           <w cert="1.0" lemma="knielen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.102293">kniel</w>
@@ -58,7 +77,7 @@
           <pc pos="PC" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.pc.post.0033765" lemma="'">'</pc>
           <w cert="1.0" lemma="daad" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.102298">daeden</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.102299">dat</w>
-          <w cert="1.0" lemma="betuigen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="M008041.bet.9" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.102300">betuygen</w>
+          <w cert="1.0" lemma="betuigen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.w.102300" lemmaRef="M008041.bet.9">betuygen</w>
           <pc pos="PC" xml:id="INT_37f088e4-22a8-4fc7-984e-dbc213b8ea96.pc.post.0033766" lemma=",">,</pc>
         </q>
       </cit>

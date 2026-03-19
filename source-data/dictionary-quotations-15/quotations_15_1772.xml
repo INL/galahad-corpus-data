@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62522" lemma="VERDOVEN" partition="train" sense-id="mnw.62522.sense.3" xml:id="c62522_0014">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c62522_0014">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERDOVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62522.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62522</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1772">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62522_0014.w.1211519">Si</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62522_0014.w.1211520">hadde</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="penning" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62522_0014.w.1211528">penninc</w>
           <pc pos="PC" xml:id="c62522_0014.pc.post.00486085" lemma=",">,</pc>
           <w cert="1.0" lemma="die+zij" pos="PD(type=d-p,position=free)+PD(type=indef,position=free)" resp="roland" xml:id="c62522_0014.w.1211529">diese</w>
-          <w cert="1.0" lemma="verdoven" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.62522.sense.3" xml:id="c62522_0014.w.1211530">verdovet</w>
+          <w cert="1.0" lemma="verdoven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c62522_0014.w.1211530" lemmaRef="mnw.62522.sense.3">verdovet</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62522_0014.w.1211531">hadde</w>
           <pc pos="PC" xml:id="c62522_0014.pc.post.00486086" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c62522_0014.w.1211532">dat</w>

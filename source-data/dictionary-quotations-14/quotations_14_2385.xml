@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58920" lemma="TORENMOET" partition="train" sense-id="mnw.58920.sense.2" xml:id="c58920_0008">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c58920_0008">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TORENMOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58920.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58920</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2385">
           <w cert="1.0" lemma="weten+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c58920_0008.w.430486">Wetti</w>
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c58920_0008.w.430487">wat</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="beide" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c58920_0008.w.430490">beide</w>
           <w cert="1.0" lemma="pijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c58920_0008.w.430491">pine</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58920_0008.w.430492">ende</w>
-          <w cert="1.0" lemma="toornmoed" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.58920.sense.2" xml:id="c58920_0008.w.430493">torenmoet</w>
+          <w cert="1.0" lemma="toornmoed" pos="NOU-C(number=sg)" resp="roland" xml:id="c58920_0008.w.430493" lemmaRef="mnw.58920.sense.2">torenmoet</w>
           <pc join="right" pos="PC" xml:id="c58920_0008.pc.pre.00173921" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58920_0008.w.430494">wat</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58920_0008.w.430495">mij</w>

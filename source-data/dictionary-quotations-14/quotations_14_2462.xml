@@ -45,16 +45,29 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60702" lemma="UTERIDEN" partition="train" sense-id="mnw.60702.sense.2" xml:id="c60702_0005">
-        <date atLeast="1301" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c60702_0005">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>UTERIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60702.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60702</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2462">
           <w cert="1.0" lemma="non" pos="NOU-C(number=sg)" resp="roland" xml:id="c60702_0005.w.756143">Nonne</w>
           <pc pos="PC" xml:id="c60702_0005.pc.post.00305934" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c60702_0005.w.756144">die</w>
           <w cert="1.0" lemma="dik" pos="ADV(type=reg)" resp="thomas" xml:id="c60702_0005.w.756145">dicke</w>
-          <w cert="1.0" lemma="uitrijden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.60702.sense.2" xml:id="c60702_0005.w.756146">ute<join n="mw_491770" />
+          <w cert="1.0" lemma="uitrijden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60702_0005.w.756146" lemmaRef="mnw.60702.sense.2">ute<join n="mw_491770" />
           </w>
-          <w cert="1.0" lemma="uitrijden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.60702.sense.2" xml:id="c60702_0005.w.756147">rijt<join n="mw_491770" />
+          <w cert="1.0" lemma="uitrijden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60702_0005.w.756147" lemmaRef="mnw.60702.sense.2">rijt<join n="mw_491770" />
           </w>
           <pc pos="PC" xml:id="c60702_0005.pc.floating.00305935" lemma=",">,</pc>
           <w cert="1.0" lemma="scholier" pos="NOU-C(number=sg)" resp="roland" xml:id="c60702_0005.w.756149">scoliere</w>

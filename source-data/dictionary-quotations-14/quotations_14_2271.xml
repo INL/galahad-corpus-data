@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56260" lemma="SULC" partition="train" sense-id="mnw.56260.sense.4" xml:id="c56260_0015">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c56260_0015">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SULC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56260.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56260</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2271">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c56260_0015.w.1800311">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c56260_0015.w.1800312">hem</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c56260_0015.w.1800319">te</w>
           <w cert="1.0" lemma="leven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c56260_0015.w.1800320">levene</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c56260_0015.w.1800321">met</w>
-          <w cert="1.0" lemma="zulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" sense-id="mnw.56260.sense.4" xml:id="c56260_0015.w.1800322">sulken</w>
+          <w cert="1.0" lemma="zulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c56260_0015.w.1800322" lemmaRef="mnw.56260.sense.4">sulken</w>
           <w cert="1.0" lemma="rouw" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56260_0015.w.1800323">rouwe</w>
           <pc pos="PC" xml:id="c56260_0015.pc.post.00743058" lemma=",">,</pc>
         </q>

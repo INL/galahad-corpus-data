@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69150" lemma="VRIENT" partition="train" sense-id="mnw.69150.sense.2" xml:id="c69150_0041">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c69150_0041">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VRIENT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69150.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69150</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2901">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c69150_0041.w.987957">Des</w>
           <w cert="1.0" lemma="bisschop" pos="NOU-C(number=sg)" resp="roland" xml:id="c69150_0041.w.987958">bisscops</w>
-          <w cert="1.0" lemma="vriend" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.69150.sense.2" xml:id="c69150_0041.w.987959">vrient</w>
+          <w cert="1.0" lemma="vriend" pos="NOU-C(number=sg)" resp="roland" xml:id="c69150_0041.w.987959" lemmaRef="mnw.69150.sense.2">vrient</w>
           <pc join="right" pos="PC" xml:id="c69150_0041.pc.pre.00395688" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69150_0041.w.987960">medestanders</w>
           <pc pos="PC" xml:id="c69150_0041.pc.post.00395689" lemma=")">)</pc>

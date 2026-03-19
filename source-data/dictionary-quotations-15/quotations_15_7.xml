@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00231" lemma="ADMAEL" partition="train" sense-id="mnw.00231.sense.2" xml:id="c00231_0006">
-        <date atLeast="1399" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c00231_0006">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ADMAEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00231.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00231</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.7">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c00231_0006.w.40717">Ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c00231_0006.w.40718">die</w>
@@ -56,7 +69,7 @@
           </w>
           <w cert="1.0" lemma="datzelve" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c00231_0006.w.40722">selve<join n="mw_545784" />
           </w>
-          <w cert="1.0" lemma="etmaal" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.00231.sense.2" xml:id="c00231_0006.w.40723">atmael</w>
+          <w cert="1.0" lemma="etmaal" pos="NOU-C(number=sg)" resp="thomas" xml:id="c00231_0006.w.40723" lemmaRef="mnw.00231.sense.2">atmael</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c00231_0006.w.40724">wal</w>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c00231_0006.w.40725">over</w>
           <w cert="1.0" lemma="boede" pos="NOU-C(number=pl)" resp="roland" xml:id="c00231_0006.w.40726">boeden</w>

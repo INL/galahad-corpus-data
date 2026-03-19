@@ -45,10 +45,23 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46832" lemma="ROEREN" partition="dev" sense-id="mnw.46832.sense.18" xml:id="c46832_0083">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c46832_0083">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ROEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46832.sense.18</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46832</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1209">
-          <w cert="1.0" lemma="roeren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.46832.sense.18" xml:id="c46832_0083.w.1112502">Ruerde</w>
+          <w cert="1.0" lemma="roeren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c46832_0083.w.1112502" lemmaRef="mnw.46832.sense.18">Ruerde</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c46832_0083.w.1112503">hi</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c46832_0083.w.1112504">den</w>
           <w cert="1.0" lemma="schild" pos="NOU-C(number=sg)" resp="thomas" xml:id="c46832_0083.w.1112505">scilt</w>

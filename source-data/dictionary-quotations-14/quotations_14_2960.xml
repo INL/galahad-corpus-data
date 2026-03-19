@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70265" lemma="WANDELEN" partition="train" sense-id="mnw.70265.sense.2" xml:id="c70265_0001">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c70265_0001">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WANDELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70265.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70265</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2960">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c70265_0001.w.1221798">Die</w>
           <pc join="right" pos="PC" xml:id="c70265_0001.pc.pre.00490529" lemma="(">(</pc>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c70265_0001.w.1221810">so</w>
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="roland" xml:id="c70265_0001.w.1221811">waer</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70265_0001.w.1221812">hi</w>
-          <w cert="1.0" lemma="wandelen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.70265.sense.2" xml:id="c70265_0001.w.1221813">wandelen</w>
+          <w cert="1.0" lemma="wandelen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c70265_0001.w.1221813" lemmaRef="mnw.70265.sense.2">wandelen</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c70265_0001.w.1221814">woude</w>
           <pc pos="PC" xml:id="c70265_0001.pc.post.00490532" lemma=",">,</pc>
         </q>

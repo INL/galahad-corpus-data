@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10380" lemma="GEBIDEN" partition="train" sense-id="mnw.10380.sense.2" xml:id="c10380_0001">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c10380_0001">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEBIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10380.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10380</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.426">
           <w cert="1.0" lemma="ai" pos="INT" resp="thomas" xml:id="c10380_0001.w.710968">Ay</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c10380_0001.w.710969">Got</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="gebieden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c10380_0001.w.710972">gebieden</w>
           <pc join="right" pos="PC" xml:id="c10380_0001.pc.pre.00305033" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c10380_0001.w.710973">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.10380.sense.2" xml:id="c10380_0001.w.710974">gebiden</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c10380_0001.w.710974" lemmaRef="mnw.10380.sense.2">gebiden</w>
           <pc pos="PC" xml:id="c10380_0001.pc.floating.00305035" lemma=":">:</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c10380_0001.w.710976">riden</w>
           <pc pos="PC" xml:id="c10380_0001.pc.post.00305036" lemma=")">)</pc>

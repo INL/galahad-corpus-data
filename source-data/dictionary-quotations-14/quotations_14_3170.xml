@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74190" lemma="WOESTE" partition="train" sense-id="mnw.74190.sense.4" xml:id="c74190_0020">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c74190_0020">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WOESTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74190.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74190</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3170">
           <w cert="1.0" lemma="te+een" pos="ADP(type=pre)+PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c74190_0020.w.2045071">Tenen</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c74190_0020.w.2045072">andren</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c74190_0020.w.2045076">dede</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c74190_0020.w.2045077">in</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c74190_0020.w.2045078">ene</w>
-          <w cert="1.0" lemma="woest" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.74190.sense.4" xml:id="c74190_0020.w.2045079">woeste</w>
+          <w cert="1.0" lemma="woest" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c74190_0020.w.2045079" lemmaRef="mnw.74190.sense.4">woeste</w>
           <w cert="1.0" lemma="kerk" pos="NOU-C(number=sg)" resp="roland" xml:id="c74190_0020.w.2045080">kerke</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c74190_0020.w.2045081">sine</w>
           <w cert="1.0" lemma="gebed" pos="NOU-C(number=sg)" resp="roland" xml:id="c74190_0020.w.2045082">gebede</w>

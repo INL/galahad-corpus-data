@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49640" lemma="SCHILT" partition="train" sense-id="mnw.49640.sense.1" xml:id="c49640_0007">
-        <date atLeast="1451" atMost="1451" timeSpan="1450-1500" />
+      <cit xml:id="c49640_0007">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1451" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHILT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49640.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49640</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1312">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c49640_0007.w.396617">Enen</w>
-          <w cert="1.0" lemma="schild" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.49640.sense.1" xml:id="c49640_0007.w.396618">scilt</w>
+          <w cert="1.0" lemma="schild" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49640_0007.w.396618" lemmaRef="mnw.49640.sense.1">scilt</w>
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c49640_0007.w.396619">daer<join n="mw_720557" />
           </w>
           <w cert="1.0" lemma="niet" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c49640_0007.w.396620">niet</w>

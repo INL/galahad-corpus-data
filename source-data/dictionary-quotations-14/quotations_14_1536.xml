@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37823" lemma="ONTSCIETEN" partition="train" sense-id="mnw.37823.sense.3" xml:id="c37823_0003">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c37823_0003">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTSCIETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37823.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37823</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1536">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c37823_0003.w.783694">Wie</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c37823_0003.w.783695">so</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="slapen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37823_0003.w.783697">sliep</w>
           <pc pos="PC" xml:id="c37823_0003.pc.post.00316070" lemma=",">,</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37823_0003.w.783698">hi</w>
-          <w cert="1.0" lemma="ontschieten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.37823.sense.3" xml:id="c37823_0003.w.783699">ontscoot</w>
+          <w cert="1.0" lemma="ontschieten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37823_0003.w.783699" lemmaRef="mnw.37823.sense.3">ontscoot</w>
           <pc pos="PC" xml:id="c37823_0003.pc.floating.00316071" lemma=",">,</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c37823_0003.w.783701">een</w>
           <w cert="1.0" lemma="deel" pos="NOU-C(number=sg)" resp="roland" xml:id="c37823_0003.w.783702">deel</w>

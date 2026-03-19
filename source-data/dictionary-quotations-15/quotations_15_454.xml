@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18370" lemma="HOVET" partition="train" sense-id="mnw.18370.sense.1" xml:id="c18370_0063">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c18370_0063">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HOVET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18370.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18370</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.454">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18370_0063.w.485392">Sy</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c18370_0063.w.485393">zullen</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="goeddunken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c18370_0063.w.485402">goetdunct</w>
           <pc pos="PC" xml:id="c18370_0063.pc.post.00198436" lemma=",">,</pc>
           <w cert="1.0" lemma="open" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c18370_0063.w.485403">opens</w>
-          <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.18370.sense.1" xml:id="c18370_0063.w.485404">hoefs</w>
+          <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="thomas" xml:id="c18370_0063.w.485404" lemmaRef="mnw.18370.sense.1">hoefs</w>
           <pc join="right" pos="PC" xml:id="c18370_0063.pc.pre.00198437" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c18370_0063.w.485405">d.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c18370_0063.w.485406">i.</w>

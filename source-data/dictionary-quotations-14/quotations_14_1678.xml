@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41090" lemma="OVERTRECKEN" partition="train" sense-id="mnw.41090.sense.8" xml:id="c41090_0012">
-        <date atLeast="1393" atMost="1402" timeSpan="1350-1400" />
+      <cit xml:id="c41090_0012">
+        <note>
+          <ab>
+            <date atLeast="1393" atMost="1402" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OVERTRECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41090.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41090</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1678">
           <w cert="1.0" lemma="boek" pos="NOU-C(number=pl)" resp="roland" xml:id="c41090_0012.w.1509745">Boeke</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c41090_0012.w.1509746">die</w>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c41090_0012.pc.post.00600275" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c41090_0012.w.1509754">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c41090_0012.w.1509755">es</w>
-          <w cert="1.0" lemma="overtrekken" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.41090.sense.8" xml:id="c41090_0012.w.1509756">overgetrocken</w>
+          <w cert="1.0" lemma="overtrekken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c41090_0012.w.1509756" lemmaRef="mnw.41090.sense.8">overgetrocken</w>
           <pc pos="PC" xml:id="c41090_0012.pc.floating.00600276" lemma=",">,</pc>
         </q>
       </cit>

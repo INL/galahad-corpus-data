@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73771" lemma="WINKEL" partition="train" sense-id="mnw.73771.sense.1" xml:id="c73771_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c73771_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WINKEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73771.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73771</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3154">
           <w cert="1.0" lemma="eens" pos="ADV(type=reg)" resp="roland" xml:id="c73771_0000.w.1954999">Eens</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c73771_0000.w.1955000">ghinc</w>
@@ -68,7 +81,7 @@
           <pc pos="PC" xml:id="c73771_0000.pc.post.00768104" lemma=",">,</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c73771_0000.w.1955012">in</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c73771_0000.w.1955013">eenen</w>
-          <w cert="1.0" lemma="winkel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73771.sense.1" xml:id="c73771_0000.w.1955014">winkel</w>
+          <w cert="1.0" lemma="winkel" pos="NOU-C(number=sg)" resp="roland" xml:id="c73771_0000.w.1955014" lemmaRef="mnw.73771.sense.1">winkel</w>
           <w cert="1.0" lemma="alleen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c73771_0000.w.1955015">alleene</w>
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c73771_0000.w.1955016">staen</w>
           <pc pos="PC" xml:id="c73771_0000.pc.post.00768105" lemma=",">,</pc>

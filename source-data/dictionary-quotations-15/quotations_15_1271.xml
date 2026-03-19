@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48709" lemma="SCHAKEREN" partition="train" sense-id="mnw.48709.sense.1" xml:id="c48709_0005">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c48709_0005">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHAKEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48709.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48709</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1271">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48709_0005.w.188511">Die</w>
           <w cert="1.0" lemma="veld" pos="NOU-C(number=pl)" resp="roland" xml:id="c48709_0005.w.188512">velde</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48709_0005.w.188515">kam</w>
           <pc pos="PC" xml:id="c48709_0005.pc.post.00078226" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c48709_0005.w.188516">sijn</w>
-          <w cert="1.0" lemma="schakeren" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.48709.sense.1" xml:id="c48709_0005.w.188517">ghescakiert</w>
+          <w cert="1.0" lemma="schakeren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c48709_0005.w.188517" lemmaRef="mnw.48709.sense.1">ghescakiert</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c48709_0005.w.188518">van</w>
           <w cert="1.0" lemma="sabel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48709_0005.w.188519">sabel</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c48709_0005.w.188520">ende</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67077" lemma="VOET" partition="dev" sense-id="mnw.67077.sense.67" xml:id="c67077_0248">
-        <date atLeast="1380" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c67077_0248">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67077.sense.67</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67077</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2810">
           <pc join="right" pos="PC" xml:id="c67077_0248.pc.pre.00218205" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c67077_0248.w.545949">Dus</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67077_0248.w.545956">der</w>
           <w cert="1.0" lemma="baar" pos="NOU-C(number=sg)" resp="roland" xml:id="c67077_0248.w.545957">bare</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c67077_0248.w.545958">ten</w>
-          <w cert="1.0" lemma="voet" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.67077.sense.67" xml:id="c67077_0248.w.545959">voeten</w>
+          <w cert="1.0" lemma="voet" pos="NOU-C(number=pl)" resp="roland" xml:id="c67077_0248.w.545959" lemmaRef="mnw.67077.sense.67">voeten</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c67077_0248.w.545960">voor</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c67077_0248.w.545961">den</w>
           <w cert="1.0" lemma="altaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c67077_0248.w.545962">outaer</w>

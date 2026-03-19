@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40760" lemma="OVERMEESTERSSE" partition="train" sense-id="mnw.40760.sense.1" xml:id="c40760_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c40760_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OVERMEESTERSSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40760.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40760</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1045">
           <w cert="1.0" lemma="hierom" pos="ADV(type=pron)" resp="thomas" xml:id="c40760_0000.w.1456465">Hier<join n="mw_551997" />
           </w>
@@ -87,7 +100,7 @@
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="thomas" xml:id="c40760_0000.w.1456493">want</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40760_0000.w.1456494">si</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c40760_0000.w.1456495">is</w>
-          <w cert="1.0" lemma="overmeesterse" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.40760.sense.1" xml:id="c40760_0000.w.1456496">overmeestersse</w>
+          <w cert="1.0" lemma="overmeesterse" pos="NOU-C(number=sg)" resp="thomas" xml:id="c40760_0000.w.1456496" lemmaRef="mnw.40760.sense.1">overmeestersse</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c40760_0000.w.1456497">alre</w>
           <w cert="1.0" lemma="deugd" pos="NOU-C(number=pl)" resp="roland" xml:id="c40760_0000.w.1456498">doochden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c40760_0000.w.1456499">ende</w>

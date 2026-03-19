@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07775" lemma="DROEVEN" partition="train" sense-id="mnw.07775.sense.1" xml:id="c07775_0014">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c07775_0014">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DROEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07775.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07775</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.210">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07775_0014.w.316396">Die</w>
           <w cert="1.0" lemma="hertog" pos="NOU-C(number=sg)" resp="roland" xml:id="c07775_0014.w.316397">hertoghe</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="zeer" pos="ADV(type=reg)" resp="thomas" xml:id="c07775_0014.w.316403">sere</w>
           <w cert="1.0" lemma="daarom" pos="ADV(type=pron)" resp="thomas" xml:id="c07775_0014.w.316404">om<join n="mw_224443" />
           </w>
-          <w cert="1.0" lemma="droeven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.07775.sense.1" xml:id="c07775_0014.w.316405">droefde</w>
+          <w cert="1.0" lemma="droeven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c07775_0014.w.316405" lemmaRef="mnw.07775.sense.1">droefde</w>
           <pc join="right" pos="PC" xml:id="c07775_0014.pc.pre.00136278" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c07775_0014.w.316406">berouw</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c07775_0014.w.316407">van</w>

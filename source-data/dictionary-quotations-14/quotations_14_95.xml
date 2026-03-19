@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02354" lemma="BAST" partition="train" sense-id="mnw.02354.sense.1" xml:id="c02354_0003">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c02354_0003">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BAST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02354.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02354</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.95">
           <w cert="1.0" lemma="bedie" pos="ADV(type=reg)" resp="thomas" xml:id="c02354_0003.w.422226">Bedi</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02354_0003.w.422227">wille</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c02354_0003.w.422236">niet</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c02354_0003.w.422237">gave</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c02354_0003.w.422238">enen</w>
-          <w cert="1.0" lemma="bast" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.02354.sense.1" xml:id="c02354_0003.w.422239">bast</w>
+          <w cert="1.0" lemma="bast" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02354_0003.w.422239" lemmaRef="mnw.02354.sense.1">bast</w>
           <pc pos="PC" xml:id="c02354_0003.pc.floating.00165747" lemma=",">,</pc>
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c02354_0003.w.422241">al</w>
           <w cert="1.0" lemma="komen+ervoren" pos="VRB(finiteness=fin,tense=past)+ADV(type=pron)" resp="thomas" xml:id="c02354_0003.w.422242">quamer<join n="mw_387964" />

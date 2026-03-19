@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13628" lemma="GEVOEGEN" partition="train" sense-id="mnw.13628.sense.9" xml:id="c13628_0015">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c13628_0015">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEVOEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13628.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13628</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.601">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c13628_0015.w.1327584">Als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c13628_0015.w.1327585">hi</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c13628_0015.w.1327589">vort</w>
           <pc pos="PC" xml:id="c13628_0015.pc.post.00555694" lemma=",">,</pc>
           <pc pos="PC" xml:id="c13628_0015.pc.floating.00555695" lemma="..">..</pc>
-          <w cert="1.0" lemma="gevoegen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.13628.sense.9" xml:id="c13628_0015.w.1327591">gevouchdi</w>
+          <w cert="1.0" lemma="gevoegen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c13628_0015.w.1327591" lemmaRef="mnw.13628.sense.9">gevouchdi</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c13628_0015.w.1327592">hem</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c13628_0015.w.1327593">in</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c13628_0015.w.1327594">vele</w>

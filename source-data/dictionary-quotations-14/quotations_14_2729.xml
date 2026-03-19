@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65388" lemma="VERVRIESEN" partition="train" sense-id="mnw.65388.sense.6" xml:id="c65388_0032">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c65388_0032">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERVRIESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65388.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65388</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2729">
           <w cert="1.0" lemma="aldaar" pos="ADV(type=reg)" resp="thomas" xml:id="c65388_0032.w.176503">Aldaer</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c65388_0032.w.176504">wart</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c65388_0032.w.176517">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c65388_0032.w.176518">si</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c65388_0032.w.176519">daer</w>
-          <w cert="1.0" lemma="vervriezen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.65388.sense.6" xml:id="c65388_0032.w.176520">vervorsen</w>
+          <w cert="1.0" lemma="vervriezen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c65388_0032.w.176520" lemmaRef="mnw.65388.sense.6">vervorsen</w>
           <w cert="1.0" lemma="liggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c65388_0032.w.176521">laghen</w>
           <pc pos="PC" xml:id="c65388_0032.pc.post.00068887" lemma=",">,</pc>
         </q>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04073" lemma="BETROUWENESSE" partition="train" sense-id="mnw.04073.sense.1" xml:id="c04073_0003">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c04073_0003">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BETROUWENESSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04073.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04073</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.128">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c04073_0003.w.831825">Want</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c04073_0003.w.831826">hi</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c04073_0003.w.831827">an</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c04073_0003.w.831828">Gode</w>
-          <w cert="1.0" lemma="betrouwenis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.04073.sense.1" xml:id="c04073_0003.w.831829">betrouwenesse</w>
+          <w cert="1.0" lemma="betrouwenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c04073_0003.w.831829" lemmaRef="mnw.04073.sense.1">betrouwenesse</w>
           <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c04073_0003.w.831830">ontfinc</w>
           <pc pos="PC" xml:id="c04073_0003.pc.post.00325173" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c04073_0003.w.831831">dat</w>

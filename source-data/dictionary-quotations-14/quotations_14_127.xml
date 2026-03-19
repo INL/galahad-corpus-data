@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02970" lemma="BEKEREN" partition="test" sense-id="mnw.02970.sense.9" xml:id="c02970_0038">
-        <date atLeast="1388" atMost="1388" timeSpan="1350-1400" />
+      <cit xml:id="c02970_0038">
+        <note>
+          <ab>
+            <date atLeast="1388" atMost="1388" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEKEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02970.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02970</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.127">
           <w cert="1.0" lemma="twaalf" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c02970_0038.w.564100">XII</w>
           <w cert="1.0" lemma="groot" pos="NOU-C(number=sg)" resp="roland" xml:id="c02970_0038.w.564101">grote</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="bekeren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c02970_0038.w.564104">bekerenen</w>
           <pc join="right" pos="PC" xml:id="c02970_0038.pc.pre.00220195" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c02970_0038.w.564105">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.02970.sense.9" xml:id="c02970_0038.w.564106">bekerene</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c02970_0038.w.564106" lemmaRef="mnw.02970.sense.9">bekerene</w>
           <pc pos="PC" xml:id="c02970_0038.pc.floating.00220197" lemma=")">)</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c02970_0038.w.564108">ende</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c02970_0038.w.564109">te</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25135" lemma="LATEN" partition="train" sense-id="mnw.25135.sense.82" xml:id="c25135_0475">
-        <date atLeast="1470" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c25135_0475">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25135.sense.82</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25135</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.612">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c25135_0475.w.135502">Doe</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c25135_0475.w.135503">sloeghen</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c25135_0475.w.135511">goet</w>
           <pc pos="PC" xml:id="c25135_0475.pc.post.00052970" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25135_0475.w.135512">ende</w>
-          <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.25135.sense.82" xml:id="c25135_0475.w.135513">lieten</w>
+          <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c25135_0475.w.135513" lemmaRef="mnw.25135.sense.82">lieten</w>
           <pc join="right" pos="PC" xml:id="c25135_0475.pc.pre.00052971" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c25135_0475.w.135514">l.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c25135_0475.w.135515">lieten</w>

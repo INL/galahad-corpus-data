@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74395" lemma="WOONSTEDE" partition="train" sense-id="mnw.74395.sense.1" xml:id="c74395_0003">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c74395_0003">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WOONSTEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74395.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74395</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2301">
           <w cert="1.0" lemma="daarbinnen" pos="ADV(type=pron)" resp="thomas" xml:id="c74395_0003.w.2088273">Daer<join n="mw_360900" />
           </w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c74395_0003.w.2088279">vele</w>
           <w cert="1.0" lemma="menigte" pos="NOU-C(number=sg)" resp="roland" xml:id="c74395_0003.w.2088280">menichte</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c74395_0003.w.2088281">van</w>
-          <w cert="1.0" lemma="woonstede" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.74395.sense.1" xml:id="c74395_0003.w.2088282">wonsteen</w>
+          <w cert="1.0" lemma="woonstede" pos="NOU-C(number=pl)" resp="roland" xml:id="c74395_0003.w.2088282" lemmaRef="mnw.74395.sense.1">wonsteen</w>
           <pc pos="PC" xml:id="c74395_0003.pc.floating.00818663" lemma=",">,</pc>
           <w cert="1.0" lemma="vol" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c74395_0003.w.2088284">vul</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c74395_0003.w.2088285">van</w>

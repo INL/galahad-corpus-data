@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54592" lemma="STALHOEDER" partition="train" sense-id="mnw.54592.sense.1" xml:id="c54592_0000">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c54592_0000">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STALHOEDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54592.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54592</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2202">
           <pc join="right" pos="PC" xml:id="c54592_0000.pc.pre.00593683" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c54592_0000.w.1434148">Christus</w>
@@ -108,7 +121,7 @@
           <w cert="1.0" lemma="bevelen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c54592_0000.w.1434193">beval</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c54592_0000.w.1434194">ons</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c54592_0000.w.1434195">den</w>
-          <w cert="1.0" lemma="stalhoederen" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.54592.sense.1" xml:id="c54592_0000.w.1434196">stalhoedere(n</w>
+          <w cert="1.0" lemma="stalhoederen" pos="NOU-C(number=pl)" resp="roland" xml:id="c54592_0000.w.1434196" lemmaRef="mnw.54592.sense.1">stalhoedere(n</w>
           <pc pos="PC" xml:id="c54592_0000.pc.post.00593691" lemma=")">)</pc>
           <pc pos="PC" xml:id="c54592_0000.pc.floating.00593692" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c54592_0000.w.1434198">dat</w>

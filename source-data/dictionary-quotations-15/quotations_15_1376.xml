@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51843" lemma="SIERE" partition="train" sense-id="mnw.51843.sense.1" xml:id="c51843_0002">
-        <date atLeast="1473" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c51843_0002">
+        <note>
+          <ab>
+            <date atLeast="1473" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SIERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51843.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51843</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1376">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c51843_0002.w.804717">Hoe</w>
           <w cert="1.0" lemma="menigwerf" pos="ADV(type=reg)" resp="thomas" xml:id="c51843_0002.w.804718">menichwerf</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c51843_0002.w.804723">grooter</w>
           <w cert="1.0" lemma="vriendschap" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51843_0002.w.804724">vrienscap</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51843_0002.w.804725">ende</w>
-          <w cert="1.0" lemma="sier" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51843.sense.1" xml:id="c51843_0002.w.804726">sieren</w>
+          <w cert="1.0" lemma="sier" pos="NOU-C(number=sg)" resp="roland" xml:id="c51843_0002.w.804726" lemmaRef="mnw.51843.sense.1">sieren</w>
           <pc join="right" pos="PC" xml:id="c51843_0002.pc.pre.00334432" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c51843_0002.w.804727">met</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c51843_0002.w.804728">zeer</w>

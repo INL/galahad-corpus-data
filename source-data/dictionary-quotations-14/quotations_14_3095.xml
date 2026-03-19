@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72851" lemma="WET" partition="train" sense-id="mnw.72851.sense.1" xml:id="c72851_0017">
-        <date atLeast="1339" atMost="1341" timeSpan="1300-1350" />
+      <cit xml:id="c72851_0017">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1341" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72851.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72851</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3095">
           <w cert="1.0" lemma="du" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c72851_0017.w.1752022">Di</w>
           <pc join="right" pos="PC" xml:id="c72851_0017.pc.pre.00693809" lemma="(">(</pc>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="ordineren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c72851_0017.w.1752025">ordineerde</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72851_0017.w.1752026">die</w>
           <w cert="1.0" lemma="recht" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c72851_0017.w.1752027">rechte</w>
-          <w cert="1.0" lemma="wet" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.72851.sense.1" xml:id="c72851_0017.w.1752028">wet</w>
+          <w cert="1.0" lemma="wet" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72851_0017.w.1752028" lemmaRef="mnw.72851.sense.1">wet</w>
           <pc pos="PC" xml:id="c72851_0017.pc.floating.00693811" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+du" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c72851_0017.w.1752030">dattu</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c72851_0017.w.1752031">hem</w>

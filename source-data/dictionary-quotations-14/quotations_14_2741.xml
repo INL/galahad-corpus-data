@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65672" lemma="VERWINNEN" partition="train" sense-id="mnw.65672.sense.3" xml:id="c65672_0008">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c65672_0008">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERWINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65672.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65672</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2741">
           <pc join="right" pos="PC" xml:id="c65672_0008.pc.pre.00099457" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c65672_0008.w.254503">Aldus</w>
@@ -65,7 +78,7 @@
           <pc pos="PC" xml:id="c65672_0008.pc.post.00099461" lemma=",">,</pc>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c65672_0008.w.254513">mach</w>
           <w cert="1.0" lemma="hij+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c65672_0008.w.254514">hijt</w>
-          <w cert="1.0" lemma="verwinnen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.65672.sense.3" xml:id="c65672_0008.w.254515">verwinnen</w>
+          <w cert="1.0" lemma="verwinnen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c65672_0008.w.254515" lemmaRef="mnw.65672.sense.3">verwinnen</w>
           <pc pos="PC" xml:id="c65672_0008.pc.floating.00099462" lemma=",">,</pc>
         </q>
       </cit>

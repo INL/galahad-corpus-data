@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48775" lemma="SCHAMP" partition="train" sense-id="mnw.48775.sense.7" xml:id="c48775_0033">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c48775_0033">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHAMP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48775.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48775</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1277">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c48775_0033.w.215626">Dese</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c48775_0033.w.215627">man</w>
@@ -70,7 +83,7 @@
           <pc pos="PC" xml:id="c48775_0033.pc.post.00089048" lemma=",">,</pc>
           <w cert="1.0" lemma="felheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48775_0033.w.215641">felheit</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c48775_0033.w.215642">no</w>
-          <w cert="1.0" lemma="schamp" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.48775.sense.7" xml:id="c48775_0033.w.215643">scamp</w>
+          <w cert="1.0" lemma="schamp" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48775_0033.w.215643" lemmaRef="mnw.48775.sense.7">scamp</w>
           <pc pos="PC" xml:id="c48775_0033.pc.floating.00089049" lemma=",">,</pc>
         </q>
       </cit>

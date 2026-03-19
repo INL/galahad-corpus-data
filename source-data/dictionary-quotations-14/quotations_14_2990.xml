@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70752" lemma="WAT" partition="train" sense-id="mnw.70752.sense.41" xml:id="c70752_0297">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c70752_0297">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70752.sense.41</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70752</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2990">
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c70752_0297.w.1335047">Up</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70752_0297.w.1335048">dien</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c70752_0297.w.1335053">met</w>
           <w cert="1.0" lemma="beide" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c70752_0297.w.1335054">beiden</w>
           <w cert="1.0" lemma="hand" pos="NOU-C(number=pl)" resp="roland" xml:id="c70752_0297.w.1335055">handen</w>
-          <w cert="1.0" lemma="wat" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.70752.sense.41" xml:id="c70752_0297.w.1335056">wat</w>
+          <w cert="1.0" lemma="wat" pos="ADV(type=reg)" resp="thomas" xml:id="c70752_0297.w.1335056" lemmaRef="mnw.70752.sense.41">wat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70752_0297.w.1335057">hi</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c70752_0297.w.1335058">mochte</w>
           <pc pos="PC" xml:id="c70752_0297.pc.post.00534957" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34888" lemma="ONDERVINDINGE" partition="train" sense-id="mnw.34888.sense.1" xml:id="c34888_0000">
-        <date atLeast="1456" atMost="1456" timeSpan="1450-1500" />
+      <cit xml:id="c34888_0000">
+        <note>
+          <ab>
+            <date atLeast="1456" atMost="1456" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONDERVINDINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34888.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34888</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.872">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c34888_0000.w.290371">Wairt</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c34888_0000.w.290372">dat</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c34888_0000.w.290377">wijs</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c34888_0000.w.290378">wair</w>
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="c34888_0000.w.290379">na</w>
-          <w cert="1.0" lemma="ondervinding" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.34888.sense.1" xml:id="c34888_0000.w.290380">ondervijndinge</w>
+          <w cert="1.0" lemma="ondervinding" pos="NOU-C(number=sg)" resp="roland" xml:id="c34888_0000.w.290380" lemmaRef="mnw.34888.sense.1">ondervijndinge</w>
           <pc pos="PC" xml:id="c34888_0000.pc.floating.00119936" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c34888_0000.w.290382">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c34888_0000.w.290383">hy</w>

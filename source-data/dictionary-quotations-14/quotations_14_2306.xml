@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56939" lemma="TAFELBERT" partition="train" sense-id="mnw.56939.sense.1" xml:id="c56939_0006">
-        <date atLeast="1384" atMost="1407" timeSpan="1350-1400" />
+      <cit xml:id="c56939_0006">
+        <note>
+          <ab>
+            <date atLeast="1384" atMost="1407" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TAFELBERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56939.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56939</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2306">
           <w cert="1.0" lemma="kopen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c56939_0006.w.17729">Ghecocht</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c56939_0006.w.17730">een</w>
           <w cert="1.0" lemma="schaakbord" pos="NOU-C(number=sg)" resp="roland" xml:id="c56939_0006.w.17731">scakebardt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c56939_0006.w.17732">ende</w>
-          <w cert="1.0" lemma="tafelbord" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.56939.sense.1" xml:id="c56939_0006.w.17733">tafelbard</w>
+          <w cert="1.0" lemma="tafelbord" pos="NOU-C(number=sg)" resp="roland" xml:id="c56939_0006.w.17733" lemmaRef="mnw.56939.sense.1">tafelbard</w>
           <w cert="1.0" lemma="werken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c56939_0006.w.17734">ghewrocht</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c56939_0006.w.17735">van</w>
           <w cert="1.0" lemma="Jasper" pos="NOU-P" resp="roland" xml:id="c56939_0006.w.17736">jaspere</w>

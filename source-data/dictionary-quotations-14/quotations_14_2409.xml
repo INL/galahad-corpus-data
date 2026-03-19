@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59445" lemma="TRONE" partition="test" sense-id="mnw.59445.sense.5" xml:id="c59445_0056">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c59445_0056">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TRONE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59445.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59445</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2409">
           <w cert="1.0" lemma="Christus" pos="NOU-P" resp="roland" xml:id="c59445_0056.w.533208">Christus</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c59445_0056.w.533209">es</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c59445_0056.w.533215">god</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c59445_0056.w.533216">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c59445_0056.w.533217">den</w>
-          <w cert="1.0" lemma="troon" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.59445.sense.5" xml:id="c59445_0056.w.533218">trone</w>
+          <w cert="1.0" lemma="troon" pos="NOU-C(number=sg)" resp="roland" xml:id="c59445_0056.w.533218" lemmaRef="mnw.59445.sense.5">trone</w>
           <pc pos="PC" xml:id="c59445_0056.pc.floating.00216449" lemma=",">,</pc>
         </q>
       </cit>

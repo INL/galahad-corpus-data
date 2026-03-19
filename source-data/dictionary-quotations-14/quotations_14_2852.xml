@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67905" lemma="VOREDIEN" partition="train" sense-id="mnw.67905.sense.1" xml:id="c67905_0001">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c67905_0001">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VOREDIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67905.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67905</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2852">
           <pc pos="PC" xml:id="c67905_0001.pc.floating.00286263" lemma="—">—</pc>
-          <w cert="1.0" lemma="voordien" pos="ADV(type=reg)" resp="roland" sense-id="mnw.67905.sense.1" xml:id="c67905_0001.w.715940">Vordien</w>
+          <w cert="1.0" lemma="voordien" pos="ADV(type=reg)" resp="roland" xml:id="c67905_0001.w.715940" lemmaRef="mnw.67905.sense.1">Vordien</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c67905_0001.w.715941">dat</w>
           <pc join="right" pos="PC" xml:id="c67905_0001.pc.pre.00286264" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c67905_0001.w.715942">voordat</w>

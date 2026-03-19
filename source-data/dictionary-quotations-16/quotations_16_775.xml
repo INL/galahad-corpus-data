@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M068821" lemma="TOEKOMEN" modern-lemma="toekomen" partition="test" pos="VRB" sense-id="M068821.bet.29" xml:id="M068821.eg.8766">
-        <date atLeast="1530" atMost="1530" timeSpan="1500-1550" />
+      <cit xml:id="M068821.eg.8766">
+        <note>
+          <ab>
+            <date atLeast="1530" atMost="1530" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>TOEKOMEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M068821.bet.29</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>toekomen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M068821</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.775">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=prenom)" resp="thomas" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732728">Wat</w>
           <w cert="1.0" lemma="schade" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732729">schade</w>
@@ -62,9 +81,9 @@
           <pc pos="PC" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.pc.post.00230678" lemma=":">:</pc>
           <w cert="1.0" lemma="hetwelk" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732738">Twelck</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732739">al</w>
-          <w cert="1.0" lemma="toekomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M068821.bet.29" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732740">toe<join n="mw_529914" />
+          <w cert="1.0" lemma="toekomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732740" lemmaRef="M068821.bet.29">toe<join n="mw_529914" />
           </w>
-          <w cert="1.0" lemma="toekomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M068821.bet.29" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732741">komt<join n="mw_529914" />
+          <w cert="1.0" lemma="toekomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732741" lemmaRef="M068821.bet.29">komt<join n="mw_529914" />
           </w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732742">by</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="INT_29d62509-cde7-4a3c-90e6-447500de7ae1.w.732743">mynen</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72151" lemma="WELGERAECT" partition="train" sense-id="mnw.72151.sense.4" xml:id="c72151_0028">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c72151_0028">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WELGERAECT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72151.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72151</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3038">
           <w cert="1.0" lemma="mijnheer" pos="NOU-C(number=sg)" resp="roland" xml:id="c72151_0028.w.1559148">Mijn<join n="mw_565026" />
           </w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="Gawein" pos="NOU-P" resp="roland" xml:id="c72151_0028.w.1559150">Gawein</w>
           <pc pos="PC" xml:id="c72151_0028.pc.post.00625194" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c72151_0028.w.1559151">die</w>
-          <w cert="1.0" lemma="welgeraakt" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.72151.sense.4" xml:id="c72151_0028.w.1559152">welgeraect</w>
+          <w cert="1.0" lemma="welgeraakt" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c72151_0028.w.1559152" lemmaRef="mnw.72151.sense.4">welgeraect</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c72151_0028.w.1559153">was</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c72151_0028.w.1559154">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c72151_0028.w.1559155">van</w>

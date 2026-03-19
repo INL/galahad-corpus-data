@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53217" lemma="SOCKE" partition="train" sense-id="mnw.53217.sense.1" xml:id="c53217_0000">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c53217_0000">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SOCKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53217.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53217</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2134">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c53217_0000.w.1116981">Doe</w>
           <w cert="1.0" lemma="aantrekken+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c53217_0000.w.1116982">tracse<join n="mw_772930" />
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c53217_0000.pc.post.00463539" lemma=",">,</pc>
           <w cert="1.0" lemma="kous" pos="NOU-C(number=pl)" resp="roland" xml:id="c53217_0000.w.1116992">cousen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c53217_0000.w.1116993">ende</w>
-          <w cert="1.0" lemma="sok" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.53217.sense.1" xml:id="c53217_0000.w.1116994">socken</w>
+          <w cert="1.0" lemma="sok" pos="NOU-C(number=pl)" resp="roland" xml:id="c53217_0000.w.1116994" lemmaRef="mnw.53217.sense.1">socken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c53217_0000.w.1116995">ende</w>
           <w cert="1.0" lemma="laars" pos="NOU-C(number=pl)" resp="roland" xml:id="c53217_0000.w.1116996">leersen</w>
           <w cert="1.0" lemma="dik" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c53217_0000.w.1116997">dicke</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63660" lemma="VERMAKENISSE" partition="train" sense-id="mnw.63660.sense.1" xml:id="c63660_0000">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c63660_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERMAKENISSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63660.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63660</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2646">
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63660_0000.w.1542456">Wi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63660_0000.w.1542457">sijn</w>
@@ -73,7 +86,7 @@
           <pc join="right" pos="PC" xml:id="c63660_0000.pc.pre.00616168" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63660_0000.w.1542472">uitwendige</w>
           <pc pos="PC" xml:id="c63660_0000.pc.post.00616169" lemma=")">)</pc>
-          <w cert="1.0" lemma="vermakenis" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.63660.sense.1" xml:id="c63660_0000.w.1542473">vermakenessen</w>
+          <w cert="1.0" lemma="vermakenis" pos="NOU-C(number=pl)" resp="roland" xml:id="c63660_0000.w.1542473" lemmaRef="mnw.63660.sense.1">vermakenessen</w>
           <pc pos="PC" xml:id="c63660_0000.pc.floating.00616170" lemma=",">,</pc>
           <w cert="1.0" lemma="die+er" pos="PD(type=d-p,position=free)+ADV(type=reg)" resp="roland" xml:id="c63660_0000.w.1542475">dìere</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c63660_0000.w.1542476">niemanne</w>

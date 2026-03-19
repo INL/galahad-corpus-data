@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26891" lemma="LOOP" partition="dev" sense-id="mnw.26891.sense.3" xml:id="c26891_0002">
-        <date atLeast="1380" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c26891_0002">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LOOP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26891.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26891</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1073">
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c26891_0002.w.530531">Gegeven</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c26891_0002.w.530532">der</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c26891_0002.w.530542">omdat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c26891_0002.w.530543">si</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c26891_0002.w.530544">veel</w>
-          <w cert="1.0" lemma="loop" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26891.sense.3" xml:id="c26891_0002.w.530545">loops</w>
+          <w cert="1.0" lemma="loop" pos="NOU-C(number=sg)" resp="roland" xml:id="c26891_0002.w.530545" lemmaRef="mnw.26891.sense.3">loops</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26891_0002.w.530546">ende</w>
           <w cert="1.0" lemma="arbeid" pos="NOU-C(number=sg)" resp="roland" xml:id="c26891_0002.w.530547">arbeyts</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c26891_0002.w.530548">hebben</w>

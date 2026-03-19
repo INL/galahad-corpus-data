@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18250" lemma="HOUTCORN" partition="train" sense-id="mnw.18250.sense.1" xml:id="c18250_0002">
-        <date atLeast="1377" atMost="1378" timeSpan="1350-1400" />
+      <cit xml:id="c18250_0002">
+        <note>
+          <ab>
+            <date atLeast="1377" atMost="1378" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HOUTCORN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18250.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18250</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.760">
           <pc join="right" pos="PC" xml:id="c18250_0002.pc.pre.00189121" lemma="(">(</pc>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18250_0002.w.462876">Ic</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="panden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c18250_0002.w.462881">ghepandt</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c18250_0002.w.462882">ghehadt</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c18250_0002.w.462883">dat</w>
-          <w cert="1.0" lemma="houtkoren" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18250.sense.1" xml:id="c18250_0002.w.462884">houtcoorne</w>
+          <w cert="1.0" lemma="houtkoren" pos="NOU-C(number=sg)" resp="roland" xml:id="c18250_0002.w.462884" lemmaRef="mnw.18250.sense.1">houtcoorne</w>
           <pc pos="PC" xml:id="c18250_0002.pc.floating.00189123" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c18250_0002.w.462886">dat</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c18250_0002.w.462887">en</w>

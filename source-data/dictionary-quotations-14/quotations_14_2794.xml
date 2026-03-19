@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66812" lemma="VLOEC" partition="train" sense-id="mnw.66812.sense.1" xml:id="c66812_0000">
-        <date atLeast="1339" atMost="1341" timeSpan="1300-1350" />
+      <cit xml:id="c66812_0000">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1341" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VLOEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66812.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66812</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2794">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c66812_0000.w.473350">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66812_0000.w.473351">hi</w>
-          <w cert="1.0" lemma="vloek" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.66812.sense.1" xml:id="c66812_0000.w.473352">vloeke</w>
+          <w cert="1.0" lemma="vloek" pos="NOU-C(number=sg)" resp="roland" xml:id="c66812_0000.w.473352" lemmaRef="mnw.66812.sense.1">vloeke</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c66812_0000.w.473353">sonder</w>
           <w cert="1.0" lemma="getal" pos="NOU-C(number=sg)" resp="roland" xml:id="c66812_0000.w.473354">ghetel</w>
           <w cert="1.0" lemma="bejagen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c66812_0000.w.473355">bejaghede</w>

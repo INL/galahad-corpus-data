@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39495" lemma="OPNEMEN" partition="train" sense-id="mnw.39495.sense.23" xml:id="c39495_0051">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c39495_0051">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OPNEMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39495.sense.23</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39495</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1613">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c39495_0051.w.1170988">Die</w>
           <w cert="1.0" lemma="keizer" pos="NOU-C(number=sg)" resp="roland" xml:id="c39495_0051.w.1170989">keyser</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c39495_0051.w.1170997">ende</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c39495_0051.w.1170998">is</w>
           <w cert="1.0" lemma="onverzien" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c39495_0051.w.1170999">onversien</w>
-          <w cert="1.0" lemma="opnemen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.39495.sense.23" xml:id="c39495_0051.w.1171000">upghenomen</w>
+          <w cert="1.0" lemma="opnemen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c39495_0051.w.1171000" lemmaRef="mnw.39495.sense.23">upghenomen</w>
           <pc pos="PC" xml:id="c39495_0051.pc.floating.00467717" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c39495_0051.w.1171002">alse</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c39495_0051.w.1171003">die</w>

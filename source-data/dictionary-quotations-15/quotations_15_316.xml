@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12324" lemma="GERADEN" partition="train" sense-id="mnw.12324.sense.2" xml:id="c12324_0005">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c12324_0005">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GERADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12324.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12324</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.316">
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c12324_0005.w.1080339">Mine</w>
           <w cert="1.0" lemma="ongeduur" pos="NOU-C(number=sg)" resp="roland" xml:id="c12324_0005.w.1080340">ongeduere</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c12324_0005.w.1080344">en</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12324_0005.w.1080345">mach</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c12324_0005.w.1080346">niemen</w>
-          <w cert="1.0" lemma="geraden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.12324.sense.2" xml:id="c12324_0005.w.1080347">gheraden</w>
+          <w cert="1.0" lemma="geraden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c12324_0005.w.1080347" lemmaRef="mnw.12324.sense.2">gheraden</w>
           <pc pos="PC" xml:id="c12324_0005.pc.floating.00454769" lemma=",">,</pc>
         </q>
       </cit>

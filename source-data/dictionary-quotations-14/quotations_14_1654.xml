@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40359" lemma="OVERBRAKE" partition="train" sense-id="mnw.40359.sense.1" xml:id="c40359_0000">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c40359_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OVERBRAKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40359.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40359</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1654">
           <w cert="1.0" lemma="eer" pos="CONJ(type=sub)" resp="thomas" xml:id="c40359_0000.w.1372167">Eer</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c40359_0000.w.1372168">minne</w>
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c40359_0000.w.1372169">dus</w>
-          <w cert="1.0" lemma="overbraak" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.40359.sense.1" xml:id="c40359_0000.w.1372170">overbrake</w>
+          <w cert="1.0" lemma="overbraak" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c40359_0000.w.1372170" lemmaRef="mnw.40359.sense.1">overbrake</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c40359_0000.w.1372171">wert</w>
           <pc pos="PC" xml:id="c40359_0000.pc.post.00547144" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c40359_0000.w.1372172">ende</w>

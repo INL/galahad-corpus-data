@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33603" lemma="OMMEGANC" partition="train" sense-id="mnw.33603.sense.8" xml:id="c33603_0027">
-        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c33603_0027">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OMMEGANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33603.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33603</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1397">
           <w cert="1.0" lemma="binnen" pos="ADP(type=pre)" resp="thomas" xml:id="c33603_0027.w.87692">Binnen</w>
           <w cert="1.0" lemma="zestien" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c33603_0027.w.87693">XVI</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="wet" pos="NOU-C(number=sg)" resp="thomas" xml:id="c33603_0027.w.87697">wet</w>
           <w cert="1.0" lemma="omgaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c33603_0027.w.87698">ommeghync</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c33603_0027.w.87699">ten</w>
-          <w cert="1.0" lemma="omgang" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.33603.sense.8" xml:id="c33603_0027.w.87700">ommeganghe</w>
+          <w cert="1.0" lemma="omgang" pos="NOU-C(number=sg)" resp="roland" xml:id="c33603_0027.w.87700" lemmaRef="mnw.33603.sense.8">ommeganghe</w>
           <pc pos="PC" xml:id="c33603_0027.pc.floating.00036210" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62531" lemma="VERDRAEYEN" partition="train" sense-id="mnw.62531.sense.8" xml:id="c62531_0006">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c62531_0006">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERDRAEYEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62531.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62531</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1773">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62531_0006.w.1217767">Dat</w>
           <pc join="right" pos="PC" xml:id="c62531_0006.pc.pre.00488546" lemma="(">(</pc>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="zeer" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c62531_0006.w.1217779">seer</w>
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c62531_0006.w.1217780">mede<join n="mw_277801" />
           </w>
-          <w cert="1.0" lemma="verdraaien" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.62531.sense.8" xml:id="c62531_0006.w.1217781">verdraien</w>
+          <w cert="1.0" lemma="verdraaien" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c62531_0006.w.1217781" lemmaRef="mnw.62531.sense.8">verdraien</w>
           <pc pos="PC" xml:id="c62531_0006.pc.floating.00488549" lemma=",">,</pc>
         </q>
       </cit>

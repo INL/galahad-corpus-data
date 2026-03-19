@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40407" lemma="OVERDIKEN" partition="train" sense-id="mnw.40407.sense.1" xml:id="c40407_0001">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c40407_0001">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OVERDIKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40407.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40407</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1032">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c40407_0001.w.1383351">Omme</w>
           <w cert="1.0" lemma="te+overzien" pos="ADP(type=pre)+VRB(finiteness=inf)" resp="thomas" xml:id="c40407_0001.w.1383352">toversiene</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="medepleger" pos="NOU-C(number=sg)" resp="roland" xml:id="c40407_0001.w.1383362">medepleghers</w>
           <w cert="1.0" lemma="mening" pos="NOU-C(number=sg)" resp="roland" xml:id="c40407_0001.w.1383363">meeninghe</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c40407_0001.w.1383364">hadden</w>
-          <w cert="1.0" lemma="te+overdijken" pos="ADP(type=pre)+VRB(finiteness=inf)" resp="thomas" sense-id="mnw.40407.sense.1" xml:id="c40407_0001.w.1383365">toverdikene</w>
+          <w cert="1.0" lemma="te+overdijken" pos="ADP(type=pre)+VRB(finiteness=inf)" resp="thomas" xml:id="c40407_0001.w.1383365" lemmaRef="mnw.40407.sense.1">toverdikene</w>
           <pc pos="PC" xml:id="c40407_0001.pc.floating.00551435" lemma=",">,</pc>
         </q>
       </cit>

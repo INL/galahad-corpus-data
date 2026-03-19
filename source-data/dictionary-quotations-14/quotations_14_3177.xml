@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74347" lemma="WONE" partition="train" sense-id="mnw.74347.sense.1" xml:id="c74347_0000">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c74347_0000">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WONE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74347.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74347</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3177">
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c74347_0000.w.2077594">Gene</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c74347_0000.w.2077595">goede</w>
@@ -65,7 +78,7 @@
           <pc pos="PC" xml:id="c74347_0000.pc.post.00814689" lemma=")">)</pc>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c74347_0000.w.2077603">mi</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c74347_0000.w.2077604">mijn</w>
-          <w cert="1.0" lemma="woon" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.74347.sense.1" xml:id="c74347_0000.w.2077605">wone</w>
+          <w cert="1.0" lemma="woon" pos="NOU-C(number=sg)" resp="roland" xml:id="c74347_0000.w.2077605" lemmaRef="mnw.74347.sense.1">wone</w>
           <w cert="1.0" lemma="leren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c74347_0000.w.2077606">leren</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c74347_0000.w.2077607">in</w>
           <w cert="1.0" lemma="hof" pos="NOU-C(number=pl)" resp="roland" xml:id="c74347_0000.w.2077608">hoven</w>

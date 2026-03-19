@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55022" lemma="STEGE" partition="train" sense-id="mnw.55022.sense.1" xml:id="c55022_0006">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c55022_0006">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>STEGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55022.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55022</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2219">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c55022_0006.w.1516570">Zo</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c55022_0006.w.1516571">en</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="nieuw" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c55022_0006.w.1516575">nywe</w>
           <w cert="1.0" lemma="straat" pos="NOU-C(number=pl)" resp="roland" xml:id="c55022_0006.w.1516576">straten</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c55022_0006.w.1516577">nochte</w>
-          <w cert="1.0" lemma="steeg" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.55022.sense.1" xml:id="c55022_0006.w.1516578">steghen</w>
+          <w cert="1.0" lemma="steeg" pos="NOU-C(number=pl)" resp="roland" xml:id="c55022_0006.w.1516578" lemmaRef="mnw.55022.sense.1">steghen</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c55022_0006.w.1516579">maken</w>
           <pc pos="PC" xml:id="c55022_0006.pc.post.00627279" lemma=",">,</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c55022_0006.w.1516580">zi</w>

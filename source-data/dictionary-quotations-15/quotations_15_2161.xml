@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72376" lemma="WENINGE" partition="train" sense-id="mnw.72376.sense.1" xml:id="c72376_0001">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c72376_0001">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WENINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72376.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72376</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2161">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c72376_0001.w.1593973">Daer</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c72376_0001.w.1593974">sal</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c72376_0001.w.1593977">ons</w>
           <w cert="1.0" lemma="Heer" pos="NOU-P" resp="thomas" xml:id="c72376_0001.w.1593978">Heer</w>
           <pc pos="PC" xml:id="c72376_0001.pc.post.00638875" lemma=",">,</pc>
-          <w cert="1.0" lemma="wening" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72376.sense.1" xml:id="c72376_0001.w.1593979">weninghe</w>
+          <w cert="1.0" lemma="wening" pos="NOU-C(number=sg)" resp="roland" xml:id="c72376_0001.w.1593979" lemmaRef="mnw.72376.sense.1">weninghe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c72376_0001.w.1593980">ende</w>
           <w cert="1.0" lemma="knarsing" pos="NOU-C(number=sg)" resp="roland" xml:id="c72376_0001.w.1593981">knersinghe</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c72376_0001.w.1593982">van</w>

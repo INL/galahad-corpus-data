@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66825" lemma="VLOET" partition="test" sense-id="mnw.66825.sense.17" xml:id="c66825_0083">
-        <date atLeast="1339" atMost="1341" timeSpan="1300-1350" />
+      <cit xml:id="c66825_0083">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1341" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VLOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66825.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66825</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2795">
           <pc join="right" pos="PC" xml:id="c66825_0083.pc.pre.00192266" lemma="(">(</pc>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66825_0083.w.480490">Gi</w>
@@ -61,7 +74,7 @@
           </w>
           <w cert="1.0" lemma="dezelve" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c66825_0083.w.480496">selve<join n="mw_928856" />
           </w>
-          <w cert="1.0" lemma="vloed" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.66825.sense.17" xml:id="c66825_0083.w.480497">vloet</w>
+          <w cert="1.0" lemma="vloed" pos="NOU-C(number=sg)" resp="roland" xml:id="c66825_0083.w.480497" lemmaRef="mnw.66825.sense.17">vloet</w>
           <pc pos="PC" xml:id="c66825_0083.pc.floating.00192271" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c66825_0083.w.480499">die</w>
           <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" xml:id="c66825_0083.w.480500">uut</w>

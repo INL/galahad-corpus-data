@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62175" lemma="VERBITEN" partition="train" sense-id="mnw.62175.sense.3" xml:id="c62175_0011">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c62175_0011">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERBITEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62175.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62175</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1756">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62175_0011.w.1112414">Ic</w>
           <pc join="right" pos="PC" xml:id="c62175_0011.pc.pre.00448372" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62175_0011.w.1112418">ende</w>
           <w cert="1.0" lemma="koen" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c62175_0011.w.1112419">coener</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62175_0011.w.1112420">ende</w>
-          <w cert="1.0" lemma="verbijten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.62175.sense.3" xml:id="c62175_0011.w.1112421">verbeet</w>
+          <w cert="1.0" lemma="verbijten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62175_0011.w.1112421" lemmaRef="mnw.62175.sense.3">verbeet</w>
           <pc join="right" pos="PC" xml:id="c62175_0011.pc.pre.00448374" lemma="(">(</pc>
           <w cert="1.0" lemma="eend" pos="NOU-C(number=pl)" resp="thomas" xml:id="c62175_0011.w.1112422">h<join n="mw_815284" />
           </w>

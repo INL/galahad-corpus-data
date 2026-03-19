@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31936" lemma="NATURE" partition="train" sense-id="mnw.31936.sense.3" xml:id="c31936_0023">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c31936_0023">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NATURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31936.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31936</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.793">
           <w cert="1.0" lemma="het+zijn" pos="PD(type=pers,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c31936_0023.w.1490188">Tes</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c31936_0023.w.1490189">een</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="zaak" pos="NOU-C(number=pl)" resp="roland" xml:id="c31936_0023.w.1490193">saken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c31936_0023.w.1490194">ende</w>
           <w cert="1.0" lemma="boven" pos="ADP(type=pre)" resp="thomas" xml:id="c31936_0023.w.1490195">boven</w>
-          <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.31936.sense.3" xml:id="c31936_0023.w.1490196">natuere</w>
+          <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c31936_0023.w.1490196" lemmaRef="mnw.31936.sense.3">natuere</w>
           <pc pos="PC" xml:id="c31936_0023.pc.floating.00586911" lemma=",">,</pc>
         </q>
       </cit>

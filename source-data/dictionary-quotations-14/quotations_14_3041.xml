@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72203" lemma="WELCTIJT" partition="train" sense-id="mnw.72203.sense.4" xml:id="c72203_0022">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c72203_0022">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WELCTIJT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72203.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72203</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3041">
           <w cert="1.0" lemma="nochtan" pos="ADV(type=reg)" resp="thomas" xml:id="c72203_0022.w.1569474">Nochtanne</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c72203_0022.w.1569475">so</w>
@@ -54,9 +67,9 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72203_0022.w.1569477">hi</w>
           <w cert="1.0" lemma="vervaren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c72203_0022.w.1569478">vervaert</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c72203_0022.w.1569479">so</w>
-          <w cert="1.0" lemma="welktijd" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.72203.sense.4" xml:id="c72203_0022.w.1569480">welken<join n="mw_122988" />
+          <w cert="1.0" lemma="welktijd" pos="ADV(type=reg)" resp="thomas" xml:id="c72203_0022.w.1569480" lemmaRef="mnw.72203.sense.4">welken<join n="mw_122988" />
           </w>
-          <w cert="1.0" lemma="welktijd" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.72203.sense.4" xml:id="c72203_0022.w.1569481">tijt<join n="mw_122988" />
+          <w cert="1.0" lemma="welktijd" pos="ADV(type=reg)" resp="thomas" xml:id="c72203_0022.w.1569481" lemmaRef="mnw.72203.sense.4">tijt<join n="mw_122988" />
           </w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c72203_0022.w.1569482">dat</w>
           <w cert="1.0" lemma="donderend" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c72203_0022.w.1569483">donderende</w>

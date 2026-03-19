@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10658" lemma="GEDENKEN" partition="dev" sense-id="mnw.10658.sense.2" xml:id="c10658_0000">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c10658_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GEDENKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10658.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10658</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.275">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c10658_0000.w.767568">Sy</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c10658_0000.w.767569">en</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c10658_0000.w.767570">conste</w>
-          <w cert="1.0" lemma="gedenken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.10658.sense.2" xml:id="c10658_0000.w.767571">gedencken</w>
+          <w cert="1.0" lemma="gedenken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c10658_0000.w.767571" lemmaRef="mnw.10658.sense.2">gedencken</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c10658_0000.w.767572">noch</w>
           <w cert="1.0" lemma="gespreken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c10658_0000.w.767573">gespreken</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c10658_0000.w.767574">dan</w>

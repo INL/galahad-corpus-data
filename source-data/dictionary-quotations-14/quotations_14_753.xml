@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18200" lemma="HOUDICH" partition="train" sense-id="mnw.18200.sense.1" xml:id="c18200_0000">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c18200_0000">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HOUDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18200.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18200</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.753">
           <pc join="right" pos="PC" xml:id="c18200_0000.pc.pre.00185642" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c18200_0000.w.454247">Als</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="zullen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c18200_0000.w.454253">suldi</w>
           <w cert="1.0" lemma="dragen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c18200_0000.w.454254">draghen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c18200_0000.w.454255">die</w>
-          <w cert="1.0" lemma="houdig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.18200.sense.1" xml:id="c18200_0000.w.454256">haweghe</w>
+          <w cert="1.0" lemma="houdig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c18200_0000.w.454256" lemmaRef="mnw.18200.sense.1">haweghe</w>
           <w cert="1.0" lemma="schoof" pos="NOU-C(number=sg)" resp="roland" xml:id="c18200_0000.w.454257">scove</w>
           <pc pos="PC" xml:id="c18200_0000.pc.post.00185645" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c18200_0000.w.454258">die</w>

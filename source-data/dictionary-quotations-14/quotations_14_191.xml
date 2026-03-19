@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03790" lemma="BESMETTEN" partition="test" sense-id="mnw.03790.sense.4" xml:id="c03790_0005">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c03790_0005">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BESMETTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03790.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03790</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.191">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c03790_0005.w.758923">Sijn</w>
           <w cert="1.0" lemma="hals" pos="NOU-C(number=sg)" resp="roland" xml:id="c03790_0005.w.758924">hals</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="slecht" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c03790_0005.w.758929">slecht</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c03790_0005.w.758930">ende</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03790_0005.w.758931">was</w>
-          <w cert="1.0" lemma="besmetten" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.03790.sense.4" xml:id="c03790_0005.w.758932">besmet</w>
+          <w cert="1.0" lemma="besmetten" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c03790_0005.w.758932" lemmaRef="mnw.03790.sense.4">besmet</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c03790_0005.w.758933">een</w>
           <w cert="1.0" lemma="lutteltje" pos="NOU-C(number=sg)" resp="roland" xml:id="c03790_0005.w.758934">lettelkijn</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c03790_0005.w.758935">van</w>

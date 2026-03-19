@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62073" lemma="VERBANNEN" partition="train" sense-id="mnw.62073.sense.6" xml:id="c62073_0021">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c62073_0021">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERBANNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62073.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62073</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1743">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62073_0021.w.1078563">Hij</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62073_0021.w.1078564">was</w>
@@ -70,7 +83,7 @@
           <pc pos="PC" xml:id="c62073_0021.pc.post.00435247" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c62073_0021.w.1078581">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62073_0021.w.1078582">hi</w>
-          <w cert="1.0" lemma="verbannen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.62073.sense.6" xml:id="c62073_0021.w.1078583">verbannen</w>
+          <w cert="1.0" lemma="verbannen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c62073_0021.w.1078583" lemmaRef="mnw.62073.sense.6">verbannen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62073_0021.w.1078584">waer</w>
           <pc pos="PC" xml:id="c62073_0021.pc.post.00435248" lemma=",">,</pc>
           <w cert="1.0" lemma="die+hij" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c62073_0021.w.1078585">diene</w>

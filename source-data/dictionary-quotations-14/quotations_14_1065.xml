@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26519" lemma="LIT" partition="train" sense-id="mnw.26519.sense.8" xml:id="c26519_0104">
-        <date atLeast="1326" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c26519_0104">
+        <note>
+          <ab>
+            <date atLeast="1326" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26519.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26519</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1065">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c26519_0104.w.468973">So</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c26519_0104.w.468974">woude</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c26519_0104.pc.post.00182623" lemma=",">,</pc>
           <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c26519_0104.w.468981">lijf</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26519_0104.w.468982">ende</w>
-          <w cert="1.0" lemma="lid" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.26519.sense.8" xml:id="c26519_0104.w.468983">lede</w>
+          <w cert="1.0" lemma="lid" pos="NOU-C(number=pl)" resp="roland" xml:id="c26519_0104.w.468983" lemmaRef="mnw.26519.sense.8">lede</w>
           <pc pos="PC" xml:id="c26519_0104.pc.floating.00182624" lemma=",">,</pc>
         </q>
       </cit>

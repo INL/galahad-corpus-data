@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57338" lemma="TEFFENS" partition="train" sense-id="mnw.57338.sense.1" xml:id="c57338_0010">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c57338_0010">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TEFFENS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57338.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57338</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1577">
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57338_0010.w.111329">Het</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c57338_0010.w.111330">is</w>
           <w cert="1.0" lemma="veel" pos="ADV(type=reg)" resp="thomas" xml:id="c57338_0010.w.111331">veel</w>
           <w cert="1.0" lemma="licht" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c57338_0010.w.111332">lichter</w>
-          <w cert="1.0" lemma="tevens" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.57338.sense.1" xml:id="c57338_0010.w.111333">teffens</w>
+          <w cert="1.0" lemma="tevens" pos="ADV(type=reg)" resp="thomas" xml:id="c57338_0010.w.111333" lemmaRef="mnw.57338.sense.1">teffens</w>
           <pc join="right" pos="PC" xml:id="c57338_0010.pc.pre.00045463" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c57338_0010.w.111334">var.</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c57338_0010.w.111335">al</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66915" lemma="VLUGGE" partition="train" sense-id="mnw.66915.sense.2" xml:id="c66915_0004">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c66915_0004">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VLUGGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66915.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66915</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2800">
           <w cert="1.0" lemma="Pennevare" pos="NOU-P" resp="roland" xml:id="c66915_0004.w.502258">Pennevare</w>
           <pc join="right" pos="PC" xml:id="c66915_0004.pc.pre.00200696" lemma="(">(</pc>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c66915_0004.pc.post.00200697" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c66915_0004.w.502261">was</w>
           <w cert="1.0" lemma="hard" pos="ADV(type=reg)" resp="roland" xml:id="c66915_0004.w.502262">herde</w>
-          <w cert="1.0" lemma="vlug" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.66915.sense.2" xml:id="c66915_0004.w.502263">vlugge</w>
+          <w cert="1.0" lemma="vlug" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c66915_0004.w.502263" lemmaRef="mnw.66915.sense.2">vlugge</w>
           <pc pos="PC" xml:id="c66915_0004.pc.floating.00200698" lemma=";">;</pc>
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66915_0004.w.502265">het</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c66915_0004.w.502266">ginc</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39220" lemma="OPBREKEN" partition="train" sense-id="mnw.39220.sense.6" xml:id="c39220_0005">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c39220_0005">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OPBREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39220.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39220</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1600">
           <pc join="right" pos="PC" xml:id="c39220_0005.pc.pre.00435561" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c39220_0005.w.1087781">Doe</w>
@@ -59,9 +72,9 @@
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="roland" xml:id="c39220_0005.w.1087785">coninc</w>
           <w cert="1.0" lemma="Daciaan" pos="NOU-P" resp="roland" xml:id="c39220_0005.w.1087786">Daciaen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c39220_0005.w.1087787">ende</w>
-          <w cert="1.0" lemma="opbreken" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.39220.sense.6" xml:id="c39220_0005.w.1087788">brac<join n="mw_869150" />
+          <w cert="1.0" lemma="opbreken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c39220_0005.w.1087788" lemmaRef="mnw.39220.sense.6">brac<join n="mw_869150" />
           </w>
-          <w cert="1.0" lemma="opbreken" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.39220.sense.6" xml:id="c39220_0005.w.1087789">op<join n="mw_869150" />
+          <w cert="1.0" lemma="opbreken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c39220_0005.w.1087789" lemmaRef="mnw.39220.sense.6">op<join n="mw_869150" />
           </w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c39220_0005.w.1087790">sijn</w>
           <w cert="1.0" lemma="geding" pos="NOU-C(number=sg)" resp="roland" xml:id="c39220_0005.w.1087791">ghedinghe</w>

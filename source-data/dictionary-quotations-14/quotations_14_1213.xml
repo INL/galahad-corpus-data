@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29909" lemma="MISAVONT" partition="train" sense-id="mnw.29909.sense.1" xml:id="c29909_0000">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c29909_0000">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MISAVONT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29909.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29909</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1213">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c29909_0000.w.1123248">Es</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c29909_0000.w.1123249">te</w>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c29909_0000.pc.post.00440842" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c29909_0000.w.1123263">ende</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c29909_0000.w.1123264">up</w>
-          <w cert="1.0" lemma="misavond" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.29909.sense.1" xml:id="c29909_0000.w.1123265">mesavonden</w>
+          <w cert="1.0" lemma="misavond" pos="NOU-C(number=pl)" resp="roland" xml:id="c29909_0000.w.1123265" lemmaRef="mnw.29909.sense.1">mesavonden</w>
           <w cert="1.0" lemma="tot+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29909_0000.w.1123266">toter</w>
           <w cert="1.0" lemma="noen" pos="NOU-C(number=sg)" resp="roland" xml:id="c29909_0000.w.1123267">noene</w>
           <pc pos="PC" xml:id="c29909_0000.pc.post.00440843" lemma=",">,</pc>

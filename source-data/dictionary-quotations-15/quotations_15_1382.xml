@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51972" lemma="SIMENTEREN" partition="train" sense-id="mnw.51972.sense.1" xml:id="c51972_0000">
-        <date atLeast="1401" atMost="1434" timeSpan="1400-1450" />
+      <cit xml:id="c51972_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1434" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SIMENTEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51972.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51972</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1382">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c51972_0000.w.830402">Zo</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c51972_0000.w.830403">en</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="gemunt" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c51972_0000.w.830408">gemunte</w>
           <w cert="1.0" lemma="gouden" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c51972_0000.w.830409">gouden</w>
           <w cert="1.0" lemma="penning" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51972_0000.w.830410">penning</w>
-          <w cert="1.0" lemma="cementeren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.51972.sense.1" xml:id="c51972_0000.w.830411">symenteren</w>
+          <w cert="1.0" lemma="cementeren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c51972_0000.w.830411" lemmaRef="mnw.51972.sense.1">symenteren</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c51972_0000.w.830412">om</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c51972_0000.w.830413">ter</w>
           <w cert="1.0" lemma="munt" pos="NOU-C(number=sg)" resp="roland" xml:id="c51972_0000.w.830414">munten</w>

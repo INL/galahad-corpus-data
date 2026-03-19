@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26878" lemma="LOON" partition="train" sense-id="mnw.26878.sense.7" xml:id="c26878_0035">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c26878_0035">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LOON</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26878.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26878</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1072">
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c26878_0035.w.527088">Te</w>
           <w cert="1.0" lemma="Rome" pos="NOU-P" resp="thomas" xml:id="c26878_0035.w.527089">Rome</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="roland" xml:id="c26878_0035.w.527103">vader</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c26878_0035.w.527104">gaf</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c26878_0035.w.527105">te</w>
-          <w cert="1.0" lemma="loon" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26878.sense.7" xml:id="c26878_0035.w.527106">lone</w>
+          <w cert="1.0" lemma="loon" pos="NOU-C(number=sg)" resp="roland" xml:id="c26878_0035.w.527106" lemmaRef="mnw.26878.sense.7">lone</w>
           <pc pos="PC" xml:id="c26878_0035.pc.floating.00204721" lemma=",">,</pc>
         </q>
       </cit>

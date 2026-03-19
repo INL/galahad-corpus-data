@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73571" lemma="WILENEERE" partition="train" sense-id="mnw.73571.sense.3" xml:id="c73571_0025">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c73571_0025">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WILENEERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73571.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73571</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2249">
           <w cert="1.0" lemma="Simon" pos="NOU-P" resp="roland" xml:id="c73571_0025.w.1899103">Symoene</w>
           <pc pos="PC" xml:id="c73571_0025.pc.post.00747827" lemma=",">,</pc>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c73571_0025.w.1899105">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73571_0025.w.1899106">den</w>
           <w cert="1.0" lemma="tempel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c73571_0025.w.1899107">tempel</w>
-          <w cert="1.0" lemma="weleer" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.73571.sense.3" xml:id="c73571_0025.w.1899108">wilenee</w>
+          <w cert="1.0" lemma="weleer" pos="ADV(type=reg)" resp="thomas" xml:id="c73571_0025.w.1899108" lemmaRef="mnw.73571.sense.3">wilenee</w>
           <w cert="1.0" lemma="zingen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73571_0025.w.1899109">sanc</w>
           <pc pos="PC" xml:id="c73571_0025.pc.post.00747828" lemma=":">:</pc>
           <w cert="1.0" lemma="nunc" pos="RES(type=for)" resp="thomas" xml:id="c73571_0025.w.1899110">Nunc</w>

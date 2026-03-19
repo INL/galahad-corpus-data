@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46799" lemma="ROEMICH" partition="train" sense-id="mnw.46799.sense.1" xml:id="c46799_0000">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c46799_0000">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ROEMICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46799.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46799</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1205">
           <pc join="right" pos="PC" xml:id="c46799_0000.pc.pre.00432014" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c46799_0000.w.1098575">Hi</w>
@@ -60,7 +73,7 @@
           </w>
           <pc pos="PC" xml:id="c46799_0000.pc.post.00432017" lemma=")">)</pc>
           <w cert="1.0" lemma="gedachte" pos="NOU-C(number=sg)" resp="thomas" xml:id="c46799_0000.w.1098580">gedochte</w>
-          <w cert="1.0" lemma="roemig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.46799.sense.1" xml:id="c46799_0000.w.1098581">roemeghe</w>
+          <w cert="1.0" lemma="roemig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c46799_0000.w.1098581" lemmaRef="mnw.46799.sense.1">roemeghe</w>
           <w cert="1.0" lemma="woord" pos="NOU-C(number=pl)" resp="thomas" xml:id="c46799_0000.w.1098582">worden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c46799_0000.w.1098583">ende</w>
           <w cert="1.0" lemma="onbekend" pos="AA(degree=pos,position=postnom)" resp="thomas" xml:id="c46799_0000.w.1098584">onbekint</w>

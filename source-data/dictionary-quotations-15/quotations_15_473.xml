@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19077" lemma="INDRAGEN" partition="train" sense-id="mnw.19077.sense.10" xml:id="c19077_0011">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c19077_0011">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>INDRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19077.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19077</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.473">
           <w cert="1.0" lemma="beschermen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c19077_0011.w.593178">Beschermt</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c19077_0011.w.593179">si</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c19077_0011.w.593184">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c19077_0011.w.593185">van</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c19077_0011.w.593186">allen</w>
-          <w cert="1.0" lemma="indragen" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.19077.sense.10" xml:id="c19077_0011.w.593187">indragen</w>
+          <w cert="1.0" lemma="indragen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19077_0011.w.593187" lemmaRef="mnw.19077.sense.10">indragen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c19077_0011.w.593188">der</w>
           <w cert="1.0" lemma="boos" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c19077_0011.w.593189">booser</w>
           <w cert="1.0" lemma="geest" pos="NOU-C(number=pl)" resp="thomas" xml:id="c19077_0011.w.593190">geesten</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21144" lemma="KEREN" partition="train" sense-id="mnw.21144.sense.67" xml:id="c21144_0261">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c21144_0261">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>KEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21144.sense.67</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21144</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.516">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21144_0261.w.927851">Men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c21144_0261.w.927852">sal</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c21144_0261.w.927858">dan</w>
           <w cert="1.0" lemma="tot+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c21144_0261.w.927859">toten</w>
           <w cert="1.0" lemma="mere" pos="NOU-C(number=sg)" resp="roland" xml:id="c21144_0261.w.927860">meeren</w>
-          <w cert="1.0" lemma="keren" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.21144.sense.67" xml:id="c21144_0261.w.927861">keren</w>
+          <w cert="1.0" lemma="keren" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21144_0261.w.927861" lemmaRef="mnw.21144.sense.67">keren</w>
           <pc pos="PC" xml:id="c21144_0261.pc.floating.00374998" lemma=",">,</pc>
         </q>
       </cit>

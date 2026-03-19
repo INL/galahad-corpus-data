@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54532" lemma="STAEN" partition="train" sense-id="mnw.54532.sense.73" xml:id="c54532_0303">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c54532_0303">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>STAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54532.sense.73</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54532</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2193">
           <w cert="1.0" lemma="Parijs" pos="NOU-P" resp="roland" xml:id="c54532_0303.w.1399429">Parijs</w>
           <pc pos="PC" xml:id="c54532_0303.pc.post.00580330" lemma=",">,</pc>
@@ -58,7 +71,7 @@
           </w>
           <w cert="1.0" lemma="vandaan" pos="ADV(type=reg)" resp="roland" xml:id="c54532_0303.w.1399435">dannen<join n="mw_940620" />
           </w>
-          <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.54532.sense.73" xml:id="c54532_0303.w.1399436">stoet</w>
+          <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c54532_0303.w.1399436" lemmaRef="mnw.54532.sense.73">stoet</w>
           <pc pos="PC" xml:id="c54532_0303.pc.floating.00580332" lemma=",">,</pc>
         </q>
       </cit>

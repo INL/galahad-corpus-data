@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58008" lemma="TIEN" partition="train" sense-id="mnw.58008.sense.14" xml:id="c58008_0038">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c58008_0038">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58008.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58008</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1590">
           <pc pos="PC" xml:id="c58008_0038.pc.floating.00095818" lemma="—">—</pc>
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c58008_0038.w.234131">Al</w>
@@ -86,7 +99,7 @@
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c58008_0038.w.234158">an</w>
           <w cert="1.0" lemma="mij" pos="PD(type=refl,position=free)" resp="thomas" xml:id="c58008_0038.w.234159">mi</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c58008_0038.w.234160">wil</w>
-          <w cert="1.0" lemma="tijgen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.58008.sense.14" xml:id="c58008_0038.w.234161">tyen</w>
+          <w cert="1.0" lemma="tijgen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58008_0038.w.234161" lemmaRef="mnw.58008.sense.14">tyen</w>
           <pc join="right" pos="PC" xml:id="c58008_0038.pc.pre.00095826" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58008_0038.w.234162">welken</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58008_0038.w.234163">lof</w>

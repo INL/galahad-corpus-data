@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25449" lemma="LEET" partition="test" sense-id="mnw.25449.sense.4" xml:id="c25449_0010">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c25449_0010">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LEET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25449.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25449</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.996">
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25449_0010.w.199904">Ghi</w>
           <pc pos="PC" xml:id="c25449_0010.pc.floating.00077126" lemma="…,">…,</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c25449_0010.w.199910">al</w>
           <pc pos="PC" xml:id="c25449_0010.pc.post.00077127" lemma=",">,</pc>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c25449_0010.w.199911">dit</w>
-          <w cert="1.0" lemma="leed" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25449.sense.4" xml:id="c25449_0010.w.199912">leit</w>
+          <w cert="1.0" lemma="leed" pos="NOU-C(number=sg)" resp="roland" xml:id="c25449_0010.w.199912" lemmaRef="mnw.25449.sense.4">leit</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25449_0010.w.199913">ende</w>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c25449_0010.w.199914">dit</w>
           <w cert="1.0" lemma="ongeval" pos="NOU-C(number=sg)" resp="roland" xml:id="c25449_0010.w.199915">ongheval</w>

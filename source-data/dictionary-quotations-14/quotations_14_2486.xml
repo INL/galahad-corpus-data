@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61279" lemma="VALSCHER" partition="train" sense-id="mnw.61279.sense.2" xml:id="c61279_0006">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c61279_0006">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VALSCHER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61279.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61279</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2486">
           <w cert="1.0" lemma="kwadij" pos="NOU-C(number=pl)" resp="roland" xml:id="c61279_0006.w.905644">Quadien</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c61279_0006.w.905645">ende</w>
-          <w cert="1.0" lemma="valser" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.61279.sense.2" xml:id="c61279_0006.w.905646">valsceren</w>
+          <w cert="1.0" lemma="valser" pos="NOU-C(number=pl)" resp="roland" xml:id="c61279_0006.w.905646" lemmaRef="mnw.61279.sense.2">valsceren</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=postnom)" resp="roland" xml:id="c61279_0006.w.905647">groot</w>
           <pc pos="PC" xml:id="c61279_0006.pc.post.00365542" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c61279_0006.w.905648">dat</w>

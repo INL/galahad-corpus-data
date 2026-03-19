@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19134" lemma="INGEDOEME" partition="train" sense-id="mnw.19134.sense.2" xml:id="c19134_0003">
-        <date atLeast="1408" atMost="1414" timeSpan="1400-1450" />
+      <cit xml:id="c19134_0003">
+        <note>
+          <ab>
+            <date atLeast="1408" atMost="1414" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>INGEDOEME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19134.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19134</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.476">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c19134_0003.w.600671">Die</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c19134_0003.w.600672">zel</w>
@@ -81,7 +94,7 @@
           <w cert="1.0" lemma="deel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19134_0003.w.600701">deel</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c19134_0003.w.600702">van</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c19134_0003.w.600703">zijnen</w>
-          <w cert="1.0" lemma="ingedom" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.19134.sense.2" xml:id="c19134_0003.w.600704">inghedom</w>
+          <w cert="1.0" lemma="ingedom" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19134_0003.w.600704" lemmaRef="mnw.19134.sense.2">inghedom</w>
           <pc pos="PC" xml:id="c19134_0003.pc.floating.00245160" lemma=",">,</pc>
         </q>
       </cit>

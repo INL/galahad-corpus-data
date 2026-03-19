@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58624" lemma="TOESTOPEN" partition="train" sense-id="mnw.58624.sense.1" xml:id="c58624_0000">
-        <date atLeast="1455" atMost="1465" timeSpan="1450-1500" />
+      <cit xml:id="c58624_0000">
+        <note>
+          <ab>
+            <date atLeast="1455" atMost="1465" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TOESTOPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58624.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58624</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1625">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c58624_0000.w.362332">Hoe</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c58624_0000.w.362333">dat</w>
@@ -69,10 +82,10 @@
           <w cert="1.0" lemma="toespreken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58624_0000.w.362349">spreken<join n="mw_430949" />
           </w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58624_0000.w.362350">ende</w>
-          <w cert="1.0" lemma="toestopen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.58624.sense.1" xml:id="c58624_0000.w.362351">toe<join n="mw_536181" />
+          <w cert="1.0" lemma="toestopen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58624_0000.w.362351" lemmaRef="mnw.58624.sense.1">toe<join n="mw_536181" />
           </w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c58624_0000.w.362352">te</w>
-          <w cert="1.0" lemma="toestopen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.58624.sense.1" xml:id="c58624_0000.w.362353">stoopen<join n="mw_536181" />
+          <w cert="1.0" lemma="toestopen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58624_0000.w.362353" lemmaRef="mnw.58624.sense.1">stoopen<join n="mw_536181" />
           </w>
           <pc pos="PC" xml:id="c58624_0000.pc.floating.00147249" lemma=",">,</pc>
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c58624_0000.w.362355">segghende</w>

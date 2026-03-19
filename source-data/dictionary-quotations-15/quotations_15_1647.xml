@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59043" lemma="TOTE" partition="train" sense-id="mnw.59043.sense.22" xml:id="c59043_0202">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c59043_0202">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TOTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59043.sense.22</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59043</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1647">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c59043_0202.w.457995">Die</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c59043_0202.w.457996">hi</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="niet" pos="PD(type=indef,position=free)" resp="roland" xml:id="c59043_0202.w.457998">niet</w>
           <w cert="1.0" lemma="scheppen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c59043_0202.w.457999">gescapen</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c59043_0202.w.458000">heeft</w>
-          <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.59043.sense.22" xml:id="c59043_0202.w.458001">tot</w>
+          <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c59043_0202.w.458001" lemmaRef="mnw.59043.sense.22">tot</w>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c59043_0202.w.458002">alsoo</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c59043_0202.w.458003">groter</w>
           <w cert="1.0" lemma="eer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59043_0202.w.458004">eren</w>

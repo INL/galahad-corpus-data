@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27686" lemma="MAINTENANCE" partition="train" sense-id="mnw.27686.sense.1" xml:id="c27686_0000">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c27686_0000">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MAINTENANCE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27686.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27686</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.683">
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="c27686_0000.w.700968">Na</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27686_0000.w.700969">der</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="oud" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c27686_0000.w.700974">ouder</w>
           <w cert="1.0" lemma="costume" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27686_0000.w.700975">costumen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c27686_0000.w.700976">ende</w>
-          <w cert="1.0" lemma="maintenance" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.27686.sense.1" xml:id="c27686_0000.w.700977">maintenanchen</w>
+          <w cert="1.0" lemma="maintenance" pos="NOU-C(number=sg)" resp="thomas" xml:id="c27686_0000.w.700977" lemmaRef="mnw.27686.sense.1">maintenanchen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c27686_0000.w.700978">van</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c27686_0000.w.700979">onser</w>
           <w cert="1.0" lemma="stede" pos="NOU-C(number=sg)" resp="roland" xml:id="c27686_0000.w.700980">stede</w>

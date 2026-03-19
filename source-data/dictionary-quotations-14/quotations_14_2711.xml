@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64975" lemma="VERSUCHTEN" partition="train" sense-id="mnw.64975.sense.2" xml:id="c64975_0011">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c64975_0011">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERSUCHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64975.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64975</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2711">
           <pc join="right" pos="PC" xml:id="c64975_0011.pc.pre.00024233" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c64975_0011.w.62410">Doe</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c64975_0011.w.62416">niet</w>
           <pc pos="PC" xml:id="c64975_0011.pc.post.00024235" lemma=",">,</pc>
           <w cert="1.0" lemma="hij+ne" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="roland" xml:id="c64975_0011.w.62417">hine</w>
-          <w cert="1.0" lemma="verzuchten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.64975.sense.2" xml:id="c64975_0011.w.62418">versuchte</w>
+          <w cert="1.0" lemma="verzuchten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c64975_0011.w.62418" lemmaRef="mnw.64975.sense.2">versuchte</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c64975_0011.w.62419">alse</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64975_0011.w.62420">hi</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c64975_0011.w.62421">van</w>

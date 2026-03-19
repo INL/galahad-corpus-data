@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06967" lemma="DOLE" partition="train" sense-id="mnw.06967.sense.3" xml:id="c06967_0007">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c06967_0007">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>DOLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06967.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06967</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.196">
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c06967_0007.w.204875">Her</w>
           <w cert="1.0" lemma="Jezus" pos="NOU-P" resp="roland" xml:id="c06967_0007.w.204876">Jhesus</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="leven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c06967_0007.w.204889">leve</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c06967_0007.w.204890">ic</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c06967_0007.w.204891">in</w>
-          <w cert="1.0" lemma="dool" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06967.sense.3" xml:id="c06967_0007.w.204892">dolen</w>
+          <w cert="1.0" lemma="dool" pos="NOU-C(number=sg)" resp="roland" xml:id="c06967_0007.w.204892" lemmaRef="mnw.06967.sense.3">dolen</w>
           <pc pos="PC" xml:id="c06967_0007.pc.floating.00086893" lemma=",">,</pc>
         </q>
       </cit>

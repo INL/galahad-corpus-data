@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19125" lemma="INGEBOORTICH" partition="train" sense-id="mnw.19125.sense.2" xml:id="c19125_0001">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c19125_0001">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>INGEBOORTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19125.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19125</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.475">
           <w cert="1.0" lemma="wijs" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c19125_0001.w.599558">Wijs</w>
           <pc pos="PC" xml:id="c19125_0001.pc.post.00244733" lemma=",">,</pc>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c19125_0001.pc.post.00244734" lemma=",">,</pc>
           <w cert="1.0" lemma="overmits" pos="ADP(type=pre)" resp="thomas" xml:id="c19125_0001.w.599564">overmits</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c19125_0001.w.599565">haer</w>
-          <w cert="1.0" lemma="ingeboortig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.19125.sense.2" xml:id="c19125_0001.w.599566">ingheboirtighe</w>
+          <w cert="1.0" lemma="ingeboortig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c19125_0001.w.599566" lemmaRef="mnw.19125.sense.2">ingheboirtighe</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c19125_0001.w.599567">nature</w>
           <pc pos="PC" xml:id="c19125_0001.pc.post.00244735" lemma=",">,</pc>
         </q>

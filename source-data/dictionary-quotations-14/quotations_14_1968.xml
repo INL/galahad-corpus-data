@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48336" lemma="SAP" partition="test" sense-id="mnw.48336.sense.1" xml:id="c48336_0003">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c48336_0003">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48336.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48336</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1968">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48336_0003.w.116514">Die</w>
           <w cert="1.0" lemma="fontein" pos="NOU-C(number=sg)" resp="roland" xml:id="c48336_0003.w.116515">fonteyne</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c48336_0003.w.116519">gaf</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c48336_0003.w.116520">den</w>
           <w cert="1.0" lemma="boom" pos="NOU-C(number=pl)" resp="roland" xml:id="c48336_0003.w.116521">bomen</w>
-          <w cert="1.0" lemma="sap" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48336.sense.1" xml:id="c48336_0003.w.116522">zaeps</w>
+          <w cert="1.0" lemma="sap" pos="NOU-C(number=sg)" resp="roland" xml:id="c48336_0003.w.116522" lemmaRef="mnw.48336.sense.1">zaeps</w>
           <w cert="1.0" lemma="genoeg" pos="ADV(type=reg)" resp="thomas" xml:id="c48336_0003.w.116523">ghenoech</w>
           <pc pos="PC" xml:id="c48336_0003.pc.post.00048501" lemma=",">,</pc>
         </q>

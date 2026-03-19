@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66353" lemma="VISCHSCHELLE" partition="train" sense-id="mnw.66353.sense.1" xml:id="c66353_0002">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c66353_0002">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VISCHSCHELLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66353.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66353</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1960">
           <w cert="1.0" lemma="wanneer" pos="CONJ(type=sub)" resp="roland" xml:id="c66353_0002.w.389982">Wanneer</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66353_0002.w.389983">men</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66353_0002.w.389990">die</w>
           <w cert="1.0" lemma="urine" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66353_0002.w.389991">urijn</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c66353_0002.w.389992">als</w>
-          <w cert="1.0" lemma="visschel" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.66353.sense.1" xml:id="c66353_0002.w.389993">visschellen</w>
+          <w cert="1.0" lemma="visschel" pos="NOU-C(number=pl)" resp="roland" xml:id="c66353_0002.w.389993" lemmaRef="mnw.66353.sense.1">visschellen</w>
           <pc pos="PC" xml:id="c66353_0002.pc.floating.00154855" lemma=",">,</pc>
         </q>
       </cit>

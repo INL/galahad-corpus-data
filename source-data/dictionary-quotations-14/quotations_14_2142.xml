@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53394" lemma="SONDER" partition="train" sense-id="mnw.53394.sense.6" xml:id="c53394_0064">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c53394_0064">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SONDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53394.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53394</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2142">
           <w cert="1.0" lemma="Isidorus" pos="NOU-P" resp="roland" xml:id="c53394_0064.w.1151119">Ysidorus</w>
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c53394_0064.w.1151120">spreect</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="menen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c53394_0064.w.1151122">meent</w>
           <pc pos="PC" xml:id="c53394_0064.pc.post.00477918" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c53394_0064.w.1151123">dat</w>
-          <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.53394.sense.6" xml:id="c53394_0064.w.1151124">sonder</w>
+          <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="thomas" xml:id="c53394_0064.w.1151124" lemmaRef="mnw.53394.sense.6">sonder</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c53394_0064.w.1151125">den</w>
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="c53394_0064.w.1151126">mensche</w>
           <w cert="1.0" lemma="el" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c53394_0064.w.1151127">el</w>

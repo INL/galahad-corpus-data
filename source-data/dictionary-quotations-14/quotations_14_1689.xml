@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41534" lemma="PALESTEEL" partition="train" sense-id="mnw.41534.sense.1" xml:id="c41534_0005">
-        <date atLeast="1290" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c41534_0005">
+        <note>
+          <ab>
+            <date atLeast="1290" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PALESTEEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41534.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41534</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1689">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c41534_0005.w.42692">Hi</w>
           <pc join="right" pos="PC" xml:id="c41534_0005.pc.pre.00016344" lemma="(">(</pc>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c41534_0005.pc.floating.00016346" lemma="…">…</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c41534_0005.w.42698">met</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c41534_0005.w.42699">enen</w>
-          <w cert="1.0" lemma="palensteel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41534.sense.1" xml:id="c41534_0005.w.42700">palenstene</w>
+          <w cert="1.0" lemma="palensteel" pos="NOU-C(number=sg)" resp="roland" xml:id="c41534_0005.w.42700" lemmaRef="mnw.41534.sense.1">palenstene</w>
           <w cert="1.0" lemma="groen" pos="AA(degree=pos,position=postnom)" resp="thomas" xml:id="c41534_0005.w.42701">groene</w>
           <pc pos="PC" xml:id="c41534_0005.pc.post.00016347" lemma=",">,</pc>
         </q>

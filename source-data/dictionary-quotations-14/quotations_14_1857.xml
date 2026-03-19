@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45454" lemma="RECHTE" partition="test" sense-id="mnw.45454.sense.23" xml:id="c45454_0117">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c45454_0117">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>RECHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45454.sense.23</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45454</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1857">
           <pc join="right" pos="PC" xml:id="c45454_0117.pc.pre.00312338" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c45454_0117.w.795524">Hi</w>
           <pc pos="PC" xml:id="c45454_0117.pc.post.00312339" lemma=")">)</pc>
           <w cert="1.0" lemma="vallen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c45454_0117.w.795525">viel</w>
-          <w cert="1.0" lemma="recht" pos="ADV(type=reg)" resp="roland" sense-id="mnw.45454.sense.23" xml:id="c45454_0117.w.795526">rechte</w>
+          <w cert="1.0" lemma="recht" pos="ADV(type=reg)" resp="roland" xml:id="c45454_0117.w.795526" lemmaRef="mnw.45454.sense.23">rechte</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c45454_0117.w.795527">alse</w>
           <w cert="1.0" lemma="dood" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c45454_0117.w.795528">doot</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45454_0117.w.795529">ter</w>

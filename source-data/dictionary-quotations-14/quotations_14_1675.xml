@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40934" lemma="OVERSLAEN" partition="train" sense-id="mnw.40934.sense.15" xml:id="c40934_0032">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c40934_0032">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OVERSLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40934.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40934</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1675">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c40934_0032.w.1483586">Als</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c40934_0032.w.1483587">een</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c40934_0032.w.1483593">sine</w>
           <w cert="1.0" lemma="zonde" pos="NOU-C(number=pl)" resp="roland" xml:id="c40934_0032.w.1483594">sonden</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c40934_0032.w.1483595">al</w>
-          <w cert="1.0" lemma="overslaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.40934.sense.15" xml:id="c40934_0032.w.1483596">overslaet</w>
+          <w cert="1.0" lemma="overslaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c40934_0032.w.1483596" lemmaRef="mnw.40934.sense.15">overslaet</w>
           <pc pos="PC" xml:id="c40934_0032.pc.floating.00589875" lemma=",">,</pc>
         </q>
       </cit>

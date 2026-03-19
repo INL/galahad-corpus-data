@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49287" lemma="SCHENKE" partition="train" sense-id="mnw.49287.sense.1" xml:id="c49287_0009">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c49287_0009">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHENKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49287.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49287</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1991">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49287_0009.w.316703">Der</w>
-          <w cert="1.0" lemma="schenke" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.49287.sense.1" xml:id="c49287_0009.w.316704">scinken</w>
+          <w cert="1.0" lemma="schenke" pos="NOU-C(number=pl)" resp="roland" xml:id="c49287_0009.w.316704" lemmaRef="mnw.49287.sense.1">scinken</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,position=free)" resp="roland" xml:id="c49287_0009.w.316705">vele</w>
           <w cert="1.0" lemma="daarom" pos="ADV(type=pron)" resp="thomas" xml:id="c49287_0009.w.316706">daer<join n="mw_450041" />
           </w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="kop" pos="NOU-C(number=sg)" resp="roland" xml:id="c49287_0009.w.316713">coppe</w>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49287_0009.w.316714">entie</w>
           <w cert="1.0" lemma="zilveren" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c49287_0009.w.316715">silverine</w>
-          <w cert="1.0" lemma="schenken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.49287.sense.1" xml:id="c49287_0009.w.316716">scincken</w>
+          <w cert="1.0" lemma="schenken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c49287_0009.w.316716" lemmaRef="mnw.49287.sense.1">scincken</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c49287_0009.w.316717">si</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c49287_0009.w.316718">den</w>
           <w cert="1.0" lemma="klaarheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c49287_0009.w.316719">clareit</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23466" lemma="CORTSE" partition="train" sense-id="mnw.23466.sense.1" xml:id="c23466_0021">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c23466_0021">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CORTSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23466.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23466</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.915">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c23466_0021.w.1341242">Dat</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c23466_0021.w.1341243">ene</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c23466_0021.w.1341247">ghehad</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c23466_0021.w.1341248">den</w>
           <w cert="1.0" lemma="vierde" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c23466_0021.w.1341249">vierden</w>
-          <w cert="1.0" lemma="koorts" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.23466.sense.1" xml:id="c23466_0021.w.1341250">keurch</w>
+          <w cert="1.0" lemma="koorts" pos="NOU-C(number=sg)" resp="roland" xml:id="c23466_0021.w.1341250" lemmaRef="mnw.23466.sense.1">keurch</w>
           <pc join="right" pos="PC" xml:id="c23466_0021.pc.pre.00539612" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c23466_0021.w.1341251">spr.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c23466_0021.w.1341252">keursj</w>

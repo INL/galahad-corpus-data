@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58364" lemma="TOEGANGER" partition="train" sense-id="mnw.58364.sense.1" xml:id="c58364_0000">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c58364_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TOEGANGER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58364.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58364</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1606">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c58364_0000.w.310678">Den</w>
-          <w cert="1.0" lemma="toeganger" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.58364.sense.1" xml:id="c58364_0000.w.310679">toegangher</w>
+          <w cert="1.0" lemma="toeganger" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58364_0000.w.310679" lemmaRef="mnw.58364.sense.1">toegangher</w>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c58364_0000.w.310680">tot</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c58364_0000.w.310681">Gode</w>
           <w cert="1.0" lemma="behoren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c58364_0000.w.310682">behoort</w>

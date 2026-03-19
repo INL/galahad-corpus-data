@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54647" lemma="STANDAERT" partition="train" sense-id="mnw.54647.sense.6" xml:id="c54647_0009">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c54647_0009">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STANDAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54647.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54647</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2206">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c54647_0009.w.1443663">Die</w>
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="roland" xml:id="c54647_0009.w.1443664">coninc</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c54647_0009.w.1443673">comen</w>
           <pc pos="PC" xml:id="c54647_0009.pc.post.00597719" lemma=":">:</pc>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c54647_0009.w.1443674">sinen</w>
-          <w cert="1.0" lemma="standaard" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.54647.sense.6" xml:id="c54647_0009.w.1443675">standaert</w>
+          <w cert="1.0" lemma="standaard" pos="NOU-C(number=sg)" resp="roland" xml:id="c54647_0009.w.1443675" lemmaRef="mnw.54647.sense.6">standaert</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c54647_0009.w.1443676">so</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c54647_0009.w.1443677">dede</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c54647_0009.w.1443678">hi</w>

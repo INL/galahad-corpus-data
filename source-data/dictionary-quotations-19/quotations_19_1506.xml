@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M087733" lemma="ZAAK" modern-lemma="zaak" partition="train" pos="NOU-C" sense-id="M087733.bet.495" xml:id="M087733.eg.6966">
-        <date atLeast="1805" atMost="1805" timeSpan="1800-1850" />
+      <cit xml:id="M087733.eg.6966">
+        <note>
+          <ab>
+            <date atLeast="1805" atMost="1805" extent="1800-1850" />
+            <interpGrp type="lemma">
+              <interp>ZAAK</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M087733.bet.495</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>zaak</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M087733</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1506">
           <w cert="1.0" lemma="het" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1443900">'t</w>
           <w cert="1.0" lemma="gerucht" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1443901">Gerucht</w>
@@ -58,7 +77,7 @@
           <pc pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00469844" lemma=",">,</pc>
           <w cert="1.0" lemma="misvormen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1443906">misvormt</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1443907">de</w>
-          <w cert="1.0" lemma="zaak" pos="NOU-C(number=pl)" resp="thomas" sense-id="M087733.bet.495" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1443908">zaken</w>
+          <w cert="1.0" lemma="zaak" pos="NOU-C(number=pl)" resp="thomas" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.1443908" lemmaRef="M087733.bet.495">zaken</w>
           <pc pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00469845" lemma=",">,</pc>
         </q>
       </cit>

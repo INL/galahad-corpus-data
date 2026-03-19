@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31471" lemma="NADAET" partition="train" sense-id="mnw.31471.sense.1" xml:id="c31471_0000">
-        <date atLeast="1425" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c31471_0000">
+        <note>
+          <ab>
+            <date atLeast="1425" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NADAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31471.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31471</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.780">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c31471_0000.w.1411240">Soo</w>
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="thomas" xml:id="c31471_0000.w.1411241">woor</w>
@@ -95,7 +108,7 @@
           </w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c31471_0000.w.1411278">gaet</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c31471_0000.w.1411279">van</w>
-          <w cert="1.0" lemma="nadaad" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.31471.sense.1" xml:id="c31471_0000.w.1411280">nadaden</w>
+          <w cert="1.0" lemma="nadaad" pos="NOU-C(number=pl)" resp="roland" xml:id="c31471_0000.w.1411280" lemmaRef="mnw.31471.sense.1">nadaden</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c31471_0000.w.1411281">of</w>
           <w cert="1.0" lemma="kind" pos="NOU-C(number=pl)" resp="roland" xml:id="c31471_0000.w.1411282">kynderen</w>
           <w cert="1.0" lemma="toe" pos="ADP(type=pre)" resp="thomas" xml:id="c31471_0000.w.1411283">tho</w>

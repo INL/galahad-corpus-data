@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01968" lemma="AVENTURE" partition="test" sense-id="mnw.01968.sense.29" xml:id="c01968_0134">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c01968_0134">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>AVENTURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01968.sense.29</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01968</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.74">
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c01968_0134.w.354655">God</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c01968_0134.w.354656">heeft</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c01968_0134.w.354657">mi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c01968_0134.w.354658">die</w>
-          <w cert="1.0" lemma="avontuur" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.01968.sense.29" xml:id="c01968_0134.w.354659">aventure</w>
+          <w cert="1.0" lemma="avontuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c01968_0134.w.354659" lemmaRef="mnw.01968.sense.29">aventure</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c01968_0134.w.354660">gegeven</w>
           <pc pos="PC" xml:id="c01968_0134.pc.post.00140445" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c01968_0134.w.354661">dat</w>

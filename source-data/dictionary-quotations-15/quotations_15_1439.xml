@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53416" lemma="SONDIGEN" partition="train" sense-id="mnw.53416.sense.1" xml:id="c53416_0000">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c53416_0000">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SONDIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53416.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53416</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1439">
           <w cert="1.0" lemma="te+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c53416_0000.w.1165913">Ten</w>
           <w cert="1.0" lemma="eerste" pos="NOU-C(number=sg)" resp="thomas" xml:id="c53416_0000.w.1165914">eersten</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c53416_0000.w.1165915">so</w>
-          <w cert="1.0" lemma="zondigen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.53416.sense.1" xml:id="c53416_0000.w.1165916">sondicht</w>
+          <w cert="1.0" lemma="zondigen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c53416_0000.w.1165916" lemmaRef="mnw.53416.sense.1">sondicht</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c53416_0000.w.1165917">die</w>
           <w cert="1.0" lemma="traag" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c53416_0000.w.1165918">traghe</w>
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="thomas" xml:id="c53416_0000.w.1165919">mensche</w>

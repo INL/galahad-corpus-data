@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08990" lemma="ERFELIJC" partition="train" sense-id="mnw.08990.sense.6" xml:id="c08990_0012">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c08990_0012">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ERFELIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08990.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08990</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.240">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c08990_0012.w.516524">Als</w>
           <w cert="1.0" lemma="hertog" pos="NOU-C(number=sg)" resp="roland" xml:id="c08990_0012.w.516525">hertoghe</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="scheiden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c08990_0012.w.516528">ghescheiden</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c08990_0012.w.516529">hadde</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c08990_0012.w.516530">sijn</w>
-          <w cert="1.0" lemma="erfelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.08990.sense.6" xml:id="c08990_0012.w.516531">erflec</w>
+          <w cert="1.0" lemma="erfelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c08990_0012.w.516531" lemmaRef="mnw.08990.sense.6">erflec</w>
           <w cert="1.0" lemma="goed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c08990_0012.w.516532">goet</w>
           <pc pos="PC" xml:id="c08990_0012.pc.post.00223360" lemma=",">,</pc>
         </q>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04000" lemma="BETALEN" partition="test" sense-id="mnw.04000.sense.10" xml:id="c04000_0012">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c04000_0012">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BETALEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04000.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04000</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.208">
           <w cert="1.0" lemma="medicijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c04000_0012.w.813246">Medicine</w>
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c04000_0012.w.813247">jeghen</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="zwaar" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c04000_0012.w.813253">sware</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c04000_0012.w.813254">den</w>
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="c04000_0012.w.813255">menschen</w>
-          <w cert="1.0" lemma="betalen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.04000.sense.10" xml:id="c04000_0012.w.813256">betalen</w>
+          <w cert="1.0" lemma="betalen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c04000_0012.w.813256" lemmaRef="mnw.04000.sense.10">betalen</w>
           <pc pos="PC" xml:id="c04000_0012.pc.floating.00318210" lemma=",">,</pc>
         </q>
       </cit>

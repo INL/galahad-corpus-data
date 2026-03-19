@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60926" lemma="UTEVECHTEN" partition="train" sense-id="mnw.60926.sense.1" xml:id="c60926_0001">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c60926_0001">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>UTEVECHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60926.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60926</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1697">
           <w cert="1.0" lemma="dik" pos="ADV(type=reg)" resp="thomas" xml:id="c60926_0001.w.813531">Duck</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60926_0001.w.813532">hebben</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60926_0001.w.813533">si</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60926_0001.w.813534">mi</w>
-          <w cert="1.0" lemma="uitvechten" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.60926.sense.1" xml:id="c60926_0001.w.813535">uutgevochten</w>
+          <w cert="1.0" lemma="uitvechten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c60926_0001.w.813535" lemmaRef="mnw.60926.sense.1">uutgevochten</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c60926_0001.w.813536">van</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c60926_0001.w.813537">mijnre</w>
           <w cert="1.0" lemma="jeugd" pos="NOU-C(number=sg)" resp="thomas" xml:id="c60926_0001.w.813538">jooget</w>

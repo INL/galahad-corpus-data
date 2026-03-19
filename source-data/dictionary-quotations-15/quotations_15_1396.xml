@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52223" lemma="SLAEP" partition="train" sense-id="mnw.52223.sense.1" xml:id="c52223_0014">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c52223_0014">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SLAEP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52223.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52223</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1396">
           <pc join="right" pos="PC" xml:id="c52223_0014.pc.pre.00377750" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c52223_0014.w.909625">Doe</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c52223_0014.w.909627">mi</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c52223_0014.w.909628">in</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c52223_0014.w.909629">minen</w>
-          <w cert="1.0" lemma="slaap" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.52223.sense.1" xml:id="c52223_0014.w.909630">slaep</w>
+          <w cert="1.0" lemma="slaap" pos="NOU-C(number=sg)" resp="thomas" xml:id="c52223_0014.w.909630" lemmaRef="mnw.52223.sense.1">slaep</w>
           <w cert="1.0" lemma="tevoren" pos="ADV(type=reg)" resp="thomas" xml:id="c52223_0014.w.909631">te<join n="mw_137699" />
           </w>
           <w cert="1.0" lemma="tevoren" pos="ADV(type=reg)" resp="thomas" xml:id="c52223_0014.w.909632">voren<join n="mw_137699" />

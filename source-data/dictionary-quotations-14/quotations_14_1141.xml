@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28273" lemma="MAT" partition="train" sense-id="mnw.28273.sense.17" xml:id="c28273_0094">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c28273_0094">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28273.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28273</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1141">
           <w cert="1.0" lemma="vriend" pos="NOU-C(number=sg)" resp="roland" xml:id="c28273_0094.w.827564">Vrient</w>
           <pc pos="PC" xml:id="c28273_0094.pc.post.00320998" lemma=",">,</pc>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c28273_0094.pc.post.00321000" lemma=",">,</pc>
           <w cert="1.0" lemma="mogen+gij+dat" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)+PD(type=d-p,position=free)" resp="thomas" xml:id="c28273_0094.w.827577">mogedijs</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c28273_0094.w.827578">werden</w>
-          <w cert="1.0" lemma="mat" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.28273.sense.17" xml:id="c28273_0094.w.827579">mat</w>
+          <w cert="1.0" lemma="mat" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c28273_0094.w.827579" lemmaRef="mnw.28273.sense.17">mat</w>
           <pc pos="PC" xml:id="c28273_0094.pc.floating.00321001" lemma="?">?</pc>
         </q>
       </cit>

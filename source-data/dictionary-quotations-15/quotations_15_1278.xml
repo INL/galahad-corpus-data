@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48872" lemma="SCHARE" partition="test" sense-id="mnw.48872.sense.6" xml:id="c48872_0055">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c48872_0055">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48872.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1278">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48872_0055.w.232822">Die</w>
           <w cert="1.0" lemma="spelthaan" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48872_0055.w.232823">spelthane</w>
@@ -71,7 +84,7 @@
           </w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c48872_0055.w.232839">bi</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c48872_0055.w.232840">sinen</w>
-          <w cert="1.0" lemma="schaar" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.48872.sense.6" xml:id="c48872_0055.w.232841">scaren</w>
+          <w cert="1.0" lemma="schaar" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48872_0055.w.232841" lemmaRef="mnw.48872.sense.6">scaren</w>
           <w cert="1.0" lemma="stellio" pos="NOU-C(number=sg)" resp="thomas" xml:id="c48872_0055.w.232842">stellio</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c48872_0055.w.232843">die</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c48872_0055.w.232844">op</w>

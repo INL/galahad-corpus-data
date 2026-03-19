@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08704" lemma="ELLENDEN" partition="train" sense-id="mnw.08704.sense.1" xml:id="c08704_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c08704_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ELLENDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08704.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08704</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.366">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c08704_0000.w.458295">Die</w>
           <w cert="1.0" lemma="vernooierde" pos="NOU-C(number=sg)" resp="roland" xml:id="c08704_0000.w.458296">vernoyerde</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c08704_0000.w.458302">ende</w>
           <w cert="1.0" lemma="katijf" pos="NOU-C(number=pl)" resp="roland" xml:id="c08704_0000.w.458303">keytiven</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c08704_0000.w.458304">ende</w>
-          <w cert="1.0" lemma="ellenden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.08704.sense.1" xml:id="c08704_0000.w.458305">elenden</w>
+          <w cert="1.0" lemma="ellenden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c08704_0000.w.458305" lemmaRef="mnw.08704.sense.1">elenden</w>
           <pc pos="PC" xml:id="c08704_0000.pc.floating.00198023" lemma=",">,</pc>
         </q>
       </cit>

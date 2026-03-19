@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39719" lemma="OPSTRIKEN" partition="train" sense-id="mnw.39719.sense.2" xml:id="c39719_0000">
-        <date atLeast="1401" atMost="1434" timeSpan="1400-1450" />
+      <cit xml:id="c39719_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1434" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OPSTRIKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39719.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39719</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1007">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c39719_0000.w.1222183">Item</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c39719_0000.w.1222184">sellen</w>
@@ -79,10 +92,10 @@
           <w cert="1.0" lemma="opwentelen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c39719_0000.w.1222208">wentelen<join n="mw_641830" />
           </w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c39719_0000.w.1222209">off</w>
-          <w cert="1.0" lemma="opstrijken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.39719.sense.2" xml:id="c39719_0000.w.1222210">op<join n="mw_915940" />
+          <w cert="1.0" lemma="opstrijken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c39719_0000.w.1222210" lemmaRef="mnw.39719.sense.2">op<join n="mw_915940" />
           </w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c39719_0000.w.1222211">te</w>
-          <w cert="1.0" lemma="opstrijken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.39719.sense.2" xml:id="c39719_0000.w.1222212">strijken<join n="mw_915940" />
+          <w cert="1.0" lemma="opstrijken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c39719_0000.w.1222212" lemmaRef="mnw.39719.sense.2">strijken<join n="mw_915940" />
           </w>
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c39719_0000.w.1222213">IIII</w>
           <w cert="1.0" lemma="plak" pos="NOU-C(number=pl)" resp="roland" xml:id="c39719_0000.w.1222214">placken</w>

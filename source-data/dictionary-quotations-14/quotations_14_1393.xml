@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33584" lemma="OMMEDOEN" partition="train" sense-id="mnw.33584.sense.2" xml:id="c33584_0001">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c33584_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OMMEDOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33584.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33584</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1393">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33584_0001.w.79066">Si</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c33584_0001.w.79067">waren</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c33584_0001.w.79073">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c33584_0001.w.79074">den</w>
           <w cert="1.0" lemma="Saracijn" pos="NOU-C(number=pl)" resp="roland" xml:id="c33584_0001.w.79075">Zarrasinen</w>
-          <w cert="1.0" lemma="omdoen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.33584.sense.2" xml:id="c33584_0001.w.79076">omghedaen</w>
+          <w cert="1.0" lemma="omdoen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c33584_0001.w.79076" lemmaRef="mnw.33584.sense.2">omghedaen</w>
           <pc pos="PC" xml:id="c33584_0001.pc.floating.00032860" lemma=",">,</pc>
         </q>
       </cit>

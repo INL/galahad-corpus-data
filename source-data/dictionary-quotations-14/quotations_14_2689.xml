@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64610" lemma="VERSLAEN" partition="train" sense-id="mnw.64610.sense.3" xml:id="c64610_0018">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c64610_0018">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERSLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64610.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64610</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2689">
           <w cert="1.0" lemma="een" pos="NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c64610_0018.w.1799581">Een</w>
           <pc pos="PC" xml:id="c64610_0018.pc.floating.00716936" lemma="…">…</pc>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64610_0018.w.1799588">hi</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c64610_0018.w.1799589">met</w>
           <w cert="1.0" lemma="venijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c64610_0018.w.1799590">venine</w>
-          <w cert="1.0" lemma="verslaan" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.64610.sense.3" xml:id="c64610_0018.w.1799591">verslegen</w>
+          <w cert="1.0" lemma="verslaan" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c64610_0018.w.1799591" lemmaRef="mnw.64610.sense.3">verslegen</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c64610_0018.w.1799592">soude</w>
           <pc join="right" pos="PC" xml:id="c64610_0018.pc.pre.00716938" lemma="(">(</pc>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c64610_0018.w.1799593">h<join n="mw_411245" />

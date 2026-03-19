@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10110" lemma="GALIJC" partition="train" sense-id="mnw.10110.sense.1" xml:id="c10110_0000">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c10110_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GALIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10110.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10110</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.254">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c10110_0000.w.663968">Deser</w>
           <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10110_0000.w.663969">werelt</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="galijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c10110_0000.w.663981">gallike</w>
           <pc join="right" pos="PC" xml:id="c10110_0000.pc.pre.00285433" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c10110_0000.w.663982">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.10110.sense.1" xml:id="c10110_0000.w.663983">gailike</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c10110_0000.w.663983" lemmaRef="mnw.10110.sense.1">gailike</w>
           <pc pos="PC" xml:id="c10110_0000.pc.floating.00285435" lemma="?)">?)</pc>
           <w cert="1.0" lemma="dood" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10110_0000.w.663985">doot</w>
           <pc pos="PC" xml:id="c10110_0000.pc.post.00285436" lemma=",">,</pc>

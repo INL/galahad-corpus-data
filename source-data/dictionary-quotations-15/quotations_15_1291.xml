@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49273" lemma="SCHENDEN" partition="train" sense-id="mnw.49273.sense.2" xml:id="c49273_0003">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c49273_0003">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHENDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49273.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49273</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1291">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c49273_0003.w.309984">Wie</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c49273_0003.w.309985">dat</w>
@@ -71,7 +84,7 @@
           <pc join="right" pos="PC" xml:id="c49273_0003.pc.pre.00128071" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c49273_0003.w.310002">gebluf</w>
           <pc pos="PC" xml:id="c49273_0003.pc.post.00128072" lemma=")">)</pc>
-          <w cert="1.0" lemma="schenden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.49273.sense.2" xml:id="c49273_0003.w.310003">gheschant</w>
+          <w cert="1.0" lemma="schenden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c49273_0003.w.310003" lemmaRef="mnw.49273.sense.2">gheschant</w>
           <pc pos="PC" xml:id="c49273_0003.pc.floating.00128073" lemma=",">,</pc>
         </q>
       </cit>

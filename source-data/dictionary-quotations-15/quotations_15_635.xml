@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26004" lemma="LICHTELIKE" partition="train" sense-id="mnw.26004.sense.1" xml:id="c26004_0001">
-        <date atLeast="1479" atMost="1479" timeSpan="1450-1500" />
+      <cit xml:id="c26004_0001">
+        <note>
+          <ab>
+            <date atLeast="1479" atMost="1479" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LICHTELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26004.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26004</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.635">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c26004_0001.w.323557">Een</w>
           <w cert="1.0" lemma="hert" pos="NOU-C(number=sg)" resp="thomas" xml:id="c26004_0001.w.323558">hert</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26004_0001.w.323563">ende</w>
           <w cert="1.0" lemma="lopen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c26004_0001.w.323564">liep</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c26004_0001.w.323565">so</w>
-          <w cert="1.0" lemma="lichtelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.26004.sense.1" xml:id="c26004_0001.w.323566">lichtelike</w>
+          <w cert="1.0" lemma="lichtelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c26004_0001.w.323566" lemmaRef="mnw.26004.sense.1">lichtelike</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26004_0001.w.323567">ende</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c26004_0001.w.323568">so</w>
           <w cert="1.0" lemma="snellijk" pos="ADV(type=reg)" resp="thomas" xml:id="c26004_0001.w.323569">snellike</w>

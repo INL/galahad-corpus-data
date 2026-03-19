@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M076400" lemma="VERKOELEN" modern-lemma="verkoelen" partition="test" pos="VRB" sense-id="M076400.bet.14" xml:id="M076400.eg.5376">
-        <date atLeast="1818" atMost="1818" timeSpan="1800-1850" />
+      <cit xml:id="M076400.eg.5376">
+        <note>
+          <ab>
+            <date atLeast="1818" atMost="1818" extent="1800-1850" />
+            <interpGrp type="lemma">
+              <interp>VERKOELEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M076400.bet.14</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>verkoelen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M076400</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1164">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.997923">Wat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.997924">is</w>
@@ -77,7 +96,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.997945">die</w>
           <w cert="1.0" lemma="aandrift" pos="NOU-C(number=sg)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.997946">aandrift</w>
           <w cert="1.0" lemma="nooit" pos="ADV(type=reg)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.997947">nooit</w>
-          <w cert="1.0" lemma="verkoelen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="M076400.bet.14" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.997948">verkoelt</w>
+          <w cert="1.0" lemma="verkoelen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.997948" lemmaRef="M076400.bet.14">verkoelt</w>
           <pc pos="PC" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.pc.post.00316524" lemma="?">?</pc>
         </q>
       </cit>

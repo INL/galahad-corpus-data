@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58587" lemma="TOESLAEN" partition="train" sense-id="mnw.58587.sense.9" xml:id="c58587_0017">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c58587_0017">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TOESLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58587.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58587</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2373">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c58587_0017.w.354740">Die</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c58587_0017.w.354741">van</w>
@@ -56,9 +69,9 @@
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c58587_0017.w.354745">hilden</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c58587_0017.w.354746">hem</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58587_0017.w.354747">ende</w>
-          <w cert="1.0" lemma="toeslaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.58587.sense.9" xml:id="c58587_0017.w.354748">sloegen<join n="mw_246149" />
+          <w cert="1.0" lemma="toeslaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c58587_0017.w.354748" lemmaRef="mnw.58587.sense.9">sloegen<join n="mw_246149" />
           </w>
-          <w cert="1.0" lemma="toeslaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.58587.sense.9" xml:id="c58587_0017.w.354749">toe<join n="mw_246149" />
+          <w cert="1.0" lemma="toeslaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c58587_0017.w.354749" lemmaRef="mnw.58587.sense.9">toe<join n="mw_246149" />
           </w>
           <pc pos="PC" xml:id="c58587_0017.pc.floating.00144199" lemma=",">,</pc>
         </q>

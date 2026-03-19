@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32039" lemma="NEDEREN" partition="train" sense-id="mnw.32039.sense.4" xml:id="c32039_0004">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c32039_0004">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NEDEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32039.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32039</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1309">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c32039_0004.w.1525973">Die</w>
           <w cert="1.0" lemma="kroon" pos="NOU-C(number=sg)" resp="roland" xml:id="c32039_0004.w.1525974">crone</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="roland" xml:id="c32039_0004.w.1525980">hoode</w>
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c32039_0004.w.1525981">nu</w>
           <w cert="1.0" lemma="voortmeer" pos="ADV(type=reg)" resp="thomas" xml:id="c32039_0004.w.1525982">vortmere</w>
-          <w cert="1.0" lemma="nederen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.32039.sense.4" xml:id="c32039_0004.w.1525983">genedert</w>
+          <w cert="1.0" lemma="nederen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c32039_0004.w.1525983" lemmaRef="mnw.32039.sense.4">genedert</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c32039_0004.w.1525984">werden</w>
           <pc pos="PC" xml:id="c32039_0004.pc.post.00601083" lemma=",">,</pc>
         </q>

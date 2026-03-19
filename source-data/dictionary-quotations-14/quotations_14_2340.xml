@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57470" lemma="TEKEN" partition="train" sense-id="mnw.57470.sense.33" xml:id="c57470_0133">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c57470_0133">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57470.sense.33</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57470</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2340">
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c57470_0133.w.140642">Also</w>
           <w cert="1.0" lemma="als+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c57470_0133.w.140643">alst</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="teken" pos="NOU-C(number=pl)" resp="roland" xml:id="c57470_0133.w.140650">tekine</w>
           <pc join="right" pos="PC" xml:id="c57470_0133.pc.pre.00057739" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c57470_0133.w.140651">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.57470.sense.33" xml:id="c57470_0133.w.140652">tekinen</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c57470_0133.w.140652" lemmaRef="mnw.57470.sense.33">tekinen</w>
           <pc pos="PC" xml:id="c57470_0133.pc.floating.00057741" lemma=")">)</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c57470_0133.w.140654">ende</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c57470_0133.w.140655">groot</w>

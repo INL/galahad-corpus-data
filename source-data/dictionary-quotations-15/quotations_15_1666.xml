@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59681" lemma="TUCHTICHEIT" partition="train" sense-id="mnw.59681.sense.1" xml:id="c59681_0000">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c59681_0000">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TUCHTICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59681.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59681</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1666">
           <w cert="1.0" lemma="geleerd" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c59681_0000.w.569003">Gheleert</w>
           <pc join="right" pos="PC" xml:id="c59681_0000.pc.pre.00230645" lemma="(">(</pc>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zedigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59681_0000.w.569014">sedicheit</w>
           <pc join="right" pos="PC" xml:id="c59681_0000.pc.pre.00230648" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c59681_0000.w.569015">var.</w>
-          <w cert="1.0" lemma="tuchtigheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.59681.sense.1" xml:id="c59681_0000.w.569016">tuchticheit</w>
+          <w cert="1.0" lemma="tuchtigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59681_0000.w.569016" lemmaRef="mnw.59681.sense.1">tuchticheit</w>
           <pc pos="PC" xml:id="c59681_0000.pc.floating.00230650" lemma=",">,</pc>
           <w cert="1.0" lemma="zedigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59681_0000.w.569018">sedicheit</w>
           <pc pos="PC" xml:id="c59681_0000.pc.post.00230651" lemma=")">)</pc>

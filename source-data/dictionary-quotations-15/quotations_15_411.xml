@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16350" lemma="HEILICH" partition="train" sense-id="mnw.16350.sense.2" xml:id="c16350_0009">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c16350_0009">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HEILICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16350.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16350</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.411">
           <w cert="1.0" lemma="denken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c16350_0009.w.183713">Denct</w>
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c16350_0009.w.183714">hoe</w>
-          <w cert="1.0" lemma="heilig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.16350.sense.2" xml:id="c16350_0009.w.183715">heilich</w>
+          <w cert="1.0" lemma="heilig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c16350_0009.w.183715" lemmaRef="mnw.16350.sense.2">heilich</w>
           <pc pos="PC" xml:id="c16350_0009.pc.floating.00074788" lemma=",">,</pc>
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c16350_0009.w.183717">hoe</w>
           <w cert="1.0" lemma="zalig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c16350_0009.w.183718">salich</w>

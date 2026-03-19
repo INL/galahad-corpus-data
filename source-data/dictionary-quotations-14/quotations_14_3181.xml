@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74350" lemma="WONEN" partition="train" sense-id="mnw.74350.sense.2" xml:id="c74350_0023">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c74350_0023">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WONEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74350.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74350</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3181">
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c74350_0023.w.2079398">Ander</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c74350_0023.w.2079399">liede</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="naakt" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c74350_0023.w.2079401">Naecte</w>
           <w cert="1.0" lemma="vroede" pos="NOU-C(number=pl)" resp="roland" xml:id="c74350_0023.w.2079402">Vroede</w>
           <pc pos="PC" xml:id="c74350_0023.pc.post.00815382" lemma=",">,</pc>
-          <w cert="1.0" lemma="wonen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.74350.sense.2" xml:id="c74350_0023.w.2079403">wonen</w>
+          <w cert="1.0" lemma="wonen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c74350_0023.w.2079403" lemmaRef="mnw.74350.sense.2">wonen</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c74350_0023.w.2079404">daer</w>
           <pc pos="PC" xml:id="c74350_0023.pc.post.00815383" lemma=",">,</pc>
         </q>

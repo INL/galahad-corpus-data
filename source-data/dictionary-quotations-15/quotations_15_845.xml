@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33664" lemma="OMMECROMMEN" partition="train" sense-id="mnw.33664.sense.1" xml:id="c33664_0002">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c33664_0002">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OMMECROMMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33664.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33664</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.845">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c33664_0002.w.99285">In</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c33664_0002.w.99286">een</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c33664_0002.w.99290">een</w>
           <w cert="1.0" lemma="kind" pos="NOU-C(number=sg)" resp="thomas" xml:id="c33664_0002.w.99291">kint</w>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c33664_0002.w.99292">also</w>
-          <w cert="1.0" lemma="omkrommen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.33664.sense.1" xml:id="c33664_0002.w.99293">ommecrummet</w>
+          <w cert="1.0" lemma="omkrommen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c33664_0002.w.99293" lemmaRef="mnw.33664.sense.1">ommecrummet</w>
           <pc pos="PC" xml:id="c33664_0002.pc.floating.00041055" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c33664_0002.w.99295">dattet</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c33664_0002.w.99296">sijn</w>

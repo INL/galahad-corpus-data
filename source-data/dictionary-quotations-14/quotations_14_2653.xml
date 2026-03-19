@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63812" lemma="VERMOEYEN" partition="dev" sense-id="mnw.63812.sense.10" xml:id="c63812_0026">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c63812_0026">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERMOEYEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63812.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63812</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2653">
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c63812_0026.w.1588186">Maer</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c63812_0026.w.1588187">die</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c63812_0026.w.1588194">ene</w>
           <w cert="1.0" lemma="Rooms" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c63812_0026.w.1588195">roomsce</w>
           <w cert="1.0" lemma="schaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c63812_0026.w.1588196">scare</w>
-          <w cert="1.0" lemma="vermoeien" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.63812.sense.10" xml:id="c63812_0026.w.1588197">vermoeyt</w>
+          <w cert="1.0" lemma="vermoeien" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c63812_0026.w.1588197" lemmaRef="mnw.63812.sense.10">vermoeyt</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63812_0026.w.1588198">was</w>
           <pc pos="PC" xml:id="c63812_0026.pc.post.00633767" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c63812_0026.w.1588199">so</w>

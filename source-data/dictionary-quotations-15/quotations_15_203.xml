@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07325" lemma="DORERINNEN" partition="train" sense-id="mnw.07325.sense.1" xml:id="c07325_0002">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c07325_0002">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DORERINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07325.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07325</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.203">
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07325_0002.w.250642">Ghi</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c07325_0002.w.250643">die</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="c07325_0002.w.250645">menech</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="thomas" xml:id="c07325_0002.w.250646">lant</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07325_0002.w.250647">hebt</w>
-          <w cert="1.0" lemma="doorrinnen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.07325.sense.1" xml:id="c07325_0002.w.250648">dorronnen</w>
+          <w cert="1.0" lemma="doorrinnen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c07325_0002.w.250648" lemmaRef="mnw.07325.sense.1">dorronnen</w>
           <pc pos="PC" xml:id="c07325_0002.pc.floating.00107243" lemma=",">,</pc>
           <w cert="1.0" lemma="eer" pos="CONJ(type=sub)" resp="thomas" xml:id="c07325_0002.w.250650">eer</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c07325_0002.w.250651">die</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16442" lemma="HECKE" partition="train" sense-id="mnw.16442.sense.2" xml:id="c16442_0008">
-        <date atLeast="1318" atMost="1319" timeSpan="1300-1350" />
+      <cit xml:id="c16442_0008">
+        <note>
+          <ab>
+            <date atLeast="1318" atMost="1319" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HECKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16442.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16442</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.703">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c16442_0008.w.201660">Om</w>
           <w cert="1.0" lemma="lat" pos="NOU-C(number=pl)" resp="roland" xml:id="c16442_0008.w.201661">laten</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c16442_0008.pc.post.00082097" lemma=")">)</pc>
           <pc pos="PC" xml:id="c16442_0008.pc.floating.00082098" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c16442_0008.w.201664">die</w>
-          <w cert="1.0" lemma="hek" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.16442.sense.2" xml:id="c16442_0008.w.201665">heken</w>
+          <w cert="1.0" lemma="hek" pos="NOU-C(number=pl)" resp="roland" xml:id="c16442_0008.w.201665" lemmaRef="mnw.16442.sense.2">heken</w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c16442_0008.w.201666">mede</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c16442_0008.w.201667">te</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c16442_0008.w.201668">maken</w>

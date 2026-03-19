@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34473" lemma="ONDERDOREWAERRE" partition="train" sense-id="mnw.34473.sense.1" xml:id="c34473_0001">
-        <date atLeast="1346" atMost="1349" timeSpan="1300-1350" />
+      <cit xml:id="c34473_0001">
+        <note>
+          <ab>
+            <date atLeast="1346" atMost="1349" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONDERDOREWAERRE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34473.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34473</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1417">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c34473_0001.w.221224">Dat</w>
           <pc join="right" pos="PC" xml:id="c34473_0001.pc.pre.00091563" lemma="(">(</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c34473_0001.w.221231">heren</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c34473_0001.w.221232">van</w>
           <w cert="1.0" lemma="Vlaanderen" pos="NOU-P" resp="roland" xml:id="c34473_0001.w.221233">Vlaendren</w>
-          <w cert="1.0" lemma="onderdeurwaarder" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.34473.sense.1" xml:id="c34473_0001.w.221234">onderduerewaerder</w>
+          <w cert="1.0" lemma="onderdeurwaarder" pos="NOU-C(number=sg)" resp="roland" xml:id="c34473_0001.w.221234" lemmaRef="mnw.34473.sense.1">onderduerewaerder</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c34473_0001.w.221235">te</w>
           <w cert="1.0" lemma="klederen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c34473_0001.w.221236">cledren</w>
           <pc pos="PC" xml:id="c34473_0001.pc.post.00091566" lemma=",">,</pc>

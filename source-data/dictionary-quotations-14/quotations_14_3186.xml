@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74606" lemma="WREDELIKE" partition="train" sense-id="mnw.74606.sense.3" xml:id="c74606_0017">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c74606_0017">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WREDELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74606.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74606</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3186">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c74606_0017.w.2124883">Doe</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c74606_0017.w.2124884">hi</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c74606_0017.w.2124892">hi</w>
           <w cert="1.0" lemma="aanzien+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c74606_0017.w.2124893">sachen<join n="mw_624404" />
           </w>
-          <w cert="1.0" lemma="wredelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.74606.sense.3" xml:id="c74606_0017.w.2124894">wredelike</w>
+          <w cert="1.0" lemma="wredelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c74606_0017.w.2124894" lemmaRef="mnw.74606.sense.3">wredelike</w>
           <w cert="1.0" lemma="aanzien+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c74606_0017.w.2124895">an<join n="mw_624404" />
           </w>
           <pc pos="PC" xml:id="c74606_0017.pc.post.00832678" lemma=",">,</pc>

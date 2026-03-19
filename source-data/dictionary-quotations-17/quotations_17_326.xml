@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M017220" lemma="GANG" modern-lemma="gang" partition="train" pos="NOU-C" sense-id="M017220.bet.107" xml:id="M017220.eg.2520">
-        <date atLeast="1632" atMost="1632" timeSpan="1600-1650" />
+      <cit xml:id="M017220.eg.2520">
+        <note>
+          <ab>
+            <date atLeast="1632" atMost="1632" extent="1600-1650" />
+            <interpGrp type="lemma">
+              <interp>GANG</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M017220.bet.107</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>gang</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M017220</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.326">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="f2a5f61a-46c2-488e-bc20-1a4bf5dccd92.w.613803">De</w>
           <w cert="1.0" lemma="jong" pos="NOU-C(number=pl)" resp="roland" xml:id="f2a5f61a-46c2-488e-bc20-1a4bf5dccd92.w.613804">jongen</w>
@@ -57,7 +76,7 @@
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="f2a5f61a-46c2-488e-bc20-1a4bf5dccd92.w.613809">gaen</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="f2a5f61a-46c2-488e-bc20-1a4bf5dccd92.w.613810">haer</w>
           <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="roland" xml:id="f2a5f61a-46c2-488e-bc20-1a4bf5dccd92.w.613811">moeders</w>
-          <w cert="1.0" lemma="gang" pos="NOU-C(number=pl)" resp="roland" sense-id="M017220.bet.107" xml:id="f2a5f61a-46c2-488e-bc20-1a4bf5dccd92.w.613812">gangen</w>
+          <w cert="1.0" lemma="gang" pos="NOU-C(number=pl)" resp="roland" xml:id="f2a5f61a-46c2-488e-bc20-1a4bf5dccd92.w.613812" lemmaRef="M017220.bet.107">gangen</w>
           <pc pos="PC" xml:id="f2a5f61a-46c2-488e-bc20-1a4bf5dccd92.pc.post.0194274" lemma=".">.</pc>
         </q>
       </cit>

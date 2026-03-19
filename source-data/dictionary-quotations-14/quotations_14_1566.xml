@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38179" lemma="ONTVOEGEN" partition="train" sense-id="mnw.38179.sense.8" xml:id="c38179_0010">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c38179_0010">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTVOEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38179.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38179</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1566">
           <w cert="1.0" lemma="willen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c38179_0010.w.893296">Wildi</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c38179_0010.w.893297">des</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="dunken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c38179_0010.w.893300">dinc</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c38179_0010.w.893301">ghi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c38179_0010.w.893302">sijt</w>
-          <w cert="1.0" lemma="ontvoegen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.38179.sense.8" xml:id="c38179_0010.w.893303">ontwuecht</w>
+          <w cert="1.0" lemma="ontvoegen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c38179_0010.w.893303" lemmaRef="mnw.38179.sense.8">ontwuecht</w>
           <pc join="right" pos="PC" xml:id="c38179_0010.pc.pre.00358385" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c38179_0010.w.893304">d.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c38179_0010.w.893305">i.</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50656" lemma="SCHULEN" partition="train" sense-id="mnw.50656.sense.5" xml:id="c50656_0023">
-        <date atLeast="1480" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c50656_0023">
+        <note>
+          <ab>
+            <date atLeast="1480" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHULEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50656.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50656</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1340">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c50656_0023.w.588564">Doe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c50656_0023.w.588565">die</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="Egypte" pos="NOU-P" resp="roland" xml:id="c50656_0023.w.588574">Egipten</w>
           <pc pos="PC" xml:id="c50656_0023.pc.post.00243193" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50656_0023.w.588575">ende</w>
-          <w cert="1.0" lemma="schuilen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.50656.sense.5" xml:id="c50656_0023.w.588576">scool</w>
+          <w cert="1.0" lemma="schuilen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c50656_0023.w.588576" lemmaRef="mnw.50656.sense.5">scool</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c50656_0023.w.588577">daer</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c50656_0023.w.588578">in</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c50656_0023.w.588579">enen</w>

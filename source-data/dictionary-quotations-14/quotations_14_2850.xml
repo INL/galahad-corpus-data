@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67643" lemma="VOLWASSEN" partition="train" sense-id="mnw.67643.sense.2" xml:id="c67643_0005">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c67643_0005">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOLWASSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67643.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67643</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2850">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c67643_0005.w.656869">Hoe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67643_0005.w.656870">die</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c67643_0005.w.656872">in</w>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c67643_0005.w.656873">elke</w>
           <w cert="1.0" lemma="maand" pos="NOU-C(number=sg)" resp="roland" xml:id="c67643_0005.w.656874">maent</w>
-          <w cert="1.0" lemma="volwassen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.67643.sense.2" xml:id="c67643_0005.w.656875">volwasset</w>
+          <w cert="1.0" lemma="volwassen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67643_0005.w.656875" lemmaRef="mnw.67643.sense.2">volwasset</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c67643_0005.w.656876">ende</w>
           <w cert="1.0" lemma="weder" pos="ADV(type=reg)" resp="thomas" xml:id="c67643_0005.w.656877">weder</w>
           <w cert="1.0" lemma="wanen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67643_0005.w.656878">waent</w>

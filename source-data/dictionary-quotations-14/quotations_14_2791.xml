@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66742" lemma="VLIETEN" partition="dev" sense-id="mnw.66742.sense.3" xml:id="c66742_0023">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c66742_0023">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VLIETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66742.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66742</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2791">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c66742_0023.w.461751">Dat</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c66742_0023.w.461752">onse</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="steen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66742_0023.w.461759">steen</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c66742_0023.w.461760">op</w>
           <w cert="1.0" lemma="dat+water" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c66742_0023.w.461761">dwater</w>
-          <w cert="1.0" lemma="vlieten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.66742.sense.3" xml:id="c66742_0023.w.461762">vloot</w>
+          <w cert="1.0" lemma="vlieten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c66742_0023.w.461762" lemmaRef="mnw.66742.sense.3">vloot</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c66742_0023.w.461763">ende</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66742_0023.w.461764">si</w>
           <w cert="1.0" lemma="daarop" pos="ADV(type=pron)" resp="thomas" xml:id="c66742_0023.w.461765">daerop</w>

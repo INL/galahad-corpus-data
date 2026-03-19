@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70265" lemma="WANDELEN" partition="train" sense-id="mnw.70265.sense.9" xml:id="c70265_0075">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c70265_0075">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WANDELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70265.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70265</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2959">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70265_0075.w.1223765">Hi</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c70265_0075.w.1223766">en</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="gijlieden" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c70265_0075.w.1223774">lieden<join n="mw_389812" />
           </w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c70265_0075.w.1223775">sijn</w>
-          <w cert="1.0" lemma="wandelen" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.70265.sense.9" xml:id="c70265_0075.w.1223776">wandelen</w>
+          <w cert="1.0" lemma="wandelen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c70265_0075.w.1223776" lemmaRef="mnw.70265.sense.9">wandelen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70265_0075.w.1223777">es</w>
           <pc pos="PC" xml:id="c70265_0075.pc.post.00491267" lemma=",">,</pc>
         </q>

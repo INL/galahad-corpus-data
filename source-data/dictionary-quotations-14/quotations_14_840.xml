@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21080" lemma="KEMENADE" partition="train" sense-id="mnw.21080.sense.1" xml:id="c21080_0017">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c21080_0017">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KEMENADE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21080.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21080</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.840">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21080_0017.w.897697">Hi</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21080_0017.w.897698">sal</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="togen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21080_0017.w.897700">toghen</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c21080_0017.w.897701">ene</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c21080_0017.w.897702">grote</w>
-          <w cert="1.0" lemma="kemenade" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21080.sense.1" xml:id="c21080_0017.w.897703">kemenade</w>
+          <w cert="1.0" lemma="kemenade" pos="NOU-C(number=sg)" resp="roland" xml:id="c21080_0017.w.897703" lemmaRef="mnw.21080.sense.1">kemenade</w>
           <w cert="1.0" lemma="strooien" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c21080_0017.w.897704">ghestroyt</w>
           <pc pos="PC" xml:id="c21080_0017.pc.post.00363904" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21080_0017.w.897705">ende</w>

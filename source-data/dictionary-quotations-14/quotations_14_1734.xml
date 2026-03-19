@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42629" lemma="PIJNLIKE" partition="train" sense-id="mnw.42629.sense.1" xml:id="c42629_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c42629_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PIJNLIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42629.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42629</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1734">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42629_0000.w.225157">Die</w>
           <w cert="1.0" lemma="paap" pos="NOU-C(number=sg)" resp="roland" xml:id="c42629_0000.w.225158">pape</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c42629_0000.w.225160">te</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c42629_0000.w.225161">hem</w>
           <w cert="1.0" lemma="klimmen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c42629_0000.w.225162">geclommen</w>
-          <w cert="1.0" lemma="pijnlijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.42629.sense.1" xml:id="c42629_0000.w.225163">pijnlike</w>
+          <w cert="1.0" lemma="pijnlijk" pos="ADV(type=reg)" resp="thomas" xml:id="c42629_0000.w.225163" lemmaRef="mnw.42629.sense.1">pijnlike</w>
           <pc join="right" pos="PC" xml:id="c42629_0000.pc.pre.00087046" lemma="(">(</pc>
           <pc cert="1.0" lemma="=" pos="PC" resp="thomas" xml:id="c42629_0000.w.225164">=</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c42629_0000.w.225165">met</w>

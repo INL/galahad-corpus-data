@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58746" lemma="TOGEN" partition="test" sense-id="mnw.58746.sense.14" xml:id="c58746_0144">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c58746_0144">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58746.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58746</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2378">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c58746_0144.w.389793">Sijn</w>
           <w cert="1.0" lemma="huis" pos="NOU-C(number=sg)" resp="roland" xml:id="c58746_0144.w.389794">huus</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c58746_0144.pc.post.00158144" lemma=",">,</pc>
           <w cert="1.0" lemma="als+men" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c58746_0144.w.389802">alsmen</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58746_0144.w.389803">mach</w>
-          <w cert="1.0" lemma="togen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.58746.sense.14" xml:id="c58746_0144.w.389804">toghen</w>
+          <w cert="1.0" lemma="togen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c58746_0144.w.389804" lemmaRef="mnw.58746.sense.14">toghen</w>
           <pc pos="PC" xml:id="c58746_0144.pc.floating.00158145" lemma=",">,</pc>
         </q>
       </cit>

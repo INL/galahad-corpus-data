@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22822" lemma="CONDICH" partition="train" sense-id="mnw.22822.sense.5" xml:id="c22822_0002">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c22822_0002">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>CONDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22822.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22822</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.558">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c22822_0002.w.1208375">Sine</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c22822_0002.w.1208376">groote</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="wijzen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c22822_0002.w.1208378">wisen</w>
           <pc pos="PC" xml:id="c22822_0002.pc.post.00486874" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c22822_0002.w.1208379">die</w>
-          <w cert="1.0" lemma="kundig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.22822.sense.5" xml:id="c22822_0002.w.1208380">condich</w>
+          <w cert="1.0" lemma="kundig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c22822_0002.w.1208380" lemmaRef="mnw.22822.sense.5">condich</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c22822_0002.w.1208381">waren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22822_0002.w.1208382">ende</w>
           <w cert="1.0" lemma="vermogen" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c22822_0002.w.1208383">vermogen</w>

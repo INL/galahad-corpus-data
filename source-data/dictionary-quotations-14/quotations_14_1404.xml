@@ -45,17 +45,30 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33762" lemma="OMMESIEN" partition="train" sense-id="mnw.33762.sense.11" xml:id="c33762_0023">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c33762_0023">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OMMESIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33762.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33762</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1404">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c33762_0023.w.113927">Dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33762_0023.w.113928">gi</w>
           <w cert="1.0" lemma="u" pos="PD(type=refl,position=free)" resp="thomas" xml:id="c33762_0023.w.113929">u</w>
           <w cert="1.0" lemma="nauwelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c33762_0023.w.113930">nauwelike</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c33762_0023.w.113931">sult</w>
-          <w cert="1.0" lemma="omzien" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.33762.sense.11" xml:id="c33762_0023.w.113932">ombe<join n="mw_850600" />
+          <w cert="1.0" lemma="omzien" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c33762_0023.w.113932" lemmaRef="mnw.33762.sense.11">ombe<join n="mw_850600" />
           </w>
-          <w cert="1.0" lemma="omzien" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.33762.sense.11" xml:id="c33762_0023.w.113933">sien<join n="mw_850600" />
+          <w cert="1.0" lemma="omzien" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c33762_0023.w.113933" lemmaRef="mnw.33762.sense.11">sien<join n="mw_850600" />
           </w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c33762_0023.w.113934">ende</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c33762_0023.w.113935">sult</w>

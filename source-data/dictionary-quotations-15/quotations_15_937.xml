@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37308" lemma="ONTGAEN" partition="test" sense-id="mnw.37308.sense.3" xml:id="c37308_0009">
-        <date atLeast="1456" atMost="1456" timeSpan="1450-1500" />
+      <cit xml:id="c37308_0009">
+        <note>
+          <ab>
+            <date atLeast="1456" atMost="1456" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONTGAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37308.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37308</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.937">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c37308_0009.w.675876">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37308_0009.w.675877">hy</w>
@@ -67,7 +80,7 @@
           <pc join="right" pos="PC" xml:id="c37308_0009.pc.pre.00274411" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c37308_0009.w.675890">beslaglegging</w>
           <pc pos="PC" xml:id="c37308_0009.pc.post.00274412" lemma=")">)</pc>
-          <w cert="1.0" lemma="ontgaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.37308.sense.3" xml:id="c37308_0009.w.675891">ontginghe</w>
+          <w cert="1.0" lemma="ontgaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c37308_0009.w.675891" lemmaRef="mnw.37308.sense.3">ontginghe</w>
           <pc pos="PC" xml:id="c37308_0009.pc.floating.00274413" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19030" lemma="INBORSTE" partition="train" sense-id="mnw.19030.sense.1" xml:id="c19030_0000">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c19030_0000">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>INBORSTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19030.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19030</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.780">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c19030_0000.w.582128">Eene</w>
           <w cert="1.0" lemma="kwaad" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c19030_0000.w.582129">quade</w>
-          <w cert="1.0" lemma="inborst" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.19030.sense.1" xml:id="c19030_0000.w.582130">imborste</w>
+          <w cert="1.0" lemma="inborst" pos="NOU-C(number=sg)" resp="roland" xml:id="c19030_0000.w.582130" lemmaRef="mnw.19030.sense.1">imborste</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c19030_0000.w.582131">so</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c19030_0000.w.582132">hadde</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c19030_0000.w.582133">in</w>

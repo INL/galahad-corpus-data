@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21149" lemma="KERFAEXE" partition="train" sense-id="mnw.21149.sense.1" xml:id="c21149_0000">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c21149_0000">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>KERFAEXE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21149.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21149</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.518">
           <w cert="1.0" lemma="ijzerwerk" pos="NOU-C(number=sg)" resp="roland" xml:id="c21149_0000.w.930507">Yzerwerke</w>
           <pc pos="PC" xml:id="c21149_0000.pc.floating.00376019" lemma="....">....</pc>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="weten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c21149_0000.w.930510">wetene</w>
           <pc pos="PC" xml:id="c21149_0000.pc.post.00376020" lemma=",">,</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21149_0000.w.930511">van</w>
-          <w cert="1.0" lemma="kerfaks" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21149.sense.1" xml:id="c21149_0000.w.930512">kerfhaexen</w>
+          <w cert="1.0" lemma="kerfaks" pos="NOU-C(number=pl)" resp="roland" xml:id="c21149_0000.w.930512" lemmaRef="mnw.21149.sense.1">kerfhaexen</w>
           <pc pos="PC" xml:id="c21149_0000.pc.floating.00376021" lemma=",">,</pc>
           <w cert="1.0" lemma="houwaks" pos="NOU-C(number=pl)" resp="roland" xml:id="c21149_0000.w.930514">hauhaexen</w>
           <pc pos="PC" xml:id="c21149_0000.pc.post.00376022" lemma=",">,</pc>

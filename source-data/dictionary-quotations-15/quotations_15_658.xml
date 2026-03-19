@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26792" lemma="LOCSNOER" partition="train" sense-id="mnw.26792.sense.1" xml:id="c26792_0002">
-        <date atLeast="1419" atMost="1419" timeSpan="1400-1450" />
+      <cit xml:id="c26792_0002">
+        <note>
+          <ab>
+            <date atLeast="1419" atMost="1419" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LOCSNOER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26792.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26792</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.658">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c26792_0002.w.511101">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c26792_0002.w.511102">die</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c26792_0002.w.511110">van</w>
           <w cert="1.0" lemma="riet" pos="NOU-C(number=sg)" resp="thomas" xml:id="c26792_0002.w.511111">riet</w>
           <pc pos="PC" xml:id="c26792_0002.pc.post.00198355" lemma=",">,</pc>
-          <w cert="1.0" lemma="loksnoer" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.26792.sense.1" xml:id="c26792_0002.w.511112">locsnoer</w>
+          <w cert="1.0" lemma="loksnoer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c26792_0002.w.511112" lemmaRef="mnw.26792.sense.1">locsnoer</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26792_0002.w.511113">en</w>
           <w cert="1.0" lemma="kistlijn" pos="NOU-C(number=pl)" resp="roland" xml:id="c26792_0002.w.511114">kistlinen</w>
           <pc pos="PC" xml:id="c26792_0002.pc.post.00198356" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15667" lemma="HANTBETOON" partition="train" sense-id="mnw.15667.sense.1" xml:id="c15667_0000">
-        <date atLeast="1303" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c15667_0000">
+        <note>
+          <ab>
+            <date atLeast="1303" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HANTBETOON</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15667.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15667</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.680">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c15667_0000.w.76658">Doen</w>
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c15667_0000.w.76659">sprack</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c15667_0000.w.76670">een</w>
           <w cert="1.0" lemma="handvest" pos="NOU-C(number=sg)" resp="roland" xml:id="c15667_0000.w.76671">hantvest</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c15667_0000.w.76672">ofte</w>
-          <w cert="1.0" lemma="handbetoon" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.15667.sense.1" xml:id="c15667_0000.w.76673">hantbethoon</w>
+          <w cert="1.0" lemma="handbetoon" pos="NOU-C(number=sg)" resp="roland" xml:id="c15667_0000.w.76673" lemmaRef="mnw.15667.sense.1">hantbethoon</w>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c15667_0000.w.76674">tot</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c15667_0000.w.76675">synen</w>
           <w cert="1.0" lemma="kost" pos="NOU-C(number=sg)" resp="roland" xml:id="c15667_0000.w.76676">coste</w>

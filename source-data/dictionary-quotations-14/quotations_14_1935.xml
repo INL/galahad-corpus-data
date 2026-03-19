@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47175" lemma="ROOT" partition="train" sense-id="mnw.47175.sense.2" xml:id="c47175_0031">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c47175_0031">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ROOT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47175.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47175</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1935">
           <pc pos="PC" xml:id="c47175_0031.pc.floating.00459561" lemma="—">—</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c47175_0031.w.1165955">Haer</w>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c47175_0031.pc.post.00459565" lemma=",">,</pc>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c47175_0031.w.1165963">te</w>
           <w cert="1.0" lemma="punt" pos="NOU-C(number=sg)" resp="roland" xml:id="c47175_0031.w.1165964">poente</w>
-          <w cert="1.0" lemma="rood" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.47175.sense.2" xml:id="c47175_0031.w.1165965">root</w>
+          <w cert="1.0" lemma="rood" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c47175_0031.w.1165965" lemmaRef="mnw.47175.sense.2">root</w>
           <pc pos="PC" xml:id="c47175_0031.pc.floating.00459566" lemma=",">,</pc>
         </q>
       </cit>

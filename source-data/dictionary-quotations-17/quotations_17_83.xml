@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M003996" lemma="ANNA" modern-lemma="Anna" partition="train" pos="NOU-P NOU-C" sense-id="M003996.bet.4" xml:id="M003996.eg.32566">
-        <date atLeast="1633" atMost="1633" timeSpan="1600-1650" />
+      <cit xml:id="M003996.eg.32566">
+        <note>
+          <ab>
+            <date atLeast="1633" atMost="1633" extent="1600-1650" />
+            <interpGrp type="lemma">
+              <interp>ANNA</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-P NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M003996.bet.4</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>Anna</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M003996</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.83">
           <pc join="right" pos="PC" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.pc.pre.0001301" lemma="('">('</pc>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.4234">k</w>
@@ -97,7 +116,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.4269">van</w>
           <w cert="1.0" lemma="Sint-An" pos="NOU-P" resp="thomas" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.4270">Sint<join n="mw_196672" />
           </w>
-          <w cert="1.0" lemma="Sint-An" pos="NOU-P" resp="thomas" sense-id="M003996.bet.4" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.4271">An<join n="mw_196672" />
+          <w cert="1.0" lemma="Sint-An" pos="NOU-P" resp="thomas" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.w.4271" lemmaRef="M003996.bet.4">An<join n="mw_196672" />
           </w>
           <pc pos="PC" xml:id="c1f47b36-6ca1-453d-b22d-cf00e1a5c0a9.pc.post.0001308" lemma=".">.</pc>
         </q>

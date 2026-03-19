@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62477" lemma="VERDOEN" partition="dev" sense-id="mnw.62477.sense.16" xml:id="c62477_0074">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c62477_0074">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERDOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62477.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62477</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2553">
           <w cert="1.0" lemma="Cleophas" pos="NOU-P" resp="roland" xml:id="c62477_0074.w.1201594">Cleophas</w>
           <w cert="1.0" lemma="zeggen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c62477_0074.w.1201595">seidem</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c62477_0074.w.1201599">dat</w>
           <w cert="1.0" lemma="Jezus" pos="NOU-P" resp="roland" xml:id="c62477_0074.w.1201600">Jhesus</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c62477_0074.w.1201601">was</w>
-          <w cert="1.0" lemma="verdoen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.62477.sense.16" xml:id="c62477_0074.w.1201602">verdaen</w>
+          <w cert="1.0" lemma="verdoen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c62477_0074.w.1201602" lemmaRef="mnw.62477.sense.16">verdaen</w>
           <pc pos="PC" xml:id="c62477_0074.pc.floating.00482228" lemma=",">,</pc>
         </q>
       </cit>

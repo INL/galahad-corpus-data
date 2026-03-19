@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04088" lemma="BETUGEN" partition="train" sense-id="mnw.04088.sense.1" xml:id="c04088_0001">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c04088_0001">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BETUGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04088.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04088</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.211">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c04088_0001.w.832637">Dat</w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c04088_0001.w.832638">mede</w>
-          <w cert="1.0" lemma="betuigen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.04088.sense.1" xml:id="c04088_0001.w.832639">betugen</w>
+          <w cert="1.0" lemma="betuigen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c04088_0001.w.832639" lemmaRef="mnw.04088.sense.1">betugen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c04088_0001.w.832640">die</w>
           <w cert="1.0" lemma="heilige" pos="NOU-C(number=pl)" resp="roland" xml:id="c04088_0001.w.832641">heilegen</w>
           <pc pos="PC" xml:id="c04088_0001.pc.post.00325511" lemma=",">,</pc>

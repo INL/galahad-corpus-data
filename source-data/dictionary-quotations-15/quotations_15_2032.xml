@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68423" lemma="VORESPREECSTER" partition="train" sense-id="mnw.68423.sense.1" xml:id="c68423_0002">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c68423_0002">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VORESPREECSTER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68423.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68423</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2032">
           <w cert="1.0" lemma="Eva" pos="NOU-P(WF=mis)" resp="thomas" xml:id="c68423_0002.w.806867">Eya</w>
           <pc pos="PC" xml:id="c68423_0002.pc.post.00323054" lemma=",">,</pc>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c68423_0002.w.806868">onse</w>
-          <w cert="1.0" lemma="voorspreekster" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.68423.sense.1" xml:id="c68423_0002.w.806869">voorsprecster</w>
+          <w cert="1.0" lemma="voorspreekster" pos="NOU-C(number=sg)" resp="thomas" xml:id="c68423_0002.w.806869" lemmaRef="mnw.68423.sense.1">voorsprecster</w>
           <pc pos="PC" xml:id="c68423_0002.pc.floating.00323055" lemma=",">,</pc>
           <w cert="1.0" lemma="keren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c68423_0002.w.806871">keert</w>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c68423_0002.w.806872">tot</w>

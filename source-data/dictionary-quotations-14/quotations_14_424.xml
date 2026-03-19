@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10330" lemma="GEBEDE" partition="train" sense-id="mnw.10330.sense.3" xml:id="c10330_0011">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c10330_0011">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEBEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10330.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10330</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.424">
           <pc join="right" pos="PC" xml:id="c10330_0011.pc.pre.00302162" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c10330_0011.w.704241">Franciscus</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c10330_0011.w.704252">stont</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c10330_0011.w.704253">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c10330_0011.w.704254">sire</w>
-          <w cert="1.0" lemma="gebed" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.10330.sense.3" xml:id="c10330_0011.w.704255">gebeden</w>
+          <w cert="1.0" lemma="gebed" pos="NOU-C(number=pl)" resp="roland" xml:id="c10330_0011.w.704255" lemmaRef="mnw.10330.sense.3">gebeden</w>
           <pc pos="PC" xml:id="c10330_0011.pc.floating.00302165" lemma=",">,</pc>
         </q>
       </cit>

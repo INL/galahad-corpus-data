@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48526" lemma="SCHADEN" partition="train" sense-id="mnw.48526.sense.2" xml:id="c48526_0024">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c48526_0024">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48526.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48526</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1265">
           <pc join="right" pos="PC" xml:id="c48526_0024.pc.pre.00065597" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c48526_0024.w.157394">Doe</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c48526_0024.w.157404">den</w>
           <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c48526_0024.w.157405">live</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c48526_0024.w.157406">niet</w>
-          <w cert="1.0" lemma="schaden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.48526.sense.2" xml:id="c48526_0024.w.157407">scaden</w>
+          <w cert="1.0" lemma="schaden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c48526_0024.w.157407" lemmaRef="mnw.48526.sense.2">scaden</w>
           <pc join="right" pos="PC" xml:id="c48526_0024.pc.pre.00065601" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48526_0024.w.157408">geen</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48526_0024.w.157409">haar</w>

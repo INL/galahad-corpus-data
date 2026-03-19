@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49316" lemma="SCHEPEL" partition="train" sense-id="mnw.49316.sense.1" xml:id="c49316_0005">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c49316_0005">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHEPEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49316.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49316</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1295">
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c49316_0005.w.322702">Nyemant</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c49316_0005.w.322703">moet</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="meten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c49316_0005.w.322719">meten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49316_0005.w.322720">ende</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c49316_0005.w.322721">dat</w>
-          <w cert="1.0" lemma="schepel" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.49316.sense.1" xml:id="c49316_0005.w.322722">scepel</w>
+          <w cert="1.0" lemma="schepel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c49316_0005.w.322722" lemmaRef="mnw.49316.sense.1">scepel</w>
           <w cert="1.0" lemma="recht" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c49316_0005.w.322723">recht</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c49316_0005.w.322724">te</w>
           <w cert="1.0" lemma="zetten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c49316_0005.w.322725">setten</w>

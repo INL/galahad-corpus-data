@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14554" lemma="GORDEN" partition="train" sense-id="mnw.14554.sense.1" xml:id="c14554_0004">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c14554_0004">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GORDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14554.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14554</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.653">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c14554_0004.w.1501583">Doe</w>
-          <w cert="1.0" lemma="gorden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.14554.sense.1" xml:id="c14554_0004.w.1501584">gorde</w>
+          <w cert="1.0" lemma="gorden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c14554_0004.w.1501584" lemmaRef="mnw.14554.sense.1">gorde</w>
           <w cert="1.0" lemma="hij+hij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c14554_0004.w.1501585">hine</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c14554_0004.w.1501586">met</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c14554_0004.w.1501587">ere</w>

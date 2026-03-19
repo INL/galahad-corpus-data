@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28370" lemma="MEDE" partition="train" sense-id="mnw.28370.sense.4" xml:id="c28370_0032">
-        <date atLeast="1326" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c28370_0032">
+        <note>
+          <ab>
+            <date atLeast="1326" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28370.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28370</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1146">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c28370_0032.w.845977">Ene</w>
           <w cert="1.0" lemma="bedevaart" pos="NOU-C(number=sg)" resp="roland" xml:id="c28370_0032.w.845978">bedevaert</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=sg)" resp="roland" xml:id="c28370_0032.w.845982">ridder</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c28370_0032.w.845983">no</w>
           <w cert="1.0" lemma="garsoen" pos="NOU-C(number=sg)" resp="roland" xml:id="c28370_0032.w.845984">garsoen</w>
-          <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" sense-id="mnw.28370.sense.4" xml:id="c28370_0032.w.845985">mede<join n="mw_183872" />
+          <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c28370_0032.w.845985" lemmaRef="mnw.28370.sense.4">mede<join n="mw_183872" />
           </w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c28370_0032.w.845986">woude</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c28370_0032.w.845987">dan</w>

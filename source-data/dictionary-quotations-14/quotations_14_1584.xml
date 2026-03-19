@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38968" lemma="ONWETTICH" partition="train" sense-id="mnw.38968.sense.9" xml:id="c38968_0024">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c38968_0024">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONWETTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38968.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38968</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1584">
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c38968_0024.w.1021041">Voort</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c38968_0024.w.1021042">ne</w>
@@ -76,7 +89,7 @@
           <w cert="1.0" lemma="bastaard" pos="NOU-C(number=sg)" resp="roland" xml:id="c38968_0024.w.1021064">bastaerd</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c38968_0024.w.1021065">es</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c38968_0024.w.1021066">jof</w>
-          <w cert="1.0" lemma="onwettig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.38968.sense.9" xml:id="c38968_0024.w.1021067">onwettich</w>
+          <w cert="1.0" lemma="onwettig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c38968_0024.w.1021067" lemmaRef="mnw.38968.sense.9">onwettich</w>
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="c38968_0024.w.1021068">mensche</w>
           <pc pos="PC" xml:id="c38968_0024.pc.post.00408998" lemma=",">,</pc>
         </q>

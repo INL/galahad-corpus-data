@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27641" lemma="MAGEDIJN" partition="train" sense-id="mnw.27641.sense.1" xml:id="c27641_0006">
-        <date atLeast="1326" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c27641_0006">
+        <note>
+          <ab>
+            <date atLeast="1326" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MAGEDIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27641.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27641</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1110">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c27641_0006.w.694801">Die</w>
           <w cert="1.0" lemma="oorkussen" pos="NOU-C(number=pl)" resp="roland" xml:id="c27641_0006.w.694802">orcussinen</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c27641_0006.w.694809">hadde</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c27641_0006.w.694810">so</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c27641_0006.w.694811">goet</w>
-          <w cert="1.0" lemma="maagdijn" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.27641.sense.1" xml:id="c27641_0006.w.694812">maghedijn</w>
+          <w cert="1.0" lemma="maagdijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c27641_0006.w.694812" lemmaRef="mnw.27641.sense.1">maghedijn</w>
           <pc pos="PC" xml:id="c27641_0006.pc.floating.00269252" lemma=",">,</pc>
         </q>
       </cit>

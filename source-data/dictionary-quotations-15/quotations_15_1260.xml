@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48431" lemma="SATICH" partition="train" sense-id="mnw.48431.sense.2" xml:id="c48431_0009">
-        <date atLeast="1476" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c48431_0009">
+        <note>
+          <ab>
+            <date atLeast="1476" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SATICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48431.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48431</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1260">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c48431_0009.w.136754">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c48431_0009.w.136755">wie</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="zacht" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c48431_0009.w.136763">sacht</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c48431_0009.w.136764">ghemaect</w>
           <pc pos="PC" xml:id="c48431_0009.pc.post.00056971" lemma=",">,</pc>
-          <w cert="1.0" lemma="zatig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.48431.sense.2" xml:id="c48431_0009.w.136765">satich</w>
+          <w cert="1.0" lemma="zatig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c48431_0009.w.136765" lemmaRef="mnw.48431.sense.2">satich</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c48431_0009.w.136766">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48431_0009.w.136767">den</w>
           <w cert="1.0" lemma="zin" pos="NOU-C(number=pl)" resp="roland" xml:id="c48431_0009.w.136768">sinnen</w>

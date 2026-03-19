@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66122" lemma="VIJFTICH" partition="train" sense-id="mnw.66122.sense.1" xml:id="c66122_0005">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c66122_0005">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VIJFTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66122.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66122</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1954">
           <pc pos="PC" xml:id="c66122_0005.pc.floating.00137099" lemma="—">—</pc>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c66122_0005.w.346135">Ic</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c66122_0005.w.346136">was</w>
           <w cert="1.0" lemma="oud" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c66122_0005.w.346137">out</w>
-          <w cert="1.0" lemma="vijftig" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" sense-id="mnw.66122.sense.1" xml:id="c66122_0005.w.346138">vichtich</w>
+          <w cert="1.0" lemma="vijftig" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c66122_0005.w.346138" lemmaRef="mnw.66122.sense.1">vichtich</w>
           <w cert="1.0" lemma="jaar" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66122_0005.w.346139">jaer</w>
           <pc pos="PC" xml:id="c66122_0005.pc.post.00137100" lemma=",">,</pc>
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c66122_0005.w.346140">doe</w>

@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42131" lemma="PELGRIJM" partition="train" sense-id="mnw.42131.sense.1" xml:id="c42131_0014">
-        <date atLeast="1486" atMost="1486" timeSpan="1450-1500" />
+      <cit xml:id="c42131_0014">
+        <note>
+          <ab>
+            <date atLeast="1486" atMost="1486" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PELGRIJM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42131.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42131</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1086">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42131_0014.w.148779">Dat</w>
           <w cert="1.0" lemma="boek" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42131_0014.w.148780">boeck</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42131_0014.w.148781">vanden</w>
-          <w cert="1.0" lemma="pelgrim" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.42131.sense.1" xml:id="c42131_0014.w.148782">Pelgherijm</w>
+          <w cert="1.0" lemma="pelgrim" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42131_0014.w.148782" lemmaRef="mnw.42131.sense.1">Pelgherijm</w>
           <pc join="right" pos="PC" xml:id="c42131_0014.pc.pre.00056687" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c42131_0014.w.148783">den</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c42131_0014.w.148784">mensche</w>

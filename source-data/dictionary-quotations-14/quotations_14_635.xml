@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14184" lemma="GISSEN" partition="train" sense-id="mnw.14184.sense.6" xml:id="c14184_0021">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c14184_0021">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GISSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14184.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14184</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.635">
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c14184_0021.w.1439141">Het</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c14184_0021.w.1439142">was</w>
@@ -66,7 +79,7 @@
           </w>
           <w cert="1.0" lemma="daarna" pos="ADV(type=pron)" resp="thomas" xml:id="c14184_0021.w.1439155">na<join n="mw_14224" />
           </w>
-          <w cert="1.0" lemma="gissen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.14184.sense.6" xml:id="c14184_0021.w.1439156">ghiste</w>
+          <w cert="1.0" lemma="gissen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c14184_0021.w.1439156" lemmaRef="mnw.14184.sense.6">ghiste</w>
           <pc pos="PC" xml:id="c14184_0021.pc.floating.00601510" lemma=",">,</pc>
         </q>
       </cit>

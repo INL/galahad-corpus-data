@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58442" lemma="TOEKEREN" partition="train" sense-id="mnw.58442.sense.6" xml:id="c58442_0002">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c58442_0002">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TOEKEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58442.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58442</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1612">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c58442_0002.w.319490">Die</w>
           <w cert="1.0" lemma="engel" pos="NOU-C(number=pl)" resp="roland" xml:id="c58442_0002.w.319491">inghele</w>
@@ -78,7 +91,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58442_0002.w.319515">ende</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c58442_0002.w.319516">die</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c58442_0002.w.319517">hem</w>
-          <w cert="1.0" lemma="toekeren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.58442.sense.6" xml:id="c58442_0002.w.319518">toekeerden</w>
+          <w cert="1.0" lemma="toekeren" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c58442_0002.w.319518" lemmaRef="mnw.58442.sense.6">toekeerden</w>
           <pc pos="PC" xml:id="c58442_0002.pc.floating.00130542" lemma=",">,</pc>
           <w cert="1.0" lemma="bekennen" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c58442_0002.w.319520">bekennende</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58442_0002.w.319521">ende</w>

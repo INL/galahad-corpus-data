@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43852" lemma="PRECIEUS" partition="train" sense-id="mnw.43852.sense.1" xml:id="c43852_0004">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c43852_0004">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PRECIEUS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43852.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43852</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1786">
           <w cert="1.0" lemma="zacht" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c43852_0004.w.450989">Sochte</w>
           <pc join="right" pos="PC" xml:id="c43852_0004.pc.pre.00177255" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c43852_0004.pc.post.00177258" lemma=")">)</pc>
           <pc pos="PC" xml:id="c43852_0004.pc.floating.00177259" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c43852_0004.w.450994">ende</w>
-          <w cert="1.0" lemma="precieus" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.43852.sense.1" xml:id="c43852_0004.w.450995">precieus</w>
+          <w cert="1.0" lemma="precieus" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c43852_0004.w.450995" lemmaRef="mnw.43852.sense.1">precieus</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c43852_0004.w.450996">ende</w>
           <w cert="1.0" lemma="duur" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c43852_0004.w.450997">diere</w>
           <pc pos="PC" xml:id="c43852_0004.pc.post.00177260" lemma=",">,</pc>

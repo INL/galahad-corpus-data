@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12983" lemma="GESPAN" partition="train" sense-id="mnw.12983.sense.18" xml:id="c12983_0047">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c12983_0047">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GESPAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12983.sense.18</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12983</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.569">
           <w cert="1.0" lemma="dat+du" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c12983_0047.w.1218214">Dattu</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c12983_0047.w.1218215">werden</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c12983_0047.w.1218222">de</w>
           <w cert="1.0" lemma="dijne" pos="NOU-C(number=pl)" resp="roland" xml:id="c12983_0047.w.1218223">dine</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c12983_0047.w.1218224">maken</w>
-          <w cert="1.0" lemma="gespan" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12983.sense.18" xml:id="c12983_0047.w.1218225">gespan</w>
+          <w cert="1.0" lemma="gespan" pos="NOU-C(number=sg)" resp="roland" xml:id="c12983_0047.w.1218225" lemmaRef="mnw.12983.sense.18">gespan</w>
           <pc pos="PC" xml:id="c12983_0047.pc.floating.00510421" lemma=",">,</pc>
         </q>
       </cit>

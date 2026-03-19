@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58746" lemma="TOGEN" partition="train" sense-id="mnw.58746.sense.19" xml:id="c58746_0172">
-        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c58746_0172">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58746.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58746</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2380">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c58746_0172.w.390494">Met</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c58746_0172.w.390495">vele</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="beide" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c58746_0172.w.390500">beeden</w>
           <w cert="1.0" lemma="zijde" pos="NOU-C(number=pl)" resp="roland" xml:id="c58746_0172.w.390501">zyden</w>
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c58746_0172.w.390502">daertoe</w>
-          <w cert="1.0" lemma="togen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.58746.sense.19" xml:id="c58746_0172.w.390503">toochden</w>
+          <w cert="1.0" lemma="togen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c58746_0172.w.390503" lemmaRef="mnw.58746.sense.19">toochden</w>
           <pc pos="PC" xml:id="c58746_0172.pc.floating.00158411" lemma=",">,</pc>
         </q>
       </cit>

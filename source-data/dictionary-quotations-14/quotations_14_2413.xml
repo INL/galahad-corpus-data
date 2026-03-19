@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59464" lemma="TROOSTEN" partition="test" sense-id="mnw.59464.sense.8" xml:id="c59464_0104">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c59464_0104">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TROOSTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59464.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59464</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2413">
           <pc join="right" pos="PC" xml:id="c59464_0104.pc.pre.00220911" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c59464_0104.w.544816">Dat</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c59464_0104.w.544818">ander</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c59464_0104.w.544819">lieden</w>
           <w cert="1.0" lemma="zin" pos="NOU-C(number=sg)" resp="roland" xml:id="c59464_0104.w.544820">zinne</w>
-          <w cert="1.0" lemma="troosten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.59464.sense.8" xml:id="c59464_0104.w.544821">troosten</w>
+          <w cert="1.0" lemma="troosten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c59464_0104.w.544821" lemmaRef="mnw.59464.sense.8">troosten</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c59464_0104.w.544822">soude</w>
           <w cert="1.0" lemma="te+ons" pos="PD(type=d-p,subtype=art,position=prenom)+PD(type=poss,position=prenom)" resp="roland" xml:id="c59464_0104.w.544823">tons</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c59464_0104.w.544824">heren</w>

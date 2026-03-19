@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74347" lemma="WONE" partition="train" sense-id="mnw.74347.sense.10" xml:id="c74347_0033">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c74347_0033">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WONE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74347.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74347</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3178">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c74347_0033.w.2078540">Om</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c74347_0033.w.2078541">dien</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c74347_0033.w.2078545">daer</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c74347_0033.w.2078546">was</w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="c74347_0033.w.2078547">meneghe</w>
-          <w cert="1.0" lemma="woon" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.74347.sense.10" xml:id="c74347_0033.w.2078548">wone</w>
+          <w cert="1.0" lemma="woon" pos="NOU-C(number=sg)" resp="roland" xml:id="c74347_0033.w.2078548" lemmaRef="mnw.74347.sense.10">wone</w>
           <pc pos="PC" xml:id="c74347_0033.pc.floating.00815026" lemma=",">,</pc>
         </q>
       </cit>

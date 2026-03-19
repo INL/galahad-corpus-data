@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03450" lemma="BEROEPEN" partition="train" sense-id="mnw.03450.sense.16" xml:id="c03450_0059">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c03450_0059">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BEROEPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03450.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03450</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.163">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c03450_0059.w.683519">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03450_0059.w.683520">den</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c03450_0059.pc.post.00266254" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c03450_0059.w.683522">die</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03450_0059.w.683523">die</w>
-          <w cert="1.0" lemma="beroepen" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.03450.sense.16" xml:id="c03450_0059.w.683524">beroepene</w>
+          <w cert="1.0" lemma="beroepen" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c03450_0059.w.683524" lemmaRef="mnw.03450.sense.16">beroepene</w>
           <w cert="1.0" lemma="schepen" pos="NOU-C(number=pl)" resp="roland" xml:id="c03450_0059.w.683525">scepene</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03450_0059.w.683526">doen</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c03450_0059.w.683527">sullen</w>

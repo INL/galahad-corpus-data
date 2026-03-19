@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23181" lemma="COORWONDE" partition="train" sense-id="mnw.23181.sense.1" xml:id="c23181_0005">
-        <date atLeast="1457" atMost="1457" timeSpan="1450-1500" />
+      <cit xml:id="c23181_0005">
+        <note>
+          <ab>
+            <date atLeast="1457" atMost="1457" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>COORWONDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23181.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23181</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.576">
           <w cert="1.0" lemma="D." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c23181_0005.w.1282096">D.</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c23181_0005.w.1282097">had</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="H." pos="NOU-P(WF=abbr)" resp="thomas" xml:id="c23181_0005.w.1282101">H.</w>
           <w cert="1.0" lemma="steken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c23181_0005.w.1282102">gesteken</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c23181_0005.w.1282103">een</w>
-          <w cert="1.0" lemma="keurwond" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.23181.sense.1" xml:id="c23181_0005.w.1282104">kuerwonde</w>
+          <w cert="1.0" lemma="keurwond" pos="NOU-C(number=sg)" resp="roland" xml:id="c23181_0005.w.1282104" lemmaRef="mnw.23181.sense.1">kuerwonde</w>
           <pc pos="PC" xml:id="c23181_0005.pc.floating.00516027" lemma=",">,</pc>
         </q>
       </cit>

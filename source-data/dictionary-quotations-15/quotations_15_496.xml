@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19872" lemma="JEGENWORDICH" partition="train" sense-id="mnw.19872.sense.1" xml:id="c19872_0002">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c19872_0002">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>JEGENWORDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19872.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.496">
           <w cert="1.0" lemma="gelijkerwijs" pos="ADV(type=reg)" resp="thomas" xml:id="c19872_0002.w.723820">Ghelikerwijs</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c19872_0002.w.723821">dat</w>
@@ -59,11 +72,11 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c19872_0002.w.723828">alle</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c19872_0002.w.723829">dinghen</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c19872_0002.w.723830">hem</w>
-          <w cert="1.0" lemma="jegenwoordig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.19872.sense.1" xml:id="c19872_0002.w.723831">jeghenwoirdich</w>
+          <w cert="1.0" lemma="jegenwoordig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c19872_0002.w.723831" lemmaRef="mnw.19872.sense.1">jeghenwoirdich</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c19872_0002.w.723832">sijn</w>
           <pc join="right" pos="PC" xml:id="c19872_0002.pc.pre.00293329" lemma="(">(</pc>
           <w cert="1.0" lemma="ja" pos="ADV(type=reg)" resp="thomas" xml:id="c19872_0002.w.723833">ja</w>
-          <w cert="1.0" lemma="jegenwoordig" pos="AA(degree=comp,position=free)" resp="thomas" sense-id="mnw.19872.sense.1" xml:id="c19872_0002.w.723834">jeghenwoirdigher</w>
+          <w cert="1.0" lemma="jegenwoordig" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c19872_0002.w.723834" lemmaRef="mnw.19872.sense.1">jeghenwoirdigher</w>
           <pc join="right" pos="PC" xml:id="c19872_0002.pc.pre.00293330" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c19872_0002.w.723835">meer</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c19872_0002.w.723836">nabij</w>

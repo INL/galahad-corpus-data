@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67364" lemma="VOLGEN" partition="train" sense-id="mnw.67364.sense.3" xml:id="c67364_0011">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c67364_0011">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOLGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67364.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67364</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2835">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c67364_0011.w.599539">Een</w>
           <w cert="1.0" lemma="everzwijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c67364_0011.w.599540">everswijn</w>
           <pc pos="PC" xml:id="c67364_0011.pc.post.00239496" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c67364_0011.w.599541">dien</w>
-          <w cert="1.0" lemma="volgen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.67364.sense.3" xml:id="c67364_0011.w.599542">volgedi</w>
+          <w cert="1.0" lemma="volgen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c67364_0011.w.599542" lemmaRef="mnw.67364.sense.3">volgedi</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67364_0011.w.599543">metten</w>
           <w cert="1.0" lemma="slag" pos="NOU-C(number=pl)" resp="thomas" xml:id="c67364_0011.w.599544">slagen</w>
           <pc join="right" pos="PC" xml:id="c67364_0011.pc.pre.00239497" lemma="(">(</pc>

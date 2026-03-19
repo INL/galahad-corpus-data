@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40819" lemma="OVEROUT" partition="train" sense-id="mnw.40819.sense.2" xml:id="c40819_0001">
-        <date atLeast="1431" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c40819_0001">
+        <note>
+          <ab>
+            <date atLeast="1431" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OVEROUT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40819.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40819</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1049">
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c40819_0001.w.1466435">Dan</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c40819_0001.w.1466436">van</w>
-          <w cert="1.0" lemma="overoud" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.40819.sense.2" xml:id="c40819_0001.w.1466437">overouden</w>
+          <w cert="1.0" lemma="overoud" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c40819_0001.w.1466437" lemmaRef="mnw.40819.sense.2">overouden</w>
           <w cert="1.0" lemma="tijd" pos="NOU-C(number=pl)" resp="roland" xml:id="c40819_0001.w.1466438">tijden</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40819_0001.w.1466439">men</w>
           <pc pos="PC" xml:id="c40819_0001.pc.floating.00583185" lemma="…">…</pc>

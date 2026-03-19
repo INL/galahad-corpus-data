@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37262" lemma="ONTEBREKELIJC" partition="train" sense-id="mnw.37262.sense.2" xml:id="c37262_0001">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c37262_0001">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTEBREKELIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37262.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37262</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1510">
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37262_0001.w.666408">Het</w>
           <pc join="right" pos="PC" xml:id="c37262_0001.pc.pre.00270987" lemma="(">(</pc>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="opstaan" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c37262_0001.w.666417">up<join n="mw_86493" />
           </w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c37262_0001.w.666418">in</w>
-          <w cert="1.0" lemma="ontebrekelijkheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.37262.sense.2" xml:id="c37262_0001.w.666419">ontebrekelijcheit</w>
+          <w cert="1.0" lemma="ontebrekelijkheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c37262_0001.w.666419" lemmaRef="mnw.37262.sense.2">ontebrekelijcheit</w>
           <pc pos="PC" xml:id="c37262_0001.pc.floating.00270990" lemma=",">,</pc>
         </q>
       </cit>

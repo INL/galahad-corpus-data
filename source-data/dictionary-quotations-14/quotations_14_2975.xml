@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70426" lemma="WANT" partition="train" sense-id="mnw.70426.sense.5" xml:id="c70426_0065">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c70426_0065">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70426.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70426</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2975">
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c70426_0065.w.1265442">Daer<join n="mw_812600" />
           </w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c70426_0065.w.1265454">mede</w>
           <w cert="1.0" lemma="nedervellen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70426_0065.w.1265455">nedervelt</w>
           <pc pos="PC" xml:id="c70426_0065.pc.post.00507526" lemma=",">,</pc>
-          <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" sense-id="mnw.70426.sense.5" xml:id="c70426_0065.w.1265456">want</w>
+          <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c70426_0065.w.1265456" lemmaRef="mnw.70426.sense.5">want</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c70426_0065.w.1265457">al</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c70426_0065.w.1265458">haer</w>
           <w cert="1.0" lemma="jagen" pos="NOU-C(number=sg)" resp="roland" xml:id="c70426_0065.w.1265459">jagen</w>

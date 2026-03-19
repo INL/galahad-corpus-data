@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58680" lemma="TOEVERLAET" partition="train" sense-id="mnw.58680.sense.3" xml:id="c58680_0030">
-        <date atLeast="1316" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c58680_0030">
+        <note>
+          <ab>
+            <date atLeast="1316" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TOEVERLAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58680.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58680</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2377">
           <w cert="1.0" lemma="beginnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c58680_0030.w.376548">Begennen</w>
           <pc join="right" pos="PC" xml:id="c58680_0030.pc.pre.00152687" lemma="(">(</pc>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c58680_0030.w.376559">der</w>
           <w cert="1.0" lemma="ziel" pos="NOU-C(number=sg)" resp="roland" xml:id="c58680_0030.w.376560">sielen</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c58680_0030.w.376561">een</w>
-          <w cert="1.0" lemma="toeverlaat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.58680.sense.3" xml:id="c58680_0030.w.376562">toeverlaet</w>
+          <w cert="1.0" lemma="toeverlaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c58680_0030.w.376562" lemmaRef="mnw.58680.sense.3">toeverlaet</w>
           <pc pos="PC" xml:id="c58680_0030.pc.floating.00152692" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58680_0030.w.376564">ende</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c58680_0030.w.376565">soo</w>

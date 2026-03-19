@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66219" lemma="VINDEN" partition="train" sense-id="mnw.66219.sense.45" xml:id="c66219_0251">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c66219_0251">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VINDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66219.sense.45</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66219</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2763">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c66219_0251.w.364607">Daer</w>
           <w cert="1.0" lemma="zullen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c66219_0251.w.364608">suldi</w>
-          <w cert="1.0" lemma="vinden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.66219.sense.45" xml:id="c66219_0251.w.364609">vinden</w>
+          <w cert="1.0" lemma="vinden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c66219_0251.w.364609" lemmaRef="mnw.66219.sense.45">vinden</w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c66219_0251.w.364610">meneghen</w>
           <w cert="1.0" lemma="vijand" pos="NOU-C(number=sg)" resp="roland" xml:id="c66219_0251.w.364611">viant</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c66219_0251.w.364612">ende</w>

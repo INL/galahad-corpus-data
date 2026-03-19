@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74028" lemma="WIT" partition="train" sense-id="mnw.74028.sense.5" xml:id="c74028_0001">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c74028_0001">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74028.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74028</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2284">
           <w cert="1.0" lemma="Landomanta" pos="NOU-P" resp="thomas" xml:id="c74028_0001.w.2018750">Landoniaca</w>
           <pc join="right" pos="PC" xml:id="c74028_0001.pc.pre.00791491" lemma="(">(</pc>
@@ -65,7 +78,7 @@
           <pc pos="PC" xml:id="c74028_0001.pc.post.00791494" lemma=",">,</pc>
           <w cert="1.0" lemma="blond" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c74028_0001.w.2018762">blont</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c74028_0001.w.2018763">ende</w>
-          <w cert="1.0" lemma="wit" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.74028.sense.5" xml:id="c74028_0001.w.2018764">wit</w>
+          <w cert="1.0" lemma="wit" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c74028_0001.w.2018764" lemmaRef="mnw.74028.sense.5">wit</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c74028_0001.w.2018765">ende</w>
           <w cert="1.0" lemma="welgeraakt" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c74028_0001.w.2018766">welgheraect</w>
           <pc pos="PC" xml:id="c74028_0001.pc.post.00791495" lemma=",">,</pc>

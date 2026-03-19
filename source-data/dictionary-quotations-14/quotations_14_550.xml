@@ -45,10 +45,23 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12528" lemma="GEROCHTE" partition="train" sense-id="mnw.12528.sense.1" xml:id="c12528_0000">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c12528_0000">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEROCHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12528.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12528</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.550">
-          <w cert="1.0" lemma="dat+gerecht" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.12528.sense.1" xml:id="c12528_0000.w.1135774">Tgherochte</w>
+          <w cert="1.0" lemma="dat+gerecht" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c12528_0000.w.1135774" lemmaRef="mnw.12528.sense.1">Tgherochte</w>
           <w cert="1.0" lemma="vangen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c12528_0000.w.1135775">vingene</w>
           <w cert="1.0" lemma="van+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12528_0000.w.1135776">vanden</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="roland" xml:id="c12528_0000.w.1135777">lande</w>

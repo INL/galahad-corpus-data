@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02254" lemma="BANLINC" partition="train" sense-id="mnw.02254.sense.1" xml:id="c02254_0000">
-        <date atLeast="1301" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c02254_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BANLINC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02254.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02254</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.90">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c02254_0000.w.404386">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c02254_0000.w.404387">wie</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02254_0000.w.404388">die</w>
           <w cert="1.0" lemma="herbergen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02254_0000.w.404389">herberghet</w>
-          <w cert="1.0" lemma="balling" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.02254.sense.1" xml:id="c02254_0000.w.404390">banlinc</w>
+          <w cert="1.0" lemma="balling" pos="NOU-C(number=sg)" resp="roland" xml:id="c02254_0000.w.404390" lemmaRef="mnw.02254.sense.1">banlinc</w>
           <w cert="1.0" lemma="bin+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02254_0000.w.404391">binder</w>
           <w cert="1.0" lemma="poort" pos="NOU-C(number=sg)" resp="roland" xml:id="c02254_0000.w.404392">port</w>
           <pc pos="PC" xml:id="c02254_0000.pc.post.00158877" lemma=",">,</pc>

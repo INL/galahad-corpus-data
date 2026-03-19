@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54297" lemma="SPOTTER" partition="train" sense-id="mnw.54297.sense.1" xml:id="c54297_0000">
-        <date atLeast="1434" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c54297_0000">
+        <note>
+          <ab>
+            <date atLeast="1434" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SPOTTER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54297.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54297</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1476">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c54297_0000.w.1336760">Nu</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c54297_0000.w.1336761">is</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c54297_0000.w.1336764">sien</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c54297_0000.w.1336765">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c54297_0000.w.1336766">den</w>
-          <w cert="1.0" lemma="spotter" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.54297.sense.1" xml:id="c54297_0000.w.1336767">spotters</w>
+          <w cert="1.0" lemma="spotter" pos="NOU-C(number=pl)" resp="thomas" xml:id="c54297_0000.w.1336767" lemmaRef="mnw.54297.sense.1">spotters</w>
           <pc pos="PC" xml:id="c54297_0000.pc.floating.00555129" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="thomas" xml:id="c54297_0000.w.1336769">want</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c54297_0000.w.1336770">si</w>

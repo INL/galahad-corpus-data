@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63310" lemma="VERCONDIGEN" partition="train" sense-id="mnw.63310.sense.1" xml:id="c63310_0007">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c63310_0007">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERCONDIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63310.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63310</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2622">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c63310_0007.w.1428212">Doen</w>
-          <w cert="1.0" lemma="verkondigen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.63310.sense.1" xml:id="c63310_0007.w.1428213">vercundeghde</w>
+          <w cert="1.0" lemma="verkondigen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63310_0007.w.1428213" lemmaRef="mnw.63310.sense.1">vercundeghde</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c63310_0007.w.1428214">de</w>
           <w cert="1.0" lemma="waard" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c63310_0007.w.1428215">werde</w>
           <w cert="1.0" lemma="Lutgard" pos="NOU-P" resp="roland" xml:id="c63310_0007.w.1428216">Lutgaert</w>

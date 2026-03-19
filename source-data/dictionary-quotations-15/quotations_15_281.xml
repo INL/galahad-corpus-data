@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10901" lemma="GEESTEN" partition="train" sense-id="mnw.10901.sense.2" xml:id="c10901_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c10901_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEESTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10901.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10901</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.281">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c10901_0000.w.810313">Hi</w>
           <pc join="right" pos="PC" xml:id="c10901_0000.pc.pre.00345472" lemma="(">(</pc>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c10901_0000.pc.post.00345474" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c10901_0000.w.810321">ende</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c10901_0000.w.810322">si</w>
-          <w cert="1.0" lemma="geesten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.10901.sense.2" xml:id="c10901_0000.w.810323">gheesten</w>
+          <w cert="1.0" lemma="geesten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c10901_0000.w.810323" lemmaRef="mnw.10901.sense.2">gheesten</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c10901_0000.w.810324">enen</w>
           <w cert="1.0" lemma="geest" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10901_0000.w.810325">gheest</w>
           <pc pos="PC" xml:id="c10901_0000.pc.post.00345475" lemma=",">,</pc>

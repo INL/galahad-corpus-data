@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60541" lemma="UTELATEN" partition="train" sense-id="mnw.60541.sense.7" xml:id="c60541_0008">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c60541_0008">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>UTELATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60541.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60541</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1686">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c60541_0008.w.719522">Doe</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c60541_0008.w.719523">wert</w>
@@ -55,9 +68,9 @@
           <w cert="1.0" lemma="gram" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c60541_0008.w.719526">gram</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c60541_0008.w.719527">ende</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c60541_0008.w.719528">dede</w>
-          <w cert="1.0" lemma="uitlaten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.60541.sense.7" xml:id="c60541_0008.w.719529">wt<join n="mw_952363" />
+          <w cert="1.0" lemma="uitlaten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c60541_0008.w.719529" lemmaRef="mnw.60541.sense.7">wt<join n="mw_952363" />
           </w>
-          <w cert="1.0" lemma="uitlaten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.60541.sense.7" xml:id="c60541_0008.w.719530">laten<join n="mw_952363" />
+          <w cert="1.0" lemma="uitlaten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c60541_0008.w.719530" lemmaRef="mnw.60541.sense.7">laten<join n="mw_952363" />
           </w>
           <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c60541_0008.w.719531">twe</w>
           <w cert="1.0" lemma="liebaard" pos="NOU-C(number=pl)" resp="roland" xml:id="c60541_0008.w.719532">liebaerden</w>

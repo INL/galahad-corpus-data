@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M034483" lemma="KOEN" modern-lemma="koen" partition="train" pos="AA ADV" sense-id="M034483.bet.9" xml:id="M034483.eg.83716">
-        <date atLeast="1530" atMost="1530" timeSpan="1500-1550" />
+      <cit xml:id="M034483.eg.83716">
+        <note>
+          <ab>
+            <date atLeast="1530" atMost="1530" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>KOEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>AA ADV</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M034483.bet.9</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>koen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M034483</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.354">
           <w cert="1.0" lemma="dies" pos="ADV(type=reg)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989073">Dies</w>
           <w cert="1.0" lemma="bevelen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989074">beveel</w>
@@ -62,7 +81,7 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989082">niet</w>
           <w cert="1.0" lemma="meer" pos="ADV(type=reg)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989083">meer</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989084">zoo</w>
-          <w cert="1.0" lemma="koen" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="M034483.bet.9" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989085">koene</w>
+          <w cert="1.0" lemma="koen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989085" lemmaRef="M034483.bet.9">koene</w>
           <w cert="1.0" lemma="te+zijn" pos="ADP(type=pre)+VRB(finiteness=inf)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989086">tzijne</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989087">Dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_484f8783-eb65-44b5-bd34-69157f199a0c.w.989088">ghy</w>

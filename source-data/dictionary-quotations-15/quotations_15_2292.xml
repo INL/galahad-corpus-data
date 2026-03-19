@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74147" lemma="WOEKER" partition="train" sense-id="mnw.74147.sense.1" xml:id="c74147_0008">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c74147_0008">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WOEKER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74147.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74147</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2292">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c74147_0008.w.2038180">Die</w>
           <w cert="1.0" lemma="zevende" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c74147_0008.w.2038181">sevende</w>
           <w cert="1.0" lemma="tak" pos="NOU-C(number=sg)" resp="roland" xml:id="c74147_0008.w.2038182">tacke</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c74147_0008.w.2038183">des</w>
-          <w cert="1.0" lemma="woeker" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.74147.sense.1" xml:id="c74147_0008.w.2038184">woekers</w>
+          <w cert="1.0" lemma="woeker" pos="NOU-C(number=sg)" resp="thomas" xml:id="c74147_0008.w.2038184" lemmaRef="mnw.74147.sense.1">woekers</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c74147_0008.w.2038185">is</w>
           <pc pos="PC" xml:id="c74147_0008.pc.post.00799121" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c74147_0008.w.2038186">dat</w>

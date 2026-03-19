@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21909" lemma="CLERC" partition="train" sense-id="mnw.21909.sense.1" xml:id="c21909_0015">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c21909_0015">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CLERC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21909.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21909</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.869">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21909_0015.w.1057015">Hi</w>
           <w cert="1.0" lemma="zenden+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c21909_0015.w.1057016">sendene</w>
@@ -65,7 +78,7 @@
           </w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c21909_0015.w.1057027">dede</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c21909_0015.w.1057028">sine</w>
-          <w cert="1.0" lemma="klerk" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21909.sense.1" xml:id="c21909_0015.w.1057029">claerke</w>
+          <w cert="1.0" lemma="klerk" pos="NOU-C(number=pl)" resp="roland" xml:id="c21909_0015.w.1057029" lemmaRef="mnw.21909.sense.1">claerke</w>
           <pc pos="PC" xml:id="c21909_0015.pc.floating.00427329" lemma="(:)">(:)</pc>
           <pc pos="PC" xml:id="c21909_0015.pc.floating.00427330" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21909_0015.w.1057032">ende</w>

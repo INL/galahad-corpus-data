@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37325" lemma="ONTGINNEN" partition="train" sense-id="mnw.37325.sense.4" xml:id="c37325_0009">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c37325_0009">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTGINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37325.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37325</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1517">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c37325_0009.w.685725">Die</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c37325_0009.w.685726">daer</w>
@@ -67,7 +80,7 @@
           <pc pos="PC" xml:id="c37325_0009.pc.post.00277906" lemma=")">)</pc>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37325_0009.w.685739">soude</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="roland" xml:id="c37325_0009.w.685740">sijn</w>
-          <w cert="1.0" lemma="ontginnen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.37325.sense.4" xml:id="c37325_0009.w.685741">ontgonnen</w>
+          <w cert="1.0" lemma="ontginnen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c37325_0009.w.685741" lemmaRef="mnw.37325.sense.4">ontgonnen</w>
           <pc pos="PC" xml:id="c37325_0009.pc.floating.00277907" lemma=",">,</pc>
         </q>
       </cit>

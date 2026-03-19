@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40772" lemma="OVERMIDS" partition="train" sense-id="mnw.40772.sense.8" xml:id="c40772_0028">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c40772_0028">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OVERMIDS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40772.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40772</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1047">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c40772_0028.w.1458463">Waert</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c40772_0028.w.1458464">dat</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40772_0028.w.1458470">l.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40772_0028.w.1458471">wandelet</w>
           <pc pos="PC" xml:id="c40772_0028.pc.post.00580066" lemma=")">)</pc>
-          <w cert="1.0" lemma="overmits" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.40772.sense.8" xml:id="c40772_0028.w.1458472">overmits</w>
+          <w cert="1.0" lemma="overmits" pos="ADP(type=pre)" resp="thomas" xml:id="c40772_0028.w.1458472" lemmaRef="mnw.40772.sense.8">overmits</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40772_0028.w.1458473">mi</w>
           <pc pos="PC" xml:id="c40772_0028.pc.post.00580067" lemma=",">,</pc>
         </q>

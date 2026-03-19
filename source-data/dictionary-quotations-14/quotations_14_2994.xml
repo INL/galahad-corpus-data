@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70790" lemma="WATERGANC" partition="test" sense-id="mnw.70790.sense.9" xml:id="c70790_0035">
-        <date atLeast="1334" atMost="1334" timeSpan="1300-1350" />
+      <cit xml:id="c70790_0035">
+        <note>
+          <ab>
+            <date atLeast="1334" atMost="1334" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WATERGANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70790.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70790</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2994">
           <pc pos="PC" xml:id="c70790_0035.pc.floating.00539026" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c70790_0035.pc.pre.00539027" lemma="“">“</pc>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="hier" pos="ADV(type=reg)" resp="thomas" xml:id="c70790_0035.w.1345300">hier</w>
           <w cert="1.0" lemma="voormaals" pos="ADV(type=reg)" resp="thomas" xml:id="c70790_0035.w.1345301">vormaels</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c70790_0035.w.1345302">een</w>
-          <w cert="1.0" lemma="watergang" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.70790.sense.9" xml:id="c70790_0035.w.1345303">waterganc</w>
+          <w cert="1.0" lemma="watergang" pos="NOU-C(number=sg)" resp="roland" xml:id="c70790_0035.w.1345303" lemmaRef="mnw.70790.sense.9">waterganc</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70790_0035.w.1345304">was</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c70790_0035.w.1345305">dier</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70790_0035.w.1345306">van</w>

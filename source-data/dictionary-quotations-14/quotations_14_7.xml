@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00120" lemma="ACHTERLATEN" partition="train" sense-id="mnw.00120.sense.7" xml:id="c00120_0030">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c00120_0030">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ACHTERLATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00120.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00120</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.7">
           <w cert="1.0" lemma="nochtans" pos="ADV(type=reg)" resp="thomas" xml:id="c00120_0030.w.21914">Nochtans</w>
           <w cert="1.0" lemma="gelden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c00120_0030.w.21915">gout</w>
@@ -56,9 +69,9 @@
           <w cert="1.0" lemma="zwaar" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c00120_0030.w.21919">sware</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c00120_0030.w.21920">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c00120_0030.w.21921">hi</w>
-          <w cert="1.0" lemma="achterlaten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00120.sense.7" xml:id="c00120_0030.w.21922">liet<join n="mw_738323" />
+          <w cert="1.0" lemma="achterlaten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00120_0030.w.21922" lemmaRef="mnw.00120.sense.7">liet<join n="mw_738323" />
           </w>
-          <w cert="1.0" lemma="achterlaten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.00120.sense.7" xml:id="c00120_0030.w.21923">achter<join n="mw_738323" />
+          <w cert="1.0" lemma="achterlaten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c00120_0030.w.21923" lemmaRef="mnw.00120.sense.7">achter<join n="mw_738323" />
           </w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c00120_0030.w.21924">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c00120_0030.w.21925">hi</w>

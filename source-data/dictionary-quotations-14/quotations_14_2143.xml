@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53410" lemma="SONDERLINGE" partition="train" sense-id="mnw.53410.sense.4" xml:id="c53410_0030">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c53410_0030">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SONDERLINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53410.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53410</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2143">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c53410_0030.w.1159160">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c53410_0030.w.1159161">den</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c53410_0030.pc.post.00481205" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c53410_0030.w.1159164">dies</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c53410_0030.w.1159165">sie</w>
-          <w cert="1.0" lemma="zonderling" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.53410.sense.4" xml:id="c53410_0030.w.1159166">sonderlancst</w>
+          <w cert="1.0" lemma="zonderling" pos="ADV(type=reg)" resp="thomas" xml:id="c53410_0030.w.1159166" lemmaRef="mnw.53410.sense.4">sonderlancst</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c53410_0030.w.1159167">ende</w>
           <w cert="1.0" lemma="speciaal" pos="AA(degree=sup,position=free)" resp="thomas" xml:id="c53410_0030.w.1159168">specialecst</w>
           <w cert="1.0" lemma="te+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c53410_0030.w.1159169">ten</w>

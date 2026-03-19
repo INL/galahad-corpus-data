@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49906" lemma="SCHOF" partition="test" sense-id="mnw.49906.sense.3" xml:id="c49906_0013">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c49906_0013">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHOF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49906.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49906</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1318">
           <pc pos="PC" xml:id="c49906_0013.pc.floating.00181506" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c49906_0013.pc.pre.00181507" lemma="“">“</pc>
@@ -77,7 +90,7 @@
           <pc pos="PC" xml:id="c49906_0013.pc.post.00181516" lemma=",">,</pc>
           <w cert="1.0" lemma="bout" pos="NOU-C(number=pl)" resp="roland" xml:id="c49906_0013.w.439221">bouten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49906_0013.w.439222">ende</w>
-          <w cert="1.0" lemma="schof" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.49906.sense.3" xml:id="c49906_0013.w.439223">scoven</w>
+          <w cert="1.0" lemma="schof" pos="NOU-C(number=pl)" resp="roland" xml:id="c49906_0013.w.439223" lemmaRef="mnw.49906.sense.3">scoven</w>
           <pc pos="PC" xml:id="c49906_0013.pc.floating.00181517" lemma="”">”</pc>
         </q>
       </cit>

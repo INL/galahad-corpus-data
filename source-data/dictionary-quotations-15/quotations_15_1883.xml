@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64508" lemma="VERSEILEN" partition="train" sense-id="mnw.64508.sense.6" xml:id="c64508_0006">
-        <date atLeast="1484" atMost="1484" timeSpan="1450-1500" />
+      <cit xml:id="c64508_0006">
+        <note>
+          <ab>
+            <date atLeast="1484" atMost="1484" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERSEILEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64508.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64508</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1883">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c64508_0006.w.1761878">Mit</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c64508_0006.w.1761879">desen</w>
           <w cert="1.0" lemma="vlees" pos="NOU-C(number=sg)" resp="roland" xml:id="c64508_0006.w.1761880">vleysche</w>
-          <w cert="1.0" lemma="verzelen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.64508.sense.6" xml:id="c64508_0006.w.1761881">verseyllet</w>
+          <w cert="1.0" lemma="verzelen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c64508_0006.w.1761881" lemmaRef="mnw.64508.sense.6">verseyllet</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c64508_0006.w.1761882">hem</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c64508_0006.w.1761883">onse</w>
           <w cert="1.0" lemma="vijand" pos="NOU-C(number=sg)" resp="thomas" xml:id="c64508_0006.w.1761884">viant</w>

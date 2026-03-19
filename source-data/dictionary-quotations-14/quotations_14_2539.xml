@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62263" lemma="VERBORGEN" partition="train" sense-id="mnw.62263.sense.4" xml:id="c62263_0013">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c62263_0013">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERBORGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62263.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62263</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2539">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c62263_0013.w.1137533">Wat</w>
           <w cert="1.0" lemma="liggen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62263_0013.w.1137534">leget</w>
@@ -80,7 +93,7 @@
           <w cert="1.0" lemma="worden+ik" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c62263_0013.w.1137554">werdic</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c62263_0013.w.1137555">dies</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c62263_0013.w.1137556">al</w>
-          <w cert="1.0" lemma="verborgen" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.62263.sense.4" xml:id="c62263_0013.w.1137557">verborgen</w>
+          <w cert="1.0" lemma="verborgen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c62263_0013.w.1137557" lemmaRef="mnw.62263.sense.4">verborgen</w>
           <pc pos="PC" xml:id="c62263_0013.pc.floating.00458475" lemma=",">,</pc>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62263_0013.w.1137559">mi</w>
           <w cert="1.0" lemma="naken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62263_0013.w.1137560">naken</w>

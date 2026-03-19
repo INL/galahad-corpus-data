@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10482" lemma="GEBRADEN" partition="train" sense-id="mnw.10482.sense.1" xml:id="c10482_0001">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c10482_0001">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GEBRADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10482.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10482</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.265">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c10482_0001.w.732659">Dese</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c10482_0001.w.732660">hebben</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="gezoden" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10482_0001.w.732671">ghesoden</w>
           <pc pos="PC" xml:id="c10482_0001.pc.post.00313647" lemma=",">,</pc>
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c10482_0001.w.732672">nu</w>
-          <w cert="1.0" lemma="gebraden" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.10482.sense.1" xml:id="c10482_0001.w.732673">ghebraden</w>
+          <w cert="1.0" lemma="gebraden" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10482_0001.w.732673" lemmaRef="mnw.10482.sense.1">ghebraden</w>
           <pc pos="PC" xml:id="c10482_0001.pc.floating.00313648" lemma=",">,</pc>
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c10482_0001.w.732675">nu</w>
           <w cert="1.0" lemma="pastei" pos="NOU-C(number=pl)" resp="thomas" xml:id="c10482_0001.w.732676">pasteyden</w>

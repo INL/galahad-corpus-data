@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06077" lemma="DAGEN" partition="test" sense-id="mnw.06077.sense.6" xml:id="c06077_0015">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c06077_0015">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06077.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06077</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.260">
           <w cert="1.0" lemma="bedie" pos="ADV(type=reg)" resp="thomas" xml:id="c06077_0015.w.26344">Bedi</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c06077_0015.w.26345">moeste</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06077_0015.w.26349">bij</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06077_0015.w.26350">haar</w>
           <pc pos="PC" xml:id="c06077_0015.pc.post.00010602" lemma=")">)</pc>
-          <w cert="1.0" lemma="dagen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.06077.sense.6" xml:id="c06077_0015.w.26351">dagen</w>
+          <w cert="1.0" lemma="dagen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c06077_0015.w.26351" lemmaRef="mnw.06077.sense.6">dagen</w>
           <pc pos="PC" xml:id="c06077_0015.pc.floating.00010603" lemma=",">,</pc>
         </q>
       </cit>

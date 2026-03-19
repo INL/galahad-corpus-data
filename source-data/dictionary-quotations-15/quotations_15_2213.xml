@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72747" lemma="WESEBOEC" partition="train" sense-id="mnw.72747.sense.1" xml:id="c72747_0008">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c72747_0008">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WESEBOEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72747.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72747</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2213">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c72747_0008.w.1734376">Soo</w>
           <w cert="1.0" lemma="wanneer" pos="CONJ(type=sub)" resp="roland" xml:id="c72747_0008.w.1734377">wanneer</w>
@@ -87,7 +100,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72747_0008.w.1734407">dat</w>
           <w cert="1.0" lemma="kindergoed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72747_0008.w.1734408">kindergoet</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72747_0008.w.1734409">int</w>
-          <w cert="1.0" lemma="weesboek" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.72747.sense.1" xml:id="c72747_0008.w.1734410">weesboeck</w>
+          <w cert="1.0" lemma="weesboek" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72747_0008.w.1734410" lemmaRef="mnw.72747.sense.1">weesboeck</w>
           <w cert="1.0" lemma="zetten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c72747_0008.w.1734411">setten</w>
           <pc pos="PC" xml:id="c72747_0008.pc.post.00687403" lemma=",">,</pc>
         </q>

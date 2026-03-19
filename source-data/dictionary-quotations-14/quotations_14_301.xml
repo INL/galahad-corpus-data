@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06872" lemma="DOEL" partition="train" sense-id="mnw.06872.sense.2" xml:id="c06872_0004">
-        <date atLeast="1394" atMost="1398" timeSpan="1350-1400" />
+      <cit xml:id="c06872_0004">
+        <note>
+          <ab>
+            <date atLeast="1394" atMost="1398" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DOEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06872.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.301">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c06872_0004.w.171072">Den</w>
           <w cert="1.0" lemma="schut" pos="NOU-C(number=pl)" resp="roland" xml:id="c06872_0004.w.171073">schutten</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c06872_0004.w.171074">gegeeven</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c06872_0004.w.171075">oeren</w>
-          <w cert="1.0" lemma="doel" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.06872.sense.2" xml:id="c06872_0004.w.171076">doelen</w>
+          <w cert="1.0" lemma="doel" pos="NOU-C(number=pl)" resp="roland" xml:id="c06872_0004.w.171076" lemmaRef="mnw.06872.sense.2">doelen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c06872_0004.w.171077">te</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c06872_0004.w.171078">maken</w>
           <w cert="1.0" lemma="eenentwintig" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c06872_0004.w.171079">21</w>

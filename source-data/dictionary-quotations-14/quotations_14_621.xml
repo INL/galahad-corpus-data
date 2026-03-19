@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14025" lemma="GEWOUT" partition="train" sense-id="mnw.14025.sense.34" xml:id="c14025_0176">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c14025_0176">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEWOUT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14025.sense.34</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14025</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.621">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14025_0176.w.1408120">Der</w>
           <w cert="1.0" lemma="hermitage" pos="NOU-C(number=sg)" resp="roland" xml:id="c14025_0176.w.1408121">hermitagien</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="jagen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c14025_0176.w.1408135">gejaget</w>
           <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" xml:id="c14025_0176.w.1408136">uut</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c14025_0176.w.1408137">haren</w>
-          <w cert="1.0" lemma="gewoud" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14025.sense.34" xml:id="c14025_0176.w.1408138">gewoude</w>
+          <w cert="1.0" lemma="gewoud" pos="NOU-C(number=sg)" resp="roland" xml:id="c14025_0176.w.1408138" lemmaRef="mnw.14025.sense.34">gewoude</w>
           <pc pos="PC" xml:id="c14025_0176.pc.floating.00588699" lemma=",">,</pc>
         </q>
       </cit>

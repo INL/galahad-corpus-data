@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40389" lemma="OVERDAMMEN" partition="train" sense-id="mnw.40389.sense.1" xml:id="c40389_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c40389_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERDAMMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40389.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40389</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1657">
           <pc join="right" pos="PC" xml:id="c40389_0000.pc.pre.00550506" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40389_0000.w.1381154">Hannibal</w>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c40389_0000.pc.post.00550510" lemma=")">)</pc>
           <w cert="1.0" lemma="Rooms" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c40389_0000.w.1381161">Roomschen</w>
           <w cert="1.0" lemma="lichaam" pos="NOU-C(number=pl)" resp="roland" xml:id="c40389_0000.w.1381162">lachamen</w>
-          <w cert="1.0" lemma="overdammen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.40389.sense.1" xml:id="c40389_0000.w.1381163">overdammede</w>
+          <w cert="1.0" lemma="overdammen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c40389_0000.w.1381163" lemmaRef="mnw.40389.sense.1">overdammede</w>
           <pc pos="PC" xml:id="c40389_0000.pc.floating.00550511" lemma="..">..</pc>
           <w cert="1.0" lemma="Gello" pos="NOU-P" resp="roland" xml:id="c40389_0000.w.1381165">Gello</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c40389_0000.w.1381166">eene</w>

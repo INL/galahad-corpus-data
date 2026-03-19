@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74128" lemma="WOCH" partition="train" sense-id="mnw.74128.sense.1" xml:id="c74128_0000">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c74128_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WOCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74128.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74128</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3169">
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c74128_0000.w.2033104">Doet</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c74128_0000.w.2033105">mi</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="wijzen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c74128_0000.w.2033118">Wijst</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c74128_0000.w.2033119">mi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c74128_0000.w.2033120">den</w>
-          <w cert="1.0" lemma="weg" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.74128.sense.1" xml:id="c74128_0000.w.2033121">woch</w>
+          <w cert="1.0" lemma="weg" pos="NOU-C(number=sg)" resp="roland" xml:id="c74128_0000.w.2033121" lemmaRef="mnw.74128.sense.1">woch</w>
           <pc pos="PC" xml:id="c74128_0000.pc.floating.00797321" lemma=",">,</pc>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c74128_0000.w.2033123">ic</w>
           <w cert="1.0" lemma="weten+dat" pos="VRB(finiteness=fin,tense=pres)+PD(type=d-p,position=free)" resp="thomas" xml:id="c74128_0000.w.2033124">weets</w>

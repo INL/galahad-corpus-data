@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33591" lemma="OMMEDRAGEN" partition="train" sense-id="mnw.33591.sense.2" xml:id="c33591_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c33591_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OMMEDRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33591.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33591</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1394">
           <w cert="1.0" lemma="Sint-Vincentius" pos="NOU-P" resp="thomas" xml:id="c33591_0000.w.79895">Sente<join n="mw_86188" />
           </w>
@@ -54,10 +67,10 @@
           </w>
           <w cert="1.0" lemma="rok" pos="NOU-C(number=sg)" resp="roland" xml:id="c33591_0000.w.79897">roc</w>
           <pc pos="PC" xml:id="c33591_0000.pc.floating.00033250" lemma="..">..</pc>
-          <w cert="1.0" lemma="omdragen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.33591.sense.2" xml:id="c33591_0000.w.79899">drougen<join n="mw_312268" />
+          <w cert="1.0" lemma="omdragen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c33591_0000.w.79899" lemmaRef="mnw.33591.sense.2">drougen<join n="mw_312268" />
           </w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c33591_0000.w.79900">si</w>
-          <w cert="1.0" lemma="omdragen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.33591.sense.2" xml:id="c33591_0000.w.79901">omme<join n="mw_312268" />
+          <w cert="1.0" lemma="omdragen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c33591_0000.w.79901" lemmaRef="mnw.33591.sense.2">omme<join n="mw_312268" />
           </w>
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c33591_0000.w.79902">dor</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c33591_0000.w.79903">den</w>

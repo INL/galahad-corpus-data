@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66581" lemma="VLEESCHLIKE" partition="train" sense-id="mnw.66581.sense.4" xml:id="c66581_0004">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c66581_0004">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VLEESCHLIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66581.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66581</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1968">
           <pc join="right" pos="PC" xml:id="c66581_0004.pc.pre.00172439" lemma="(">(</pc>
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c66581_0004.w.432036">Hoe</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66581_0004.w.432045">haer</w>
           <w cert="1.0" lemma="winnen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c66581_0004.w.432046">gewonnen</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c66581_0004.w.432047">hadde</w>
-          <w cert="1.0" lemma="vleselijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.66581.sense.4" xml:id="c66581_0004.w.432048">vleesschelike</w>
+          <w cert="1.0" lemma="vleselijk" pos="ADV(type=reg)" resp="thomas" xml:id="c66581_0004.w.432048" lemmaRef="mnw.66581.sense.4">vleesschelike</w>
           <pc pos="PC" xml:id="c66581_0004.pc.floating.00172443" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M080627" lemma="VLADE" modern-lemma="vlade" partition="train" pos="NOU-C" sense-id="M080627.bet.3" xml:id="M080627.eg.25061">
-        <date atLeast="1512" atMost="1512" timeSpan="1500-1550" />
+      <cit xml:id="M080627.eg.25061">
+        <note>
+          <ab>
+            <date atLeast="1512" atMost="1512" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>VLADE</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M080627.bet.3</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>vlade</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M080627</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1422">
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.floating.00523315" lemma="—">—</pc>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1614969">Laet</w>
@@ -71,7 +90,7 @@
           <w cert="1.0" lemma="wafel" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1614988">wafelen</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1614989">Ofte</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1614990">een</w>
-          <w cert="1.0" lemma="vlade" pos="NOU-C(number=sg)" resp="roland" sense-id="M080627.bet.3" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1614991">vlaede</w>
+          <w cert="1.0" lemma="vlade" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.1614991" lemmaRef="M080627.bet.3">vlaede</w>
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00523318" lemma=",">,</pc>
         </q>
       </cit>

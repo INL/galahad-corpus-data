@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67288" lemma="VOLBRINGEN" partition="train" sense-id="mnw.67288.sense.7" xml:id="c67288_0033">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c67288_0033">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VOLBRINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67288.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67288</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1998">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c67288_0033.w.583134">Om</w>
           <pc pos="PC" xml:id="c67288_0033.pc.floating.00233205" lemma="…">…</pc>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c67288_0033.w.583151">des</w>
           <w cert="1.0" lemma="ander" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c67288_0033.w.583152">ander</w>
           <w cert="1.0" lemma="dag" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67288_0033.w.583153">daeghs</w>
-          <w cert="1.0" lemma="volbrengen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.67288.sense.7" xml:id="c67288_0033.w.583154">volbrochten</w>
+          <w cert="1.0" lemma="volbrengen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c67288_0033.w.583154" lemmaRef="mnw.67288.sense.7">volbrochten</w>
           <pc pos="PC" xml:id="c67288_0033.pc.floating.00233208" lemma=",">,</pc>
         </q>
       </cit>

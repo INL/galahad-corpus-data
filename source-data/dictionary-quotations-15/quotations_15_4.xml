@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00129" lemma="ACHTERNA" partition="train" sense-id="mnw.00129.sense.1" xml:id="c00129_0003">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c00129_0003">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ACHTERNA</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00129.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00129</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.4">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c00129_0003.w.23441">Een</w>
           <w cert="1.0" lemma="broeder" pos="NOU-C(number=sg)" resp="thomas" xml:id="c00129_0003.w.23442">broeder</w>
           <pc pos="PC" xml:id="c00129_0003.pc.floating.00009536" lemma="..,">..,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c00129_0003.w.23444">die</w>
-          <w cert="1.0" lemma="achterna" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.00129.sense.1" xml:id="c00129_0003.w.23445">afterna</w>
+          <w cert="1.0" lemma="achterna" pos="ADV(type=reg)" resp="thomas" xml:id="c00129_0003.w.23445" lemmaRef="mnw.00129.sense.1">afterna</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c00129_0003.w.23446">een</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c00129_0003.w.23447">groot</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c00129_0003.w.23448">man</w>

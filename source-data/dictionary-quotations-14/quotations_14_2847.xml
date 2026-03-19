@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67627" lemma="VOLVINDEN" partition="train" sense-id="mnw.67627.sense.1" xml:id="c67627_0001">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c67627_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOLVINDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67627.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67627</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2847">
           <w cert="1.0" lemma="totdat" pos="CONJ(type=sub)" resp="roland" xml:id="c67627_0001.w.654663">Tote<join n="mw_602263" />
           </w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="minnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c67627_0001.w.654673">minnen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c67627_0001.w.654674">in</w>
           <w cert="1.0" lemma="gebruiken" pos="NOU-C(number=sg)" resp="roland" xml:id="c67627_0001.w.654675">gebrukene</w>
-          <w cert="1.0" lemma="volvinden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.67627.sense.1" xml:id="c67627_0001.w.654676">volvant</w>
+          <w cert="1.0" lemma="volvinden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c67627_0001.w.654676" lemmaRef="mnw.67627.sense.1">volvant</w>
           <pc pos="PC" xml:id="c67627_0001.pc.floating.00261474" lemma=",">,</pc>
         </q>
       </cit>

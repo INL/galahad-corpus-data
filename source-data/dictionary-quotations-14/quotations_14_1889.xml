@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46234" lemma="RIDDERSCAP" partition="train" sense-id="mnw.46234.sense.2" xml:id="c46234_0022">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c46234_0022">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>RIDDERSCAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46234.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46234</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1889">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c46234_0022.w.961587">Dat</w>
-          <w cert="1.0" lemma="ridderschap" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.46234.sense.2" xml:id="c46234_0022.w.961588">ridderscap</w>
+          <w cert="1.0" lemma="ridderschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c46234_0022.w.961588" lemmaRef="mnw.46234.sense.2">ridderscap</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c46234_0022.w.961589">ooc</w>
           <pc pos="PC" xml:id="c46234_0022.pc.floating.00377932" lemma="…">…</pc>
           <w cert="1.0" lemma="vertellen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c46234_0022.w.961591">vertelledem</w>

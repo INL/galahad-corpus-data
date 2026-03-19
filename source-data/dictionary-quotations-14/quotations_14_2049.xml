@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50831" lemma="SEDE" partition="train" sense-id="mnw.50831.sense.19" xml:id="c50831_0128">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c50831_0128">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50831.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50831</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2049">
           <pc join="right" pos="PC" xml:id="c50831_0128.pc.pre.00255296" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50831_0128.w.617659">De</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50831_0128.w.617667">ende</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c50831_0128.w.617668">hare</w>
           <w cert="1.0" lemma="wonderlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c50831_0128.w.617669">wonderlike</w>
-          <w cert="1.0" lemma="zede" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.50831.sense.19" xml:id="c50831_0128.w.617670">sede</w>
+          <w cert="1.0" lemma="zede" pos="NOU-C(number=sg)" resp="roland" xml:id="c50831_0128.w.617670" lemmaRef="mnw.50831.sense.19">sede</w>
           <pc pos="PC" xml:id="c50831_0128.pc.floating.00255300" lemma=",">,</pc>
         </q>
       </cit>

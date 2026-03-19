@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73796" lemma="WINNEN" partition="test" sense-id="mnw.73796.sense.5" xml:id="c73796_0015">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c73796_0015">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73796.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73796</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3155">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73796_0015.w.1958773">Dat</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="roland" xml:id="c73796_0015.w.1958774">lant</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c73796_0015.w.1958779">var</w>
           <pc pos="PC" xml:id="c73796_0015.pc.post.00769479" lemma=".">.</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c73796_0015.w.1958780">B.</w>
-          <w cert="1.0" lemma="winnend" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.73796.sense.5" xml:id="c73796_0015.w.1958781">winnende</w>
+          <w cert="1.0" lemma="winnend" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c73796_0015.w.1958781" lemmaRef="mnw.73796.sense.5">winnende</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="roland" xml:id="c73796_0015.w.1958782">lant</w>
           <pc pos="PC" xml:id="c73796_0015.pc.post.00769481" lemma=")">)</pc>
           <pc pos="PC" xml:id="c73796_0015.pc.floating.00769482" lemma=",">,</pc>

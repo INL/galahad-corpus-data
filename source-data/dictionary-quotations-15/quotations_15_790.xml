@@ -45,17 +45,30 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31840" lemma="NARINNEN" partition="train" sense-id="mnw.31840.sense.1" xml:id="c31840_0001">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c31840_0001">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NARINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31840.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31840</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.790">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c31840_0001.w.1478443">Die</w>
           <w cert="1.0" lemma="knaap" pos="NOU-C(number=sg)" resp="roland" xml:id="c31840_0001.w.1478444">knape</w>
           <w cert="1.0" lemma="kleden+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c31840_0001.w.1478445">cleedem</w>
           <pc pos="PC" xml:id="c31840_0001.pc.post.00582105" lemma=";">;</pc>
-          <w cert="1.0" lemma="narinnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.31840.sense.1" xml:id="c31840_0001.w.1478446">na<join n="mw_669982" />
+          <w cert="1.0" lemma="narinnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31840_0001.w.1478446" lemmaRef="mnw.31840.sense.1">na<join n="mw_669982" />
           </w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c31840_0001.w.1478447">hi</w>
-          <w cert="1.0" lemma="narinnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.31840.sense.1" xml:id="c31840_0001.w.1478448">ran<join n="mw_669982" />
+          <w cert="1.0" lemma="narinnen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31840_0001.w.1478448" lemmaRef="mnw.31840.sense.1">ran<join n="mw_669982" />
           </w>
           <pc pos="PC" xml:id="c31840_0001.pc.floating.00582106" lemma=",">,</pc>
           <w cert="1.0" lemma="schier" pos="ADV(type=reg)" resp="thomas" xml:id="c31840_0001.w.1478450">sciere</w>

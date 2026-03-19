@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46786" lemma="ROEKEN" partition="dev" sense-id="mnw.46786.sense.19" xml:id="c46786_0067">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c46786_0067">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ROEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46786.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46786</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1203">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c46786_0067.w.1090472">Al</w>
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c46786_0067.w.1090473">waert</w>
@@ -76,7 +89,7 @@
           <w cert="1.0" lemma="zij+dat" pos="PD(type=pers,position=free)+PD(type=d-p,position=free)" resp="roland" xml:id="c46786_0067.w.1090494">sijs</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c46786_0067.w.1090495">niet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c46786_0067.w.1090496">en</w>
-          <w cert="1.0" lemma="roeken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.46786.sense.19" xml:id="c46786_0067.w.1090497">rochten</w>
+          <w cert="1.0" lemma="roeken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c46786_0067.w.1090497" lemmaRef="mnw.46786.sense.19">rochten</w>
           <pc pos="PC" xml:id="c46786_0067.pc.floating.00428847" lemma=",">,</pc>
         </q>
       </cit>

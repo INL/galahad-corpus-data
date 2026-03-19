@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29926" lemma="MISBOREN" partition="train" sense-id="mnw.29926.sense.6" xml:id="c29926_0007">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c29926_0007">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MISBOREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29926.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29926</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1216">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29926_0007.w.1128824">Die</w>
           <w cert="1.0" lemma="misdaad" pos="NOU-C(number=sg)" resp="roland" xml:id="c29926_0007.w.1128825">mesdaet</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c29926_0007.w.1128837">dies</w>
           <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c29926_0007.w.1128838">lives</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c29926_0007.w.1128839">hevet</w>
-          <w cert="1.0" lemma="misbeuren" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.29926.sense.6" xml:id="c29926_0007.w.1128840">mesboort</w>
+          <w cert="1.0" lemma="misbeuren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c29926_0007.w.1128840" lemmaRef="mnw.29926.sense.6">mesboort</w>
           <pc pos="PC" xml:id="c29926_0007.pc.floating.00442991" lemma=",">,</pc>
         </q>
       </cit>

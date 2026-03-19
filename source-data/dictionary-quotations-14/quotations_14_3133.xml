@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73523" lemma="WIKEN" partition="dev" sense-id="mnw.73523.sense.24" xml:id="c73523_0079">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c73523_0079">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WIKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73523.sense.24</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73523</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3133">
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c73523_0079.w.1883283">God</w>
           <pc pos="PC" xml:id="c73523_0079.pc.post.00742115" lemma=",">,</pc>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c73523_0079.w.1883287">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c73523_0079.w.1883288">hem</w>
           <w cert="1.0" lemma="elk" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c73523_0079.w.1883289">elc</w>
-          <w cert="1.0" lemma="wijken" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.73523.sense.24" xml:id="c73523_0079.w.1883290">weke</w>
+          <w cert="1.0" lemma="wijken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c73523_0079.w.1883290" lemmaRef="mnw.73523.sense.24">weke</w>
           <pc pos="PC" xml:id="c73523_0079.pc.floating.00742116" lemma=",">,</pc>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c73523_0079.w.1883292">sal</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c73523_0079.w.1883293">dat</w>

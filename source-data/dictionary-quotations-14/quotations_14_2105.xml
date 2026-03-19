@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52304" lemma="SLECHT" partition="train" sense-id="mnw.52304.sense.2" xml:id="c52304_0026">
-        <date atLeast="1359" atMost="1386" timeSpan="1350-1400" />
+      <cit xml:id="c52304_0026">
+        <note>
+          <ab>
+            <date atLeast="1359" atMost="1386" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SLECHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52304.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52304</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2105">
           <pc pos="PC" xml:id="c52304_0026.pc.floating.00384262" lemma="—">—</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c52304_0026.w.925064">Des</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="berg" pos="NOU-C(number=sg)" resp="roland" xml:id="c52304_0026.w.925075">berch</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c52304_0026.w.925076">ende</w>
           <w cert="1.0" lemma="dal" pos="NOU-C(number=sg)" resp="roland" xml:id="c52304_0026.w.925077">dal</w>
-          <w cert="1.0" lemma="slecht" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.52304.sense.2" xml:id="c52304_0026.w.925078">slecht</w>
+          <w cert="1.0" lemma="slecht" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c52304_0026.w.925078" lemmaRef="mnw.52304.sense.2">slecht</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c52304_0026.w.925079">selen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="roland" xml:id="c52304_0026.w.925080">sijn</w>
           <w cert="1.0" lemma="overal" pos="ADV(type=reg)" resp="thomas" xml:id="c52304_0026.w.925081">overal</w>

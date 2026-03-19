@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54786" lemma="STATVIDIMUS" partition="train" sense-id="mnw.54786.sense.1" xml:id="c54786_0000">
-        <date atLeast="1401" atMost="1434" timeSpan="1400-1450" />
+      <cit xml:id="c54786_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1434" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STATVIDIMUS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54786.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54786</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1497">
           <w cert="1.0" lemma="A." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c54786_0000.w.1477459">A.</w>
           <w cert="1.0" lemma="begeren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c54786_0000.w.1477460">begeert</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c54786_0000.w.1477461">een</w>
-          <w cert="1.0" lemma="stadsvidimus" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.54786.sense.1" xml:id="c54786_0000.w.1477462">statvidimus</w>
+          <w cert="1.0" lemma="stadsvidimus" pos="NOU-C(number=sg)" resp="thomas" xml:id="c54786_0000.w.1477462" lemmaRef="mnw.54786.sense.1">statvidimus</w>
           <w cert="1.0" lemma="uit+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c54786_0000.w.1477463">uten</w>
           <w cert="1.0" lemma="stadsbrief" pos="NOU-C(number=sg)" resp="thomas" xml:id="c54786_0000.w.1477464">statbrief</w>
           <pc join="right" pos="PC" xml:id="c54786_0000.pc.pre.00611409" lemma="(">(</pc>

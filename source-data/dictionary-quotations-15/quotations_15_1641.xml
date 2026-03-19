@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58985" lemma="TORNLIJC" partition="train" sense-id="mnw.58985.sense.2" xml:id="c58985_0002">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c58985_0002">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TORNLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58985.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58985</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1641">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58985_0002.w.444183">Hij</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c58985_0002.w.444184">dede</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58985_0002.w.444192">dag</w>
           <pc pos="PC" xml:id="c58985_0002.pc.post.00179369" lemma=")">)</pc>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c58985_0002.w.444193">mit</w>
-          <w cert="1.0" lemma="toornlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.58985.sense.2" xml:id="c58985_0002.w.444194">torentliken</w>
+          <w cert="1.0" lemma="toornlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c58985_0002.w.444194" lemmaRef="mnw.58985.sense.2">torentliken</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c58985_0002.w.444195">dinghen</w>
           <pc pos="PC" xml:id="c58985_0002.pc.post.00179370" lemma=",">,</pc>
         </q>

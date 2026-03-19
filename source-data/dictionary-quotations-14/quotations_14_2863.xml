@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68564" lemma="VOREWAERT" partition="train" sense-id="mnw.68564.sense.17" xml:id="c68564_0043">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c68564_0043">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOREWAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68564.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68564</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2863">
           <pc join="right" pos="PC" xml:id="c68564_0043.pc.pre.00334303" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c68564_0043.w.833711">Doe</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="zondaar" pos="NOU-C(number=pl)" resp="roland" xml:id="c68564_0043.w.833720">sunderen</w>
           <w cert="1.0" lemma="gemeenlijk" pos="ADV(type=reg)" resp="thomas" xml:id="c68564_0043.w.833721">ghemeneleke</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c68564_0043.w.833722">soud</w>
-          <w cert="1.0" lemma="voorwaart" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.68564.sense.17" xml:id="c68564_0043.w.833723">voorwerd</w>
+          <w cert="1.0" lemma="voorwaart" pos="ADV(type=reg)" resp="thomas" xml:id="c68564_0043.w.833723" lemmaRef="mnw.68564.sense.17">voorwerd</w>
           <w cert="1.0" lemma="vasten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c68564_0043.w.833724">vasten</w>
           <pc pos="PC" xml:id="c68564_0043.pc.post.00334306" lemma=",">,</pc>
         </q>

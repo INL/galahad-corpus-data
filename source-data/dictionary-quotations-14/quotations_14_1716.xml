@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42131" lemma="PELGRIJM" partition="train" sense-id="mnw.42131.sense.1" xml:id="c42131_0012">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c42131_0012">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PELGRIJM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42131.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42131</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1716">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c42131_0012.w.148740">Nu</w>
           <w cert="1.0" lemma="bijten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c42131_0012.w.148741">beet</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c42131_0012.w.148744">alle</w>
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c42131_0012.w.148745">vier</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c42131_0012.w.148746">ghi</w>
-          <w cert="1.0" lemma="pelgrim" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42131.sense.1" xml:id="c42131_0012.w.148747">peilgrijn</w>
+          <w cert="1.0" lemma="pelgrim" pos="NOU-C(number=sg)" resp="roland" xml:id="c42131_0012.w.148747" lemmaRef="mnw.42131.sense.1">peilgrijn</w>
           <pc pos="PC" xml:id="c42131_0012.pc.floating.00056670" lemma=",">,</pc>
         </q>
       </cit>

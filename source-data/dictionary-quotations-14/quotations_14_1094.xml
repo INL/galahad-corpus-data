@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.27189" lemma="LUKEN" partition="train" sense-id="mnw.27189.sense.23" xml:id="c27189_0071">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c27189_0071">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LUKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.27189.sense.23</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.27189</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1094">
           <pc join="right" pos="PC" xml:id="c27189_0071.pc.pre.00233570" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27189_0071.w.603245">Doe</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c27189_0071.w.603263">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c27189_0071.w.603264">de</w>
           <w cert="1.0" lemma="zijne" pos="NOU-C(number=sg)" resp="roland" xml:id="c27189_0071.w.603265">sine</w>
-          <w cert="1.0" lemma="luiken" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.27189.sense.23" xml:id="c27189_0071.w.603266">looc</w>
+          <w cert="1.0" lemma="luiken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c27189_0071.w.603266" lemmaRef="mnw.27189.sense.23">looc</w>
           <pc join="right" pos="PC" xml:id="c27189_0071.pc.pre.00233575" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27189_0071.w.603267">was</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c27189_0071.w.603268">met</w>

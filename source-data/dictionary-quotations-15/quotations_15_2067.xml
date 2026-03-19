@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69231" lemma="VRO" partition="train" sense-id="mnw.69231.sense.7" xml:id="c69231_0059">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c69231_0059">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VRO</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69231.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69231</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2067">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c69231_0059.w.1011095">Van</w>
           <w cert="1.0" lemma="helen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c69231_0059.w.1011096">helen</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="zullen+erom" pos="VRB(finiteness=fin,tense=pres)+ADV(type=pron)" resp="thomas" xml:id="c69231_0059.w.1011104">om<join n="mw_914921" />
           </w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c69231_0059.w.1011105">werden</w>
-          <w cert="1.0" lemma="vro" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.69231.sense.7" xml:id="c69231_0059.w.1011106">vro</w>
+          <w cert="1.0" lemma="vro" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c69231_0059.w.1011106" lemmaRef="mnw.69231.sense.7">vro</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c69231_0059.w.1011107">ende</w>
           <w cert="1.0" lemma="drijven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c69231_0059.w.1011108">driven</w>
           <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c69231_0059.w.1011109">vri</w>

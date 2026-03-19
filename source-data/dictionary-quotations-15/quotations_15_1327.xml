@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50092" lemma="SCHOP" partition="train" sense-id="mnw.50092.sense.8" xml:id="c50092_0027">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c50092_0027">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SCHOP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50092.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50092</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1327">
           <pc join="right" pos="PC" xml:id="c50092_0027.pc.pre.00198523" lemma="(">(</pc>
           <w cert="1.0" lemma="Judas" pos="NOU-P" resp="roland" xml:id="c50092_0027.w.481101">Judas</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="spot" pos="NOU-C(number=sg)" resp="thomas" xml:id="c50092_0027.w.481114">spot</w>
           <pc join="right" pos="PC" xml:id="c50092_0027.pc.pre.00198527" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50092_0027.w.481115">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="roland" sense-id="mnw.50092.sense.8" xml:id="c50092_0027.w.481116">scop</w>
+          <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c50092_0027.w.481116" lemmaRef="mnw.50092.sense.8">scop</w>
           <pc pos="PC" xml:id="c50092_0027.pc.floating.00198529" lemma=":">:</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50092_0027.w.481118">op</w>
           <pc pos="PC" xml:id="c50092_0027.pc.post.00198530" lemma=")">)</pc>

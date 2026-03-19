@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05958" lemma="DACH" partition="train" sense-id="mnw.05958.sense.32" xml:id="c05958_0073">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c05958_0073">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DACH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05958.sense.32</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05958</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.257">
           <pc join="right" pos="PC" xml:id="c05958_0073.pc.pre.00000940" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c05958_0073.w.2266">Hi</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c05958_0073.w.2273">van</w>
           <w cert="1.0" lemma="ver" pos="ADV(type=reg)" resp="thomas" xml:id="c05958_0073.w.2274">verren</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c05958_0073.w.2275">den</w>
-          <w cert="1.0" lemma="dag" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05958.sense.32" xml:id="c05958_0073.w.2276">dach</w>
+          <w cert="1.0" lemma="dag" pos="NOU-C(number=sg)" resp="roland" xml:id="c05958_0073.w.2276" lemmaRef="mnw.05958.sense.32">dach</w>
           <w cert="1.0" lemma="gelijk" pos="CONJ(type=sub)" resp="thomas" xml:id="c05958_0073.w.2277">ghelijc</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c05958_0073.w.2278">ere</w>
           <w cert="1.0" lemma="ster" pos="NOU-C(number=sg)" resp="roland" xml:id="c05958_0073.w.2279">sterren</w>

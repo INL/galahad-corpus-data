@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58374" lemma="TOEGEDOEN" partition="train" sense-id="mnw.58374.sense.1" xml:id="c58374_0000">
-        <date atLeast="1332" atMost="1332" timeSpan="1300-1350" />
+      <cit xml:id="c58374_0000">
+        <note>
+          <ab>
+            <date atLeast="1332" atMost="1332" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TOEGEDOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58374.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58374</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2366">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c58374_0000.w.312023">Doe</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58374_0000.w.312024">hi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c58374_0000.w.312025">den</w>
           <w cert="1.0" lemma="boek" pos="NOU-C(number=sg)" resp="roland" xml:id="c58374_0000.w.312026">bouc</w>
-          <w cert="1.0" lemma="toegedoen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.58374.sense.1" xml:id="c58374_0000.w.312027">toegedede</w>
+          <w cert="1.0" lemma="toegedoen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c58374_0000.w.312027" lemmaRef="mnw.58374.sense.1">toegedede</w>
           <pc join="right" pos="PC" xml:id="c58374_0000.pc.pre.00127406" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58374_0000.w.312028">dichtgedaan</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58374_0000.w.312029">had</w>

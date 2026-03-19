@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57562" lemma="TEMALIJC" partition="train" sense-id="mnw.57562.sense.1" xml:id="c57562_0000">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c57562_0000">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TEMALIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57562.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57562</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1581">
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c57562_0000.w.161039">Want</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c57562_0000.w.161040">hi</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c57562_0000.w.161046">is</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c57562_0000.w.161047">hi</w>
           <w cert="1.0" lemma="overal" pos="ADV(type=reg)" resp="thomas" xml:id="c57562_0000.w.161048">overal</w>
-          <w cert="1.0" lemma="temaallijk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.57562.sense.1" xml:id="c57562_0000.w.161049">temalic</w>
+          <w cert="1.0" lemma="temaallijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c57562_0000.w.161049" lemmaRef="mnw.57562.sense.1">temalic</w>
           <w cert="1.0" lemma="altemaal" pos="ADV(type=reg)" resp="thomas" xml:id="c57562_0000.w.161050">altemael</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c57562_0000.w.161051">ende</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c57562_0000.w.161052">niet</w>

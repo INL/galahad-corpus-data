@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50840" lemma="SEDELIKE" partition="train" sense-id="mnw.50840.sense.3" xml:id="c50840_0009">
-        <date atLeast="1434" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c50840_0009">
+        <note>
+          <ab>
+            <date atLeast="1434" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SEDELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50840.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50840</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1347">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c50840_0009.w.621163">Men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c50840_0009.w.621164">sal</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c50840_0009.w.621168">Heren</w>
           <w cert="1.0" lemma="manierlijk" pos="ADV(type=reg)" resp="thomas" xml:id="c50840_0009.w.621169">manierlic</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50840_0009.w.621170">ende</w>
-          <w cert="1.0" lemma="zedelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.50840.sense.3" xml:id="c50840_0009.w.621171">sedelic</w>
+          <w cert="1.0" lemma="zedelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c50840_0009.w.621171" lemmaRef="mnw.50840.sense.3">sedelic</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50840_0009.w.621172">ende</w>
           <w cert="1.0" lemma="redelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c50840_0009.w.621173">redelic</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c50840_0009.w.621174">doen</w>

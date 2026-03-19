@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04209" lemma="BEWANEN" partition="train" sense-id="mnw.04209.sense.3" xml:id="c04209_0010">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c04209_0010">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEWANEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04209.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04209</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.216">
           <w cert="1.0" lemma="die+men" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c04209_0010.w.857032">Diemen</w>
           <w cert="1.0" lemma="te+ons" pos="ADP(type=pre)+PD(type=poss,position=prenom)" resp="thomas" xml:id="c04209_0010.w.857033">tonser</w>
           <w cert="1.0" lemma="hulp" pos="NOU-C(number=sg)" resp="roland" xml:id="c04209_0010.w.857034">hulpen</w>
-          <w cert="1.0" lemma="bewanen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.04209.sense.3" xml:id="c04209_0010.w.857035">bewaende</w>
+          <w cert="1.0" lemma="bewanen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c04209_0010.w.857035" lemmaRef="mnw.04209.sense.3">bewaende</w>
           <pc pos="PC" xml:id="c04209_0010.pc.floating.00335803" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c04209_0010.w.857037">die</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c04209_0010.w.857038">bleef</w>

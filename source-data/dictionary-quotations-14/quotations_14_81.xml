@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02156" lemma="BALAIS" partition="train" sense-id="mnw.02156.sense.1" xml:id="c02156_0003">
-        <date atLeast="1350" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c02156_0003">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BALAIS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02156.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02156</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.81">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02156_0003.w.380882">Hi</w>
           <w cert="1.0" lemma="brengen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02156_0003.w.380883">bringt</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="bruid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02156_0003.w.380885">bruut</w>
           <pc pos="PC" xml:id="c02156_0003.pc.floating.00150722" lemma="..">..</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02156_0003.w.380887">den</w>
-          <w cert="1.0" lemma="balais" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.02156.sense.1" xml:id="c02156_0003.w.380888">balays</w>
+          <w cert="1.0" lemma="balais" pos="NOU-C(number=sg)" resp="roland" xml:id="c02156_0003.w.380888" lemmaRef="mnw.02156.sense.1">balays</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02156_0003.w.380889">der</w>
           <w cert="1.0" lemma="vreugde" pos="NOU-C(number=pl)" resp="roland" xml:id="c02156_0003.w.380890">vrouden</w>
           <pc pos="PC" xml:id="c02156_0003.pc.post.00150723" lemma=",">,</pc>

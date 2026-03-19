@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12001" lemma="GENANT" partition="train" sense-id="mnw.12001.sense.1" xml:id="c12001_0008">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c12001_0008">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GENANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12001.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12001</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.519">
           <pc pos="PC" xml:id="c12001_0008.pc.floating.00429217" lemma="—">—</pc>
           <w cert="1.0" lemma="Pamfylië" pos="NOU-P" resp="roland" xml:id="c12001_0008.w.1018278">Pantifilia</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="Cappadocië" pos="NOU-P" resp="roland" xml:id="c12001_0008.w.1018283">Capidocia</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c12001_0008.w.1018284">een</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c12001_0008.w.1018285">ander</w>
-          <w cert="1.0" lemma="genand" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.12001.sense.1" xml:id="c12001_0008.w.1018286">ghenamt</w>
+          <w cert="1.0" lemma="genand" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c12001_0008.w.1018286" lemmaRef="mnw.12001.sense.1">ghenamt</w>
           <pc pos="PC" xml:id="c12001_0008.pc.floating.00429219" lemma=",">,</pc>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c12001_0008.w.1018288">daer</w>
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c12001_0008.w.1018289">nam</w>

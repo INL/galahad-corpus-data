@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16766" lemma="HERBINDEN" partition="train" sense-id="mnw.16766.sense.1" xml:id="c16766_0000">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c16766_0000">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HERBINDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16766.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16766</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.422">
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c16766_0000.w.246970">Heer</w>
           <w cert="1.0" lemma="Gawein" pos="NOU-P" resp="roland" xml:id="c16766_0000.w.246971">Gawein</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="wapen" pos="NOU-C(number=pl)" resp="roland" xml:id="c16766_0000.w.246975">wapene</w>
           <pc pos="PC" xml:id="c16766_0000.pc.floating.00101092" lemma="..">..</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c16766_0000.w.246977">ende</w>
-          <w cert="1.0" lemma="herbinden+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" sense-id="mnw.16766.sense.1" xml:id="c16766_0000.w.246978">herbantse</w>
+          <w cert="1.0" lemma="herbinden+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c16766_0000.w.246978" lemmaRef="mnw.16766.sense.1">herbantse</w>
           <w cert="1.0" lemma="altemaal" pos="ADV(type=reg)" resp="thomas" xml:id="c16766_0000.w.246979">altemale</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c16766_0000.w.246980">ende</w>
           <w cert="1.0" lemma="bereiden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c16766_0000.w.246981">bereide</w>

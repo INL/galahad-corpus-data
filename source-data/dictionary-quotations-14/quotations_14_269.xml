@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06205" lemma="DAT" partition="train" sense-id="mnw.06205.sense.55" xml:id="c06205_0164">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c06205_0164">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06205.sense.55</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06205</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.269">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c06205_0164.w.64799">Die</w>
           <w cert="1.0" lemma="band" pos="NOU-C(number=sg)" resp="roland" xml:id="c06205_0164.w.64800">bant</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c06205_0164.w.64803">wive</w>
           <w cert="1.0" lemma="dwingen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c06205_0164.w.64804">dwanckene</w>
           <pc pos="PC" xml:id="c06205_0164.pc.post.00026758" lemma=",">,</pc>
-          <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" sense-id="mnw.06205.sense.55" xml:id="c06205_0164.w.64805">dat</w>
+          <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c06205_0164.w.64805" lemmaRef="mnw.06205.sense.55">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c06205_0164.w.64806">hi</w>
           <pc pos="PC" xml:id="c06205_0164.pc.floating.00026759" lemma="..">..</pc>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="thomas" xml:id="c06205_0164.w.64808">ne</w>

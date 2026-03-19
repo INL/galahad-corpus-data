@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53394" lemma="SONDER" partition="train" sense-id="mnw.53394.sense.12" xml:id="c53394_0096">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c53394_0096">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SONDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53394.sense.12</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53394</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2141">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53394_0096.w.1152017">Hi</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c53394_0096.w.1152018">moeste</w>
@@ -59,7 +72,7 @@
           </w>
           <w cert="1.0" lemma="gaarne" pos="ADV(type=reg)" resp="thomas" xml:id="c53394_0096.w.1152024">gerne</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c53394_0096.w.1152025">bleven</w>
-          <w cert="1.0" lemma="hij+erzonder" pos="PD(type=pers,position=free)+ADV(type=pron)" resp="roland" sense-id="mnw.53394.sense.12" xml:id="c53394_0096.w.1152026">sonder<join n="mw_93469" />
+          <w cert="1.0" lemma="hij+erzonder" pos="PD(type=pers,position=free)+ADV(type=pron)" resp="roland" xml:id="c53394_0096.w.1152026" lemmaRef="mnw.53394.sense.12">sonder<join n="mw_93469" />
           </w>
           <pc pos="PC" xml:id="c53394_0096.pc.floating.00478264" lemma=",">,</pc>
         </q>

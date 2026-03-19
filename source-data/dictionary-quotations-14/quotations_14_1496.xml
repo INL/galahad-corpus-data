@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36983" lemma="ONSIENEN" partition="train" sense-id="mnw.36983.sense.1" xml:id="c36983_0002">
-        <date atLeast="1340" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c36983_0002">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONSIENEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36983.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36983</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1496">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c36983_0002.w.595092">Van</w>
           <w cert="1.0" lemma="Onze-Vrouwe" pos="NOU-P" resp="roland" xml:id="c36983_0002.w.595093">Onser<join n="mw_661918" />
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c36983_0002.w.595105">soe</w>
           <w cert="1.0" lemma="tebreken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c36983_0002.w.595106">tebroken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c36983_0002.w.595107">ende</w>
-          <w cert="1.0" lemma="ontzienen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.36983.sense.1" xml:id="c36983_0002.w.595108">onsient</w>
+          <w cert="1.0" lemma="ontzienen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c36983_0002.w.595108" lemmaRef="mnw.36983.sense.1">onsient</w>
           <pc join="right" pos="PC" xml:id="c36983_0002.pc.pre.00242295" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36983_0002.w.595109">ook</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c36983_0002.w.595110">hier</w>

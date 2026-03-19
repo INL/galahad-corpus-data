@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25852" lemma="LETTINGE" partition="train" sense-id="mnw.25852.sense.3" xml:id="c25852_0004">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c25852_0004">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LETTINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25852.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25852</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.633">
           <pc join="right" pos="PC" xml:id="c25852_0004.pc.pre.00112578" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="thomas" xml:id="c25852_0004.w.290587">Dat</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c25852_0004.w.290589">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c25852_0004.w.290590">der</w>
           <w cert="1.0" lemma="voorzegd" pos="AA(degree=pos,position=prenom,WF=abbr)" resp="thomas" xml:id="c25852_0004.w.290591">voors.</w>
-          <w cert="1.0" lemma="letting" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25852.sense.3" xml:id="c25852_0004.w.290592">lettinghe</w>
+          <w cert="1.0" lemma="letting" pos="NOU-C(number=sg)" resp="roland" xml:id="c25852_0004.w.290592" lemmaRef="mnw.25852.sense.3">lettinghe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25852_0004.w.290593">ende</w>
           <w cert="1.0" lemma="arrest" pos="NOU-C(number=sg)" resp="roland" xml:id="c25852_0004.w.290594">areeste</w>
           <w cert="1.0" lemma="ongeslagen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c25852_0004.w.290595">ongheslaghen</w>

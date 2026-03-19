@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69449" lemma="VRUCHTICH" partition="train" sense-id="mnw.69449.sense.2" xml:id="c69449_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c69449_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VRUCHTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69449.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69449</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2929">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69449_0000.w.1069955">Men</w>
           <w cert="1.0" lemma="lezen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c69449_0000.w.1069956">leset</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="klaarheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c69449_0000.w.1069964">claerheit</w>
           <pc pos="PC" xml:id="c69449_0000.pc.post.00428884" lemma=",">,</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c69449_0000.w.1069965">eene</w>
-          <w cert="1.0" lemma="vruchtig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.69449.sense.2" xml:id="c69449_0000.w.1069966">vruchtege</w>
+          <w cert="1.0" lemma="vruchtig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c69449_0000.w.1069966" lemmaRef="mnw.69449.sense.2">vruchtege</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=sg)" resp="roland" xml:id="c69449_0000.w.1069967">dinc</w>
           <pc pos="PC" xml:id="c69449_0000.pc.post.00428885" lemma=",">,</pc>
           <w cert="1.0" lemma="dies" pos="CONJ(type=sub)" resp="roland" xml:id="c69449_0000.w.1069968">dies</w>

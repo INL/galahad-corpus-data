@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13963" lemma="GEWINNEN" partition="train" sense-id="mnw.13963.sense.4" xml:id="c13963_0015">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c13963_0015">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEWINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13963.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13963</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.616">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c13963_0015.w.1389069">Een</w>
           <w cert="1.0" lemma="boom" pos="NOU-C(number=sg)" resp="roland" xml:id="c13963_0015.w.1389070">boom</w>
@@ -61,7 +74,7 @@
           </w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c13963_0015.w.1389078">en</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c13963_0015.w.1389079">mach</w>
-          <w cert="1.0" lemma="gewinnen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.13963.sense.4" xml:id="c13963_0015.w.1389080">ghewinnen</w>
+          <w cert="1.0" lemma="gewinnen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c13963_0015.w.1389080" lemmaRef="mnw.13963.sense.4">ghewinnen</w>
           <pc pos="PC" xml:id="c13963_0015.pc.floating.00580978" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03450" lemma="BEROEPEN" partition="train" sense-id="mnw.03450.sense.3" xml:id="c03450_0005">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c03450_0005">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BEROEPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03450.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03450</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.161">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03450_0005.w.682008">Die</w>
           <w cert="1.0" lemma="feest" pos="NOU-C(number=sg)" resp="roland" xml:id="c03450_0005.w.682009">feeste</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c03450_0005.w.682014">hi</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03450_0005.w.682015">hadde</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03450_0005.w.682016">doen</w>
-          <w cert="1.0" lemma="beroepen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.03450.sense.3" xml:id="c03450_0005.w.682017">beroepen</w>
+          <w cert="1.0" lemma="beroepen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03450_0005.w.682017" lemmaRef="mnw.03450.sense.3">beroepen</w>
           <pc pos="PC" xml:id="c03450_0005.pc.floating.00265694" lemma=",">,</pc>
         </q>
       </cit>

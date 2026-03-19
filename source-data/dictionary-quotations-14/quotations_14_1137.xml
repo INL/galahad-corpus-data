@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28113" lemma="MARCT" partition="test" sense-id="mnw.28113.sense.1" xml:id="c28113_0006">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c28113_0006">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MARCT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28113.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28113</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1137">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c28113_0006.w.805756">Sijn</w>
           <pc join="right" pos="PC" xml:id="c28113_0006.pc.pre.00312467" lemma="(">(</pc>
@@ -64,7 +77,7 @@
           <pc pos="PC" xml:id="c28113_0006.pc.floating.00312471" lemma="..">..</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c28113_0006.w.805768">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c28113_0006.w.805769">die</w>
-          <w cert="1.0" lemma="markt" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28113.sense.1" xml:id="c28113_0006.w.805770">marct</w>
+          <w cert="1.0" lemma="markt" pos="NOU-C(number=sg)" resp="roland" xml:id="c28113_0006.w.805770" lemmaRef="mnw.28113.sense.1">marct</w>
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c28113_0006.w.805771">onder</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c28113_0006.w.805772">die</w>
           <w cert="1.0" lemma="kolom" pos="NOU-C(number=pl)" resp="roland" xml:id="c28113_0006.w.805773">colomme</w>

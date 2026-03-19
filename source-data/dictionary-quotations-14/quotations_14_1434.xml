@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35142" lemma="ONGEANDET" partition="train" sense-id="mnw.35142.sense.1" xml:id="c35142_0000">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c35142_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONGEANDET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35142.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35142</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1434">
           <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c35142_0000.w.325113">Dats</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c35142_0000.w.325114">minnen</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="verslinden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c35142_0000.w.325128">verslant</w>
           <w cert="1.0" lemma="zoet" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35142_0000.w.325129">suete</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c35142_0000.w.325130">ende</w>
-          <w cert="1.0" lemma="ongeand" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.35142.sense.1" xml:id="c35142_0000.w.325131">onghehant</w>
+          <w cert="1.0" lemma="ongeand" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c35142_0000.w.325131" lemmaRef="mnw.35142.sense.1">onghehant</w>
           <pc pos="PC" xml:id="c35142_0000.pc.floating.00133803" lemma=",">,</pc>
         </q>
       </cit>

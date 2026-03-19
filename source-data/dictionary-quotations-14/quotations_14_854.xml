@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21287" lemma="KERNE" partition="train" sense-id="mnw.21287.sense.1" xml:id="c21287_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c21287_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>KERNE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21287.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21287</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.854">
           <w cert="1.0" lemma="planten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c21287_0000.w.948435">Plant</w>
           <w cert="1.0" lemma="daarin" pos="ADV(type=pron)" resp="thomas" xml:id="c21287_0000.w.948436">dar<join n="mw_825298" />
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c21287_0000.w.948444">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c21287_0000.w.948445">die</w>
           <w cert="1.0" lemma="krachtig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c21287_0000.w.948446">cregtege</w>
-          <w cert="1.0" lemma="kern" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21287.sense.1" xml:id="c21287_0000.w.948447">kernen</w>
+          <w cert="1.0" lemma="kern" pos="NOU-C(number=pl)" resp="roland" xml:id="c21287_0000.w.948447" lemmaRef="mnw.21287.sense.1">kernen</w>
           <pc pos="PC" xml:id="c21287_0000.pc.floating.00383077" lemma=",">,</pc>
         </q>
       </cit>

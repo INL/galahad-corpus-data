@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32327" lemma="NEMMEE" partition="train" sense-id="mnw.32327.sense.2" xml:id="c32327_0004">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c32327_0004">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NEMMEE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32327.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32327</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1326">
           <w cert="1.0" lemma="Urbanus" pos="NOU-P" resp="roland" xml:id="c32327_0004.w.1578102">Urbanus</w>
           <pc join="right" pos="PC" xml:id="c32327_0004.pc.pre.00622122" lemma="(">(</pc>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c32327_0004.w.1578105">een</w>
           <w cert="1.0" lemma="jaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c32327_0004.w.1578106">jaer</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c32327_0004.w.1578107">ende</w>
-          <w cert="1.0" lemma="nimmer" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.32327.sense.2" xml:id="c32327_0004.w.1578108">nemmere</w>
+          <w cert="1.0" lemma="nimmer" pos="ADV(type=reg)" resp="thomas" xml:id="c32327_0004.w.1578108" lemmaRef="mnw.32327.sense.2">nemmere</w>
           <pc pos="PC" xml:id="c32327_0004.pc.floating.00622124" lemma=",">,</pc>
         </q>
       </cit>

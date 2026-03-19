@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73601" lemma="WILLE" partition="train" sense-id="mnw.73601.sense.75" xml:id="c73601_0440">
-        <date atLeast="1426" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c73601_0440">
+        <note>
+          <ab>
+            <date atLeast="1426" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WILLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73601.sense.75</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73601</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2252">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c73601_0440.w.1915432">Doe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73601_0440.w.1915433">die</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c73601_0440.w.1915445">doen</w>
           <w cert="1.0" lemma="des" pos="ADV(type=reg)" resp="roland" xml:id="c73601_0440.w.1915446">des</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73601_0440.w.1915447">si</w>
-          <w cert="1.0" lemma="wil" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.73601.sense.75" xml:id="c73601_0440.w.1915448">wil</w>
+          <w cert="1.0" lemma="wil" pos="NOU-C(number=sg)" resp="thomas" xml:id="c73601_0440.w.1915448" lemmaRef="mnw.73601.sense.75">wil</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73601_0440.w.1915449">hadden</w>
           <pc join="right" pos="PC" xml:id="c73601_0440.pc.pre.00753461" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c73601_0440.w.1915450">var.</w>

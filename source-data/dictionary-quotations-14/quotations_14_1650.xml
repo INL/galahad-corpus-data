@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40310" lemma="OVER" partition="train" sense-id="mnw.40310.sense.73" xml:id="c40310_0678">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c40310_0678">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OVER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40310.sense.73</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40310</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1650">
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c40310_0678.w.1362302">Laeten</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c40310_0678.w.1362303">ons</w>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c40310_0678.pc.post.00543121" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c40310_0678.w.1362312">ende</w>
           <w cert="1.0" lemma="hangen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c40310_0678.w.1362313">hangen</w>
-          <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.40310.sense.73" xml:id="c40310_0678.w.1362314">over</w>
+          <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c40310_0678.w.1362314" lemmaRef="mnw.40310.sense.73">over</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c40310_0678.w.1362315">hem</w>
           <pc pos="PC" xml:id="c40310_0678.pc.post.00543122" lemma=",">,</pc>
         </q>

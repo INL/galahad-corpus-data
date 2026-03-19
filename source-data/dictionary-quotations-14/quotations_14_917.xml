@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23508" lemma="COSTER" partition="train" sense-id="mnw.23508.sense.1" xml:id="c23508_0011">
-        <date atLeast="1318" atMost="1318" timeSpan="1300-1350" />
+      <cit xml:id="c23508_0011">
+        <note>
+          <ab>
+            <date atLeast="1318" atMost="1318" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>COSTER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23508.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23508</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.917">
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c23508_0011.w.1354533">Ooc</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c23508_0011.w.1354534">en</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="te+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c23508_0011.w.1354538">ten</w>
           <w cert="1.0" lemma="avondmaal" pos="NOU-C(number=sg)" resp="roland" xml:id="c23508_0011.w.1354539">aventmael</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c23508_0011.w.1354540">den</w>
-          <w cert="1.0" lemma="koster" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.23508.sense.1" xml:id="c23508_0011.w.1354541">kuster</w>
+          <w cert="1.0" lemma="koster" pos="NOU-C(number=sg)" resp="roland" xml:id="c23508_0011.w.1354541" lemmaRef="mnw.23508.sense.1">kuster</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c23508_0011.w.1354542">ende</w>
           <w cert="1.0" lemma="kerkdienaar" pos="NOU-C(number=pl)" resp="roland" xml:id="c23508_0011.w.1354543">kerckendieners</w>
           <w cert="1.0" lemma="schenken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c23508_0011.w.1354544">schencken</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09094" lemma="ERLICHTEN" partition="train" sense-id="mnw.09094.sense.1" xml:id="c09094_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c09094_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ERLICHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09094.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09094</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.383">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c09094_0000.w.526326">Die</w>
           <w cert="1.0" lemma="hemels" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c09094_0000.w.526327">himelsche</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="rein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c09094_0000.w.526333">reine</w>
           <w cert="1.0" lemma="venster" pos="NOU-C(number=sg)" resp="roland" xml:id="c09094_0000.w.526334">venstere</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c09094_0000.w.526335">ende</w>
-          <w cert="1.0" lemma="erlichten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.09094.sense.1" xml:id="c09094_0000.w.526336">erligte</w>
+          <w cert="1.0" lemma="erlichten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c09094_0000.w.526336" lemmaRef="mnw.09094.sense.1">erligte</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c09094_0000.w.526337">dat</w>
           <w cert="1.0" lemma="tempel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c09094_0000.w.526338">tempel</w>
           <pc pos="PC" xml:id="c09094_0000.pc.post.00227281" lemma=",">,</pc>

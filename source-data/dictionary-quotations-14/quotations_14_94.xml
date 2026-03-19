@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02319" lemma="BARLEBAEN" partition="train" sense-id="mnw.02319.sense.1" xml:id="c02319_0002">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c02319_0002">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BARLEBAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02319.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02319</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.94">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02319_0002.w.418554">Ic</w>
           <w cert="1.0" lemma="wanen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02319_0002.w.418555">wane</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02319_0002.w.418556">u</w>
           <w cert="1.0" lemma="leren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c02319_0002.w.418557">leerde</w>
-          <w cert="1.0" lemma="Barlebaan" pos="NOU-P" resp="roland" sense-id="mnw.02319.sense.1" xml:id="c02319_0002.w.418558">Barlebaen</w>
+          <w cert="1.0" lemma="Barlebaan" pos="NOU-P" resp="roland" xml:id="c02319_0002.w.418558" lemmaRef="mnw.02319.sense.1">Barlebaen</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="roland" xml:id="c02319_0002.w.418559">eens</w>
           <w cert="1.0" lemma="jaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c02319_0002.w.418560">jaers</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c02319_0002.w.418561">te</w>

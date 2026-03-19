@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26029" lemma="LICHTSCIP" partition="train" sense-id="mnw.26029.sense.1" xml:id="c26029_0000">
-        <date atLeast="1343" atMost="1346" timeSpan="1300-1350" />
+      <cit xml:id="c26029_0000">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1346" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LICHTSCIP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26029.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26029</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1028">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c26029_0000.w.332305">Een</w>
           <w cert="1.0" lemma="bode" pos="NOU-C(number=sg)" resp="roland" xml:id="c26029_0000.w.332306">bode</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c26029_0000.w.332315">men</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c26029_0000.w.332316">alle</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c26029_0000.w.332317">die</w>
-          <w cert="1.0" lemma="lichtschip" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.26029.sense.1" xml:id="c26029_0000.w.332318">lichtscepe</w>
+          <w cert="1.0" lemma="lichtschip" pos="NOU-C(number=pl)" resp="roland" xml:id="c26029_0000.w.332318" lemmaRef="mnw.26029.sense.1">lichtscepe</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c26029_0000.w.332319">mit</w>
           <w cert="1.0" lemma="Hamburger" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c26029_0000.w.332320">hamborgher</w>
           <w cert="1.0" lemma="bier" pos="NOU-C(number=sg)" resp="roland" xml:id="c26029_0000.w.332321">bier</w>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35408" lemma="ONGEHIERE" partition="dev" sense-id="mnw.35408.sense.1" xml:id="c35408_0004">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c35408_0004">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONGEHIERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35408.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35408</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.886">
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c35408_0004.w.356840">Bi</w>
           <w cert="1.0" lemma="wijl" pos="NOU-C(number=sg)" resp="roland" xml:id="c35408_0004.w.356841">wilen</w>
           <w cert="1.0" lemma="voeren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c35408_0004.w.356842">voeren</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c35408_0004.w.356843">hem</w>
-          <w cert="1.0" lemma="onguur" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35408.sense.1" xml:id="c35408_0004.w.356844">ongehuere</w>
+          <w cert="1.0" lemma="onguur" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35408_0004.w.356844" lemmaRef="mnw.35408.sense.1">ongehuere</w>
           <w cert="1.0" lemma="uit+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c35408_0004.w.356845">uten</w>
           <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" xml:id="c35408_0004.w.356846">monde</w>
           <w cert="1.0" lemma="vlam" pos="NOU-C(number=pl)" resp="roland" xml:id="c35408_0004.w.356847">vlammen</w>

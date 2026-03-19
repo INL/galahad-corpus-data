@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14096" lemma="GIFTE" partition="train" sense-id="mnw.14096.sense.10" xml:id="c14096_0056">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c14096_0056">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GIFTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14096.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14096</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.625">
           <pc join="right" pos="PC" xml:id="c14096_0056.pc.pre.00594849" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c14096_0056.w.1422690">Het</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c14096_0056.w.1422693">God</w>
           <pc pos="PC" xml:id="c14096_0056.pc.post.00594852" lemma=")">)</pc>
           <w cert="1.0" lemma="te+een" pos="ADP(type=pre)+PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c14096_0056.w.1422694">teenre</w>
-          <w cert="1.0" lemma="gift" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14096.sense.10" xml:id="c14096_0056.w.1422695">ghichte</w>
+          <w cert="1.0" lemma="gift" pos="NOU-C(number=sg)" resp="roland" xml:id="c14096_0056.w.1422695" lemmaRef="mnw.14096.sense.10">ghichte</w>
           <w cert="1.0" lemma="mits" pos="ADP(type=pre)" resp="thomas" xml:id="c14096_0056.w.1422696">mids</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c14096_0056.w.1422697">sinen</w>
           <w cert="1.0" lemma="zoon" pos="NOU-C(number=sg)" resp="roland" xml:id="c14096_0056.w.1422698">zone</w>

@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69448" lemma="VRUCHTEN" partition="train" sense-id="mnw.69448.sense.9" xml:id="c69448_0053">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c69448_0053">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VRUCHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69448.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69448</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2928">
           <w cert="1.0" lemma="zij+ne" pos="PD(type=pers,position=free)+ADV(type=reg)" resp="roland" xml:id="c69448_0053.w.1069112">Soene</w>
-          <w cert="1.0" lemma="vruchten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.69448.sense.9" xml:id="c69448_0053.w.1069113">vruchte</w>
+          <w cert="1.0" lemma="vruchten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c69448_0053.w.1069113" lemmaRef="mnw.69448.sense.9">vruchte</w>
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c69448_0053.w.1069114">doe</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c69448_0053.w.1069115">no</w>
           <w cert="1.0" lemma="ontzien" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c69448_0053.w.1069116">ontsach</w>

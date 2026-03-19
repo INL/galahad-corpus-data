@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03879" lemma="BESTAEN" partition="train" sense-id="mnw.03879.sense.52" xml:id="c03879_0215">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c03879_0215">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BESTAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03879.sense.52</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03879</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.200">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03879_0215.w.785569">Dat</w>
           <w cert="1.0" lemma="kindje" pos="NOU-C(number=sg)" resp="roland" xml:id="c03879_0215.w.785570">kindeken</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="onthier" pos="ADV(type=reg)" resp="roland" xml:id="c03879_0215.w.785579">onthier</w>
           <w cert="1.0" lemma="en+dat" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03879_0215.w.785580">ent</w>
           <w cert="1.0" lemma="spreken" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03879_0215.w.785581">spreken</w>
-          <w cert="1.0" lemma="bestaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.03879.sense.52" xml:id="c03879_0215.w.785582">bestaet</w>
+          <w cert="1.0" lemma="bestaan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c03879_0215.w.785582" lemmaRef="mnw.03879.sense.52">bestaet</w>
           <pc pos="PC" xml:id="c03879_0215.pc.floating.00306899" lemma=",">,</pc>
         </q>
       </cit>

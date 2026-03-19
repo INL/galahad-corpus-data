@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40229" lemma="OUT" partition="test" sense-id="mnw.40229.sense.9" xml:id="c40229_0060">
-        <date atLeast="1477" atMost="1477" timeSpan="1450-1500" />
+      <cit xml:id="c40229_0060">
+        <note>
+          <ab>
+            <date atLeast="1477" atMost="1477" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OUT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40229.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40229</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1024">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c40229_0060.w.1332754">Die</w>
-          <w cert="1.0" lemma="oud" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.40229.sense.9" xml:id="c40229_0060.w.1332755">oude</w>
+          <w cert="1.0" lemma="oud" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c40229_0060.w.1332755" lemmaRef="mnw.40229.sense.9">oude</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c40229_0060.w.1332756">dyngen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c40229_0060.w.1332757">in</w>
           <w cert="1.0" lemma="gedachtenis" pos="NOU-C(number=pl)" resp="roland" xml:id="c40229_0060.w.1332758">gedechtnissen</w>

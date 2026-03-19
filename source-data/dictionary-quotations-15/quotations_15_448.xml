@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18192" lemma="HOUDEN" partition="train" sense-id="mnw.18192.sense.63" xml:id="c18192_0322">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c18192_0322">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>HOUDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18192.sense.63</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18192</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.448">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18192_0322.w.443420">Si</w>
           <w cert="1.0" lemma="vinden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c18192_0322.w.443421">vinden</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c18192_0322.w.443438">de</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c18192_0322.w.443439">trotschen</w>
           <pc pos="PC" xml:id="c18192_0322.pc.post.00181365" lemma=")">)</pc>
-          <w cert="1.0" lemma="houden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.18192.sense.63" xml:id="c18192_0322.w.443440">houden</w>
+          <w cert="1.0" lemma="houden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c18192_0322.w.443440" lemmaRef="mnw.18192.sense.63">houden</w>
           <pc pos="PC" xml:id="c18192_0322.pc.floating.00181366" lemma=",">,</pc>
         </q>
       </cit>

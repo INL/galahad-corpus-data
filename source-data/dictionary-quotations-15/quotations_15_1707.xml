@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61242" lemma="VALIANT" partition="train" sense-id="mnw.61242.sense.7" xml:id="c61242_0030">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c61242_0030">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VALIANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61242.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61242</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1707">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c61242_0030.w.886183">Ic</w>
           <pc join="right" pos="PC" xml:id="c61242_0030.pc.pre.00357881" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c61242_0030.w.886186">l.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c61242_0030.w.886187">bem</w>
           <pc pos="PC" xml:id="c61242_0030.pc.post.00357885" lemma="?)">?)</pc>
-          <w cert="1.0" lemma="valiant" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.61242.sense.7" xml:id="c61242_0030.w.886188">vaeillant</w>
+          <w cert="1.0" lemma="valiant" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c61242_0030.w.886188" lemmaRef="mnw.61242.sense.7">vaeillant</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c61242_0030.w.886189">ende</w>
           <w cert="1.0" lemma="achemant" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c61242_0030.w.886190">achemant</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61242_0030.w.886191">int</w>

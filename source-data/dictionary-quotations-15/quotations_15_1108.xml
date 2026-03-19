@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43301" lemma="POENTURE" partition="train" sense-id="mnw.43301.sense.2" xml:id="c43301_0001">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c43301_0001">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>POENTURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43301.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43301</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1108">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c43301_0001.w.365253">Doen</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c43301_0001.w.365254">hi</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="merken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c43301_0001.w.365259">mercte</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c43301_0001.w.365260">soo</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c43301_0001.w.365261">vele</w>
-          <w cert="1.0" lemma="pointuur" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.43301.sense.2" xml:id="c43301_0001.w.365262">poentueren</w>
+          <w cert="1.0" lemma="pointuur" pos="NOU-C(number=pl)" resp="roland" xml:id="c43301_0001.w.365262" lemmaRef="mnw.43301.sense.2">poentueren</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c43301_0001.w.365263">ende</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c43301_0001.w.365264">al</w>
           <w cert="1.0" lemma="contrarie" pos="ADP(type=pre)" resp="thomas" xml:id="c43301_0001.w.365265">contrarie</w>

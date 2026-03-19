@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69735" lemma="WACHTEN" partition="train" sense-id="mnw.69735.sense.3" xml:id="c69735_0015">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c69735_0015">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WACHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69735.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69735</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2936">
           <pc join="right" pos="PC" xml:id="c69735_0015.pc.pre.00442868" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c69735_0015.w.1103126">Dat</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="gehengen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c69735_0015.w.1103131">ghehinghen</w>
           <pc pos="PC" xml:id="c69735_0015.pc.post.00442870" lemma=",">,</pc>
           <w cert="1.0" lemma="die+hij" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c69735_0015.w.1103132">diene</w>
-          <w cert="1.0" lemma="wachten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.69735.sense.3" xml:id="c69735_0015.w.1103133">wachten</w>
+          <w cert="1.0" lemma="wachten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69735_0015.w.1103133" lemmaRef="mnw.69735.sense.3">wachten</w>
           <pc pos="PC" xml:id="c69735_0015.pc.floating.00442871" lemma=",">,</pc>
           <w cert="1.0" lemma="vriend" pos="NOU-C(number=pl)" resp="roland" xml:id="c69735_0015.w.1103135">vriende</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c69735_0015.w.1103136">ende</w>

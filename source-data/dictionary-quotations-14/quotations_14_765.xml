@@ -45,18 +45,31 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18370" lemma="HOVET" partition="train" sense-id="mnw.18370.sense.1" xml:id="c18370_0001">
-        <date atLeast="1359" atMost="1386" timeSpan="1350-1400" />
+      <cit xml:id="c18370_0001">
+        <note>
+          <ab>
+            <date atLeast="1359" atMost="1386" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HOVET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18370.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18370</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.765">
           <pc join="right" pos="PC" xml:id="c18370_0001.pc.pre.00197947" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18370_0001.w.484313">Si</w>
           <pc pos="PC" xml:id="c18370_0001.pc.post.00197948" lemma=")">)</pc>
           <w cert="1.0" lemma="leggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c18370_0001.w.484314">leide</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c18370_0001.w.484315">haer</w>
-          <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18370.sense.1" xml:id="c18370_0001.w.484316">hood</w>
+          <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="roland" xml:id="c18370_0001.w.484316" lemmaRef="mnw.18370.sense.1">hood</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c18370_0001.w.484317">bi</w>
           <w cert="1.0" lemma="de+graaf" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c18370_0001.w.484318">sgraven</w>
-          <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18370.sense.1" xml:id="c18370_0001.w.484319">hode</w>
+          <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="roland" xml:id="c18370_0001.w.484319" lemmaRef="mnw.18370.sense.1">hode</w>
           <pc pos="PC" xml:id="c18370_0001.pc.floating.00197949" lemma=",">,</pc>
         </q>
       </cit>

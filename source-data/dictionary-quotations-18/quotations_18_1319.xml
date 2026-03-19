@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M077822" lemma="VERSCH" modern-lemma="vers" partition="train" pos="AA ADV" sense-id="M077822.bet.14" xml:id="M077822.eg.30123">
-        <date atLeast="1702" atMost="1702" timeSpan="1700-1750" />
+      <cit xml:id="M077822.eg.30123">
+        <note>
+          <ab>
+            <date atLeast="1702" atMost="1702" extent="1700-1750" />
+            <interpGrp type="lemma">
+              <interp>VERSCH</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>AA ADV</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M077822.bet.14</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>vers</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M077822</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1319">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360307">Item</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360308">d</w>
@@ -86,7 +105,7 @@
           <w cert="1.0" lemma="zeepakking" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360334">Zeepackinge</w>
           <pc pos="PC" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.pc.post.00121515" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360335">ende</w>
-          <w cert="1.0" lemma="vers" pos="AA(degree=pos,position=prenom)" resp="roland" sense-id="M077822.bet.14" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360336">verschen</w>
+          <w cert="1.0" lemma="vers" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360336" lemmaRef="M077822.bet.14">verschen</w>
           <w cert="1.0" lemma="haring" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360337">Haerinck</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360338">by</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="INT_4810bb2a-fbc3-4928-b4ee-047bf5fceddf.w.360339">de</w>

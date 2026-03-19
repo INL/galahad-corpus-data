@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35820" lemma="ONGEREC" partition="train" sense-id="mnw.35820.sense.5" xml:id="c35820_0012">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c35820_0012">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONGEREC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35820.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35820</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1454">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c35820_0012.w.423634">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c35820_0012.w.423635">men</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c35820_0012.w.423642">die</w>
           <w cert="1.0" lemma="slink" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c35820_0012.w.423643">slinke</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c35820_0012.w.423644">so</w>
-          <w cert="1.0" lemma="te+ongerek" pos="ADP(type=pre)+NOU-C(number=sg)" resp="roland" sense-id="mnw.35820.sense.5" xml:id="c35820_0012.w.423645">tongereke</w>
+          <w cert="1.0" lemma="te+ongerek" pos="ADP(type=pre)+NOU-C(number=sg)" resp="roland" xml:id="c35820_0012.w.423645" lemmaRef="mnw.35820.sense.5">tongereke</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c35820_0012.w.423646">met</w>
           <w cert="1.0" lemma="brand" pos="NOU-C(number=sg)" resp="roland" xml:id="c35820_0012.w.423647">brande</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c35820_0012.w.423648">make</w>

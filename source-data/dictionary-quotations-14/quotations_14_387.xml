@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09219" lemma="ERVEN" partition="train" sense-id="mnw.09219.sense.8" xml:id="c09219_0036">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c09219_0036">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ERVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09219.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09219</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.387">
           <w cert="1.0" lemma="te" pos="ADV(type=reg)" resp="thomas" xml:id="c09219_0036.w.540400">Te</w>
           <w cert="1.0" lemma="vroeg" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c09219_0036.w.540401">vroeghe</w>
@@ -55,7 +68,7 @@
           </w>
           <w cert="1.0" lemma="hij+eraan" pos="PD(type=pers,position=free)+ADV(type=pron)" resp="thomas" xml:id="c09219_0036.w.540404">ane<join n="mw_582454" />
           </w>
-          <w cert="1.0" lemma="erven" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.09219.sense.8" xml:id="c09219_0036.w.540405">gheërvet</w>
+          <w cert="1.0" lemma="erven" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c09219_0036.w.540405" lemmaRef="mnw.09219.sense.8">gheërvet</w>
           <pc join="right" pos="PC" xml:id="c09219_0036.pc.pre.00233392" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c09219_0036.w.540406">in</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c09219_0036.w.540407">het</w>

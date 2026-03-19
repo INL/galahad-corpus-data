@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39533" lemma="OPPERPAPE" partition="train" sense-id="mnw.39533.sense.1" xml:id="c39533_0000">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c39533_0000">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OPPERPAPE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39533.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39533</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1614">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c39533_0000.w.1175467">Dat</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c39533_0000.w.1175468">niet</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="Heer" pos="NOU-P" resp="roland" xml:id="c39533_0000.w.1175473">Heren</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c39533_0000.w.1175474">ane</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c39533_0000.w.1175475">énen</w>
-          <w cert="1.0" lemma="opperpaap" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.39533.sense.1" xml:id="c39533_0000.w.1175476">upperpape</w>
+          <w cert="1.0" lemma="opperpaap" pos="NOU-C(number=sg)" resp="roland" xml:id="c39533_0000.w.1175476" lemmaRef="mnw.39533.sense.1">upperpape</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c39533_0000.w.1175477">en</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c39533_0000.w.1175478">ware</w>
           <pc pos="PC" xml:id="c39533_0000.pc.post.00469377" lemma=",">,</pc>

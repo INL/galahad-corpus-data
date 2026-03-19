@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10658" lemma="GEDENKEN" partition="dev" sense-id="mnw.10658.sense.7" xml:id="c10658_0019">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c10658_0019">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEDENKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10658.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10658</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.274">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c10658_0019.w.767999">Doe</w>
-          <w cert="1.0" lemma="gedenken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.10658.sense.7" xml:id="c10658_0019.w.768000">ghedachte</w>
+          <w cert="1.0" lemma="gedenken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c10658_0019.w.768000" lemmaRef="mnw.10658.sense.7">ghedachte</w>
           <w cert="1.0" lemma="Peter" pos="NOU-P" resp="roland" xml:id="c10658_0019.w.768001">Peter</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c10658_0019.w.768002">des</w>
           <w cert="1.0" lemma="woord" pos="NOU-C(number=sg)" resp="thomas" xml:id="c10658_0019.w.768003">woorts</w>

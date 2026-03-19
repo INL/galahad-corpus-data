@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43902" lemma="PRELATIE" partition="train" sense-id="mnw.43902.sense.1" xml:id="c43902_0001">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c43902_0001">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PRELATIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43902.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43902</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1788">
           <w cert="1.0" lemma="laten+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c43902_0001.w.458529">Laetse</w>
           <pc join="right" pos="PC" xml:id="c43902_0001.pc.pre.00180284" lemma="(">(</pc>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="klimmen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c43902_0001.w.458531">clemmen</w>
           <w cert="1.0" lemma="nimmermeer" pos="ADV(type=reg)" resp="thomas" xml:id="c43902_0001.w.458532">nemmermere</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c43902_0001.w.458533">ter</w>
-          <w cert="1.0" lemma="prelatie" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.43902.sense.1" xml:id="c43902_0001.w.458534">prelacie</w>
+          <w cert="1.0" lemma="prelatie" pos="NOU-C(number=sg)" resp="roland" xml:id="c43902_0001.w.458534" lemmaRef="mnw.43902.sense.1">prelacie</w>
           <pc pos="PC" xml:id="c43902_0001.pc.floating.00180286" lemma=",">,</pc>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c43902_0001.w.458536">te</w>
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c43902_0001.w.458537">sulker</w>

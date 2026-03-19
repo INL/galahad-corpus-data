@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10808" lemma="GEDWAS" partition="train" sense-id="mnw.10808.sense.2" xml:id="c10808_0019">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c10808_0019">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEDWAS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10808.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10808</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.455">
           <pc join="right" pos="PC" xml:id="c10808_0019.pc.pre.00341563" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c10808_0019.w.800863">Si</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c10808_0019.w.800868">al</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c10808_0019.w.800869">ware</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c10808_0019.w.800870">een</w>
-          <w cert="1.0" lemma="gedwaas" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.10808.sense.2" xml:id="c10808_0019.w.800871">gedwas</w>
+          <w cert="1.0" lemma="gedwaas" pos="NOU-C(number=sg)" resp="roland" xml:id="c10808_0019.w.800871" lemmaRef="mnw.10808.sense.2">gedwas</w>
           <pc pos="PC" xml:id="c10808_0019.pc.floating.00341566" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c10808_0019.w.800873">want</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c10808_0019.w.800874">die</w>

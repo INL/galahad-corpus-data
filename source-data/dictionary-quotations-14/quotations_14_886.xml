@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22441" lemma="COENE" partition="train" sense-id="mnw.22441.sense.1" xml:id="c22441_0031">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c22441_0031">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>COENE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22441.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22441</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.886">
           <w cert="1.0" lemma="te+die" pos="ADP(type=pre)+PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c22441_0031.w.1144019">Tien</w>
           <w cert="1.0" lemma="tijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c22441_0031.w.1144020">tiden</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c22441_0031.w.1144024">jegen</w>
           <w cert="1.0" lemma="dat+keizerrijk" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c22441_0031.w.1144025">tkeyserrike</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c22441_0031.w.1144026">so</w>
-          <w cert="1.0" lemma="koen" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.22441.sense.1" xml:id="c22441_0031.w.1144027">coene</w>
+          <w cert="1.0" lemma="koen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c22441_0031.w.1144027" lemmaRef="mnw.22441.sense.1">coene</w>
           <pc pos="PC" xml:id="c22441_0031.pc.floating.00461588" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c22441_0031.w.1144029">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c22441_0031.w.1144030">si</w>

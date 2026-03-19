@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50045" lemma="SCHOONKINE" partition="train" sense-id="mnw.50045.sense.2" xml:id="c50045_0005">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c50045_0005">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHOONKINE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50045.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50045</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2022">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c50045_0005.w.472596">Hi</w>
           <w cert="1.0" lemma="rusten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c50045_0005.w.472597">ruste</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="medevolgen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c50045_0005.w.472601">mede<join n="mw_262046" />
           </w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c50045_0005.w.472602">al</w>
-          <w cert="1.0" lemma="schoontjes" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.50045.sense.2" xml:id="c50045_0005.w.472603">scoonkine</w>
+          <w cert="1.0" lemma="schoontjes" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c50045_0005.w.472603" lemmaRef="mnw.50045.sense.2">scoonkine</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c50045_0005.w.472604">bi</w>
           <w cert="1.0" lemma="lief" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c50045_0005.w.472605">liever</w>
           <w cert="1.0" lemma="lede" pos="NOU-C(number=sg)" resp="roland" xml:id="c50045_0005.w.472606">lade</w>

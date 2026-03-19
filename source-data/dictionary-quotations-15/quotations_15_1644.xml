@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59043" lemma="TOTE" partition="train" sense-id="mnw.59043.sense.6" xml:id="c59043_0089">
-        <date atLeast="1481" atMost="1481" timeSpan="1450-1500" />
+      <cit xml:id="c59043_0089">
+        <note>
+          <ab>
+            <date atLeast="1481" atMost="1481" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TOTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59043.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59043</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1644">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c59043_0089.w.455348">Die</w>
           <w cert="1.0" lemma="zondig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c59043_0089.w.455349">sondighe</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c59043_0089.w.455363">en</w>
           <w cert="1.0" lemma="geven+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c59043_0089.w.455364">ghevetse</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c59043_0089.w.455365">hem</w>
-          <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.59043.sense.6" xml:id="c59043_0089.w.455366">tot</w>
+          <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c59043_0089.w.455366" lemmaRef="mnw.59043.sense.6">tot</w>
           <w cert="1.0" lemma="zadigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59043_0089.w.455367">sadicheyts</w>
           <w cert="1.0" lemma="toe" pos="ADV(type=reg)" resp="thomas" xml:id="c59043_0089.w.455368">toe</w>
           <pc pos="PC" xml:id="c59043_0089.pc.post.00183970" lemma=",">,</pc>

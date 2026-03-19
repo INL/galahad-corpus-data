@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32322" lemma="NEMEN" partition="train" sense-id="mnw.32322.sense.46" xml:id="c32322_0255">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c32322_0255">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NEMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32322.sense.46</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32322</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1322">
           <w cert="1.0" lemma="nochtan" pos="ADV(type=reg)" resp="thomas" xml:id="c32322_0255.w.1574276">Nochtan</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c32322_0255.w.1574277">so</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c32322_0255.w.1574285">neghenen</w>
           <w cert="1.0" lemma="wijg" pos="NOU-C(number=sg)" resp="roland" xml:id="c32322_0255.w.1574286">wijch</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c32322_0255.w.1574287">en</w>
-          <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.32322.sense.46" xml:id="c32322_0255.w.1574288">namen</w>
+          <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c32322_0255.w.1574288" lemmaRef="mnw.32322.sense.46">namen</w>
           <pc pos="PC" xml:id="c32322_0255.pc.floating.00620694" lemma=",">,</pc>
         </q>
       </cit>

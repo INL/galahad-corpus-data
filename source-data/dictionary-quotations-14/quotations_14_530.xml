@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12324" lemma="GERADEN" partition="train" sense-id="mnw.12324.sense.2" xml:id="c12324_0011">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c12324_0011">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GERADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12324.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12324</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.530">
           <pc pos="PC" xml:id="c12324_0011.pc.floating.00454810" lemma="—">—</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c12324_0011.w.1080456">Dat</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="kennen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c12324_0011.w.1080458">kenne</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12324_0011.w.1080459">ic</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c12324_0011.w.1080460">bi</w>
-          <w cert="1.0" lemma="geraden" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12324.sense.2" xml:id="c12324_0011.w.1080461">geraden</w>
+          <w cert="1.0" lemma="geraden" pos="NOU-C(number=sg)" resp="roland" xml:id="c12324_0011.w.1080461" lemmaRef="mnw.12324.sense.2">geraden</w>
           <pc join="right" pos="PC" xml:id="c12324_0011.pc.pre.00454811" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12324_0011.w.1080462">bij</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12324_0011.w.1080463">gissing</w>

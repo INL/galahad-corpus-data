@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49640" lemma="SCHILT" partition="train" sense-id="mnw.49640.sense.6" xml:id="c49640_0069">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c49640_0069">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHILT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49640.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49640</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2007">
           <pc join="right" pos="PC" xml:id="c49640_0069.pc.pre.00163829" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c49640_0069.w.398533">Dat</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c49640_0069.pc.post.00163831" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c49640_0069.w.398535">dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c49640_0069.w.398536">de</w>
-          <w cert="1.0" lemma="schild" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.49640.sense.6" xml:id="c49640_0069.w.398537">scilt</w>
+          <w cert="1.0" lemma="schild" pos="NOU-C(number=sg)" resp="roland" xml:id="c49640_0069.w.398537" lemmaRef="mnw.49640.sense.6">scilt</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c49640_0069.w.398538">es</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c49640_0069.w.398539">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c49640_0069.w.398540">den</w>

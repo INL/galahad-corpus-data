@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03818" lemma="BESONDERT" partition="train" sense-id="mnw.03818.sense.1" xml:id="c03818_0000">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c03818_0000">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BESONDERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03818.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03818</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.108">
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c03818_0000.w.767580">Elc</w>
-          <w cert="1.0" lemma="bijzonderd" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.03818.sense.1" xml:id="c03818_0000.w.767581">besondert</w>
+          <w cert="1.0" lemma="bijzonderd" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c03818_0000.w.767581" lemmaRef="mnw.03818.sense.1">besondert</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03818_0000.w.767582">moest</w>
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c03818_0000.w.767583">aldus</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c03818_0000.w.767584">sijns</w>

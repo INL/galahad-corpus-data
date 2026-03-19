@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29091" lemma="MENGEN" partition="train" sense-id="mnw.29091.sense.26" xml:id="c29091_0087">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c29091_0087">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MENGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29091.sense.26</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29091</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.721">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29091_0087.w.946278">Die</w>
           <w cert="1.0" lemma="ongelovige" pos="NOU-C(number=pl)" resp="thomas" xml:id="c29091_0087.w.946279">onghelovighe</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29091_0087.w.946285">si</w>
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c29091_0087.w.946286">mede<join n="mw_212761" />
           </w>
-          <w cert="1.0" lemma="mengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.29091.sense.26" xml:id="c29091_0087.w.946287">menghen</w>
+          <w cert="1.0" lemma="mengen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c29091_0087.w.946287" lemmaRef="mnw.29091.sense.26">menghen</w>
           <pc join="right" pos="PC" xml:id="c29091_0087.pc.pre.00368641" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c29091_0087.w.946288">waarmee</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c29091_0087.w.946289">zij</w>

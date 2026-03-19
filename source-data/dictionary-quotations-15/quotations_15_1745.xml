@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62105" lemma="VERBEIDEN" partition="test" sense-id="mnw.62105.sense.20" xml:id="c62105_0039">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c62105_0039">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERBEIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62105.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62105</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1745">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62105_0039.w.1087829">Die</w>
           <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="roland" xml:id="c62105_0039.w.1087830">raeds</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c62105_0039.w.1087831">niet</w>
-          <w cert="1.0" lemma="verbeiden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.62105.sense.20" xml:id="c62105_0039.w.1087832">verbeyden</w>
+          <w cert="1.0" lemma="verbeiden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c62105_0039.w.1087832" lemmaRef="mnw.62105.sense.20">verbeyden</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62105_0039.w.1087833">can</w>
           <pc pos="PC" xml:id="c62105_0039.pc.post.00438549" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62105_0039.w.1087834">die</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13742" lemma="GEWAERNESSE" partition="train" sense-id="mnw.13742.sense.1" xml:id="c13742_0000">
-        <date atLeast="1309" atMost="1309" timeSpan="1300-1350" />
+      <cit xml:id="c13742_0000">
+        <note>
+          <ab>
+            <date atLeast="1309" atMost="1309" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEWAERNESSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13742.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13742</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.605">
           <w cert="1.0" lemma="zo+ne" pos="ADV(type=reg)+ADV(type=reg)" resp="roland" xml:id="c13742_0000.w.1343850">Sone</w>
           <w cert="1.0" lemma="brengen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c13742_0000.w.1343851">brachte</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c13742_0000.w.1343853">noch</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c13742_0000.w.1343854">en</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c13742_0000.w.1343855">wilde</w>
-          <w cert="1.0" lemma="gewaarnis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.13742.sense.1" xml:id="c13742_0000.w.1343856">ghewaernisse</w>
+          <w cert="1.0" lemma="gewaarnis" pos="NOU-C(number=sg)" resp="roland" xml:id="c13742_0000.w.1343856" lemmaRef="mnw.13742.sense.1">ghewaernisse</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c13742_0000.w.1343857">geven</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c13742_0000.w.1343858">van</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c13742_0000.w.1343859">den</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03497" lemma="BERSTE" partition="train" sense-id="mnw.03497.sense.5" xml:id="c03497_0020">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c03497_0020">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BERSTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03497.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03497</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.167">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c03497_0020.w.692039">Die</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c03497_0020.w.692040">daer</w>
@@ -70,7 +83,7 @@
           <pc pos="PC" xml:id="c03497_0020.pc.post.00269803" lemma=")">)</pc>
           <w cert="1.0" lemma="zaligheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c03497_0020.w.692054">zalicheit</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c03497_0020.w.692055">hadden</w>
-          <w cert="1.0" lemma="barst" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.03497.sense.5" xml:id="c03497_0020.w.692056">barste</w>
+          <w cert="1.0" lemma="barst" pos="NOU-C(number=sg)" resp="roland" xml:id="c03497_0020.w.692056" lemmaRef="mnw.03497.sense.5">barste</w>
           <pc pos="PC" xml:id="c03497_0020.pc.floating.00269804" lemma=",">,</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c03497_0020.w.692058">geene</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c03497_0020.w.692059">hoop</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20777" lemma="CASE" partition="train" sense-id="mnw.20777.sense.1" xml:id="c20777_0003">
-        <date atLeast="1452" atMost="1501" timeSpan="1450-1500" />
+      <cit xml:id="c20777_0003">
+        <note>
+          <ab>
+            <date atLeast="1452" atMost="1501" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CASE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20777.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20777</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.511">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c20777_0003.w.841093">Alle</w>
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c20777_0003.w.841094">diegene</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c20777_0003.w.841096">in</w>
           <w cert="1.0" lemma="klip" pos="NOU-C(number=sg)" resp="roland" xml:id="c20777_0003.w.841097">clipp</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c20777_0003.w.841098">ende</w>
-          <w cert="1.0" lemma="kaas" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.20777.sense.1" xml:id="c20777_0003.w.841099">kaze</w>
+          <w cert="1.0" lemma="kaas" pos="NOU-C(number=sg)" resp="roland" xml:id="c20777_0003.w.841099" lemmaRef="mnw.20777.sense.1">kaze</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c20777_0003.w.841100">geweest</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c20777_0003.w.841101">hebben</w>
           <pc pos="PC" xml:id="c20777_0003.pc.post.00341949" lemma=",">,</pc>

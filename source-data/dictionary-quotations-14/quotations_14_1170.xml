@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29117" lemma="MENICHVOUDE" partition="train" sense-id="mnw.29117.sense.1" xml:id="c29117_0004">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c29117_0004">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MENICHVOUDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29117.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29117</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1170">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29117_0004.w.953676">Hi</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c29117_0004.w.953677">soude</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="goud" pos="NOU-C(number=sg)" resp="roland" xml:id="c29117_0004.w.953683">goude</w>
           <w cert="1.0" lemma="lonen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c29117_0004.w.953684">lonen</w>
           <w cert="1.0" lemma="hard" pos="ADV(type=reg)" resp="roland" xml:id="c29117_0004.w.953685">herde</w>
-          <w cert="1.0" lemma="menigvoud" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.29117.sense.1" xml:id="c29117_0004.w.953686">menichfoude</w>
+          <w cert="1.0" lemma="menigvoud" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c29117_0004.w.953686" lemmaRef="mnw.29117.sense.1">menichfoude</w>
           <pc pos="PC" xml:id="c29117_0004.pc.floating.00371852" lemma="…">…</pc>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c29117_0004.w.953688">sine</w>
           <w cert="1.0" lemma="pijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c29117_0004.w.953689">pine</w>

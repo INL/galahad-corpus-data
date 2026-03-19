@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45940" lemma="RECOORT" partition="train" sense-id="mnw.45940.sense.3" xml:id="c45940_0001">
-        <date atLeast="1301" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c45940_0001">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>RECOORT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45940.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45940</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1879">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45940_0001.w.908320">Die</w>
           <w cert="1.0" lemma="schepen" pos="NOU-C(number=pl)" resp="roland" xml:id="c45940_0001.w.908321">scepenen</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="schuldig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c45940_0001.w.908323">sculdich</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c45940_0001.w.908324">te</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c45940_0001.w.908325">doene</w>
-          <w cert="1.0" lemma="dat+record" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.45940.sense.3" xml:id="c45940_0001.w.908326">trecort</w>
+          <w cert="1.0" lemma="dat+record" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c45940_0001.w.908326" lemmaRef="mnw.45940.sense.3">trecort</w>
           <w cert="1.0" lemma="tot+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45940_0001.w.908327">toten</w>
           <w cert="1.0" lemma="graaf" pos="NOU-C(number=sg)" resp="roland" xml:id="c45940_0001.w.908328">grave</w>
           <pc pos="PC" xml:id="c45940_0001.pc.floating.00356737" lemma="…">…</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18298" lemma="HOUWER" partition="train" sense-id="mnw.18298.sense.2" xml:id="c18298_0001">
-        <date atLeast="1384" atMost="1407" timeSpan="1350-1400" />
+      <cit xml:id="c18298_0001">
+        <note>
+          <ab>
+            <date atLeast="1384" atMost="1407" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HOUWER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18298.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18298</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.762">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c18298_0001.w.468305">Met</w>
           <w cert="1.0" lemma="twintig" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c18298_0001.w.468306">XX</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="onder" pos="ADP(type=pre)" resp="thomas" xml:id="c18298_0001.w.468312">onder</w>
           <w cert="1.0" lemma="handknaap" pos="NOU-C(number=pl)" resp="roland" xml:id="c18298_0001.w.468313">handcnapen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c18298_0001.w.468314">ende</w>
-          <w cert="1.0" lemma="houwertje" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.18298.sense.2" xml:id="c18298_0001.w.468315">hauwerkins</w>
+          <w cert="1.0" lemma="houwertje" pos="NOU-C(number=pl)" resp="roland" xml:id="c18298_0001.w.468315" lemmaRef="mnw.18298.sense.2">hauwerkins</w>
           <pc join="right" pos="PC" xml:id="c18298_0001.pc.pre.00191397" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c18298_0001.w.468316">jonggezellen</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c18298_0001.w.468317">onder</w>

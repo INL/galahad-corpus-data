@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15664" lemma="HANT" partition="dev" sense-id="mnw.15664.sense.15" xml:id="c15664_0108">
-        <date atLeast="1303" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c15664_0108">
+        <note>
+          <ab>
+            <date atLeast="1303" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15664.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15664</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.677">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c15664_0108.w.62252">Van</w>
           <w cert="1.0" lemma="vrouwenkracht" pos="NOU-C(number=sg)" resp="roland" xml:id="c15664_0108.w.62253">vrouwen<join n="mw_35992" />
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c15664_0108.w.62259">van</w>
           <w cert="1.0" lemma="doodslag" pos="NOU-C(number=sg)" resp="roland" xml:id="c15664_0108.w.62260">dootslaghe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c15664_0108.w.62261">ende</w>
-          <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.15664.sense.15" xml:id="c15664_0108.w.62262">hant</w>
+          <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" xml:id="c15664_0108.w.62262" lemmaRef="mnw.15664.sense.15">hant</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c15664_0108.w.62263">te</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c15664_0108.w.62264">doene</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c15664_0108.w.62265">an</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17537" lemma="HOERARE" partition="train" sense-id="mnw.17537.sense.1" xml:id="c17537_0001">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c17537_0001">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HOERARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17537.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17537</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.727">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c17537_0001.w.334390">Ic</w>
           <w cert="1.0" lemma="danken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c17537_0001.w.334391">danke</w>
@@ -66,7 +79,7 @@
           <pc pos="PC" xml:id="c17537_0001.pc.post.00137114" lemma=",">,</pc>
           <w cert="1.0" lemma="onrecht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c17537_0001.w.334402">onrecht</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c17537_0001.w.334403">ende</w>
-          <w cert="1.0" lemma="hoeraar" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.17537.sense.1" xml:id="c17537_0001.w.334404">hoeraren</w>
+          <w cert="1.0" lemma="hoeraar" pos="NOU-C(number=pl)" resp="roland" xml:id="c17537_0001.w.334404" lemmaRef="mnw.17537.sense.1">hoeraren</w>
           <pc pos="PC" xml:id="c17537_0001.pc.floating.00137115" lemma=",">,</pc>
         </q>
       </cit>

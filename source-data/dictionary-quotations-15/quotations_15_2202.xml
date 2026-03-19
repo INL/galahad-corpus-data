@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72614" lemma="WERPGELT" partition="train" sense-id="mnw.72614.sense.1" xml:id="c72614_0002">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c72614_0002">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WERPGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72614.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72614</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2202">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c72614_0002.w.1703736">Een</w>
           <w cert="1.0" lemma="schip" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72614_0002.w.1703737">scip</w>
@@ -95,7 +108,7 @@
           <w cert="1.0" lemma="betalen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c72614_0002.w.1703773">betalen</w>
           <pc pos="PC" xml:id="c72614_0002.pc.post.00676281" lemma=",">,</pc>
           <w cert="1.0" lemma="gelijk" pos="CONJ(type=sub)" resp="thomas" xml:id="c72614_0002.w.1703774">gheliken</w>
-          <w cert="1.0" lemma="werpgeld" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72614.sense.1" xml:id="c72614_0002.w.1703775">werpghelde</w>
+          <w cert="1.0" lemma="werpgeld" pos="NOU-C(number=sg)" resp="roland" xml:id="c72614_0002.w.1703775" lemmaRef="mnw.72614.sense.1">werpghelde</w>
           <pc pos="PC" xml:id="c72614_0002.pc.floating.00676282" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32209" lemma="NEEN" partition="dev" sense-id="mnw.32209.sense.4" xml:id="c32209_0064">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c32209_0064">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NEEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32209.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32209</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.801">
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c32209_0064.w.1556023">Elc</w>
           <pc join="right" pos="PC" xml:id="c32209_0064.pc.pre.00612853" lemma="(">(</pc>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c32209_0064.w.1556033">here</w>
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32209_0064.w.1556034">seide</w>
           <pc pos="PC" xml:id="c32209_0064.pc.post.00612857" lemma=":">:</pc>
-          <w cert="1.0" lemma="nee+gij" pos="ADV(type=reg)+PD(type=pers,position=free)" resp="thomas" sense-id="mnw.32209.sense.4" xml:id="c32209_0064.w.1556035">negi</w>
+          <w cert="1.0" lemma="nee+gij" pos="ADV(type=reg)+PD(type=pers,position=free)" resp="thomas" xml:id="c32209_0064.w.1556035" lemmaRef="mnw.32209.sense.4">negi</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c32209_0064.w.1556036">niet</w>
           <pc pos="PC" xml:id="c32209_0064.pc.post.00612858" lemma=",">,</pc>
         </q>

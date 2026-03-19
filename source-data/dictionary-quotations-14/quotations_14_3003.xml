@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71008" lemma="WECHVAREN" partition="train" sense-id="mnw.71008.sense.1" xml:id="c71008_0013">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c71008_0013">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WECHVAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71008.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71008</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3003">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c71008_0013.w.1382225">Al</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c71008_0013.w.1382226">dat</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="roven+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c71008_0013.w.1382231">roofdi</w>
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c71008_0013.w.1382232">doe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c71008_0013.w.1382233">ende</w>
-          <w cert="1.0" lemma="wegvaren" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.71008.sense.1" xml:id="c71008_0013.w.1382234">wechvoer</w>
+          <w cert="1.0" lemma="wegvaren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c71008_0013.w.1382234" lemmaRef="mnw.71008.sense.1">wechvoer</w>
           <pc pos="PC" xml:id="c71008_0013.pc.floating.00553725" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74350" lemma="WONEN" partition="test" sense-id="mnw.74350.sense.3" xml:id="c74350_0031">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c74350_0031">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WONEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74350.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74350</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3179">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c74350_0031.w.2079601">In</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c74350_0031.w.2079602">den</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c74350_0031.w.2079607">die</w>
           <w cert="1.0" lemma="profeet" pos="NOU-C(number=pl)" resp="roland" xml:id="c74350_0031.w.2079608">propheten</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c74350_0031.w.2079609">haer</w>
-          <w cert="1.0" lemma="wonen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.74350.sense.3" xml:id="c74350_0031.w.2079610">woonen</w>
+          <w cert="1.0" lemma="wonen" pos="NOU-C(number=sg)" resp="roland" xml:id="c74350_0031.w.2079610" lemmaRef="mnw.74350.sense.3">woonen</w>
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c74350_0031.w.2079611">houden</w>
           <pc join="right" pos="PC" xml:id="c74350_0031.pc.pre.00815461" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c74350_0031.w.2079612">verblijf</w>

@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61993" lemma="VER" partition="train" sense-id="mnw.61993.sense.8" xml:id="c61993_0068">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c61993_0068">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61993.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61993</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1739">
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c61993_0068.w.1059774">Segt</w>
           <pc pos="PC" xml:id="c61993_0068.pc.post.00427961" lemma=",">,</pc>
           <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c61993_0068.w.1059775">vrouwe</w>
-          <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.61993.sense.8" xml:id="c61993_0068.w.1059776">ver</w>
+          <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="thomas" xml:id="c61993_0068.w.1059776" lemmaRef="mnw.61993.sense.8">ver</w>
           <w cert="1.0" lemma="Juliana" pos="NOU-P" resp="roland" xml:id="c61993_0068.w.1059777">Juliane</w>
           <pc pos="PC" xml:id="c61993_0068.pc.post.00427962" lemma=",">,</pc>
           <w cert="1.0" lemma="hebben+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c61993_0068.w.1059778">hebdi</w>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05316" lemma="BRADE" partition="train" sense-id="mnw.05316.sense.1" xml:id="c05316_0003">
-        <date atLeast="1455" atMost="1475" timeSpan="1450-1500" />
+      <cit xml:id="c05316_0003">
+        <note>
+          <ab>
+            <date atLeast="1455" atMost="1475" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BRADE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05316.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05316</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.162">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c05316_0003.w.1010718">De</w>
           <w cert="1.0" lemma="blutsje" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05316_0003.w.1010719">blutskine</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c05316_0003.w.1010720">metter</w>
           <w cert="1.0" lemma="kwaad" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c05316_0003.w.1010721">quader</w>
-          <w cert="1.0" lemma="braad" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05316.sense.1" xml:id="c05316_0003.w.1010722">brayen</w>
+          <w cert="1.0" lemma="braad" pos="NOU-C(number=sg)" resp="roland" xml:id="c05316_0003.w.1010722" lemmaRef="mnw.05316.sense.1">brayen</w>
           <pc pos="PC" xml:id="c05316_0003.pc.floating.00400329" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c05316_0003.w.1010724">die</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c05316_0003.w.1010725">in</w>

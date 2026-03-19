@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09971" lemma="FUTSELINGE" partition="train" sense-id="mnw.09971.sense.2" xml:id="c09971_0002">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c09971_0002">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>FUTSELINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09971.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09971</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.410">
           <w cert="1.0" lemma="beslag" pos="NOU-C(number=sg)" resp="roland" xml:id="c09971_0002.w.634714">Beslach</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c09971_0002.w.634715">van</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="hoofdband" pos="NOU-C(number=pl)" resp="roland" xml:id="c09971_0002.w.634723">hoeftbanden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c09971_0002.w.634724">ende</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c09971_0002.w.634725">andre</w>
-          <w cert="1.0" lemma="futseling" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.09971.sense.2" xml:id="c09971_0002.w.634726">futselinghe</w>
+          <w cert="1.0" lemma="futseling" pos="NOU-C(number=sg)" resp="roland" xml:id="c09971_0002.w.634726" lemmaRef="mnw.09971.sense.2">futselinghe</w>
           <pc pos="PC" xml:id="c09971_0002.pc.floating.00273514" lemma=",">,</pc>
         </q>
       </cit>

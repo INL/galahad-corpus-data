@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51480" lemma="SERMOEN" partition="train" sense-id="mnw.51480.sense.2" xml:id="c51480_0023">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c51480_0023">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SERMOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51480.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51480</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2068">
           <w cert="1.0" lemma="hier" pos="ADV(type=reg)" resp="thomas" xml:id="c51480_0023.w.730560">Hir</w>
           <w cert="1.0" lemma="vinden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c51480_0023.w.730561">vint</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c51480_0023.pc.post.00303569" lemma=")">)</pc>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c51480_0023.w.730564">alle</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c51480_0023.w.730565">de</w>
-          <w cert="1.0" lemma="sermoen" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.51480.sense.2" xml:id="c51480_0023.w.730566">sermone</w>
+          <w cert="1.0" lemma="sermoen" pos="NOU-C(number=pl)" resp="roland" xml:id="c51480_0023.w.730566" lemmaRef="mnw.51480.sense.2">sermone</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c51480_0023.w.730567">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c51480_0023.w.730568">den</w>
           <w cert="1.0" lemma="boek" pos="NOU-C(number=sg)" resp="roland" xml:id="c51480_0023.w.730569">bueke</w>

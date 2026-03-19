@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11695" lemma="GELOVICH" partition="train" sense-id="mnw.11695.sense.1" xml:id="c11695_0002">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c11695_0002">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GELOVICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11695.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11695</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.485">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11695_0002.w.946886">Hi</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c11695_0002.w.946887">dede</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="besnijden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11695_0002.w.946893">besniden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c11695_0002.w.946894">ende</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c11695_0002.w.946895">bleef</w>
-          <w cert="1.0" lemma="gelovig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.11695.sense.1" xml:id="c11695_0002.w.946896">ghelovech</w>
+          <w cert="1.0" lemma="gelovig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11695_0002.w.946896" lemmaRef="mnw.11695.sense.1">ghelovech</w>
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="c11695_0002.w.946897">na</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11695_0002.w.946898">die</w>
           <w cert="1.0" lemma="uur" pos="NOU-C(number=sg)" resp="roland" xml:id="c11695_0002.w.946899">ure</w>

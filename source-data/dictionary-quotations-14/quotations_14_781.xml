@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19042" lemma="INBRINGEN" partition="train" sense-id="mnw.19042.sense.4" xml:id="c19042_0007">
-        <date atLeast="1370" atMost="1370" timeSpan="1350-1400" />
+      <cit xml:id="c19042_0007">
+        <note>
+          <ab>
+            <date atLeast="1370" atMost="1370" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>INBRINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19042.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19042</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.781">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c19042_0007.w.584956">Die</w>
           <w cert="1.0" lemma="ander" pos="NUM(type=ord,position=free,representation=let)" resp="thomas" xml:id="c19042_0007.w.584957">andere</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c19042_0007.w.584959">niet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c19042_0007.w.584960">ne</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c19042_0007.w.584961">willen</w>
-          <w cert="1.0" lemma="inbrengen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.19042.sense.4" xml:id="c19042_0007.w.584962">inbringhen</w>
+          <w cert="1.0" lemma="inbrengen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c19042_0007.w.584962" lemmaRef="mnw.19042.sense.4">inbringhen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c19042_0007.w.584963">ende</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c19042_0007.w.584964">commen</w>
           <w cert="1.0" lemma="delen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c19042_0007.w.584965">deelen</w>

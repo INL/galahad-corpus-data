@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59043" lemma="TOTE" partition="train" sense-id="mnw.59043.sense.10" xml:id="c59043_0114">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c59043_0114">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TOTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59043.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59043</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1648">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c59043_0114.w.455890">Hoe</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c59043_0114.w.455891">ghi</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c59043_0114.w.455895">uwe</w>
           <w cert="1.0" lemma="gelofte" pos="NOU-C(number=pl)" resp="roland" xml:id="c59043_0114.w.455896">gheloften</w>
           <pc pos="PC" xml:id="c59043_0114.pc.floating.00184182" lemma="…">…</pc>
-          <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="roland" sense-id="mnw.59043.sense.10" xml:id="c59043_0114.w.455898">tote</w>
+          <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="roland" xml:id="c59043_0114.w.455898" lemmaRef="mnw.59043.sense.10">tote</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c59043_0114.w.455899">den</w>
           <w cert="1.0" lemma="einde" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59043_0114.w.455900">einde</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c59043_0114.w.455901">uws</w>

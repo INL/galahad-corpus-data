@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38105" lemma="ONTVANC" partition="test" sense-id="mnw.38105.sense.5" xml:id="c38105_0011">
-        <date atLeast="1407" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c38105_0011">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTVANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38105.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38105</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.963">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c38105_0011.w.870187">Ende</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c38105_0011.w.870188">moet</w>
@@ -54,9 +67,9 @@
           <w cert="1.0" lemma="ontvanger" pos="NOU-C(number=sg)" resp="roland" xml:id="c38105_0011.w.870190">ontfanghere</w>
           <w cert="1.0" lemma="rekenen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c38105_0011.w.870191">rekenen</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c38105_0011.w.870192">zinen</w>
-          <w cert="1.0" lemma="ontvang" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.38105.sense.5" xml:id="c38105_0011.w.870193">ontfanc</w>
+          <w cert="1.0" lemma="ontvang" pos="NOU-C(number=sg)" resp="thomas" xml:id="c38105_0011.w.870193" lemmaRef="mnw.38105.sense.5">ontfanc</w>
           <w cert="1.0" lemma="vol" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c38105_0011.w.870194">vul</w>
-          <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.38105.sense.5" xml:id="c38105_0011.w.870195">ontfanghen</w>
+          <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c38105_0011.w.870195" lemmaRef="mnw.38105.sense.5">ontfanghen</w>
           <w cert="1.0" lemma="te+al" pos="ADP(type=pre)+PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c38105_0011.w.870196">tallen</w>
           <w cert="1.0" lemma="tijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c38105_0011.w.870197">tide</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c38105_0011.w.870198">als</w>

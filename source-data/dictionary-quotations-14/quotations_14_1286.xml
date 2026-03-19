@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31537" lemma="NAER" partition="train" sense-id="mnw.31537.sense.10" xml:id="c31537_0050">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c31537_0050">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NAER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31537.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31537</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1286">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c31537_0050.w.1427192">Al</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31537_0050.w.1427193">was</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c31537_0050.pc.post.00562220" lemma=",">,</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c31537_0050.w.1427198">hi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31537_0050.w.1427199">was</w>
-          <w cert="1.0" lemma="naar" pos="ADP(type=pre)" resp="thomas" sense-id="mnw.31537.sense.10" xml:id="c31537_0050.w.1427200">naer</w>
+          <w cert="1.0" lemma="naar" pos="ADP(type=pre)" resp="thomas" xml:id="c31537_0050.w.1427200" lemmaRef="mnw.31537.sense.10">naer</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c31537_0050.w.1427201">den</w>
           <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c31537_0050.w.1427202">live</w>
           <w cert="1.0" lemma="klaar" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c31537_0050.w.1427203">claer</w>

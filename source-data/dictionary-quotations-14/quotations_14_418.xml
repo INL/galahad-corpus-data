@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10149" lemma="GANS" partition="train" sense-id="mnw.10149.sense.5" xml:id="c10149_0028">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c10149_0028">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GANS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10149.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10149</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.418">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c10149_0028.w.672513">Men</w>
           <w cert="1.0" lemma="oorbaren+hij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c10149_0028.w.672514">oerbaerten</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c10149_0028.w.672525">dat<join n="mw_950136" />
           </w>
           <w cert="1.0" lemma="lang" pos="ADV(type=reg)" resp="thomas" xml:id="c10149_0028.w.672526">langhe</w>
-          <w cert="1.0" lemma="gans" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.10149.sense.5" xml:id="c10149_0028.w.672527">gans</w>
+          <w cert="1.0" lemma="gans" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c10149_0028.w.672527" lemmaRef="mnw.10149.sense.5">gans</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c10149_0028.w.672528">blivet</w>
           <pc pos="PC" xml:id="c10149_0028.pc.post.00288981" lemma=",">,</pc>
         </q>

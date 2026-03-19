@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05252" lemma="BOUDELIKE" partition="train" sense-id="mnw.05252.sense.1" xml:id="c05252_0010">
-        <date atLeast="1326" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c05252_0010">
+        <note>
+          <ab>
+            <date atLeast="1326" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BOUDELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05252.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05252</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.244">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c05252_0010.w.1000716">Den</w>
           <w cert="1.0" lemma="gene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c05252_0010.w.1000717">ghenen</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="beginnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c05252_0010.w.1000727">begin</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c05252_0010.w.1000728">ic</w>
           <w cert="1.0" lemma="te" pos="ADV(type=reg)" resp="thomas" xml:id="c05252_0010.w.1000729">te</w>
-          <w cert="1.0" lemma="boudelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.05252.sense.1" xml:id="c05252_0010.w.1000730">boudeliker</w>
+          <w cert="1.0" lemma="boudelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c05252_0010.w.1000730" lemmaRef="mnw.05252.sense.1">boudeliker</w>
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c05252_0010.w.1000731">voert</w>
           <pc pos="PC" xml:id="c05252_0010.pc.post.00396133" lemma=",">,</pc>
         </q>

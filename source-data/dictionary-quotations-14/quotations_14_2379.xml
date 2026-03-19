@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58746" lemma="TOGEN" partition="train" sense-id="mnw.58746.sense.20" xml:id="c58746_0180">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c58746_0180">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58746.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58746</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2379">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c58746_0180.w.390805">Nu</w>
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c58746_0180.w.390806">weert</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58746_0180.w.390814">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c58746_0180.w.390815">van</w>
           <w cert="1.0" lemma="goud" pos="NOU-C(number=sg)" resp="roland" xml:id="c58746_0180.w.390816">goude</w>
-          <w cert="1.0" lemma="togen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.58746.sense.20" xml:id="c58746_0180.w.390817">toghen</w>
+          <w cert="1.0" lemma="togen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c58746_0180.w.390817" lemmaRef="mnw.58746.sense.20">toghen</w>
           <pc pos="PC" xml:id="c58746_0180.pc.floating.00158538" lemma=",">,</pc>
         </q>
       </cit>

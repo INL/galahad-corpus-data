@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62471" lemma="VERDOEMEN" partition="train" sense-id="mnw.62471.sense.16" xml:id="c62471_0067">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c62471_0067">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERDOEMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62471.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62471</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2552">
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62471_0067.w.1197717">Sech</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62471_0067.w.1197718">ons</w>
@@ -69,7 +82,7 @@
           <pc pos="PC" xml:id="c62471_0067.pc.post.00480695" lemma=")">)</pc>
           <w cert="1.0" lemma="macht" pos="NOU-C(number=sg)" resp="roland" xml:id="c62471_0067.w.1197730">macht</w>
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c62471_0067.w.1197731">aldus</w>
-          <w cert="1.0" lemma="verdoemen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.62471.sense.16" xml:id="c62471_0067.w.1197732">verdooms</w>
+          <w cert="1.0" lemma="verdoemen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62471_0067.w.1197732" lemmaRef="mnw.62471.sense.16">verdooms</w>
           <pc pos="PC" xml:id="c62471_0067.pc.floating.00480696" lemma=",">,</pc>
         </q>
       </cit>

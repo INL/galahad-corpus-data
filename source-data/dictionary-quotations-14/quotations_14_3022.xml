@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71622" lemma="WEDERWILLE" partition="train" sense-id="mnw.71622.sense.3" xml:id="c71622_0009">
-        <date atLeast="1331" atMost="1333" timeSpan="1300-1350" />
+      <cit xml:id="c71622_0009">
+        <note>
+          <ab>
+            <date atLeast="1331" atMost="1333" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WEDERWILLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71622.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71622</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3022">
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c71622_0009.w.1482223">Haer</w>
           <w cert="1.0" lemma="L." pos="NOU-P(WF=abbr)" resp="thomas" xml:id="c71622_0009.w.1482224">L.</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="raadhuis" pos="NOU-C(number=sg)" resp="roland" xml:id="c71622_0009.w.1482229">raethus</w>
           <w cert="1.0" lemma="breken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c71622_0009.w.1482230">braken</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c71622_0009.w.1482231">ter</w>
-          <w cert="1.0" lemma="wederwil" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.71622.sense.3" xml:id="c71622_0009.w.1482232">wederwillen</w>
+          <w cert="1.0" lemma="wederwil" pos="NOU-C(number=sg)" resp="roland" xml:id="c71622_0009.w.1482232" lemmaRef="mnw.71622.sense.3">wederwillen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c71622_0009.w.1482233">ende</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c71622_0009.w.1482234">op</w>
           <w cert="1.0" lemma="wraak" pos="NOU-C(number=sg)" resp="roland" xml:id="c71622_0009.w.1482235">wrake</w>

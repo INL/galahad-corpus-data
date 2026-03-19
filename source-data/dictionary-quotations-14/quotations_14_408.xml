@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09859" lemma="FOSSEIT" partition="train" sense-id="mnw.09859.sense.1" xml:id="c09859_0002">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c09859_0002">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>FOSSEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09859.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09859</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.408">
           <w cert="1.0" lemma="dies" pos="ADV(type=reg)" resp="roland" xml:id="c09859_0002.w.624753">Dies</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c09859_0002.w.624754">ghinc</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="vol" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c09859_0002.w.624763">vul</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c09859_0002.w.624764">worden</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c09859_0002.w.624765">die</w>
-          <w cert="1.0" lemma="fosseit" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.09859.sense.1" xml:id="c09859_0002.w.624766">fosseide</w>
+          <w cert="1.0" lemma="fosseit" pos="NOU-C(number=pl)" resp="roland" xml:id="c09859_0002.w.624766" lemmaRef="mnw.09859.sense.1">fosseide</w>
           <pc pos="PC" xml:id="c09859_0002.pc.floating.00269282" lemma=",">,</pc>
         </q>
       </cit>

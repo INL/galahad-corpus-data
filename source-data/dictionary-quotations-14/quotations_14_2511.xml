@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61579" lemma="VEDERE" partition="train" sense-id="mnw.61579.sense.1" xml:id="c61579_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c61579_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VEDERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61579.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61579</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2511">
           <w cert="1.0" lemma="vogel" pos="NOU-C(number=pl)" resp="roland" xml:id="c61579_0000.w.994291">Voglen</w>
           <pc pos="PC" xml:id="c61579_0000.pc.floating.00401336" lemma="…,">…,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c61579_0000.w.994293">die</w>
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c61579_0000.w.994294">sulke</w>
-          <w cert="1.0" lemma="veder" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.61579.sense.1" xml:id="c61579_0000.w.994295">vederen</w>
+          <w cert="1.0" lemma="veder" pos="NOU-C(number=pl)" resp="roland" xml:id="c61579_0000.w.994295" lemmaRef="mnw.61579.sense.1">vederen</w>
           <w cert="1.0" lemma="aanhebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c61579_0000.w.994296">hebben<join n="mw_770485" />
           </w>
           <w cert="1.0" lemma="aanhebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c61579_0000.w.994297">ane<join n="mw_770485" />

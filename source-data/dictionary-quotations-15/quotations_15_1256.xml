@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48415" lemma="SATE" partition="train" sense-id="mnw.48415.sense.14" xml:id="c48415_0041">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c48415_0041">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SATE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48415.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48415</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1256">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c48415_0041.w.130465">Ic</w>
           <w cert="1.0" lemma="houden+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c48415_0041.w.130466">hilten</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c48415_0041.w.130474">hem</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c48415_0041.w.130475">mit</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c48415_0041.w.130476">goeder</w>
-          <w cert="1.0" lemma="zaat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48415.sense.14" xml:id="c48415_0041.w.130477">saten</w>
+          <w cert="1.0" lemma="zaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c48415_0041.w.130477" lemmaRef="mnw.48415.sense.14">saten</w>
           <pc join="right" pos="PC" xml:id="c48415_0041.pc.pre.00054393" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48415_0041.w.130478">met</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48415_0041.w.130479">goed</w>

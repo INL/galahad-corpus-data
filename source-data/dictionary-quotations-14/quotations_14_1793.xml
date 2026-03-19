@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43951" lemma="PREUS" partition="train" sense-id="mnw.43951.sense.6" xml:id="c43951_0020">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c43951_0020">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PREUS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43951.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43951</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1793">
           <pc pos="PC" xml:id="c43951_0020.pc.floating.00184465" lemma="—">—</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c43951_0020.w.469356">Die</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="hovaardig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c43951_0020.w.469364">hoverdich</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c43951_0020.w.469365">ende</w>
           <w cert="1.0" lemma="zeer" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c43951_0020.w.469366">zeere</w>
-          <w cert="1.0" lemma="preuts" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.43951.sense.6" xml:id="c43951_0020.w.469367">preus</w>
+          <w cert="1.0" lemma="preuts" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c43951_0020.w.469367" lemmaRef="mnw.43951.sense.6">preus</w>
           <pc pos="PC" xml:id="c43951_0020.pc.floating.00184467" lemma=",">,</pc>
         </q>
       </cit>

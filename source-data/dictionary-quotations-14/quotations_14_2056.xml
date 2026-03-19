@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51210" lemma="SEISER" partition="train" sense-id="mnw.51210.sense.1" xml:id="c51210_0001">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c51210_0001">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SEISER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51210.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51210</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2056">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c51210_0001.w.676977">Hi</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c51210_0001.w.676978">sal</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51210_0001.w.676984">ende</w>
           <w cert="1.0" lemma="wijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51210_0001.w.676985">wijn</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51210_0001.w.676986">ende</w>
-          <w cert="1.0" lemma="dat+seiser" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.51210.sense.1" xml:id="c51210_0001.w.676987">tseyser</w>
+          <w cert="1.0" lemma="dat+seiser" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c51210_0001.w.676987" lemmaRef="mnw.51210.sense.1">tseyser</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c51210_0001.w.676988">ne</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c51210_0001.w.676989">sal</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c51210_0001.w.676990">hi</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30126" lemma="MISSE" partition="train" sense-id="mnw.30126.sense.3" xml:id="c30126_0050">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c30126_0050">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MISSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30126.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30126</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1229">
           <w cert="1.0" lemma="de+morgen" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c30126_0050.w.1171685">Smorghens</w>
           <w cert="1.0" lemma="vroe" pos="ADV(type=reg)" resp="thomas" xml:id="c30126_0050.w.1171686">vroe</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30126_0050.w.1171690">si</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30126_0050.w.1171691">ter</w>
           <w cert="1.0" lemma="kerk" pos="NOU-C(number=sg)" resp="roland" xml:id="c30126_0050.w.1171692">kerken</w>
-          <w cert="1.0" lemma="mis" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30126.sense.3" xml:id="c30126_0050.w.1171693">messe</w>
+          <w cert="1.0" lemma="mis" pos="NOU-C(number=sg)" resp="roland" xml:id="c30126_0050.w.1171693" lemmaRef="mnw.30126.sense.3">messe</w>
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30126_0050.w.1171694">horen</w>
           <pc pos="PC" xml:id="c30126_0050.pc.post.00459786" lemma=",">,</pc>
         </q>

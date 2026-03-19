@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M053078" lemma="PERPLEX" modern-lemma="perplex" partition="train" pos="AA" sense-id="M053078.bet.2" xml:id="M053078.eg.20223">
-        <date atLeast="1555" atMost="1555" timeSpan="1550-1600" />
+      <cit xml:id="M053078.eg.20223">
+        <note>
+          <ab>
+            <date atLeast="1555" atMost="1555" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>PERPLEX</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>AA</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M053078.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>perplex</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M053078</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.510">
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="a7e6dd04-40c5-411f-83e6-e29be17e6773.w.633209">Alle</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="a7e6dd04-40c5-411f-83e6-e29be17e6773.w.633210">mijn</w>
@@ -62,7 +81,7 @@
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="a7e6dd04-40c5-411f-83e6-e29be17e6773.w.633219">Ick</w>
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="a7e6dd04-40c5-411f-83e6-e29be17e6773.w.633220">stae</w>
           <w cert="1.0" lemma="heel" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="a7e6dd04-40c5-411f-83e6-e29be17e6773.w.633221">heel</w>
-          <w cert="1.0" lemma="perplex" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="M053078.bet.2" xml:id="a7e6dd04-40c5-411f-83e6-e29be17e6773.w.633222">perplect</w>
+          <w cert="1.0" lemma="perplex" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="a7e6dd04-40c5-411f-83e6-e29be17e6773.w.633222" lemmaRef="M053078.bet.2">perplect</w>
           <pc pos="PC" xml:id="a7e6dd04-40c5-411f-83e6-e29be17e6773.pc.post.00195053" lemma=",">,</pc>
         </q>
       </cit>

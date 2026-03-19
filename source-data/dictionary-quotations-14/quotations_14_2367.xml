@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58414" lemma="TOEHANGEN" partition="train" sense-id="mnw.58414.sense.1" xml:id="c58414_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c58414_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TOEHANGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58414.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58414</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2367">
           <w cert="1.0" lemma="zweren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58414_0000.w.315702">Swert</w>
           <pc pos="PC" xml:id="c58414_0000.pc.post.00128966" lemma=",">,</pc>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58414_0000.w.315714">man</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c58414_0000.w.315715">die</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58414_0000.w.315716">mi</w>
-          <w cert="1.0" lemma="toehangen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.58414.sense.1" xml:id="c58414_0000.w.315717">tuehenget</w>
+          <w cert="1.0" lemma="toehangen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58414_0000.w.315717" lemmaRef="mnw.58414.sense.1">tuehenget</w>
           <pc pos="PC" xml:id="c58414_0000.pc.floating.00128967" lemma=",">,</pc>
         </q>
       </cit>

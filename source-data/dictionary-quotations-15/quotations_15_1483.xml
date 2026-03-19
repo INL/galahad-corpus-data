@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54532" lemma="STAEN" partition="train" sense-id="mnw.54532.sense.6" xml:id="c54532_0051">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c54532_0051">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54532.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54532</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1483">
           <pc pos="PC" xml:id="c54532_0051.pc.floating.00577757" lemma="—">—</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c54532_0051.w.1392870">Hi</w>
-          <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.54532.sense.6" xml:id="c54532_0051.w.1392871">stont</w>
+          <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c54532_0051.w.1392871" lemmaRef="mnw.54532.sense.6">stont</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c54532_0051.w.1392872">van</w>
           <w cert="1.0" lemma="vrucht" pos="NOU-C(number=pl)" resp="roland" xml:id="c54532_0051.w.1392873">vruchten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c54532_0051.w.1392874">ende</w>

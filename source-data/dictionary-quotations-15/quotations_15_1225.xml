@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47385" lemma="ROVER" partition="train" sense-id="mnw.47385.sense.1" xml:id="c47385_0009">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c47385_0009">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ROVER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47385.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47385</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1225">
           <w cert="1.0" lemma="pelgrim" pos="NOU-C(number=pl)" resp="roland" xml:id="c47385_0009.w.1202726">Pilgherijms</w>
           <pc pos="PC" xml:id="c47385_0009.pc.post.00474987" lemma=",">,</pc>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c47385_0009.w.1202731">ende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c47385_0009.w.1202732">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c47385_0009.w.1202733">den</w>
-          <w cert="1.0" lemma="rover" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.47385.sense.1" xml:id="c47385_0009.w.1202734">roovers</w>
+          <w cert="1.0" lemma="rover" pos="NOU-C(number=pl)" resp="roland" xml:id="c47385_0009.w.1202734" lemmaRef="mnw.47385.sense.1">roovers</w>
           <w cert="1.0" lemma="afzetten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c47385_0009.w.1202735">afgheset</w>
           <pc pos="PC" xml:id="c47385_0009.pc.post.00474990" lemma=",">,</pc>
         </q>

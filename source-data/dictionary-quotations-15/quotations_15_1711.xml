@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61261" lemma="VALLEN" partition="train" sense-id="mnw.61261.sense.50" xml:id="c61261_0286">
-        <date atLeast="1470" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c61261_0286">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VALLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61261.sense.50</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61261</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1711">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c61261_0286.w.896651">Deser</w>
           <w cert="1.0" lemma="woord" pos="NOU-C(number=pl)" resp="roland" xml:id="c61261_0286.w.896652">woirden</w>
-          <w cert="1.0" lemma="vallen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.61261.sense.50" xml:id="c61261_0286.w.896653">vyelen</w>
+          <w cert="1.0" lemma="vallen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c61261_0286.w.896653" lemmaRef="mnw.61261.sense.50">vyelen</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c61261_0286.w.896654">so</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c61261_0286.w.896655">vele</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c61261_0286.w.896656">ende</w>

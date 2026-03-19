@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70279" lemma="WANDEREN" partition="train" sense-id="mnw.70279.sense.3" xml:id="c70279_0033">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c70279_0033">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WANDEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70279.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70279</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2963">
           <w cert="1.0" lemma="wenen" pos="VRB(finiteness=prespart)" resp="roland" xml:id="c70279_0033.w.1230412">Wenende</w>
           <w cert="1.0" lemma="batten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c70279_0033.w.1230413">bat</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70279_0033.w.1230421">ende</w>
           <w cert="1.0" lemma="heten+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c70279_0033.w.1230422">hietene</w>
           <w cert="1.0" lemma="daan" pos="ADV(type=reg)" resp="thomas" xml:id="c70279_0033.w.1230423">danen</w>
-          <w cert="1.0" lemma="wanderen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.70279.sense.3" xml:id="c70279_0033.w.1230424">wanderen</w>
+          <w cert="1.0" lemma="wanderen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c70279_0033.w.1230424" lemmaRef="mnw.70279.sense.3">wanderen</w>
           <pc pos="PC" xml:id="c70279_0033.pc.floating.00493777" lemma=",">,</pc>
         </q>
       </cit>

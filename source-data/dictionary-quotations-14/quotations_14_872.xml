@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22034" lemma="CLOCKENLUDERE" partition="train" sense-id="mnw.22034.sense.1" xml:id="c22034_0002">
-        <date atLeast="1340" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c22034_0002">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CLOCKENLUDERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22034.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22034</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.872">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c22034_0002.w.1082928">Van</w>
           <w cert="1.0" lemma="vijf" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c22034_0002.w.1082929">5</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c22034_0002.pc.post.00437325" lemma=",">,</pc>
           <w cert="1.0" lemma="wachter" pos="NOU-C(number=pl)" resp="roland" xml:id="c22034_0002.w.1082936">wachters</w>
           <pc pos="PC" xml:id="c22034_0002.pc.post.00437326" lemma=",">,</pc>
-          <w cert="1.0" lemma="klokkenluider" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.22034.sense.1" xml:id="c22034_0002.w.1082937">clocludere</w>
+          <w cert="1.0" lemma="klokkenluider" pos="NOU-C(number=pl)" resp="roland" xml:id="c22034_0002.w.1082937" lemmaRef="mnw.22034.sense.1">clocludere</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22034_0002.w.1082938">ende</w>
           <w cert="1.0" lemma="kareelmaker" pos="NOU-C(number=sg)" resp="roland" xml:id="c22034_0002.w.1082939">quareelmakere</w>
           <w cert="1.0" lemma="kleed" pos="NOU-C(number=pl)" resp="roland" xml:id="c22034_0002.w.1082940">cledre</w>

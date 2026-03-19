@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14607" lemma="GOUDIJN" partition="train" sense-id="mnw.14607.sense.1" xml:id="c14607_0009">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c14607_0009">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GOUDIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14607.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14607</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.655">
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c14607_0009.w.1508514">Daer<join n="mw_457695" />
           </w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c14607_0009.pc.post.00631377" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c14607_0009.w.1508520">ende</w>
           <w cert="1.0" lemma="fijn" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c14607_0009.w.1508521">fijn</w>
-          <w cert="1.0" lemma="gouden" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.14607.sense.1" xml:id="c14607_0009.w.1508522">guldijn</w>
+          <w cert="1.0" lemma="gouden" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c14607_0009.w.1508522" lemmaRef="mnw.14607.sense.1">guldijn</w>
           <pc pos="PC" xml:id="c14607_0009.pc.floating.00631378" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M055864" lemma="PREEKEN" modern-lemma="preken" partition="train" pos="VRB" sense-id="M055864.sense.4" xml:id="M055864.eg.62548">
-        <date atLeast="1857" atMost="1857" timeSpan="1850-1900" />
+      <cit xml:id="M055864.eg.62548">
+        <note>
+          <ab>
+            <date atLeast="1857" atMost="1857" extent="1850-1900" />
+            <interpGrp type="lemma">
+              <interp>PREEKEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M055864.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>preken</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M055864</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.725">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.76986">De</w>
           <w cert="1.0" lemma="laat" pos="AA(degree=sup,position=prenom)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.76987">laatste</w>
@@ -56,7 +75,7 @@
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.76990">gij</w>
           <w cert="1.0" lemma="hier" pos="ADV(type=reg)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.76991">hier</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.76992">hebt</w>
-          <w cert="1.0" lemma="prediken" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="M055864.sense.4" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.76993">gepredikt</w>
+          <w cert="1.0" lemma="prediken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.w.76993" lemmaRef="M055864.sense.4">gepredikt</w>
           <pc pos="PC" xml:id="afc5771a-d5dd-4b5e-a315-d11672ecdc56.pc.post.00024466" lemma=",">,</pc>
         </q>
       </cit>

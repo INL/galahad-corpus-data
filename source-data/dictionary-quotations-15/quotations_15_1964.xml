@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66440" lemma="VITE" partition="train" sense-id="mnw.66440.sense.2" xml:id="c66440_0015">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c66440_0015">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VITE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66440.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66440</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1964">
           <w cert="1.0" lemma="of+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c66440_0015.w.409274">Oft</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c66440_0015.w.409275">God</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66440_0015.w.409285">mach</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c66440_0015.w.409286">in</w>
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c66440_0015.w.409287">sulker</w>
-          <w cert="1.0" lemma="vite" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.66440.sense.2" xml:id="c66440_0015.w.409288">vijt</w>
+          <w cert="1.0" lemma="vite" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66440_0015.w.409288" lemmaRef="mnw.66440.sense.2">vijt</w>
           <pc pos="PC" xml:id="c66440_0015.pc.floating.00162773" lemma=",">,</pc>
           <w cert="1.0" lemma="tenware" pos="CONJ(type=sub)" resp="thomas" xml:id="c66440_0015.w.409290">ten<join n="mw_89565" />
           </w>

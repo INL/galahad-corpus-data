@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01140" lemma="AL" partition="train" sense-id="mnw.01140.sense.68" xml:id="c01140_0415">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c01140_0415">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>AL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01140.sense.68</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01140</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.43">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c01140_0415.w.227398">Die</w>
           <w cert="1.0" lemma="Spaans" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c01140_0415.w.227399">Spaensce</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="leven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c01140_0415.w.227404">leven</w>
           <w cert="1.0" lemma="onlang" pos="ADV(type=reg)" resp="thomas" xml:id="c01140_0415.w.227405">onlange</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c01140_0415.w.227406">met</w>
-          <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" sense-id="mnw.01140.sense.68" xml:id="c01140_0415.w.227407">allen</w>
+          <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c01140_0415.w.227407" lemmaRef="mnw.01140.sense.68">allen</w>
           <pc pos="PC" xml:id="c01140_0415.pc.floating.00089646" lemma=",">,</pc>
         </q>
       </cit>

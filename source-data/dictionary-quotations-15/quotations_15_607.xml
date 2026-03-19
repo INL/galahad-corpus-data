@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25115" lemma="LASTERLIJC" partition="train" sense-id="mnw.25115.sense.1" xml:id="c25115_0006">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c25115_0006">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LASTERLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25115.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25115</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.607">
           <w cert="1.0" lemma="armoede" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25115_0006.w.118002">Armoede</w>
           <pc pos="PC" xml:id="c25115_0006.pc.post.00046056" lemma=",">,</pc>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25115_0006.w.118015">ende</w>
           <pc pos="PC" xml:id="c25115_0006.pc.floating.00046061" lemma="…">…</pc>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c25115_0006.w.118017">niet</w>
-          <w cert="1.0" lemma="lasterlijk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.25115.sense.1" xml:id="c25115_0006.w.118018">lasterlic</w>
+          <w cert="1.0" lemma="lasterlijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c25115_0006.w.118018" lemmaRef="mnw.25115.sense.1">lasterlic</w>
           <pc pos="PC" xml:id="c25115_0006.pc.floating.00046062" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c25115_0006.w.118020">mer</w>
           <w cert="1.0" lemma="eerlijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c25115_0006.w.118021">eerlic</w>

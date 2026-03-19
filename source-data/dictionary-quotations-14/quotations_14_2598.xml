@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63089" lemma="VERHOGEN" partition="train" sense-id="mnw.63089.sense.5" xml:id="c63089_0016">
-        <date atLeast="1326" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c63089_0016">
+        <note>
+          <ab>
+            <date atLeast="1326" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERHOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63089.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63089</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2598">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63089_0016.w.1363261">Hi</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63089_0016.w.1363262">ende</w>
@@ -65,7 +78,7 @@
           <pc pos="PC" xml:id="c63089_0016.pc.post.00546214" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63089_0016.w.1363274">die</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63089_0016.w.1363275">men</w>
-          <w cert="1.0" lemma="verhogen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.63089.sense.5" xml:id="c63089_0016.w.1363276">verhogen</w>
+          <w cert="1.0" lemma="verhogen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c63089_0016.w.1363276" lemmaRef="mnw.63089.sense.5">verhogen</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c63089_0016.w.1363277">niet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c63089_0016.w.1363278">en</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63089_0016.w.1363279">mochte</w>

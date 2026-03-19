@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28951" lemma="MEITIJT" partition="train" sense-id="mnw.28951.sense.1" xml:id="c28951_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c28951_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MEITIJT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28951.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28951</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1162">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c28951_0000.w.921002">Dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c28951_0000.w.921003">was</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c28951_0000.w.921004">in</w>
-          <w cert="1.0" lemma="mei" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28951.sense.1" xml:id="c28951_0000.w.921005">Meye</w>
-          <w cert="1.0" lemma="tijd" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28951.sense.1" xml:id="c28951_0000.w.921006">tide</w>
+          <w cert="1.0" lemma="mei" pos="NOU-C(number=sg)" resp="roland" xml:id="c28951_0000.w.921005" lemmaRef="mnw.28951.sense.1">Meye</w>
+          <w cert="1.0" lemma="tijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c28951_0000.w.921006" lemmaRef="mnw.28951.sense.1">tide</w>
           <pc pos="PC" xml:id="c28951_0000.pc.floating.00358565" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+de" pos="CONJ(type=sub)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c28951_0000.w.921008">dattie</w>
           <w cert="1.0" lemma="vogel" pos="NOU-C(number=pl)" resp="roland" xml:id="c28951_0000.w.921009">voglen</w>

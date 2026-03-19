@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40868" lemma="OVERSAEYEN" partition="train" sense-id="mnw.40868.sense.1" xml:id="c40868_0000">
-        <date atLeast="1421" atMost="1441" timeSpan="1400-1450" />
+      <cit xml:id="c40868_0000">
+        <note>
+          <ab>
+            <date atLeast="1421" atMost="1441" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OVERSAEYEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40868.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40868</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1050">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c40868_0000.w.1470814">Doe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c40868_0000.w.1470815">de</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c40868_0000.w.1470819">sijn</w>
           <w cert="1.0" lemma="vijand" pos="NOU-C(number=sg)" resp="thomas" xml:id="c40868_0000.w.1470820">viant</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c40868_0000.w.1470821">ende</w>
-          <w cert="1.0" lemma="overzaaien+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" sense-id="mnw.40868.sense.1" xml:id="c40868_0000.w.1470822">oversaeidet</w>
+          <w cert="1.0" lemma="overzaaien+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c40868_0000.w.1470822" lemmaRef="mnw.40868.sense.1">oversaeidet</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c40868_0000.w.1470823">met</w>
           <w cert="1.0" lemma="hederik" pos="NOU-C(number=sg)" resp="thomas" xml:id="c40868_0000.w.1470824">haderic</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c40868_0000.w.1470825">in</w>

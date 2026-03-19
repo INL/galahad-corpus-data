@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14015" lemma="GEWOONTHEIT" partition="train" sense-id="mnw.14015.sense.2" xml:id="c14015_0004">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c14015_0004">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEWOONTHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14015.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14015</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.365">
           <w cert="1.0" lemma="dat+men" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c14015_0004.w.1401521">Datmen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14015_0004.w.1401522">die</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="gezet" pos="NOU-C(number=sg)" resp="thomas" xml:id="c14015_0004.w.1401526">ghesette</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c14015_0004.w.1401527">ende</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c14015_0004.w.1401528">die</w>
-          <w cert="1.0" lemma="gewoondheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.14015.sense.2" xml:id="c14015_0004.w.1401529">ghewoontheit</w>
+          <w cert="1.0" lemma="gewoondheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c14015_0004.w.1401529" lemmaRef="mnw.14015.sense.2">ghewoontheit</w>
           <w cert="1.0" lemma="gerecht" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c14015_0004.w.1401530">gherecht</w>
           <w cert="1.0" lemma="schrijven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c14015_0004.w.1401531">scrive</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c14015_0004.w.1401532">ende</w>

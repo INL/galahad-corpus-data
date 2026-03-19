@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47808" lemma="SADEN" partition="train" sense-id="mnw.47808.sense.4" xml:id="c47808_0028">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c47808_0028">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47808.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47808</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1241">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c47808_0028.w.19908">Hi</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c47808_0028.w.19909">heeft</w>
-          <w cert="1.0" lemma="zaden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.47808.sense.4" xml:id="c47808_0028.w.19910">gesaet</w>
+          <w cert="1.0" lemma="zaden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c47808_0028.w.19910" lemmaRef="mnw.47808.sense.4">gesaet</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c47808_0028.w.19911">die</w>
           <w cert="1.0" lemma="ijdel" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c47808_0028.w.19912">ydel</w>
           <w cert="1.0" lemma="ziel" pos="NOU-C(number=sg)" resp="roland" xml:id="c47808_0028.w.19913">ziele</w>

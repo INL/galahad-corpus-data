@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37260" lemma="ONTDWINGEN" partition="train" sense-id="mnw.37260.sense.1" xml:id="c37260_0005">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c37260_0005">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTDWINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37260.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37260</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.935">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c37260_0005.w.666282">Met</w>
           <w cert="1.0" lemma="ootmoed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c37260_0005.w.666283">ootmoet</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c37260_0005.w.666293">en</w>
           <w cert="1.0" lemma="mogen+men" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c37260_0005.w.666294">machmen</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c37260_0005.w.666295">niet</w>
-          <w cert="1.0" lemma="ontdwingen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.37260.sense.1" xml:id="c37260_0005.w.666296">ontdwinghen</w>
+          <w cert="1.0" lemma="ontdwingen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c37260_0005.w.666296" lemmaRef="mnw.37260.sense.1">ontdwinghen</w>
           <pc join="right" pos="PC" xml:id="c37260_0005.pc.pre.00270933" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c37260_0005.w.666297">var.</w>
           <w cert="1.0" lemma="ontwinnen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c37260_0005.w.666298">ontwingen</w>

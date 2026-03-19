@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05717" lemma="BULTEL" partition="train" sense-id="mnw.05717.sense.1" xml:id="c05717_0000">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c05717_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BULTEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05717.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05717</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.251">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c05717_0000.w.1058820">Met</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c05717_0000.w.1058821">den</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c05717_0000.w.1058831">dor</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c05717_0000.w.1058832">een</w>
           <w cert="1.0" lemma="nauw" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c05717_0000.w.1058833">nauwe</w>
-          <w cert="1.0" lemma="bulteel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05717.sense.1" xml:id="c05717_0000.w.1058834">bultel</w>
+          <w cert="1.0" lemma="bulteel" pos="NOU-C(number=sg)" resp="roland" xml:id="c05717_0000.w.1058834" lemmaRef="mnw.05717.sense.1">bultel</w>
           <pc pos="PC" xml:id="c05717_0000.pc.floating.00420613" lemma=",">,</pc>
         </q>
       </cit>

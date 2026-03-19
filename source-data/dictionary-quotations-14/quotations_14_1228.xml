@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30123" lemma="MISSCIEN" partition="train" sense-id="mnw.30123.sense.3" xml:id="c30123_0014">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c30123_0014">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MISSCIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30123.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30123</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1228">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30123_0014.w.1167837">Men</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30123_0014.w.1167838">sal</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c30123_0014.w.1167844">so</w>
           <w cert="1.0" lemma="iet" pos="PD(type=indef,position=free)" resp="roland" xml:id="c30123_0014.w.1167845">yet</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30123_0014.w.1167846">sal</w>
-          <w cert="1.0" lemma="misschieden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.30123.sense.3" xml:id="c30123_0014.w.1167847">misscien</w>
+          <w cert="1.0" lemma="misschieden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30123_0014.w.1167847" lemmaRef="mnw.30123.sense.3">misscien</w>
           <pc pos="PC" xml:id="c30123_0014.pc.floating.00458331" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c30123_0014.w.1167849">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30123_0014.w.1167850">si</w>

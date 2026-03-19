@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72464" lemma="WERDICH" partition="train" sense-id="mnw.72464.sense.6" xml:id="c72464_0023">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c72464_0023">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WERDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72464.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72464</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2169">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c72464_0023.w.1622658">Ist</w>
           <w cert="1.0" lemma="dat+du" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c72464_0023.w.1622659">dattu</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="zullen+du" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c72464_0023.w.1622668">saelstu</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c72464_0023.w.1622669">werden</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c72464_0023.w.1622670">een</w>
-          <w cert="1.0" lemma="waardig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.72464.sense.6" xml:id="c72464_0023.w.1622671">weerdich</w>
+          <w cert="1.0" lemma="waardig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c72464_0023.w.1622671" lemmaRef="mnw.72464.sense.6">weerdich</w>
           <w cert="1.0" lemma="arsater" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72464_0023.w.1622672">arsater</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72464_0023.w.1622673">der</w>
           <w cert="1.0" lemma="mens" pos="NOU-C(number=pl)" resp="roland" xml:id="c72464_0023.w.1622674">menschen</w>

@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17987" lemma="HOONRE" partition="train" sense-id="mnw.17987.sense.1" xml:id="c17987_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c17987_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HOONRE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17987.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17987</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.743">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c17987_0000.w.402017">Die</w>
-          <w cert="1.0" lemma="honer" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.17987.sense.1" xml:id="c17987_0000.w.402018">hooneren</w>
+          <w cert="1.0" lemma="honer" pos="NOU-C(number=pl)" resp="roland" xml:id="c17987_0000.w.402018" lemmaRef="mnw.17987.sense.1">hooneren</w>
           <w cert="1.0" lemma="zullen+men" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c17987_0000.w.402019">salmen</w>
           <w cert="1.0" lemma="honen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c17987_0000.w.402020">honen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c17987_0000.w.402021">ende</w>

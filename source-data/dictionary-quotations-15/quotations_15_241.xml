@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09023" lemma="ERFPANT" partition="train" sense-id="mnw.09023.sense.1" xml:id="c09023_0002">
-        <date atLeast="1494" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c09023_0002">
+        <note>
+          <ab>
+            <date atLeast="1494" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ERFPANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09023.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09023</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.241">
           <w cert="1.0" lemma="wanneer" pos="CONJ(type=sub)" resp="roland" xml:id="c09023_0002.w.520432">Wanneer</w>
           <w cert="1.0" lemma="hierbinnen" pos="ADV(type=pron)" resp="thomas" xml:id="c09023_0002.w.520433">hierbynnen</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c09023_0002.w.520434">een</w>
-          <w cert="1.0" lemma="erfpand" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.09023.sense.1" xml:id="c09023_0002.w.520435">erffpant</w>
+          <w cert="1.0" lemma="erfpand" pos="NOU-C(number=sg)" resp="thomas" xml:id="c09023_0002.w.520435" lemmaRef="mnw.09023.sense.1">erffpant</w>
           <w cert="1.0" lemma="verkopen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c09023_0002.w.520436">verkoft</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c09023_0002.w.520437">wort</w>
           <pc pos="PC" xml:id="c09023_0002.pc.post.00224907" lemma=",">,</pc>

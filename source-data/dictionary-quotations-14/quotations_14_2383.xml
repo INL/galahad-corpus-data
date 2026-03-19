@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58825" lemma="TONGE" partition="train" sense-id="mnw.58825.sense.15" xml:id="c58825_0069">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c58825_0069">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TONGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58825.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58825</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2383">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c58825_0069.w.408182">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58825_0069.w.408183">hi</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c58825_0069.w.408195">sprake</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c58825_0069.w.408196">in</w>
           <w cert="1.0" lemma="Grieks" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c58825_0069.w.408197">griecser</w>
-          <w cert="1.0" lemma="tong" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.58825.sense.15" xml:id="c58825_0069.w.408198">tonghen</w>
+          <w cert="1.0" lemma="tong" pos="NOU-C(number=pl)" resp="roland" xml:id="c58825_0069.w.408198" lemmaRef="mnw.58825.sense.15">tonghen</w>
           <pc pos="PC" xml:id="c58825_0069.pc.floating.00165287" lemma=",">,</pc>
         </q>
       </cit>

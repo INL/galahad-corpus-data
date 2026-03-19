@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73484" lemma="WIJSHEIT" partition="test" sense-id="mnw.73484.sense.2" xml:id="c73484_0031">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c73484_0031">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WIJSHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73484.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73484</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3128">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73484_0031.w.1871302">Ic</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c73484_0031.w.1871303">hebbe</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="mijl" pos="NOU-C(number=sg)" resp="roland" xml:id="c73484_0031.w.1871314">mile</w>
           <pc pos="PC" xml:id="c73484_0031.pc.post.00737939" lemma=",">,</pc>
           <w cert="1.0" lemma="hebben+ik" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c73484_0031.w.1871315">haddic</w>
-          <w cert="1.0" lemma="wijsheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73484.sense.2" xml:id="c73484_0031.w.1871316">wijsheide</w>
+          <w cert="1.0" lemma="wijsheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c73484_0031.w.1871316" lemmaRef="mnw.73484.sense.2">wijsheide</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c73484_0031.w.1871317">ghedaen</w>
           <pc pos="PC" xml:id="c73484_0031.pc.post.00737940" lemma=",">,</pc>
         </q>

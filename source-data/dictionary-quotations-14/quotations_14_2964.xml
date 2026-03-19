@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70294" lemma="WANEN" partition="train" sense-id="mnw.70294.sense.2" xml:id="c70294_0012">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c70294_0012">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WANEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70294.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70294</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2964">
           <w cert="1.0" lemma="hoe" pos="ADV(type=reg)" resp="thomas" xml:id="c70294_0012.w.1234718">Hoe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c70294_0012.w.1234719">die</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="volwassen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70294_0012.w.1234724">volwasset</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c70294_0012.w.1234725">ende</w>
           <w cert="1.0" lemma="weder" pos="ADV(type=reg)" resp="thomas" xml:id="c70294_0012.w.1234726">weder</w>
-          <w cert="1.0" lemma="wanen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.70294.sense.2" xml:id="c70294_0012.w.1234727">waent</w>
+          <w cert="1.0" lemma="wanen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c70294_0012.w.1234727" lemmaRef="mnw.70294.sense.2">waent</w>
           <pc pos="PC" xml:id="c70294_0012.pc.floating.00495329" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50857" lemma="SEE" partition="train" sense-id="mnw.50857.sense.1" xml:id="c50857_0043">
-        <date atLeast="1470" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c50857_0043">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SEE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50857.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50857</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1348">
           <w cert="1.0" lemma="Italië" pos="NOU-P" resp="roland" xml:id="c50857_0043.w.625066">Ytalia</w>
           <pc pos="PC" xml:id="c50857_0043.pc.floating.00258410" lemma="…">…</pc>
@@ -56,7 +69,7 @@
           <pc join="right" pos="PC" xml:id="c50857_0043.pc.pre.00258411" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c50857_0043.w.625071">de</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50857_0043.w.625072">Middellandsche</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.50857.sense.1" xml:id="c50857_0043.w.625073">Zee</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c50857_0043.w.625073" lemmaRef="mnw.50857.sense.1">Zee</w>
           <pc pos="PC" xml:id="c50857_0043.pc.floating.00258412" lemma=")">)</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50857_0043.w.625075">ende</w>
           <w cert="1.0" lemma="Monjou" pos="NOU-P" resp="roland" xml:id="c50857_0043.w.625076">Monju</w>

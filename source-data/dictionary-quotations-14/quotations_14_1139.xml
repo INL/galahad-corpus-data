@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28141" lemma="MARCTVELT" partition="train" sense-id="mnw.28141.sense.1" xml:id="c28141_0000">
-        <date atLeast="1364" atMost="1365" timeSpan="1350-1400" />
+      <cit xml:id="c28141_0000">
+        <note>
+          <ab>
+            <date atLeast="1364" atMost="1365" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MARCTVELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28141.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28141</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1139">
           <w cert="1.0" lemma="J." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c28141_0000.w.810219">J.</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c28141_0000.w.810220">ende</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="W." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c28141_0000.w.810223">W.</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c28141_0000.w.810224">van</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c28141_0000.w.810225">den</w>
-          <w cert="1.0" lemma="marktveld" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28141.sense.1" xml:id="c28141_0000.w.810226">marctfelt</w>
+          <w cert="1.0" lemma="marktveld" pos="NOU-C(number=sg)" resp="roland" xml:id="c28141_0000.w.810226" lemmaRef="mnw.28141.sense.1">marctfelt</w>
           <w cert="1.0" lemma="accijns" pos="NOU-C(number=sg)" resp="roland" xml:id="c28141_0000.w.810227">asijnse</w>
           <pc join="right" pos="PC" xml:id="c28141_0000.pc.pre.00314181" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c28141_0000.w.810228">de</w>

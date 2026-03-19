@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73194" lemma="WIJCH" partition="train" sense-id="mnw.73194.sense.1" xml:id="c73194_0001">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c73194_0001">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WIJCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73194.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73194</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2232">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73194_0001.w.1826925">Die</w>
           <w cert="1.0" lemma="Griek" pos="NOU-C(number=pl)" resp="roland" xml:id="c73194_0001.w.1826926">Grieken</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73194_0001.w.1826934">den</w>
           <w cert="1.0" lemma="zin" pos="NOU-C(number=sg)" resp="thomas" xml:id="c73194_0001.w.1826935">zin</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c73194_0001.w.1826936">te</w>
-          <w cert="1.0" lemma="wijg" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73194.sense.1" xml:id="c73194_0001.w.1826937">wighe</w>
+          <w cert="1.0" lemma="wijg" pos="NOU-C(number=sg)" resp="roland" xml:id="c73194_0001.w.1826937" lemmaRef="mnw.73194.sense.1">wighe</w>
           <pc pos="PC" xml:id="c73194_0001.pc.floating.00721290" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12431" lemma="GEREIDEN" partition="train" sense-id="mnw.12431.sense.25" xml:id="c12431_0098">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c12431_0098">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEREIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12431.sense.25</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12431</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.545">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c12431_0098.w.1115016">Doe</w>
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c12431_0098.w.1115017">ghingen</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12431_0098.w.1115018">si</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c12431_0098.w.1115019">hem</w>
-          <w cert="1.0" lemma="gereden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.12431.sense.25" xml:id="c12431_0098.w.1115020">ghereden</w>
+          <w cert="1.0" lemma="gereden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c12431_0098.w.1115020" lemmaRef="mnw.12431.sense.25">ghereden</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c12431_0098.w.1115021">daer</w>
           <pc pos="PC" xml:id="c12431_0098.pc.post.00468686" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12431_0098.w.1115022">ende</w>

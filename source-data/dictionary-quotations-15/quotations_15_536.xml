@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21834" lemma="CLEFVAST" partition="train" sense-id="mnw.21834.sense.1" xml:id="c21834_0001">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c21834_0001">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>CLEFVAST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21834.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21834</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.536">
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c21834_0001.w.1038098">Al</w>
           <w cert="1.0" lemma="afsteken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c21834_0001.w.1038099">afgesteken</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="vast" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c21834_0001.w.1038115">vast</w>
           <pc join="right" pos="PC" xml:id="c21834_0001.pc.pre.00419791" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c21834_0001.w.1038116">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.21834.sense.1" xml:id="c21834_0001.w.1038117">clefvast</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c21834_0001.w.1038117" lemmaRef="mnw.21834.sense.1">clefvast</w>
           <pc pos="PC" xml:id="c21834_0001.pc.floating.00419793" lemma=")">)</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c21834_0001.w.1038119">in</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c21834_0001.w.1038120">de</w>

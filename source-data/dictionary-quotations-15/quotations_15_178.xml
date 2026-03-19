@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06229" lemma="DEELACHTICH" partition="train" sense-id="mnw.06229.sense.2" xml:id="c06229_0006">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c06229_0006">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DEELACHTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06229.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06229</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.178">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c06229_0006.w.72427">Wie</w>
           <w cert="1.0" lemma="dat+de" pos="CONJ(type=sub)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c06229_0006.w.72428">dattie</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c06229_0006.pc.post.00029930" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c06229_0006.w.72431">die</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c06229_0006.w.72432">sijn</w>
-          <w cert="1.0" lemma="deelachtig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.06229.sense.2" xml:id="c06229_0006.w.72433">deelachtich</w>
+          <w cert="1.0" lemma="deelachtig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c06229_0006.w.72433" lemmaRef="mnw.06229.sense.2">deelachtich</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c06229_0006.w.72434">alle</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c06229_0006.w.72435">des</w>
           <w cert="1.0" lemma="kwaad" pos="NOU-C(number=sg)" resp="thomas" xml:id="c06229_0006.w.72436">quaets</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21931" lemma="CLEVEN" partition="train" sense-id="mnw.21931.sense.10" xml:id="c21931_0068">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c21931_0068">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CLEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21931.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21931</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.870">
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c21931_0068.w.1064150">Nemen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21931_0068.w.1064151">ende</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="vriend" pos="NOU-C(number=pl)" resp="roland" xml:id="c21931_0068.w.1064155">vriende</w>
           <w cert="1.0" lemma="samen" pos="ADV(type=reg)" resp="thomas" xml:id="c21931_0068.w.1064156">tsamen</w>
           <w cert="1.0" lemma="vast" pos="ADV(type=reg)" resp="thomas" xml:id="c21931_0068.w.1064157">vaste</w>
-          <w cert="1.0" lemma="kleven" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.21931.sense.10" xml:id="c21931_0068.w.1064158">cleven</w>
+          <w cert="1.0" lemma="kleven" pos="VRB(finiteness=inf)" resp="roland" xml:id="c21931_0068.w.1064158" lemmaRef="mnw.21931.sense.10">cleven</w>
           <pc pos="PC" xml:id="c21931_0068.pc.floating.00430035" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13610" lemma="GEVOECH" partition="dev" sense-id="mnw.13610.sense.2" xml:id="c13610_0003">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c13610_0003">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEVOECH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13610.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13610</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.600">
           <pc join="right" pos="PC" xml:id="c13610_0003.pc.pre.00554120" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c13610_0003.w.1323700">Tiberius</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c13610_0003.w.1323701">was</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c13610_0003.w.1323702">int</w>
           <w cert="1.0" lemma="begin" pos="NOU-C(number=sg)" resp="roland" xml:id="c13610_0003.w.1323703">beghin</w>
-          <w cert="1.0" lemma="gevoeg" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.13610.sense.2" xml:id="c13610_0003.w.1323704">ghevoughe</w>
+          <w cert="1.0" lemma="gevoeg" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c13610_0003.w.1323704" lemmaRef="mnw.13610.sense.2">ghevoughe</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c13610_0003.w.1323705">een</w>
           <w cert="1.0" lemma="deel" pos="NOU-C(number=sg)" resp="roland" xml:id="c13610_0003.w.1323706">deel</w>
           <pc pos="PC" xml:id="c13610_0003.pc.post.00554122" lemma=",">,</pc>

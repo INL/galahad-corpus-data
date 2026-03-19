@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50132" lemma="SCHORINGE" partition="train" sense-id="mnw.50132.sense.5" xml:id="c50132_0007">
-        <date atLeast="1452" atMost="1452" timeSpan="1450-1500" />
+      <cit xml:id="c50132_0007">
+        <note>
+          <ab>
+            <date atLeast="1452" atMost="1452" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SCHORINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50132.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50132</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1330">
           <w cert="1.0" lemma="waarachtig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c50132_0007.w.494135">Warachtighe</w>
           <w cert="1.0" lemma="biecht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c50132_0007.w.494136">bijcht</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c50132_0007.w.494149">ende</w>
           <pc pos="PC" xml:id="c50132_0007.pc.floating.00204232" lemma="…">…</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c50132_0007.w.494151">een</w>
-          <w cert="1.0" lemma="scheuring" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.50132.sense.5" xml:id="c50132_0007.w.494152">scooringhe</w>
+          <w cert="1.0" lemma="scheuring" pos="NOU-C(number=sg)" resp="roland" xml:id="c50132_0007.w.494152" lemmaRef="mnw.50132.sense.5">scooringhe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c50132_0007.w.494153">der</w>
           <w cert="1.0" lemma="zonde" pos="NOU-C(number=pl)" resp="roland" xml:id="c50132_0007.w.494154">sunden</w>
           <pc pos="PC" xml:id="c50132_0007.pc.post.00204233" lemma=",">,</pc>

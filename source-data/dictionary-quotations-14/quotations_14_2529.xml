@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61966" lemma="VENSTERE" partition="train" sense-id="mnw.61966.sense.1" xml:id="c61966_0005">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c61966_0005">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VENSTERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61966.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61966</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2529">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c61966_0005.w.1053567">Dat</w>
           <w cert="1.0" lemma="P." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c61966_0005.w.1053568">P.</w>
@@ -57,7 +70,7 @@
           <pc join="right" pos="PC" xml:id="c61966_0005.pc.pre.00425437" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c61966_0005.w.1053573">openslaande</w>
           <pc pos="PC" xml:id="c61966_0005.pc.post.00425438" lemma=")">)</pc>
-          <w cert="1.0" lemma="venster" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.61966.sense.1" xml:id="c61966_0005.w.1053574">veynsteren</w>
+          <w cert="1.0" lemma="venster" pos="NOU-C(number=pl)" resp="roland" xml:id="c61966_0005.w.1053574" lemmaRef="mnw.61966.sense.1">veynsteren</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="thomas" xml:id="c61966_0005.w.1053575">nochte</w>
           <w cert="1.0" lemma="deur" pos="NOU-C(number=pl)" resp="roland" xml:id="c61966_0005.w.1053576">dooren</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c61966_0005.w.1053577">van</w>

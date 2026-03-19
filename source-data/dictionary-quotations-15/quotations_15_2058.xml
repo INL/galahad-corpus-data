@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69071" lemma="VRESEN" partition="train" sense-id="mnw.69071.sense.2" xml:id="c69071_0034">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c69071_0034">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VRESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69071.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69071</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2058">
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c69071_0034.w.956767">Uwen</w>
           <w cert="1.0" lemma="evenkersten" pos="NOU-C(number=sg)" resp="roland" xml:id="c69071_0034.w.956768">evenkersten</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="onrecht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c69071_0034.w.956773">onrecht</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c69071_0034.w.956774">ghedaen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c69071_0034.w.956775">ende</w>
-          <w cert="1.0" lemma="vrezen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.69071.sense.2" xml:id="c69071_0034.w.956776">ghevreist</w>
+          <w cert="1.0" lemma="vrezen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c69071_0034.w.956776" lemmaRef="mnw.69071.sense.2">ghevreist</w>
           <pc pos="PC" xml:id="c69071_0034.pc.floating.00383324" lemma=",">,</pc>
         </q>
       </cit>

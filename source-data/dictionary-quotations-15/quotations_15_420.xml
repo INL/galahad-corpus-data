@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16699" lemma="HENENVAERT" partition="train" sense-id="mnw.16699.sense.1" xml:id="c16699_0001">
-        <date atLeast="1475" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c16699_0001">
+        <note>
+          <ab>
+            <date atLeast="1475" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>HENENVAERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16699.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16699</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.420">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c16699_0001.w.234943">Die</w>
           <w cert="1.0" lemma="lang" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c16699_0001.w.234944">langhe</w>
-          <w cert="1.0" lemma="heenvaart" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.16699.sense.1" xml:id="c16699_0001.w.234945">henevaert</w>
+          <w cert="1.0" lemma="heenvaart" pos="NOU-C(number=sg)" resp="roland" xml:id="c16699_0001.w.234945" lemmaRef="mnw.16699.sense.1">henevaert</w>
           <pc join="right" pos="PC" xml:id="c16699_0001.pc.pre.00096202" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c16699_0001.w.234946">de</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c16699_0001.w.234947">lange</w>
@@ -75,7 +88,7 @@
           <pc pos="PC" xml:id="c16699_0001.pc.floating.00096209" lemma=":">:</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c16699_0001.w.234963">die</w>
           <w cert="1.0" lemma="lang" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c16699_0001.w.234964">langhe</w>
-          <w cert="1.0" lemma="heenvaart" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.16699.sense.1" xml:id="c16699_0001.w.234965">henevaert</w>
+          <w cert="1.0" lemma="heenvaart" pos="NOU-C(number=sg)" resp="roland" xml:id="c16699_0001.w.234965" lemmaRef="mnw.16699.sense.1">henevaert</w>
           <pc pos="PC" xml:id="c16699_0001.pc.floating.00096210" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c16699_0001.w.234967">die</w>
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c16699_0001.w.234968">u</w>

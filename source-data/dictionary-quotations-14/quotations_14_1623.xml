@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39852" lemma="ORBAERLIJC" partition="train" sense-id="mnw.39852.sense.3" xml:id="c39852_0008">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c39852_0008">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ORBAERLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39852.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39852</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1623">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c39852_0008.w.1244990">Dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c39852_0008.w.1244991">u</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c39852_0008.w.1245001">die</w>
           <w cert="1.0" lemma="bede" pos="NOU-C(number=sg)" resp="roland" xml:id="c39852_0008.w.1245002">bede</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c39852_0008.w.1245003">es</w>
-          <w cert="1.0" lemma="oorbaarlijk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.39852.sense.3" xml:id="c39852_0008.w.1245004">orberlike</w>
+          <w cert="1.0" lemma="oorbaarlijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c39852_0008.w.1245004" lemmaRef="mnw.39852.sense.3">orberlike</w>
           <pc pos="PC" xml:id="c39852_0008.pc.floating.00496378" lemma=",">,</pc>
         </q>
       </cit>

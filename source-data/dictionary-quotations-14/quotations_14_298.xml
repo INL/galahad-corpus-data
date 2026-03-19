@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06813" lemma="DOBBELDOORN" partition="train" sense-id="mnw.06813.sense.1" xml:id="c06813_0004">
-        <date atLeast="1339" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c06813_0004">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DOBBELDOORN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06813.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06813</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.298">
           <w cert="1.0" lemma="tachtig" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c06813_0004.w.162833">80</w>
-          <w cert="1.0" lemma="dobbeldoorn" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06813.sense.1" xml:id="c06813_0004.w.162834">Dubbledoer</w>
+          <w cert="1.0" lemma="dobbeldoorn" pos="NOU-C(number=sg)" resp="roland" xml:id="c06813_0004.w.162834" lemmaRef="mnw.06813.sense.1">Dubbledoer</w>
           <pc pos="PC" xml:id="c06813_0004.pc.floating.00068638" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c06813_0004.w.162836">die</w>
           <w cert="1.0" lemma="ontvangen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c06813_0004.w.162837">ontfaen</w>

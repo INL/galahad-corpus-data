@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61132" lemma="VAEN" partition="dev" sense-id="mnw.61132.sense.3" xml:id="c61132_0060">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c61132_0060">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61132.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61132</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1702">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61132_0060.w.850289">Mi</w>
           <w cert="1.0" lemma="dunken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c61132_0060.w.850290">dunct</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c61132_0060.w.850296">om</w>
           <w cert="1.0" lemma="zot" pos="NOU-C(number=pl)" resp="thomas" xml:id="c61132_0060.w.850297">sotte</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c61132_0060.w.850298">te</w>
-          <w cert="1.0" lemma="vangen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.61132.sense.3" xml:id="c61132_0060.w.850299">vane</w>
+          <w cert="1.0" lemma="vangen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c61132_0060.w.850299" lemmaRef="mnw.61132.sense.3">vane</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c61132_0060.w.850300">al</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c61132_0060.w.850301">sonder</w>
           <w cert="1.0" lemma="net" pos="NOU-C(number=sg)" resp="roland" xml:id="c61132_0060.w.850302">nette</w>

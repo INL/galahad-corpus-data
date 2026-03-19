@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55538" lemma="STOOP" partition="train" sense-id="mnw.55538.sense.1" xml:id="c55538_0009">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c55538_0009">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STOOP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55538.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55538</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2245">
           <w cert="1.0" lemma="schotel" pos="NOU-C(number=pl)" resp="roland" xml:id="c55538_0009.w.1650663">Scotele</w>
           <pc pos="PC" xml:id="c55538_0009.pc.post.00681955" lemma=",">,</pc>
           <w cert="1.0" lemma="nap" pos="NOU-C(number=pl)" resp="roland" xml:id="c55538_0009.w.1650664">nappe</w>
           <pc pos="PC" xml:id="c55538_0009.pc.post.00681956" lemma=",">,</pc>
-          <w cert="1.0" lemma="stoop" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.55538.sense.1" xml:id="c55538_0009.w.1650665">stope</w>
+          <w cert="1.0" lemma="stoop" pos="NOU-C(number=pl)" resp="roland" xml:id="c55538_0009.w.1650665" lemmaRef="mnw.55538.sense.1">stope</w>
           <pc pos="PC" xml:id="c55538_0009.pc.floating.00681957" lemma=",">,</pc>
           <w cert="1.0" lemma="altezamen" pos="ADV(type=reg)" resp="thomas" xml:id="c55538_0009.w.1650667">al<join n="mw_103102" />
           </w>

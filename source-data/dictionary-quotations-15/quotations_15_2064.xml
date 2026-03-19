@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69150" lemma="VRIENT" partition="train" sense-id="mnw.69150.sense.15" xml:id="c69150_0136">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c69150_0136">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VRIENT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69150.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69150</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2064">
           <pc join="right" pos="PC" xml:id="c69150_0136.pc.pre.00396654" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69150_0136.w.990409">Si</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c69150_0136.pc.post.00396656" lemma=",">,</pc>
           <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="thomas" xml:id="c69150_0136.w.990412">moeder</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c69150_0136.w.990413">ende</w>
-          <w cert="1.0" lemma="vriend" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.69150.sense.15" xml:id="c69150_0136.w.990414">vrende</w>
+          <w cert="1.0" lemma="vriend" pos="NOU-C(number=pl)" resp="roland" xml:id="c69150_0136.w.990414" lemmaRef="mnw.69150.sense.15">vrende</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c69150_0136.w.990415">om</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c69150_0136.w.990416">enen</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c69150_0136.w.990417">die</w>

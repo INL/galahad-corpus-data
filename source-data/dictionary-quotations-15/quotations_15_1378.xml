@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51877" lemma="SIGNET" partition="train" sense-id="mnw.51877.sense.1" xml:id="c51877_0002">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c51877_0002">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SIGNET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51877.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51877</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1378">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c51877_0002.w.811274">Wie</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c51877_0002.w.811275">die</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c51877_0002.w.811281">ghevet</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c51877_0002.w.811282">hi</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c51877_0002.w.811283">sijn</w>
-          <w cert="1.0" lemma="signet" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.51877.sense.1" xml:id="c51877_0002.w.811284">signet</w>
+          <w cert="1.0" lemma="signet" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51877_0002.w.811284" lemmaRef="mnw.51877.sense.1">signet</w>
           <pc pos="PC" xml:id="c51877_0002.pc.floating.00337295" lemma=",">,</pc>
         </q>
       </cit>

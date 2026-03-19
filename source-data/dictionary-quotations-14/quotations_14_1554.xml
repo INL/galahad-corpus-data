@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37986" lemma="ONTSTAEN" partition="train" sense-id="mnw.37986.sense.11" xml:id="c37986_0026">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c37986_0026">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTSTAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37986.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37986</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1554">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c37986_0026.w.833708">Al</w>
           <w cert="1.0" lemma="lijden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37986_0026.w.833709">leden</w>
@@ -72,7 +85,7 @@
           <pc pos="PC" xml:id="c37986_0026.pc.floating.00335111" lemma="…,">…,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c37986_0026.w.833728">maer</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37986_0026.w.833729">si</w>
-          <w cert="1.0" lemma="ontstaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.37986.sense.11" xml:id="c37986_0026.w.833730">ontstonden</w>
+          <w cert="1.0" lemma="ontstaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37986_0026.w.833730" lemmaRef="mnw.37986.sense.11">ontstonden</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c37986_0026.w.833731">in</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c37986_0026.w.833732">allen</w>
           <w cert="1.0" lemma="stad" pos="NOU-C(number=pl)" resp="roland" xml:id="c37986_0026.w.833733">steden</w>

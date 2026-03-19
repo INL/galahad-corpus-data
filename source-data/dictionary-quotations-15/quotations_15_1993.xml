@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67108" lemma="VOETGESTUBBE" partition="train" sense-id="mnw.67108.sense.1" xml:id="c67108_0000">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c67108_0000">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VOETGESTUBBE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67108.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67108</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1993">
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c67108_0000.w.550540">Te</w>
           <w cert="1.0" lemma="kussen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c67108_0000.w.550541">kusschen</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c67108_0000.w.550542">reinigen</w>
           <pc pos="PC" xml:id="c67108_0000.pc.post.00220082" lemma=")">)</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67108_0000.w.550543">dat</w>
-          <w cert="1.0" lemma="voetgestubbe" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.67108.sense.1" xml:id="c67108_0000.w.550544">voetghestubbe</w>
+          <w cert="1.0" lemma="voetgestubbe" pos="NOU-C(number=sg)" resp="roland" xml:id="c67108_0000.w.550544" lemmaRef="mnw.67108.sense.1">voetghestubbe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67108_0000.w.550545">der</w>
           <w cert="1.0" lemma="uitverkoren" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c67108_0000.w.550546">wtvercore<join n="mw_680781" />
           </w>

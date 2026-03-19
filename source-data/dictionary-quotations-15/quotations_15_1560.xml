@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56504" lemma="SWAGER" partition="train" sense-id="mnw.56504.sense.1" xml:id="c56504_0000">
-        <date atLeast="1389" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c56504_0000">
+        <note>
+          <ab>
+            <date atLeast="1389" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SWAGER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56504.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56504</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1560">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c56504_0000.w.1852656">Ene</w>
           <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c56504_0000.w.1852657">vrouwe</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c56504_0000.w.1852666">of</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c56504_0000.w.1852667">so</w>
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="c56504_0000.w.1852668">na</w>
-          <w cert="1.0" lemma="zwager" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.56504.sense.1" xml:id="c56504_0000.w.1852669">zwagher</w>
+          <w cert="1.0" lemma="zwager" pos="NOU-C(number=sg)" resp="thomas" xml:id="c56504_0000.w.1852669" lemmaRef="mnw.56504.sense.1">zwagher</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c56504_0000.w.1852670">hebben</w>
           <pc pos="PC" xml:id="c56504_0000.pc.post.00765138" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c56504_0000.w.1852671">die</w>

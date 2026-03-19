@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14894" lemma="GRIMME" partition="train" sense-id="mnw.14894.sense.1" xml:id="c14894_0000">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c14894_0000">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GRIMME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14894.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14894</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.662">
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c14894_0000.w.1551783">Op</w>
           <w cert="1.0" lemma="de+Aleman" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=pl)" resp="roland" xml:id="c14894_0000.w.1551784">dAelmanne</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="pongeren+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c14894_0000.w.1551788">pongierdi</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c14894_0000.w.1551789">met</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c14894_0000.w.1551790">groter</w>
-          <w cert="1.0" lemma="grim" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.14894.sense.1" xml:id="c14894_0000.w.1551791">grimmen</w>
+          <w cert="1.0" lemma="grim" pos="NOU-C(number=sg)" resp="roland" xml:id="c14894_0000.w.1551791" lemmaRef="mnw.14894.sense.1">grimmen</w>
           <pc pos="PC" xml:id="c14894_0000.pc.floating.00649804" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c14894_0000.w.1551793">ende</w>
           <w cert="1.0" lemma="roepen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c14894_0000.w.1551794">riep</w>

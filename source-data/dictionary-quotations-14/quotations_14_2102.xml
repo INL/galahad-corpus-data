@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52223" lemma="SLAEP" partition="train" sense-id="mnw.52223.sense.3" xml:id="c52223_0031">
-        <date atLeast="1364" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c52223_0031">
+        <note>
+          <ab>
+            <date atLeast="1364" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SLAEP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52223.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52223</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2102">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c52223_0031.w.909968">Daer</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c52223_0031.w.909969">si</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c52223_0031.w.909982">si</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c52223_0031.w.909983">wart</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c52223_0031.w.909984">in</w>
-          <w cert="1.0" lemma="slaap" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.52223.sense.3" xml:id="c52223_0031.w.909985">slape</w>
+          <w cert="1.0" lemma="slaap" pos="NOU-C(number=sg)" resp="roland" xml:id="c52223_0031.w.909985" lemmaRef="mnw.52223.sense.3">slape</w>
           <w cert="1.0" lemma="zacht" pos="AA(degree=pos,position=postnom)" resp="roland" xml:id="c52223_0031.w.909986">sochte</w>
           <pc pos="PC" xml:id="c52223_0031.pc.post.00377883" lemma=",">,</pc>
         </q>

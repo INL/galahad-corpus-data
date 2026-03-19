@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66232" lemma="VINGER" partition="train" sense-id="mnw.66232.sense.2" xml:id="c66232_0035">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c66232_0035">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VINGER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66232.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66232</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1958">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66232_0035.w.372322">Si</w>
           <pc join="right" pos="PC" xml:id="c66232_0035.pc.pre.00147558" lemma="(">(</pc>
@@ -82,7 +95,7 @@
           <pc pos="PC" xml:id="c66232_0035.pc.post.00147564" lemma=")">)</pc>
           <w cert="1.0" lemma="spreiden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66232_0035.w.372347">spreijden</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c66232_0035.w.372348">oor</w>
-          <w cert="1.0" lemma="vinger" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.66232.sense.2" xml:id="c66232_0035.w.372349">vijnger</w>
+          <w cert="1.0" lemma="vinger" pos="NOU-C(number=sg)" resp="thomas" xml:id="c66232_0035.w.372349" lemmaRef="mnw.66232.sense.2">vijnger</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c66232_0035.w.372350">voor</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c66232_0035.w.372351">oor</w>
           <w cert="1.0" lemma="oog" pos="NOU-C(number=pl)" resp="roland" xml:id="c66232_0035.w.372352">ogen</w>

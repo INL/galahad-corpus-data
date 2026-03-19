@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63972" lemma="VERNOEGEN" partition="train" sense-id="mnw.63972.sense.5" xml:id="c63972_0005">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c63972_0005">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERNOEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63972.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63972</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1857">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c63972_0005.w.1623032">Dat</w>
           <w cert="1.0" lemma="Christus" pos="NOU-P" resp="roland" xml:id="c63972_0005.w.1623033">Christus</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="dies" pos="ADV(type=reg)" resp="roland" xml:id="c63972_0005.w.1623042">dies</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c63972_0005.w.1623043">de</w>
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63972_0005.w.1623044">Vader</w>
-          <w cert="1.0" lemma="vernoegen" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.63972.sense.5" xml:id="c63972_0005.w.1623045">vernoucht</w>
+          <w cert="1.0" lemma="vernoegen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c63972_0005.w.1623045" lemmaRef="mnw.63972.sense.5">vernoucht</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63972_0005.w.1623046">es</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c63972_0005.w.1623047">wel</w>
           <pc pos="PC" xml:id="c63972_0005.pc.post.00647358" lemma=",">,</pc>

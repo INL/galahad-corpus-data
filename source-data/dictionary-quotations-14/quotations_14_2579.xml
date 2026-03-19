@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62808" lemma="VERGETELHEIT" partition="train" sense-id="mnw.62808.sense.1" xml:id="c62808_0008">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c62808_0008">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERGETELHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62808.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62808</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2579">
           <w cert="1.0" lemma="wenkbrauw" pos="NOU-C(number=pl)" resp="roland" xml:id="c62808_0008.w.1298542">Wincbrauwen</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c62808_0008.w.1298543">die</w>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c62808_0008.pc.post.00520593" lemma=",">,</pc>
           <w cert="1.0" lemma="gierigheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c62808_0008.w.1298552">giericheit</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62808_0008.w.1298553">ende</w>
-          <w cert="1.0" lemma="vergetelheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.62808.sense.1" xml:id="c62808_0008.w.1298554">vergetelheit</w>
+          <w cert="1.0" lemma="vergetelheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c62808_0008.w.1298554" lemmaRef="mnw.62808.sense.1">vergetelheit</w>
           <pc pos="PC" xml:id="c62808_0008.pc.floating.00520594" lemma=",">,</pc>
         </q>
       </cit>

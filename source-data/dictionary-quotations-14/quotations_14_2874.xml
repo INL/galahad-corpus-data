@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68828" lemma="VORTTRECKEN" partition="train" sense-id="mnw.68828.sense.14" xml:id="c68828_0035">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c68828_0035">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VORTTRECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68828.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68828</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2874">
           <pc pos="PC" xml:id="c68828_0035.pc.floating.00357346" lemma="—">—</pc>
           <w cert="1.0" lemma="Jan" pos="NOU-P" resp="roland" xml:id="c68828_0035.w.889795">Jan</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="eer" pos="NOU-C(number=sg)" resp="roland" xml:id="c68828_0035.w.889802">eeren</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c68828_0035.w.889803">noch</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c68828_0035.w.889804">in</w>
-          <w cert="1.0" lemma="voorttrekken" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.68828.sense.14" xml:id="c68828_0035.w.889805">vorttreckene</w>
+          <w cert="1.0" lemma="voorttrekken" pos="NOU-C(number=sg)" resp="thomas" xml:id="c68828_0035.w.889805" lemmaRef="mnw.68828.sense.14">vorttreckene</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68828_0035.w.889806">ende</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c68828_0035.w.889807">men</w>
           <w cert="1.0" lemma="mogen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c68828_0035.w.889808">mochtene</w>

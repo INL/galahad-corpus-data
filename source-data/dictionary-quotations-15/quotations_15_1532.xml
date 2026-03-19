@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55648" lemma="STOUTICHEIT" partition="train" sense-id="mnw.55648.sense.2" xml:id="c55648_0000">
-        <date atLeast="1439" atMost="1439" timeSpan="1400-1450" />
+      <cit xml:id="c55648_0000">
+        <note>
+          <ab>
+            <date atLeast="1439" atMost="1439" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STOUTICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55648.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55648</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1532">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c55648_0000.w.1679259">Die</w>
           <w cert="1.0" lemma="rechter" pos="NOU-C(number=sg)" resp="thomas" xml:id="c55648_0000.w.1679260">rechter</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="aflaten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c55648_0000.w.1679266">of<join n="mw_102486" />
           </w>
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c55648_0000.w.1679267">dijn</w>
-          <w cert="1.0" lemma="stoutigheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.55648.sense.2" xml:id="c55648_0000.w.1679268">stouticheit</w>
+          <w cert="1.0" lemma="stoutigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c55648_0000.w.1679268" lemmaRef="mnw.55648.sense.2">stouticheit</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c55648_0000.w.1679269">ende</w>
           <w cert="1.0" lemma="toch" pos="ADV(type=reg)" resp="roland" xml:id="c55648_0000.w.1679270">doch</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c55648_0000.w.1679271">den</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02454" lemma="BEDE" partition="train" sense-id="mnw.02454.sense.13" xml:id="c02454_0022">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c02454_0022">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02454.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02454</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.67">
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c02454_0022.w.440383">Voor</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02454_0022.w.440384">den</w>
@@ -78,7 +91,7 @@
           <pc pos="PC" xml:id="c02454_0022.pc.post.00172698" lemma=")">)</pc>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c02454_0022.w.440406">doet</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c02454_0022.w.440407">eene</w>
-          <w cert="1.0" lemma="bede" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.02454.sense.13" xml:id="c02454_0022.w.440408">bede</w>
+          <w cert="1.0" lemma="bede" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02454_0022.w.440408" lemmaRef="mnw.02454.sense.13">bede</w>
           <pc pos="PC" xml:id="c02454_0022.pc.floating.00172699" lemma=";">;</pc>
           <pc pos="PC" xml:id="c02454_0022.pc.floating.00172700" lemma="..">..</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02454_0022.w.440411">die</w>

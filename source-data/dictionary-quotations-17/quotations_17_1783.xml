@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M085114" lemma="WEINIG" modern-lemma="weinig" partition="train" pos="PD" sense-id="M085114.bet.9" xml:id="M085114.eg.12862">
-        <date atLeast="1650" atMost="1650" timeSpan="1650-1700" />
+      <cit xml:id="M085114.eg.12862">
+        <note>
+          <ab>
+            <date atLeast="1650" atMost="1650" extent="1650-1700" />
+            <interpGrp type="lemma">
+              <interp>WEINIG</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>PD</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M085114.bet.9</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>weinig</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M085114</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1783">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.469751">Ick</w>
           <w cert="1.0" lemma="zenden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.469752">sende</w>
@@ -98,7 +117,7 @@
           </w>
           <w cert="1.0" lemma="tevoren" pos="ADV(type=reg)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.469789">voren<join n="mw_761928" />
           </w>
-          <w cert="1.0" lemma="weinig" pos="ADV(type=reg)" resp="thomas" sense-id="M085114.bet.9" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.469790">weijnich</w>
+          <w cert="1.0" lemma="weinig" pos="ADV(type=reg)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.469790" lemmaRef="M085114.bet.9">weijnich</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.469791">oft</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.469792">niet</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="e56a55f0-e09c-4436-987c-a04175081f3b.w.469793">in</w>

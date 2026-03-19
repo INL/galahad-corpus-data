@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05215" lemma="BOTERMATE" partition="train" sense-id="mnw.05215.sense.1" xml:id="c05215_0001">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c05215_0001">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BOTERMATE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05215.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05215</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.242">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c05215_0001.w.997553">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c05215_0001.w.997554">der</w>
           <w cert="1.0" lemma="waag" pos="NOU-C(number=sg)" resp="roland" xml:id="c05215_0001.w.997555">waghe</w>
           <pc pos="PC" xml:id="c05215_0001.pc.post.00394786" lemma=",">,</pc>
-          <w cert="1.0" lemma="botermaat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05215.sense.1" xml:id="c05215_0001.w.997556">buttermate</w>
+          <w cert="1.0" lemma="botermaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c05215_0001.w.997556" lemmaRef="mnw.05215.sense.1">buttermate</w>
           <pc pos="PC" xml:id="c05215_0001.pc.floating.00394787" lemma=",">,</pc>
           <w cert="1.0" lemma="mudpenning" pos="NOU-C(number=sg)" resp="roland" xml:id="c05215_0001.w.997558">muddepenning</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c05215_0001.w.997559">ende</w>

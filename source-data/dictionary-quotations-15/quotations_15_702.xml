@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28430" lemma="MEDEGESELLE" partition="train" sense-id="mnw.28430.sense.1" xml:id="c28430_0009">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c28430_0009">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MEDEGESELLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28430.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28430</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.702">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c28430_0009.w.854361">Van</w>
           <w cert="1.0" lemma="Peter" pos="NOU-P" resp="roland" xml:id="c28430_0009.w.854362">Petren</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="tellen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c28430_0009.w.854367">tellen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c28430_0009.w.854368">ende</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c28430_0009.w.854369">sinen</w>
-          <w cert="1.0" lemma="metgezel" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.28430.sense.1" xml:id="c28430_0009.w.854370">medegesellen</w>
+          <w cert="1.0" lemma="metgezel" pos="NOU-C(number=pl)" resp="roland" xml:id="c28430_0009.w.854370" lemmaRef="mnw.28430.sense.1">medegesellen</w>
           <pc join="right" pos="PC" xml:id="c28430_0009.pc.pre.00331725" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c28430_0009.w.854371">zijn</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c28430_0009.w.854372">partijgangers</w>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41707" lemma="PANTWERINGE" partition="train" sense-id="mnw.41707.sense.1" xml:id="c41707_0002">
-        <date atLeast="1328" atMost="1336" timeSpan="1300-1350" />
+      <cit xml:id="c41707_0002">
+        <note>
+          <ab>
+            <date atLeast="1328" atMost="1336" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PANTWERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41707.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41707</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1697">
           <w cert="1.0" lemma="G." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c41707_0002.w.73819">G</w>
           <pc pos="PC" xml:id="c41707_0002.pc.post.00027748" lemma=".,">.,</pc>
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c41707_0002.w.73820">omdat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c41707_0002.w.73821">hij</w>
-          <w cert="1.0" lemma="pandwering" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41707.sense.1" xml:id="c41707_0002.w.73822">pantweringhe</w>
+          <w cert="1.0" lemma="pandwering" pos="NOU-C(number=sg)" resp="roland" xml:id="c41707_0002.w.73822" lemmaRef="mnw.41707.sense.1">pantweringhe</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c41707_0002.w.73823">dede</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c41707_0002.w.73824">mit</w>
           <w cert="1.0" lemma="hovaardij" pos="NOU-C(number=sg)" resp="roland" xml:id="c41707_0002.w.73825">hoovardiën</w>

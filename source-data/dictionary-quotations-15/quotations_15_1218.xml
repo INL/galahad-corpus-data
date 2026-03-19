@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47135" lemma="ROOC" partition="train" sense-id="mnw.47135.sense.3" xml:id="c47135_0021">
-        <date atLeast="1485" atMost="1491" timeSpan="1450-1500" />
+      <cit xml:id="c47135_0021">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1491" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ROOC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47135.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47135</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1218">
           <w cert="1.0" lemma="woe" pos="ADV(type=reg)" resp="thomas" xml:id="c47135_0021.w.1160577">Woe</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c47135_0021.w.1160578">wol</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="aldaar" pos="ADV(type=reg)" resp="thomas" xml:id="c47135_0021.w.1160589">aldair</w>
           <w cert="1.0" lemma="huis" pos="NOU-C(number=sg)" resp="roland" xml:id="c47135_0021.w.1160590">huys</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c47135_0021.w.1160591">und</w>
-          <w cert="1.0" lemma="rook" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.47135.sense.3" xml:id="c47135_0021.w.1160592">roock</w>
+          <w cert="1.0" lemma="rook" pos="NOU-C(number=sg)" resp="roland" xml:id="c47135_0021.w.1160592" lemmaRef="mnw.47135.sense.3">roock</w>
           <pc pos="PC" xml:id="c47135_0021.pc.floating.00457309" lemma=",">,</pc>
         </q>
       </cit>

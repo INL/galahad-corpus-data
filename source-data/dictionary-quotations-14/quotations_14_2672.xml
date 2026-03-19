@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64310" lemma="VERSAGEN" partition="train" sense-id="mnw.64310.sense.11" xml:id="c64310_0049">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c64310_0049">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERSAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64310.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64310</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2672">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c64310_0049.w.1705668">Des</w>
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="roland" xml:id="c64310_0049.w.1705669">conincs</w>
           <w cert="1.0" lemma="volk" pos="NOU-C(number=sg)" resp="roland" xml:id="c64310_0049.w.1705670">volc</w>
           <w cert="1.0" lemma="beginnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c64310_0049.w.1705671">begonste</w>
-          <w cert="1.0" lemma="versagen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.64310.sense.11" xml:id="c64310_0049.w.1705672">versaghen</w>
+          <w cert="1.0" lemma="versagen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c64310_0049.w.1705672" lemmaRef="mnw.64310.sense.11">versaghen</w>
           <pc pos="PC" xml:id="c64310_0049.pc.floating.00680196" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c64310_0049.w.1705674">als</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c64310_0049.w.1705675">si</w>

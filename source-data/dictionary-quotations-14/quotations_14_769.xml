@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18436" lemma="HOVETPORTE" partition="train" sense-id="mnw.18436.sense.1" xml:id="c18436_0000">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c18436_0000">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HOVETPORTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18436.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18436</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.769">
           <w cert="1.0" lemma="Ptolemaeus" pos="NOU-P" resp="roland" xml:id="c18436_0000.w.498995">Tholomeus</w>
           <w cert="1.0" lemma="varen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c18436_0000.w.498996">voer</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c18436_0000.w.499000">an</w>
           <w cert="1.0" lemma="Antiochië" pos="NOU-P" resp="roland" xml:id="c18436_0000.w.499001">Antiochen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c18436_0000.w.499002">die</w>
-          <w cert="1.0" lemma="hoofdpoort" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18436.sense.1" xml:id="c18436_0000.w.499003">hooftpoort</w>
+          <w cert="1.0" lemma="hoofdpoort" pos="NOU-C(number=sg)" resp="roland" xml:id="c18436_0000.w.499003" lemmaRef="mnw.18436.sense.1">hooftpoort</w>
           <pc pos="PC" xml:id="c18436_0000.pc.floating.00203705" lemma=",">,</pc>
         </q>
       </cit>

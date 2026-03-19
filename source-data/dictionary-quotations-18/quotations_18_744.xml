@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M059569" lemma="REUS" modern-lemma="reus" partition="test" pos="NOU-C NOU-P" sense-id="M059569.bet.2" xml:id="M059569.eg.4109">
-        <date atLeast="1751" atMost="1751" timeSpan="1750-1800" />
+      <cit xml:id="M059569.eg.4109">
+        <note>
+          <ab>
+            <date atLeast="1751" atMost="1751" extent="1750-1800" />
+            <interpGrp type="lemma">
+              <interp>REUS</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C NOU-P</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M059569.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>reus</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M059569</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.744">
           <w cert="1.0" lemma="ander" pos="PD(type=indef,position=free)" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.50934">Anderen</w>
           <pc pos="PC" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00016921" lemma=",">,</pc>
@@ -59,7 +78,7 @@
           <pc pos="PC" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00016923" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.50940">dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.50941">de</w>
-          <w cert="1.0" lemma="reus" pos="NOU-C(number=pl)" resp="roland" sense-id="M059569.bet.2" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.50942">Reuzen</w>
+          <w cert="1.0" lemma="reus" pos="NOU-C(number=pl)" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.50942" lemmaRef="M059569.bet.2">Reuzen</w>
           <pc pos="PC" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.pc.post.00016924" lemma=",">,</pc>
           <w cert="1.0" lemma="daarvan" pos="ADV(type=pron)" resp="roland" xml:id="da2fe23d-74de-4989-af17-45e4f20fd26d.w.50943">daar<join n="mw_194976" />
           </w>

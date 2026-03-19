@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60255" lemma="UTEBRINGEN" partition="train" sense-id="mnw.60255.sense.6" xml:id="c60255_0017">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c60255_0017">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>UTEBRINGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60255.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60255</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2447">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c60255_0017.w.660735">Wat</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c60255_0017.w.660736">sout</w>
@@ -63,9 +76,9 @@
           <pc pos="PC" xml:id="c60255_0017.pc.post.00269211" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c60255_0017.w.660746">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60255_0017.w.660747">si</w>
-          <w cert="1.0" lemma="uitbrengen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.60255.sense.6" xml:id="c60255_0017.w.660748">wte<join n="mw_208645" />
+          <w cert="1.0" lemma="uitbrengen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c60255_0017.w.660748" lemmaRef="mnw.60255.sense.6">wte<join n="mw_208645" />
           </w>
-          <w cert="1.0" lemma="uitbrengen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.60255.sense.6" xml:id="c60255_0017.w.660749">brachte<join n="mw_208645" />
+          <w cert="1.0" lemma="uitbrengen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c60255_0017.w.660749" lemmaRef="mnw.60255.sense.6">brachte<join n="mw_208645" />
           </w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c60255_0017.w.660750">hare</w>
           <w cert="1.0" lemma="toverij" pos="NOU-C(number=sg)" resp="roland" xml:id="c60255_0017.w.660751">tovernie</w>

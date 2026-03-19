@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03451" lemma="BEROEPERE" partition="train" sense-id="mnw.03451.sense.3" xml:id="c03451_0003">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c03451_0003">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BEROEPERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03451.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03451</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.165">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c03451_0003.w.683928">Dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03451_0003.w.683929">die</w>
-          <w cert="1.0" lemma="beroeper" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.03451.sense.3" xml:id="c03451_0003.w.683930">beroepere</w>
+          <w cert="1.0" lemma="beroeper" pos="NOU-C(number=sg)" resp="roland" xml:id="c03451_0003.w.683930" lemmaRef="mnw.03451.sense.3">beroepere</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c03451_0003.w.683931">moet</w>
           <w cert="1.0" lemma="zeker" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c03451_0003.w.683932">seker</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c03451_0003.w.683933">doen</w>

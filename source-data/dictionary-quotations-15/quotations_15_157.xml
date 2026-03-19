@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05203" lemma="BOT" partition="train" sense-id="mnw.05203.sense.10" xml:id="c05203_0027">
-        <date atLeast="1399" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c05203_0027">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BOT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05203.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05203</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.157">
           <w cert="1.0" lemma="voort" pos="ADV(type=reg)" resp="thomas" xml:id="c05203_0027.w.996110">Voert</w>
           <w cert="1.0" lemma="wanneer" pos="CONJ(type=sub)" resp="roland" xml:id="c05203_0027.w.996111">wanneer</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c05203_0027.w.996124">mit</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c05203_0027.w.996125">enen</w>
           <w cert="1.0" lemma="klein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c05203_0027.w.996126">cleynen</w>
-          <w cert="1.0" lemma="bod" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.05203.sense.10" xml:id="c05203_0027.w.996127">boede</w>
+          <w cert="1.0" lemma="bod" pos="NOU-C(number=sg)" resp="thomas" xml:id="c05203_0027.w.996127" lemmaRef="mnw.05203.sense.10">boede</w>
           <pc pos="PC" xml:id="c05203_0027.pc.floating.00394187" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72877" lemma="WETEN" partition="train" sense-id="mnw.72877.sense.9" xml:id="c72877_0048">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c72877_0048">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72877.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72877</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3098">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c72877_0048.w.1766599">Hi</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c72877_0048.w.1766600">hevet</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="gezijn" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c72877_0048.w.1766606">ghesijn</w>
           <pc pos="PC" xml:id="c72877_0048.pc.post.00698746" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c72877_0048.w.1766607">dat</w>
-          <w cert="1.0" lemma="weten+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.72877.sense.9" xml:id="c72877_0048.w.1766608">wetic</w>
+          <w cert="1.0" lemma="weten+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c72877_0048.w.1766608" lemmaRef="mnw.72877.sense.9">wetic</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c72877_0048.w.1766609">wel</w>
           <pc pos="PC" xml:id="c72877_0048.pc.post.00698747" lemma=",">,</pc>
         </q>

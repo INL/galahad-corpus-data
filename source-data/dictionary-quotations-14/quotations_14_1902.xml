@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46337" lemma="RIESEN" partition="train" sense-id="mnw.46337.sense.3" xml:id="c46337_0008">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c46337_0008">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>RIESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46337.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46337</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1902">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c46337_0008.w.988755">Die</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c46337_0008.w.988756">sire</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c46337_0008.w.988761">een</w>
           <w cert="1.0" lemma="landheer" pos="NOU-C(number=sg)" resp="roland" xml:id="c46337_0008.w.988762">landshere</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c46337_0008.w.988763">die</w>
-          <w cert="1.0" lemma="riezen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.46337.sense.3" xml:id="c46337_0008.w.988764">rieset</w>
+          <w cert="1.0" lemma="riezen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c46337_0008.w.988764" lemmaRef="mnw.46337.sense.3">rieset</w>
           <pc pos="PC" xml:id="c46337_0008.pc.floating.00388255" lemma=",">,</pc>
         </q>
       </cit>

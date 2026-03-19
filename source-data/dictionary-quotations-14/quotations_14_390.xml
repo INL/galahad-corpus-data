@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09302" lemma="ETEN" partition="train" sense-id="mnw.09302.sense.6" xml:id="c09302_0075">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c09302_0075">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09302.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09302</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.390">
           <pc join="right" pos="PC" xml:id="c09302_0075.pc.pre.00237088" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c09302_0075.w.548827">Si</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c09302_0075.w.548835">si</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c09302_0075.w.548836">se</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c09302_0075.w.548837">wilden</w>
-          <w cert="1.0" lemma="eten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.09302.sense.6" xml:id="c09302_0075.w.548838">eten</w>
+          <w cert="1.0" lemma="eten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c09302_0075.w.548838" lemmaRef="mnw.09302.sense.6">eten</w>
           <pc pos="PC" xml:id="c09302_0075.pc.floating.00237093" lemma=",">,</pc>
         </q>
       </cit>

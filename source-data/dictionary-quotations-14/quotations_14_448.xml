@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10718" lemma="GEDOGEN" partition="train" sense-id="mnw.10718.sense.2" xml:id="c10718_0006">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c10718_0006">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEDOGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10718.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10718</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.448">
           <w cert="1.0" lemma="drie" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c10718_0006.w.784674">Drie</w>
           <w cert="1.0" lemma="dag" pos="NOU-C(number=pl)" resp="roland" xml:id="c10718_0006.w.784675">daghe</w>
-          <w cert="1.0" lemma="gedogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.10718.sense.2" xml:id="c10718_0006.w.784676">gedoochde</w>
+          <w cert="1.0" lemma="gedogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c10718_0006.w.784676" lemmaRef="mnw.10718.sense.2">gedoochde</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c10718_0006.w.784677">die</w>
           <w cert="1.0" lemma="katijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c10718_0006.w.784678">keitive</w>
           <w cert="1.0" lemma="zwaar" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c10718_0006.w.784679">swaer</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05485" lemma="BROEDEN" partition="train" sense-id="mnw.05485.sense.4" xml:id="c05485_0004">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c05485_0004">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BROEDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05485.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05485</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.249">
           <w cert="1.0" lemma="sommig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c05485_0004.w.1037465">Someghe</w>
           <w cert="1.0" lemma="kuiken" pos="NOU-C(number=pl)" resp="roland" xml:id="c05485_0004.w.1037466">kieken</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c05485_0004.w.1037468">willen</w>
           <w cert="1.0" lemma="node" pos="ADV(type=reg)" resp="thomas" xml:id="c05485_0004.w.1037469">node</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="roland" xml:id="c05485_0004.w.1037470">sijn</w>
-          <w cert="1.0" lemma="broeden" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.05485.sense.4" xml:id="c05485_0004.w.1037471">ghebroet</w>
+          <w cert="1.0" lemma="broeden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c05485_0004.w.1037471" lemmaRef="mnw.05485.sense.4">ghebroet</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c05485_0004.w.1037472">ende</w>
           <w cert="1.0" lemma="wandelen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c05485_0004.w.1037473">wandelen</w>
           <w cert="1.0" lemma="buiten" pos="ADP(type=pre)" resp="thomas" xml:id="c05485_0004.w.1037474">buten</w>

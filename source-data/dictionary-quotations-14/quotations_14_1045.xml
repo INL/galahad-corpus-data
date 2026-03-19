@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26199" lemma="LIGGEN" partition="test" sense-id="mnw.26199.sense.47" xml:id="c26199_0312">
-        <date atLeast="1326" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c26199_0312">
+        <note>
+          <ab>
+            <date atLeast="1326" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LIGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26199.sense.47</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26199</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1045">
           <pc join="right" pos="PC" xml:id="c26199_0312.pc.pre.00157128" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c26199_0312.w.404828">Dat</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c26199_0312.w.404832">daer</w>
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c26199_0312.w.404833">stoede</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c26199_0312.w.404834">ende</w>
-          <w cert="1.0" lemma="liggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.26199.sense.47" xml:id="c26199_0312.w.404835">lage</w>
+          <w cert="1.0" lemma="liggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c26199_0312.w.404835" lemmaRef="mnw.26199.sense.47">lage</w>
           <pc pos="PC" xml:id="c26199_0312.pc.floating.00157131" lemma=",">,</pc>
         </q>
       </cit>

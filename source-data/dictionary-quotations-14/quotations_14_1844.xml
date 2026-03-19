@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45094" lemma="RAET" partition="train" sense-id="mnw.45094.sense.30" xml:id="c45094_0177">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c45094_0177">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>RAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45094.sense.30</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45094</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1844">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c45094_0177.w.693465">Hi</w>
           <pc join="right" pos="PC" xml:id="c45094_0177.pc.pre.00272708" lemma="(">(</pc>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c45094_0177.pc.post.00272709" lemma=")">)</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c45094_0177.w.693467">die</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c45094_0177.w.693468">den</w>
-          <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.45094.sense.30" xml:id="c45094_0177.w.693469">raet</w>
+          <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="roland" xml:id="c45094_0177.w.693469" lemmaRef="mnw.45094.sense.30">raet</w>
           <w cert="1.0" lemma="weten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c45094_0177.w.693470">wiste</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c45094_0177.w.693471">wale</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45094_0177.w.693472">der</w>

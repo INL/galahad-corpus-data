@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M075549" lemma="VERGADERING" modern-lemma="vergadering" partition="train" pos="NOU-C" sense-id="M075549.bet.6" xml:id="M075549.eg.16822">
-        <date atLeast="1526" atMost="1526" timeSpan="1500-1550" />
+      <cit xml:id="M075549.eg.16822">
+        <note>
+          <ab>
+            <date atLeast="1526" atMost="1526" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>VERGADERING</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M075549.bet.6</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>vergadering</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M075549</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1101">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204718">Dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204719">de</w>
@@ -95,7 +114,7 @@
           <w cert="1.0" lemma="elkander" pos="PD(type=recip,position=free)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204756">elcanderen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204757">ende</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204758">by</w>
-          <w cert="1.0" lemma="vergadering" pos="NOU-C(number=pl)" resp="roland" sense-id="M075549.bet.6" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204759">vergaderijnghen</w>
+          <w cert="1.0" lemma="vergadering" pos="NOU-C(number=pl)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204759" lemmaRef="M075549.bet.6">vergaderijnghen</w>
           <w cert="1.0" lemma="divers" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204760">diuerssche</w>
           <w cert="1.0" lemma="disputatie" pos="NOU-C(number=pl)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204761">disputatien</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=prespart)" resp="roland" xml:id="d7db5858-687e-4d93-844c-34124ae75cf1.w.204762">hebbende</w>

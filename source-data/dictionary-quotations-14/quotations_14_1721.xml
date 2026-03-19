@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42247" lemma="PENNINCWERT" partition="train" sense-id="mnw.42247.sense.6" xml:id="c42247_0015">
-        <date atLeast="1350" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c42247_0015">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PENNINCWERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42247.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42247</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1721">
           <w cert="1.0" lemma="Christiaan" pos="NOU-P" resp="roland" xml:id="c42247_0015.w.169706">Christiaen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c42247_0015.w.169707">es</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="schuldig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c42247_0015.w.169709">sculdich</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c42247_0015.w.169710">van</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c42247_0015.w.169711">onsen</w>
-          <w cert="1.0" lemma="penningwaarde" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.42247.sense.6" xml:id="c42247_0015.w.169712">penewaerden</w>
+          <w cert="1.0" lemma="penningwaarde" pos="NOU-C(number=pl)" resp="roland" xml:id="c42247_0015.w.169712" lemmaRef="mnw.42247.sense.6">penewaerden</w>
           <pc pos="PC" xml:id="c42247_0015.pc.floating.00064634" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c42247_0015.w.169714">dats</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c42247_0015.w.169715">te</w>

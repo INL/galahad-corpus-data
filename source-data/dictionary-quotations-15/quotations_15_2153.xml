@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72188" lemma="WELC" partition="train" sense-id="mnw.72188.sense.15" xml:id="c72188_0166">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c72188_0166">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WELC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72188.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72188</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2153">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c72188_0166.w.1566910">In</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72188_0166.w.1566911">dat</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="Tarsis" pos="NOU-P" resp="roland" xml:id="c72188_0166.w.1566920">tharsis</w>
           <pc pos="PC" xml:id="c72188_0166.pc.post.00628023" lemma=",">,</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c72188_0166.w.1566921">in</w>
-          <w cert="1.0" lemma="welk" pos="PD(type=w-p,position=prenom)" resp="thomas" sense-id="mnw.72188.sense.15" xml:id="c72188_0166.w.1566922">welken</w>
+          <w cert="1.0" lemma="welk" pos="PD(type=w-p,position=prenom)" resp="thomas" xml:id="c72188_0166.w.1566922" lemmaRef="mnw.72188.sense.15">welken</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="roland" xml:id="c72188_0166.w.1566923">lande</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72188_0166.w.1566924">die</w>
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="thomas" xml:id="c72188_0166.w.1566925">coninc</w>

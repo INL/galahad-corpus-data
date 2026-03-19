@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22808" lemma="CONDE" partition="test" sense-id="mnw.22808.sense.5" xml:id="c22808_0017">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c22808_0017">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CONDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22808.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22808</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.897">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c22808_0017.w.1203737">Die</w>
           <w cert="1.0" lemma="herde" pos="NOU-C(number=sg)" resp="roland" xml:id="c22808_0017.w.1203738">herde</w>
           <w cert="1.0" lemma="verliezen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c22808_0017.w.1203739">verliest</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c22808_0017.w.1203740">sine</w>
-          <w cert="1.0" lemma="kunde" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.22808.sense.5" xml:id="c22808_0017.w.1203741">conde</w>
+          <w cert="1.0" lemma="kunde" pos="NOU-C(number=sg)" resp="roland" xml:id="c22808_0017.w.1203741" lemmaRef="mnw.22808.sense.5">conde</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c22808_0017.w.1203742">an</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c22808_0017.w.1203743">die</w>
           <w cert="1.0" lemma="schaap" pos="NOU-C(number=pl)" resp="roland" xml:id="c22808_0017.w.1203744">scaep</w>

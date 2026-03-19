@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M079836" lemma="VESTIGEN" modern-lemma="vestigen" partition="test" pos="VRB" sense-id="M079836.bet.7" xml:id="M079836.eg.662">
-        <date atLeast="1515" atMost="1515" timeSpan="1500-1550" />
+      <cit xml:id="M079836.eg.662">
+        <note>
+          <ab>
+            <date atLeast="1515" atMost="1515" extent="1500-1550" />
+            <interpGrp type="lemma">
+              <interp>VESTIGEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M079836.bet.7</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>vestigen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M079836</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1371">
           <w cert="1.0" lemma="welk" pos="PD(type=w-p,position=prenom)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.738032">Welke</w>
           <w cert="1.0" lemma="ordinantie" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.738033">ordinanciën</w>
@@ -67,7 +86,7 @@
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00241028" lemma=",">,</pc>
           <w cert="1.0" lemma="approberen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.738047">approberen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.738048">ende</w>
-          <w cert="1.0" lemma="vestigen" pos="VRB(finiteness=inf)" resp="roland" sense-id="M079836.bet.7" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.738049">vestegen</w>
+          <w cert="1.0" lemma="vestigen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.738049" lemmaRef="M079836.bet.7">vestegen</w>
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.post.00241029" lemma=",">,</pc>
         </q>
       </cit>

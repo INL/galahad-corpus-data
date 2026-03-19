@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48041" lemma="SALICH" partition="train" sense-id="mnw.48041.sense.2" xml:id="c48041_0004">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c48041_0004">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SALICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48041.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48041</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1963">
           <w cert="1.0" lemma="twij" pos="ADV(type=reg)" resp="thomas" xml:id="c48041_0004.w.74086">Twi</w>
           <w cert="1.0" lemma="zeggen+gij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c48041_0004.w.74087">segdi</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c48041_0004.pc.post.00030539" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c48041_0004.w.74092">dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c48041_0004.w.74093">ic</w>
-          <w cert="1.0" lemma="zalig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.48041.sense.2" xml:id="c48041_0004.w.74094">zalich</w>
+          <w cert="1.0" lemma="zalig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c48041_0004.w.74094" lemmaRef="mnw.48041.sense.2">zalich</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c48041_0004.w.74095">ware</w>
           <pc pos="PC" xml:id="c48041_0004.pc.post.00030540" lemma="?">?</pc>
           <w cert="1.0" lemma="nie" pos="ADV(type=reg)" resp="thomas" xml:id="c48041_0004.w.74096">nie</w>

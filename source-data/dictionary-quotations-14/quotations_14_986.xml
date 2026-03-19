@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25285" lemma="LEDICHGANC" partition="train" sense-id="mnw.25285.sense.1" xml:id="c25285_0007">
-        <date atLeast="1306" atMost="1306" timeSpan="1300-1350" />
+      <cit xml:id="c25285_0007">
+        <note>
+          <ab>
+            <date atLeast="1306" atMost="1306" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LEDICHGANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25285.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25285</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.986">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25285_0007.w.165474">Ende</w>
           <w cert="1.0" lemma="verbieden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25285_0007.w.165475">verbiede</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="ambacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c25285_0007.w.165479">ambocht</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c25285_0007.w.165480">dat</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c25285_0007.w.165481">niemen</w>
-          <w cert="1.0" lemma="lediggang" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25285.sense.1" xml:id="c25285_0007.w.165482">ledichganc</w>
+          <w cert="1.0" lemma="lediggang" pos="NOU-C(number=sg)" resp="roland" xml:id="c25285_0007.w.165482" lemmaRef="mnw.25285.sense.1">ledichganc</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c25285_0007.w.165483">maken</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c25285_0007.w.165484">zoude</w>
           <pc pos="PC" xml:id="c25285_0007.pc.post.00064341" lemma=",">,</pc>

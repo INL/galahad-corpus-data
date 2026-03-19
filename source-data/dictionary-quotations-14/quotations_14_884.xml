@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22424" lemma="COELEN" partition="test" sense-id="mnw.22424.sense.7" xml:id="c22424_0020">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c22424_0020">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>COELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22424.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22424</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.884">
           <pc pos="PC" xml:id="c22424_0020.pc.floating.00460702" lemma="—">—</pc>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c22424_0020.w.1141744">Ghevet</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="daaraan+het" pos="ADV(type=pron)+PD(type=pers,position=free)" resp="thomas" xml:id="c22424_0020.w.1141756">an<join n="mw_787267" />
           </w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c22424_0020.w.1141757">mach</w>
-          <w cert="1.0" lemma="koelen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.22424.sense.7" xml:id="c22424_0020.w.1141758">coelen</w>
+          <w cert="1.0" lemma="koelen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c22424_0020.w.1141758" lemmaRef="mnw.22424.sense.7">coelen</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c22424_0020.w.1141759">sinen</w>
           <w cert="1.0" lemma="tand" pos="NOU-C(number=sg)" resp="roland" xml:id="c22424_0020.w.1141760">tant</w>
           <pc join="right" pos="PC" xml:id="c22424_0020.pc.pre.00460705" lemma="(">(</pc>

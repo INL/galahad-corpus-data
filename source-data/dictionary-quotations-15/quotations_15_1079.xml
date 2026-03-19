@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41897" lemma="PASSIËN" partition="train" sense-id="mnw.41897.sense.2" xml:id="c41897_0003">
-        <date atLeast="1438" atMost="1438" timeSpan="1400-1450" />
+      <cit xml:id="c41897_0003">
+        <note>
+          <ab>
+            <date atLeast="1438" atMost="1438" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PASSIËN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41897.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41897</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1079">
           <pc pos="PC" xml:id="c41897_0003.pc.floating.00046431" lemma="—">—</pc>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c41897_0003.w.123249">Sine</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="week" pos="NOU-C(number=sg)" resp="roland" xml:id="c41897_0003.w.123260">weke</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c41897_0003.w.123261">moeste</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c41897_0003.w.123262">sijn</w>
-          <w cert="1.0" lemma="passiën" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.41897.sense.2" xml:id="c41897_0003.w.123263">gepassijt</w>
+          <w cert="1.0" lemma="passiën" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c41897_0003.w.123263" lemmaRef="mnw.41897.sense.2">gepassijt</w>
           <w cert="1.0" lemma="jammerlijk" pos="ADV(type=reg)" resp="thomas" xml:id="c41897_0003.w.123264">jammerleke</w>
           <pc pos="PC" xml:id="c41897_0003.pc.post.00046433" lemma=",">,</pc>
         </q>

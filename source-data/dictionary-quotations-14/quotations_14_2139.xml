@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53382" lemma="SONDE" partition="train" sense-id="mnw.53382.sense.2" xml:id="c53382_0056">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c53382_0056">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SONDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53382.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53382</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2139">
           <w cert="1.0" lemma="minnen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c53382_0056.w.1147454">Minde</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53382_0056.w.1147455">ic</w>
@@ -68,7 +81,7 @@
           <pc pos="PC" xml:id="c53382_0056.pc.floating.00476319" lemma="…,">…,</pc>
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c53382_0056.w.1147470">dus</w>
           <w cert="1.0" lemma="doen+ik" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c53382_0056.w.1147471">dadic</w>
-          <w cert="1.0" lemma="zonde" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53382.sense.2" xml:id="c53382_0056.w.1147472">sonde</w>
+          <w cert="1.0" lemma="zonde" pos="NOU-C(number=sg)" resp="roland" xml:id="c53382_0056.w.1147472" lemmaRef="mnw.53382.sense.2">sonde</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c53382_0056.w.1147473">ende</w>
           <w cert="1.0" lemma="schande" pos="NOU-C(number=sg)" resp="roland" xml:id="c53382_0056.w.1147474">scande</w>
           <pc pos="PC" xml:id="c53382_0056.pc.post.00476320" lemma=",">,</pc>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04888" lemma="BOETE" partition="train" sense-id="mnw.04888.sense.7" xml:id="c04888_0024">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c04888_0024">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BOETE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04888.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04888</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.232">
           <w cert="1.0" lemma="dies" pos="ADV(type=reg)" resp="roland" xml:id="c04888_0024.w.961383">Dies</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c04888_0024.w.961384">en</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c04888_0024.w.961385">wert</w>
           <w cert="1.0" lemma="nimmermeer" pos="ADV(type=reg)" resp="thomas" xml:id="c04888_0024.w.961386">nemmermeer</w>
-          <w cert="1.0" lemma="boete" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.04888.sense.7" xml:id="c04888_0024.w.961387">boete</w>
+          <w cert="1.0" lemma="boete" pos="NOU-C(number=sg)" resp="thomas" xml:id="c04888_0024.w.961387" lemmaRef="mnw.04888.sense.7">boete</w>
           <pc pos="PC" xml:id="c04888_0024.pc.floating.00379475" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c04888_0024.w.961389">want</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c04888_0024.w.961390">bi</w>

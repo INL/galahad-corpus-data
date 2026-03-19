@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09812" lemma="FORE" partition="train" sense-id="mnw.09812.sense.2" xml:id="c09812_0004">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c09812_0004">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>FORE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09812.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09812</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.405">
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c09812_0004.w.618722">Die<join n="mw_906829" />
           </w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c09812_0004.w.618725">here</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c09812_0004.w.618726">es</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c09812_0004.w.618727">vander</w>
-          <w cert="1.0" lemma="foor" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.09812.sense.2" xml:id="c09812_0004.w.618728">foren</w>
+          <w cert="1.0" lemma="foor" pos="NOU-C(number=sg)" resp="roland" xml:id="c09812_0004.w.618728" lemmaRef="mnw.09812.sense.2">foren</w>
           <pc join="right" pos="PC" xml:id="c09812_0004.pc.pre.00266713" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c09812_0004.w.618729">sires</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c09812_0004.w.618730">de</w>

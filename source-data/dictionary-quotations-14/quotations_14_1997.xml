@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49352" lemma="SCHEPENMEESTER" partition="train" sense-id="mnw.49352.sense.1" xml:id="c49352_0000">
-        <date atLeast="1370" atMost="1390" timeSpan="1350-1400" />
+      <cit xml:id="c49352_0000">
+        <note>
+          <ab>
+            <date atLeast="1370" atMost="1390" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHEPENMEESTER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49352.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49352</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1997">
           <w cert="1.0" lemma="de+maandag" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c49352_0000.w.331650">Tsmanendages</w>
           <w cert="1.0" lemma="na" pos="ADP(type=pre)" resp="thomas" xml:id="c49352_0000.w.331651">na</w>
@@ -77,7 +90,7 @@
           <pc pos="PC" xml:id="c49352_0000.pc.post.00136605" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="CONJ(type=sub)" resp="thomas" xml:id="c49352_0000.w.331669">so</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c49352_0000.w.331670">si</w>
-          <w cert="1.0" lemma="schepenmeester" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.49352.sense.1" xml:id="c49352_0000.w.331671">scepenmeesters</w>
+          <w cert="1.0" lemma="schepenmeester" pos="NOU-C(number=pl)" resp="roland" xml:id="c49352_0000.w.331671" lemmaRef="mnw.49352.sense.1">scepenmeesters</w>
           <w cert="1.0" lemma="kiezen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c49352_0000.w.331672">ghecoren</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c49352_0000.w.331673">waren</w>
           <pc pos="PC" xml:id="c49352_0000.pc.post.00136606" lemma=",">,</pc>

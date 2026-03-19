@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20823" lemma="CASTIËN" partition="train" sense-id="mnw.20823.sense.7" xml:id="c20823_0051">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c20823_0051">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>CASTIËN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20823.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20823</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.512">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c20823_0051.w.849525">Die</w>
           <w cert="1.0" lemma="waard" pos="NOU-C(number=sg)" resp="roland" xml:id="c20823_0051.w.849526">wert</w>
@@ -58,7 +71,7 @@
           <pc pos="PC" xml:id="c20823_0051.pc.post.00345158" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c20823_0051.w.849532">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c20823_0051.w.849533">hi</w>
-          <w cert="1.0" lemma="kastijden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.20823.sense.7" xml:id="c20823_0051.w.849534">castiën</w>
+          <w cert="1.0" lemma="kastijden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c20823_0051.w.849534" lemmaRef="mnw.20823.sense.7">castiën</w>
           <w cert="1.0" lemma="wanen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c20823_0051.w.849535">waende</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c20823_0051.w.849536">sijn</w>
           <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c20823_0051.w.849537">wijf</w>

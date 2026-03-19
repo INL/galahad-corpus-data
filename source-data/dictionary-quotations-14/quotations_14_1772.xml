@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43589" lemma="PORREN" partition="dev" sense-id="mnw.43589.sense.35" xml:id="c43589_0125">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c43589_0125">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PORREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43589.sense.35</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43589</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1772">
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c43589_0125.w.407475">Met</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c43589_0125.w.407476">sinen</w>
@@ -77,7 +90,7 @@
           <pc pos="PC" xml:id="c43589_0125.pc.post.00159848" lemma=")">)</pc>
           <pc pos="PC" xml:id="c43589_0125.pc.floating.00159849" lemma=",">,</pc>
           <w cert="1.0" lemma="nochtan" pos="ADV(type=reg)" resp="thomas" xml:id="c43589_0125.w.407497">nochtan</w>
-          <w cert="1.0" lemma="porren" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.43589.sense.35" xml:id="c43589_0125.w.407498">porde</w>
+          <w cert="1.0" lemma="porren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43589_0125.w.407498" lemmaRef="mnw.43589.sense.35">porde</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c43589_0125.w.407499">geen</w>
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c43589_0125.w.407500">daer<join n="mw_471818" />
           </w>

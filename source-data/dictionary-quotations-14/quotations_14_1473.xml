@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36582" lemma="ONMARE" partition="train" sense-id="mnw.36582.sense.16" xml:id="c36582_0047">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c36582_0047">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONMARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36582.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36582</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1473">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c36582_0047.w.521517">Al</w>
           <w cert="1.0" lemma="mogen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c36582_0047.w.521518">moghedi</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c36582_0047.w.521523">u</w>
           <w cert="1.0" lemma="schelden" pos="NOU-C(number=sg)" resp="roland" xml:id="c36582_0047.w.521524">scelden</w>
           <w cert="1.0" lemma="hebben+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c36582_0047.w.521525">hebbic</w>
-          <w cert="1.0" lemma="onmaar" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.36582.sense.16" xml:id="c36582_0047.w.521526">ommare</w>
+          <w cert="1.0" lemma="onmaar" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c36582_0047.w.521526" lemmaRef="mnw.36582.sense.16">ommare</w>
           <pc pos="PC" xml:id="c36582_0047.pc.floating.00212940" lemma=",">,</pc>
         </q>
       </cit>

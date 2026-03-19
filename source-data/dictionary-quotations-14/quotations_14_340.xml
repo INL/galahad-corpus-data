@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07835" lemma="DROOM" partition="train" sense-id="mnw.07835.sense.3" xml:id="c07835_0016">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c07835_0016">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DROOM</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07835.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07835</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.340">
           <w cert="1.0" lemma="dat+zijn" pos="PD(type=d-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c07835_0016.w.324946">Dats</w>
-          <w cert="1.0" lemma="droom" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.07835.sense.3" xml:id="c07835_0016.w.324947">droem</w>
+          <w cert="1.0" lemma="droom" pos="NOU-C(number=sg)" resp="roland" xml:id="c07835_0016.w.324947" lemmaRef="mnw.07835.sense.3">droem</w>
           <pc join="right" pos="PC" xml:id="c07835_0016.pc.pre.00140066" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c07835_0016.w.324948">dat</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c07835_0016.w.324949">is</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03776" lemma="BESLUTEN" partition="test" sense-id="mnw.03776.sense.20" xml:id="c03776_0061">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c03776_0061">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BESLUTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03776.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03776</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.189">
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c03776_0061.w.756033">Te</w>
           <w cert="1.0" lemma="Jeruzalem" pos="NOU-P" resp="roland" xml:id="c03776_0061.w.756034">Jherusalem</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03776_0061.w.756038">dat</w>
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="roland" xml:id="c03776_0061.w.756039">lant</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c03776_0061.w.756040">al</w>
-          <w cert="1.0" lemma="besluiten" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.03776.sense.20" xml:id="c03776_0061.w.756041">besloten</w>
+          <w cert="1.0" lemma="besluiten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c03776_0061.w.756041" lemmaRef="mnw.03776.sense.20">besloten</w>
           <pc pos="PC" xml:id="c03776_0061.pc.floating.00295066" lemma=",">,</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c03776_0061.w.756043">cum</w>
           <w cert="1.0" lemma="Vespasianus" pos="NOU-P" resp="roland" xml:id="c03776_0061.w.756044">Vespasianus</w>

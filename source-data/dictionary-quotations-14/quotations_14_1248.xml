@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30432" lemma="MOET" partition="train" sense-id="mnw.30432.sense.17" xml:id="c30432_0162">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c30432_0162">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30432.sense.17</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30432</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1248">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30432_0162.w.1237073">Mi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30432_0162.w.1237074">es</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c30432_0162.w.1237075">te</w>
-          <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30432.sense.17" xml:id="c30432_0162.w.1237076">moede</w>
+          <w cert="1.0" lemma="moed" pos="NOU-C(number=sg)" resp="roland" xml:id="c30432_0162.w.1237076" lemmaRef="mnw.30432.sense.17">moede</w>
           <pc join="right" pos="PC" xml:id="c30432_0162.pc.pre.00485898" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c30432_0162.w.1237077">ik</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c30432_0162.w.1237078">heb</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12734" lemma="GESCIEN" partition="train" sense-id="mnw.12734.sense.10" xml:id="c12734_0066">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c12734_0066">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GESCIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12734.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12734</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.332">
           <w cert="1.0" lemma="ik+ne" pos="PD(type=indef,position=free)+ADV(type=reg)" resp="roland" xml:id="c12734_0066.w.1169368">In</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c12734_0066.w.1169369">can</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c12734_0066.w.1169379">des</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c12734_0066.w.1169380">niet</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12734_0066.w.1169381">es</w>
-          <w cert="1.0" lemma="geschieden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.12734.sense.10" xml:id="c12734_0066.w.1169382">ghesciet</w>
+          <w cert="1.0" lemma="geschieden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c12734_0066.w.1169382" lemmaRef="mnw.12734.sense.10">ghesciet</w>
           <pc pos="PC" xml:id="c12734_0066.pc.floating.00490533" lemma=",">,</pc>
         </q>
       </cit>

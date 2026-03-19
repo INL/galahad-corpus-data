@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32374" lemma="NERNSTICH" partition="test" sense-id="mnw.32374.sense.10" xml:id="c32374_0018">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c32374_0018">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>NERNSTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32374.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32374</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1332">
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c32374_0018.w.1595102">Vele</w>
           <w cert="1.0" lemma="spreken" pos="NOU-C(number=sg)" resp="thomas" xml:id="c32374_0018.w.1595103">spreken</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c32374_0018.w.1595120">maer</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c32374_0018.w.1595121">der</w>
           <w cert="1.0" lemma="hart" pos="NOU-C(number=sg)" resp="roland" xml:id="c32374_0018.w.1595122">herten</w>
-          <w cert="1.0" lemma="ernstig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.32374.sense.10" xml:id="c32374_0018.w.1595123">nerenstech</w>
+          <w cert="1.0" lemma="ernstig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c32374_0018.w.1595123" lemmaRef="mnw.32374.sense.10">nerenstech</w>
           <w cert="1.0" lemma="geer" pos="NOU-C(number=sg)" resp="roland" xml:id="c32374_0018.w.1595124">ghere</w>
           <pc join="right" pos="PC" xml:id="c32374_0018.pc.pre.00628897" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c32374_0018.w.1595125">de</w>

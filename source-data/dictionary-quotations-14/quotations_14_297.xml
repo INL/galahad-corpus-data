@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06796" lemma="DIT" partition="train" sense-id="mnw.06796.sense.3" xml:id="c06796_0007">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c06796_0007">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06796.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06796</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.297">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c06796_0007.w.160474">Si</w>
           <w cert="1.0" lemma="werken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c06796_0007.w.160475">wrochten</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c06796_0007.w.160486">ander</w>
           <w cert="1.0" lemma="kleed" pos="NOU-C(number=pl)" resp="roland" xml:id="c06796_0007.w.160487">cleder</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c06796_0007.w.160488">ende</w>
-          <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" sense-id="mnw.06796.sense.3" xml:id="c06796_0007.w.160489">dit</w>
+          <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c06796_0007.w.160489" lemmaRef="mnw.06796.sense.3">dit</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c06796_0007.w.160490">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c06796_0007.w.160491">hem</w>
           <w cert="1.0" lemma="algader" pos="ADV(type=reg)" resp="thomas" xml:id="c06796_0007.w.160492">algader</w>

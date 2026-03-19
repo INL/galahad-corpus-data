@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12852" lemma="GESELSCAP" partition="train" sense-id="mnw.12852.sense.6" xml:id="c12852_0027">
-        <date atLeast="1403" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c12852_0027">
+        <note>
+          <ab>
+            <date atLeast="1403" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GESELSCAP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12852.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12852</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.337">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c12852_0027.w.1191410">So</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c12852_0027.w.1191411">en</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="wijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12852_0027.w.1191417">wijn</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c12852_0027.w.1191418">mit</w>
           <w cert="1.0" lemma="malkander" pos="PD(type=recip,position=free)" resp="thomas" xml:id="c12852_0027.w.1191419">malcanderen</w>
-          <w cert="1.0" lemma="gezelschap" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.12852.sense.6" xml:id="c12852_0027.w.1191420">gheselscap</w>
+          <w cert="1.0" lemma="gezelschap" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12852_0027.w.1191420" lemmaRef="mnw.12852.sense.6">gheselscap</w>
           <w cert="1.0" lemma="hanteren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c12852_0027.w.1191421">hantieren</w>
           <pc pos="PC" xml:id="c12852_0027.pc.post.00499449" lemma=",">,</pc>
         </q>

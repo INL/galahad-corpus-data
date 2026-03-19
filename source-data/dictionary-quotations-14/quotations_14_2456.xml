@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60407" lemma="UTEGEVEN" partition="train" sense-id="mnw.60407.sense.22" xml:id="c60407_0090">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c60407_0090">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>UTEGEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60407.sense.22</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60407</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2456">
           <w cert="1.0" lemma="Abraham" pos="NOU-P" resp="roland" xml:id="c60407_0090.w.695976">Abraham</w>
           <pc pos="PC" xml:id="c60407_0090.pc.post.00282817" lemma=",">,</pc>
@@ -66,9 +79,9 @@
           <pc pos="PC" xml:id="c60407_0090.pc.post.00282820" lemma=")">)</pc>
           <w cert="1.0" lemma="besnijdenis" pos="NOU-C(number=sg)" resp="roland" xml:id="c60407_0090.w.695986">besnidenesse</w>
           <w cert="1.0" lemma="eerst" pos="ADV(type=reg)" resp="thomas" xml:id="c60407_0090.w.695987">eerst</w>
-          <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.60407.sense.22" xml:id="c60407_0090.w.695988">gaf<join n="mw_114268" />
+          <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c60407_0090.w.695988" lemmaRef="mnw.60407.sense.22">gaf<join n="mw_114268" />
           </w>
-          <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.60407.sense.22" xml:id="c60407_0090.w.695989">ute<join n="mw_114268" />
+          <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c60407_0090.w.695989" lemmaRef="mnw.60407.sense.22">ute<join n="mw_114268" />
           </w>
           <pc pos="PC" xml:id="c60407_0090.pc.floating.00282821" lemma=",">,</pc>
         </q>

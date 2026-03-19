@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11595" lemma="GELIKE" partition="train" sense-id="mnw.11595.sense.15" xml:id="c11595_0015">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c11595_0015">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11595.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11595</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.478">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11595_0015.w.921093">Die</w>
           <w cert="1.0" lemma="loop" pos="NOU-C(number=sg)" resp="roland" xml:id="c11595_0015.w.921094">loep</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c11595_0015.w.921102">mach</w>
           <w cert="1.0" lemma="iet" pos="PD(type=indef,position=free)" resp="roland" xml:id="c11595_0015.w.921103">iet</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c11595_0015.w.921104">met</w>
-          <w cert="1.0" lemma="gelijke" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.11595.sense.15" xml:id="c11595_0015.w.921105">ghelike</w>
+          <w cert="1.0" lemma="gelijke" pos="NOU-C(number=sg)" resp="roland" xml:id="c11595_0015.w.921105" lemmaRef="mnw.11595.sense.15">ghelike</w>
           <w cert="1.0" lemma="weten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11595_0015.w.921106">weten</w>
           <pc pos="PC" xml:id="c11595_0015.pc.post.00390611" lemma=",">,</pc>
         </q>

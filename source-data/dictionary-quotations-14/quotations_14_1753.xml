@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43046" lemma="PLEGEN" partition="train" sense-id="mnw.43046.sense.57" xml:id="c43046_0349">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c43046_0349">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PLEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43046.sense.57</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1753">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c43046_0349.w.313103">Sijn</w>
           <w cert="1.0" lemma="vlees" pos="NOU-C(number=sg)" resp="thomas" xml:id="c43046_0349.w.313104">vleesch</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c43046_0349.w.313107">oft</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c43046_0349.w.313108">der</w>
           <w cert="1.0" lemma="schoonheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c43046_0349.w.313109">sconeit</w>
-          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.43046.sense.57" xml:id="c43046_0349.w.313110">plage</w>
+          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43046_0349.w.313110" lemmaRef="mnw.43046.sense.57">plage</w>
           <pc pos="PC" xml:id="c43046_0349.pc.floating.00122153" lemma=",">,</pc>
           <w cert="1.0" lemma="die+het" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c43046_0349.w.313112">diet</w>
           <pc join="right" pos="PC" xml:id="c43046_0349.pc.pre.00122154" lemma="(">(</pc>

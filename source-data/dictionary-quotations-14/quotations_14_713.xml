@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16800" lemma="HERE" partition="train" sense-id="mnw.16800.sense.13" xml:id="c16800_0094">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c16800_0094">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16800.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16800</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.713">
           <w cert="1.0" lemma="Nimrod" pos="NOU-P" resp="roland" xml:id="c16800_0094.w.252484">Nembrot</w>
           <pc pos="PC" xml:id="c16800_0094.pc.floating.00103482" lemma="..,">..,</pc>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="land" pos="NOU-C(number=sg)" resp="roland" xml:id="c16800_0094.w.252491">lant</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c16800_0094.w.252492">ende</w>
           <w cert="1.0" lemma="eerst" pos="ADV(type=reg)" resp="thomas" xml:id="c16800_0094.w.252493">eerst</w>
-          <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.16800.sense.13" xml:id="c16800_0094.w.252494">here</w>
+          <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c16800_0094.w.252494" lemmaRef="mnw.16800.sense.13">here</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c16800_0094.w.252495">met</w>
           <w cert="1.0" lemma="mogendheid" pos="NOU-C(number=pl)" resp="roland" xml:id="c16800_0094.w.252496">moghentheden</w>
           <pc pos="PC" xml:id="c16800_0094.pc.post.00103483" lemma=",">,</pc>

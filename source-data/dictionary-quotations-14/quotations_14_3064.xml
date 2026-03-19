@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72487" lemma="WERELTERE" partition="train" sense-id="mnw.72487.sense.1" xml:id="c72487_0005">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c72487_0005">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WERELTERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72487.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72487</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3064">
           <w cert="1.0" lemma="veel" pos="PD(type=indef,position=free)" resp="roland" xml:id="c72487_0005.w.1651074">Vele</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c72487_0005.w.1651075">waren</w>
@@ -59,9 +72,9 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c72487_0005.w.1651082">ne</w>
           <w cert="1.0" lemma="begeven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c72487_0005.w.1651083">begaven</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c72487_0005.w.1651084">de</w>
-          <w cert="1.0" lemma="wereldeer" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72487.sense.1" xml:id="c72487_0005.w.1651085">werelt<join n="mw_628715" />
+          <w cert="1.0" lemma="wereldeer" pos="NOU-C(number=sg)" resp="roland" xml:id="c72487_0005.w.1651085" lemmaRef="mnw.72487.sense.1">werelt<join n="mw_628715" />
           </w>
-          <w cert="1.0" lemma="wereldeer" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.72487.sense.1" xml:id="c72487_0005.w.1651086">ere<join n="mw_628715" />
+          <w cert="1.0" lemma="wereldeer" pos="NOU-C(number=sg)" resp="roland" xml:id="c72487_0005.w.1651086" lemmaRef="mnw.72487.sense.1">ere<join n="mw_628715" />
           </w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c72487_0005.w.1651087">om</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c72487_0005.w.1651088">te</w>

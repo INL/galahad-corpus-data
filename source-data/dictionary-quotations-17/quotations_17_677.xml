@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M038345" lemma="MAND" modern-lemma="mand" partition="dev" pos="NOU-C" sense-id="M038345.bet.5" xml:id="M038345.eg.3375">
-        <date atLeast="1692" atMost="1692" timeSpan="1650-1700" />
+      <cit xml:id="M038345.eg.3375">
+        <note>
+          <ab>
+            <date atLeast="1692" atMost="1692" extent="1650-1700" />
+            <interpGrp type="lemma">
+              <interp>MAND</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M038345.bet.5</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>mand</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M038345</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.677">
           <w cert="1.0" lemma="tien" pos="NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.30875">Tien</w>
           <pc lemma="…," pos="PC" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.pc.floating.0010494">…,</pc>
@@ -75,7 +94,7 @@
           <w cert="1.0" lemma="daarna" pos="ADV(type=pron)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.30897">daernae</w>
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.30898">door</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.30899">de</w>
-          <w cert="1.0" lemma="mand" pos="NOU-C(number=sg)" resp="roland" sense-id="M038345.bet.5" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.30900">mande</w>
+          <w cert="1.0" lemma="mand" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.30900" lemmaRef="M038345.bet.5">mande</w>
           <w cert="1.0" lemma="vallen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.w.30901">viel</w>
           <pc pos="PC" xml:id="INT_76769847-4a33-4194-8fc9-d5dec588761d.pc.post.0010498" lemma=",">,</pc>
         </q>

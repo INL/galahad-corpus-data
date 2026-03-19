@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70726" lemma="WASSCHEN" partition="train" sense-id="mnw.70726.sense.1" xml:id="c70726_0007">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c70726_0007">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WASSCHEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70726.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70726</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2987">
           <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c70726_0007.w.1320569">Twe</w>
           <w cert="1.0" lemma="non" pos="NOU-C(number=pl)" resp="roland" xml:id="c70726_0007.w.1320570">nonnen</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c70726_0007.pc.floating.00529055" lemma="…">…</pc>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c70726_0007.w.1320574">haer</w>
           <w cert="1.0" lemma="kleed" pos="NOU-C(number=pl)" resp="roland" xml:id="c70726_0007.w.1320575">cleder</w>
-          <w cert="1.0" lemma="wassen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.70726.sense.1" xml:id="c70726_0007.w.1320576">wyschen</w>
+          <w cert="1.0" lemma="wassen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c70726_0007.w.1320576" lemmaRef="mnw.70726.sense.1">wyschen</w>
           <pc join="right" pos="PC" xml:id="c70726_0007.pc.pre.00529056" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c70726_0007.w.1320577">d.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c70726_0007.w.1320578">i.</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74630" lemma="WREKEN" partition="test" sense-id="mnw.74630.sense.8" xml:id="c74630_0049">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c74630_0049">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74630.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74630</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3188">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c74630_0049.w.2131740">Si</w>
           <w cert="1.0" lemma="gereden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c74630_0049.w.2131741">ghereiden</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c74630_0049.w.2131746">met</w>
           <w cert="1.0" lemma="wapen" pos="NOU-C(number=pl)" resp="roland" xml:id="c74630_0049.w.2131747">wapenen</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c74630_0049.w.2131748">te</w>
-          <w cert="1.0" lemma="wreken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.74630.sense.8" xml:id="c74630_0049.w.2131749">wrekene</w>
+          <w cert="1.0" lemma="wreken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c74630_0049.w.2131749" lemmaRef="mnw.74630.sense.8">wrekene</w>
           <w cert="1.0" lemma="gene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c74630_0049.w.2131750">ghint</w>
           <pc pos="PC" xml:id="c74630_0049.pc.post.00835442" lemma=",">,</pc>
         </q>

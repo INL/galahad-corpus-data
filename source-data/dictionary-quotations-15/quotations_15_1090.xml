@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42464" lemma="PERSOONLIJC" partition="train" sense-id="mnw.42464.sense.2" xml:id="c42464_0001">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c42464_0001">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PERSOONLIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42464.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42464</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1090">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42464_0001.w.201600">Die</w>
           <w cert="1.0" lemma="toekomst" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42464_0001.w.201601">toecomst</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c42464_0001.w.201612">is</w>
           <pc pos="PC" xml:id="c42464_0001.pc.floating.00077698" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42464_0001.w.201614">ende</w>
-          <w cert="1.0" lemma="persoonlijk" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.42464.sense.2" xml:id="c42464_0001.w.201615">persoonlic</w>
+          <w cert="1.0" lemma="persoonlijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c42464_0001.w.201615" lemmaRef="mnw.42464.sense.2">persoonlic</w>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c42464_0001.w.201616">sonder</w>
           <w cert="1.0" lemma="onderlaat" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42464_0001.w.201617">onderlaet</w>
           <w cert="1.0" lemma="nieuw" pos="ADV(type=reg)" resp="thomas" xml:id="c42464_0001.w.201618">nuwe</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28033" lemma="MARCH" partition="train" sense-id="mnw.28033.sense.3" xml:id="c28033_0020">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c28033_0020">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MARCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28033.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28033</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1133">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c28033_0020.w.786535">Men</w>
           <w cert="1.0" lemma="ontdoen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c28033_0020.w.786536">ondoet</w>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c28033_0020.pc.floating.00305094" lemma="…">…</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c28033_0020.w.786545">van</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c28033_0020.w.786546">sinen</w>
-          <w cert="1.0" lemma="merg" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28033.sense.3" xml:id="c28033_0020.w.786547">maerghe</w>
+          <w cert="1.0" lemma="merg" pos="NOU-C(number=sg)" resp="roland" xml:id="c28033_0020.w.786547" lemmaRef="mnw.28033.sense.3">maerghe</w>
           <pc pos="PC" xml:id="c28033_0020.pc.floating.00305095" lemma=",">,</pc>
         </q>
       </cit>

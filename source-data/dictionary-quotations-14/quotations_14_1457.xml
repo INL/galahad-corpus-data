@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35962" lemma="ONGESLOTEN" partition="train" sense-id="mnw.35962.sense.4" xml:id="c35962_0004">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c35962_0004">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONGESLOTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35962.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35962</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1457">
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c35962_0004.w.438665">God</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c35962_0004.w.438666">es</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="binnen" pos="ADP(type=pre)" resp="thomas" xml:id="c35962_0004.w.438673">binnen</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c35962_0004.w.438674">al</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c35962_0004.w.438675">ende</w>
-          <w cert="1.0" lemma="ongesloten" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35962.sense.4" xml:id="c35962_0004.w.438676">onghesloten</w>
+          <w cert="1.0" lemma="ongesloten" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35962_0004.w.438676" lemmaRef="mnw.35962.sense.4">onghesloten</w>
           <pc pos="PC" xml:id="c35962_0004.pc.floating.00179349" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12110" lemma="GENOEMEN" partition="train" sense-id="mnw.12110.sense.1" xml:id="c12110_0008">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c12110_0008">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GENOEMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12110.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12110</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.314">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12110_0008.w.1055600">Die</w>
           <w cert="1.0" lemma="vroom" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c12110_0008.w.1055601">vrome</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c12110_0008.w.1055606">ic</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c12110_0008.w.1055607">wael</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c12110_0008.w.1055608">veel</w>
-          <w cert="1.0" lemma="genoemen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.12110.sense.1" xml:id="c12110_0008.w.1055609">ghenoemen</w>
+          <w cert="1.0" lemma="genoemen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c12110_0008.w.1055609" lemmaRef="mnw.12110.sense.1">ghenoemen</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12110_0008.w.1055610">kan</w>
           <pc pos="PC" xml:id="c12110_0008.pc.post.00444510" lemma=",">,</pc>
         </q>

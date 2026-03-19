@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20949" lemma="KEER" partition="test" sense-id="mnw.20949.sense.43" xml:id="c20949_0133">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c20949_0133">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>KEER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20949.sense.43</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20949</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.827">
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c20949_0133.w.874543">Also</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,position=free)" resp="roland" xml:id="c20949_0133.w.874544">vele</w>
@@ -65,7 +78,7 @@
           <pc pos="PC" xml:id="c20949_0133.pc.post.00354667" lemma=",">,</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c20949_0133.w.874556">in</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c20949_0133.w.874557">allen</w>
-          <w cert="1.0" lemma="keer" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.20949.sense.43" xml:id="c20949_0133.w.874558">kere</w>
+          <w cert="1.0" lemma="keer" pos="NOU-C(number=sg)" resp="roland" xml:id="c20949_0133.w.874558" lemmaRef="mnw.20949.sense.43">kere</w>
           <pc pos="PC" xml:id="c20949_0133.pc.floating.00354668" lemma=",">,</pc>
         </q>
       </cit>

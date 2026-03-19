@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61519" lemma="VAT" partition="test" sense-id="mnw.61519.sense.5" xml:id="c61519_0083">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c61519_0083">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61519.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61519</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2503">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c61519_0083.w.977665">Wat</w>
           <w cert="1.0" lemma="doen+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c61519_0083.w.977666">doedi</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c61519_0083.pc.post.00394649" lemma=")">)</pc>
           <w cert="1.0" lemma="beeldenvat" pos="NOU-C(number=sg)" resp="roland" xml:id="c61519_0083.w.977673">beelde<join n="mw_733461" />
           </w>
-          <w cert="1.0" lemma="beeldenvat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.61519.sense.5" xml:id="c61519_0083.w.977674">vat<join n="mw_733461" />
+          <w cert="1.0" lemma="beeldenvat" pos="NOU-C(number=sg)" resp="roland" xml:id="c61519_0083.w.977674" lemmaRef="mnw.61519.sense.5">vat<join n="mw_733461" />
           </w>
           <pc pos="PC" xml:id="c61519_0083.pc.floating.00394650" lemma="?">?</pc>
         </q>

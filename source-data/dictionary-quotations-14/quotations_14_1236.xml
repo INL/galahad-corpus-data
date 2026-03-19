@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30207" lemma="MISVALLEN" partition="train" sense-id="mnw.30207.sense.5" xml:id="c30207_0043">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c30207_0043">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MISVALLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30207.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30207</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1236">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c30207_0043.w.1194553">Dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c30207_0043.w.1194554">den</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c30207_0043.w.1194565">ane</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c30207_0043.w.1194566">anderen</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c30207_0043.w.1194567">liden</w>
-          <w cert="1.0" lemma="misvallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.30207.sense.5" xml:id="c30207_0043.w.1194568">mesfelt</w>
+          <w cert="1.0" lemma="misvallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30207_0043.w.1194568" lemmaRef="mnw.30207.sense.5">mesfelt</w>
           <pc pos="PC" xml:id="c30207_0043.pc.floating.00468749" lemma=",">,</pc>
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c30207_0043.w.1194570">dis</w>
           <w cert="1.0" lemma="huiden+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c30207_0043.w.1194571">hudense</w>

@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05217" lemma="BOTERSMOUT" partition="train" sense-id="mnw.05217.sense.1" xml:id="c05217_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c05217_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BOTERSMOUT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05217.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05217</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.243">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c05217_0000.w.997633">Dat</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c05217_0000.w.997634">sal</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c05217_0000.w.997635">men</w>
           <w cert="1.0" lemma="zieden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c05217_0000.w.997636">sieden</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c05217_0000.w.997637">in</w>
-          <w cert="1.0" lemma="botersmout" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.05217.sense.1" xml:id="c05217_0000.w.997638">bottersmout</w>
+          <w cert="1.0" lemma="botersmout" pos="NOU-C(number=sg)" resp="roland" xml:id="c05217_0000.w.997638" lemmaRef="mnw.05217.sense.1">bottersmout</w>
           <pc pos="PC" xml:id="c05217_0000.pc.floating.00394826" lemma=",">,</pc>
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c05217_0000.w.997640">daer<join n="mw_207720" />
           </w>

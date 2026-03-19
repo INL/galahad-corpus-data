@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.19553" lemma="INVLOET" partition="train" sense-id="mnw.19553.sense.2" xml:id="c19553_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c19553_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>INVLOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.19553.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.19553</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.486">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c19553_0000.w.660482">Sine</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c19553_0000.w.660483">nature</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c19553_0000.w.660491">God</w>
           <w cert="1.0" lemma="onttrekken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c19553_0000.w.660492">onttrac</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c19553_0000.w.660493">den</w>
-          <w cert="1.0" lemma="invloed" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.19553.sense.2" xml:id="c19553_0000.w.660494">invloet</w>
+          <w cert="1.0" lemma="invloed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c19553_0000.w.660494" lemmaRef="mnw.19553.sense.2">invloet</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c19553_0000.w.660495">sijnre</w>
           <w cert="1.0" lemma="gave" pos="NOU-C(number=pl)" resp="thomas" xml:id="c19553_0000.w.660496">gaven</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c19553_0000.w.660497">ende</w>

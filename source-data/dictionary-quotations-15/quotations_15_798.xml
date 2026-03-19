@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32106" lemma="NEDERNIGEN" partition="train" sense-id="mnw.32106.sense.2" xml:id="c32106_0005">
-        <date atLeast="1473" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c32106_0005">
+        <note>
+          <ab>
+            <date atLeast="1473" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>NEDERNIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32106.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32106</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.798">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c32106_0005.w.1539784">Die</w>
           <w cert="1.0" lemma="prins" pos="NOU-C(number=sg)" resp="roland" xml:id="c32106_0005.w.1539785">prince</w>
@@ -56,10 +69,10 @@
           <w cert="1.0" lemma="eren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c32106_0005.w.1539789">eeren</w>
           <w cert="1.0" lemma="denken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32106_0005.w.1539790">dochte</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c32106_0005.w.1539791">ende</w>
-          <w cert="1.0" lemma="nedernijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.32106.sense.2" xml:id="c32106_0005.w.1539792">nijgde<join n="mw_358010" />
+          <w cert="1.0" lemma="nedernijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32106_0005.w.1539792" lemmaRef="mnw.32106.sense.2">nijgde<join n="mw_358010" />
           </w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c32106_0005.w.1539793">soo</w>
-          <w cert="1.0" lemma="nedernijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.32106.sense.2" xml:id="c32106_0005.w.1539794">neder<join n="mw_358010" />
+          <w cert="1.0" lemma="nedernijgen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32106_0005.w.1539794" lemmaRef="mnw.32106.sense.2">neder<join n="mw_358010" />
           </w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c32106_0005.w.1539795">als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c32106_0005.w.1539796">hij</w>

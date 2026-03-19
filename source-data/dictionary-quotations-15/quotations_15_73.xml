@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02583" lemma="BEDRIEGEN" partition="train" sense-id="mnw.02583.sense.5" xml:id="c02583_0007">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c02583_0007">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BEDRIEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02583.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02583</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.73">
           <pc join="right" pos="PC" xml:id="c02583_0007.pc.pre.00183671" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c02583_0007.w.468975">Alexander</w>
@@ -67,7 +80,7 @@
           <pc pos="PC" xml:id="c02583_0007.pc.post.00183675" lemma=")">)</pc>
           <pc pos="PC" xml:id="c02583_0007.pc.floating.00183676" lemma=";">;</pc>
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c02583_0007.w.468989">dus</w>
-          <w cert="1.0" lemma="bedriegen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.02583.sense.5" xml:id="c02583_0007.w.468990">bedrooch</w>
+          <w cert="1.0" lemma="bedriegen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c02583_0007.w.468990" lemmaRef="mnw.02583.sense.5">bedrooch</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c02583_0007.w.468991">hi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02583_0007.w.468992">die</w>
           <w cert="1.0" lemma="avontuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c02583_0007.w.468993">aventure</w>

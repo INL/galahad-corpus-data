@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04019" lemma="BETEKENEN" partition="dev" sense-id="mnw.04019.sense.9" xml:id="c04019_0027">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c04019_0027">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BETEKENEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04019.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04019</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.122">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c04019_0027.w.817038">Dat</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c04019_0027.w.817039">een</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c04019_0027.w.817053">hi</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="thomas" xml:id="c04019_0027.w.817054">hem</w>
           <w cert="1.0" lemma="buiten" pos="ADV(type=reg)" resp="thomas" xml:id="c04019_0027.w.817055">buten</w>
-          <w cert="1.0" lemma="betekenen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.04019.sense.9" xml:id="c04019_0027.w.817056">betekene</w>
+          <w cert="1.0" lemma="betekenen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c04019_0027.w.817056" lemmaRef="mnw.04019.sense.9">betekene</w>
           <pc pos="PC" xml:id="c04019_0027.pc.floating.00319587" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c04019_0027.w.817058">dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c04019_0027.w.817059">hi</w>

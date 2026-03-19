@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62605" lemma="VERDUNKEN" partition="dev" sense-id="mnw.62605.sense.7" xml:id="c62605_0013">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c62605_0013">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERDUNKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62605.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62605</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2568">
           <w cert="1.0" lemma="zodat" pos="CONJ(type=sub)" resp="roland" xml:id="c62605_0013.w.1246142">So<join n="mw_104065" />
           </w>
@@ -81,7 +94,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c62605_0013.w.1246164">des</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c62605_0013.w.1246165">hem</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62605_0013.w.1246166">hevet</w>
-          <w cert="1.0" lemma="verdunken" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.62605.sense.7" xml:id="c62605_0013.w.1246167">verdocht</w>
+          <w cert="1.0" lemma="verdunken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c62605_0013.w.1246167" lemmaRef="mnw.62605.sense.7">verdocht</w>
           <pc pos="PC" xml:id="c62605_0013.pc.floating.00500023" lemma=",">,</pc>
         </q>
       </cit>

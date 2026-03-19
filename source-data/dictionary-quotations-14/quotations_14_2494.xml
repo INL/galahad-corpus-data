@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61368" lemma="VAREN" partition="dev" sense-id="mnw.61368.sense.19" xml:id="c61368_0106">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c61368_0106">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61368.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61368</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2494">
           <pc join="right" pos="PC" xml:id="c61368_0106.pc.pre.00376944" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61368_0106.w.934394">Hi</w>
           <pc pos="PC" xml:id="c61368_0106.pc.post.00376945" lemma=")">)</pc>
-          <w cert="1.0" lemma="varen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.61368.sense.19" xml:id="c61368_0106.w.934395">voer</w>
+          <w cert="1.0" lemma="varen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c61368_0106.w.934395" lemmaRef="mnw.61368.sense.19">voer</w>
           <w cert="1.0" lemma="haastelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c61368_0106.w.934396">haestelec</w>
           <w cert="1.0" lemma="beginnen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c61368_0106.w.934397">beghinnen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61368_0106.w.934398">dien</w>

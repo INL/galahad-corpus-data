@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32406" lemma="NESTEN" partition="train" sense-id="mnw.32406.sense.2" xml:id="c32406_0001">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c32406_0001">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>NESTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32406.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32406</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.809">
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="thomas" xml:id="c32406_0001.w.1600600">Waer</w>
           <w cert="1.0" lemma="rein" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c32406_0001.w.1600601">reyne</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="thomas" xml:id="c32406_0001.w.1600602">minne</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c32406_0001.w.1600603">int</w>
           <w cert="1.0" lemma="hart" pos="NOU-C(number=sg)" resp="roland" xml:id="c32406_0001.w.1600604">herte</w>
-          <w cert="1.0" lemma="nesten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.32406.sense.2" xml:id="c32406_0001.w.1600605">nistet</w>
+          <w cert="1.0" lemma="nesten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c32406_0001.w.1600605" lemmaRef="mnw.32406.sense.2">nistet</w>
           <pc pos="PC" xml:id="c32406_0001.pc.floating.00631190" lemma=",">,</pc>
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c32406_0001.w.1600607">daer<join n="mw_432774" />
           </w>

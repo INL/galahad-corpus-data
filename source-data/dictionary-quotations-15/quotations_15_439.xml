@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17991" lemma="HOOP" partition="train" sense-id="mnw.17991.sense.1" xml:id="c17991_0002">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c17991_0002">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HOOP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17991.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17991</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.439">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c17991_0002.w.402734">Die</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c17991_0002.w.402735">niet</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="tegaan" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c17991_0002.w.402742">tegaet</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c17991_0002.w.402743">mit</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c17991_0002.w.402744">groten</w>
-          <w cert="1.0" lemma="hoop" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.17991.sense.1" xml:id="c17991_0002.w.402745">hopen</w>
+          <w cert="1.0" lemma="hoop" pos="NOU-C(number=sg)" resp="roland" xml:id="c17991_0002.w.402745" lemmaRef="mnw.17991.sense.1">hopen</w>
           <pc pos="PC" xml:id="c17991_0002.pc.floating.00164501" lemma=",">,</pc>
         </q>
       </cit>

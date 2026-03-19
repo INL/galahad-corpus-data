@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37465" lemma="ONTKENNEN" partition="train" sense-id="mnw.37465.sense.2" xml:id="c37465_0000">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c37465_0000">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONTKENNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37465.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37465</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.943">
           <w cert="1.0" lemma="bedie" pos="ADV(type=reg)" resp="thomas" xml:id="c37465_0000.w.716956">Bedi</w>
           <w cert="1.0" lemma="dunken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37465_0000.w.716957">dinct</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c37465_0000.w.716963">met</w>
           <w cert="1.0" lemma="hovaart" pos="NOU-C(number=sg)" resp="roland" xml:id="c37465_0000.w.716964">hoverden</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c37465_0000.w.716965">hem</w>
-          <w cert="1.0" lemma="ontkennen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.37465.sense.2" xml:id="c37465_0000.w.716966">ontkinnet</w>
+          <w cert="1.0" lemma="ontkennen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c37465_0000.w.716966" lemmaRef="mnw.37465.sense.2">ontkinnet</w>
           <pc pos="PC" xml:id="c37465_0000.pc.floating.00289888" lemma=",">,</pc>
           <w cert="1.0" lemma="daarbij" pos="ADV(type=pron)" resp="thomas" xml:id="c37465_0000.w.716968">daer<join n="mw_179444" />
           </w>

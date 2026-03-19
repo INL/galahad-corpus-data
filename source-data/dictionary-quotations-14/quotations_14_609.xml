@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13772" lemma="GEWARE" partition="train" sense-id="mnw.13772.sense.7" xml:id="c13772_0009">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c13772_0009">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEWARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13772.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13772</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.609">
           <w cert="1.0" lemma="op+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c13772_0009.w.1352614">Upten</w>
           <w cert="1.0" lemma="weg" pos="NOU-C(number=sg)" resp="roland" xml:id="c13772_0009.w.1352615">wech</w>
           <w cert="1.0" lemma="worden+zij+dat" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)+PD(type=d-p,position=free)" resp="thomas" xml:id="c13772_0009.w.1352616">wordsijs</w>
-          <w cert="1.0" lemma="gewaar" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.13772.sense.7" xml:id="c13772_0009.w.1352617">gheware</w>
+          <w cert="1.0" lemma="gewaar" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c13772_0009.w.1352617" lemmaRef="mnw.13772.sense.7">gheware</w>
           <pc pos="PC" xml:id="c13772_0009.pc.floating.00565869" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c13772_0009.w.1352619">dat</w>
           <w cert="1.0" lemma="Jezus" pos="NOU-P" resp="roland" xml:id="c13772_0009.w.1352620">Jhesus</w>

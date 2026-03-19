@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17185" lemma="HI" partition="dev" sense-id="mnw.17185.sense.10" xml:id="c17185_0038">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c17185_0038">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HI</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17185.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17185</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.723">
           <w cert="1.0" lemma="melancholie" pos="NOU-C(number=sg)" resp="roland" xml:id="c17185_0038.w.293795">Melancolie</w>
           <w cert="1.0" lemma="dwingen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c17185_0038.w.293796">dwinct</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="zin" pos="NOU-C(number=sg)" resp="roland" xml:id="c17185_0038.w.293799">zinne</w>
           <w cert="1.0" lemma="alleen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c17185_0038.w.293800">allein</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c17185_0038.w.293801">up</w>
-          <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" sense-id="mnw.17185.sense.10" xml:id="c17185_0038.w.293802">hem</w>
+          <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c17185_0038.w.293802" lemmaRef="mnw.17185.sense.10">hem</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c17185_0038.w.293803">en</w>
           <w cert="1.0" lemma="anders" pos="ADV(type=reg)" resp="thomas" xml:id="c17185_0038.w.293804">anders</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c17185_0038.w.293805">gein</w>

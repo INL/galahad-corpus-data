@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60371" lemma="UTEGENOMEN" partition="train" sense-id="mnw.60371.sense.8" xml:id="c60371_0016">
-        <date atLeast="1291" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c60371_0016">
+        <note>
+          <ab>
+            <date atLeast="1291" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>UTEGENOMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60371.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60371</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2452">
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60371_0016.w.687901">Wi</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60371_0016.w.687902">hebben</w>
@@ -79,7 +92,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60371_0016.w.687925">si</w>
           <pc pos="PC" xml:id="c60371_0016.pc.post.00279648" lemma=",">,</pc>
           <pc join="right" pos="PC" xml:id="c60371_0016.pc.pre.00279649" lemma="(">(</pc>
-          <w cert="1.0" lemma="uitnemen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.60371.sense.8" xml:id="c60371_0016.w.687926">h)ute(n)ghenomen</w>
+          <w cert="1.0" lemma="uitnemen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c60371_0016.w.687926" lemmaRef="mnw.60371.sense.8">h)ute(n)ghenomen</w>
           <pc pos="PC" xml:id="c60371_0016.pc.floating.00279650" lemma="…">…</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60371_0016.w.687928">der</w>
           <w cert="1.0" lemma="Rooms" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c60371_0016.w.687929">roomscer</w>

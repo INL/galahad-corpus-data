@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34437" lemma="ONDERBREKEN" partition="train" sense-id="mnw.34437.sense.4" xml:id="c34437_0001">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c34437_0001">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONDERBREKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34437.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34437</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1415">
           <pc pos="PC" xml:id="c34437_0001.pc.floating.00088514" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c34437_0001.pc.pre.00088515" lemma="“">“</pc>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="behaaglijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c34437_0001.w.213798">behagelike</w>
           <pc pos="PC" xml:id="c34437_0001.pc.post.00088519" lemma=";">;</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c34437_0001.w.213799">si</w>
-          <w cert="1.0" lemma="onderbreken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.34437.sense.4" xml:id="c34437_0001.w.213800">onderbraken</w>
+          <w cert="1.0" lemma="onderbreken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c34437_0001.w.213800" lemmaRef="mnw.34437.sense.4">onderbraken</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c34437_0001.w.213801">so</w>
           <w cert="1.0" lemma="vriendelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c34437_0001.w.213802">vriendelike</w>
           <pc join="right" pos="PC" xml:id="c34437_0001.pc.pre.00088520" lemma="(">(</pc>

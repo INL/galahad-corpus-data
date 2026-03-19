@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45502" lemma="RECHTSCULDICH" partition="train" sense-id="mnw.45502.sense.1" xml:id="c45502_0000">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c45502_0000">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>RECHTSCULDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45502.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45502</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1167">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="roland" xml:id="c45502_0000.w.813266">Doe</w>
           <w cert="1.0" lemma="zoeken+men" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c45502_0000.w.813267">sochtmen</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c45502_0000.w.813269">ende</w>
           <w cert="1.0" lemma="vinden+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c45502_0000.w.813270">vonden</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45502_0000.w.813271">den</w>
-          <w cert="1.0" lemma="rechtschuldig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.45502.sense.1" xml:id="c45502_0000.w.813272">rechtsculdighen</w>
+          <w cert="1.0" lemma="rechtschuldig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c45502_0000.w.813272" lemmaRef="mnw.45502.sense.1">rechtsculdighen</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c45502_0000.w.813273">man</w>
           <pc pos="PC" xml:id="c45502_0000.pc.post.00319132" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c45502_0000.w.813274">die</w>

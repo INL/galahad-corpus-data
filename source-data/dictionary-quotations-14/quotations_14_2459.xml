@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60502" lemma="UTECOMEN" partition="train" sense-id="mnw.60502.sense.7" xml:id="c60502_0019">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c60502_0019">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>UTECOMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60502.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60502</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2459">
           <pc join="right" pos="PC" xml:id="c60502_0019.pc.pre.00289240" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c60502_0019.w.711840">De</w>
@@ -61,9 +74,9 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60502_0019.w.711848">die</w>
           <w cert="1.0" lemma="zijde" pos="NOU-C(number=pl)" resp="roland" xml:id="c60502_0019.w.711849">siden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c60502_0019.w.711850">ende</w>
-          <w cert="1.0" lemma="uitkomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.60502.sense.7" xml:id="c60502_0019.w.711851">comen<join n="mw_722032" />
+          <w cert="1.0" lemma="uitkomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60502_0019.w.711851" lemmaRef="mnw.60502.sense.7">comen<join n="mw_722032" />
           </w>
-          <w cert="1.0" lemma="uitkomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.60502.sense.7" xml:id="c60502_0019.w.711852">uut<join n="mw_722032" />
+          <w cert="1.0" lemma="uitkomen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60502_0019.w.711852" lemmaRef="mnw.60502.sense.7">uut<join n="mw_722032" />
           </w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c60502_0019.w.711853">in</w>
           <w cert="1.0" lemma="kort" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c60502_0019.w.711854">corten</w>

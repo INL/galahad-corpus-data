@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35206" lemma="ONGEBOREN" partition="train" sense-id="mnw.35206.sense.6" xml:id="c35206_0014">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c35206_0014">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONGEBOREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35206.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35206</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1437">
           <w cert="1.0" lemma="Antipater" pos="NOU-P" resp="roland" xml:id="c35206_0014.w.332174">Antipaterre</w>
           <pc pos="PC" xml:id="c35206_0014.pc.post.00136565" lemma=",">,</pc>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="oud" pos="AA(degree=sup,position=free)" resp="thomas" xml:id="c35206_0014.w.332176">oudst</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c35206_0014.w.332177">was</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c35206_0014.w.332178">ende</w>
-          <w cert="1.0" lemma="ongeboren" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35206.sense.6" xml:id="c35206_0014.w.332179">ongheboren</w>
+          <w cert="1.0" lemma="ongeboren" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35206_0014.w.332179" lemmaRef="mnw.35206.sense.6">ongheboren</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c35206_0014.w.332180">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c35206_0014.w.332181">der</w>
           <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="roland" xml:id="c35206_0014.w.332182">moeder</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11641" lemma="GELOME" partition="train" sense-id="mnw.11641.sense.1" xml:id="c11641_0000">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c11641_0000">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GELOME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11641.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11641</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.297">
           <w cert="1.0" lemma="hovaardij" pos="NOU-C(number=sg)" resp="roland" xml:id="c11641_0000.w.933262">Hoverdie</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c11641_0000.w.933263">ende</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="partij" pos="NOU-C(number=sg)" resp="roland" xml:id="c11641_0000.w.933265">partie</w>
           <pc pos="PC" xml:id="c11641_0000.pc.floating.00395380" lemma="…">…</pc>
           <w cert="1.0" lemma="bloeien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c11641_0000.w.933267">bloeyen</w>
-          <w cert="1.0" lemma="geloom" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.11641.sense.1" xml:id="c11641_0000.w.933268">ghelome</w>
+          <w cert="1.0" lemma="geloom" pos="ADV(type=reg)" resp="thomas" xml:id="c11641_0000.w.933268" lemmaRef="mnw.11641.sense.1">ghelome</w>
           <w cert="1.0" lemma="uit" pos="ADP(type=pre)" resp="thomas" xml:id="c11641_0000.w.933269">uut</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c11641_0000.w.933270">desen</w>
           <w cert="1.0" lemma="boom" pos="NOU-C(number=sg)" resp="roland" xml:id="c11641_0000.w.933271">bome</w>

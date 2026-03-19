@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12331" lemma="GERAECT" partition="train" sense-id="mnw.12331.sense.7" xml:id="c12331_0053">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c12331_0053">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GERAECT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12331.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12331</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.318">
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="thomas" xml:id="c12331_0053.w.1084226">Waer</w>
           <w cert="1.0" lemma="natuur" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12331_0053.w.1084227">natuer</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="samen" pos="ADV(type=reg)" resp="thomas" xml:id="c12331_0053.w.1084232">samen<join n="mw_288119" />
           </w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c12331_0053.w.1084233">mit</w>
-          <w cert="1.0" lemma="gerecht" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.12331.sense.7" xml:id="c12331_0053.w.1084234">gherochter</w>
+          <w cert="1.0" lemma="gerecht" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c12331_0053.w.1084234" lemmaRef="mnw.12331.sense.7">gherochter</w>
           <w cert="1.0" lemma="deugd" pos="NOU-C(number=sg)" resp="thomas" xml:id="c12331_0053.w.1084235">doecht</w>
           <pc pos="PC" xml:id="c12331_0053.pc.post.00456385" lemma=",">,</pc>
         </q>

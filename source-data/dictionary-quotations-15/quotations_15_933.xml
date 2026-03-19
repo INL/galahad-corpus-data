@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37245" lemma="ONTDRAGEN" partition="train" sense-id="mnw.37245.sense.20" xml:id="c37245_0053">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c37245_0053">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTDRAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37245.sense.20</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37245</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.933">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37245_0053.w.663702">Men</w>
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c37245_0053.w.663703">seide</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="daarbinnen" pos="ADV(type=pron)" resp="thomas" xml:id="c37245_0053.w.663719">binnen<join n="mw_238788" />
           </w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c37245_0053.w.663720">niet</w>
-          <w cert="1.0" lemma="ontdragen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.37245.sense.20" xml:id="c37245_0053.w.663721">ontdragen</w>
+          <w cert="1.0" lemma="ontdragen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c37245_0053.w.663721" lemmaRef="mnw.37245.sense.20">ontdragen</w>
           <pc pos="PC" xml:id="c37245_0053.pc.floating.00269961" lemma=",">,</pc>
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c37245_0053.w.663723">doen</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37245_0053.w.663724">si</w>

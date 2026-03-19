@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55172" lemma="STERKEN" partition="train" sense-id="mnw.55172.sense.35" xml:id="c55172_0128">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c55172_0128">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STERKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55172.sense.35</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55172</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2232">
           <w cert="1.0" lemma="koning" pos="NOU-C(number=sg)" resp="roland" xml:id="c55172_0128.w.1564016">Coninc</w>
           <w cert="1.0" lemma="Huge" pos="NOU-P" resp="roland" xml:id="c55172_0128.w.1564017">Hughe</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="Karel" pos="NOU-P" resp="roland" xml:id="c55172_0128.w.1564022">Karles</w>
           <w cert="1.0" lemma="help" pos="NOU-C(number=sg)" resp="roland" xml:id="c55172_0128.w.1564023">helpe</w>
           <w cert="1.0" lemma="altoos" pos="ADV(type=reg)" resp="thomas" xml:id="c55172_0128.w.1564024">altoos</w>
-          <w cert="1.0" lemma="sterken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.55172.sense.35" xml:id="c55172_0128.w.1564025">staerct</w>
+          <w cert="1.0" lemma="sterken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c55172_0128.w.1564025" lemmaRef="mnw.55172.sense.35">staerct</w>
           <pc pos="PC" xml:id="c55172_0128.pc.floating.00646532" lemma=",">,</pc>
         </q>
       </cit>

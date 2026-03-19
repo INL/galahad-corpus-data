@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66219" lemma="VINDEN" partition="train" sense-id="mnw.66219.sense.38" xml:id="c66219_0235">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c66219_0235">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VINDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66219.sense.38</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66219</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2767">
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66219_0235.w.364088">Doet</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c66219_0235.w.364089">minen</w>
@@ -70,7 +83,7 @@
           </w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c66219_0235.w.364101">enige</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=sg)" resp="roland" xml:id="c66219_0235.w.364102">dinc</w>
-          <w cert="1.0" lemma="vinden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.66219.sense.38" xml:id="c66219_0235.w.364103">vinden</w>
+          <w cert="1.0" lemma="vinden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c66219_0235.w.364103" lemmaRef="mnw.66219.sense.38">vinden</w>
           <pc join="right" pos="PC" xml:id="c66219_0235.pc.pre.00144449" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c66219_0235.w.364104">kunt</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c66219_0235.w.364105">gij</w>

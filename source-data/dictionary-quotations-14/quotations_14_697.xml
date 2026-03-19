@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16325" lemma="HEIEN" partition="train" sense-id="mnw.16325.sense.1" xml:id="c16325_0003">
-        <date atLeast="1343" atMost="1346" timeSpan="1300-1350" />
+      <cit xml:id="c16325_0003">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1346" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HEIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16325.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16325</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.697">
           <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c16325_0003.w.179822">Twee</w>
           <w cert="1.0" lemma="knecht" pos="NOU-C(number=pl)" resp="roland" xml:id="c16325_0003.w.179823">knechte</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c16325_0003.w.179824">die</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c16325_0003.w.179825">die</w>
           <w cert="1.0" lemma="paal" pos="NOU-C(number=pl)" resp="roland" xml:id="c16325_0003.w.179826">pale</w>
-          <w cert="1.0" lemma="heien" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.16325.sense.1" xml:id="c16325_0003.w.179827">heyeden</w>
+          <w cert="1.0" lemma="heien" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c16325_0003.w.179827" lemmaRef="mnw.16325.sense.1">heyeden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c16325_0003.w.179828">ende</w>
           <w cert="1.0" lemma="dat+hout" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c16325_0003.w.179829">thout</w>
           <w cert="1.0" lemma="dragen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c16325_0003.w.179830">droeghen</w>

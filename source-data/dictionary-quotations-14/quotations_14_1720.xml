@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42239" lemma="PENNINCRENTE" partition="train" sense-id="mnw.42239.sense.1" xml:id="c42239_0002">
-        <date atLeast="1380" atMost="1410" timeSpan="1350-1400" />
+      <cit xml:id="c42239_0002">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1410" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PENNINCRENTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42239.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42239</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1720">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42239_0002.w.167969">Een</w>
           <w cert="1.0" lemma="leen" pos="NOU-C(number=sg)" resp="roland" xml:id="c42239_0002.w.167970">leen</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c42239_0002.pc.floating.00063917" lemma="…">…</pc>
           <w cert="1.0" lemma="dat+jaar" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c42239_0002.w.167975">sjaers</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c42239_0002.w.167976">in</w>
-          <w cert="1.0" lemma="penningrente" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42239.sense.1" xml:id="c42239_0002.w.167977">pennincrenten</w>
+          <w cert="1.0" lemma="penningrente" pos="NOU-C(number=sg)" resp="roland" xml:id="c42239_0002.w.167977" lemmaRef="mnw.42239.sense.1">pennincrenten</w>
           <pc pos="PC" xml:id="c42239_0002.pc.floating.00063918" lemma=",">,</pc>
         </q>
       </cit>

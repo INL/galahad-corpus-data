@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65277" lemma="VERVECHTEN" partition="test" sense-id="mnw.65277.sense.5" xml:id="c65277_0014">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c65277_0014">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERVECHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65277.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65277</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2728">
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c65277_0014.w.152414">Oft</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=inf)" resp="roland" xml:id="c65277_0014.w.152415">sijn</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c65277_0014.pc.post.00059754" lemma=")">)</pc>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c65277_0014.w.152420">al</w>
           <w cert="1.0" lemma="Azië" pos="NOU-P" resp="roland" xml:id="c65277_0014.w.152421">Asyën</w>
-          <w cert="1.0" lemma="vervechten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.65277.sense.5" xml:id="c65277_0014.w.152422">vervochte</w>
+          <w cert="1.0" lemma="vervechten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c65277_0014.w.152422" lemmaRef="mnw.65277.sense.5">vervochte</w>
           <pc pos="PC" xml:id="c65277_0014.pc.floating.00059755" lemma=",">,</pc>
         </q>
       </cit>

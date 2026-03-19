@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30387" lemma="MOER" partition="train" sense-id="mnw.30387.sense.1" xml:id="c30387_0003">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c30387_0003">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MOER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30387.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30387</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.757">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c30387_0003.w.1226584">Hi</w>
           <pc lemma="…" pos="PC" xml:id="c30387_0003.pc.floating.00481817">…</pc>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="Keulen" pos="NOU-P" resp="roland" xml:id="c30387_0003.w.1226588">Coolne</w>
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c30387_0003.w.1226589">dor</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30387_0003.w.1226590">den</w>
-          <w cert="1.0" lemma="muur" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.30387.sense.1" xml:id="c30387_0003.w.1226591">moer</w>
+          <w cert="1.0" lemma="muur" pos="NOU-C(number=sg)" resp="thomas" xml:id="c30387_0003.w.1226591" lemmaRef="mnw.30387.sense.1">moer</w>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c30387_0003.w.1226592">alsoo</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c30387_0003.w.1226593">wel</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c30387_0003.w.1226594">met</w>

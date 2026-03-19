@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01249" lemma="ALINC" partition="train" sense-id="mnw.01249.sense.1" xml:id="c01249_0000">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c01249_0000">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ALINC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01249.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01249</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.39">
           <w cert="1.0" lemma="zijn+het" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c01249_0000.w.245131">Ist</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c01249_0000.w.245132">dat</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c01249_0000.w.245138">so</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c01249_0000.w.245139">sal</w>
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c01249_0000.w.245140">dijn</w>
-          <w cert="1.0" lemma="aling" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.01249.sense.1" xml:id="c01249_0000.w.245141">alinghe</w>
+          <w cert="1.0" lemma="aling" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c01249_0000.w.245141" lemmaRef="mnw.01249.sense.1">alinghe</w>
           <w cert="1.0" lemma="lichaam" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01249_0000.w.245142">lichaem</w>
           <pc pos="PC" xml:id="c01249_0000.pc.floating.00096994" lemma="..">..</pc>
           <w cert="1.0" lemma="lustig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c01249_0000.w.245144">lustich</w>

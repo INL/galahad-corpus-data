@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39178" lemma="OOTMOET" partition="train" sense-id="mnw.39178.sense.7" xml:id="c39178_0047">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c39178_0047">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OOTMOET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39178.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39178</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.984">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c39178_0047.w.1058036">Wie</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c39178_0047.w.1058037">dat</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="vinden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c39178_0047.w.1058049">vinden</w>
           <w cert="1.0" lemma="altoos" pos="ADV(type=reg)" resp="thomas" xml:id="c39178_0047.w.1058050">altoos</w>
           <w cert="1.0" lemma="recht" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c39178_0047.w.1058051">rechte</w>
-          <w cert="1.0" lemma="ootmoed" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.39178.sense.7" xml:id="c39178_0047.w.1058052">ootmoet</w>
+          <w cert="1.0" lemma="ootmoed" pos="NOU-C(number=sg)" resp="thomas" xml:id="c39178_0047.w.1058052" lemmaRef="mnw.39178.sense.7">ootmoet</w>
           <pc pos="PC" xml:id="c39178_0047.pc.floating.00424047" lemma=",">,</pc>
         </q>
       </cit>

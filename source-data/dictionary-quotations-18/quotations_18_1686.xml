@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M086725" lemma="WINTERMAAND" modern-lemma="wintermaand" partition="train" pos="NOU-C" sense-id="M086725.bet.2" xml:id="M086725.eg.19796">
-        <date atLeast="1701" atMost="1701" timeSpan="1700-1750" />
+      <cit xml:id="M086725.eg.19796">
+        <note>
+          <ab>
+            <date atLeast="1701" atMost="1701" extent="1700-1750" />
+            <interpGrp type="lemma">
+              <interp>WINTERMAAND</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M086725.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>wintermaand</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M086725</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1686">
           <w cert="1.0" lemma="paspoort" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.275823">Paspoorten</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.275824">moogen</w>
@@ -75,7 +94,7 @@
           <w cert="1.0" lemma="daaraan" pos="ADV(type=pron)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.275844">aan<join n="mw_412189" />
           </w>
           <w cert="1.0" lemma="volgend" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.275845">volgende</w>
-          <w cert="1.0" lemma="wintermaand" pos="NOU-C(number=pl)" resp="roland" sense-id="M086725.bet.2" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.275846">Winter-maanden</w>
+          <w cert="1.0" lemma="wintermaand" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.w.275846" lemmaRef="M086725.bet.2">Winter-maanden</w>
           <pc pos="PC" xml:id="INT_442797ed-5adb-4de2-8d54-9655a5daf339.pc.post.00089427" lemma=",">,</pc>
         </q>
       </cit>

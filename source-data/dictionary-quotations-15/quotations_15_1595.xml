@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58077" lemma="TIJNSGELT" partition="train" sense-id="mnw.58077.sense.1" xml:id="c58077_0000">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c58077_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>TIJNSGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58077.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58077</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1595">
           <w cert="1.0" lemma="verlijden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c58077_0000.w.252992">Verliet</w>
           <pc join="right" pos="PC" xml:id="c58077_0000.pc.pre.00103232" lemma="(">(</pc>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c58077_0000.w.253004">of</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c58077_0000.w.253005">hem</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c58077_0000.w.253006">dat</w>
-          <w cert="1.0" lemma="tijnsgeld" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.58077.sense.1" xml:id="c58077_0000.w.253007">tynsghelt</w>
+          <w cert="1.0" lemma="tijnsgeld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58077_0000.w.253007" lemmaRef="mnw.58077.sense.1">tynsghelt</w>
           <w cert="1.0" lemma="kopen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c58077_0000.w.253008">ghecoft</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58077_0000.w.253009">hebbe</w>
           <pc join="right" pos="PC" xml:id="c58077_0000.pc.pre.00103235" lemma="(">(</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.13458" lemma="GEVADERE" partition="dev" sense-id="mnw.13458.sense.1" xml:id="c13458_0005">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c13458_0005">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEVADERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.13458.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.13458</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.590">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c13458_0005.w.1287387">Zo</w>
           <w cert="1.0" lemma="waar+men" pos="ADV(type=reg)+PD(type=pers,position=free)" resp="roland" xml:id="c13458_0005.w.1287388">waermen</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c13458_0005.pc.floating.00539329" lemma="..,">..,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c13458_0005.w.1287393">zo</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c13458_0005.w.1287394">wie</w>
-          <w cert="1.0" lemma="gevader" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.13458.sense.1" xml:id="c13458_0005.w.1287395">ghevader</w>
+          <w cert="1.0" lemma="gevader" pos="NOU-C(number=sg)" resp="roland" xml:id="c13458_0005.w.1287395" lemmaRef="mnw.13458.sense.1">ghevader</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c13458_0005.w.1287396">wart</w>
           <pc pos="PC" xml:id="c13458_0005.pc.post.00539330" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c13458_0005.w.1287397">dat</w>

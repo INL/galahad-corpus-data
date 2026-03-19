@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26771" lemma="LOYTANGE" partition="train" sense-id="mnw.26771.sense.1" xml:id="c26771_0000">
-        <date atLeast="1384" atMost="1407" timeSpan="1350-1400" />
+      <cit xml:id="c26771_0000">
+        <note>
+          <ab>
+            <date atLeast="1384" atMost="1407" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LOYTANGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26771.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26771</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1068">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c26771_0000.w.506557">Van</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c26771_0000.w.506558">ere</w>
-          <w cert="1.0" lemma="looitang" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.26771.sense.1" xml:id="c26771_0000.w.506559">loytanghe</w>
+          <w cert="1.0" lemma="looitang" pos="NOU-C(number=sg)" resp="roland" xml:id="c26771_0000.w.506559" lemmaRef="mnw.26771.sense.1">loytanghe</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c26771_0000.w.506560">van</w>
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c26771_0000.w.506561">IIII</w>
           <w cert="1.0" lemma="ijzer" pos="NOU-C(number=pl)" resp="roland" xml:id="c26771_0000.w.506562">yseren</w>

@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22161" lemma="CLUSENAERSTER" partition="train" sense-id="mnw.22161.sense.1" xml:id="c22161_0000">
-        <date atLeast="1331" atMost="1331" timeSpan="1300-1350" />
+      <cit xml:id="c22161_0000">
+        <note>
+          <ab>
+            <date atLeast="1331" atMost="1331" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CLUSENAERSTER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22161.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22161</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.878">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c22161_0000.w.1103716">Der</w>
-          <w cert="1.0" lemma="kluizenaarster" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.22161.sense.1" xml:id="c22161_0000.w.1103717">clusenaerster</w>
+          <w cert="1.0" lemma="kluizenaarster" pos="NOU-C(number=sg)" resp="roland" xml:id="c22161_0000.w.1103717" lemmaRef="mnw.22161.sense.1">clusenaerster</w>
           <w cert="1.0" lemma="Dordrecht" pos="NOU-P" resp="roland" xml:id="c22161_0000.w.1103718">tordrecht</w>
           <pc pos="PC" xml:id="c22161_0000.pc.post.00445288" lemma=",">,</pc>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c22161_0000.w.1103719">bi</w>

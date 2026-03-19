@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.74327" lemma="WONDER" partition="test" sense-id="mnw.74327.sense.29" xml:id="c74327_0176">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c74327_0176">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WONDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.74327.sense.29</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.74327</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3173">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c74327_0176.w.2068899">De</w>
           <w cert="1.0" lemma="dood" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c74327_0176.w.2068900">dode</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="aanzien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c74327_0176.w.2068913">sach<join n="mw_125278" />
           </w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c74327_0176.w.2068914">te</w>
-          <w cert="1.0" lemma="wonder" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.74327.sense.29" xml:id="c74327_0176.w.2068915">wondre</w>
+          <w cert="1.0" lemma="wonder" pos="NOU-C(number=sg)" resp="roland" xml:id="c74327_0176.w.2068915" lemmaRef="mnw.74327.sense.29">wondre</w>
           <w cert="1.0" lemma="aanzien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c74327_0176.w.2068916">ane<join n="mw_125278" />
           </w>
           <pc pos="PC" xml:id="c74327_0176.pc.post.00811105" lemma=",">,</pc>

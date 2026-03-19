@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09376" lemma="EVENNACHTICH" partition="train" sense-id="mnw.09376.sense.1" xml:id="c09376_0001">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c09376_0001">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>EVENNACHTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09376.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09376</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.244">
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="thomas" xml:id="c09376_0001.w.559069">Want</w>
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c09376_0001.w.559070">nu</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="tijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c09376_0001.w.559073">tide</w>
           <w cert="1.0" lemma="van+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c09376_0001.w.559074">vanden</w>
           <w cert="1.0" lemma="jaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c09376_0001.w.559075">jare</w>
-          <w cert="1.0" lemma="evennachtig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.09376.sense.1" xml:id="c09376_0001.w.559076">evennachtich</w>
+          <w cert="1.0" lemma="evennachtig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c09376_0001.w.559076" lemmaRef="mnw.09376.sense.1">evennachtich</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c09376_0001.w.559077">es</w>
           <pc join="right" pos="PC" xml:id="c09376_0001.pc.pre.00241416" lemma="(">(</pc>
           <w cert="1.0" lemma="quia" pos="RES(type=for)" resp="thomas" xml:id="c09376_0001.w.559078">quia</w>

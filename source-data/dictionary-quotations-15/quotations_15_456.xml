@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18451" lemma="HOVETSCOT" partition="train" sense-id="mnw.18451.sense.1" xml:id="c18451_0000">
-        <date atLeast="1408" atMost="1414" timeSpan="1400-1450" />
+      <cit xml:id="c18451_0000">
+        <note>
+          <ab>
+            <date atLeast="1408" atMost="1414" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HOVETSCOT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18451.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18451</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.456">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c18451_0000.w.500074">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c18451_0000.w.500075">wie</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c18451_0000.w.500086">ende</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c18451_0000.w.500087">gheen</w>
           <w cert="1.0" lemma="rieten" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c18451_0000.w.500088">ryeden</w>
-          <w cert="1.0" lemma="hoofdschot" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.18451.sense.1" xml:id="c18451_0000.w.500089">hooftscot</w>
+          <w cert="1.0" lemma="hoofdschot" pos="NOU-C(number=sg)" resp="thomas" xml:id="c18451_0000.w.500089" lemmaRef="mnw.18451.sense.1">hooftscot</w>
           <w cert="1.0" lemma="ergen" pos="ADV(type=reg)" resp="thomas" xml:id="c18451_0000.w.500090">erghent</w>
           <w cert="1.0" lemma="bij+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c18451_0000.w.500091">biden</w>
           <w cert="1.0" lemma="bed" pos="NOU-C(number=sg)" resp="roland" xml:id="c18451_0000.w.500092">bedde</w>

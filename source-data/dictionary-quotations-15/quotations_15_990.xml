@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39307" lemma="OPERMAN" partition="train" sense-id="mnw.39307.sense.1" xml:id="c39307_0004">
-        <date atLeast="1425" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c39307_0004">
+        <note>
+          <ab>
+            <date atLeast="1425" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OPERMAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39307.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39307</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.990">
           <w cert="1.0" lemma="R." pos="NOU-P(WF=abbr)" resp="thomas" xml:id="c39307_0004.w.1119039">R.</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c39307_0004.w.1119040">gegeven</w>
@@ -64,7 +77,7 @@
           </w>
           <pc pos="PC" xml:id="c39307_0004.pc.floating.00447669" lemma="…;">…;</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c39307_0004.w.1119052">den</w>
-          <w cert="1.0" lemma="opperman" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.39307.sense.1" xml:id="c39307_0004.w.1119053">operman</w>
+          <w cert="1.0" lemma="opperman" pos="NOU-C(number=sg)" resp="thomas" xml:id="c39307_0004.w.1119053" lemmaRef="mnw.39307.sense.1">operman</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=pastpart,WF=abbr)" resp="thomas" xml:id="c39307_0004.w.1119054">geg.</w>
           <w cert="1.0" lemma="acht" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c39307_0004.w.1119055">8</w>
           <w cert="1.0" lemma="tuin" pos="NOU-C(number=pl)" resp="roland" xml:id="c39307_0004.w.1119056">tunen</w>

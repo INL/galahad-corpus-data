@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.04072" lemma="BETROUWEN" partition="train" sense-id="mnw.04072.sense.3" xml:id="c04072_0002">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c04072_0002">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BETROUWEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.04072.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.04072</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.126">
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c04072_0002.w.830913">Laet</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c04072_0002.w.830914">ons</w>
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c04072_0002.w.830915">dan</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c04072_0002.w.830916">met</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c04072_0002.w.830917">enen</w>
-          <w cert="1.0" lemma="betrouwen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.04072.sense.3" xml:id="c04072_0002.w.830918">betruwen</w>
+          <w cert="1.0" lemma="betrouwen" pos="NOU-C(number=sg)" resp="roland" xml:id="c04072_0002.w.830918" lemmaRef="mnw.04072.sense.3">betruwen</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c04072_0002.w.830919">onse</w>
           <w cert="1.0" lemma="zonde" pos="NOU-C(number=pl)" resp="roland" xml:id="c04072_0002.w.830920">sonden</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c04072_0002.w.830921">groet</w>

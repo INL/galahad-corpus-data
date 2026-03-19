@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37850" lemma="ONTSCULDIGEN" partition="test" sense-id="mnw.37850.sense.4" xml:id="c37850_0015">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c37850_0015">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTSCULDIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37850.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37850</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1537">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c37850_0015.w.788372">In</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c37850_0015.w.788373">desen</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c37850_0015.w.788376">daer</w>
           <pc pos="PC" xml:id="c37850_0015.pc.floating.00317974" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c37850_0015.w.788378">ende</w>
-          <w cert="1.0" lemma="ontschuldigen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.37850.sense.4" xml:id="c37850_0015.w.788379">ontsculdegede</w>
+          <w cert="1.0" lemma="ontschuldigen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37850_0015.w.788379" lemmaRef="mnw.37850.sense.4">ontsculdegede</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c37850_0015.w.788380">hare</w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c37850_0015.w.788381">mede</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c37850_0015.w.788382">alse</w>

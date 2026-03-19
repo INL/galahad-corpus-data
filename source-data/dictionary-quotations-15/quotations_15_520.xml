@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21208" lemma="KERKERWAERRE" partition="train" sense-id="mnw.21208.sense.1" xml:id="c21208_0002">
-        <date atLeast="1431" atMost="1431" timeSpan="1400-1450" />
+      <cit xml:id="c21208_0002">
+        <note>
+          <ab>
+            <date atLeast="1431" atMost="1431" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>KERKERWAERRE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21208.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21208</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.520">
           <pc join="right" pos="PC" xml:id="c21208_0002.pc.pre.00378712" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c21208_0002.w.937000">Doe</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c21208_0002.w.937005">ende</w>
           <w cert="1.0" lemma="bevelen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c21208_0002.w.937006">bevalen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c21208_0002.w.937007">den</w>
-          <w cert="1.0" lemma="kerkerwaarder" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.21208.sense.1" xml:id="c21208_0002.w.937008">karcwaerre</w>
+          <w cert="1.0" lemma="kerkerwaarder" pos="NOU-C(number=sg)" resp="roland" xml:id="c21208_0002.w.937008" lemmaRef="mnw.21208.sense.1">karcwaerre</w>
           <pc pos="PC" xml:id="c21208_0002.pc.floating.00378714" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c21208_0002.w.937010">dat</w>
           <w cert="1.0" lemma="hij+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c21208_0002.w.937011">hise</w>

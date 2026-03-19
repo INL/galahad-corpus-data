@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32016" lemma="NEDERBETEN" partition="train" sense-id="mnw.32016.sense.4" xml:id="c32016_0005">
-        <date atLeast="1325" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c32016_0005">
+        <note>
+          <ab>
+            <date atLeast="1325" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NEDERBETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32016.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32016</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1308">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c32016_0005.w.1522091">So</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c32016_0005.w.1522092">quam</w>
@@ -56,9 +69,9 @@
           <w cert="1.0" lemma="spoor" pos="NOU-C(number=pl)" resp="roland" xml:id="c32016_0005.w.1522096">sporen</w>
           <pc pos="PC" xml:id="c32016_0005.pc.floating.00599516" lemma="....;">....;</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c32016_0005.w.1522098">hi</w>
-          <w cert="1.0" lemma="nederbeten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.32016.sense.4" xml:id="c32016_0005.w.1522099">bete<join n="mw_913253" />
+          <w cert="1.0" lemma="nederbeten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c32016_0005.w.1522099" lemmaRef="mnw.32016.sense.4">bete<join n="mw_913253" />
           </w>
-          <w cert="1.0" lemma="nederbeten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.32016.sense.4" xml:id="c32016_0005.w.1522100">neder<join n="mw_913253" />
+          <w cert="1.0" lemma="nederbeten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c32016_0005.w.1522100" lemmaRef="mnw.32016.sense.4">neder<join n="mw_913253" />
           </w>
           <pc pos="PC" xml:id="c32016_0005.pc.floating.00599517" lemma=";">;</pc>
           <pc pos="PC" xml:id="c32016_0005.pc.floating.00599518" lemma="..">..</pc>

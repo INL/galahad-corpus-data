@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62413" lemma="VERDERVEN" partition="train" sense-id="mnw.62413.sense.10" xml:id="c62413_0048">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c62413_0048">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERDERVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62413.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62413</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2547">
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62413_0048.w.1171968">Men</w>
           <w cert="1.0" lemma="mogen+zij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c62413_0048.w.1171969">machse</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c62413_0048.w.1171981">daer</w>
           <w cert="1.0" lemma="men+zij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c62413_0048.w.1171982">mense</w>
           <w cert="1.0" lemma="schrijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62413_0048.w.1171983">scrijft</w>
-          <w cert="1.0" lemma="verderven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.62413.sense.10" xml:id="c62413_0048.w.1171984">verderft</w>
+          <w cert="1.0" lemma="verderven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62413_0048.w.1171984" lemmaRef="mnw.62413.sense.10">verderft</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62413_0048.w.1171985">ter</w>
           <w cert="1.0" lemma="stede" pos="NOU-C(number=sg)" resp="roland" xml:id="c62413_0048.w.1171986">stede</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c62413_0048.w.1171987">ende</w>

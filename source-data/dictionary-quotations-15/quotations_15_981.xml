@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39138" lemma="OOSTERLINC" partition="train" sense-id="mnw.39138.sense.3" xml:id="c39138_0006">
-        <date atLeast="1436" atMost="1443" timeSpan="1400-1450" />
+      <cit xml:id="c39138_0006">
+        <note>
+          <ab>
+            <date atLeast="1436" atMost="1443" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OOSTERLINC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39138.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39138</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.981">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c39138_0006.w.1048841">Van</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c39138_0006.w.1048842">dat</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="klacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c39138_0006.w.1048851">clachte</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c39138_0006.w.1048852">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c39138_0006.w.1048853">den</w>
-          <w cert="1.0" lemma="oosterling" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.39138.sense.3" xml:id="c39138_0006.w.1048854">Oosterlinghen</w>
+          <w cert="1.0" lemma="oosterling" pos="NOU-C(number=pl)" resp="roland" xml:id="c39138_0006.w.1048854" lemmaRef="mnw.39138.sense.3">Oosterlinghen</w>
           <pc pos="PC" xml:id="c39138_0006.pc.floating.00420185" lemma=",">,</pc>
         </q>
       </cit>

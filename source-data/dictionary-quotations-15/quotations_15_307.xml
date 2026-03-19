@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11928" lemma="GEMINT" partition="train" sense-id="mnw.11928.sense.3" xml:id="c11928_0019">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c11928_0019">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEMINT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11928.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11928</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.307">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c11928_0019.w.994593">Van</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c11928_0019.w.994594">hem</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c11928_0019.w.994598">van</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c11928_0019.w.994599">allen</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c11928_0019.w.994600">sinen</w>
-          <w cert="1.0" lemma="geminde" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.11928.sense.3" xml:id="c11928_0019.w.994601">gheminden</w>
+          <w cert="1.0" lemma="geminde" pos="NOU-C(number=pl)" resp="roland" xml:id="c11928_0019.w.994601" lemmaRef="mnw.11928.sense.3">gheminden</w>
           <pc pos="PC" xml:id="c11928_0019.pc.floating.00419854" lemma=",">,</pc>
         </q>
       </cit>

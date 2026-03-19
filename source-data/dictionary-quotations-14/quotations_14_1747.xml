@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42989" lemma="PLAT" partition="train" sense-id="mnw.42989.sense.2" xml:id="c42989_0000">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c42989_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PLAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42989.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42989</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1747">
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c42989_0000.w.290943">Al</w>
-          <w cert="1.0" lemma="plat" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.42989.sense.2" xml:id="c42989_0000.w.290944">plat</w>
+          <w cert="1.0" lemma="plat" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c42989_0000.w.290944" lemmaRef="mnw.42989.sense.2">plat</w>
           <w cert="1.0" lemma="vis" pos="NOU-C(number=sg)" resp="thomas" xml:id="c42989_0000.w.290945">visch</w>
           <pc pos="PC" xml:id="c42989_0000.pc.post.00113717" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c42989_0000.w.290946">als</w>

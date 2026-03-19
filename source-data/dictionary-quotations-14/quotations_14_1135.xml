@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.28041" lemma="MARE" partition="dev" sense-id="mnw.28041.sense.19" xml:id="c28041_0111">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c28041_0111">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.28041.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.28041</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1135">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c28041_0111.w.794785">Dit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c28041_0111.w.794786">es</w>
           <w cert="1.0" lemma="wonderlijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c28041_0111.w.794787">wonderlike</w>
-          <w cert="1.0" lemma="mare" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.28041.sense.19" xml:id="c28041_0111.w.794788">mare</w>
+          <w cert="1.0" lemma="mare" pos="NOU-C(number=sg)" resp="roland" xml:id="c28041_0111.w.794788" lemmaRef="mnw.28041.sense.19">mare</w>
           <pc pos="PC" xml:id="c28041_0111.pc.floating.00308266" lemma=":">:</pc>
           <w cert="1.0" lemma="teerst" pos="ADV(type=reg)" resp="thomas" xml:id="c28041_0111.w.794790">teerst</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c28041_0111.w.794791">dat</w>

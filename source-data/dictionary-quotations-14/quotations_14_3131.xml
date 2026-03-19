@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73496" lemma="WIJT" partition="train" sense-id="mnw.73496.sense.16" xml:id="c73496_0102">
-        <date atLeast="1337" atMost="1382" timeSpan="1350-1400" />
+      <cit xml:id="c73496_0102">
+        <note>
+          <ab>
+            <date atLeast="1337" atMost="1382" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WIJT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73496.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73496</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3131">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c73496_0102.w.1876862">Dat</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c73496_0102.w.1876863">niemen</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c73496_0102.w.1876864">sijn</w>
           <w cert="1.0" lemma="stal" pos="NOU-C(number=sg)" resp="roland" xml:id="c73496_0102.w.1876865">stal</w>
-          <w cert="1.0" lemma="wijd" pos="AA(degree=comp,position=free)" resp="thomas" sense-id="mnw.73496.sense.16" xml:id="c73496_0102.w.1876866">wijder</w>
+          <w cert="1.0" lemma="wijd" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c73496_0102.w.1876866" lemmaRef="mnw.73496.sense.16">wijder</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c73496_0102.w.1876867">en</w>
           <w cert="1.0" lemma="maken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c73496_0102.w.1876868">make</w>
           <w cert="1.0" lemma="de+een" pos="PD(type=d-p,subtype=art,position=prenom)+NUM(type=card,position=free,representation=let)" resp="thomas" xml:id="c73496_0102.w.1876869">deen</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63188" lemma="VERJAREN" partition="train" sense-id="mnw.63188.sense.6" xml:id="c63188_0003">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c63188_0003">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERJAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63188.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63188</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1805">
           <w cert="1.0" lemma="pacht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63188_0003.w.1387766">Pacht</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c63188_0003.w.1387767">die</w>
@@ -54,12 +67,12 @@
           <pc join="right" pos="PC" xml:id="c63188_0003.pc.pre.00555904" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63188_0003.w.1387769">kan</w>
           <pc pos="PC" xml:id="c63188_0003.pc.post.00555905" lemma=")">)</pc>
-          <w cert="1.0" lemma="verjaren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.63188.sense.6" xml:id="c63188_0003.w.1387770">verjaren</w>
+          <w cert="1.0" lemma="verjaren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c63188_0003.w.1387770" lemmaRef="mnw.63188.sense.6">verjaren</w>
           <pc pos="PC" xml:id="c63188_0003.pc.floating.00555906" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63188_0003.w.1387772">ende</w>
           <w cert="1.0" lemma="wanneer" pos="CONJ(type=sub)" resp="roland" xml:id="c63188_0003.w.1387773">wanneer</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63188_0003.w.1387774">sie</w>
-          <w cert="1.0" lemma="verjaren" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.63188.sense.6" xml:id="c63188_0003.w.1387775">verjaert</w>
+          <w cert="1.0" lemma="verjaren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c63188_0003.w.1387775" lemmaRef="mnw.63188.sense.6">verjaert</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c63188_0003.w.1387776">is</w>
           <pc pos="PC" xml:id="c63188_0003.pc.post.00555907" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c63188_0003.w.1387777">soo</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71224" lemma="WEDERHAECT" partition="train" sense-id="mnw.71224.sense.1" xml:id="c71224_0002">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c71224_0002">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WEDERHAECT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71224.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71224</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2130">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c71224_0002.w.1424414">Ic</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c71224_0002.w.1424415">ben</w>
@@ -61,7 +74,7 @@
           <pc join="right" pos="PC" xml:id="c71224_0002.pc.pre.00570353" lemma="(">(</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c71224_0002.w.1424423">is</w>
           <pc pos="PC" xml:id="c71224_0002.pc.post.00570354" lemma=")">)</pc>
-          <w cert="1.0" lemma="weerhaakt" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.71224.sense.1" xml:id="c71224_0002.w.1424424">wederhaect</w>
+          <w cert="1.0" lemma="weerhaakt" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c71224_0002.w.1424424" lemmaRef="mnw.71224.sense.1">wederhaect</w>
           <pc pos="PC" xml:id="c71224_0002.pc.floating.00570355" lemma=",">,</pc>
           <w cert="1.0" lemma="hard" pos="ADV(type=reg)" resp="roland" xml:id="c71224_0002.w.1424426">herde</w>
           <w cert="1.0" lemma="diep" pos="ADV(type=reg)" resp="thomas" xml:id="c71224_0002.w.1424427">diepe</w>

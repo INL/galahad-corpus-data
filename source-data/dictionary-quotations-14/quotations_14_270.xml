@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06222" lemma="DEDUUT" partition="train" sense-id="mnw.06222.sense.1" xml:id="c06222_0009">
-        <date atLeast="1301" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c06222_0009">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DEDUUT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06222.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06222</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.270">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c06222_0009.w.68530">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c06222_0009.w.68531">men</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c06222_0009.w.68535">met</w>
           <w cert="1.0" lemma="vedel" pos="NOU-C(number=pl)" resp="roland" xml:id="c06222_0009.w.68536">vedelen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c06222_0009.w.68537">in</w>
-          <w cert="1.0" lemma="deduut" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06222.sense.1" xml:id="c06222_0009.w.68538">deduut</w>
+          <w cert="1.0" lemma="deduut" pos="NOU-C(number=sg)" resp="roland" xml:id="c06222_0009.w.68538" lemmaRef="mnw.06222.sense.1">deduut</w>
           <pc pos="PC" xml:id="c06222_0009.pc.floating.00028396" lemma=",">,</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06222_0009.w.68540">tot</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06222_0009.w.68541">genoegen</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11805" lemma="GEMANC" partition="train" sense-id="mnw.11805.sense.14" xml:id="c11805_0078">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c11805_0078">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEMANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11805.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11805</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.499">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c11805_0078.w.969840">So</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c11805_0078.w.969841">wie</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c11805_0078.w.969852">so</w>
           <w cert="1.0" lemma="ongeverfd" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11805_0078.w.969853">ongevaruwet</w>
           <w cert="1.0" lemma="geel" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11805_0078.w.969854">ghelu</w>
-          <w cert="1.0" lemma="gemang" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.11805.sense.14" xml:id="c11805_0078.w.969855">gemanc</w>
+          <w cert="1.0" lemma="gemang" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c11805_0078.w.969855" lemmaRef="mnw.11805.sense.14">gemanc</w>
           <pc pos="PC" xml:id="c11805_0078.pc.floating.00409942" lemma=",">,</pc>
         </q>
       </cit>

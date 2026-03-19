@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11971" lemma="GENADE" partition="train" sense-id="mnw.11971.sense.25" xml:id="c11971_0085">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c11971_0085">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>GENADE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11971.sense.25</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11971</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.309">
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c11971_0085.w.1010227">Dor</w>
           <w cert="1.0" lemma="recht" pos="NOU-C(number=sg)" resp="roland" xml:id="c11971_0085.w.1010228">recht</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c11971_0085.w.1010229">ende</w>
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c11971_0085.w.1010230">dor</w>
-          <w cert="1.0" lemma="genade" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.11971.sense.25" xml:id="c11971_0085.w.1010231">ghenaden</w>
+          <w cert="1.0" lemma="genade" pos="NOU-C(number=sg)" resp="roland" xml:id="c11971_0085.w.1010231" lemmaRef="mnw.11971.sense.25">ghenaden</w>
           <pc pos="PC" xml:id="c11971_0085.pc.floating.00426030" lemma=",">,</pc>
           <w cert="1.0" lemma="ontfermen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c11971_0085.w.1010233">ontfermt</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11971_0085.w.1010234">u</w>

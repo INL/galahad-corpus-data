@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12614" lemma="GERUSTEN" partition="train" sense-id="mnw.12614.sense.3" xml:id="c12614_0014">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c12614_0014">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GERUSTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12614.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12614</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.553">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12614_0014.w.1147614">Die</w>
           <w cert="1.0" lemma="duivel" pos="NOU-C(number=pl)" resp="roland" xml:id="c12614_0014.w.1147615">duvele</w>
           <w cert="1.0" lemma="laten+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c12614_0014.w.1147616">lietenne</w>
           <w cert="1.0" lemma="node" pos="ADV(type=reg)" resp="thomas" xml:id="c12614_0014.w.1147617">noede</w>
-          <w cert="1.0" lemma="gerusten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.12614.sense.3" xml:id="c12614_0014.w.1147618">gerusten</w>
+          <w cert="1.0" lemma="gerusten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c12614_0014.w.1147618" lemmaRef="mnw.12614.sense.3">gerusten</w>
           <pc pos="PC" xml:id="c12614_0014.pc.floating.00481891" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="roland" xml:id="c12614_0014.w.1147620">want</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12614_0014.w.1147621">si</w>

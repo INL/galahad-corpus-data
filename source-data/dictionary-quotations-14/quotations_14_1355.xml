@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32709" lemma="NOCH" partition="train" sense-id="mnw.32709.sense.2" xml:id="c32709_0002">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c32709_0002">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NOCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32709.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32709</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1355">
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c32709_0002.w.1667231">Dese</w>
           <w cert="1.0" lemma="vrouwe" pos="NOU-C(number=sg)" resp="roland" xml:id="c32709_0002.w.1667232">vrouwe</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c32709_0002.w.1667235">die</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c32709_0002.w.1667236">den</w>
           <w cert="1.0" lemma="duivel" pos="NOU-C(number=sg)" resp="roland" xml:id="c32709_0002.w.1667237">duvel</w>
-          <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" sense-id="mnw.32709.sense.2" xml:id="c32709_0002.w.1667238">noch</w>
+          <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="c32709_0002.w.1667238" lemmaRef="mnw.32709.sense.2">noch</w>
           <w cert="1.0" lemma="versagen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c32709_0002.w.1667239">versaget</w>
           <pc pos="PC" xml:id="c32709_0002.pc.post.00658962" lemma=",">,</pc>
         </q>

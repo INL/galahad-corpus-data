@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63237" lemma="VERKEREN" partition="train" sense-id="mnw.63237.sense.40" xml:id="c63237_0118">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c63237_0118">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERKEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63237.sense.40</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63237</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1809">
           <w cert="1.0" lemma="zeker" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c63237_0118.w.1400718">Seker</w>
           <pc pos="PC" xml:id="c63237_0118.pc.post.00560939" lemma=",">,</pc>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="oog" pos="NOU-C(number=pl)" resp="roland" xml:id="c63237_0118.w.1400727">ogen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63237_0118.w.1400728">waren</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63237_0118.w.1400729">mi</w>
-          <w cert="1.0" lemma="verkeren" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.63237.sense.40" xml:id="c63237_0118.w.1400730">verkeert</w>
+          <w cert="1.0" lemma="verkeren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c63237_0118.w.1400730" lemmaRef="mnw.63237.sense.40">verkeert</w>
           <pc pos="PC" xml:id="c63237_0118.pc.floating.00560941" lemma=",">,</pc>
         </q>
       </cit>

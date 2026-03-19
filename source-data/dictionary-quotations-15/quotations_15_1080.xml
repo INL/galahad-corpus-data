@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41917" lemma="PAT" partition="train" sense-id="mnw.41917.sense.6" xml:id="c41917_0055">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c41917_0055">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>PAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41917.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41917</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1080">
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c41917_0055.w.127700">Omdat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c41917_0055.w.127701">sy</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="treden+er" pos="VRB(finiteness=fin,tense=pres)+ADV(type=reg)" resp="thomas" xml:id="c41917_0055.w.127716">tretter</w>
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c41917_0055.w.127717">nyemant</w>
           <w cert="1.0" lemma="buiten" pos="ADP(type=pre)" resp="thomas" xml:id="c41917_0055.w.127718">buten</w>
-          <w cert="1.0" lemma="pad" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41917.sense.6" xml:id="c41917_0055.w.127719">pade</w>
+          <w cert="1.0" lemma="pad" pos="NOU-C(number=sg)" resp="roland" xml:id="c41917_0055.w.127719" lemmaRef="mnw.41917.sense.6">pade</w>
           <pc pos="PC" xml:id="c41917_0055.pc.floating.00048186" lemma=",">,</pc>
         </q>
       </cit>

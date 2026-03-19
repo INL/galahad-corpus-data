@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42649" lemma="PIKE" partition="train" sense-id="mnw.42649.sense.1" xml:id="c42649_0018">
-        <date atLeast="1325" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c42649_0018">
+        <note>
+          <ab>
+            <date atLeast="1325" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42649.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42649</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1735">
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42649_0018.w.226633">Int</w>
           <w cert="1.0" lemma="einde" pos="NOU-C(number=sg)" resp="roland" xml:id="c42649_0018.w.226634">ende</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="steken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c42649_0018.w.226638">gesteken</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c42649_0018.w.226639">met</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c42649_0018.w.226640">ere</w>
-          <w cert="1.0" lemma="piek" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.42649.sense.1" xml:id="c42649_0018.w.226641">piken</w>
+          <w cert="1.0" lemma="piek" pos="NOU-C(number=sg)" resp="roland" xml:id="c42649_0018.w.226641" lemmaRef="mnw.42649.sense.1">piken</w>
           <w cert="1.0" lemma="fel" pos="AA(degree=pos,position=postnom)" resp="thomas" xml:id="c42649_0018.w.226642">fel</w>
           <pc pos="PC" xml:id="c42649_0018.pc.post.00087634" lemma=",">,</pc>
         </q>

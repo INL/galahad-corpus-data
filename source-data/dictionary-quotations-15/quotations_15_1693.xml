@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60833" lemma="UTESNIDEN" partition="train" sense-id="mnw.60833.sense.6" xml:id="c60833_0017">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c60833_0017">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>UTESNIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60833.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60833</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1693">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c60833_0017.w.786605">Die</w>
           <w cert="1.0" lemma="kwaad" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c60833_0017.w.786606">quaeden</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c60833_0017.w.786617">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60833_0017.w.786618">es</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c60833_0017.w.786619">die</w>
-          <w cert="1.0" lemma="uitsnijden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.60833.sense.6" xml:id="c60833_0017.w.786620">uutsnijt</w>
+          <w cert="1.0" lemma="uitsnijden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60833_0017.w.786620" lemmaRef="mnw.60833.sense.6">uutsnijt</w>
           <pc pos="PC" xml:id="c60833_0017.pc.floating.00318019" lemma=",">,</pc>
           <w cert="1.0" lemma="die+het" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c60833_0017.w.786622">diet</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c60833_0017.w.786623">te</w>

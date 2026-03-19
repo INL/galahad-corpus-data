@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01257" lemma="ALLAME" partition="train" sense-id="mnw.01257.sense.1" xml:id="c01257_0002">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c01257_0002">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ALLAME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01257.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01257</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.51">
           <w cert="1.0" lemma="munster" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01257_0002.w.246219">Monster</w>
           <pc pos="PC" xml:id="c01257_0002.pc.post.00097461" lemma=",">,</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c01257_0002.w.246223">desen</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c01257_0002.w.246224">dingen</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c01257_0002.w.246225">die</w>
-          <w cert="1.0" lemma="alaam" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.01257.sense.1" xml:id="c01257_0002.w.246226">allamen</w>
+          <w cert="1.0" lemma="alaam" pos="NOU-C(number=sg)" resp="roland" xml:id="c01257_0002.w.246226" lemmaRef="mnw.01257.sense.1">allamen</w>
           <pc pos="PC" xml:id="c01257_0002.pc.floating.00097463" lemma=",">,</pc>
         </q>
       </cit>

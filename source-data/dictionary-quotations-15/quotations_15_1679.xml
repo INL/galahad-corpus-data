@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60298" lemma="UTEDRIVEN" partition="train" sense-id="mnw.60298.sense.5" xml:id="c60298_0007">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c60298_0007">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>UTEDRIVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60298.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60298</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1679">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c60298_0007.w.672426">In</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c60298_0007.w.672427">mijnre</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c60298_0007.w.672439">minnen</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c60298_0007.w.672440">alle</w>
           <w cert="1.0" lemma="anderheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c60298_0007.w.672441">anderheit</w>
-          <w cert="1.0" lemma="uitdrijven" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.60298.sense.5" xml:id="c60298_0007.w.672442">wtdriven</w>
+          <w cert="1.0" lemma="uitdrijven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c60298_0007.w.672442" lemmaRef="mnw.60298.sense.5">wtdriven</w>
           <pc pos="PC" xml:id="c60298_0007.pc.floating.00273672" lemma=",">,</pc>
         </q>
       </cit>

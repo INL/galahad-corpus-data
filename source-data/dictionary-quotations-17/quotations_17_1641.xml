@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M079972" lemma="VICE-PRESIDENT" modern-lemma="vicepresident" partition="train" pos="NOU-C" sense-id="M079972.bet.2" xml:id="M079972.eg.4475">
-        <date atLeast="1690" atMost="1690" timeSpan="1650-1700" />
+      <cit xml:id="M079972.eg.4475">
+        <note>
+          <ab>
+            <date atLeast="1690" atMost="1690" extent="1650-1700" />
+            <interpGrp type="lemma">
+              <interp>VICE-PRESIDENT</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M079972.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>vicepresident</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M079972</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1641">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879349">Dit</w>
           <w cert="1.0" lemma="college" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879350">collegie</w>
@@ -63,9 +82,9 @@
           <w cert="1.0" lemma="president" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879359">president</w>
           <pc pos="PC" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.pc.floating.00286277" lemma="…,">…,</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879361">een</w>
-          <w cert="1.0" lemma="vicepresident" pos="NOU-C(number=sg)" resp="roland" sense-id="M079972.bet.2" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879362">vice<join n="mw_30976" />
+          <w cert="1.0" lemma="vicepresident" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879362" lemmaRef="M079972.bet.2">vice<join n="mw_30976" />
           </w>
-          <w cert="1.0" lemma="vicepresident" pos="NOU-C(number=sg)" resp="roland" sense-id="M079972.bet.2" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879363">president<join n="mw_30976" />
+          <w cert="1.0" lemma="vicepresident" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879363" lemmaRef="M079972.bet.2">president<join n="mw_30976" />
           </w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879364">en</w>
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=prenom,representation=let)" resp="roland" xml:id="INT_8d9b6642-a7da-49b4-82d1-1901597c7f82.w.879365">vier</w>

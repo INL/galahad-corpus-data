@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30637" lemma="MOMMEN" partition="train" sense-id="mnw.30637.sense.4" xml:id="c30637_0006">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c30637_0006">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOMMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30637.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30637</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1261">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c30637_0006.w.1283124">Dat</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c30637_0006.w.1283125">in</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c30637_0006.w.1283128">nemant</w>
           <w cert="1.0" lemma="dobbelen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30637_0006.w.1283129">dobbelen</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c30637_0006.w.1283130">noch</w>
-          <w cert="1.0" lemma="mommen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.30637.sense.4" xml:id="c30637_0006.w.1283131">mommen</w>
+          <w cert="1.0" lemma="mommen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c30637_0006.w.1283131" lemmaRef="mnw.30637.sense.4">mommen</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c30637_0006.w.1283132">en</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30637_0006.w.1283133">sal</w>
           <pc pos="PC" xml:id="c30637_0006.pc.post.00503991" lemma=",">,</pc>

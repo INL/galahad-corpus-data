@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17730" lemma="HOIR" partition="train" sense-id="mnw.17730.sense.2" xml:id="c17730_0008">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c17730_0008">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HOIR</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17730.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17730</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.733">
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="c17730_0008.w.368493">Vor</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c17730_0008.w.368494">mi</w>
           <pc pos="PC" xml:id="c17730_0008.pc.floating.00150381" lemma="…,">…,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c17730_0008.w.368496">die</w>
-          <w cert="1.0" lemma="oir" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.17730.sense.2" xml:id="c17730_0008.w.368497">oir</w>
+          <w cert="1.0" lemma="oir" pos="NOU-C(number=sg)" resp="roland" xml:id="c17730_0008.w.368497" lemmaRef="mnw.17730.sense.2">oir</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c17730_0008.w.368498">bem</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c17730_0008.w.368499">van</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c17730_0008.w.368500">zinen</w>

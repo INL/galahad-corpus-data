@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01090" lemma="ACARE" partition="train" sense-id="mnw.01090.sense.1" xml:id="c01090_0001">
-        <date atLeast="1360" atMost="1389" timeSpan="1350-1400" />
+      <cit xml:id="c01090_0001">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1389" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ACARE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01090.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01090</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.41">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c01090_0001.w.213370">Enen</w>
           <w cert="1.0" lemma="minstreel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c01090_0001.w.213371">menestrele</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c01090_0001.w.213375">ende</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c01090_0001.w.213376">mit</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c01090_0001.w.213377">eenre</w>
-          <w cert="1.0" lemma="akaar" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.01090.sense.1" xml:id="c01090_0001.w.213378">ackare</w>
+          <w cert="1.0" lemma="akaar" pos="NOU-C(number=sg)" resp="roland" xml:id="c01090_0001.w.213378" lemmaRef="mnw.01090.sense.1">ackare</w>
           <pc pos="PC" xml:id="c01090_0001.pc.floating.00083467" lemma=",">,</pc>
         </q>
       </cit>

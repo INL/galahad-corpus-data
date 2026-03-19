@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55072" lemma="STEKEN" partition="train" sense-id="mnw.55072.sense.25" xml:id="c55072_0149">
-        <date atLeast="1339" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c55072_0149">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STEKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55072.sense.25</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55072</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2223">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c55072_0149.w.1531388">Als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c55072_0149.w.1531389">die</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="door" pos="ADP(type=pre)" resp="thomas" xml:id="c55072_0149.w.1531393">dor</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c55072_0149.w.1531394">die</w>
           <w cert="1.0" lemma="partikel" pos="NOU-C(number=pl)" resp="roland" xml:id="c55072_0149.w.1531395">particulen</w>
-          <w cert="1.0" lemma="steken" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.55072.sense.25" xml:id="c55072_0149.w.1531396">ghesteken</w>
+          <w cert="1.0" lemma="steken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c55072_0149.w.1531396" lemmaRef="mnw.55072.sense.25">ghesteken</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c55072_0149.w.1531397">es</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c55072_0149.w.1531398">ende</w>
           <w cert="1.0" lemma="meester" pos="NOU-C(number=sg)" resp="thomas" xml:id="c55072_0149.w.1531399">meester</w>

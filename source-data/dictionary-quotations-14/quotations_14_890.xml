@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22666" lemma="COLLET" partition="train" sense-id="mnw.22666.sense.1" xml:id="c22666_0000">
-        <date atLeast="1343" atMost="1344" timeSpan="1300-1350" />
+      <cit xml:id="c22666_0000">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1344" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>COLLET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22666.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22666</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.890">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c22666_0000.w.1174016">Omme</w>
           <w cert="1.0" lemma="pansier" pos="NOU-C(number=sg)" resp="roland" xml:id="c22666_0000.w.1174017">panchier</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="collet" pos="NOU-C(number=sg,WF=mis)" resp="roland" xml:id="c22666_0000.w.1174025">kokette</w>
           <pc join="right" pos="PC" xml:id="c22666_0000.pc.pre.00473375" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c22666_0000.w.1174026">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.22666.sense.1" xml:id="c22666_0000.w.1174027">kollette</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c22666_0000.w.1174027" lemmaRef="mnw.22666.sense.1">kollette</w>
           <pc pos="PC" xml:id="c22666_0000.pc.floating.00473377" lemma=")">)</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22666_0000.w.1174029">ende</w>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c22666_0000.w.1174030">omme</w>

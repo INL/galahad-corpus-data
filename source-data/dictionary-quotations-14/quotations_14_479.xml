@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11598" lemma="GELIKEN" partition="dev" sense-id="mnw.11598.sense.13" xml:id="c11598_0045">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c11598_0045">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GELIKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11598.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11598</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.479">
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c11598_0045.w.925958">Wat</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c11598_0045.w.925959">so</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11598_0045.w.925971">der</w>
           <w cert="1.0" lemma="eer" pos="NOU-C(number=sg)" resp="roland" xml:id="c11598_0045.w.925972">ere</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c11598_0045.w.925973">niet</w>
-          <w cert="1.0" lemma="gelijken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.11598.sense.13" xml:id="c11598_0045.w.925974">geliken</w>
+          <w cert="1.0" lemma="gelijken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11598_0045.w.925974" lemmaRef="mnw.11598.sense.13">geliken</w>
           <w cert="1.0" lemma="nimmermeer" pos="ADV(type=reg)" resp="thomas" xml:id="c11598_0045.w.925975">nemmermere</w>
           <pc pos="PC" xml:id="c11598_0045.pc.post.00392425" lemma=",">,</pc>
         </q>

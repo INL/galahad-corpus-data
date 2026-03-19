@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69909" lemma="WAERDESLIEDE" partition="train" sense-id="mnw.69909.sense.1" xml:id="c69909_0001">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c69909_0001">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WAERDESLIEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69909.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69909</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2088">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="roland" xml:id="c69909_0001.w.1150059">Doen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c69909_0001.w.1150060">die</w>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c69909_0001.pc.post.00461435" lemma=",">,</pc>
           <w cert="1.0" lemma="overmits" pos="ADP(type=pre)" resp="thomas" xml:id="c69909_0001.w.1150069">overmits</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c69909_0001.w.1150070">sine</w>
-          <w cert="1.0" lemma="waardslieden" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.69909.sense.1" xml:id="c69909_0001.w.1150071">warderslieden</w>
+          <w cert="1.0" lemma="waardslieden" pos="NOU-C(number=pl)" resp="thomas" xml:id="c69909_0001.w.1150071" lemmaRef="mnw.69909.sense.1">warderslieden</w>
           <pc pos="PC" xml:id="c69909_0001.pc.floating.00461436" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c69909_0001.w.1150073">die</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c69909_0001.w.1150074">dat</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58665" lemma="TOEVALLEN" partition="train" sense-id="mnw.58665.sense.5" xml:id="c58665_0006">
-        <date atLeast="1470" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c58665_0006">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TOEVALLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58665.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58665</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1626">
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c58665_0006.w.368700">Konnen</w>
           <w cert="1.0" lemma="wij+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c58665_0006.w.368701">wijt</w>
@@ -84,9 +97,9 @@
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c58665_0006.w.368729">dair<join n="mw_473241" />
           </w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c58665_0006.w.368730">alle</w>
-          <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" sense-id="mnw.58665.sense.5" xml:id="c58665_0006.w.368731">toe<join n="mw_473241" />
+          <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c58665_0006.w.368731" lemmaRef="mnw.58665.sense.5">toe<join n="mw_473241" />
           </w>
-          <w cert="1.0" lemma="vallen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.58665.sense.5" xml:id="c58665_0006.w.368732">vallen</w>
+          <w cert="1.0" lemma="vallen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58665_0006.w.368732" lemmaRef="mnw.58665.sense.5">vallen</w>
           <pc pos="PC" xml:id="c58665_0006.pc.floating.00149840" lemma=",">,</pc>
         </q>
       </cit>

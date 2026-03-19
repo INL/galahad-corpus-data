@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26054" lemma="LIDEN" partition="dev" sense-id="mnw.26054.sense.15" xml:id="c26054_0072">
-        <date atLeast="1475" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c26054_0072">
+        <note>
+          <ab>
+            <date atLeast="1475" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26054.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26054</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.637">
           <w cert="1.0" lemma="niemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c26054_0072.w.349317">Nyemant</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c26054_0072.w.349318">en</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c26054_0072.w.349326">dus</w>
           <w cert="1.0" lemma="daarmede" pos="ADV(type=pron)" resp="thomas" xml:id="c26054_0072.w.349327">mede<join n="mw_181186" />
           </w>
-          <w cert="1.0" lemma="lijden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.26054.sense.15" xml:id="c26054_0072.w.349328">lijt</w>
+          <w cert="1.0" lemma="lijden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c26054_0072.w.349328" lemmaRef="mnw.26054.sense.15">lijt</w>
           <pc pos="PC" xml:id="c26054_0072.pc.floating.00135251" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c26054_0072.w.349330">datse</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c26054_0072.w.349331">der</w>

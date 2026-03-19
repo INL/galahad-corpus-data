@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12376" lemma="GERECHT" partition="train" sense-id="mnw.12376.sense.1" xml:id="c12376_0000">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c12376_0000">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GERECHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12376.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12376</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.320">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12376_0000.w.1094355">Die</w>
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c12376_0000.w.1094356">Here</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12376_0000.w.1094359">den</w>
           <w cert="1.0" lemma="gerechte" pos="NOU-C(number=sg)" resp="roland" xml:id="c12376_0000.w.1094360">gherechten</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c12376_0000.w.1094361">die</w>
-          <w cert="1.0" lemma="gerecht" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.12376.sense.1" xml:id="c12376_0000.w.1094362">gherechte</w>
+          <w cert="1.0" lemma="gerecht" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c12376_0000.w.1094362" lemmaRef="mnw.12376.sense.1">gherechte</w>
           <w cert="1.0" lemma="weg" pos="NOU-C(number=sg)" resp="roland" xml:id="c12376_0000.w.1094363">weghe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12376_0000.w.1094364">ende</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c12376_0000.w.1094365">hevet</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63389" lemma="VERLADEN" partition="train" sense-id="mnw.63389.sense.1" xml:id="c63389_0000">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c63389_0000">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERLADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63389.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63389</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2624">
           <w cert="1.0" lemma="Zambri" pos="NOU-P" resp="roland" xml:id="c63389_0000.w.1450291">Zambri</w>
           <w cert="1.0" lemma="zeggen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63389_0000.w.1450292">seide</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c63389_0000.w.1450308">nu</w>
           <w cert="1.0" lemma="te" pos="ADV(type=reg)" resp="thomas" xml:id="c63389_0000.w.1450309">te</w>
           <w cert="1.0" lemma="zeer" pos="ADV(type=reg)" resp="roland" xml:id="c63389_0000.w.1450310">sere</w>
-          <w cert="1.0" lemma="verladen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.63389.sense.1" xml:id="c63389_0000.w.1450311">verladen</w>
+          <w cert="1.0" lemma="verladen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c63389_0000.w.1450311" lemmaRef="mnw.63389.sense.1">verladen</w>
           <pc join="right" pos="PC" xml:id="c63389_0000.pc.pre.00580053" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63389_0000.w.1450312">overladen</w>
           <pc pos="PC" xml:id="c63389_0000.pc.post.00580054" lemma=",">,</pc>

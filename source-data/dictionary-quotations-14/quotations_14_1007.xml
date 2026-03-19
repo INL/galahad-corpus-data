@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25790" lemma="LESEN" partition="test" sense-id="mnw.25790.sense.24" xml:id="c25790_0118">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c25790_0118">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25790.sense.24</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25790</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1007">
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c25790_0118.w.266848">God</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25790_0118.w.266849">wille</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="spreken" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25790_0118.w.266855">spreken</w>
           <pc pos="PC" xml:id="c25790_0118.pc.post.00103499" lemma=",">,</pc>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c25790_0118.w.266856">vele</w>
-          <w cert="1.0" lemma="lezen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25790.sense.24" xml:id="c25790_0118.w.266857">lesen</w>
+          <w cert="1.0" lemma="lezen" pos="NOU-C(number=sg)" resp="roland" xml:id="c25790_0118.w.266857" lemmaRef="mnw.25790.sense.24">lesen</w>
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25790_0118.w.266858">hort</w>
           <w cert="1.0" lemma="alleen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c25790_0118.w.266859">allene</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c25790_0118.w.266860">niet</w>

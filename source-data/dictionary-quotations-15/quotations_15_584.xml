@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23640" lemma="CRACHT" partition="dev" sense-id="mnw.23640.sense.13" xml:id="c23640_0057">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c23640_0057">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>CRACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23640.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23640</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.584">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c23640_0057.w.1378637">Dat</w>
           <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c23640_0057.w.1378638">vrouwe</w>
@@ -58,7 +71,7 @@
           </w>
           <w cert="1.0" lemma="liggen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c23640_0057.w.1378642">leghet</w>
           <w cert="1.0" lemma="luttel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c23640_0057.w.1378643">luttel</w>
-          <w cert="1.0" lemma="kracht" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.23640.sense.13" xml:id="c23640_0057.w.1378644">cracht</w>
+          <w cert="1.0" lemma="kracht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23640_0057.w.1378644" lemmaRef="mnw.23640.sense.13">cracht</w>
           <pc join="right" pos="PC" xml:id="c23640_0057.pc.pre.00554085" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c23640_0057.w.1378645">heeft</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c23640_0057.w.1378646">weinig</w>

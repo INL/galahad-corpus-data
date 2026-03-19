@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21651" lemma="KIVEN" partition="dev" sense-id="mnw.21651.sense.1" xml:id="c21651_0025">
-        <date atLeast="1455" atMost="1475" timeSpan="1450-1500" />
+      <cit xml:id="c21651_0025">
+        <note>
+          <ab>
+            <date atLeast="1455" atMost="1475" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>KIVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21651.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21651</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.529">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c21651_0025.w.1002668">Die</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21651_0025.w.1002669">van</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c21651_0025.w.1002672">die</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21651_0025.w.1002673">van</w>
           <w cert="1.0" lemma="Babylonië" pos="NOU-P" resp="roland" xml:id="c21651_0025.w.1002674">Babilonien</w>
-          <w cert="1.0" lemma="kijven" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.21651.sense.1" xml:id="c21651_0025.w.1002675">keven</w>
+          <w cert="1.0" lemma="kijven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c21651_0025.w.1002675" lemmaRef="mnw.21651.sense.1">keven</w>
           <w cert="1.0" lemma="eens" pos="ADV(type=reg)" resp="thomas" xml:id="c21651_0025.w.1002676">eens</w>
           <pc pos="PC" xml:id="c21651_0025.pc.post.00405431" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c21651_0025.w.1002677">soo</w>

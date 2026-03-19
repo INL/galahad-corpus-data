@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33576" lemma="OMMEDAT" partition="train" sense-id="mnw.33576.sense.5" xml:id="c33576_0014">
-        <date atLeast="1308" atMost="1312" timeSpan="1300-1350" />
+      <cit xml:id="c33576_0014">
+        <note>
+          <ab>
+            <date atLeast="1308" atMost="1312" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OMMEDAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33576.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33576</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1392">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c33576_0014.w.77288">Ende</w>
-          <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" sense-id="mnw.33576.sense.5" xml:id="c33576_0014.w.77289">omme<join n="mw_70228" />
+          <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c33576_0014.w.77289" lemmaRef="mnw.33576.sense.5">omme<join n="mw_70228" />
           </w>
-          <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" sense-id="mnw.33576.sense.5" xml:id="c33576_0014.w.77290">dat<join n="mw_70228" />
+          <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c33576_0014.w.77290" lemmaRef="mnw.33576.sense.5">dat<join n="mw_70228" />
           </w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c33576_0014.w.77291">dese</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c33576_0014.w.77292">dinghen</w>

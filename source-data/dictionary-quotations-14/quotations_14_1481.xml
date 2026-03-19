@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36783" lemma="ONRECHT" partition="train" sense-id="mnw.36783.sense.9" xml:id="c36783_0018">
-        <date atLeast="1328" atMost="1336" timeSpan="1300-1350" />
+      <cit xml:id="c36783_0018">
+        <note>
+          <ab>
+            <date atLeast="1328" atMost="1336" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONRECHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36783.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36783</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1481">
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c36783_0018.w.559195">Omdat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c36783_0018.w.559196">sij</w>
-          <w cert="1.0" lemma="onrecht" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.36783.sense.9" xml:id="c36783_0018.w.559197">onrecht</w>
+          <w cert="1.0" lemma="onrecht" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c36783_0018.w.559197" lemmaRef="mnw.36783.sense.9">onrecht</w>
           <w cert="1.0" lemma="water" pos="NOU-C(number=sg)" resp="roland" xml:id="c36783_0018.w.559198">water</w>
           <w cert="1.0" lemma="leiden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c36783_0018.w.559199">leyden</w>
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c36783_0018.w.559200">op</w>

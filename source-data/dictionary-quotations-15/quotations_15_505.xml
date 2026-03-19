@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.20402" lemma="CAMERE" partition="train" sense-id="mnw.20402.sense.2" xml:id="c20402_0016">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c20402_0016">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CAMERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.20402.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.20402</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.505">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c20402_0016.w.791425">Si</w>
           <pc join="right" pos="PC" xml:id="c20402_0016.pc.pre.00321731" lemma="(">(</pc>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c20402_0016.pc.post.00321732" lemma=")">)</pc>
           <w cert="1.0" lemma="zitten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c20402_0016.w.791428">sitten</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c20402_0016.w.791429">in</w>
-          <w cert="1.0" lemma="kamer" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.20402.sense.2" xml:id="c20402_0016.w.791430">cameren</w>
+          <w cert="1.0" lemma="kamer" pos="NOU-C(number=pl)" resp="roland" xml:id="c20402_0016.w.791430" lemmaRef="mnw.20402.sense.2">cameren</w>
           <pc join="right" pos="PC" xml:id="c20402_0016.pc.pre.00321733" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c20402_0016.w.791431">in</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c20402_0016.w.791432">hunne</w>

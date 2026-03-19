@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36867" lemma="ONSALICH" partition="train" sense-id="mnw.36867.sense.2" xml:id="c36867_0017">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c36867_0017">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONSALICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36867.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36867</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1485">
           <w cert="1.0" lemma="als+du" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c36867_0017.w.575142">Alstu</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c36867_0017.w.575143">eenen</w>
-          <w cert="1.0" lemma="onzalige" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.36867.sense.2" xml:id="c36867_0017.w.575144">onsaleghen</w>
+          <w cert="1.0" lemma="onzalige" pos="NOU-C(number=sg)" resp="thomas" xml:id="c36867_0017.w.575144" lemmaRef="mnw.36867.sense.2">onsaleghen</w>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c36867_0017.w.575145">sies</w>
           <pc pos="PC" xml:id="c36867_0017.pc.post.00234517" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c36867_0017.w.575146">dat</w>

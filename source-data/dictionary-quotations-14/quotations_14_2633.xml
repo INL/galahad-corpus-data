@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63485" lemma="VERLENEN" partition="train" sense-id="mnw.63485.sense.11" xml:id="c63485_0039">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c63485_0039">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERLENEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63485.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63485</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2633">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c63485_0039.w.1484455">Dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63485_0039.w.1484456">u</w>
@@ -71,7 +84,7 @@
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63485_0039.w.1484474">u</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c63485_0039.w.1484475">van</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c63485_0039.w.1484476">Gode</w>
-          <w cert="1.0" lemma="verlenen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.63485.sense.11" xml:id="c63485_0039.w.1484477">verleent</w>
+          <w cert="1.0" lemma="verlenen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c63485_0039.w.1484477" lemmaRef="mnw.63485.sense.11">verleent</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c63485_0039.w.1484478">es</w>
           <pc pos="PC" xml:id="c63485_0039.pc.post.00593144" lemma=",">,</pc>
         </q>

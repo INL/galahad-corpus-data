@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.01384" lemma="ALSE" partition="train" sense-id="mnw.01384.sense.1" xml:id="c01384_0008">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c01384_0008">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ALSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.01384.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.01384</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.53">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c01384_0008.w.259382">Ende</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c01384_0008.w.259383">hi</w>
@@ -54,9 +67,9 @@
           <w cert="1.0" lemma="eer" pos="ADV(type=reg)" resp="thomas" xml:id="c01384_0008.w.259385">eer</w>
           <w cert="1.0" lemma="iet" pos="ADV(type=reg)" resp="thomas" xml:id="c01384_0008.w.259386">iet</w>
           <w cert="1.0" lemma="lang" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c01384_0008.w.259387">lanc</w>
-          <w cert="1.0" lemma="als" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.01384.sense.1" xml:id="c01384_0008.w.259388">als</w>
+          <w cert="1.0" lemma="als" pos="ADV(type=reg)" resp="thomas" xml:id="c01384_0008.w.259388" lemmaRef="mnw.01384.sense.1">als</w>
           <w cert="1.0" lemma="gezond" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c01384_0008.w.259389">gesont</w>
-          <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" sense-id="mnw.01384.sense.1" xml:id="c01384_0008.w.259390">als</w>
+          <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c01384_0008.w.259390" lemmaRef="mnw.01384.sense.1">als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c01384_0008.w.259391">hi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c01384_0008.w.259392">was</w>
           <w cert="1.0" lemma="eer" pos="ADV(type=reg)" resp="thomas" xml:id="c01384_0008.w.259393">eer</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52901" lemma="SNEE" partition="train" sense-id="mnw.52901.sense.1" xml:id="c52901_0026">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c52901_0026">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SNEE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52901.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52901</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1423">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c52901_0026.w.1036328">Die</w>
           <w cert="1.0" lemma="water" pos="NOU-C(number=pl)" resp="roland" xml:id="c52901_0026.w.1036329">watere</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c52901_0026.pc.floating.00430423" lemma="…">…</pc>
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c52901_0026.w.1036335">om</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c52901_0026.w.1036336">den</w>
-          <w cert="1.0" lemma="sneeuw" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.52901.sense.1" xml:id="c52901_0026.w.1036337">snee</w>
+          <w cert="1.0" lemma="sneeuw" pos="NOU-C(number=sg)" resp="roland" xml:id="c52901_0026.w.1036337" lemmaRef="mnw.52901.sense.1">snee</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c52901_0026.w.1036338">die</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c52901_0026.w.1036339">in</w>
           <w cert="1.0" lemma="dat+gebergte" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c52901_0026.w.1036340">tgeberchte</w>

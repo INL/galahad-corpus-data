@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.17594" lemma="HOESULC" partition="dev" sense-id="mnw.17594.sense.1" xml:id="c17594_0019">
-        <date atLeast="1451" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c17594_0019">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>HOESULC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.17594.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.17594</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.430">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c17594_0019.w.338277">Dat</w>
           <w cert="1.0" lemma="vuur" pos="NOU-C(number=sg)" resp="thomas" xml:id="c17594_0019.w.338278">vuer</w>
@@ -56,9 +69,9 @@
           <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c17594_0019.w.338282">werc</w>
           <w cert="1.0" lemma="proeven" pos="VRB(finiteness=inf)" resp="roland" xml:id="c17594_0019.w.338283">proeven</w>
           <pc pos="PC" xml:id="c17594_0019.pc.post.00138788" lemma=",">,</pc>
-          <w cert="1.0" lemma="hoezulk" pos="PD(type=d-p,position=free)" resp="thomas" sense-id="mnw.17594.sense.1" xml:id="c17594_0019.w.338284">hoe<join n="mw_197104" />
+          <w cert="1.0" lemma="hoezulk" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c17594_0019.w.338284" lemmaRef="mnw.17594.sense.1">hoe<join n="mw_197104" />
           </w>
-          <w cert="1.0" lemma="hoezulk" pos="PD(type=d-p,position=free)" resp="thomas" sense-id="mnw.17594.sense.1" xml:id="c17594_0019.w.338285">sulc<join n="mw_197104" />
+          <w cert="1.0" lemma="hoezulk" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c17594_0019.w.338285" lemmaRef="mnw.17594.sense.1">sulc<join n="mw_197104" />
           </w>
           <w cert="1.0" lemma="dat+het" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="roland" xml:id="c17594_0019.w.338286">dattet</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c17594_0019.w.338287">is</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38094" lemma="ONTVALLEN" partition="test" sense-id="mnw.38094.sense.7" xml:id="c38094_0021">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c38094_0021">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTVALLEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38094.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38094</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1557">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c38094_0021.w.865495">Die</w>
           <w cert="1.0" lemma="knaap" pos="NOU-C(number=sg)" resp="roland" xml:id="c38094_0021.w.865496">knape</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c38094_0021.w.865498">hem</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c38094_0021.w.865499">en</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c38094_0021.w.865500">si</w>
-          <w cert="1.0" lemma="ontvallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.38094.sense.7" xml:id="c38094_0021.w.865501">ontfallen</w>
+          <w cert="1.0" lemma="ontvallen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c38094_0021.w.865501" lemmaRef="mnw.38094.sense.7">ontfallen</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c38094_0021.w.865502">sijn</w>
           <w cert="1.0" lemma="goed" pos="NOU-C(number=sg)" resp="roland" xml:id="c38094_0021.w.865503">goet</w>
           <pc join="right" pos="PC" xml:id="c38094_0021.pc.pre.00347408" lemma="(">(</pc>

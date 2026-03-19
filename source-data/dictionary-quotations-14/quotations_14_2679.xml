@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64557" lemma="VERSIEDEN" partition="train" sense-id="mnw.64557.sense.2" xml:id="c64557_0000">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c64557_0000">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERSIEDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64557.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64557</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2679">
           <w cert="1.0" lemma="nemen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c64557_0000.w.1775318">Nemt</w>
           <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c64557_0000.w.1775319">2</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c64557_0000.w.1775333">ende</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c64557_0000.w.1775334">dat</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c64557_0000.w.1775335">doet</w>
-          <w cert="1.0" lemma="verzieden" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.64557.sense.2" xml:id="c64557_0000.w.1775336">verzieden</w>
+          <w cert="1.0" lemma="verzieden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c64557_0000.w.1775336" lemmaRef="mnw.64557.sense.2">verzieden</w>
           <w cert="1.0" lemma="tot" pos="ADP(type=pre)" resp="thomas" xml:id="c64557_0000.w.1775337">tote</w>
           <w cert="1.0" lemma="onderhalf" pos="NUM(type=card,position=prenom,representation=let)" resp="roland" xml:id="c64557_0000.w.1775338">onderhalf</w>
           <w cert="1.0" lemma="peket" pos="NOU-C(number=sg)" resp="roland" xml:id="c64557_0000.w.1775339">peket</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59267" lemma="TREC" partition="train" sense-id="mnw.59267.sense.7" xml:id="c59267_0005">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c59267_0005">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TREC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59267.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59267</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1653">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c59267_0005.w.497470">So</w>
           <w cert="1.0" lemma="moeten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c59267_0005.w.497471">moet</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c59267_0005.pc.post.00201532" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c59267_0005.w.497482">ende</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c59267_0005.w.497483">dien</w>
-          <w cert="1.0" lemma="trek" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.59267.sense.7" xml:id="c59267_0005.w.497484">trecke</w>
+          <w cert="1.0" lemma="trek" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59267_0005.w.497484" lemmaRef="mnw.59267.sense.7">trecke</w>
           <pc join="right" pos="PC" xml:id="c59267_0005.pc.pre.00201533" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c59267_0005.w.497485">dat</w>
           <pc pos="PC" xml:id="c59267_0005.pc.post.00201534" lemma=".)">.)</pc>

@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34326" lemma="ONBLIDE" partition="test" sense-id="mnw.34326.sense.2" xml:id="c34326_0032">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c34326_0032">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONBLIDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34326.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34326</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1410">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c34326_0032.w.189015">Hi</w>
           <w cert="1.0" lemma="zien+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c34326_0032.w.189016">saegt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c34326_0032.w.189017">ende</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c34326_0032.w.189018">waes</w>
-          <w cert="1.0" lemma="onblij" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.34326.sense.2" xml:id="c34326_0032.w.189019">omblide</w>
+          <w cert="1.0" lemma="onblij" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c34326_0032.w.189019" lemmaRef="mnw.34326.sense.2">omblide</w>
           <pc pos="PC" xml:id="c34326_0032.pc.floating.00078464" lemma=",">,</pc>
           <w cert="1.0" lemma="dat+de" pos="CONJ(type=sub)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c34326_0032.w.189021">dattie</w>
           <w cert="1.0" lemma="Romein" pos="NOU-C(number=pl)" resp="roland" xml:id="c34326_0032.w.189022">Romeine</w>

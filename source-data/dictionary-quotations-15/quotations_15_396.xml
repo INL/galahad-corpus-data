@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15664" lemma="HANT" partition="train" sense-id="mnw.15664.sense.24" xml:id="c15664_0137">
-        <date atLeast="1460" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c15664_0137">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>HANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15664.sense.24</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15664</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.396">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c15664_0137.w.63298">Si</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c15664_0137.w.63299">sloeghen</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c15664_0137.w.63300">haer</w>
-          <w cert="1.0" lemma="hand" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.15664.sense.24" xml:id="c15664_0137.w.63301">hande</w>
+          <w cert="1.0" lemma="hand" pos="NOU-C(number=pl)" resp="roland" xml:id="c15664_0137.w.63301" lemmaRef="mnw.15664.sense.24">hande</w>
           <pc pos="PC" xml:id="c15664_0137.pc.floating.00025506" lemma=",">,</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c15664_0137.w.63303">si</w>
           <w cert="1.0" lemma="trekken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c15664_0137.w.63304">traken</w>

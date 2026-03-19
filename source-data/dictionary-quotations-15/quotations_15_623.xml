@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25500" lemma="LEGGEN" partition="train" sense-id="mnw.25500.sense.5" xml:id="c25500_0028">
-        <date atLeast="1401" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c25500_0028">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>LEGGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25500.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25500</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.623">
           <w cert="1.0" lemma="Reinaard" pos="NOU-P" resp="roland" xml:id="c25500_0028.w.209765">Reinaert</w>
-          <w cert="1.0" lemma="leggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.25500.sense.5" xml:id="c25500_0028.w.209766">leide</w>
+          <w cert="1.0" lemma="leggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c25500_0028.w.209766" lemmaRef="mnw.25500.sense.5">leide</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c25500_0028.w.209767">sine</w>
           <w cert="1.0" lemma="laag" pos="NOU-C(number=sg)" resp="thomas" xml:id="c25500_0028.w.209768">lage</w>
           <w cert="1.0" lemma="beide" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c25500_0028.w.209769">bede</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.32062" lemma="NEDERHELFTE" partition="train" sense-id="mnw.32062.sense.1" xml:id="c32062_0000">
-        <date atLeast="1328" atMost="1335" timeSpan="1300-1350" />
+      <cit xml:id="c32062_0000">
+        <note>
+          <ab>
+            <date atLeast="1328" atMost="1335" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NEDERHELFTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.32062.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.32062</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1310">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c32062_0000.w.1531231">De</w>
           <w cert="1.0" lemma="tiende" pos="NOU-C(number=sg)" resp="roland" xml:id="c32062_0000.w.1531232">tiende</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="tiende" pos="NOU-C(number=sg)" resp="roland" xml:id="c32062_0000.w.1531239">tiende</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c32062_0000.w.1531240">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c32062_0000.w.1531241">der</w>
-          <w cert="1.0" lemma="nederhelft" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.32062.sense.1" xml:id="c32062_0000.w.1531242">nederhelft</w>
+          <w cert="1.0" lemma="nederhelft" pos="NOU-C(number=sg)" resp="roland" xml:id="c32062_0000.w.1531242" lemmaRef="mnw.32062.sense.1">nederhelft</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c32062_0000.w.1531243">van</w>
           <w cert="1.0" lemma="Verconden" pos="NOU-P" resp="roland" xml:id="c32062_0000.w.1531244">Verconden</w>
           <pc pos="PC" xml:id="c32062_0000.pc.post.00603079" lemma=",">,</pc>

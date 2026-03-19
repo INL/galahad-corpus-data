@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58580" lemma="TOESETTINGE" partition="train" sense-id="mnw.58580.sense.1" xml:id="c58580_0000">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c58580_0000">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TOESETTINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58580.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58580</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1622">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c58580_0000.w.351776">Dat</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58580_0000.w.351777">ick</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c58580_0000.w.351786">opbodinge</w>
           <pc pos="PC" xml:id="c58580_0000.pc.floating.00143108" lemma=")">)</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c58580_0000.w.351788">ende</w>
-          <w cert="1.0" lemma="toezetting" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.58580.sense.1" xml:id="c58580_0000.w.351789">toesettinge</w>
+          <w cert="1.0" lemma="toezetting" pos="NOU-C(number=sg)" resp="roland" xml:id="c58580_0000.w.351789" lemmaRef="mnw.58580.sense.1">toesettinge</w>
           <pc pos="PC" xml:id="c58580_0000.pc.floating.00143109" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c58580_0000.w.351791">als</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c58580_0000.w.351792">oic</w>

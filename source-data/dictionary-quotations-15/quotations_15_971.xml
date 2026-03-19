@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38440" lemma="ONVERDULDICHEIT" partition="train" sense-id="mnw.38440.sense.3" xml:id="c38440_0007">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c38440_0007">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONVERDULDICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38440.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38440</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.971">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c38440_0007.w.939761">Die</w>
           <w cert="1.0" lemma="vlierboom" pos="NOU-C(number=sg)" resp="thomas" xml:id="c38440_0007.w.939762">vlederboom</w>
@@ -58,7 +71,7 @@
           </w>
           <w cert="1.0" lemma="verhangen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c38440_0007.w.939767">verhenc</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c38440_0007.w.939768">van</w>
-          <w cert="1.0" lemma="onverduldigheid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.38440.sense.3" xml:id="c38440_0007.w.939769">onverduldicheit</w>
+          <w cert="1.0" lemma="onverduldigheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c38440_0007.w.939769" lemmaRef="mnw.38440.sense.3">onverduldicheit</w>
           <pc pos="PC" xml:id="c38440_0007.pc.floating.00376320" lemma=",">,</pc>
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c38440_0007.w.939771">om<join n="mw_699505" />
           </w>

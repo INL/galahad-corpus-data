@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43046" lemma="PLEGEN" partition="train" sense-id="mnw.43046.sense.42" xml:id="c43046_0256">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c43046_0256">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PLEGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43046.sense.42</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43046</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1756">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c43046_0256.w.310185">Als</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c43046_0256.w.310186">hi</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="c43046_0256.w.310191">wes</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c43046_0256.w.310192">sijn</w>
           <w cert="1.0" lemma="gezelschap" pos="NOU-C(number=sg)" resp="roland" xml:id="c43046_0256.w.310193">geselscap</w>
-          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.43046.sense.42" xml:id="c43046_0256.w.310194">plach</w>
+          <w cert="1.0" lemma="plegen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c43046_0256.w.310194" lemmaRef="mnw.43046.sense.42">plach</w>
           <pc pos="PC" xml:id="c43046_0256.pc.floating.00121045" lemma=",">,</pc>
         </q>
       </cit>

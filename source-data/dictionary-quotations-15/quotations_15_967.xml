@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38149" lemma="ONTVERREN" partition="train" sense-id="mnw.38149.sense.16" xml:id="c38149_0035">
-        <date atLeast="1410" atMost="1430" timeSpan="1400-1450" />
+      <cit xml:id="c38149_0035">
+        <note>
+          <ab>
+            <date atLeast="1410" atMost="1430" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ONTVERREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38149.sense.16</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38149</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.967">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c38149_0035.w.887692">Dit</w>
           <w cert="1.0" lemma="boek" pos="NOU-C(number=sg)" resp="thomas" xml:id="c38149_0035.w.887693">boeck</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c38149_0035.w.887701">den</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="thomas" xml:id="c38149_0035.w.887702">lieden</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c38149_0035.w.887703">niet</w>
-          <w cert="1.0" lemma="ontverren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.38149.sense.16" xml:id="c38149_0035.w.887704">ontferre</w>
+          <w cert="1.0" lemma="ontverren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c38149_0035.w.887704" lemmaRef="mnw.38149.sense.16">ontferre</w>
           <pc pos="PC" xml:id="c38149_0035.pc.floating.00356188" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71258" lemma="WEDERCAUWEN" partition="train" sense-id="mnw.71258.sense.1" xml:id="c71258_0003">
-        <date atLeast="1465" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c71258_0003">
+        <note>
+          <ab>
+            <date atLeast="1465" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WEDERCAUWEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71258.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71258</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2131">
           <pc pos="PC" xml:id="c71258_0003.pc.floating.00571964" lemma="—">—</pc>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c71258_0003.w.1427951">Wie</w>
@@ -54,9 +67,9 @@
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c71258_0003.w.1427953">spreket</w>
           <pc pos="PC" xml:id="c71258_0003.pc.post.00571965" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c71258_0003.w.1427954">die</w>
-          <w cert="1.0" lemma="wederkauwen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.71258.sense.1" xml:id="c71258_0003.w.1427955">weder<join n="mw_487381" />
+          <w cert="1.0" lemma="wederkauwen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c71258_0003.w.1427955" lemmaRef="mnw.71258.sense.1">weder<join n="mw_487381" />
           </w>
-          <w cert="1.0" lemma="wederkauwen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.71258.sense.1" xml:id="c71258_0003.w.1427956">cauwet<join n="mw_487381" />
+          <w cert="1.0" lemma="wederkauwen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c71258_0003.w.1427956" lemmaRef="mnw.71258.sense.1">cauwet<join n="mw_487381" />
           </w>
           <pc join="right" pos="PC" xml:id="c71258_0003.pc.pre.00571966" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c71258_0003.w.1427957">overpeinst</w>

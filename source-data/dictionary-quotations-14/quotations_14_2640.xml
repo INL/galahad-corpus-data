@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63619" lemma="VERLOSSINGE" partition="train" sense-id="mnw.63619.sense.1" xml:id="c63619_0000">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c63619_0000">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERLOSSINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63619.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63619</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2640">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c63619_0000.w.1530389">Omme</w>
-          <w cert="1.0" lemma="verlossing" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.63619.sense.1" xml:id="c63619_0000.w.1530390">verlossinghe</w>
+          <w cert="1.0" lemma="verlossing" pos="NOU-C(number=sg)" resp="roland" xml:id="c63619_0000.w.1530390" lemmaRef="mnw.63619.sense.1">verlossinghe</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c63619_0000.w.1530391">van</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c63619_0000.w.1530392">enighen</w>
           <w cert="1.0" lemma="poorter" pos="NOU-C(number=pl)" resp="roland" xml:id="c63619_0000.w.1530393">porters</w>

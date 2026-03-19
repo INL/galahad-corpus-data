@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12838" lemma="GESELLE" partition="test" sense-id="mnw.12838.sense.19" xml:id="c12838_0068">
-        <date atLeast="1334" atMost="1346" timeSpan="1300-1350" />
+      <cit xml:id="c12838_0068">
+        <note>
+          <ab>
+            <date atLeast="1334" atMost="1346" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GESELLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12838.sense.19</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12838</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.562">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c12838_0068.w.1186987">Eenen</w>
-          <w cert="1.0" lemma="gezel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.12838.sense.19" xml:id="c12838_0068.w.1186988">gheselle</w>
+          <w cert="1.0" lemma="gezel" pos="NOU-C(number=sg)" resp="roland" xml:id="c12838_0068.w.1186988" lemmaRef="mnw.12838.sense.19">gheselle</w>
           <w cert="1.0" lemma="rekenen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c12838_0068.w.1186989">gherekent</w>
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="roland" xml:id="c12838_0068.w.1186990">voer</w>
           <w cert="1.0" lemma="zeven" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c12838_0068.w.1186991">7</w>

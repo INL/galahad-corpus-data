@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.71391" lemma="WEDERRECHTEN" partition="train" sense-id="mnw.71391.sense.3" xml:id="c71391_0003">
-        <date atLeast="1436" atMost="1443" timeSpan="1400-1450" />
+      <cit xml:id="c71391_0003">
+        <note>
+          <ab>
+            <date atLeast="1436" atMost="1443" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WEDERRECHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.71391.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.71391</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2133">
           <pc join="right" pos="PC" xml:id="c71391_0003.pc.pre.00578996" lemma="(">(</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="thomas" xml:id="c71391_0003.w.1444506">Dat</w>
@@ -67,7 +80,7 @@
           <w cert="1.0" lemma="dezelve" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c71391_0003.w.1444518">denzelven</w>
           <w cert="1.0" lemma="Zeelander" pos="NOU-C(number=pl)" resp="thomas" xml:id="c71391_0003.w.1444519">Zeelanders</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c71391_0003.w.1444520">hem</w>
-          <w cert="1.0" lemma="wederrechten" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.71391.sense.3" xml:id="c71391_0003.w.1444521">wedergericht</w>
+          <w cert="1.0" lemma="wederrechten" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c71391_0003.w.1444521" lemmaRef="mnw.71391.sense.3">wedergericht</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c71391_0003.w.1444522">warde</w>
           <pc pos="PC" xml:id="c71391_0003.pc.post.00579000" lemma=",">,</pc>
         </q>

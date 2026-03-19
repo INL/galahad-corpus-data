@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06354" lemma="DELVEN" partition="train" sense-id="mnw.06354.sense.13" xml:id="c06354_0018">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c06354_0018">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>DELVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06354.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06354</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.181">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c06354_0018.w.89788">In</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c06354_0018.w.89789">die</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c06354_0018.w.89795">die</w>
           <w cert="1.0" lemma="keizer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c06354_0018.w.89796">keiser</w>
           <w cert="1.0" lemma="voortijds" pos="ADV(type=reg)" resp="thomas" xml:id="c06354_0018.w.89797">voortijts</w>
-          <w cert="1.0" lemma="delven" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.06354.sense.13" xml:id="c06354_0018.w.89798">delven</w>
+          <w cert="1.0" lemma="delven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c06354_0018.w.89798" lemmaRef="mnw.06354.sense.13">delven</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c06354_0018.w.89799">ende</w>
           <w cert="1.0" lemma="graven" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c06354_0018.w.89800">graven</w>
           <w cert="1.0" lemma="een" pos="NUM(type=card,position=prenom,representation=let,WF=mis)" resp="roland" xml:id="c06354_0018.w.89801">en</w>

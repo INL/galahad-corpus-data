@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.26948" lemma="LOOTWAPPER" partition="train" sense-id="mnw.26948.sense.2" xml:id="c26948_0001">
-        <date atLeast="1460" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c26948_0001">
+        <note>
+          <ab>
+            <date atLeast="1460" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>LOOTWAPPER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.26948.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.26948</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.664">
           <pc pos="PC" xml:id="c26948_0001.pc.floating.00210711" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c26948_0001.pc.pre.00210712" lemma="“">“</pc>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="doen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="thomas" xml:id="c26948_0001.w.543006">deden</w>
           <w cert="1.0" lemma="Decius" pos="NOU-P" resp="roland" xml:id="c26948_0001.w.543007">Decius</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c26948_0001.w.543008">met</w>
-          <w cert="1.0" lemma="loden" pos="AA(degree=pos,position=prenom)" resp="roland" sense-id="mnw.26948.sense.2" xml:id="c26948_0001.w.543009">loden</w>
+          <w cert="1.0" lemma="loden" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c26948_0001.w.543009" lemmaRef="mnw.26948.sense.2">loden</w>
           <w cert="1.0" lemma="wapper" pos="NOU-C(number=pl)" resp="roland" xml:id="c26948_0001.w.543010">wappers</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=inf)" resp="roland" xml:id="c26948_0001.w.543011">slaen</w>
           <pc pos="PC" xml:id="c26948_0001.pc.post.00210713" lemma="”">”</pc>

@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31078" lemma="MOUWE" partition="train" sense-id="mnw.31078.sense.1" xml:id="c31078_0001">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c31078_0001">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MOUWE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31078.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31078</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1275">
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c31078_0001.w.1356484">Hare</w>
-          <w cert="1.0" lemma="mouw" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.31078.sense.1" xml:id="c31078_0001.w.1356485">mouwen</w>
+          <w cert="1.0" lemma="mouw" pos="NOU-C(number=pl)" resp="roland" xml:id="c31078_0001.w.1356485" lemmaRef="mnw.31078.sense.1">mouwen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c31078_0001.w.1356486">waren</w>
           <w cert="1.0" lemma="fraailijk" pos="ADV(type=reg)" resp="thomas" xml:id="c31078_0001.w.1356487">fraielike</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c31078_0001.w.1356488">met</w>

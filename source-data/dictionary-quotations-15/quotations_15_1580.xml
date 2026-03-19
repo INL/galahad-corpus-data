@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57384" lemma="TEGENGAEN" partition="train" sense-id="mnw.57384.sense.1" xml:id="c57384_0000">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c57384_0000">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TEGENGAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57384.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57384</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1580">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57384_0000.w.124458">Him</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57384_0000.w.124459">wart</w>
@@ -62,10 +75,10 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57384_0000.w.124468">was</w>
           <pc pos="PC" xml:id="c57384_0000.pc.post.00051029" lemma=";">;</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57384_0000.w.124469">hij</w>
-          <w cert="1.0" lemma="tegengaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.57384.sense.1" xml:id="c57384_0000.w.124470">ghinck<join n="mw_232378" />
+          <w cert="1.0" lemma="tegengaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57384_0000.w.124470" lemmaRef="mnw.57384.sense.1">ghinck<join n="mw_232378" />
           </w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c57384_0000.w.124471">hem</w>
-          <w cert="1.0" lemma="tegengaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.57384.sense.1" xml:id="c57384_0000.w.124472">teghen<join n="mw_232378" />
+          <w cert="1.0" lemma="tegengaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57384_0000.w.124472" lemmaRef="mnw.57384.sense.1">teghen<join n="mw_232378" />
           </w>
           <w cert="1.0" lemma="hoofselijk" pos="ADV(type=reg)" resp="thomas" xml:id="c57384_0000.w.124473">hoofschelic</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c57384_0000.w.124474">ende</w>

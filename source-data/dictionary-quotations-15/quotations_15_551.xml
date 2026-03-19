@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22369" lemma="CODDE" partition="train" sense-id="mnw.22369.sense.1" xml:id="c22369_0001">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c22369_0001">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CODDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22369.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22369</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.551">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c22369_0001.w.1135620">Ende</w>
           <pc join="right" pos="PC" xml:id="c22369_0001.pc.pre.00458163" lemma="(">(</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c22369_0001.w.1135624">mit</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c22369_0001.w.1135625">enen</w>
           <w cert="1.0" lemma="kwastig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c22369_0001.w.1135626">quastighen</w>
-          <w cert="1.0" lemma="kodde" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.22369.sense.1" xml:id="c22369_0001.w.1135627">codde</w>
+          <w cert="1.0" lemma="kodde" pos="NOU-C(number=sg)" resp="thomas" xml:id="c22369_0001.w.1135627" lemmaRef="mnw.22369.sense.1">codde</w>
           <w cert="1.0" lemma="uitkomen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c22369_0001.w.1135628">wt<join n="mw_524745" />
           </w>
           <w cert="1.0" lemma="uitkomen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c22369_0001.w.1135629">quaem<join n="mw_524745" />
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c22369_0001.w.1135633">ons</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c22369_0001.w.1135634">mitten</w>
           <pc pos="PC" xml:id="c22369_0001.pc.floating.00458166" lemma="…">…</pc>
-          <w cert="1.0" lemma="kodde" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.22369.sense.1" xml:id="c22369_0001.w.1135636">codde</w>
+          <w cert="1.0" lemma="kodde" pos="NOU-C(number=sg)" resp="thomas" xml:id="c22369_0001.w.1135636" lemmaRef="mnw.22369.sense.1">codde</w>
           <pc pos="PC" xml:id="c22369_0001.pc.floating.00458167" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c22369_0001.w.1135638">dat</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c22369_0001.w.1135639">alle</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31874" lemma="NASELOC" partition="train" sense-id="mnw.31874.sense.1" xml:id="c31874_0002">
-        <date atLeast="1440" atMost="1440" timeSpan="1400-1450" />
+      <cit xml:id="c31874_0002">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1440" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NASELOC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31874.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31874</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.792">
           <w cert="1.0" lemma="rook" pos="NOU-C(number=sg)" resp="roland" xml:id="c31874_0002.w.1482307">Roock</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c31874_0002.w.1482308">is</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="neuslok" pos="NOU-C(number=pl)" resp="roland" xml:id="c31874_0002.w.1482312">naesclocken</w>
           <pc join="right" pos="PC" xml:id="c31874_0002.pc.pre.00583753" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c31874_0002.w.1482313">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.31874.sense.1" xml:id="c31874_0002.w.1482314">naeselocken</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c31874_0002.w.1482314" lemmaRef="mnw.31874.sense.1">naeselocken</w>
           <pc pos="PC" xml:id="c31874_0002.pc.floating.00583755" lemma=")">)</pc>
           <pc pos="PC" xml:id="c31874_0002.pc.floating.00583756" lemma=",">,</pc>
         </q>

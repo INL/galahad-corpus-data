@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16380" lemma="HEIMELIJC" partition="train" sense-id="mnw.16380.sense.9" xml:id="c16380_0024">
-        <date atLeast="1320" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c16380_0024">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HEIMELIJC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16380.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16380</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.701">
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c16380_0024.w.190712">Ghi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c16380_0024.w.190713">sijt</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="toeverlaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c16380_0024.w.190716">toeverlaet</w>
           <pc pos="PC" xml:id="c16380_0024.pc.post.00077667" lemma=",">,</pc>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c16380_0024.w.190717">mijn</w>
-          <w cert="1.0" lemma="heimelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.16380.sense.9" xml:id="c16380_0024.w.190718">heimelike</w>
+          <w cert="1.0" lemma="heimelijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c16380_0024.w.190718" lemmaRef="mnw.16380.sense.9">heimelike</w>
           <w cert="1.0" lemma="raad" pos="NOU-C(number=sg)" resp="roland" xml:id="c16380_0024.w.190719">raet</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c16380_0024.w.190720">ende</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c16380_0024.w.190721">mine</w>

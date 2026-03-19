@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.47135" lemma="ROOC" partition="train" sense-id="mnw.47135.sense.1" xml:id="c47135_0014">
-        <date atLeast="1440" atMost="1440" timeSpan="1400-1450" />
+      <cit xml:id="c47135_0014">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1440" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ROOC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.47135.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.47135</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1220">
           <pc join="right" pos="PC" xml:id="c47135_0014.pc.pre.00457186" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c47135_0014.w.1160237">Si</w>
           <pc pos="PC" xml:id="c47135_0014.pc.post.00457187" lemma=")">)</pc>
           <w cert="1.0" lemma="zien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c47135_0014.w.1160238">sagen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c47135_0014.w.1160239">den</w>
-          <w cert="1.0" lemma="rook" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.47135.sense.1" xml:id="c47135_0014.w.1160240">rooc</w>
+          <w cert="1.0" lemma="rook" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47135_0014.w.1160240" lemmaRef="mnw.47135.sense.1">rooc</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c47135_0014.w.1160241">vander</w>
           <w cert="1.0" lemma="stad" pos="NOU-C(number=sg)" resp="thomas" xml:id="c47135_0014.w.1160242">stat</w>
           <w cert="1.0" lemma="opgaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c47135_0014.w.1160243">opgaen</w>

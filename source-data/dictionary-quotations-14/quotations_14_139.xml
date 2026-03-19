@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03243" lemma="BENEMEN" partition="dev" sense-id="mnw.03243.sense.6" xml:id="c03243_0025">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c03243_0025">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>BENEMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03243.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03243</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.139">
           <pc join="right" pos="PC" xml:id="c03243_0025.pc.pre.00245321" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c03243_0025.w.629748">Si</w>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c03243_0025.pc.post.00245323" lemma=",">,</pc>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03243_0025.w.629755">entie</w>
           <w cert="1.0" lemma="warring" pos="NOU-C(number=sg)" resp="roland" xml:id="c03243_0025.w.629756">werringe</w>
-          <w cert="1.0" lemma="benemen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.03243.sense.6" xml:id="c03243_0025.w.629757">benamen</w>
+          <w cert="1.0" lemma="benemen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c03243_0025.w.629757" lemmaRef="mnw.03243.sense.6">benamen</w>
           <pc pos="PC" xml:id="c03243_0025.pc.floating.00245324" lemma=",">,</pc>
         </q>
       </cit>

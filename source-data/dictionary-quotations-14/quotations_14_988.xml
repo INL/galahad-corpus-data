@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25319" lemma="LEEC" partition="train" sense-id="mnw.25319.sense.4" xml:id="c25319_0023">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c25319_0023">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LEEC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25319.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25319</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.988">
           <w cert="1.0" lemma="mens" pos="NOU-C(number=sg)" resp="roland" xml:id="c25319_0023.w.170417">Mensche</w>
           <pc pos="PC" xml:id="c25319_0023.pc.post.00066136" lemma=",">,</pc>
@@ -73,7 +86,7 @@
           <pc pos="PC" xml:id="c25319_0023.pc.post.00066141" lemma=":">:</pc>
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c25319_0023.w.170434">al</w>
           <w cert="1.0" lemma="zijn+du" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c25319_0023.w.170435">bistu</w>
-          <w cert="1.0" lemma="leek" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.25319.sense.4" xml:id="c25319_0023.w.170436">leec</w>
+          <w cert="1.0" lemma="leek" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c25319_0023.w.170436" lemmaRef="mnw.25319.sense.4">leec</w>
           <pc pos="PC" xml:id="c25319_0023.pc.floating.00066142" lemma=",">,</pc>
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c25319_0023.w.170438">du</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25319_0023.w.170439">worts</w>

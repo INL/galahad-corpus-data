@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23172" lemma="COORSANC" partition="train" sense-id="mnw.23172.sense.1" xml:id="c23172_0000">
-        <date atLeast="1484" atMost="1484" timeSpan="1450-1500" />
+      <cit xml:id="c23172_0000">
+        <note>
+          <ab>
+            <date atLeast="1484" atMost="1484" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>COORSANC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23172.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23172</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.575">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c23172_0000.w.1281156">Dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c23172_0000.w.1281157">sijn</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c23172_0000.w.1281166">ende</w>
           <w cert="1.0" lemma="menig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c23172_0000.w.1281167">menighen</w>
           <w cert="1.0" lemma="kwaad" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c23172_0000.w.1281168">quaden</w>
-          <w cert="1.0" lemma="koorzang" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.23172.sense.1" xml:id="c23172_0000.w.1281169">choorsanck</w>
+          <w cert="1.0" lemma="koorzang" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23172_0000.w.1281169" lemmaRef="mnw.23172.sense.1">choorsanck</w>
           <pc pos="PC" xml:id="c23172_0000.pc.floating.00515691" lemma=",">,</pc>
         </q>
       </cit>

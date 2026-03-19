@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60248" lemma="UTEBOREN" partition="train" sense-id="mnw.60248.sense.1" xml:id="c60248_0000">
-        <date atLeast="1451" atMost="1451" timeSpan="1450-1500" />
+      <cit xml:id="c60248_0000">
+        <note>
+          <ab>
+            <date atLeast="1451" atMost="1451" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>UTEBOREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60248.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60248</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1675">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c60248_0000.w.657855">Dit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60248_0000.w.657856">is</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c60248_0000.w.657875">hi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c60248_0000.w.657876">den</w>
           <w cert="1.0" lemma="ploeg" pos="NOU-C(number=sg)" resp="thomas" xml:id="c60248_0000.w.657877">ploegh</w>
-          <w cert="1.0" lemma="uitbeuren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.60248.sense.1" xml:id="c60248_0000.w.657878">wtboort</w>
+          <w cert="1.0" lemma="uitbeuren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60248_0000.w.657878" lemmaRef="mnw.60248.sense.1">wtboort</w>
           <pc pos="PC" xml:id="c60248_0000.pc.floating.00268068" lemma=",">,</pc>
         </q>
       </cit>

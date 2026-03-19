@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66290" lemma="VIOLETTE" partition="train" sense-id="mnw.66290.sense.1" xml:id="c66290_0003">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c66290_0003">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VIOLETTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66290.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66290</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1959">
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c66290_0003.w.382144">Ende</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66290_0003.w.382145">wi</w>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66290_0003.w.382146">laten</w>
-          <w cert="1.0" lemma="violet" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.66290.sense.1" xml:id="c66290_0003.w.382147">violetten</w>
+          <w cert="1.0" lemma="violet" pos="NOU-C(number=pl)" resp="roland" xml:id="c66290_0003.w.382147" lemmaRef="mnw.66290.sense.1">violetten</w>
           <pc pos="PC" xml:id="c66290_0003.pc.floating.00151463" lemma=",">,</pc>
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c66290_0003.w.382149">omdat</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66290_0003.w.382150">wi</w>

@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68770" lemma="VORTCONDIGEN" partition="train" sense-id="mnw.68770.sense.2" xml:id="c68770_0002">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c68770_0002">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VORTCONDIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68770.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68770</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2048">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c68770_0002.w.877095">Ic</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c68770_0002.w.877096">sel</w>
-          <w cert="1.0" lemma="voortkondigen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.68770.sense.2" xml:id="c68770_0002.w.877097">voortkundighen</w>
+          <w cert="1.0" lemma="voortkondigen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c68770_0002.w.877097" lemmaRef="mnw.68770.sense.2">voortkundighen</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c68770_0002.w.877098">mijn</w>
           <w cert="1.0" lemma="boosheid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c68770_0002.w.877099">boosheit</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68770_0002.w.877100">ende</w>

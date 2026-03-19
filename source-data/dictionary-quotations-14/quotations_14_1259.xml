@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30535" lemma="MOLENCIJNS" partition="train" sense-id="mnw.30535.sense.1" xml:id="c30535_0000">
-        <date atLeast="1340" atMost="1379" timeSpan="1350-1400" />
+      <cit xml:id="c30535_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1379" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOLENCIJNS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30535.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30535</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1259">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c30535_0000.w.1272246">Dit</w>
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c30535_0000.w.1272247">wil</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="gehouden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c30535_0000.w.1272250">ghehouden</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c30535_0000.w.1272251">hebben</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30535_0000.w.1272252">vanden</w>
-          <w cert="1.0" lemma="molencijns" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30535.sense.1" xml:id="c30535_0000.w.1272253">moolensijs</w>
+          <w cert="1.0" lemma="molencijns" pos="NOU-C(number=sg)" resp="roland" xml:id="c30535_0000.w.1272253" lemmaRef="mnw.30535.sense.1">moolensijs</w>
           <pc pos="PC" xml:id="c30535_0000.pc.floating.00499807" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c30535_0000.w.1272255">alse</w>
           <w cert="1.0" lemma="dat+men" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c30535_0000.w.1272256">datmen</w>

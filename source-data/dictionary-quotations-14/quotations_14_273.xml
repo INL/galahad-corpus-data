@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06246" lemma="DEEMSTERHEIT" partition="train" sense-id="mnw.06246.sense.2" xml:id="c06246_0017">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c06246_0017">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DEEMSTERHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06246.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06246</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.273">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c06246_0017.w.74252">So</w>
           <w cert="1.0" lemma="gevoelen+hij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c06246_0017.w.74253">ghevoeldi</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="ding" pos="NOU-C(number=sg)" resp="roland" xml:id="c06246_0017.w.74263">dinc</w>
           <pc pos="PC" xml:id="c06246_0017.pc.post.00030740" lemma=",">,</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c06246_0017.w.74264">ene</w>
-          <w cert="1.0" lemma="deemsterheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06246.sense.2" xml:id="c06246_0017.w.74265">deemsterhede</w>
+          <w cert="1.0" lemma="deemsterheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c06246_0017.w.74265" lemmaRef="mnw.06246.sense.2">deemsterhede</w>
           <pc pos="PC" xml:id="c06246_0017.pc.floating.00030741" lemma=",">,</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06246_0017.w.74267">quiddam</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06246_0017.w.74268">nebulosum</w>

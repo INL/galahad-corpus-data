@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54809" lemma="STEDE" partition="train" sense-id="mnw.54809.sense.44" xml:id="c54809_0117">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c54809_0117">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STEDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54809.sense.44</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54809</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2213">
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c54809_0117.w.1483923">Sijn</w>
           <w cert="1.0" lemma="bisschopdom" pos="NOU-C(number=sg)" resp="roland" xml:id="c54809_0117.w.1483924">bisscopdoem</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c54809_0117.w.1483931">hi</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c54809_0117.w.1483932">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c54809_0117.w.1483933">siere</w>
-          <w cert="1.0" lemma="stad" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.54809.sense.44" xml:id="c54809_0117.w.1483934">steden</w>
+          <w cert="1.0" lemma="stad" pos="NOU-C(number=pl)" resp="roland" xml:id="c54809_0117.w.1483934" lemmaRef="mnw.54809.sense.44">steden</w>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c54809_0117.w.1483935">liet</w>
           <pc pos="PC" xml:id="c54809_0117.pc.post.00613969" lemma=",">,</pc>
         </q>

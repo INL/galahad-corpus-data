@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49294" lemma="SCHENKEN" partition="train" sense-id="mnw.49294.sense.5" xml:id="c49294_0031">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c49294_0031">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SCHENKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49294.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49294</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1992">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c49294_0031.w.319272">Doe</w>
           <w cert="1.0" lemma="slaan" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c49294_0031.w.319273">sloech</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c49294_0031.w.319280">ginc</w>
           <w cert="1.0" lemma="houwen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c49294_0031.w.319281">houwen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49294_0031.w.319282">ende</w>
-          <w cert="1.0" lemma="schenken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.49294.sense.5" xml:id="c49294_0031.w.319283">schinken</w>
+          <w cert="1.0" lemma="schenken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c49294_0031.w.319283" lemmaRef="mnw.49294.sense.5">schinken</w>
           <pc pos="PC" xml:id="c49294_0031.pc.floating.00131859" lemma=",">,</pc>
         </q>
       </cit>

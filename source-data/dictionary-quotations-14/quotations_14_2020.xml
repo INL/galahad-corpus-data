@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50023" lemma="SCHOOF" partition="train" sense-id="mnw.50023.sense.1" xml:id="c50023_0000">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c50023_0000">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SCHOOF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50023.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50023</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2020">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c50023_0000.w.466819">Daer</w>
           <w cert="1.0" lemma="kopen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c50023_0000.w.466820">cochte</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c50023_0000.w.466823">here</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c50023_0000.w.466824">den</w>
           <w cert="1.0" lemma="vijfde" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c50023_0000.w.466825">vijften</w>
-          <w cert="1.0" lemma="schoof" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.50023.sense.1" xml:id="c50023_0000.w.466826">scoof</w>
+          <w cert="1.0" lemma="schoof" pos="NOU-C(number=sg)" resp="roland" xml:id="c50023_0000.w.466826" lemmaRef="mnw.50023.sense.1">scoof</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c50023_0000.w.466827">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c50023_0000.w.466828">der</w>
           <w cert="1.0" lemma="vrucht" pos="NOU-C(number=sg)" resp="roland" xml:id="c50023_0000.w.466829">vrucht</w>

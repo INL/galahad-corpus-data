@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72774" lemma="WESEN" partition="train" sense-id="mnw.72774.sense.5" xml:id="c72774_0062">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c72774_0062">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WESEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72774.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72774</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3092">
           <w cert="1.0" lemma="broeder" pos="NOU-C(number=sg)" resp="roland" xml:id="c72774_0062.w.1740719">Broeder</w>
           <pc pos="PC" xml:id="c72774_0062.pc.post.00689651" lemma=",">,</pc>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c72774_0062.w.1740720">laet</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c72774_0062.w.1740721">dat</w>
-          <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.72774.sense.5" xml:id="c72774_0062.w.1740722">wesen</w>
+          <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c72774_0062.w.1740722" lemmaRef="mnw.72774.sense.5">wesen</w>
           <pc join="right" pos="PC" xml:id="c72774_0062.pc.pre.00689652" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c72774_0062.w.1740723">spreek</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c72774_0062.w.1740724">daar</w>

@@ -45,10 +45,23 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60040" lemma="TWI" partition="train" sense-id="mnw.60040.sense.1" xml:id="c60040_0003">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c60040_0003">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TWI</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60040.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60040</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2432">
-          <w cert="1.0" lemma="twij" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.60040.sense.1" xml:id="c60040_0003.w.611467">Twi</w>
+          <w cert="1.0" lemma="twij" pos="ADV(type=reg)" resp="thomas" xml:id="c60040_0003.w.611467" lemmaRef="mnw.60040.sense.1">Twi</w>
           <w cert="1.0" lemma="slaan+du" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c60040_0003.w.611468">slaestu</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c60040_0003.w.611469">mi</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c60040_0003.w.611470">van</w>

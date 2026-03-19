@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.33667" lemma="OMMELAGEN" partition="train" sense-id="mnw.33667.sense.1" xml:id="c33667_0000">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c33667_0000">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OMMELAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.33667.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.33667</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1399">
           <w cert="1.0" lemma="Herodias" pos="NOU-P" resp="roland" xml:id="c33667_0000.w.99548">Herodyas</w>
-          <w cert="1.0" lemma="omlagen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.33667.sense.1" xml:id="c33667_0000.w.99549">ommelaechdene</w>
+          <w cert="1.0" lemma="omlagen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c33667_0000.w.99549" lemmaRef="mnw.33667.sense.1">ommelaechdene</w>
           <pc join="right" pos="PC" xml:id="c33667_0000.pc.pre.00041181" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c33667_0000.w.99550">Johannes</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c33667_0000.w.99551">den</w>

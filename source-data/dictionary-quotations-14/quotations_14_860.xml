@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21663" lemma="CLACHTE" partition="train" sense-id="mnw.21663.sense.1" xml:id="c21663_0005">
-        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c21663_0005">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CLACHTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21663.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21663</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.860">
           <pc pos="PC" xml:id="c21663_0005.pc.floating.00406099" lemma="—">—</pc>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c21663_0005.w.1004154">Een</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c21663_0005.w.1004156">ghedaen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c21663_0005.w.1004157">van</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c21663_0005.w.1004158">groote</w>
-          <w cert="1.0" lemma="klacht" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.21663.sense.1" xml:id="c21663_0005.w.1004159">clachten</w>
+          <w cert="1.0" lemma="klacht" pos="NOU-C(number=pl)" resp="roland" xml:id="c21663_0005.w.1004159" lemmaRef="mnw.21663.sense.1">clachten</w>
           <pc join="right" pos="PC" xml:id="c21663_0005.pc.pre.00406100" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c21663_0005.w.1004160">hier</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c21663_0005.w.1004161">in</w>

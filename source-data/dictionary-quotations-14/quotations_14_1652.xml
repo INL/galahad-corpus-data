@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40322" lemma="OVERBALIU" partition="train" sense-id="mnw.40322.sense.1" xml:id="c40322_0000">
-        <date atLeast="1336" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c40322_0000">
+        <note>
+          <ab>
+            <date atLeast="1336" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERBALIU</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40322.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40322</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1652">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c40322_0000.w.1368043">Item</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c40322_0000.w.1368044">ghaven</w>
           <w cert="1.0" lemma="de+ontvanger" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=pl)" resp="thomas" xml:id="c40322_0000.w.1368045">dontfangers</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c40322_0000.w.1368046">den</w>
-          <w cert="1.0" lemma="overbaljuw" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40322.sense.1" xml:id="c40322_0000.w.1368047">overballiu</w>
+          <w cert="1.0" lemma="overbaljuw" pos="NOU-C(number=sg)" resp="roland" xml:id="c40322_0000.w.1368047" lemmaRef="mnw.40322.sense.1">overballiu</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c40322_0000.w.1368048">van</w>
           <w cert="1.0" lemma="Gent" pos="NOU-P" resp="roland" xml:id="c40322_0000.w.1368049">Ghent</w>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c40322_0000.w.1368050">over</w>

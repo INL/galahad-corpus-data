@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07527" lemma="DRACHT" partition="test" sense-id="mnw.07527.sense.8" xml:id="c07527_0025">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c07527_0025">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DRACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07527.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07527</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.328">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c07527_0025.w.275616">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07527_0025.w.275617">si</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="te+ontvangen" pos="ADP(type=pre)+VRB(finiteness=inf)" resp="thomas" xml:id="c07527_0025.w.275621">tontfaen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c07527_0025.w.275622">van</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=pl)" resp="roland" xml:id="c07527_0025.w.275623">manne</w>
-          <w cert="1.0" lemma="dracht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.07527.sense.8" xml:id="c07527_0025.w.275624">dracht</w>
+          <w cert="1.0" lemma="dracht" pos="NOU-C(number=sg)" resp="roland" xml:id="c07527_0025.w.275624" lemmaRef="mnw.07527.sense.8">dracht</w>
           <pc pos="PC" xml:id="c07527_0025.pc.floating.00118798" lemma=",">,</pc>
         </q>
       </cit>

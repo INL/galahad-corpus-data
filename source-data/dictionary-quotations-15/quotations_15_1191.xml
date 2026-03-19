@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46387" lemma="RIGUER" partition="train" sense-id="mnw.46387.sense.1" xml:id="c46387_0002">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c46387_0002">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>RIGUER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46387.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46387</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1191">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c46387_0002.w.996365">Soo</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c46387_0002.w.996366">wort</w>
@@ -75,7 +88,7 @@
           <w cert="1.0" lemma="betalen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c46387_0002.w.996384">betalen</w>
           <pc pos="PC" xml:id="c46387_0002.pc.floating.00391313" lemma="…">…</pc>
           <w cert="1.0" lemma="zonder" pos="ADP(type=pre)" resp="roland" xml:id="c46387_0002.w.996386">sonder</w>
-          <w cert="1.0" lemma="rigueur" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.46387.sense.1" xml:id="c46387_0002.w.996387">riguer</w>
+          <w cert="1.0" lemma="rigueur" pos="NOU-C(number=sg)" resp="thomas" xml:id="c46387_0002.w.996387" lemmaRef="mnw.46387.sense.1">riguer</w>
           <pc join="right" pos="PC" xml:id="c46387_0002.pc.pre.00391314" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c46387_0002.w.996388">gewelddadigheid</w>
           <pc pos="PC" xml:id="c46387_0002.pc.post.00391315" lemma=")">)</pc>

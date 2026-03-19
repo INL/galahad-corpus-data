@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40419" lemma="OVERDRACHT" partition="train" sense-id="mnw.40419.sense.1" xml:id="c40419_0000">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c40419_0000">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERDRACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40419.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40419</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1659">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c40419_0000.w.1385922">Van</w>
           <w cert="1.0" lemma="H." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c40419_0000.w.1385923">H.</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="cijns" pos="NOU-C(number=sg)" resp="roland" xml:id="c40419_0000.w.1385927">chense</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c40419_0000.w.1385928">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c40419_0000.w.1385929">der</w>
-          <w cert="1.0" lemma="overdracht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40419.sense.1" xml:id="c40419_0000.w.1385930">overdracht</w>
+          <w cert="1.0" lemma="overdracht" pos="NOU-C(number=sg)" resp="roland" xml:id="c40419_0000.w.1385930" lemmaRef="mnw.40419.sense.1">overdracht</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c40419_0000.w.1385931">in</w>
           <w cert="1.0" lemma="Snellegerskerk" pos="NOU-P" resp="roland" xml:id="c40419_0000.w.1385932">Snellegherskerke</w>
           <w cert="1.0" lemma="veertig" pos="NUM(type=card,position=prenom,representation=rom)" resp="thomas" xml:id="c40419_0000.w.1385933">XL</w>

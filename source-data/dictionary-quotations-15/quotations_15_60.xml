@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02247" lemma="BANCGELT" partition="train" sense-id="mnw.02247.sense.1" xml:id="c02247_0000">
-        <date atLeast="1399" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c02247_0000">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BANCGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02247.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02247</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.60">
           <w cert="1.0" lemma="item" pos="ADV(type=reg)" resp="thomas" xml:id="c02247_0000.w.403599">Item</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="roland" xml:id="c02247_0000.w.403600">enich</w>
@@ -80,7 +93,7 @@
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c02247_0000.w.403624">zolde</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02247_0000.w.403625">hy</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c02247_0000.w.403626">ziin</w>
-          <w cert="1.0" lemma="bankgeld" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.02247.sense.1" xml:id="c02247_0000.w.403627">bancghelt</w>
+          <w cert="1.0" lemma="bankgeld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c02247_0000.w.403627" lemmaRef="mnw.02247.sense.1">bancghelt</w>
           <w cert="1.0" lemma="wekelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c02247_0000.w.403628">wekelijc</w>
           <w cert="1.0" lemma="gelden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c02247_0000.w.403629">ghelden</w>
           <w cert="1.0" lemma="gelijk" pos="CONJ(type=sub)" resp="thomas" xml:id="c02247_0000.w.403630">ghelijc</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69529" lemma="VULICHHEIT" partition="dev" sense-id="mnw.69529.sense.4" xml:id="c69529_0017">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c69529_0017">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VULICHHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69529.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69529</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2930">
           <w cert="1.0" lemma="du" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69529_0017.w.1074081">Du</w>
           <w cert="1.0" lemma="zullen+sousteren+ertoe" pos="VRB(finiteness=fin,tense=past)+ADV(type=pron)+ADV(type=pron)" resp="thomas" xml:id="c69529_0017.w.1074082">souster<join n="mw_462132" />
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c69529_0017.w.1074091">ende</w>
           <w cert="1.0" lemma="begeven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69529_0017.w.1074092">begeef</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c69529_0017.w.1074093">die</w>
-          <w cert="1.0" lemma="vuiligheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.69529.sense.4" xml:id="c69529_0017.w.1074094">vulechede</w>
+          <w cert="1.0" lemma="vuiligheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c69529_0017.w.1074094" lemmaRef="mnw.69529.sense.4">vulechede</w>
           <pc pos="PC" xml:id="c69529_0017.pc.floating.00430598" lemma=",">,</pc>
         </q>
       </cit>

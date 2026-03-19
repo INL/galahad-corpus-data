@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.38172" lemma="ONTVLIEN" partition="train" sense-id="mnw.38172.sense.1" xml:id="c38172_0001">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c38172_0001">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONTVLIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.38172.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.38172</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.968">
           <w cert="1.0" lemma="hierom" pos="ADV(type=pron)" resp="thomas" xml:id="c38172_0001.w.891143">Hier<join n="mw_202010" />
           </w>
           <w cert="1.0" lemma="hierom" pos="ADV(type=pron)" resp="thomas" xml:id="c38172_0001.w.891144">omme<join n="mw_202010" />
           </w>
-          <w cert="1.0" lemma="ontvlieden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.38172.sense.1" xml:id="c38172_0001.w.891145">ontvlien</w>
+          <w cert="1.0" lemma="ontvlieden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c38172_0001.w.891145" lemmaRef="mnw.38172.sense.1">ontvlien</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c38172_0001.w.891146">si</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c38172_0001.w.891147">allen</w>
           <w cert="1.0" lemma="bekoring" pos="NOU-C(number=pl)" resp="roland" xml:id="c38172_0001.w.891148">becoringhen</w>

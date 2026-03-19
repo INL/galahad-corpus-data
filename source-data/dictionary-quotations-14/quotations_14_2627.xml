@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63450" lemma="VERLEDIGEN" partition="train" sense-id="mnw.63450.sense.3" xml:id="c63450_0016">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c63450_0016">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERLEDIGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63450.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63450</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2627">
           <w cert="1.0" lemma="begeren" pos="VRB(finiteness=prespart)" resp="thomas" xml:id="c63450_0016.w.1472160">Begerende</w>
           <w cert="1.0" lemma="dat+zij" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c63450_0016.w.1472161">dasse</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63450_0016.w.1472162">de</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c63450_0016.w.1472163">ziel</w>
           <pc pos="PC" xml:id="c63450_0016.pc.post.00588495" lemma=")">)</pc>
-          <w cert="1.0" lemma="verledigen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.63450.sense.3" xml:id="c63450_0016.w.1472164">verledeget</w>
+          <w cert="1.0" lemma="verledigen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c63450_0016.w.1472164" lemmaRef="mnw.63450.sense.3">verledeget</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63450_0016.w.1472165">werde</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c63450_0016.w.1472166">van</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c63450_0016.w.1472167">desen</w>

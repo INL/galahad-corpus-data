@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12343" lemma="GERAKEN" partition="train" sense-id="mnw.12343.sense.13" xml:id="c12343_0048">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c12343_0048">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GERAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12343.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12343</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.532">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12343_0048.w.1086913">Hi</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c12343_0048.w.1086914">die</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c12343_0048.w.1086920">sijn</w>
           <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="roland" xml:id="c12343_0048.w.1086921">werc</w>
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c12343_0048.w.1086922">aldus</w>
-          <w cert="1.0" lemma="geraken" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.12343.sense.13" xml:id="c12343_0048.w.1086923">geraect</w>
+          <w cert="1.0" lemma="geraken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c12343_0048.w.1086923" lemmaRef="mnw.12343.sense.13">geraect</w>
           <pc pos="PC" xml:id="c12343_0048.pc.floating.00457459" lemma=",">,</pc>
         </q>
       </cit>

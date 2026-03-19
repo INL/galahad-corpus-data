@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15738" lemma="HANTSCOE" partition="train" sense-id="mnw.15738.sense.6" xml:id="c15738_0013">
-        <date atLeast="1399" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c15738_0013">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>HANTSCOE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15738.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15738</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.401">
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c15738_0013.w.91184">Die<join n="mw_22751" />
           </w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c15738_0013.w.91191">of</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c15738_0013.w.91192">dien</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c15738_0013.w.91193">die</w>
-          <w cert="1.0" lemma="handschoen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.15738.sense.6" xml:id="c15738_0013.w.91194">hansche</w>
+          <w cert="1.0" lemma="handschoen" pos="NOU-C(number=sg)" resp="roland" xml:id="c15738_0013.w.91194" lemmaRef="mnw.15738.sense.6">hansche</w>
           <w cert="1.0" lemma="bieden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c15738_0013.w.91195">ghebooden</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c15738_0013.w.91196">were</w>
           <pc pos="PC" xml:id="c15738_0013.pc.post.00036274" lemma=",">,</pc>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36231" lemma="ONGEWAPENT" partition="train" sense-id="mnw.36231.sense.1" xml:id="c36231_0006">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c36231_0006">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONGEWAPENT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36231.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36231</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1464">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c36231_0006.w.476527">Hem</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c36231_0006.w.476528">die</w>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c36231_0006.pc.post.00194704" lemma=")">)</pc>
           <w cert="1.0" lemma="traag" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c36231_0006.w.476534">traech</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c36231_0006.w.476535">ende</w>
-          <w cert="1.0" lemma="ongewapend" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.36231.sense.1" xml:id="c36231_0006.w.476536">ongewapent</w>
+          <w cert="1.0" lemma="ongewapend" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c36231_0006.w.476536" lemmaRef="mnw.36231.sense.1">ongewapent</w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c36231_0006.w.476537">mede</w>
           <w cert="1.0" lemma="geboren" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c36231_0006.w.476538">geboren</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c36231_0006.w.476539">es</w>

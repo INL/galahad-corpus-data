@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48371" lemma="SARC" partition="train" sense-id="mnw.48371.sense.8" xml:id="c48371_0009">
-        <date atLeast="1291" atMost="1310" timeSpan="1300-1350" />
+      <cit xml:id="c48371_0009">
+        <note>
+          <ab>
+            <date atLeast="1291" atMost="1310" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SARC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48371.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48371</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1972">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c48371_0009.w.122027">Si</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c48371_0009.w.122028">daden</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c48371_0009.w.122031">ende</w>
           <w cert="1.0" lemma="werken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c48371_0009.w.122032">werken</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c48371_0009.w.122033">enen</w>
-          <w cert="1.0" lemma="zerk" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48371.sense.8" xml:id="c48371_0009.w.122034">sarc</w>
+          <w cert="1.0" lemma="zerk" pos="NOU-C(number=sg)" resp="roland" xml:id="c48371_0009.w.122034" lemmaRef="mnw.48371.sense.8">sarc</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c48371_0009.w.122035">van</w>
           <pc join="right" pos="PC" xml:id="c48371_0009.pc.pre.00050902" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48371_0009.w.122036">bewerken</w>

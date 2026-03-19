@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M090346" lemma="ZWART" modern-lemma="zwart" partition="test" pos="NOU-C" sense-id="M090346.bet.41" xml:id="M090346.eg.16550">
-        <date atLeast="1687" atMost="1687" timeSpan="1650-1700" />
+      <cit xml:id="M090346.eg.16550">
+        <note>
+          <ab>
+            <date atLeast="1687" atMost="1687" extent="1650-1700" />
+            <interpGrp type="lemma">
+              <interp>ZWART</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M090346.bet.41</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>zwart</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M090346</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1902">
           <w cert="1.0" lemma="o" pos="INT" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.271109">ô</w>
           <w cert="1.0" lemma="morgenster" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.271110">Morgenster</w>
@@ -107,7 +126,7 @@
           <w cert="1.0" lemma="voor" pos="ADP(type=pre)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.271154">voor</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.271155">dat</w>
           <w cert="1.0" lemma="eeuwig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.271156">eeuwig</w>
-          <w cert="1.0" lemma="zwart" pos="NOU-C(number=sg)" resp="thomas" sense-id="M090346.bet.41" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.271157">Zwart</w>
+          <w cert="1.0" lemma="zwart" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.w.271157" lemmaRef="M090346.bet.41">Zwart</w>
           <pc pos="PC" xml:id="INT_027671c5-749d-4fb4-a504-375c78a0e748.pc.post.0087758" lemma=",">,</pc>
         </q>
       </cit>

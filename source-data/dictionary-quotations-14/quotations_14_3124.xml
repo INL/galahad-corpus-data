@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73453" lemma="WIJNTAPPE" partition="train" sense-id="mnw.73453.sense.3" xml:id="c73453_0008">
-        <date atLeast="1367" atMost="1372" timeSpan="1350-1400" />
+      <cit xml:id="c73453_0008">
+        <note>
+          <ab>
+            <date atLeast="1367" atMost="1372" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WIJNTAPPE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73453.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73453</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3124">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c73453_0008.w.1861263">Van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73453_0008.w.1861264">den</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c73453_0008.w.1861268">verkregen</w>
           <pc pos="PC" xml:id="c73453_0008.pc.post.00734301" lemma=")">)</pc>
           <w cert="1.0" lemma="uit+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73453_0008.w.1861269">uyten</w>
-          <w cert="1.0" lemma="wijntap" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.73453.sense.3" xml:id="c73453_0008.w.1861270">wijntappen</w>
+          <w cert="1.0" lemma="wijntap" pos="NOU-C(number=pl)" resp="roland" xml:id="c73453_0008.w.1861270" lemmaRef="mnw.73453.sense.3">wijntappen</w>
           <pc pos="PC" xml:id="c73453_0008.pc.floating.00734302" lemma=",">,</pc>
         </q>
       </cit>

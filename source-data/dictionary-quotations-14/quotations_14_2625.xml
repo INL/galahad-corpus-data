@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63394" lemma="VERLAET" partition="train" sense-id="mnw.63394.sense.1" xml:id="c63394_0002">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c63394_0002">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERLAET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63394.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63394</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2625">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c63394_0002.w.1450675">In</w>
           <w cert="1.0" lemma="prediken" pos="NOU-C(number=sg)" resp="roland" xml:id="c63394_0002.w.1450676">prediken</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63394_0002.w.1450682">ende</w>
           <w cert="1.0" lemma="pijn" pos="NOU-C(number=sg)" resp="roland" xml:id="c63394_0002.w.1450683">pine</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63394_0002.w.1450684">ende</w>
-          <w cert="1.0" lemma="verlaat" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.63394.sense.1" xml:id="c63394_0002.w.1450685">verlaet</w>
+          <w cert="1.0" lemma="verlaat" pos="NOU-C(number=sg)" resp="roland" xml:id="c63394_0002.w.1450685" lemmaRef="mnw.63394.sense.1">verlaet</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c63394_0002.w.1450686">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c63394_0002.w.1450687">der</w>
           <w cert="1.0" lemma="discipline" pos="NOU-C(number=sg)" resp="roland" xml:id="c63394_0002.w.1450688">discipline</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68672" lemma="VORST" partition="train" sense-id="mnw.68672.sense.7" xml:id="c68672_0020">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c68672_0020">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VORST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68672.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68672</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2043">
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c68672_0020.w.848476">Die<join n="mw_446661" />
           </w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c68672_0020.w.848480">ende</w>
           <w cert="1.0" lemma="steek" pos="NOU-C(number=pl)" resp="roland" xml:id="c68672_0020.w.848481">steken</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c68672_0020.w.848482">int</w>
-          <w cert="1.0" lemma="voorste" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.68672.sense.7" xml:id="c68672_0020.w.848483">vorste</w>
+          <w cert="1.0" lemma="voorste" pos="NOU-C(number=sg)" resp="roland" xml:id="c68672_0020.w.848483" lemmaRef="mnw.68672.sense.7">vorste</w>
           <pc join="right" pos="PC" xml:id="c68672_0020.pc.pre.00340528" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c68672_0020.w.848484">in</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c68672_0020.w.848485">de</w>

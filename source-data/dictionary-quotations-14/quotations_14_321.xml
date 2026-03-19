@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07376" lemma="DORESPREIDEN" partition="train" sense-id="mnw.07376.sense.1" xml:id="c07376_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c07376_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DORESPREIDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07376.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07376</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.321">
           <w cert="1.0" lemma="mettien" pos="ADV(type=reg)" resp="thomas" xml:id="c07376_0000.w.256103">Mettien</w>
           <w cert="1.0" lemma="overzoet" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c07376_0000.w.256104">oversueten</w>
@@ -55,9 +68,9 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c07376_0000.w.256106">die</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c07376_0000.w.256107">al</w>
           <w cert="1.0" lemma="dat+vergier" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c07376_0000.w.256108">tvergier</w>
-          <w cert="1.0" lemma="doorspreiden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.07376.sense.1" xml:id="c07376_0000.w.256109">spreedde<join n="mw_257080" />
+          <w cert="1.0" lemma="doorspreiden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07376_0000.w.256109" lemmaRef="mnw.07376.sense.1">spreedde<join n="mw_257080" />
           </w>
-          <w cert="1.0" lemma="doorspreiden" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.07376.sense.1" xml:id="c07376_0000.w.256110">dore<join n="mw_257080" />
+          <w cert="1.0" lemma="doorspreiden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07376_0000.w.256110" lemmaRef="mnw.07376.sense.1">dore<join n="mw_257080" />
           </w>
           <pc pos="PC" xml:id="c07376_0000.pc.floating.00109702" lemma=",">,</pc>
         </q>

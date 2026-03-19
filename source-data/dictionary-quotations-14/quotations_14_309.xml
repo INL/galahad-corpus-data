@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06967" lemma="DOLE" partition="train" sense-id="mnw.06967.sense.3" xml:id="c06967_0003">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c06967_0003">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DOLE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06967.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06967</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.309">
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c06967_0003.w.204773">Daar<join n="mw_967690" />
           </w>
@@ -56,7 +69,7 @@
           </w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c06967_0003.w.204777">was</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c06967_0003.w.204778">in</w>
-          <w cert="1.0" lemma="dool" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06967.sense.3" xml:id="c06967_0003.w.204779">dolen</w>
+          <w cert="1.0" lemma="dool" pos="NOU-C(number=sg)" resp="roland" xml:id="c06967_0003.w.204779" lemmaRef="mnw.06967.sense.3">dolen</w>
           <pc pos="PC" xml:id="c06967_0003.pc.floating.00086857" lemma=",">,</pc>
           <w cert="1.0" lemma="zodat" pos="CONJ(type=sub)" resp="roland" xml:id="c06967_0003.w.204781">so<join n="mw_766776" />
           </w>

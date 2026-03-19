@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06485" lemma="DIACITRE" partition="train" sense-id="mnw.06485.sense.1" xml:id="c06485_0000">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c06485_0000">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>DIACITRE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06485.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06485</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.283">
           <w cert="1.0" lemma="tien" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c06485_0000.w.107966">10</w>
           <w cert="1.0" lemma="libra" pos="RES(type=symb)" resp="thomas" xml:id="c06485_0000.w.107967">ᨧ</w>
@@ -82,7 +95,7 @@
           <w cert="1.0" lemma="vijf" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c06485_0000.w.107988">5</w>
           <w cert="1.0" lemma="libra" pos="RES(type=symb)" resp="thomas" xml:id="c06485_0000.w.107989">ᨧ</w>
           <pc pos="PC" xml:id="c06485_0000.pc.floating.00045039" lemma="(?)">(?)</pc>
-          <w cert="1.0" lemma="dyaciter" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.06485.sense.1" xml:id="c06485_0000.w.107991">dyacitren</w>
+          <w cert="1.0" lemma="dyaciter" pos="NOU-C(number=sg)" resp="roland" xml:id="c06485_0000.w.107991" lemmaRef="mnw.06485.sense.1">dyacitren</w>
           <pc pos="PC" xml:id="c06485_0000.pc.floating.00045040" lemma=",">,</pc>
           <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c06485_0000.w.107993">2</w>
           <w cert="1.0" lemma="libra" pos="RES(type=symb)" resp="thomas" xml:id="c06485_0000.w.107994">ᨧ</w>

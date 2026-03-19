@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37930" lemma="ONTSLAEN" partition="train" sense-id="mnw.37930.sense.15" xml:id="c37930_0033">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c37930_0033">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTSLAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37930.sense.15</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37930</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1547">
           <pc join="right" pos="PC" xml:id="c37930_0033.pc.pre.00329507" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37930_0033.w.819257">Hi</w>
@@ -87,7 +100,7 @@
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c37930_0033.w.819288">hare</w>
           <w cert="1.0" lemma="bekennen" pos="NOU-C(number=sg)" resp="roland" xml:id="c37930_0033.w.819289">bekinnen</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37930_0033.w.819290">worde</w>
-          <w cert="1.0" lemma="ontslaan" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.37930.sense.15" xml:id="c37930_0033.w.819291">ontslegen</w>
+          <w cert="1.0" lemma="ontslaan" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c37930_0033.w.819291" lemmaRef="mnw.37930.sense.15">ontslegen</w>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c37930_0033.w.819292">also</w>
           <w cert="1.0" lemma="lang" pos="ADV(type=reg)" resp="roland" xml:id="c37930_0033.w.819293">lange</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c37930_0033.w.819294">als</w>

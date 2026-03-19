@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41195" lemma="OVERWAKEN" partition="train" sense-id="mnw.41195.sense.3" xml:id="c41195_0002">
-        <date atLeast="1336" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c41195_0002">
+        <note>
+          <ab>
+            <date atLeast="1336" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERWAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41195.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41195</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1680">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c41195_0002.w.1527372">Dat</w>
           <w cert="1.0" lemma="tweeënzeventig" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c41195_0002.w.1527373">72</w>
@@ -92,9 +105,9 @@
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c41195_0002.w.1527406">hem</w>
           <w cert="1.0" lemma="vier" pos="NUM(type=card,position=free,representation=dig)" resp="thomas" xml:id="c41195_0002.w.1527407">4</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c41195_0002.w.1527408">die</w>
-          <w cert="1.0" lemma="overwaken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.41195.sense.3" xml:id="c41195_0002.w.1527409">over<join n="mw_843358" />
+          <w cert="1.0" lemma="overwaken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c41195_0002.w.1527409" lemmaRef="mnw.41195.sense.3">over<join n="mw_843358" />
           </w>
-          <w cert="1.0" lemma="overwaken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.41195.sense.3" xml:id="c41195_0002.w.1527410">waecten<join n="mw_843358" />
+          <w cert="1.0" lemma="overwaken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c41195_0002.w.1527410" lemmaRef="mnw.41195.sense.3">waecten<join n="mw_843358" />
           </w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c41195_0002.w.1527411">ene</w>
           <w cert="1.0" lemma="maand" pos="NOU-C(number=sg)" resp="roland" xml:id="c41195_0002.w.1527412">maend</w>

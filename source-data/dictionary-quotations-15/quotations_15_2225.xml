@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73003" lemma="WICHELINGE" partition="train" sense-id="mnw.73003.sense.1" xml:id="c73003_0001">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c73003_0001">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WICHELINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73003.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73003</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2225">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73003_0001.w.1796985">Si</w>
           <pc join="right" pos="PC" xml:id="c73003_0001.pc.pre.00709848" lemma="(">(</pc>
@@ -92,7 +105,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c73003_0001.w.1797015">ende</w>
           <w cert="1.0" lemma="veel" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c73003_0001.w.1797016">veel</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c73003_0001.w.1797017">ander</w>
-          <w cert="1.0" lemma="wicheling" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73003.sense.1" xml:id="c73003_0001.w.1797018">wijchelinge</w>
+          <w cert="1.0" lemma="wicheling" pos="NOU-C(number=sg)" resp="roland" xml:id="c73003_0001.w.1797018" lemmaRef="mnw.73003.sense.1">wijchelinge</w>
           <pc pos="PC" xml:id="c73003_0001.pc.floating.00709862" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c73003_0001.w.1797020">dat</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73003_0001.w.1797021">die</w>

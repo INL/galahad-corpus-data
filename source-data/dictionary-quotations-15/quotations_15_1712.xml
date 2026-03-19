@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61271" lemma="VALSCH" partition="dev" sense-id="mnw.61271.sense.9" xml:id="c61271_0039">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c61271_0039">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VALSCH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61271.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61271</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1712">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c61271_0039.w.901613">So</w>
           <w cert="1.0" lemma="blijven+du" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c61271_0039.w.901614">blivestu</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c61271_0039.w.901620">der</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c61271_0039.w.901621">wereld</w>
           <pc pos="PC" xml:id="c61271_0039.pc.post.00363921" lemma=")">)</pc>
-          <w cert="1.0" lemma="vals" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.61271.sense.9" xml:id="c61271_0039.w.901622">valscher</w>
+          <w cert="1.0" lemma="vals" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c61271_0039.w.901622" lemmaRef="mnw.61271.sense.9">valscher</w>
           <w cert="1.0" lemma="min" pos="NOU-C(number=sg)" resp="roland" xml:id="c61271_0039.w.901623">minnen</w>
           <pc pos="PC" xml:id="c61271_0039.pc.post.00363922" lemma=",">,</pc>
         </q>

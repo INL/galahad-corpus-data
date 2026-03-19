@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44686" lemma="QUANS" partition="dev" sense-id="mnw.44686.sense.1" xml:id="c44686_0026">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c44686_0026">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>QUANS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44686.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44686</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1825">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c44686_0026.w.601464">Die</w>
           <w cert="1.0" lemma="rast" pos="NOU-C(number=sg)" resp="roland" xml:id="c44686_0026.w.601465">raste</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c44686_0026.w.601477">es</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c44686_0026.w.601478">hi</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c44686_0026.w.601479">comen</w>
-          <w cert="1.0" lemma="kwansuis" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.44686.sense.1" xml:id="c44686_0026.w.601480">quansijs</w>
+          <w cert="1.0" lemma="kwansuis" pos="ADV(type=reg)" resp="thomas" xml:id="c44686_0026.w.601480" lemmaRef="mnw.44686.sense.1">quansijs</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c44686_0026.w.601481">te</w>
           <w cert="1.0" lemma="hof" pos="NOU-C(number=sg)" resp="roland" xml:id="c44686_0026.w.601482">hove</w>
           <pc join="right" pos="PC" xml:id="c44686_0026.pc.pre.00236895" lemma="(">(</pc>

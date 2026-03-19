@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51447" lemma="SEPULTURE" partition="dev" sense-id="mnw.51447.sense.3" xml:id="c51447_0013">
-        <date atLeast="1461" atMost="1461" timeSpan="1450-1500" />
+      <cit xml:id="c51447_0013">
+        <note>
+          <ab>
+            <date atLeast="1461" atMost="1461" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SEPULTURE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51447.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51447</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1359">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c51447_0013.w.719336">Die</w>
           <w cert="1.0" lemma="rijk" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c51447_0013.w.719337">rike</w>
@@ -80,7 +93,7 @@
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c51447_0013.w.719360">nu</w>
           <w cert="1.0" lemma="kiezen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c51447_0013.w.719361">kiest</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c51447_0013.w.719362">u</w>
-          <w cert="1.0" lemma="sepultuur" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51447.sense.3" xml:id="c51447_0013.w.719363">sepulture</w>
+          <w cert="1.0" lemma="sepultuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c51447_0013.w.719363" lemmaRef="mnw.51447.sense.3">sepulture</w>
           <pc pos="PC" xml:id="c51447_0013.pc.floating.00298674" lemma=",">,</pc>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c51447_0013.w.719365">metten</w>
           <w cert="1.0" lemma="rijke" pos="NOU-C(number=pl)" resp="thomas" xml:id="c51447_0013.w.719366">riken</w>

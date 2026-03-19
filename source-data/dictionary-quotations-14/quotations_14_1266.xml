@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30722" lemma="MONT" partition="train" sense-id="mnw.30722.sense.7" xml:id="c30722_0056">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c30722_0056">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MONT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30722.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30722</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1266">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c30722_0056.w.1296430">Dat</w>
           <w cert="1.0" lemma="willen+ik" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c30722_0056.w.1296431">woudic</w>
@@ -56,7 +69,7 @@
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c30722_0056.w.1296435">liede</w>
           <w cert="1.0" lemma="altemaal" pos="ADV(type=reg)" resp="thomas" xml:id="c30722_0056.w.1296436">altemale</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c30722_0056.w.1296437">haren</w>
-          <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30722.sense.7" xml:id="c30722_0056.w.1296438">mont</w>
+          <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" xml:id="c30722_0056.w.1296438" lemmaRef="mnw.30722.sense.7">mont</w>
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c30722_0056.w.1296439">hilden</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c30722_0056.w.1296440">ende</w>
           <w cert="1.0" lemma="zwijgen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c30722_0056.w.1296441">swegen</w>

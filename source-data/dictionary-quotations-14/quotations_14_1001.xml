@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25595" lemma="LEITSMAN" partition="train" sense-id="mnw.25595.sense.2" xml:id="c25595_0010">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c25595_0010">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LEITSMAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25595.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25595</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1001">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c25595_0010.w.232041">Dat</w>
           <pc pos="PC" xml:id="c25595_0010.pc.floating.00089441" lemma="..">..</pc>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="gebidden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c25595_0010.w.232047">ghebaden</w>
           <w cert="1.0" lemma="Mozes" pos="NOU-P" resp="roland" xml:id="c25595_0010.w.232048">Moysese</w>
           <w cert="1.0" lemma="te+een" pos="ADP(type=pre)+NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c25595_0010.w.232049">teenen</w>
-          <w cert="1.0" lemma="leidsman" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25595.sense.2" xml:id="c25595_0010.w.232050">leedsman</w>
+          <w cert="1.0" lemma="leidsman" pos="NOU-C(number=sg)" resp="roland" xml:id="c25595_0010.w.232050" lemmaRef="mnw.25595.sense.2">leedsman</w>
           <pc pos="PC" xml:id="c25595_0010.pc.floating.00089443" lemma=",">,</pc>
         </q>
       </cit>

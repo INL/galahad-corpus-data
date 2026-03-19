@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.16692" lemma="HENENSTRIKEN" partition="train" sense-id="mnw.16692.sense.2" xml:id="c16692_0007">
-        <date atLeast="1390" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c16692_0007">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>HENENSTRIKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.16692.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.16692</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.710">
           <w cert="1.0" lemma="twee" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c16692_0007.w.234411">Twee</w>
           <w cert="1.0" lemma="gezel" pos="NOU-C(number=pl)" resp="roland" xml:id="c16692_0007.w.234412">ghesellen</w>
           <pc pos="PC" xml:id="c16692_0007.pc.floating.00095959" lemma="..">..</pc>
-          <w cert="1.0" lemma="heenstrijken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.16692.sense.2" xml:id="c16692_0007.w.234414">streken<join n="mw_343144" />
+          <w cert="1.0" lemma="heenstrijken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c16692_0007.w.234414" lemmaRef="mnw.16692.sense.2">streken<join n="mw_343144" />
           </w>
-          <w cert="1.0" lemma="heenstrijken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.16692.sense.2" xml:id="c16692_0007.w.234415">henen<join n="mw_343144" />
+          <w cert="1.0" lemma="heenstrijken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c16692_0007.w.234415" lemmaRef="mnw.16692.sense.2">henen<join n="mw_343144" />
           </w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c16692_0007.w.234416">so</w>
           <w cert="1.0" lemma="ver" pos="ADV(type=reg)" resp="thomas" xml:id="c16692_0007.w.234417">verre</w>

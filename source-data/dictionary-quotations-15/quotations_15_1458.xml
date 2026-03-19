@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53872" lemma="SPEL" partition="train" sense-id="mnw.53872.sense.18" xml:id="c53872_0212">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c53872_0212">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SPEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53872.sense.18</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53872</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1458">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c53872_0212.w.1252950">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c53872_0212.w.1252951">men</w>
@@ -63,7 +76,7 @@
           <pc pos="PC" xml:id="c53872_0212.pc.post.00520363" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="thomas" xml:id="c53872_0212.w.1252960">maer</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c53872_0212.w.1252961">in</w>
-          <w cert="1.0" lemma="spel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53872.sense.18" xml:id="c53872_0212.w.1252962">spele</w>
+          <w cert="1.0" lemma="spel" pos="NOU-C(number=sg)" resp="roland" xml:id="c53872_0212.w.1252962" lemmaRef="mnw.53872.sense.18">spele</w>
           <pc pos="PC" xml:id="c53872_0212.pc.floating.00520364" lemma=",">,</pc>
         </q>
       </cit>

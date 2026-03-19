@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.03790" lemma="BESMETTEN" partition="train" sense-id="mnw.03790.sense.14" xml:id="c03790_0024">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c03790_0024">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BESMETTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.03790.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.03790</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.192">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c03790_0024.w.759369">De</w>
           <w cert="1.0" lemma="beer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c03790_0024.w.759370">beer</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c03790_0024.w.759378">die</w>
           <w cert="1.0" lemma="waas" pos="NOU-C(number=sg)" resp="roland" xml:id="c03790_0024.w.759379">wase</w>
           <w cert="1.0" lemma="gaarne" pos="ADV(type=reg)" resp="thomas" xml:id="c03790_0024.w.759380">gaerne</w>
-          <w cert="1.0" lemma="besmetten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.03790.sense.14" xml:id="c03790_0024.w.759381">besmit</w>
+          <w cert="1.0" lemma="besmetten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c03790_0024.w.759381" lemmaRef="mnw.03790.sense.14">besmit</w>
           <pc pos="PC" xml:id="c03790_0024.pc.floating.00296444" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29118" lemma="MENICHVOUDELIKE" partition="train" sense-id="mnw.29118.sense.1" xml:id="c29118_0000">
-        <date atLeast="1484" atMost="1484" timeSpan="1450-1500" />
+      <cit xml:id="c29118_0000">
+        <note>
+          <ab>
+            <date atLeast="1484" atMost="1484" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MENICHVOUDELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29118.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29118</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.722">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29118_0000.w.954467">Die</w>
           <w cert="1.0" lemma="rijke" pos="NOU-C(number=pl)" resp="thomas" xml:id="c29118_0000.w.954468">rijcke</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29118_0000.w.954477">den</w>
           <w cert="1.0" lemma="dienst" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29118_0000.w.954478">dienst</w>
           <w cert="1.0" lemma="God" pos="NOU-P" resp="roland" xml:id="c29118_0000.w.954479">Godes</w>
-          <w cert="1.0" lemma="menigvoudelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.29118.sense.1" xml:id="c29118_0000.w.954480">menichfoudelic</w>
+          <w cert="1.0" lemma="menigvoudelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c29118_0000.w.954480" lemmaRef="mnw.29118.sense.1">menichfoudelic</w>
           <pc pos="PC" xml:id="c29118_0000.pc.floating.00372178" lemma=",">,</pc>
         </q>
       </cit>

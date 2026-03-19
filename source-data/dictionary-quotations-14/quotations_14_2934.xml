@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69735" lemma="WACHTEN" partition="train" sense-id="mnw.69735.sense.18" xml:id="c69735_0099">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c69735_0099">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WACHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69735.sense.18</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69735</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2934">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c69735_0099.w.1105210">Hi</w>
           <w cert="1.0" lemma="moeten+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c69735_0099.w.1105211">moesten</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69735_0099.w.1105212">den</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c69735_0099.w.1105213">gehangene</w>
           <pc pos="PC" xml:id="c69735_0099.pc.post.00443722" lemma=")">)</pc>
-          <w cert="1.0" lemma="wachten" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.69735.sense.18" xml:id="c69735_0099.w.1105214">wachten</w>
+          <w cert="1.0" lemma="wachten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c69735_0099.w.1105214" lemmaRef="mnw.69735.sense.18">wachten</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c69735_0099.w.1105215">den</w>
           <w cert="1.0" lemma="eerste" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c69735_0099.w.1105216">eersten</w>
           <w cert="1.0" lemma="nacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c69735_0099.w.1105217">nacht</w>

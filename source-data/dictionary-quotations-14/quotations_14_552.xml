@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12609" lemma="GERUST" partition="train" sense-id="mnw.12609.sense.4" xml:id="c12609_0003">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c12609_0003">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GERUST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12609.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12609</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.552">
           <w cert="1.0" lemma="dus" pos="ADV(type=reg)" resp="thomas" xml:id="c12609_0003.w.1146284">Dus</w>
           <w cert="1.0" lemma="eten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c12609_0003.w.1146285">aten</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c12609_0003.w.1146288">waren</w>
           <w cert="1.0" lemma="blij" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c12609_0003.w.1146289">blide</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c12609_0003.w.1146290">ende</w>
-          <w cert="1.0" lemma="gerust" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.12609.sense.4" xml:id="c12609_0003.w.1146291">gherust</w>
+          <w cert="1.0" lemma="gerust" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c12609_0003.w.1146291" lemmaRef="mnw.12609.sense.4">gherust</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c12609_0003.w.1146292">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c12609_0003.w.1146293">den</w>
           <w cert="1.0" lemma="strijd" pos="NOU-C(number=sg)" resp="roland" xml:id="c12609_0003.w.1146294">stride</w>

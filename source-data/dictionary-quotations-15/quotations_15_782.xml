@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31490" lemma="NADIEN" partition="train" sense-id="mnw.31490.sense.2" xml:id="c31490_0003">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c31490_0003">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>NADIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31490.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31490</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.782">
           <pc pos="PC" xml:id="c31490_0003.pc.floating.00557087" lemma=":">:</pc>
           <pc pos="PC" xml:id="c31490_0003.pc.floating.00557088" lemma="“">“</pc>
-          <w cert="1.0" lemma="nadien" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.31490.sense.2" xml:id="c31490_0003.w.1414307">na<join n="mw_567033" />
+          <w cert="1.0" lemma="nadien" pos="ADV(type=reg)" resp="thomas" xml:id="c31490_0003.w.1414307" lemmaRef="mnw.31490.sense.2">na<join n="mw_567033" />
           </w>
-          <w cert="1.0" lemma="nadien" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.31490.sense.2" xml:id="c31490_0003.w.1414308">dien<join n="mw_567033" />
+          <w cert="1.0" lemma="nadien" pos="ADV(type=reg)" resp="thomas" xml:id="c31490_0003.w.1414308" lemmaRef="mnw.31490.sense.2">dien<join n="mw_567033" />
           </w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c31490_0003.w.1414309">dat</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c31490_0003.w.1414310">gi</w>

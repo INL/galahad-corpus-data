@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44966" lemma="QUITE" partition="train" sense-id="mnw.44966.sense.61" xml:id="c44966_0189">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c44966_0189">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>QUITE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44966.sense.61</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44966</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1834">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c44966_0189.w.658648">Hi</w>
           <w cert="1.0" lemma="zenden+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c44966_0189.w.658649">senddem</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c44966_0189.w.658659">al</w>
           <w cert="1.0" lemma="Juda" pos="NOU-P" resp="roland" xml:id="c44966_0189.w.658660">Juda</w>
           <w cert="1.0" lemma="schelden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c44966_0189.w.658661">scolde</w>
-          <w cert="1.0" lemma="kwijt" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.44966.sense.61" xml:id="c44966_0189.w.658662">quite</w>
+          <w cert="1.0" lemma="kwijt" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c44966_0189.w.658662" lemmaRef="mnw.44966.sense.61">quite</w>
           <pc pos="PC" xml:id="c44966_0189.pc.floating.00259543" lemma=",">,</pc>
         </q>
       </cit>

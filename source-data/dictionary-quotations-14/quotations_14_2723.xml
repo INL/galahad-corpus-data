@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65264" lemma="VERVAREN" partition="dev" sense-id="mnw.65264.sense.10" xml:id="c65264_0070">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c65264_0070">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERVAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65264.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65264</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2723">
           <w cert="1.0" lemma="degene" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c65264_0070.w.146489">Die<join n="mw_199962" />
           </w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="generen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c65264_0070.w.146504">gheneren</w>
           <w cert="1.0" lemma="zondelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c65264_0070.w.146505">sondeleke</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c65264_0070.w.146506">ende</w>
-          <w cert="1.0" lemma="vervaren" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.65264.sense.10" xml:id="c65264_0070.w.146507">vervaert</w>
+          <w cert="1.0" lemma="vervaren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c65264_0070.w.146507" lemmaRef="mnw.65264.sense.10">vervaert</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c65264_0070.w.146508">sijn</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c65264_0070.w.146509">in</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c65264_0070.w.146510">haren</w>

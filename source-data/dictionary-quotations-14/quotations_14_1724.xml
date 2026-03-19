@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42255" lemma="PENSEN" partition="train" sense-id="mnw.42255.sense.4" xml:id="c42255_0006">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c42255_0006">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PENSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42255.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42255</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1724">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c42255_0006.w.173441">De</w>
           <w cert="1.0" lemma="maker" pos="NOU-C(number=sg)" resp="roland" xml:id="c42255_0006.w.173442">makere</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="tebarteren" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c42255_0006.w.173445">tebaerteert</w>
           <w cert="1.0" lemma="altehand" pos="ADV(type=reg)" resp="thomas" xml:id="c42255_0006.w.173446">altehant</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c42255_0006.w.173447">ende</w>
-          <w cert="1.0" lemma="peinzen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.42255.sense.4" xml:id="c42255_0006.w.173448">pensde</w>
+          <w cert="1.0" lemma="peinzen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c42255_0006.w.173448" lemmaRef="mnw.42255.sense.4">pensde</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c42255_0006.w.173449">te</w>
           <w cert="1.0" lemma="beter" pos="AA(degree=comp,position=prenom)" resp="thomas" xml:id="c42255_0006.w.173450">betren</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=pl)" resp="roland" xml:id="c42255_0006.w.173451">dingen</w>

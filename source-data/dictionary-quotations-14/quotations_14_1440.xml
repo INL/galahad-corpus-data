@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35433" lemma="ONGEHOORT" partition="train" sense-id="mnw.35433.sense.4" xml:id="c35433_0016">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c35433_0016">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONGEHOORT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35433.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35433</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1440">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c35433_0016.w.364210">Die</w>
           <w cert="1.0" lemma="dienstman" pos="NOU-C(number=sg)" resp="roland" xml:id="c35433_0016.w.364211">dienstman</w>
@@ -72,7 +85,7 @@
           <pc pos="PC" xml:id="c35433_0016.pc.post.00149173" lemma=")">)</pc>
           <pc pos="PC" xml:id="c35433_0016.pc.floating.00149174" lemma=",">,</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c35433_0016.w.364230">es</w>
-          <w cert="1.0" lemma="ongehoord" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.35433.sense.4" xml:id="c35433_0016.w.364231">ongehoort</w>
+          <w cert="1.0" lemma="ongehoord" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c35433_0016.w.364231" lemmaRef="mnw.35433.sense.4">ongehoort</w>
           <pc pos="PC" xml:id="c35433_0016.pc.floating.00149175" lemma=",">,</pc>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c35433_0016.w.364233">als</w>
           <w cert="1.0" lemma="ik+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c35433_0016.w.364234">ict</w>

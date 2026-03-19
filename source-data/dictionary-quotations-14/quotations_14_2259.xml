@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55866" lemma="STRIKEN" partition="train" sense-id="mnw.55866.sense.56" xml:id="c55866_0143">
-        <date atLeast="1364" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c55866_0143">
+        <note>
+          <ab>
+            <date atLeast="1364" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>STRIKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55866.sense.56</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55866</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2259">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c55866_0143.w.1731297">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c55866_0143.w.1731298">si</w>
@@ -55,7 +68,7 @@
           <pc pos="PC" xml:id="c55866_0143.pc.post.00714875" lemma=")">)</pc>
           <w cert="1.0" lemma="uit+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c55866_0143.w.1731300">uten</w>
           <w cert="1.0" lemma="klooster" pos="NOU-C(number=sg)" resp="roland" xml:id="c55866_0143.w.1731301">clooster</w>
-          <w cert="1.0" lemma="strijken" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.55866.sense.56" xml:id="c55866_0143.w.1731302">streec</w>
+          <w cert="1.0" lemma="strijken" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c55866_0143.w.1731302" lemmaRef="mnw.55866.sense.56">streec</w>
           <pc join="right" pos="PC" xml:id="c55866_0143.pc.pre.00714876" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c55866_0143.w.1731303">het</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c55866_0143.w.1731304">klooster</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59471" lemma="TROOSTERSE" partition="train" sense-id="mnw.59471.sense.1" xml:id="c59471_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c59471_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TROOSTERSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59471.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59471</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2416">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c59471_0000.w.547370">So</w>
           <w cert="1.0" lemma="openbaren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c59471_0000.w.547371">oppenbaerd</w>
@@ -59,7 +72,7 @@
           <pc pos="PC" xml:id="c59471_0000.pc.post.00221891" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c59471_0000.w.547377">die</w>
           <w cert="1.0" lemma="zoet" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c59471_0000.w.547378">soete</w>
-          <w cert="1.0" lemma="troosterse" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.59471.sense.1" xml:id="c59471_0000.w.547379">troostersse</w>
+          <w cert="1.0" lemma="troosterse" pos="NOU-C(number=sg)" resp="roland" xml:id="c59471_0000.w.547379" lemmaRef="mnw.59471.sense.1">troostersse</w>
           <pc pos="PC" xml:id="c59471_0000.pc.floating.00221892" lemma=",">,</pc>
           <w cert="1.0" lemma="Sint-Maria" pos="NOU-P" resp="roland" xml:id="c59471_0000.w.547381">sinte<join n="mw_291892" />
           </w>

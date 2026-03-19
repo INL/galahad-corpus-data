@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58478" lemma="TOELOPEN" partition="train" sense-id="mnw.58478.sense.3" xml:id="c58478_0010">
-        <date atLeast="1316" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c58478_0010">
+        <note>
+          <ab>
+            <date atLeast="1316" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TOELOPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58478.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58478</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2369">
           <pc join="right" pos="PC" xml:id="c58478_0010.pc.pre.00135612" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c58478_0010.w.332881">Als</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="elk" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c58478_0010.w.332892">elke</w>
           <w cert="1.0" lemma="zijde" pos="NOU-C(number=sg)" resp="roland" xml:id="c58478_0010.w.332893">side</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58478_0010.w.332894">u</w>
-          <w cert="1.0" lemma="toelopen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.58478.sense.3" xml:id="c58478_0010.w.332895">toeloopen</w>
+          <w cert="1.0" lemma="toelopen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58478_0010.w.332895" lemmaRef="mnw.58478.sense.3">toeloopen</w>
           <pc pos="PC" xml:id="c58478_0010.pc.floating.00135615" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c58478_0010.w.332897">so</w>
           <w cert="1.0" lemma="worden+gij" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c58478_0010.w.332898">werddi</w>

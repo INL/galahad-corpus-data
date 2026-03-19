@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09641" lemma="FIJN" partition="train" sense-id="mnw.09641.sense.10" xml:id="c09641_0037">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c09641_0037">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>FIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09641.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09641</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.250">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c09641_0037.w.597552">Die</w>
           <w cert="1.0" lemma="hulp" pos="NOU-C(number=sg)" resp="roland" xml:id="c09641_0037.w.597553">hulpe</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c09641_0037.w.597559">ende</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c09641_0037.w.597560">in</w>
           <w cert="1.0" lemma="eer" pos="NOU-C(number=sg)" resp="thomas" xml:id="c09641_0037.w.597561">eren</w>
-          <w cert="1.0" lemma="fijn" pos="AA(degree=pos,position=postnom)" resp="thomas" sense-id="mnw.09641.sense.10" xml:id="c09641_0037.w.597562">fijn</w>
+          <w cert="1.0" lemma="fijn" pos="AA(degree=pos,position=postnom)" resp="thomas" xml:id="c09641_0037.w.597562" lemmaRef="mnw.09641.sense.10">fijn</w>
           <pc pos="PC" xml:id="c09641_0037.pc.floating.00257678" lemma=",">,</pc>
         </q>
       </cit>

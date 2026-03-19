@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42989" lemma="PLAT" partition="train" sense-id="mnw.42989.sense.13" xml:id="c42989_0023">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c42989_0023">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PLAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42989.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42989</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1748">
           <pc join="right" pos="PC" xml:id="c42989_0023.pc.pre.00114227" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c42989_0023.w.292247">Doe</w>
@@ -90,7 +103,7 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c42989_0023.w.292278">si</w>
           <w cert="1.0" lemma="gevallen" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c42989_0023.w.292279">gevallen</w>
           <w cert="1.0" lemma="al" pos="ADV(type=reg)" resp="thomas" xml:id="c42989_0023.w.292280">al</w>
-          <w cert="1.0" lemma="plat" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.42989.sense.13" xml:id="c42989_0023.w.292281">plat</w>
+          <w cert="1.0" lemma="plat" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c42989_0023.w.292281" lemmaRef="mnw.42989.sense.13">plat</w>
           <pc pos="PC" xml:id="c42989_0023.pc.floating.00114237" lemma="?">?</pc>
         </q>
       </cit>

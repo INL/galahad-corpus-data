@@ -45,17 +45,30 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23579" lemma="COUSESCEPPER" partition="train" sense-id="mnw.23579.sense.1" xml:id="c23579_0001">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c23579_0001">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>COUSESCEPPER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23579.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23579</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.921">
           <w cert="1.0" lemma="Weitijn" pos="NOU-P" resp="roland" xml:id="c23579_0001.w.1369144">Weitine</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c23579_0001.w.1369145">van</w>
           <w cert="1.0" lemma="Kortrijk" pos="NOU-P" resp="roland" xml:id="c23579_0001.w.1369146">Curtrike</w>
           <pc pos="PC" xml:id="c23579_0001.pc.post.00550261" lemma=",">,</pc>
-          <w cert="1.0" lemma="kousenschepper" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.23579.sense.1" xml:id="c23579_0001.w.1369147">coussceppere</w>
+          <w cert="1.0" lemma="kousenschepper" pos="NOU-C(number=sg)" resp="roland" xml:id="c23579_0001.w.1369147" lemmaRef="mnw.23579.sense.1">coussceppere</w>
           <pc join="right" pos="PC" xml:id="c23579_0001.pc.pre.00550262" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c23579_0001.w.1369148">var.</w>
-          <w cert="1.0" lemma="kousenschepper" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.23579.sense.1" xml:id="c23579_0001.w.1369149">cousesceppere</w>
+          <w cert="1.0" lemma="kousenschepper" pos="NOU-C(number=sg)" resp="thomas" xml:id="c23579_0001.w.1369149" lemmaRef="mnw.23579.sense.1">cousesceppere</w>
           <pc pos="PC" xml:id="c23579_0001.pc.floating.00550264" lemma=")">)</pc>
           <pc pos="PC" xml:id="c23579_0001.pc.floating.00550265" lemma=",">,</pc>
         </q>

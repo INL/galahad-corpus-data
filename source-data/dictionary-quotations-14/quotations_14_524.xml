@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12071" lemma="GENIETEN" partition="train" sense-id="mnw.12071.sense.3" xml:id="c12071_0011">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c12071_0011">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GENIETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12071.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12071</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.524">
           <w cert="1.0" lemma="wallend" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c12071_0011.w.1040821">Wallende</w>
           <w cert="1.0" lemma="water" pos="NOU-C(number=sg)" resp="roland" xml:id="c12071_0011.w.1040822">water</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12071_0011.w.1040832">het</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12071_0011.w.1040833">kind</w>
           <pc pos="PC" xml:id="c12071_0011.pc.post.00438550" lemma=")">)</pc>
-          <w cert="1.0" lemma="genieten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.12071.sense.3" xml:id="c12071_0011.w.1040834">genieten</w>
+          <w cert="1.0" lemma="genieten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c12071_0011.w.1040834" lemmaRef="mnw.12071.sense.3">genieten</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c12071_0011.w.1040835">wel</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c12071_0011.w.1040836">mochte</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c12071_0011.w.1040837">bi</w>

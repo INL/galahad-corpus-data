@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41278" lemma="PACHT" partition="train" sense-id="mnw.41278.sense.1" xml:id="c41278_0001">
-        <date atLeast="1389" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c41278_0001">
+        <note>
+          <ab>
+            <date atLeast="1389" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41278.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41278</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1065">
           <w cert="1.0" lemma="pand" pos="NOU-C(number=pl)" resp="roland" xml:id="c41278_0001.w.328">Pande</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c41278_0001.w.329">die</w>
           <w cert="1.0" lemma="panden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c41278_0001.w.330">ghepant</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c41278_0001.w.331">werden</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c41278_0001.w.332">van</w>
-          <w cert="1.0" lemma="pacht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.41278.sense.1" xml:id="c41278_0001.w.333">pachte</w>
+          <w cert="1.0" lemma="pacht" pos="NOU-C(number=sg)" resp="roland" xml:id="c41278_0001.w.333" lemmaRef="mnw.41278.sense.1">pachte</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c41278_0001.w.334">of</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c41278_0001.w.335">van</w>
           <w cert="1.0" lemma="magenaas" pos="NOU-C(number=sg)" resp="roland" xml:id="c41278_0001.w.336">maghenaes</w>

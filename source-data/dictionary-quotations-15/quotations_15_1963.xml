@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66402" lemma="VISITATIE" partition="train" sense-id="mnw.66402.sense.1" xml:id="c66402_0001">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c66402_0001">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VISITATIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66402.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66402</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1963">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c66402_0001.w.401838">Van</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="c66402_0001.w.401839">dier</w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c66402_0001.w.401860">met</w>
           <w cert="1.0" lemma="heilig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c66402_0001.w.401861">heligher</w>
           <w cert="1.0" lemma="zoet" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c66402_0001.w.401862">soeter</w>
-          <w cert="1.0" lemma="visitatie" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.66402.sense.1" xml:id="c66402_0001.w.401863">visentaciën</w>
+          <w cert="1.0" lemma="visitatie" pos="NOU-C(number=sg)" resp="roland" xml:id="c66402_0001.w.401863" lemmaRef="mnw.66402.sense.1">visentaciën</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c66402_0001.w.401864">ende</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c66402_0001.w.401865">met</w>
           <w cert="1.0" lemma="schoon" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c66402_0001.w.401866">scoonen</w>

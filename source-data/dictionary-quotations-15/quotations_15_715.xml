@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29036" lemma="MELODIOOS" partition="train" sense-id="mnw.29036.sense.1" xml:id="c29036_0000">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c29036_0000">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>MELODIOOS</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29036.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29036</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.715">
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29036_0000.w.929554">Wi</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c29036_0000.w.929555">hebben</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c29036_0000.w.929560">van</w>
           <w cert="1.0" lemma="zang" pos="NOU-C(number=sg)" resp="roland" xml:id="c29036_0000.w.929561">sange</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c29036_0000.w.929562">ende</w>
-          <w cert="1.0" lemma="melodieus" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.29036.sense.1" xml:id="c29036_0000.w.929563">melodiosen</w>
+          <w cert="1.0" lemma="melodieus" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c29036_0000.w.929563" lemmaRef="mnw.29036.sense.1">melodiosen</w>
           <w cert="1.0" lemma="akkoord" pos="NOU-C(number=sg)" resp="roland" xml:id="c29036_0000.w.929564">acoorde</w>
           <pc pos="PC" xml:id="c29036_0000.pc.post.00362036" lemma=",">,</pc>
         </q>

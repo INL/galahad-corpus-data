@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M030113" lemma="KANT" modern-lemma="kant" partition="train" pos="AA ADV" sense-id="M030113.sense.51" xml:id="M030113.eg.24503">
-        <date atLeast="1670" atMost="1670" timeSpan="1650-1700" />
+      <cit xml:id="M030113.eg.24503">
+        <note>
+          <ab>
+            <date atLeast="1670" atMost="1670" extent="1650-1700" />
+            <interpGrp type="lemma">
+              <interp>KANT</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>AA ADV</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M030113.sense.51</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>kant</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M030113</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.514">
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492117">Sy</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492118">hebben</w>
@@ -59,7 +78,7 @@
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492123">Haer</w>
           <w cert="1.0" lemma="peilkompas" pos="NOU-C(number=sg)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492124">Peyl-kompas</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492125">is</w>
-          <w cert="1.0" lemma="kant" pos="AA(degree=pos,position=free)" resp="roland" sense-id="M030113.sense.51" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492126">kant</w>
+          <w cert="1.0" lemma="kant" pos="AA(degree=pos,position=free)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.492126" lemmaRef="M030113.sense.51">kant</w>
           <pc pos="PC" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00165844" lemma=",">,</pc>
         </q>
       </cit>

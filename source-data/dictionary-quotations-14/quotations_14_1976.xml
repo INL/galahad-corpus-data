@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48583" lemma="SCHAEP" partition="test" sense-id="mnw.48583.sense.1" xml:id="c48583_0015">
-        <date atLeast="1382" atMost="1383" timeSpan="1350-1400" />
+      <cit xml:id="c48583_0015">
+        <note>
+          <ab>
+            <date atLeast="1382" atMost="1383" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHAEP</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48583.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48583</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1976">
           <pc pos="PC" xml:id="c48583_0015.pc.floating.00070495" lemma="—">—</pc>
           <w cert="1.0" lemma="Z." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c48583_0015.w.169587">Z.</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="aanvaarden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c48583_0015.w.169595">aneverden</w>
           <w cert="1.0" lemma="dertig" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c48583_0015.w.169596">30</w>
           <w cert="1.0" lemma="hoofd" pos="NOU-C(number=sg)" resp="roland" xml:id="c48583_0015.w.169597">hooft</w>
-          <w cert="1.0" lemma="schaap" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.48583.sense.1" xml:id="c48583_0015.w.169598">scaep</w>
+          <w cert="1.0" lemma="schaap" pos="NOU-C(number=pl)" resp="roland" xml:id="c48583_0015.w.169598" lemmaRef="mnw.48583.sense.1">scaep</w>
           <pc join="right" pos="PC" xml:id="c48583_0015.pc.pre.00070498" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48583_0015.w.169599">stuks</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c48583_0015.w.169600">schapen</w>

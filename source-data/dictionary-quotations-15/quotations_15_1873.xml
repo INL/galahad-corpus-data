@@ -45,10 +45,23 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.64211" lemma="VERREN" partition="train" sense-id="mnw.64211.sense.21" xml:id="c64211_0043">
-        <date atLeast="1401" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c64211_0043">
+        <note>
+          <ab>
+            <date atLeast="1401" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.64211.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.64211</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1873">
-          <w cert="1.0" lemma="verren" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.64211.sense.21" xml:id="c64211_0043.w.1687205">Gheverret</w>
+          <w cert="1.0" lemma="verren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c64211_0043.w.1687205" lemmaRef="mnw.64211.sense.21">Gheverret</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="roland" xml:id="c64211_0043.w.1687206">te</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c64211_0043.w.1687207">wesen</w>
           <w cert="1.0" lemma="van+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c64211_0043.w.1687208">vanden</w>

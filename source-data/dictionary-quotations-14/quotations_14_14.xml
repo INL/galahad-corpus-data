@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00281" lemma="AENBEGINNEN" partition="train" sense-id="mnw.00281.sense.1" xml:id="c00281_0000">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c00281_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>AENBEGINNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00281.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00281</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.14">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c00281_0000.w.55360">Den</w>
           <w cert="1.0" lemma="offerzang" pos="NOU-C(number=sg)" resp="roland" xml:id="c00281_0000.w.55361">offersanc</w>
@@ -56,10 +69,10 @@
           <pc pos="PC" xml:id="c00281_0000.pc.post.00022737" lemma=".">.</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c00281_0000.w.55365">Dat</w>
           <w cert="1.0" lemma="koor" pos="NOU-C(number=sg)" resp="roland" xml:id="c00281_0000.w.55366">choer</w>
-          <w cert="1.0" lemma="aanbeginnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.00281.sense.1" xml:id="c00281_0000.w.55367">beghint<join n="mw_266311" />
+          <w cert="1.0" lemma="aanbeginnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c00281_0000.w.55367" lemmaRef="mnw.00281.sense.1">beghint<join n="mw_266311" />
           </w>
           <w cert="1.0" lemma="eerstwerf" pos="ADV(type=reg)" resp="thomas" xml:id="c00281_0000.w.55368">ierstwerf</w>
-          <w cert="1.0" lemma="aanbeginnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.00281.sense.1" xml:id="c00281_0000.w.55369">an<join n="mw_266311" />
+          <w cert="1.0" lemma="aanbeginnen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c00281_0000.w.55369" lemmaRef="mnw.00281.sense.1">an<join n="mw_266311" />
           </w>
           <pc pos="PC" xml:id="c00281_0000.pc.floating.00022738" lemma=",">,</pc>
         </q>

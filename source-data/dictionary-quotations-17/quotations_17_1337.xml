@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M070850" lemma="TROUWEN" modern-lemma="trouwen" partition="train" pos="ADV INT" sense-id="M070850.bet.8" xml:id="M070850.eg.60242">
-        <date atLeast="1660" atMost="1660" timeSpan="1650-1700" />
+      <cit xml:id="M070850.eg.60242">
+        <note>
+          <ab>
+            <date atLeast="1660" atMost="1660" extent="1650-1700" />
+            <interpGrp type="lemma">
+              <interp>TROUWEN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>ADV INT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M070850.bet.8</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>trouwen</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M070850</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1337">
           <w cert="1.0" lemma="L." pos="NOU-P(WF=abbr)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1120208">L.</w>
           <w cert="1.0" lemma="wenen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1120209">weenden</w>
@@ -73,7 +92,7 @@
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1120230">staen</w>
           <pc pos="PC" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00364132" lemma=",">,</pc>
           <w cert="1.0" lemma="nee" pos="ADV(type=reg)" resp="thomas" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1120231">neen</w>
-          <w cert="1.0" lemma="trouwen" pos="VRB(finiteness=inf)" resp="roland" sense-id="M070850.bet.8" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1120232">trouwen</w>
+          <w cert="1.0" lemma="trouwen" pos="VRB(finiteness=inf)" resp="roland" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.w.1120232" lemmaRef="M070850.bet.8">trouwen</w>
           <pc pos="PC" xml:id="INT_7a8f7cf3-c730-4443-8f2f-171c9a98b647.pc.post.00364133" lemma=",">,</pc>
         </q>
       </cit>

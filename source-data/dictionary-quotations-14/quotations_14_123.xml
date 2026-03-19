@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02939" lemma="BEJAGEN" partition="train" sense-id="mnw.02939.sense.10" xml:id="c02939_0049">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c02939_0049">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BEJAGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02939.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02939</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.123">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c02939_0049.w.551379">Doe</w>
-          <w cert="1.0" lemma="bejagen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.02939.sense.10" xml:id="c02939_0049.w.551380">bejagede</w>
+          <w cert="1.0" lemma="bejagen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c02939_0049.w.551380" lemmaRef="mnw.02939.sense.10">bejagede</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02939_0049.w.551381">hi</w>
           <w cert="1.0" lemma="vals" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c02939_0049.w.551382">valsche</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c02939_0049.w.551383">lieden</w>

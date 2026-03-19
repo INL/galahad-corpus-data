@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.56017" lemma="STUDACIE" partition="train" sense-id="mnw.56017.sense.1" xml:id="c56017_0000">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c56017_0000">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STUDACIE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.56017.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.56017</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1543">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c56017_0000.w.1755968">Daer</w>
           <w cert="1.0" lemma="Amand" pos="NOU-P" resp="roland" xml:id="c56017_0000.w.1755969">Amand</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c56017_0000.w.1755970">in</w>
-          <w cert="1.0" lemma="studatie" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.56017.sense.1" xml:id="c56017_0000.w.1755971">studaciën</w>
+          <w cert="1.0" lemma="studatie" pos="NOU-C(number=sg)" resp="roland" xml:id="c56017_0000.w.1755971" lemmaRef="mnw.56017.sense.1">studaciën</w>
           <w cert="1.0" lemma="zitten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c56017_0000.w.1755972">sat</w>
           <pc pos="PC" xml:id="c56017_0000.pc.post.00725100" lemma=",">,</pc>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c56017_0000.w.1755973">daer</w>

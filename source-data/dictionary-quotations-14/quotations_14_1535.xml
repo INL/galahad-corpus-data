@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37823" lemma="ONTSCIETEN" partition="test" sense-id="mnw.37823.sense.7" xml:id="c37823_0030">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c37823_0030">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTSCIETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37823.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37823</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1535">
           <w cert="1.0" lemma="vijfduizend" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c37823_0030.w.784440">Vijf<join n="mw_410740" />
           </w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="iemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c37823_0030.w.784454">iemene</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c37823_0030.w.784455">van</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c37823_0030.w.784456">hem</w>
-          <w cert="1.0" lemma="ontschieten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.37823.sense.7" xml:id="c37823_0030.w.784457">ontscoot</w>
+          <w cert="1.0" lemma="ontschieten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c37823_0030.w.784457" lemmaRef="mnw.37823.sense.7">ontscoot</w>
           <pc pos="PC" xml:id="c37823_0030.pc.floating.00316371" lemma=",">,</pc>
         </q>
       </cit>

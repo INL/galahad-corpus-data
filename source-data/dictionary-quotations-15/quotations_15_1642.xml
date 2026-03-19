@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.59030" lemma="TORTELDUVE" partition="train" sense-id="mnw.59030.sense.1" xml:id="c59030_0007">
-        <date atLeast="1478" atMost="1478" timeSpan="1450-1500" />
+      <cit xml:id="c59030_0007">
+        <note>
+          <ab>
+            <date atLeast="1478" atMost="1478" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>TORTELDUVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.59030.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.59030</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1642">
           <w cert="1.0" lemma="tot+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c59030_0007.w.450796">Totten</w>
           <w cert="1.0" lemma="staat" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59030_0007.w.450797">staet</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c59030_0007.w.450803">dat</w>
           <w cert="1.0" lemma="exempel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c59030_0007.w.450804">exempel</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c59030_0007.w.450805">der</w>
-          <w cert="1.0" lemma="tortelduif" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.59030.sense.1" xml:id="c59030_0007.w.450806">tortelduven</w>
+          <w cert="1.0" lemma="tortelduif" pos="NOU-C(number=pl)" resp="roland" xml:id="c59030_0007.w.450806" lemmaRef="mnw.59030.sense.1">tortelduven</w>
           <pc pos="PC" xml:id="c59030_0007.pc.floating.00182038" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="thomas" xml:id="c59030_0007.w.450808">want</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c59030_0007.w.450809">als</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52566" lemma="SLOT" partition="train" sense-id="mnw.52566.sense.8" xml:id="c52566_0025">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c52566_0025">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SLOT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52566.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52566</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1411">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c52566_0025.w.969706">So</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c52566_0025.w.969707">sijn</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="vergadering" pos="NOU-C(number=pl)" resp="roland" xml:id="c52566_0025.w.969714">vergaderinghen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c52566_0025.w.969715">ende</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c52566_0025.w.969716">in</w>
-          <w cert="1.0" lemma="slot" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.52566.sense.8" xml:id="c52566_0025.w.969717">sloten</w>
+          <w cert="1.0" lemma="slot" pos="NOU-C(number=pl)" resp="roland" xml:id="c52566_0025.w.969717" lemmaRef="mnw.52566.sense.8">sloten</w>
           <pc pos="PC" xml:id="c52566_0025.pc.floating.00402619" lemma=",">,</pc>
         </q>
       </cit>

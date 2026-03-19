@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45929" lemma="RECKEN" partition="test" sense-id="mnw.45929.sense.5" xml:id="c45929_0023">
-        <date atLeast="1434" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c45929_0023">
+        <note>
+          <ab>
+            <date atLeast="1434" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>RECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45929.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45929</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1177">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45929_0023.w.905607">Die</w>
           <w cert="1.0" lemma="laken" pos="NOU-C(number=pl)" resp="roland" xml:id="c45929_0023.w.905608">laken</w>
           <pc pos="PC" xml:id="c45929_0023.pc.floating.00355595" lemma="…">…</pc>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c45929_0023.w.905610">sullen</w>
           <w cert="1.0" lemma="eerst" pos="ADV(type=reg)" resp="thomas" xml:id="c45929_0023.w.905611">eerste</w>
-          <w cert="1.0" lemma="rekken" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.45929.sense.5" xml:id="c45929_0023.w.905612">gerect</w>
+          <w cert="1.0" lemma="rekken" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c45929_0023.w.905612" lemmaRef="mnw.45929.sense.5">gerect</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c45929_0023.w.905613">ende</w>
           <w cert="1.0" lemma="ramen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c45929_0023.w.905614">geraemt</w>
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c45929_0023.w.905615">wesen</w>

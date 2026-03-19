@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.54320" lemma="SPRAKE" partition="test" sense-id="mnw.54320.sense.11" xml:id="c54320_0064">
-        <date atLeast="1399" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c54320_0064">
+        <note>
+          <ab>
+            <date atLeast="1399" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>SPRAKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.54320.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.54320</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1477">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c54320_0064.w.1342280">Die</w>
           <w cert="1.0" lemma="knaap" pos="NOU-C(number=sg)" resp="roland" xml:id="c54320_0064.w.1342281">knape</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c54320_0064.w.1342284">met</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c54320_0064.w.1342285">ere</w>
           <w cert="1.0" lemma="luid" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c54320_0064.w.1342286">luder</w>
-          <w cert="1.0" lemma="spraak" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.54320.sense.11" xml:id="c54320_0064.w.1342287">sprake</w>
+          <w cert="1.0" lemma="spraak" pos="NOU-C(number=sg)" resp="roland" xml:id="c54320_0064.w.1342287" lemmaRef="mnw.54320.sense.11">sprake</w>
           <pc pos="PC" xml:id="c54320_0064.pc.floating.00557456" lemma=":">:</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c54320_0064.w.1342289">ende</w>
           <w cert="1.0" lemma="hebben+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c54320_0064.w.1342290">hebbic</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66390" lemma="VISEREN" partition="train" sense-id="mnw.66390.sense.32" xml:id="c66390_0162">
-        <date atLeast="1462" atMost="1462" timeSpan="1450-1500" />
+      <cit xml:id="c66390_0162">
+        <note>
+          <ab>
+            <date atLeast="1462" atMost="1462" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VISEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66390.sense.32</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66390</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1962">
           <w cert="1.0" lemma="dat+men" pos="CONJ(type=sub)+PD(type=pers,position=free)" resp="thomas" xml:id="c66390_0162.w.397472">Datmen</w>
           <w cert="1.0" lemma="negeen" pos="PD(type=indef,position=postnom)" resp="roland" xml:id="c66390_0162.w.397473">en<join n="mw_553763" />
@@ -78,7 +91,7 @@
           </w>
           <w cert="1.0" lemma="daartoe" pos="ADV(type=pron)" resp="thomas" xml:id="c66390_0162.w.397494">toe<join n="mw_120055" />
           </w>
-          <w cert="1.0" lemma="viseren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.66390.sense.32" xml:id="c66390_0162.w.397495">visieren</w>
+          <w cert="1.0" lemma="viseren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c66390_0162.w.397495" lemmaRef="mnw.66390.sense.32">visieren</w>
           <pc pos="PC" xml:id="c66390_0162.pc.floating.00157940" lemma=",">,</pc>
         </q>
       </cit>

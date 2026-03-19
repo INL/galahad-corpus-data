@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41710" lemma="PAPE" partition="train" sense-id="mnw.41710.sense.3" xml:id="c41710_0054">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c41710_0054">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PAPE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41710.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41710</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1699">
           <w cert="1.0" lemma="houden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c41710_0054.w.76288">Hout</w>
           <w cert="1.0" lemma="altoos" pos="ADV(type=reg)" resp="thomas" xml:id="c41710_0054.w.76289">altoos</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="kerk" pos="NOU-C(number=sg)" resp="roland" xml:id="c41710_0054.w.76297">kerke</w>
           <pc pos="PC" xml:id="c41710_0054.pc.post.00028727" lemma=",">,</pc>
           <w cert="1.0" lemma="eren" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c41710_0054.w.76298">eret</w>
-          <w cert="1.0" lemma="paap" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.41710.sense.3" xml:id="c41710_0054.w.76299">papen</w>
+          <w cert="1.0" lemma="paap" pos="NOU-C(number=pl)" resp="roland" xml:id="c41710_0054.w.76299" lemmaRef="mnw.41710.sense.3">papen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c41710_0054.w.76300">ende</w>
           <w cert="1.0" lemma="klerk" pos="NOU-C(number=pl)" resp="roland" xml:id="c41710_0054.w.76301">clerke</w>
           <pc pos="PC" xml:id="c41710_0054.pc.post.00028728" lemma=",">,</pc>

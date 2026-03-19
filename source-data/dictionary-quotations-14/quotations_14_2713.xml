@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65025" lemma="VERSWELGEN" partition="train" sense-id="mnw.65025.sense.3" xml:id="c65025_0008">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c65025_0008">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERSWELGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65025.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65025</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2713">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c65025_0008.w.75775">Dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c65025_0008.w.75776">si</w>
           <pc join="right" pos="PC" xml:id="c65025_0008.pc.pre.00029403" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c65025_0008.w.75777">boa's</w>
           <pc pos="PC" xml:id="c65025_0008.pc.post.00029404" lemma=")">)</pc>
-          <w cert="1.0" lemma="verzwelgen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.65025.sense.3" xml:id="c65025_0008.w.75778">verswelgen</w>
+          <w cert="1.0" lemma="verzwelgen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c65025_0008.w.75778" lemmaRef="mnw.65025.sense.3">verswelgen</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c65025_0008.w.75779">in</w>
           <w cert="1.0" lemma="sommig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c65025_0008.w.75780">somige</w>
           <w cert="1.0" lemma="stede" pos="NOU-C(number=sg)" resp="roland" xml:id="c65025_0008.w.75781">stede</w>

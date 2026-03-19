@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53917" lemma="SPENE" partition="train" sense-id="mnw.53917.sense.1" xml:id="c53917_0000">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c53917_0000">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SPENE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53917.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53917</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2169">
           <w cert="1.0" lemma="toen" pos="CONJ(type=sub)" resp="thomas" xml:id="c53917_0000.w.1271743">Doe</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c53917_0000.w.1271744">die</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c53917_0000.w.1271749">ende</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c53917_0000.w.1271750">in</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c53917_0000.w.1271751">sijn</w>
-          <w cert="1.0" lemma="speen" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.53917.sense.1" xml:id="c53917_0000.w.1271752">spenen</w>
+          <w cert="1.0" lemma="speen" pos="NOU-C(number=pl)" resp="roland" xml:id="c53917_0000.w.1271752" lemmaRef="mnw.53917.sense.1">spenen</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c53917_0000.w.1271753">daer</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c53917_0000.w.1271754">was</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=pastpart,WF=mis)" resp="roland" xml:id="c53917_0000.w.1271755">domen</w>

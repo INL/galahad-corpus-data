@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.23660" lemma="CRAEYEN" partition="train" sense-id="mnw.23660.sense.1" xml:id="c23660_0003">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c23660_0003">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>CRAEYEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.23660.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.23660</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.924">
           <w cert="1.0" lemma="eer" pos="CONJ(type=sub)" resp="thomas" xml:id="c23660_0003.w.1385604">Eer</w>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c23660_0003.w.1385605">dat</w>
           <w cert="1.0" lemma="tweewerf" pos="ADV(type=reg)" resp="thomas" xml:id="c23660_0003.w.1385606">tweewerf</w>
-          <w cert="1.0" lemma="kraaien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.23660.sense.1" xml:id="c23660_0003.w.1385607">crayt</w>
+          <w cert="1.0" lemma="kraaien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c23660_0003.w.1385607" lemmaRef="mnw.23660.sense.1">crayt</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c23660_0003.w.1385608">die</w>
           <w cert="1.0" lemma="haan" pos="NOU-C(number=sg)" resp="roland" xml:id="c23660_0003.w.1385609">hane</w>
           <pc pos="PC" xml:id="c23660_0003.pc.post.00556903" lemma=",">,</pc>

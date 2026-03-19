@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36628" lemma="ONMINNE" partition="test" sense-id="mnw.36628.sense.2" xml:id="c36628_0016">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c36628_0016">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONMINNE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36628.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36628</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1476">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c36628_0016.w.531117">Hi</w>
           <w cert="1.0" lemma="aanliggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c36628_0016.w.531118">lach<join n="mw_177502" />
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="aanliggen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c36628_0016.w.531120">aen<join n="mw_177502" />
           </w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c36628_0016.w.531121">met</w>
-          <w cert="1.0" lemma="onmin" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.36628.sense.2" xml:id="c36628_0016.w.531122">omminnen</w>
+          <w cert="1.0" lemma="onmin" pos="NOU-C(number=sg)" resp="roland" xml:id="c36628_0016.w.531122" lemmaRef="mnw.36628.sense.2">omminnen</w>
           <pc pos="PC" xml:id="c36628_0016.pc.floating.00216928" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c36628_0016.w.531124">ende</w>
           <w cert="1.0" lemma="drijven+zij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c36628_0016.w.531125">dreefse</w>

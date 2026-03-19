@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62215" lemma="VERBLUSSCHEN" partition="train" sense-id="mnw.62215.sense.4" xml:id="c62215_0003">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c62215_0003">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VERBLUSSCHEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62215.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62215</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2534">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c62215_0003.w.1124167">Die</w>
           <w cert="1.0" lemma="sterk" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c62215_0003.w.1124168">starcke</w>
@@ -70,7 +83,7 @@
           <pc pos="PC" xml:id="c62215_0003.pc.post.00453274" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c62215_0003.w.1124184">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62215_0003.w.1124185">si</w>
-          <w cert="1.0" lemma="verblussen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.62215.sense.4" xml:id="c62215_0003.w.1124186">verblusschede</w>
+          <w cert="1.0" lemma="verblussen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c62215_0003.w.1124186" lemmaRef="mnw.62215.sense.4">verblusschede</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c62215_0003.w.1124187">al</w>
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c62215_0003.w.1124188">ander</w>
           <w cert="1.0" lemma="nood" pos="NOU-C(number=sg)" resp="roland" xml:id="c62215_0003.w.1124189">noot</w>

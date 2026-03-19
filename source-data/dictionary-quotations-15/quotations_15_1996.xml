@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.67263" lemma="VOLACHTEN" partition="train" sense-id="mnw.67263.sense.1" xml:id="c67263_0000">
-        <date atLeast="1470" atMost="1480" timeSpan="1450-1500" />
+      <cit xml:id="c67263_0000">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1480" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VOLACHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.67263.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.67263</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1996">
           <w cert="1.0" lemma="uw" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c67263_0000.w.577596">U</w>
           <pc join="right" pos="PC" xml:id="c67263_0000.pc.pre.00231186" lemma="(">(</pc>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="wereld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67263_0000.w.577607">werlt</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c67263_0000.w.577608">niet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c67263_0000.w.577609">en</w>
-          <w cert="1.0" lemma="volachten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.67263.sense.1" xml:id="c67263_0000.w.577610">volachte(n</w>
+          <w cert="1.0" lemma="volachten" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c67263_0000.w.577610" lemmaRef="mnw.67263.sense.1">volachte(n</w>
           <pc pos="PC" xml:id="c67263_0000.pc.post.00231189" lemma=")">)</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c67263_0000.w.577611">dat</w>
           <w cert="1.0" lemma="verlies" pos="NOU-C(number=sg)" resp="thomas" xml:id="c67263_0000.w.577612">verlies</w>

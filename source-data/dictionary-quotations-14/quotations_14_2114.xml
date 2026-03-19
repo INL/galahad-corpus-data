@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.52677" lemma="SMAKEN" partition="train" sense-id="mnw.52677.sense.10" xml:id="c52677_0012">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c52677_0012">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SMAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.52677.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.52677</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2114">
           <w cert="1.0" lemma="nu" pos="ADV(type=reg)" resp="thomas" xml:id="c52677_0012.w.990612">Nu</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c52677_0012.w.990613">wert</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c52677_0012.w.990626">den</w>
           <w cert="1.0" lemma="zwaard" pos="NOU-C(number=sg)" resp="roland" xml:id="c52677_0012.w.990627">swerde</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c52677_0012.w.990628">sullen</w>
-          <w cert="1.0" lemma="smaken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.52677.sense.10" xml:id="c52677_0012.w.990629">smaken</w>
+          <w cert="1.0" lemma="smaken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c52677_0012.w.990629" lemmaRef="mnw.52677.sense.10">smaken</w>
           <pc pos="PC" xml:id="c52677_0012.pc.floating.00411076" lemma=",">,</pc>
         </q>
       </cit>

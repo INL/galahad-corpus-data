@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35553" lemma="ONGELETTET" partition="train" sense-id="mnw.35553.sense.1" xml:id="c35553_0003">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c35553_0003">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONGELETTET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35553.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35553</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1443">
           <pc join="right" pos="PC" xml:id="c35553_0003.pc.pre.00153928" lemma="(">(</pc>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c35553_0003.w.375834">Hen</w>
           <pc pos="PC" xml:id="c35553_0003.pc.post.00153929" lemma=")">)</pc>
           <w cert="1.0" lemma="ongemoeid" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35553_0003.w.375835">ongemoyt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c35553_0003.w.375836">ende</w>
-          <w cert="1.0" lemma="ongelet" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.35553.sense.1" xml:id="c35553_0003.w.375837">ongelet</w>
+          <w cert="1.0" lemma="ongelet" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c35553_0003.w.375837" lemmaRef="mnw.35553.sense.1">ongelet</w>
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c35553_0003.w.375838">laten</w>
           <w cert="1.0" lemma="varen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c35553_0003.w.375839">varen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c35553_0003.w.375840">ende</w>

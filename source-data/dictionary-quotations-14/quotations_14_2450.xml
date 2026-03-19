@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60327" lemma="UTEGAEN" partition="train" sense-id="mnw.60327.sense.36" xml:id="c60327_0121">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c60327_0121">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>UTEGAEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60327.sense.36</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60327</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2450">
           <w cert="1.0" lemma="H." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c60327_0121.w.679765">H.</w>
           <w cert="1.0" lemma="rijden" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c60327_0121.w.679766">ghereden</w>
@@ -63,7 +76,7 @@
           </w>
           <w cert="1.0" lemma="Sint-Jansdag" pos="NOU-P" resp="roland" xml:id="c60327_0121.w.679774">daghe<join n="mw_897576" />
           </w>
-          <w cert="1.0" lemma="uitgaand+oogst" pos="AA(degree=pos,position=prenom,WF=mis)+NOU-C(number=sg)" resp="thomas" sense-id="mnw.60327.sense.36" xml:id="c60327_0121.w.679775">wtganoechst</w>
+          <w cert="1.0" lemma="uitgaand+oogst" pos="AA(degree=pos,position=prenom,WF=mis)+NOU-C(number=sg)" resp="thomas" xml:id="c60327_0121.w.679775" lemmaRef="mnw.60327.sense.36">wtganoechst</w>
           <pc pos="PC" xml:id="c60327_0121.pc.floating.00276557" lemma=",">,</pc>
         </q>
       </cit>

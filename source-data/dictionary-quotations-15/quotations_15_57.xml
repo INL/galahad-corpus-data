@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02034" lemma="BADEN" partition="train" sense-id="mnw.02034.sense.3" xml:id="c02034_0002">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c02034_0002">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BADEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02034.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02034</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.57">
           <w cert="1.0" lemma="hier" pos="ADV(type=reg)" resp="thomas" xml:id="c02034_0002.w.366955">Hier</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c02034_0002.w.366956">wel</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c02034_0002.w.366959">so</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c02034_0002.w.366960">sal</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c02034_0002.w.366961">soe</w>
-          <w cert="1.0" lemma="baden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.02034.sense.3" xml:id="c02034_0002.w.366962">baden</w>
+          <w cert="1.0" lemma="baden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c02034_0002.w.366962" lemmaRef="mnw.02034.sense.3">baden</w>
           <pc pos="PC" xml:id="c02034_0002.pc.floating.00145296" lemma="…">…</pc>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c02034_0002.w.366964">int</w>
           <w cert="1.0" lemma="hels" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c02034_0002.w.366965">helsche</w>

@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68601" lemma="VOREWETEN" partition="test" sense-id="mnw.68601.sense.1" xml:id="c68601_0014">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c68601_0014">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VOREWETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68601.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68601</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2864">
           <w cert="1.0" lemma="alzo" pos="CONJ(type=sub)" resp="thomas" xml:id="c68601_0014.w.838357">Also</w>
           <w cert="1.0" lemma="hij+het" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c68601_0014.w.838358">hijt</w>
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c68601_0014.w.838359">selve</w>
-          <w cert="1.0" lemma="voorweten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.68601.sense.1" xml:id="c68601_0014.w.838360">vorwiste</w>
+          <w cert="1.0" lemma="voorweten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c68601_0014.w.838360" lemmaRef="mnw.68601.sense.1">vorwiste</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c68601_0014.w.838361">bi</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c68601_0014.w.838362">den</w>
           <w cert="1.0" lemma="vertoog" pos="NOU-C(number=sg)" resp="roland" xml:id="c68601_0014.w.838363">vertoge</w>

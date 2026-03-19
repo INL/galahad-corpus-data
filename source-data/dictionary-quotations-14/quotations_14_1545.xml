@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37900" lemma="ONTSIEN" partition="train" sense-id="mnw.37900.sense.3" xml:id="c37900_0002">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c37900_0002">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTSIEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37900.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37900</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1545">
           <w cert="1.0" lemma="heer" pos="NOU-C(number=sg)" resp="roland" xml:id="c37900_0002.w.805495">Her</w>
           <w cert="1.0" lemma="Kei" pos="NOU-P" resp="roland" xml:id="c37900_0002.w.805496">Keye</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="mijnheer" pos="NOU-C(number=sg)" resp="roland" xml:id="c37900_0002.w.805509">her<join n="mw_228559" />
           </w>
           <w cert="1.0" lemma="Gawein" pos="NOU-P" resp="roland" xml:id="c37900_0002.w.805510">Gaweine</w>
-          <w cert="1.0" lemma="ontzien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.37900.sense.3" xml:id="c37900_0002.w.805511">ontsiet</w>
+          <w cert="1.0" lemma="ontzien" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37900_0002.w.805511" lemmaRef="mnw.37900.sense.3">ontsiet</w>
           <pc pos="PC" xml:id="c37900_0002.pc.floating.00324370" lemma=",">,</pc>
         </q>
       </cit>

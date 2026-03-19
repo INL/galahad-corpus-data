@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34527" lemma="ONDERGRIPEN" partition="train" sense-id="mnw.34527.sense.1" xml:id="c34527_0001">
-        <date atLeast="1485" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c34527_0001">
+        <note>
+          <ab>
+            <date atLeast="1485" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONDERGRIPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34527.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34527</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.861">
           <pc pos="PC" xml:id="c34527_0001.pc.floating.00095271" lemma="—">—</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c34527_0001.w.230210">Die</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zon" pos="NOU-C(number=sg)" resp="roland" xml:id="c34527_0001.w.230222">sonnen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c34527_0001.w.230223">van</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c34527_0001.w.230224">ons</w>
-          <w cert="1.0" lemma="ondergrijpen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.34527.sense.1" xml:id="c34527_0001.w.230225">ondergrijpt</w>
+          <w cert="1.0" lemma="ondergrijpen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c34527_0001.w.230225" lemmaRef="mnw.34527.sense.1">ondergrijpt</w>
           <pc join="right" pos="PC" xml:id="c34527_0001.pc.pre.00095273" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c34527_0001.w.230226">wegneemt</w>
           <pc pos="PC" xml:id="c34527_0001.pc.post.00095274" lemma=")">)</pc>

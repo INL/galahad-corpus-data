@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46269" lemma="RIDERINGE" partition="train" sense-id="mnw.46269.sense.1" xml:id="c46269_0001">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c46269_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>RIDERINGE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46269.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46269</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1895">
           <w cert="1.0" lemma="cladie" pos="NOU-C(number=sg)" resp="roland" xml:id="c46269_0001.w.975307">Cladie</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c46269_0001.w.975308">of</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="kramp" pos="NOU-C(number=sg)" resp="roland" xml:id="c46269_0001.w.975314">crampe</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c46269_0001.w.975315">ende</w>
           <w cert="1.0" lemma="jegen" pos="ADP(type=pre)" resp="thomas" xml:id="c46269_0001.w.975316">jegen</w>
-          <w cert="1.0" lemma="rijering" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.46269.sense.1" xml:id="c46269_0001.w.975317">rideringe</w>
+          <w cert="1.0" lemma="rijering" pos="NOU-C(number=sg)" resp="thomas" xml:id="c46269_0001.w.975317" lemmaRef="mnw.46269.sense.1">rideringe</w>
           <pc pos="PC" xml:id="c46269_0001.pc.floating.00383049" lemma=",">,</pc>
         </q>
       </cit>

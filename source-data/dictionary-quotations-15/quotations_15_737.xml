@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29752" lemma="MILEGELT" partition="train" sense-id="mnw.29752.sense.1" xml:id="c29752_0006">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c29752_0006">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MILEGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29752.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29752</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.737">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c29752_0006.w.1092933">Soo</w>
           <w cert="1.0" lemma="wat" pos="PD(type=w-p,position=prenom)" resp="roland" xml:id="c29752_0006.w.1092934">wat</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="alzulk" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c29752_0006.w.1092949">alsulck</w>
           <w cert="1.0" lemma="daggeld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29752_0006.w.1092950">dachghelt</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c29752_0006.w.1092951">ende</w>
-          <w cert="1.0" lemma="mijlgeld" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.29752.sense.1" xml:id="c29752_0006.w.1092952">mijlghelt</w>
+          <w cert="1.0" lemma="mijlgeld" pos="NOU-C(number=sg)" resp="thomas" xml:id="c29752_0006.w.1092952" lemmaRef="mnw.29752.sense.1">mijlghelt</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c29752_0006.w.1092953">als</w>
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c29752_0006.w.1092954">onse</w>
           <w cert="1.0" lemma="poorter" pos="NOU-C(number=pl)" resp="roland" xml:id="c29752_0006.w.1092955">poorteren</w>

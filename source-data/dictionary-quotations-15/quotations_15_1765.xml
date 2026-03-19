@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62413" lemma="VERDERVEN" partition="dev" sense-id="mnw.62413.sense.30" xml:id="c62413_0124">
-        <date atLeast="1462" atMost="1462" timeSpan="1450-1500" />
+      <cit xml:id="c62413_0124">
+        <note>
+          <ab>
+            <date atLeast="1462" atMost="1462" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERDERVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62413.sense.30</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62413</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1765">
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c62413_0124.w.1174247">Om<join n="mw_422859" />
           </w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="storen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c62413_0124.w.1174253">ghestoort</w>
           <pc join="right" pos="PC" xml:id="c62413_0124.pc.pre.00472235" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c62413_0124.w.1174254">var.</w>
-          <w cert="1.0" lemma="verderven" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.62413.sense.30" xml:id="c62413_0124.w.1174255">verdervet</w>
+          <w cert="1.0" lemma="verderven" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c62413_0124.w.1174255" lemmaRef="mnw.62413.sense.30">verdervet</w>
           <pc pos="PC" xml:id="c62413_0124.pc.floating.00472237" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c62413_0124.w.1174257">gheweest</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c62413_0124.w.1174258">heeft</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55002" lemma="STEENWERC" partition="train" sense-id="mnw.55002.sense.1" xml:id="c55002_0000">
-        <date atLeast="1425" atMost="1425" timeSpan="1400-1450" />
+      <cit xml:id="c55002_0000">
+        <note>
+          <ab>
+            <date atLeast="1425" atMost="1425" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>STEENWERC</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55002.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55002</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1504">
           <w cert="1.0" lemma="willen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c55002_0000.w.1515324">Wil</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c55002_0000.w.1515325">he</w>
@@ -104,7 +117,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c55002_0000.w.1515366">de</w>
           <w cert="1.0" lemma="landheer" pos="NOU-C(number=sg)" resp="roland" xml:id="c55002_0000.w.1515367">lanthere</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c55002_0000.w.1515368">dat</w>
-          <w cert="1.0" lemma="steenwerk" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.55002.sense.1" xml:id="c55002_0000.w.1515369">steenwerc</w>
+          <w cert="1.0" lemma="steenwerk" pos="NOU-C(number=sg)" resp="thomas" xml:id="c55002_0000.w.1515369" lemmaRef="mnw.55002.sense.1">steenwerc</w>
           <w cert="1.0" lemma="gelden" pos="VRB(finiteness=inf)" resp="roland" xml:id="c55002_0000.w.1515370">ghelden</w>
           <w cert="1.0" lemma="toe" pos="ADP(type=pre)" resp="thomas" xml:id="c55002_0000.w.1515371">to</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c55002_0000.w.1515372">des</w>

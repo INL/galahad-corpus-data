@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41085" lemma="OVERTREDEN" partition="train" sense-id="mnw.41085.sense.21" xml:id="c41085_0030">
-        <date atLeast="1452" atMost="1452" timeSpan="1450-1500" />
+      <cit xml:id="c41085_0030">
+        <note>
+          <ab>
+            <date atLeast="1452" atMost="1452" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OVERTREDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41085.sense.21</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41085</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1060">
           <w cert="1.0" lemma="al" pos="CONJ(type=sub)" resp="thomas" xml:id="c41085_0030.w.1508292">Al</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c41085_0030.w.1508293">waer</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41085_0030.w.1508308">houden</w>
           <pc pos="PC" xml:id="c41085_0030.pc.post.00599673" lemma=")">)</pc>
           <pc pos="PC" xml:id="c41085_0030.pc.floating.00599674" lemma=",">,</pc>
-          <w cert="1.0" lemma="overtreden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.41085.sense.21" xml:id="c41085_0030.w.1508310">overtrede</w>
+          <w cert="1.0" lemma="overtreden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c41085_0030.w.1508310" lemmaRef="mnw.41085.sense.21">overtrede</w>
           <w cert="1.0" lemma="dijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c41085_0030.w.1508311">dinen</w>
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="thomas" xml:id="c41085_0030.w.1508312">vader</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c41085_0030.w.1508313">ende</w>

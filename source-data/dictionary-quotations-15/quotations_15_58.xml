@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02179" lemma="BALIU" partition="train" sense-id="mnw.02179.sense.6" xml:id="c02179_0019">
-        <date atLeast="1390" atMost="1410" timeSpan="1400-1450" />
+      <cit xml:id="c02179_0019">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1410" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>BALIU</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02179.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02179</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.58">
           <w cert="1.0" lemma="Antipater" pos="NOU-P" resp="roland" xml:id="c02179_0019.w.384719">Antypater</w>
           <pc pos="PC" xml:id="c02179_0019.pc.post.00152136" lemma=",">,</pc>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c02179_0019.w.384727">over</w>
           <w cert="1.0" lemma="Griek" pos="NOU-C(number=pl)" resp="roland" xml:id="c02179_0019.w.384728">Grieken</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c02179_0019.w.384729">es</w>
-          <w cert="1.0" lemma="baljuw" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.02179.sense.6" xml:id="c02179_0019.w.384730">baliu</w>
+          <w cert="1.0" lemma="baljuw" pos="NOU-C(number=sg)" resp="roland" xml:id="c02179_0019.w.384730" lemmaRef="mnw.02179.sense.6">baliu</w>
           <pc pos="PC" xml:id="c02179_0019.pc.floating.00152138" lemma=",">,</pc>
         </q>
       </cit>

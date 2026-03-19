@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.61368" lemma="VAREN" partition="test" sense-id="mnw.61368.sense.43" xml:id="c61368_0283">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c61368_0283">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VAREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.61368.sense.43</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.61368</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2493">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61368_0283.w.938586">Hi</w>
-          <w cert="1.0" lemma="varen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.61368.sense.43" xml:id="c61368_0283.w.938587">voer</w>
+          <w cert="1.0" lemma="varen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c61368_0283.w.938587" lemmaRef="mnw.61368.sense.43">voer</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c61368_0283.w.938588">of</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c61368_0283.w.938589">hi</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c61368_0283.w.938590">die</w>

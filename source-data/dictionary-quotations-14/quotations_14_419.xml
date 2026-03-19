@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10233" lemma="GAST" partition="train" sense-id="mnw.10233.sense.9" xml:id="c10233_0041">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c10233_0041">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GAST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10233.sense.9</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10233</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.419">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c10233_0041.w.684403">Als</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c10233_0041.w.684404">die</w>
           <w cert="1.0" lemma="arm" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c10233_0041.w.684405">arme</w>
-          <w cert="1.0" lemma="gast" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.10233.sense.9" xml:id="c10233_0041.w.684406">gasten</w>
+          <w cert="1.0" lemma="gast" pos="NOU-C(number=pl)" resp="roland" xml:id="c10233_0041.w.684406" lemmaRef="mnw.10233.sense.9">gasten</w>
           <w cert="1.0" lemma="komen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c10233_0041.w.684407">quamen</w>
           <pc pos="PC" xml:id="c10233_0041.pc.post.00294098" lemma=",">,</pc>
           <w cert="1.0" lemma="eer" pos="CONJ(type=sub)" resp="thomas" xml:id="c10233_0041.w.684408">eer</w>

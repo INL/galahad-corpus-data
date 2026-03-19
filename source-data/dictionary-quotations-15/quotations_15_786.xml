@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31662" lemma="NAGELNAEST" partition="train" sense-id="mnw.31662.sense.1" xml:id="c31662_0008">
-        <date atLeast="1480" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c31662_0008">
+        <note>
+          <ab>
+            <date atLeast="1480" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>NAGELNAEST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31662.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31662</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.786">
           <w cert="1.0" lemma="waar" pos="ADV(type=reg)" resp="thomas" xml:id="c31662_0008.w.1450121">Waer</w>
           <w cert="1.0" lemma="iemand" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c31662_0008.w.1450122">yemant</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c31662_0008.w.1450132">dien</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c31662_0008.w.1450133">mach</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c31662_0008.w.1450134">sijn</w>
-          <w cert="1.0" lemma="nagelnaaste" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.31662.sense.1" xml:id="c31662_0008.w.1450135">naghelnaest</w>
+          <w cert="1.0" lemma="nagelnaaste" pos="NOU-C(number=sg)" resp="thomas" xml:id="c31662_0008.w.1450135" lemmaRef="mnw.31662.sense.1">naghelnaest</w>
           <w cert="1.0" lemma="verantwoorden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c31662_0008.w.1450136">verantwoirden</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="roland" xml:id="c31662_0008.w.1450137">als</w>
           <w cert="1.0" lemma="recht" pos="NOU-C(number=sg)" resp="roland" xml:id="c31662_0008.w.1450138">recht</w>

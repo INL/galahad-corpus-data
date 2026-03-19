@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.09214" lemma="ERVARMEN" partition="train" sense-id="mnw.09214.sense.1" xml:id="c09214_0001">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c09214_0001">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ERVARMEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.09214.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.09214</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.385">
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c09214_0001.w.537662">Also</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c09214_0001.w.537663">sal</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c09214_0001.w.537665">een</w>
           <w cert="1.0" lemma="iegelijk" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c09214_0001.w.537666">igelic</w>
           <w cert="1.0" lemma="broeder" pos="NOU-C(number=sg)" resp="roland" xml:id="c09214_0001.w.537667">bruder</w>
-          <w cert="1.0" lemma="erbarmen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.09214.sense.1" xml:id="c09214_0001.w.537668">ervarmen</w>
+          <w cert="1.0" lemma="erbarmen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c09214_0001.w.537668" lemmaRef="mnw.09214.sense.1">ervarmen</w>
           <w cert="1.0" lemma="over" pos="ADP(type=pre)" resp="thomas" xml:id="c09214_0001.w.537669">over</w>
           <w cert="1.0" lemma="de+ander" pos="PD(type=d-p,subtype=art,position=prenom)+PD(type=indef,position=free)" resp="roland" xml:id="c09214_0001.w.537670">sanders</w>
           <w cert="1.0" lemma="krankheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c09214_0001.w.537671">crancheit</w>

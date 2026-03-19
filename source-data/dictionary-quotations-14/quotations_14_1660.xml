@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40419" lemma="OVERDRACHT" partition="train" sense-id="mnw.40419.sense.4" xml:id="c40419_0001">
-        <date atLeast="1302" atMost="1303" timeSpan="1300-1350" />
+      <cit xml:id="c40419_0001">
+        <note>
+          <ab>
+            <date atLeast="1302" atMost="1303" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERDRACHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40419.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40419</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1660">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c40419_0001.w.1386086">Van</w>
           <w cert="1.0" lemma="W." pos="NOU-P(WF=abbr)" resp="roland" xml:id="c40419_0001.w.1386087">W.</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c40419_0001.w.1386088">van</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c40419_0001.w.1386089">der</w>
-          <w cert="1.0" lemma="overdracht" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.40419.sense.4" xml:id="c40419_0001.w.1386090">overdracht</w>
+          <w cert="1.0" lemma="overdracht" pos="NOU-C(number=sg)" resp="roland" xml:id="c40419_0001.w.1386090" lemmaRef="mnw.40419.sense.4">overdracht</w>
           <pc join="right" pos="PC" xml:id="c40419_0001.pc.pre.00552495" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40419_0001.w.1386091">van</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40419_0001.w.1386092">den</w>

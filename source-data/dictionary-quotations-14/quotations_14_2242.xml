@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.55385" lemma="STIVELEN" partition="train" sense-id="mnw.55385.sense.1" xml:id="c55385_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c55385_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>STIVELEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.55385.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.55385</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2242">
           <w cert="1.0" lemma="Eglon" pos="NOU-P" resp="roland" xml:id="c55385_0000.w.1611465">Egloen</w>
           <pc pos="PC" xml:id="c55385_0000.pc.post.00666256" lemma=",">,</pc>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c55385_0000.w.1611477">sine</w>
           <w cert="1.0" lemma="kamer" pos="NOU-C(number=sg)" resp="roland" xml:id="c55385_0000.w.1611478">camere</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c55385_0000.w.1611479">ende</w>
-          <w cert="1.0" lemma="stijvelen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" sense-id="mnw.55385.sense.1" xml:id="c55385_0000.w.1611480">stivelden</w>
+          <w cert="1.0" lemma="stijvelen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c55385_0000.w.1611480" lemmaRef="mnw.55385.sense.1">stivelden</w>
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c55385_0000.w.1611481">daer</w>
           <pc pos="PC" xml:id="c55385_0000.pc.post.00666258" lemma=",">,</pc>
         </q>

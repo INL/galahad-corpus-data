@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.06449" lemma="DESSIDE" partition="train" sense-id="mnw.06449.sense.1" xml:id="c06449_0001">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c06449_0001">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DESSIDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.06449.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.06449</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.282">
           <w cert="1.0" lemma="of" pos="CONJ(type=sub)" resp="roland" xml:id="c06449_0001.w.105057">Oft</w>
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c06449_0001.w.105058">ic</w>
@@ -67,7 +80,7 @@
           <pc join="right" pos="PC" xml:id="c06449_0001.pc.pre.00043779" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06449_0001.w.105069">l.</w>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06449_0001.w.105070">in</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.06449.sense.1" xml:id="c06449_0001.w.105071">desside</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c06449_0001.w.105071" lemmaRef="mnw.06449.sense.1">desside</w>
           <pc pos="PC" xml:id="c06449_0001.pc.floating.00043781" lemma=")">)</pc>
           <pc pos="PC" xml:id="c06449_0001.pc.floating.00043782" lemma=",">,</pc>
         </q>

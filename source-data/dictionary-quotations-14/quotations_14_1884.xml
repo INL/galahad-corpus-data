@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.46106" lemma="RESTEN" partition="train" sense-id="mnw.46106.sense.13" xml:id="c46106_0029">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c46106_0029">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>RESTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.46106.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.46106</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1884">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c46106_0029.w.936689">Daer</w>
           <w cert="1.0" lemma="doen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c46106_0029.w.936690">deet</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="binnen" pos="ADP(type=pre)" resp="thomas" xml:id="c46106_0029.w.936698">binnen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c46106_0029.w.936699">den</w>
           <w cert="1.0" lemma="dag" pos="NOU-C(number=sg)" resp="roland" xml:id="c46106_0029.w.936700">daghe</w>
-          <w cert="1.0" lemma="rusten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.46106.sense.13" xml:id="c46106_0029.w.936701">reste</w>
+          <w cert="1.0" lemma="rusten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c46106_0029.w.936701" lemmaRef="mnw.46106.sense.13">reste</w>
           <pc pos="PC" xml:id="c46106_0029.pc.floating.00368099" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41049" lemma="OVERTALLICHEIT" partition="train" sense-id="mnw.41049.sense.2" xml:id="c41049_0008">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c41049_0008">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>OVERTALLICHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41049.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41049</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1677">
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c41049_0008.w.1501890">Aldus</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c41049_0008.w.1501891">wert</w>
@@ -75,7 +88,7 @@
           <w cert="1.0" lemma="onvertellijkheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c41049_0008.w.1501914">onvertellecheit</w>
           <pc join="right" pos="PC" xml:id="c41049_0008.pc.pre.00597270" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41049_0008.w.1501915">l.</w>
-          <w cert="1.0" lemma="" pos="" resp="thomas" sense-id="mnw.41049.sense.2" xml:id="c41049_0008.w.1501916">overtellecheit</w>
+          <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c41049_0008.w.1501916" lemmaRef="mnw.41049.sense.2">overtellecheit</w>
           <pc pos="PC" xml:id="c41049_0008.pc.floating.00597272" lemma=")">)</pc>
           <pc pos="PC" xml:id="c41049_0008.pc.floating.00597273" lemma=",">,</pc>
         </q>

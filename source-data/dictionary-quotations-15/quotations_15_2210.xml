@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.72736" lemma="WES" partition="test" sense-id="mnw.72736.sense.6" xml:id="c72736_0055">
-        <date atLeast="1491" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c72736_0055">
+        <note>
+          <ab>
+            <date atLeast="1491" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>WES</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.72736.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.72736</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2210">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c72736_0055.w.1731901">Zo</w>
-          <w cert="1.0" lemma="wat" pos="PD(type=indef,position=free)" resp="thomas" sense-id="mnw.72736.sense.6" xml:id="c72736_0055.w.1731902">wes</w>
+          <w cert="1.0" lemma="wat" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c72736_0055.w.1731902" lemmaRef="mnw.72736.sense.6">wes</w>
           <w cert="1.0" lemma="laken" pos="NOU-C(number=pl)" resp="roland" xml:id="c72736_0055.w.1731903">lakenen</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c72736_0055.w.1731904">die</w>
           <w cert="1.0" lemma="waardijn" pos="NOU-C(number=pl)" resp="thomas" xml:id="c72736_0055.w.1731905">wardeyns</w>

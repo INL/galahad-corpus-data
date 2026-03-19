@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10895" lemma="GEEST" partition="test" sense-id="mnw.10895.sense.11" xml:id="c10895_0034">
-        <date atLeast="1484" atMost="1484" timeSpan="1450-1500" />
+      <cit xml:id="c10895_0034">
+        <note>
+          <ab>
+            <date atLeast="1484" atMost="1484" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEEST</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10895.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10895</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.280">
           <w cert="1.0" lemma="dit" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c10895_0034.w.807782">Dit</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c10895_0034.w.807783">sijn</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c10895_0034.w.807791">hem</w>
           <w cert="1.0" lemma="zelf" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c10895_0034.w.807792">selven</w>
           <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c10895_0034.w.807793">vrie</w>
-          <w cert="1.0" lemma="geest" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.10895.sense.11" xml:id="c10895_0034.w.807794">gheesten</w>
+          <w cert="1.0" lemma="geest" pos="NOU-C(number=pl)" resp="roland" xml:id="c10895_0034.w.807794" lemmaRef="mnw.10895.sense.11">gheesten</w>
           <pc pos="PC" xml:id="c10895_0034.pc.floating.00344406" lemma=",">,</pc>
         </q>
       </cit>

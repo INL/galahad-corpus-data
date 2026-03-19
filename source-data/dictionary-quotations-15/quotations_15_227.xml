@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08484" lemma="EETBERSTICH" partition="train" sense-id="mnw.08484.sense.1" xml:id="c08484_0001">
-        <date atLeast="1407" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c08484_0001">
+        <note>
+          <ab>
+            <date atLeast="1407" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>EETBERSTICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08484.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08484</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.227">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c08484_0001.w.428099">Dat</w>
           <w cert="1.0" lemma="Egbert" pos="NOU-P" resp="thomas" xml:id="c08484_0001.w.428100">Ecbert</w>
@@ -61,7 +74,7 @@
           <pc pos="PC" xml:id="c08484_0001.pc.floating.00184802" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=sub)" resp="thomas" xml:id="c08484_0001.w.428108">want</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c08484_0001.w.428109">he</w>
-          <w cert="1.0" lemma="eedbarstig" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.08484.sense.1" xml:id="c08484_0001.w.428110">eedberstich</w>
+          <w cert="1.0" lemma="eedbarstig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c08484_0001.w.428110" lemmaRef="mnw.08484.sense.1">eedberstich</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c08484_0001.w.428111">ghewerden</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c08484_0001.w.428112">is</w>
           <pc pos="PC" xml:id="c08484_0001.pc.post.00184803" lemma=",">,</pc>

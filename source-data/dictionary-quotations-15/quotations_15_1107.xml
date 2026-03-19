@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.43142" lemma="PLOECHCNAPE" partition="train" sense-id="mnw.43142.sense.1" xml:id="c43142_0000">
-        <date atLeast="1415" atMost="1435" timeSpan="1400-1450" />
+      <cit xml:id="c43142_0000">
+        <note>
+          <ab>
+            <date atLeast="1415" atMost="1435" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PLOECHCNAPE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.43142.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.43142</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1107">
           <w cert="1.0" lemma="ander" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c43142_0000.w.336294">Ander</w>
           <w cert="1.0" lemma="knaap" pos="NOU-C(number=pl)" resp="roland" xml:id="c43142_0000.w.336295">knapen</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c43142_0000.w.336303">dat</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c43142_0000.w.336304">is</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c43142_0000.w.336305">een</w>
-          <w cert="1.0" lemma="ploegknaap" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.43142.sense.1" xml:id="c43142_0000.w.336306">ploechknaep</w>
+          <w cert="1.0" lemma="ploegknaap" pos="NOU-C(number=sg)" resp="thomas" xml:id="c43142_0000.w.336306" lemmaRef="mnw.43142.sense.1">ploechknaep</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c43142_0000.w.336307">ofte</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c43142_0000.w.336308">die</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c43142_0000.w.336309">een</w>

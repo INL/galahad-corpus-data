@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25844" lemma="LETTERE" partition="dev" sense-id="mnw.25844.sense.8" xml:id="c25844_0054">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c25844_0054">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LETTERE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25844.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25844</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1015">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c25844_0054.w.289363">Die</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c25844_0054.w.289364">die</w>
-          <w cert="1.0" lemma="letter" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.25844.sense.8" xml:id="c25844_0054.w.289365">letter</w>
+          <w cert="1.0" lemma="letter" pos="NOU-C(number=sg)" resp="roland" xml:id="c25844_0054.w.289365" lemmaRef="mnw.25844.sense.8">letter</w>
           <w cert="1.0" lemma="schrijven" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c25844_0054.w.289366">screef</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25844_0054.w.289367">ende</w>
           <w cert="1.0" lemma="scheppen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c25844_0054.w.289368">sciep</w>

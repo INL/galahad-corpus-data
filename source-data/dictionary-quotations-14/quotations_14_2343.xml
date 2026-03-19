@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57506" lemma="TELDEN" partition="dev" sense-id="mnw.57506.sense.1" xml:id="c57506_0010">
-        <date atLeast="1326" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c57506_0010">
+        <note>
+          <ab>
+            <date atLeast="1326" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>TELDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57506.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57506</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2343">
           <w cert="1.0" lemma="op" pos="ADP(type=pre)" resp="thomas" xml:id="c57506_0010.w.149036">Up</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c57506_0010.w.149037">enen</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c57506_0010.w.149042">ende</w>
           <w cert="1.0" lemma="snel" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c57506_0010.w.149043">snel</w>
           <pc pos="PC" xml:id="c57506_0010.pc.post.00061123" lemma=",">,</pc>
-          <w cert="1.0" lemma="tellen" pos="VRB(finiteness=prespart)" resp="roland" sense-id="mnw.57506.sense.1" xml:id="c57506_0010.w.149044">teldende</w>
+          <w cert="1.0" lemma="tellen" pos="VRB(finiteness=prespart)" resp="roland" xml:id="c57506_0010.w.149044" lemmaRef="mnw.57506.sense.1">teldende</w>
           <w cert="1.0" lemma="uitermate" pos="ADV(type=reg)" resp="thomas" xml:id="c57506_0010.w.149045">utermaten</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c57506_0010.w.149046">wel</w>
           <pc pos="PC" xml:id="c57506_0010.pc.post.00061124" lemma=",">,</pc>

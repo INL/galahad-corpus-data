@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.35589" lemma="ONGELOVE" partition="train" sense-id="mnw.35589.sense.4" xml:id="c35589_0001">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c35589_0001">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONGELOVE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.35589.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.35589</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1445">
           <pc join="right" pos="PC" xml:id="c35589_0001.pc.pre.00156975" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c35589_0001.w.383762">De</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c35589_0001.w.383775">sulc</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c35589_0001.w.383776">in</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c35589_0001.w.383777">grote</w>
-          <w cert="1.0" lemma="ongeloof" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.35589.sense.4" xml:id="c35589_0001.w.383778">ongeloven</w>
+          <w cert="1.0" lemma="ongeloof" pos="NOU-C(number=sg)" resp="roland" xml:id="c35589_0001.w.383778" lemmaRef="mnw.35589.sense.4">ongeloven</w>
           <pc pos="PC" xml:id="c35589_0001.pc.floating.00156979" lemma=",">,</pc>
           <w cert="1.0" lemma="zulk" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c35589_0001.w.383780">sulc</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c35589_0001.w.383781">in</w>

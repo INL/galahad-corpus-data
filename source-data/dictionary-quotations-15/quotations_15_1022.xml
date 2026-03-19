@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.40130" lemma="OSEVAT" partition="dev" sense-id="mnw.40130.sense.3" xml:id="c40130_0008">
-        <date atLeast="1468" atMost="1497" timeSpan="1450-1500" />
+      <cit xml:id="c40130_0008">
+        <note>
+          <ab>
+            <date atLeast="1468" atMost="1497" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>OSEVAT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.40130.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.40130</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1022">
           <pc join="right" pos="PC" xml:id="c40130_0008.pc.pre.00524660" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c40130_0008.w.1316646">Bij</w>
@@ -79,7 +92,7 @@
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c40130_0008.w.1316666">oft</w>
           <w cert="1.0" lemma="ketel" pos="NOU-C(number=sg)" resp="roland" xml:id="c40130_0008.w.1316667">kethele</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c40130_0008.w.1316668">ofte</w>
-          <w cert="1.0" lemma="hoosvat" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.40130.sense.3" xml:id="c40130_0008.w.1316669">oosvat</w>
+          <w cert="1.0" lemma="hoosvat" pos="NOU-C(number=sg)" resp="thomas" xml:id="c40130_0008.w.1316669" lemmaRef="mnw.40130.sense.3">oosvat</w>
           <pc pos="PC" xml:id="c40130_0008.pc.floating.00524667" lemma=",">,</pc>
         </q>
       </cit>

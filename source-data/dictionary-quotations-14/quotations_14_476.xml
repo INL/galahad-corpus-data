@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11593" lemma="GELIKE" partition="train" sense-id="mnw.11593.sense.2" xml:id="c11593_0008">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c11593_0008">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11593.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11593</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.476">
           <w cert="1.0" lemma="daarom" pos="ADV(type=pron)" resp="thomas" xml:id="c11593_0008.w.916615">Daer<join n="mw_148397" />
           </w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="elk" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c11593_0008.w.916619">elc</w>
           <w cert="1.0" lemma="zoeken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11593_0008.w.916620">soeken</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c11593_0008.w.916621">sijn</w>
-          <w cert="1.0" lemma="gelijke" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.11593.sense.2" xml:id="c11593_0008.w.916622">ghelike</w>
+          <w cert="1.0" lemma="gelijke" pos="NOU-C(number=sg)" resp="roland" xml:id="c11593_0008.w.916622" lemmaRef="mnw.11593.sense.2">ghelike</w>
           <pc pos="PC" xml:id="c11593_0008.pc.floating.00388832" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c11593_0008.w.916624">die</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c11593_0008.w.916625">hem</w>

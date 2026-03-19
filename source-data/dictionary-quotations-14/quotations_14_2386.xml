@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.58956" lemma="TORMENTEN" partition="test" sense-id="mnw.58956.sense.2" xml:id="c58956_0001">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c58956_0001">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TORMENTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.58956.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.58956</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2386">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c58956_0001.w.437269">Ic</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c58956_0001.w.437270">sal</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="gaan" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c58956_0001.w.437272">gaen</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c58956_0001.w.437273">mijn</w>
           <w cert="1.0" lemma="lijf" pos="NOU-C(number=sg)" resp="thomas" xml:id="c58956_0001.w.437274">lijf</w>
-          <w cert="1.0" lemma="tormenten" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.58956.sense.2" xml:id="c58956_0001.w.437275">tormenten</w>
+          <w cert="1.0" lemma="tormenten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c58956_0001.w.437275" lemmaRef="mnw.58956.sense.2">tormenten</w>
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c58956_0001.w.437276">als</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c58956_0001.w.437277">een</w>
           <w cert="1.0" lemma="katijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c58956_0001.w.437278">keytijf</w>

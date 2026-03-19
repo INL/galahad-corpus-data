@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29177" lemma="MENSCELIKE" partition="train" sense-id="mnw.29177.sense.1" xml:id="c29177_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c29177_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MENSCELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29177.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29177</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1173">
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c29177_0000.w.972420">Waren</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c29177_0000.w.972421">alle</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c29177_0000.w.972428">alle</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c29177_0000.w.972429">mine</w>
           <w cert="1.0" lemma="lid" pos="NOU-C(number=pl)" resp="roland" xml:id="c29177_0000.w.972430">lede</w>
-          <w cert="1.0" lemma="menselijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.29177.sense.1" xml:id="c29177_0000.w.972431">menscelike</w>
+          <w cert="1.0" lemma="menselijk" pos="ADV(type=reg)" resp="thomas" xml:id="c29177_0000.w.972431" lemmaRef="mnw.29177.sense.1">menscelike</w>
           <w cert="1.0" lemma="spreken" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c29177_0000.w.972432">spraken</w>
           <pc pos="PC" xml:id="c29177_0000.pc.floating.00379240" lemma="..,">..,</pc>
           <w cert="1.0" lemma="zo+ne" pos="ADV(type=reg)+ADV(type=reg)" resp="roland" xml:id="c29177_0000.w.972434">sone</w>

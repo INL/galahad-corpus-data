@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.10562" lemma="GEBUCKEN" partition="train" sense-id="mnw.10562.sense.1" xml:id="c10562_0000">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c10562_0000">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEBUCKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.10562.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.10562</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.272">
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c10562_0000.w.751650">En</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c10562_0000.w.751651">can</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c10562_0000.pc.post.00321157" lemma=",">,</pc>
           <w cert="1.0" lemma="geknielen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c10562_0000.w.751653">gecnielen</w>
           <pc pos="PC" xml:id="c10562_0000.pc.post.00321158" lemma=",">,</pc>
-          <w cert="1.0" lemma="gebukken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.10562.sense.1" xml:id="c10562_0000.w.751654">gebucken</w>
+          <w cert="1.0" lemma="gebukken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c10562_0000.w.751654" lemmaRef="mnw.10562.sense.1">gebucken</w>
           <pc pos="PC" xml:id="c10562_0000.pc.floating.00321159" lemma=",">,</pc>
           <w cert="1.0" lemma="dies" pos="ADV(type=reg)" resp="roland" xml:id="c10562_0000.w.751656">dies</w>
           <w cert="1.0" lemma="moeten+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="thomas" xml:id="c10562_0000.w.751657">moetic</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.45478" lemma="RECHTHEIT" partition="train" sense-id="mnw.45478.sense.2" xml:id="c45478_0002">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c45478_0002">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>RECHTHEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.45478.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.45478</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1860">
           <w cert="1.0" lemma="wezen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c45478_0002.w.807893">Wes</w>
           <w cert="1.0" lemma="recht" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c45478_0002.w.807894">recht</w>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c45478_0002.pc.post.00317077" lemma=",">,</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c45478_0002.w.807896">ende</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c45478_0002.w.807897">in</w>
-          <w cert="1.0" lemma="rechtheid" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.45478.sense.2" xml:id="c45478_0002.w.807898">rechtheit</w>
+          <w cert="1.0" lemma="rechtheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c45478_0002.w.807898" lemmaRef="mnw.45478.sense.2">rechtheit</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c45478_0002.w.807899">blive</w>
           <w cert="1.0" lemma="tot+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c45478_0002.w.807900">toten</w>
           <pc join="right" pos="PC" xml:id="c45478_0002.pc.pre.00317078" lemma="(">(</pc>

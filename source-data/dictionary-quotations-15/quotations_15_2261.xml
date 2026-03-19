@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73745" lemma="WINDEN" partition="test" sense-id="mnw.73745.sense.10" xml:id="c73745_0033">
-        <date atLeast="1400" atMost="1420" timeSpan="1400-1450" />
+      <cit xml:id="c73745_0033">
+        <note>
+          <ab>
+            <date atLeast="1400" atMost="1420" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>WINDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73745.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73745</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2261">
           <w cert="1.0" lemma="o" pos="INT" resp="thomas" xml:id="c73745_0033.w.1952622">O</w>
           <w cert="1.0" lemma="zoet" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c73745_0033.w.1952623">soete</w>
@@ -69,7 +82,7 @@
           <pc pos="PC" xml:id="c73745_0033.pc.post.00767187" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c73745_0033.w.1952638">die</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73745_0033.w.1952639">u</w>
-          <w cert="1.0" lemma="winden" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="mnw.73745.sense.10" xml:id="c73745_0033.w.1952640">ghewonghen</w>
+          <w cert="1.0" lemma="winden" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c73745_0033.w.1952640" lemmaRef="mnw.73745.sense.10">ghewonghen</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73745_0033.w.1952641">was</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c73745_0033.w.1952642">van</w>
           <w cert="1.0" lemma="doorn" pos="NOU-C(number=pl)" resp="roland" xml:id="c73745_0033.w.1952643">dorne</w>

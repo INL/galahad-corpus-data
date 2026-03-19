@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69293" lemma="VROME" partition="train" sense-id="mnw.69293.sense.1" xml:id="c69293_0005">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c69293_0005">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VROME</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69293.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69293</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2917">
           <w cert="1.0" lemma="als" pos="CONJ(type=sub)" resp="thomas" xml:id="c69293_0005.w.1031025">Als</w>
           <w cert="1.0" lemma="arm" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c69293_0005.w.1031026">aerme</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="baten" pos="VRB(finiteness=inf)" resp="roland" xml:id="c69293_0005.w.1031034">baten</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c69293_0005.w.1031035">ende</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c69293_0005.w.1031036">te</w>
-          <w cert="1.0" lemma="vromen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.69293.sense.1" xml:id="c69293_0005.w.1031037">vroomen</w>
+          <w cert="1.0" lemma="vromen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c69293_0005.w.1031037" lemmaRef="mnw.69293.sense.1">vroomen</w>
           <pc pos="PC" xml:id="c69293_0005.pc.floating.00412823" lemma=",">,</pc>
           <w cert="1.0" lemma="daaraf" pos="ADV(type=pron)" resp="thomas" xml:id="c69293_0005.w.1031039">daer<join n="mw_821122" />
           </w>

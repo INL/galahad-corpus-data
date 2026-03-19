@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M029761" lemma="KAMER" modern-lemma="kamer" partition="train" pos="NOU-C NOU-P" sense-id="M029761.bet.32" xml:id="M029761.eg.19842">
-        <date atLeast="1653" atMost="1653" timeSpan="1650-1700" />
+      <cit xml:id="M029761.eg.19842">
+        <note>
+          <ab>
+            <date atLeast="1653" atMost="1653" extent="1650-1700" />
+            <interpGrp type="lemma">
+              <interp>KAMER</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C NOU-P</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M029761.bet.32</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>kamer</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M029761</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.507">
           <w cert="1.0" lemma="wat+zijn" pos="PD(type=w-p,position=free)+VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.300696">Was</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.300697">datte</w>
@@ -59,7 +78,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.300702">de</w>
           <w cert="1.0" lemma="passenier" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.300703">Passeniers</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.300704">her</w>
-          <w cert="1.0" lemma="kamer" pos="NOU-C(number=sg)" resp="roland" sense-id="M029761.bet.32" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.300705">kaamer</w>
+          <w cert="1.0" lemma="kamer" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.w.300705" lemmaRef="M029761.bet.32">kaamer</w>
           <pc pos="PC" xml:id="INT_683ca2ec-dd5a-401f-aa2b-9a80e2855220.pc.post.00101090" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.49781" lemma="SCHIPMAN" partition="train" sense-id="mnw.49781.sense.1" xml:id="c49781_0018">
-        <date atLeast="1360" atMost="1380" timeSpan="1350-1400" />
+      <cit xml:id="c49781_0018">
+        <note>
+          <ab>
+            <date atLeast="1360" atMost="1380" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHIPMAN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.49781.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.49781</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2013">
           <w cert="1.0" lemma="toen" pos="ADV(type=reg)" resp="thomas" xml:id="c49781_0018.w.424667">Doe</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c49781_0018.w.424668">so</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="beide" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c49781_0018.w.424677">beede</w>
           <w cert="1.0" lemma="monnik" pos="NOU-C(number=pl)" resp="roland" xml:id="c49781_0018.w.424678">moonken</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c49781_0018.w.424679">ende</w>
-          <w cert="1.0" lemma="schipman" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.49781.sense.1" xml:id="c49781_0018.w.424680">scipman</w>
+          <w cert="1.0" lemma="schipman" pos="NOU-C(number=sg)" resp="roland" xml:id="c49781_0018.w.424680" lemmaRef="mnw.49781.sense.1">scipman</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c49781_0018.w.424681">alle</w>
           <w cert="1.0" lemma="vangen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c49781_0018.w.424682">vinghen</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c49781_0018.w.424683">si</w>

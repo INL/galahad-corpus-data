@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.15624" lemma="HANGEN" partition="train" sense-id="mnw.15624.sense.13" xml:id="c15624_0031">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c15624_0031">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HANGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.15624.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.15624</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.674">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c15624_0031.w.54083">Die</w>
           <w cert="1.0" lemma="lijst" pos="NOU-C(number=sg)" resp="roland" xml:id="c15624_0031.w.54084">lijste</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c15624_0031.w.54090">omme</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c15624_0031.w.54091">den</w>
           <w cert="1.0" lemma="mantel" pos="NOU-C(number=sg)" resp="thomas" xml:id="c15624_0031.w.54092">mantel</w>
-          <w cert="1.0" lemma="hangen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.15624.sense.13" xml:id="c15624_0031.w.54093">hinc</w>
+          <w cert="1.0" lemma="hangen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c15624_0031.w.54093" lemmaRef="mnw.15624.sense.13">hinc</w>
           <pc pos="PC" xml:id="c15624_0031.pc.floating.00022019" lemma=",">,</pc>
         </q>
       </cit>

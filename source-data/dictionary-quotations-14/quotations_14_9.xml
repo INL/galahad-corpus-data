@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.00180" lemma="ACHTERTRECKEN" partition="train" sense-id="mnw.00180.sense.2" xml:id="c00180_0006">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c00180_0006">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ACHTERTRECKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.00180.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.00180</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.9">
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="roland" xml:id="c00180_0006.w.31031">Wie</w>
           <w cert="1.0" lemma="zo+hij" pos="ADV(type=reg)+PD(type=pers,position=free)" resp="roland" xml:id="c00180_0006.w.31032">sone</w>
@@ -58,9 +71,9 @@
           <w cert="1.0" lemma="schamen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c00180_0006.w.31037">scaemde</w>
           <w cert="1.0" lemma="hem" pos="PD(type=refl,position=free)" resp="roland" xml:id="c00180_0006.w.31038">hem</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c00180_0006.w.31039">te</w>
-          <w cert="1.0" lemma="achtertrekken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.00180.sense.2" xml:id="c00180_0006.w.31040">treckene<join n="mw_762243" />
+          <w cert="1.0" lemma="achtertrekken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c00180_0006.w.31040" lemmaRef="mnw.00180.sense.2">treckene<join n="mw_762243" />
           </w>
-          <w cert="1.0" lemma="achtertrekken" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.00180.sense.2" xml:id="c00180_0006.w.31041">achter<join n="mw_762243" />
+          <w cert="1.0" lemma="achtertrekken" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c00180_0006.w.31041" lemmaRef="mnw.00180.sense.2">achter<join n="mw_762243" />
           </w>
           <pc pos="PC" xml:id="c00180_0006.pc.floating.00012641" lemma=",">,</pc>
         </q>

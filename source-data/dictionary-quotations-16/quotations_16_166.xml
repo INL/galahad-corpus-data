@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="A004223" lemma="DESIGNEEREN" modern-lemma="designeren" partition="train" pos="VRB" sense-id="A004223.bet.3" xml:id="A004223.eg.23331">
-        <date atLeast="1571" atMost="1571" timeSpan="1550-1600" />
+      <cit xml:id="A004223.eg.23331">
+        <note>
+          <ab>
+            <date atLeast="1571" atMost="1571" extent="1550-1600" />
+            <interpGrp type="lemma">
+              <interp>DESIGNEEREN</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>VRB</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>A004223.bet.3</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>designeren</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>A004223</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.166">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.327157">Die</w>
           <pc lemma="…" pos="PC" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.floating.0104128">…</pc>
@@ -77,7 +96,7 @@
           <w cert="1.0" lemma="ijzeren" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.327179">ijsere</w>
           <w cert="1.0" lemma="kruis" pos="NOU-C(number=sg)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.327180">cruis</w>
           <pc pos="PC" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0104133" lemma=",">,</pc>
-          <w cert="1.0" lemma="designeren" pos="VRB(finiteness=pastpart)" resp="thomas" sense-id="A004223.bet.3" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.327181">gedesigneert</w>
+          <w cert="1.0" lemma="designeren" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.327181" lemmaRef="A004223.bet.3">gedesigneert</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.w.327182">werdt</w>
           <pc pos="PC" xml:id="INT_1bba9f93-4711-443f-800b-52cebe848743.pc.post.0104134" lemma=",">,</pc>
         </q>

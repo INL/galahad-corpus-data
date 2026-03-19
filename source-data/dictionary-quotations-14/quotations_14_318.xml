@@ -45,15 +45,28 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.07214" lemma="DOREGATEN" partition="train" sense-id="mnw.07214.sense.1" xml:id="c07214_0003">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c07214_0003">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>DOREGATEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.07214.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.07214</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.318">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c07214_0003.w.241212">Een</w>
           <w cert="1.0" lemma="linnen" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c07214_0003.w.241213">linen</w>
           <w cert="1.0" lemma="kleed" pos="NOU-C(number=sg)" resp="roland" xml:id="c07214_0003.w.241214">cleet</w>
           <pc pos="PC" xml:id="c07214_0003.pc.floating.00102969" lemma="..,">..,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c07214_0003.w.241216">dat</w>
-          <w cert="1.0" lemma="doorgaten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.07214.sense.1" xml:id="c07214_0003.w.241217">doorgaette</w>
+          <w cert="1.0" lemma="doorgaten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c07214_0003.w.241217" lemmaRef="mnw.07214.sense.1">doorgaette</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c07214_0003.w.241218">hi</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c07214_0003.w.241219">met</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c07214_0003.w.241220">ere</w>

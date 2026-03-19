@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.42429" lemma="PERSEN" partition="train" sense-id="mnw.42429.sense.11" xml:id="c42429_0028">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c42429_0028">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>PERSEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.42429.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.42429</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1729">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c42429_0028.w.197537">Die</w>
           <w cert="1.0" lemma="keizer" pos="NOU-C(number=sg)" resp="roland" xml:id="c42429_0028.w.197538">keiser</w>
@@ -77,7 +90,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c42429_0028.w.197558">van</w>
           <w cert="1.0" lemma="buiten" pos="ADV(type=reg)" resp="thomas" xml:id="c42429_0028.w.197559">buten</w>
           <w cert="1.0" lemma="vast" pos="ADV(type=reg)" resp="roland" xml:id="c42429_0028.w.197560">vaste</w>
-          <w cert="1.0" lemma="persen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.42429.sense.11" xml:id="c42429_0028.w.197561">perste</w>
+          <w cert="1.0" lemma="persen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c42429_0028.w.197561" lemmaRef="mnw.42429.sense.11">perste</w>
           <pc pos="PC" xml:id="c42429_0028.pc.floating.00076133" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30722" lemma="MONT" partition="dev" sense-id="mnw.30722.sense.4" xml:id="c30722_0042">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c30722_0042">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MONT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30722.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30722</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1265">
           <w cert="1.0" lemma="lustelijk" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c30722_0042.w.1296025">Lostelijc</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c30722_0042.w.1296026">es</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="zieke" pos="NOU-C(number=sg)" resp="roland" xml:id="c30722_0042.w.1296032">sieke</w>
           <w cert="1.0" lemma="weren+het" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c30722_0042.w.1296033">weret</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c30722_0042.w.1296034">van</w>
-          <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30722.sense.4" xml:id="c30722_0042.w.1296035">monde</w>
+          <w cert="1.0" lemma="mond" pos="NOU-C(number=sg)" resp="roland" xml:id="c30722_0042.w.1296035" lemmaRef="mnw.30722.sense.4">monde</w>
           <pc pos="PC" xml:id="c30722_0042.pc.floating.00509253" lemma=",">,</pc>
         </q>
       </cit>

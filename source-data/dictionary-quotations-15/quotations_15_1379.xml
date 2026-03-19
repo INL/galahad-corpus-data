@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51886" lemma="SIJLRECHTER" partition="train" sense-id="mnw.51886.sense.1" xml:id="c51886_0007">
-        <date atLeast="1452" atMost="1501" timeSpan="1450-1500" />
+      <cit xml:id="c51886_0007">
+        <note>
+          <ab>
+            <date atLeast="1452" atMost="1501" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>SIJLRECHTER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51886.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51886</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1379">
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c51886_0007.w.813137">Rechter</w>
           <pc pos="PC" xml:id="c51886_0007.pc.post.00337965" lemma=",">,</pc>
           <w cert="1.0" lemma="dijkrechter" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51886_0007.w.813138">dijckrechter</w>
           <pc pos="PC" xml:id="c51886_0007.pc.post.00337966" lemma=",">,</pc>
-          <w cert="1.0" lemma="zijlrechter" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.51886.sense.1" xml:id="c51886_0007.w.813139">zijlrechter</w>
+          <w cert="1.0" lemma="zijlrechter" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51886_0007.w.813139" lemmaRef="mnw.51886.sense.1">zijlrechter</w>
           <pc pos="PC" xml:id="c51886_0007.pc.floating.00337967" lemma=",">,</pc>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="c51886_0007.w.813141">we</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c51886_0007.w.813142">dat</w>
@@ -94,7 +107,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c51886_0007.w.813170">van</w>
           <w cert="1.0" lemma="dijkrechter" pos="NOU-C(number=pl)" resp="roland" xml:id="c51886_0007.w.813171">dijckrechters</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c51886_0007.w.813172">ende</w>
-          <w cert="1.0" lemma="zijlrechter" pos="NOU-C(number=pl)" resp="thomas" sense-id="mnw.51886.sense.1" xml:id="c51886_0007.w.813173">zijllrechters</w>
+          <w cert="1.0" lemma="zijlrechter" pos="NOU-C(number=pl)" resp="thomas" xml:id="c51886_0007.w.813173" lemmaRef="mnw.51886.sense.1">zijllrechters</w>
           <pc pos="PC" xml:id="c51886_0007.pc.floating.00337973" lemma=",">,</pc>
         </q>
       </cit>

@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44968" lemma="QUITEN" partition="train" sense-id="mnw.44968.sense.6" xml:id="c44968_0043">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c44968_0043">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>QUITEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44968.sense.6</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44968</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1148">
           <pc join="right" pos="PC" xml:id="c44968_0043.pc.pre.00260774" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c44968_0043.w.661924">Hi</w>
           <pc pos="PC" xml:id="c44968_0043.pc.post.00260775" lemma=")">)</pc>
-          <w cert="1.0" lemma="kwijten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.44968.sense.6" xml:id="c44968_0043.w.661925">quite</w>
+          <w cert="1.0" lemma="kwijten" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c44968_0043.w.661925" lemmaRef="mnw.44968.sense.6">quite</w>
           <w cert="1.0" lemma="duur" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c44968_0043.w.661926">dire</w>
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=sg)" resp="thomas" xml:id="c44968_0043.w.661927">ridder</w>
           <w cert="1.0" lemma="pand" pos="NOU-C(number=sg)" resp="roland" xml:id="c44968_0043.w.661928">pande</w>

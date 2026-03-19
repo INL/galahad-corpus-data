@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.21847" lemma="CLEINE" partition="dev" sense-id="mnw.21847.sense.1" xml:id="c21847_0024">
-        <date atLeast="1351" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c21847_0024">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>CLEINE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.21847.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.21847</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.866">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c21847_0024.w.1043978">Hi</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c21847_0024.w.1043979">was</w>
-          <w cert="1.0" lemma="klein" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.21847.sense.1" xml:id="c21847_0024.w.1043980">clene</w>
+          <w cert="1.0" lemma="klein" pos="ADV(type=reg)" resp="thomas" xml:id="c21847_0024.w.1043980" lemmaRef="mnw.21847.sense.1">clene</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c21847_0024.w.1043981">metter</w>
           <w cert="1.0" lemma="ding" pos="NOU-C(number=sg)" resp="roland" xml:id="c21847_0024.w.1043982">dinc</w>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c21847_0024.w.1043983">te</w>

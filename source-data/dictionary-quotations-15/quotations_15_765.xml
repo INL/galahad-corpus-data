@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30734" lemma="MONTBOORSCE" partition="train" sense-id="mnw.30734.sense.1" xml:id="c30734_0000">
-        <date atLeast="1494" atMost="1500" timeSpan="1450-1500" />
+      <cit xml:id="c30734_0000">
+        <note>
+          <ab>
+            <date atLeast="1494" atMost="1500" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MONTBOORSCE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30734.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30734</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.765">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c30734_0000.w.1303178">Soo</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c30734_0000.w.1303179">waer</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30734_0000.w.1303195">der</w>
           <w cert="1.0" lemma="onmondig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c30734_0000.w.1303196">onmundiger</w>
           <w cert="1.0" lemma="kind" pos="NOU-C(number=pl)" resp="thomas" xml:id="c30734_0000.w.1303197">kynder</w>
-          <w cert="1.0" lemma="momberse" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30734.sense.1" xml:id="c30734_0000.w.1303198">mombersche</w>
+          <w cert="1.0" lemma="momberse" pos="NOU-C(number=sg)" resp="roland" xml:id="c30734_0000.w.1303198" lemmaRef="mnw.30734.sense.1">mombersche</w>
           <pc pos="PC" xml:id="c30734_0000.pc.floating.00511962" lemma=",">,</pc>
           <w cert="1.0" lemma="alzo" pos="ADV(type=reg)" resp="thomas" xml:id="c30734_0000.w.1303200">alsoo</w>
           <w cert="1.0" lemma="lang" pos="ADV(type=reg)" resp="thomas" xml:id="c30734_0000.w.1303201">lange</w>

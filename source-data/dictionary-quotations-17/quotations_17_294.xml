@@ -45,8 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="M015168" lemma="DRONKENSCHAP" modern-lemma="dronkenschap" partition="test" pos="NOU-C" sense-id="M015168.bet.2" xml:id="M015168.eg.26264">
-        <date atLeast="1688" atMost="1688" timeSpan="1650-1700" />
+      <cit xml:id="M015168.eg.26264">
+        <note>
+          <ab>
+            <date atLeast="1688" atMost="1688" extent="1650-1700" />
+            <interpGrp type="lemma">
+              <interp>DRONKENSCHAP</interp>
+            </interpGrp>
+            <interpGrp type="pos">
+              <interp>NOU-C</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>M015168.bet.2</interp>
+            </interpGrp>
+            <interpGrp type="modern-lemma">
+              <interp>dronkenschap</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>M015168</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.294">
           <w cert="1.0" lemma="laten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="INT_043e4548-1bf9-453f-a37e-4c6b04666111.w.577710">Laet</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="INT_043e4548-1bf9-453f-a37e-4c6b04666111.w.577711">ons</w>
@@ -58,7 +77,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="INT_043e4548-1bf9-453f-a37e-4c6b04666111.w.577716">in</w>
           <w cert="1.0" lemma="brasserij" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_043e4548-1bf9-453f-a37e-4c6b04666111.w.577717">brasserijen</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="INT_043e4548-1bf9-453f-a37e-4c6b04666111.w.577718">ende</w>
-          <w cert="1.0" lemma="dronkenschap" pos="NOU-C(number=pl)" resp="roland" sense-id="M015168.bet.2" xml:id="INT_043e4548-1bf9-453f-a37e-4c6b04666111.w.577719">dronckenschappen</w>
+          <w cert="1.0" lemma="dronkenschap" pos="NOU-C(number=pl)" resp="roland" xml:id="INT_043e4548-1bf9-453f-a37e-4c6b04666111.w.577719" lemmaRef="M015168.bet.2">dronckenschappen</w>
           <pc pos="PC" xml:id="INT_043e4548-1bf9-453f-a37e-4c6b04666111.pc.post.0182932" lemma=",">,</pc>
         </q>
       </cit>

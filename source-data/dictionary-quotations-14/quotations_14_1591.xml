@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39174" lemma="OOTMOEDICH" partition="train" sense-id="mnw.39174.sense.1" xml:id="c39174_0002">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c39174_0002">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>OOTMOEDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39174.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39174</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1591">
           <pc join="right" pos="PC" xml:id="c39174_0002.pc.pre.00421933" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c39174_0002.w.1052909">God</w>
           <pc pos="PC" xml:id="c39174_0002.pc.post.00421934" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c39174_0002.w.1052910">es</w>
-          <w cert="1.0" lemma="ootmoedig" pos="AA(degree=comp,position=free)" resp="thomas" sense-id="mnw.39174.sense.1" xml:id="c39174_0002.w.1052911">ootmoedigher</w>
+          <w cert="1.0" lemma="ootmoedig" pos="AA(degree=comp,position=free)" resp="thomas" xml:id="c39174_0002.w.1052911" lemmaRef="mnw.39174.sense.1">ootmoedigher</w>
           <w cert="1.0" lemma="alleen" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c39174_0002.w.1052912">allene</w>
           <w cert="1.0" lemma="dan" pos="CONJ(type=sub)" resp="roland" xml:id="c39174_0002.w.1052913">dan</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c39174_0002.w.1052914">allen</w>

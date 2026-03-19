@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73209" lemma="WIJF" partition="train" sense-id="mnw.73209.sense.1" xml:id="c73209_0043">
-        <date atLeast="1339" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c73209_0043">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>WIJF</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73209.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73209</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3119">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c73209_0043.w.1831566">Die</w>
           <w cert="1.0" lemma="breedheid" pos="NOU-C(number=sg)" resp="roland" xml:id="c73209_0043.w.1831567">breetheit</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c73209_0043.w.1831574">van</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73209_0043.w.1831575">den</w>
           <w cert="1.0" lemma="eerste" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c73209_0043.w.1831576">eersten</w>
-          <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.73209.sense.1" xml:id="c73209_0043.w.1831577">wive</w>
+          <w cert="1.0" lemma="wijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c73209_0043.w.1831577" lemmaRef="mnw.73209.sense.1">wive</w>
           <pc pos="PC" xml:id="c73209_0043.pc.floating.00722990" lemma=",">,</pc>
         </q>
       </cit>

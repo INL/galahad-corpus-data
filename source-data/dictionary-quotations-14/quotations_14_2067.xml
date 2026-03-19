@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51461" lemma="SERIANT" partition="train" sense-id="mnw.51461.sense.8" xml:id="c51461_0034">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c51461_0034">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SERIANT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51461.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51461</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2067">
           <w cert="1.0" lemma="Galiene" pos="NOU-P" resp="roland" xml:id="c51461_0034.w.725431">Galiene</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c51461_0034.w.725432">hadde</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c51461_0034.w.725433">enen</w>
-          <w cert="1.0" lemma="sergeant" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.51461.sense.8" xml:id="c51461_0034.w.725434">seriant</w>
+          <w cert="1.0" lemma="sergeant" pos="NOU-C(number=sg)" resp="roland" xml:id="c51461_0034.w.725434" lemmaRef="mnw.51461.sense.8">seriant</w>
           <pc pos="PC" xml:id="c51461_0034.pc.floating.00301346" lemma=",">,</pc>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c51461_0034.w.725436">die</w>
           <w cert="1.0" lemma="hard" pos="ADV(type=reg)" resp="roland" xml:id="c51461_0034.w.725437">herde</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.34411" lemma="ONDER" partition="train" sense-id="mnw.34411.sense.31" xml:id="c34411_0093">
-        <date atLeast="1304" atMost="1304" timeSpan="1300-1350" />
+      <cit xml:id="c34411_0093">
+        <note>
+          <ab>
+            <date atLeast="1304" atMost="1304" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.34411.sense.31</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.34411</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1413">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c34411_0093.w.204568">Van</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c34411_0093.w.204569">allen</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c34411_0093.w.204575">ende</w>
           <w cert="1.0" lemma="eronder" pos="ADV(type=pron)" resp="thomas" xml:id="c34411_0093.w.204576">der<join n="mw_83451" />
           </w>
-          <w cert="1.0" lemma="eronder" pos="ADV(type=pron)" resp="thomas" sense-id="mnw.34411.sense.31" xml:id="c34411_0093.w.204577">onder<join n="mw_83451" />
+          <w cert="1.0" lemma="eronder" pos="ADV(type=pron)" resp="thomas" xml:id="c34411_0093.w.204577" lemmaRef="mnw.34411.sense.31">onder<join n="mw_83451" />
           </w>
           <pc join="right" pos="PC" xml:id="c34411_0093.pc.pre.00084841" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c34411_0093.w.204578">hier</w>

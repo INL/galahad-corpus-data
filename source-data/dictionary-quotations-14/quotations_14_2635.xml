@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63507" lemma="VERLICHTEN" partition="train" sense-id="mnw.63507.sense.25" xml:id="c63507_0071">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c63507_0071">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERLICHTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63507.sense.25</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63507</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2635">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63507_0071.w.1495677">Hi</w>
           <pc join="right" pos="PC" xml:id="c63507_0071.pc.pre.00597654" lemma="(">(</pc>
@@ -68,7 +81,7 @@
           </w>
           <pc pos="PC" xml:id="c63507_0071.pc.post.00597657" lemma=",">,</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c63507_0071.w.1495691">so</w>
-          <w cert="1.0" lemma="verlichten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.63507.sense.25" xml:id="c63507_0071.w.1495692">verlichte</w>
+          <w cert="1.0" lemma="verlichten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63507_0071.w.1495692" lemmaRef="mnw.63507.sense.25">verlichte</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c63507_0071.w.1495693">ende</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c63507_0071.w.1495694">wart</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c63507_0071.w.1495695">so</w>

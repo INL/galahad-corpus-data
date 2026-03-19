@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37149" lemma="ONTBEREN" partition="train" sense-id="mnw.37149.sense.14" xml:id="c37149_0134">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c37149_0134">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ONTBEREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37149.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37149</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1502">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37149_0134.w.625147">Mi</w>
           <w cert="1.0" lemma="dunken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37149_0134.w.625148">dunct</w>
@@ -64,7 +77,7 @@
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c37149_0134.w.625158">gi</w>
           <w cert="1.0" lemma="mogen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37149_0134.w.625159">moges</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c37149_0134.w.625160">wel</w>
-          <w cert="1.0" lemma="ontberen" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.37149.sense.14" xml:id="c37149_0134.w.625161">ontbaren</w>
+          <w cert="1.0" lemma="ontberen" pos="VRB(finiteness=inf)" resp="roland" xml:id="c37149_0134.w.625161" lemmaRef="mnw.37149.sense.14">ontbaren</w>
           <pc pos="PC" xml:id="c37149_0134.pc.floating.00254422" lemma=":">:</pc>
           <w cert="1.0" lemma="hier" pos="ADV(type=reg)" resp="thomas" xml:id="c37149_0134.w.625163">hier</w>
           <w cert="1.0" lemma="blijven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c37149_0134.w.625164">bliven</w>

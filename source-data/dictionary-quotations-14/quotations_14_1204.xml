@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29744" lemma="MILDELIKE" partition="train" sense-id="mnw.29744.sense.2" xml:id="c29744_0009">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c29744_0009">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MILDELIKE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29744.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29744</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1204">
           <w cert="1.0" lemma="groeten" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c29744_0009.w.1090935">Groetet</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c29744_0009.w.1090936">al</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c29744_0009.w.1090940">ghevet</w>
           <w cert="1.0" lemma="goed" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c29744_0009.w.1090941">goeden</w>
           <w cert="1.0" lemma="ridder" pos="NOU-C(number=pl)" resp="roland" xml:id="c29744_0009.w.1090942">ridders</w>
-          <w cert="1.0" lemma="mildelijk" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.29744.sense.2" xml:id="c29744_0009.w.1090943">mildelike</w>
+          <w cert="1.0" lemma="mildelijk" pos="ADV(type=reg)" resp="thomas" xml:id="c29744_0009.w.1090943" lemmaRef="mnw.29744.sense.2">mildelike</w>
           <pc pos="PC" xml:id="c29744_0009.pc.floating.00427745" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c29744_0009.w.1090945">dat</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c29744_0009.w.1090946">si</w>

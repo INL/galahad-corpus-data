@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.39994" lemma="ORCONDE" partition="train" sense-id="mnw.39994.sense.8" xml:id="c39994_0050">
-        <date atLeast="1320" atMost="1340" timeSpan="1300-1350" />
+      <cit xml:id="c39994_0050">
+        <note>
+          <ab>
+            <date atLeast="1320" atMost="1340" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>ORCONDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.39994.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.39994</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1631">
           <w cert="1.0" lemma="driewerf" pos="ADV(type=reg)" resp="thomas" xml:id="c39994_0050.w.1283658">Driewaerf</w>
           <w cert="1.0" lemma="ontdoen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c39994_0050.w.1283659">ondede</w>
@@ -65,7 +78,7 @@
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c39994_0050.w.1283669">te</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c39994_0050.w.1283670">ebbene</w>
           <w cert="1.0" lemma="drie" pos="NUM(type=card,position=prenom,representation=let)" resp="thomas" xml:id="c39994_0050.w.1283671">drie</w>
-          <w cert="1.0" lemma="oorkonde" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.39994.sense.8" xml:id="c39994_0050.w.1283672">orconden</w>
+          <w cert="1.0" lemma="oorkonde" pos="NOU-C(number=pl)" resp="roland" xml:id="c39994_0050.w.1283672" lemmaRef="mnw.39994.sense.8">orconden</w>
           <pc pos="PC" xml:id="c39994_0050.pc.floating.00511444" lemma=".">.</pc>
         </q>
       </cit>

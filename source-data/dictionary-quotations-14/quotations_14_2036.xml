@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.50490" lemma="SCHRIJN" partition="dev" sense-id="mnw.50490.sense.5" xml:id="c50490_0035">
-        <date atLeast="1380" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c50490_0035">
+        <note>
+          <ab>
+            <date atLeast="1380" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SCHRIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.50490.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.50490</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2036">
           <w cert="1.0" lemma="daar" pos="ADV(type=reg)" resp="thomas" xml:id="c50490_0035.w.559410">Daer</w>
           <w cert="1.0" lemma="zij+hij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c50490_0035.w.559411">sine</w>
@@ -60,7 +73,7 @@
           <w cert="1.0" lemma="leggen+hij" pos="VRB(finiteness=fin,tense=past)+PD(type=pers,position=free)" resp="roland" xml:id="c50490_0035.w.559417">leidene</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c50490_0035.w.559418">in</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c50490_0035.w.559419">een</w>
-          <w cert="1.0" lemma="schrijn" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.50490.sense.5" xml:id="c50490_0035.w.559420">scrine</w>
+          <w cert="1.0" lemma="schrijn" pos="NOU-C(number=sg)" resp="thomas" xml:id="c50490_0035.w.559420" lemmaRef="mnw.50490.sense.5">scrine</w>
           <pc pos="PC" xml:id="c50490_0035.pc.floating.00231120" lemma=",">,</pc>
         </q>
       </cit>

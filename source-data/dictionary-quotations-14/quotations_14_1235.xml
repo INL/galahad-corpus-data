@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30206" lemma="MISVAL" partition="train" sense-id="mnw.30206.sense.2" xml:id="c30206_0010">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c30206_0010">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MISVAL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30206.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30206</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1235">
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c30206_0010.w.1190588">Aen</w>
           <w cert="1.0" lemma="deze" pos="PD(type=d-p,subtype=oth,position=prenom)" resp="thomas" xml:id="c30206_0010.w.1190589">dese</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c30206_0010.w.1190591">en</w>
           <w cert="1.0" lemma="hebben+ik" pos="VRB(finiteness=fin,tense=pres)+PD(type=pers,position=free)" resp="roland" xml:id="c30206_0010.w.1190592">hebbic</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c30206_0010.w.1190593">des</w>
-          <w cert="1.0" lemma="misval" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30206.sense.2" xml:id="c30206_0010.w.1190594">mesfals</w>
+          <w cert="1.0" lemma="misval" pos="NOU-C(number=sg)" resp="roland" xml:id="c30206_0010.w.1190594" lemmaRef="mnw.30206.sense.2">mesfals</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c30206_0010.w.1190595">niet</w>
           <w cert="1.0" lemma="horen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c30206_0010.w.1190596">ghehoort</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c30206_0010.w.1190597">een</w>

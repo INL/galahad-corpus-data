@@ -45,13 +45,26 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.02443" lemma="BEDDECLEET" partition="train" sense-id="mnw.02443.sense.2" xml:id="c02443_0004">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c02443_0004">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>BEDDECLEET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.02443.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.02443</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.66">
           <w cert="1.0" lemma="te+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c02443_0004.w.438723">Ten</w>
-          <w cert="1.0" lemma="beddenkleed" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.02443.sense.2" xml:id="c02443_0004.w.438724">bedde<join n="mw_385538" />
+          <w cert="1.0" lemma="beddenkleed" pos="NOU-C(number=pl)" resp="roland" xml:id="c02443_0004.w.438724" lemmaRef="mnw.02443.sense.2">bedde<join n="mw_385538" />
           </w>
-          <w cert="1.0" lemma="beddenkleed" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.02443.sense.2" xml:id="c02443_0004.w.438725">cledren<join n="mw_385538" />
+          <w cert="1.0" lemma="beddenkleed" pos="NOU-C(number=pl)" resp="roland" xml:id="c02443_0004.w.438725" lemmaRef="mnw.02443.sense.2">cledren<join n="mw_385538" />
           </w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c02443_0004.w.438726">mit</w>
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c02443_0004.w.438727">enen</w>

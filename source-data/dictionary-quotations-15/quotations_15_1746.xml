@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62116" lemma="VERBEIT" partition="train" sense-id="mnw.62116.sense.5" xml:id="c62116_0004">
-        <date atLeast="1475" atMost="1485" timeSpan="1450-1500" />
+      <cit xml:id="c62116_0004">
+        <note>
+          <ab>
+            <date atLeast="1475" atMost="1485" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERBEIT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62116.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62116</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1746">
           <pc pos="PC" xml:id="c62116_0004.pc.floating.00439321" lemma="—">—</pc>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62116_0004.w.1089803">Wy</w>
@@ -70,7 +83,7 @@
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c62116_0004.w.1089817">wort</w>
           <w cert="1.0" lemma="geen" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c62116_0004.w.1089818">gheen</w>
           <w cert="1.0" lemma="lang" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c62116_0004.w.1089819">lanc</w>
-          <w cert="1.0" lemma="verbeid" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.62116.sense.5" xml:id="c62116_0004.w.1089820">verbeit</w>
+          <w cert="1.0" lemma="verbeid" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62116_0004.w.1089820" lemmaRef="mnw.62116.sense.5">verbeit</w>
           <pc join="right" pos="PC" xml:id="c62116_0004.pc.pre.00439326" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c62116_0004.w.1089821">hier</w>
           <w cert="1.0" lemma="" pos="" resp="roland" xml:id="c62116_0004.w.1089822">in</w>

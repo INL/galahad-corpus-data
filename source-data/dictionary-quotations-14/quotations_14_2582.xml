@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62849" lemma="VERGIETEN" partition="train" sense-id="mnw.62849.sense.3" xml:id="c62849_0001">
-        <date atLeast="1343" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c62849_0001">
+        <note>
+          <ab>
+            <date atLeast="1343" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VERGIETEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62849.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62849</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2582">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c62849_0001.w.1311114">Van</w>
           <w cert="1.0" lemma="dor" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c62849_0001.w.1311115">dorren</w>
@@ -61,7 +74,7 @@
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c62849_0001.w.1311122">men</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c62849_0001.w.1311123">dat</w>
           <w cert="1.0" lemma="lood" pos="NOU-C(number=sg)" resp="roland" xml:id="c62849_0001.w.1311124">loot</w>
-          <w cert="1.0" lemma="vergieten" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.62849.sense.3" xml:id="c62849_0001.w.1311125">vergoot</w>
+          <w cert="1.0" lemma="vergieten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c62849_0001.w.1311125" lemmaRef="mnw.62849.sense.3">vergoot</w>
           <pc pos="PC" xml:id="c62849_0001.pc.floating.00525729" lemma=",">,</pc>
         </q>
       </cit>

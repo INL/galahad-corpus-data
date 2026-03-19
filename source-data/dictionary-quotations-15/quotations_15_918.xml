@@ -45,14 +45,27 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.36801" lemma="ONREDENE" partition="train" sense-id="mnw.36801.sense.1" xml:id="c36801_0000">
-        <date atLeast="1470" atMost="1490" timeSpan="1450-1500" />
+      <cit xml:id="c36801_0000">
+        <note>
+          <ab>
+            <date atLeast="1470" atMost="1490" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>ONREDENE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.36801.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.36801</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.918">
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="roland" xml:id="c36801_0000.w.563751">Soo</w>
           <w cert="1.0" lemma="wie" pos="PD(type=w-p,position=free)" resp="thomas" xml:id="c36801_0000.w.563752">wye</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c36801_0000.w.563753">dat</w>
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c36801_0000.w.563754">mit</w>
-          <w cert="1.0" lemma="onreden" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.36801.sense.1" xml:id="c36801_0000.w.563755">onreden</w>
+          <w cert="1.0" lemma="onreden" pos="NOU-C(number=sg)" resp="roland" xml:id="c36801_0000.w.563755" lemmaRef="mnw.36801.sense.1">onreden</w>
           <w cert="1.0" lemma="mengen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c36801_0000.w.563756">menghet</w>
           <pc pos="PC" xml:id="c36801_0000.pc.post.00229696" lemma=",">,</pc>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36801_0000.w.563757">die</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="hengen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c36801_0000.w.563761">henghet</w>
           <pc pos="PC" xml:id="c36801_0000.pc.post.00229697" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c36801_0000.w.563762">dat</w>
-          <w cert="1.0" lemma="onreden" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.36801.sense.1" xml:id="c36801_0000.w.563763">onreden</w>
+          <w cert="1.0" lemma="onreden" pos="NOU-C(number=sg)" resp="roland" xml:id="c36801_0000.w.563763" lemmaRef="mnw.36801.sense.1">onreden</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c36801_0000.w.563764">hem</w>
           <pc pos="PC" xml:id="c36801_0000.pc.floating.00229698" lemma="....">....</pc>
           <w cert="1.0" lemma="besleteren" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c36801_0000.w.563766">besletert</w>

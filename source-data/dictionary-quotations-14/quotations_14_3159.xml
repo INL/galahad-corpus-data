@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.73952" lemma="WISEN" partition="train" sense-id="mnw.73952.sense.13" xml:id="c73952_0052">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c73952_0052">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WISEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.73952.sense.13</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.73952</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.3159">
           <w cert="1.0" lemma="die+hij" pos="PD(type=d-p,position=free)+PD(type=pers,position=free)" resp="thomas" xml:id="c73952_0052.w.1998569">Diene</w>
           <pc join="right" pos="PC" xml:id="c73952_0052.pc.pre.00784508" lemma="(">(</pc>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="leste" pos="NOU-C(number=sg)" resp="thomas" xml:id="c73952_0052.w.1998578">lesten</w>
           <w cert="1.0" lemma="worden" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c73952_0052.w.1998579">wert</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c73952_0052.w.1998580">hi</w>
-          <w cert="1.0" lemma="wijzen" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.73952.sense.13" xml:id="c73952_0052.w.1998581">gewijst</w>
+          <w cert="1.0" lemma="wijzen" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c73952_0052.w.1998581" lemmaRef="mnw.73952.sense.13">gewijst</w>
           <w cert="1.0" lemma="bij" pos="ADP(type=pre)" resp="thomas" xml:id="c73952_0052.w.1998582">bi</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c73952_0052.w.1998583">den</w>
           <w cert="1.0" lemma="jonkwijf" pos="NOU-C(number=sg)" resp="roland" xml:id="c73952_0052.w.1998584">joncwive</w>

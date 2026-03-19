@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.63705" lemma="VERMEERREN" partition="test" sense-id="mnw.63705.sense.2" xml:id="c63705_0001">
-        <date atLeast="1450" atMost="1470" timeSpan="1450-1500" />
+      <cit xml:id="c63705_0001">
+        <note>
+          <ab>
+            <date atLeast="1450" atMost="1470" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>VERMEERREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.63705.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.63705</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1842">
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c63705_0001.w.1557296">Het</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c63705_0001.w.1557297">soude</w>
-          <w cert="1.0" lemma="vermeren" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.63705.sense.2" xml:id="c63705_0001.w.1557298">vermeren</w>
+          <w cert="1.0" lemma="vermeren" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c63705_0001.w.1557298" lemmaRef="mnw.63705.sense.2">vermeren</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c63705_0001.w.1557299">de</w>
           <w cert="1.0" lemma="materie" pos="NOU-C(number=sg)" resp="thomas" xml:id="c63705_0001.w.1557300">materie</w>
           <pc pos="PC" xml:id="c63705_0001.pc.floating.00621896" lemma="…">…</pc>

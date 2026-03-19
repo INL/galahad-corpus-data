@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12682" lemma="GESCAPEN" partition="train" sense-id="mnw.12682.sense.11" xml:id="c12682_0041">
-        <date atLeast="1350" atMost="1350" timeSpan="1350-1400" />
+      <cit xml:id="c12682_0041">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1350" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GESCAPEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12682.sense.11</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12682</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.559">
           <w cert="1.0" lemma="nadien" pos="ADV(type=reg)" resp="thomas" xml:id="c12682_0041.w.1160495">Nadien</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c12682_0041.w.1160496">dat</w>
-          <w cert="1.0" lemma="geschapen" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.12682.sense.11" xml:id="c12682_0041.w.1160497">ghescepen</w>
+          <w cert="1.0" lemma="geschapen" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c12682_0041.w.1160497" lemmaRef="mnw.12682.sense.11">ghescepen</w>
           <w cert="1.0" lemma="staan" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c12682_0041.w.1160498">staet</w>
           <pc join="right" pos="PC" xml:id="c12682_0041.pc.pre.00487051" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c12682_0041.w.1160499">zooals</w>

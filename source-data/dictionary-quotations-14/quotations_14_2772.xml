@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.66239" lemma="VINGERLIJN" partition="train" sense-id="mnw.66239.sense.1" xml:id="c66239_0003">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c66239_0003">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VINGERLIJN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.66239.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.66239</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2772">
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c66239_0003.w.374387">Hi</w>
           <pc join="right" pos="PC" xml:id="c66239_0003.pc.pre.00148381" lemma="(">(</pc>
@@ -54,7 +67,7 @@
           <pc pos="PC" xml:id="c66239_0003.pc.post.00148382" lemma=")">)</pc>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c66239_0003.w.374389">was</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c66239_0003.w.374390">die</w>
-          <w cert="1.0" lemma="dat+vingerlijn" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" sense-id="mnw.66239.sense.1" xml:id="c66239_0003.w.374391">tfingerlin</w>
+          <w cert="1.0" lemma="dat+vingerlijn" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="roland" xml:id="c66239_0003.w.374391" lemmaRef="mnw.66239.sense.1">tfingerlin</w>
           <w cert="1.0" lemma="viseren" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c66239_0003.w.374392">visierde</w>
           <w cert="1.0" lemma="en+de" pos="CONJ(type=coor)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c66239_0003.w.374393">entie</w>
           <w cert="1.0" lemma="hand" pos="NOU-C(number=sg)" resp="roland" xml:id="c66239_0003.w.374394">hand</w>

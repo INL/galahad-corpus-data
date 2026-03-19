@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31196" lemma="MUNTE" partition="train" sense-id="mnw.31196.sense.7" xml:id="c31196_0029">
-        <date atLeast="1440" atMost="1460" timeSpan="1450-1500" />
+      <cit xml:id="c31196_0029">
+        <note>
+          <ab>
+            <date atLeast="1440" atMost="1460" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>MUNTE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31196.sense.7</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31196</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.775">
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="roland" xml:id="c31196_0029.w.1366687">In</w>
           <w cert="1.0" lemma="welk" pos="PD(type=w-p,position=prenom)" resp="thomas" xml:id="c31196_0029.w.1366688">welken</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="ledig" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c31196_0029.w.1366697">ledich</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c31196_0029.w.1366698">ende</w>
           <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c31196_0029.w.1366699">vrij</w>
-          <w cert="1.0" lemma="munt" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.31196.sense.7" xml:id="c31196_0029.w.1366700">munte</w>
+          <w cert="1.0" lemma="munt" pos="NOU-C(number=sg)" resp="roland" xml:id="c31196_0029.w.1366700" lemmaRef="mnw.31196.sense.7">munte</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="thomas" xml:id="c31196_0029.w.1366701">unde</w>
           <w cert="1.0" lemma="tol" pos="NOU-C(number=sg)" resp="roland" xml:id="c31196_0029.w.1366702">toln</w>
           <pc pos="PC" xml:id="c31196_0029.pc.post.00537649" lemma=",">,</pc>

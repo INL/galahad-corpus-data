@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41227" lemma="OVERWERDICH" partition="train" sense-id="mnw.41227.sense.1" xml:id="c41227_0000">
-        <date atLeast="1434" atMost="1436" timeSpan="1400-1450" />
+      <cit xml:id="c41227_0000">
+        <note>
+          <ab>
+            <date atLeast="1434" atMost="1436" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>OVERWERDICH</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41227.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41227</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1064">
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c41227_0000.w.1529995">Dat</w>
           <w cert="1.0" lemma="derde" pos="NUM(type=ord,position=prenom,representation=let)" resp="thomas" xml:id="c41227_0000.w.1529996">dorde</w>
@@ -68,7 +81,7 @@
           <w cert="1.0" lemma="zijne" pos="NOU-C(number=sg)" resp="roland" xml:id="c41227_0000.w.1530009">sijns</w>
           <w cert="1.0" lemma="verbeiden" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c41227_0000.w.1530010">verbeit</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c41227_0000.w.1530011">die</w>
-          <w cert="1.0" lemma="overwaardig" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.41227.sense.1" xml:id="c41227_0000.w.1530012">overweerdige</w>
+          <w cert="1.0" lemma="overwaardig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c41227_0000.w.1530012" lemmaRef="mnw.41227.sense.1">overweerdige</w>
           <w cert="1.0" lemma="groot" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c41227_0000.w.1530013">grote</w>
           <w cert="1.0" lemma="gezelschap" pos="NOU-C(number=sg)" resp="thomas" xml:id="c41227_0000.w.1530014">geselscap</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c41227_0000.w.1530015">inden</w>

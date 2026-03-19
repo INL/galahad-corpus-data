@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11898" lemma="GEMERKEN" partition="train" sense-id="mnw.11898.sense.1" xml:id="c11898_0000">
-        <date atLeast="1391" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c11898_0000">
+        <note>
+          <ab>
+            <date atLeast="1391" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEMERKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11898.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11898</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.507">
           <pc join="right" pos="PC" xml:id="c11898_0000.pc.pre.00418144" lemma="(">(</pc>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c11898_0000.w.990395">Hi</w>
@@ -54,7 +67,7 @@
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c11898_0000.w.990396">en</w>
           <w cert="1.0" lemma="kunnen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c11898_0000.w.990397">can</w>
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c11898_0000.w.990398">nit</w>
-          <w cert="1.0" lemma="gemerken" pos="VRB(finiteness=inf)" resp="roland" sense-id="mnw.11898.sense.1" xml:id="c11898_0000.w.990399">gemerken</w>
+          <w cert="1.0" lemma="gemerken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c11898_0000.w.990399" lemmaRef="mnw.11898.sense.1">gemerken</w>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c11898_0000.w.990400">in</w>
           <w cert="1.0" lemma="wat" pos="PD(type=indef,position=free)" resp="roland" xml:id="c11898_0000.w.990401">wat</w>
           <w cert="1.0" lemma="manier" pos="NOU-C(number=sg)" resp="roland" xml:id="c11898_0000.w.990402">maniren</w>

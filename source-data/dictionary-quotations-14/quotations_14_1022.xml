@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.25988" lemma="LICHT" partition="train" sense-id="mnw.25988.sense.10" xml:id="c25988_0049">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c25988_0049">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>LICHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.25988.sense.10</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.25988</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1022">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c25988_0049.w.314070">Die</w>
           <w cert="1.0" lemma="Waals" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c25988_0049.w.314071">Walsche</w>
@@ -72,7 +85,7 @@
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c25988_0049.w.314088">in</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c25988_0049.w.314089">sijn</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c25988_0049.w.314090">ende</w>
-          <w cert="1.0" lemma="licht" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.25988.sense.10" xml:id="c25988_0049.w.314091">lichte</w>
+          <w cert="1.0" lemma="licht" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c25988_0049.w.314091" lemmaRef="mnw.25988.sense.10">lichte</w>
           <pc pos="PC" xml:id="c25988_0049.pc.floating.00121710" lemma=",">,</pc>
         </q>
       </cit>

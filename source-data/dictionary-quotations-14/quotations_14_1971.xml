@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.48339" lemma="SAPEEL" partition="train" sense-id="mnw.48339.sense.1" xml:id="c48339_0000">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c48339_0000">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SAPEEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.48339.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.48339</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1971">
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c48339_0000.w.117712">Die</w>
-          <w cert="1.0" lemma="kapeel" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.48339.sense.1" xml:id="c48339_0000.w.117713">capiele</w>
+          <w cert="1.0" lemma="kapeel" pos="NOU-C(number=sg)" resp="roland" xml:id="c48339_0000.w.117713" lemmaRef="mnw.48339.sense.1">capiele</w>
           <w cert="1.0" lemma="welgeraakt" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c48339_0000.w.117714">wel<join n="mw_785552" />
           </w>
           <w cert="1.0" lemma="welgeraakt" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c48339_0000.w.117715">geraect<join n="mw_785552" />

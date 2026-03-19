@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22846" lemma="CONFESSOOR" partition="dev" sense-id="mnw.22846.sense.2" xml:id="c22846_0005">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c22846_0005">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>CONFESSOOR</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22846.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22846</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.559">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c22846_0005.w.1213918">Van</w>
           <w cert="1.0" lemma="Amand" pos="NOU-P" resp="roland" xml:id="c22846_0005.w.1213919">Amande</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c22846_0005.w.1213923">die</w>
           <w cert="1.0" lemma="met+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c22846_0005.w.1213924">metten</w>
           <w cert="1.0" lemma="heilig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c22846_0005.w.1213925">helighen</w>
-          <w cert="1.0" lemma="confessor" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.22846.sense.2" xml:id="c22846_0005.w.1213926">confessooren</w>
+          <w cert="1.0" lemma="confessor" pos="NOU-C(number=pl)" resp="roland" xml:id="c22846_0005.w.1213926" lemmaRef="mnw.22846.sense.2">confessooren</w>
           <w cert="1.0" lemma="verheffen" pos="VRB(finiteness=pastpart)" resp="thomas" xml:id="c22846_0005.w.1213927">verheven</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c22846_0005.w.1213928">es</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c22846_0005.w.1213929">int</w>

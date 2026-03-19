@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.70254" lemma="WANDEL" partition="train" sense-id="mnw.70254.sense.2" xml:id="c70254_0003">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c70254_0003">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>WANDEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.70254.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.70254</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2958">
           <w cert="1.0" lemma="vrouwe" pos="NOU-C(number=sg)" resp="roland" xml:id="c70254_0003.w.1218632">Vrouwe</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c70254_0003.w.1218633">die</w>
@@ -58,7 +71,7 @@
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c70254_0003.w.1218639">niet</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c70254_0003.w.1218640">van</w>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c70254_0003.w.1218641">so</w>
-          <w cert="1.0" lemma="wandel" pos="AA(degree=pos,position=prenom)" resp="thomas" sense-id="mnw.70254.sense.2" xml:id="c70254_0003.w.1218642">wandelen</w>
+          <w cert="1.0" lemma="wandel" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c70254_0003.w.1218642" lemmaRef="mnw.70254.sense.2">wandelen</w>
           <w cert="1.0" lemma="zin" pos="NOU-C(number=sg)" resp="roland" xml:id="c70254_0003.w.1218643">sinne</w>
           <pc pos="PC" xml:id="c70254_0003.pc.post.00489240" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c70254_0003.w.1218644">dat</w>

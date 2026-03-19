@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12940" lemma="GESMIEDEN" partition="train" sense-id="mnw.12940.sense.5" xml:id="c12940_0005">
-        <date atLeast="1351" atMost="1351" timeSpan="1350-1400" />
+      <cit xml:id="c12940_0005">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1351" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GESMIEDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12940.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12940</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.568">
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c12940_0005.w.1210855">Hadde</w>
           <w cert="1.0" lemma="enig" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c12940_0005.w.1210856">enech</w>
@@ -66,7 +79,7 @@
           </w>
           <pc pos="PC" xml:id="c12940_0005.pc.post.00507365" lemma=",">,</pc>
           <w cert="1.0" lemma="het" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c12940_0005.w.1210868">het</w>
-          <w cert="1.0" lemma="gesmijden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" sense-id="mnw.12940.sense.5" xml:id="c12940_0005.w.1210869">gesmiedt</w>
+          <w cert="1.0" lemma="gesmijden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c12940_0005.w.1210869" lemmaRef="mnw.12940.sense.5">gesmiedt</w>
           <w cert="1.0" lemma="voorvoets" pos="ADV(type=reg)" resp="thomas" xml:id="c12940_0005.w.1210870">vorvoets</w>
           <pc pos="PC" xml:id="c12940_0005.pc.post.00507366" lemma=",">,</pc>
         </q>

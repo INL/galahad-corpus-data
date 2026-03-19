@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.65807" lemma="VESTEN" partition="train" sense-id="mnw.65807.sense.8" xml:id="c65807_0024">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c65807_0024">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VESTEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.65807.sense.8</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.65807</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2748">
           <w cert="1.0" lemma="noord" pos="ADV(type=reg)" resp="roland" xml:id="c65807_0024.w.290798">Nort</w>
           <w cert="1.0" lemma="hebben" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c65807_0024.w.290799">hevet</w>
@@ -59,7 +72,7 @@
           <w cert="1.0" lemma="bevesten" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c65807_0024.w.290804">bevest</w>
           <pc join="right" pos="PC" xml:id="c65807_0024.pc.pre.00113864" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c65807_0024.w.290805">var.</w>
-          <w cert="1.0" lemma="vesten" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.65807.sense.8" xml:id="c65807_0024.w.290806">gevest</w>
+          <w cert="1.0" lemma="vesten" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c65807_0024.w.290806" lemmaRef="mnw.65807.sense.8">gevest</w>
           <pc pos="PC" xml:id="c65807_0024.pc.floating.00113866" lemma=")">)</pc>
           <pc pos="PC" xml:id="c65807_0024.pc.floating.00113867" lemma=",">,</pc>
         </q>

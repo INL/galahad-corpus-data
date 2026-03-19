@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.05735" lemma="BUSE" partition="train" sense-id="mnw.05735.sense.1" xml:id="c05735_0000">
-        <date atLeast="1350" atMost="1384" timeSpan="1350-1400" />
+      <cit xml:id="c05735_0000">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1384" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>BUSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.05735.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.05735</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.252">
           <w cert="1.0" lemma="werken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c05735_0000.w.1059397">Ghewrocht</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c05735_0000.w.1059398">ter</w>
@@ -66,7 +79,7 @@
           <w cert="1.0" lemma="werken" pos="VRB(finiteness=inf)" resp="roland" xml:id="c05735_0000.w.1059412">werckene</w>
           <w cert="1.0" lemma="aan" pos="ADP(type=pre)" resp="thomas" xml:id="c05735_0000.w.1059413">an</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="roland" xml:id="c05735_0000.w.1059414">de</w>
-          <w cert="1.0" lemma="buis" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.05735.sense.1" xml:id="c05735_0000.w.1059415">buzen</w>
+          <w cert="1.0" lemma="buis" pos="NOU-C(number=pl)" resp="roland" xml:id="c05735_0000.w.1059415" lemmaRef="mnw.05735.sense.1">buzen</w>
           <pc pos="PC" xml:id="c05735_0000.pc.floating.00420846" lemma="..">..</pc>
           <w cert="1.0" lemma="in" pos="ADP(type=pre)" resp="thomas" xml:id="c05735_0000.w.1059417">in</w>
           <w cert="1.0" lemma="'s-Gravenbeek" pos="NOU-P" resp="roland" xml:id="c05735_0000.w.1059418">'s<join n="mw_189123" />

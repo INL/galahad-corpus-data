@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.44241" lemma="PROVANDE" partition="train" sense-id="mnw.44241.sense.1" xml:id="c44241_0011">
-        <date atLeast="1339" atMost="1345" timeSpan="1300-1350" />
+      <cit xml:id="c44241_0011">
+        <note>
+          <ab>
+            <date atLeast="1339" atMost="1345" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>PROVANDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.44241.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.44241</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1811">
           <w cert="1.0" lemma="om" pos="ADP(type=pre)" resp="thomas" xml:id="c44241_0011.w.526405">Om</w>
           <w cert="1.0" lemma="vijfentwintig" pos="NUM(type=card,position=prenom,representation=dig)" resp="thomas" xml:id="c44241_0011.w.526406">25</w>
@@ -62,7 +75,7 @@
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c44241_0011.w.526416">ende</w>
           <w cert="1.0" lemma="mijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c44241_0011.w.526417">mire</w>
           <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="roland" xml:id="c44241_0011.w.526418">vrouwen</w>
-          <w cert="1.0" lemma="provance" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.44241.sense.1" xml:id="c44241_0011.w.526419">provanse</w>
+          <w cert="1.0" lemma="provance" pos="NOU-C(number=sg)" resp="roland" xml:id="c44241_0011.w.526419" lemmaRef="mnw.44241.sense.1">provanse</w>
           <w cert="1.0" lemma="behoef" pos="NOU-C(number=sg)" resp="thomas" xml:id="c44241_0011.w.526420">behoef</w>
           <pc pos="PC" xml:id="c44241_0011.pc.post.00207118" lemma=",">,</pc>
         </q>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.53684" lemma="SPAENSCHGROEN" partition="train" sense-id="mnw.53684.sense.1" xml:id="c53684_0000">
-        <date atLeast="1350" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c53684_0000">
+        <note>
+          <ab>
+            <date atLeast="1350" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>SPAENSCHGROEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.53684.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.53684</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2152">
           <w cert="1.0" lemma="nog" pos="ADV(type=reg)" resp="roland" xml:id="c53684_0000.w.1215508">Noch</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c53684_0000.w.1215509">sal</w>
@@ -60,7 +73,7 @@
           <pc pos="PC" xml:id="c53684_0000.pc.post.00504651" lemma=";">;</pc>
           <w cert="1.0" lemma="azuur" pos="NOU-C(number=sg)" resp="roland" xml:id="c53684_0000.w.1215517">asuer</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c53684_0000.w.1215518">ende</w>
-          <w cert="1.0" lemma="spaansgroen" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.53684.sense.1" xml:id="c53684_0000.w.1215519">spaensgroene</w>
+          <w cert="1.0" lemma="spaansgroen" pos="NOU-C(number=sg)" resp="roland" xml:id="c53684_0000.w.1215519" lemmaRef="mnw.53684.sense.1">spaensgroene</w>
           <pc pos="PC" xml:id="c53684_0000.pc.floating.00504652" lemma=",">,</pc>
         </q>
       </cit>

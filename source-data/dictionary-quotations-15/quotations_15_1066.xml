@@ -45,11 +45,24 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.41335" lemma="PAEYEN" partition="dev" sense-id="mnw.41335.sense.1" xml:id="c41335_0005">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c41335_0005">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>PAEYEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.41335.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.41335</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1066">
           <w cert="1.0" lemma="aldus" pos="ADV(type=reg)" resp="thomas" xml:id="c41335_0005.w.8631">Aldus</w>
-          <w cert="1.0" lemma="paaien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" sense-id="mnw.41335.sense.1" xml:id="c41335_0005.w.8632">paeyde</w>
+          <w cert="1.0" lemma="paaien" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c41335_0005.w.8632" lemmaRef="mnw.41335.sense.1">paeyde</w>
           <w cert="1.0" lemma="de" pos="PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c41335_0005.w.8633">die</w>
           <w cert="1.0" lemma="heilig" pos="AA(degree=pos,position=prenom)" resp="thomas" xml:id="c41335_0005.w.8634">helighe</w>
           <w cert="1.0" lemma="man" pos="NOU-C(number=sg)" resp="roland" xml:id="c41335_0005.w.8635">man</w>

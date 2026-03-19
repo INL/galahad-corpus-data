@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69103" lemma="VRI" partition="train" sense-id="mnw.69103.sense.46" xml:id="c69103_0244">
-        <date atLeast="1301" atMost="1325" timeSpan="1300-1350" />
+      <cit xml:id="c69103_0244">
+        <note>
+          <ab>
+            <date atLeast="1301" atMost="1325" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>VRI</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69103.sense.46</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69103</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2897">
           <w cert="1.0" lemma="omdat" pos="CONJ(type=sub)" resp="thomas" xml:id="c69103_0244.w.968761">Omme<join n="mw_910381" />
           </w>
@@ -74,7 +87,7 @@
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c69103_0244.w.968780">die</w>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c69103_0244.w.968781">des</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c69103_0244.w.968782">es</w>
-          <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.69103.sense.46" xml:id="c69103_0244.w.968783">vri</w>
+          <w cert="1.0" lemma="vrij" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c69103_0244.w.968783" lemmaRef="mnw.69103.sense.46">vri</w>
           <pc pos="PC" xml:id="c69103_0244.pc.floating.00388243" lemma=",">,</pc>
         </q>
       </cit>

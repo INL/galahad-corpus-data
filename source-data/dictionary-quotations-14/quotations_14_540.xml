@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.12417" lemma="GEREET" partition="test" sense-id="mnw.12417.sense.5" xml:id="c12417_0022">
-        <date atLeast="1340" atMost="1350" timeSpan="1300-1350" />
+      <cit xml:id="c12417_0022">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1350" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>GEREET</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.12417.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.12417</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.540">
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c12417_0022.w.1105711">Die</w>
           <w cert="1.0" lemma="varen" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c12417_0022.w.1105712">voere</w>
@@ -62,7 +75,7 @@
           <pc pos="PC" xml:id="c12417_0022.pc.post.00464860" lemma=")">)</pc>
           <w cert="1.0" lemma="zo" pos="ADV(type=reg)" resp="thomas" xml:id="c12417_0022.w.1105721">so</w>
           <w cert="1.0" lemma="wel" pos="ADV(type=reg)" resp="thomas" xml:id="c12417_0022.w.1105722">wel</w>
-          <w cert="1.0" lemma="gereed" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.12417.sense.5" xml:id="c12417_0022.w.1105723">gereit</w>
+          <w cert="1.0" lemma="gereed" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c12417_0022.w.1105723" lemmaRef="mnw.12417.sense.5">gereit</w>
           <pc pos="PC" xml:id="c12417_0022.pc.floating.00464861" lemma=",">,</pc>
         </q>
       </cit>

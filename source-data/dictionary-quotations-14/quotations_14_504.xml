@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.11837" lemma="GEMEEN" partition="train" sense-id="mnw.11837.sense.28" xml:id="c11837_0123">
-        <date atLeast="1373" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c11837_0123">
+        <note>
+          <ab>
+            <date atLeast="1373" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>GEMEEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.11837.sense.28</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.11837</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.504">
           <w cert="1.0" lemma="niet" pos="ADV(type=reg)" resp="thomas" xml:id="c11837_0123.w.977524">Niet</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c11837_0123.w.977525">en</w>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="kwaad" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c11837_0123.w.977530">quade</w>
           <w cert="1.0" lemma="lieden" pos="NOU-C(number=pl)" resp="roland" xml:id="c11837_0123.w.977531">liede</w>
           <w cert="1.0" lemma="in+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c11837_0123.w.977532">int</w>
-          <w cert="1.0" lemma="gemeen" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.11837.sense.28" xml:id="c11837_0123.w.977533">ghemene</w>
+          <w cert="1.0" lemma="gemeen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c11837_0123.w.977533" lemmaRef="mnw.11837.sense.28">ghemene</w>
           <pc pos="PC" xml:id="c11837_0123.pc.floating.00412955" lemma=",">,</pc>
           <w cert="1.0" lemma="maar" pos="CONJ(type=coor)" resp="roland" xml:id="c11837_0123.w.977535">maer</w>
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c11837_0123.w.977536">oec</w>

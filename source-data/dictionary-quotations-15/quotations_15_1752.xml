@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.62169" lemma="VERBINDEN" partition="dev" sense-id="mnw.62169.sense.14" xml:id="c62169_0036">
-        <date atLeast="1432" atMost="1432" timeSpan="1400-1450" />
+      <cit xml:id="c62169_0036">
+        <note>
+          <ab>
+            <date atLeast="1432" atMost="1432" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VERBINDEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.62169.sense.14</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.62169</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1752">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c62169_0036.w.1109342">Dat</w>
           <w cert="1.0" lemma="vrouw" pos="NOU-C(number=sg)" resp="thomas" xml:id="c62169_0036.w.1109343">vrou</w>
@@ -57,7 +70,7 @@
           <pc pos="PC" xml:id="c62169_0036.pc.post.00447304" lemma=",">,</pc>
           <w cert="1.0" lemma="verkopen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c62169_0036.w.1109348">vercoopen</w>
           <w cert="1.0" lemma="noch" pos="CONJ(type=coor)" resp="roland" xml:id="c62169_0036.w.1109349">noch</w>
-          <w cert="1.0" lemma="verbinden" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.62169.sense.14" xml:id="c62169_0036.w.1109350">verbinden</w>
+          <w cert="1.0" lemma="verbinden" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c62169_0036.w.1109350" lemmaRef="mnw.62169.sense.14">verbinden</w>
           <w cert="1.0" lemma="dat+land" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c62169_0036.w.1109351">dlant</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c62169_0036.w.1109352">van</w>
           <w cert="1.0" lemma="Brabant" pos="NOU-P" resp="roland" xml:id="c62169_0036.w.1109353">Brabant</w>

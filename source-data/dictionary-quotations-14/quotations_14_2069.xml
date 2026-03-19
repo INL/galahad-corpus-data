@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.51480" lemma="SERMOEN" partition="train" sense-id="mnw.51480.sense.1" xml:id="c51480_0009">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c51480_0009">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>SERMOEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.51480.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.51480</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2069">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c51480_0009.w.730190">Ic</w>
           <w cert="1.0" lemma="geven" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c51480_0009.w.730191">gaf</w>
@@ -59,7 +72,7 @@
           <pc join="right" pos="PC" xml:id="c51480_0009.pc.pre.00303390" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c51480_0009.w.730196">Gods</w>
           <pc pos="PC" xml:id="c51480_0009.pc.post.00303391" lemma=")">)</pc>
-          <w cert="1.0" lemma="sermoen" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.51480.sense.1" xml:id="c51480_0009.w.730197">sermoen</w>
+          <w cert="1.0" lemma="sermoen" pos="NOU-C(number=sg)" resp="thomas" xml:id="c51480_0009.w.730197" lemmaRef="mnw.51480.sense.1">sermoen</w>
           <pc pos="PC" xml:id="c51480_0009.pc.floating.00303392" lemma=",">,</pc>
         </q>
       </cit>

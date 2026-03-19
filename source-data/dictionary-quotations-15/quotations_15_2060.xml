@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.69125" lemma="VRIËDEL" partition="train" sense-id="mnw.69125.sense.2" xml:id="c69125_0010">
-        <date atLeast="1437" atMost="1437" timeSpan="1400-1450" />
+      <cit xml:id="c69125_0010">
+        <note>
+          <ab>
+            <date atLeast="1437" atMost="1437" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>VRIËDEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.69125.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.69125</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2060">
           <w cert="1.0" lemma="ons" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c69125_0010.w.975379">Onse</w>
           <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="thomas" xml:id="c69125_0010.w.975380">moeder</w>
@@ -67,9 +80,9 @@
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="thomas" xml:id="c69125_0010.w.975394">vader</w>
           <w cert="1.0" lemma="die" pos="PD(type=d-p,position=free)" resp="thomas" xml:id="c69125_0010.w.975395">die</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c69125_0010.w.975396">is</w>
-          <w cert="1.0" lemma="vrijedel" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.69125.sense.2" xml:id="c69125_0010.w.975397">vry<join n="mw_812991" />
+          <w cert="1.0" lemma="vrijedel" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c69125_0010.w.975397" lemmaRef="mnw.69125.sense.2">vry<join n="mw_812991" />
           </w>
-          <w cert="1.0" lemma="vrijedel" pos="AA(degree=pos,position=free)" resp="thomas" sense-id="mnw.69125.sense.2" xml:id="c69125_0010.w.975398">edel<join n="mw_812991" />
+          <w cert="1.0" lemma="vrijedel" pos="AA(degree=pos,position=free)" resp="thomas" xml:id="c69125_0010.w.975398" lemmaRef="mnw.69125.sense.2">edel<join n="mw_812991" />
           </w>
           <pc pos="PC" xml:id="c69125_0010.pc.floating.00390882" lemma=",">,</pc>
           <w cert="1.0" lemma="dat" pos="PD(type=d-p,position=free)" resp="roland" xml:id="c69125_0010.w.975400">dat</w>

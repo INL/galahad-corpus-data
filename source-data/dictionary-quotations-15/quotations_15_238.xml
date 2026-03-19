@@ -45,12 +45,25 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.08934" lemma="ERDE" partition="test" sense-id="mnw.08934.sense.4" xml:id="c08934_0030">
-        <date atLeast="1430" atMost="1450" timeSpan="1400-1450" />
+      <cit xml:id="c08934_0030">
+        <note>
+          <ab>
+            <date atLeast="1430" atMost="1450" extent="1400-1450" />
+            <interpGrp type="lemma">
+              <interp>ERDE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.08934.sense.4</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.08934</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.238">
           <w cert="1.0" lemma="vaar" pos="NOU-C(number=sg)" resp="thomas" xml:id="c08934_0030.w.505802">Vaer</w>
           <w cert="1.0" lemma="te+de" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c08934_0030.w.505803">ter</w>
-          <w cert="1.0" lemma="aarde" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.08934.sense.4" xml:id="c08934_0030.w.505804">eerden</w>
+          <w cert="1.0" lemma="aarde" pos="NOU-C(number=sg)" resp="roland" xml:id="c08934_0030.w.505804" lemmaRef="mnw.08934.sense.4">eerden</w>
           <w cert="1.0" lemma="leggen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c08934_0030.w.505805">leggen</w>
           <pc join="right" pos="PC" xml:id="c08934_0030.pc.pre.00218780" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c08934_0030.w.505806">fig</w>

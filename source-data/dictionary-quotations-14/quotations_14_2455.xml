@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.60407" lemma="UTEGEVEN" partition="train" sense-id="mnw.60407.sense.27" xml:id="c60407_0118">
-        <date atLeast="1390" atMost="1405" timeSpan="1350-1400" />
+      <cit xml:id="c60407_0118">
+        <note>
+          <ab>
+            <date atLeast="1390" atMost="1405" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>UTEGEVEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.60407.sense.27</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.60407</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2455">
           <w cert="1.0" lemma="een" pos="PD(type=indef,subtype=art,position=prenom)" resp="thomas" xml:id="c60407_0118.w.696895">Een</w>
           <w cert="1.0" lemma="veld" pos="NOU-C(number=sg)" resp="roland" xml:id="c60407_0118.w.696896">velt</w>
@@ -55,10 +68,10 @@
           <w cert="1.0" lemma="branden" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c60407_0118.w.696899">berrent</w>
           <pc pos="PC" xml:id="c60407_0118.pc.floating.00283157" lemma="…">…</pc>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c60407_0118.w.696901">ende</w>
-          <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.60407.sense.27" xml:id="c60407_0118.w.696902">geeft<join n="mw_501691" />
+          <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60407_0118.w.696902" lemmaRef="mnw.60407.sense.27">geeft<join n="mw_501691" />
           </w>
           <w cert="1.0" lemma="de+dag" pos="PD(type=d-p,subtype=art,position=prenom)+NOU-C(number=sg)" resp="thomas" xml:id="c60407_0118.w.696903">sdaechs</w>
-          <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" sense-id="mnw.60407.sense.27" xml:id="c60407_0118.w.696904">uut<join n="mw_501691" />
+          <w cert="1.0" lemma="uitgeven" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c60407_0118.w.696904" lemmaRef="mnw.60407.sense.27">uut<join n="mw_501691" />
           </w>
           <w cert="1.0" lemma="vuil" pos="AA(degree=pos,position=prenom)" resp="roland" xml:id="c60407_0118.w.696905">vuelen</w>
           <w cert="1.0" lemma="rook" pos="NOU-C(number=sg)" resp="roland" xml:id="c60407_0118.w.696906">rooc</w>

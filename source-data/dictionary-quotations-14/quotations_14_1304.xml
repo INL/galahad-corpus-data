@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.31980" lemma="NAVOLGEN" partition="train" sense-id="mnw.31980.sense.5" xml:id="c31980_0008">
-        <date atLeast="1321" atMost="1321" timeSpan="1300-1350" />
+      <cit xml:id="c31980_0008">
+        <note>
+          <ab>
+            <date atLeast="1321" atMost="1321" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>NAVOLGEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.31980.sense.5</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.31980</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1304">
           <w cert="1.0" lemma="ook" pos="ADV(type=reg)" resp="thomas" xml:id="c31980_0008.w.1509044">Ooc</w>
           <w cert="1.0" lemma="ontbieden" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c31980_0008.w.1509045">omboot</w>
@@ -61,9 +74,9 @@
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c31980_0008.w.1509054">si</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="roland" xml:id="c31980_0008.w.1509055">hem</w>
           <w cert="1.0" lemma="mede" pos="ADV(type=reg)" resp="thomas" xml:id="c31980_0008.w.1509056">mede</w>
-          <w cert="1.0" lemma="navolgen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.31980.sense.5" xml:id="c31980_0008.w.1509057">volgden<join n="mw_474734" />
+          <w cert="1.0" lemma="navolgen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c31980_0008.w.1509057" lemmaRef="mnw.31980.sense.5">volgden<join n="mw_474734" />
           </w>
-          <w cert="1.0" lemma="navolgen" pos="VRB(finiteness=fin,tense=past)" resp="roland" sense-id="mnw.31980.sense.5" xml:id="c31980_0008.w.1509058">na<join n="mw_474734" />
+          <w cert="1.0" lemma="navolgen" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c31980_0008.w.1509058" lemmaRef="mnw.31980.sense.5">na<join n="mw_474734" />
           </w>
           <pc join="right" pos="PC" xml:id="c31980_0008.pc.pre.00594366" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c31980_0008.w.1509059">met</w>

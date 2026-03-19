@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.37700" lemma="ONTRAKEN" partition="train" sense-id="mnw.37700.sense.3" xml:id="c37700_0007">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c37700_0007">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>ONTRAKEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.37700.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.37700</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1531">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c37700_0007.w.765716">Dat</w>
           <w cert="1.0" lemma="haar" pos="PD(type=poss,position=prenom)" resp="roland" xml:id="c37700_0007.w.765717">haer</w>
@@ -65,7 +78,7 @@
           </w>
           <w cert="1.0" lemma="zijn+erin" pos="VRB(finiteness=fin,tense=past)+ADV(type=pron)" resp="thomas" xml:id="c37700_0007.w.765727">in<join n="mw_23304" />
           </w>
-          <w cert="1.0" lemma="ontraken" pos="VRB(finiteness=pastpart)" resp="roland" sense-id="mnw.37700.sense.3" xml:id="c37700_0007.w.765728">ontraect</w>
+          <w cert="1.0" lemma="ontraken" pos="VRB(finiteness=pastpart)" resp="roland" xml:id="c37700_0007.w.765728" lemmaRef="mnw.37700.sense.3">ontraect</w>
           <pc pos="PC" xml:id="c37700_0007.pc.floating.00309003" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c37700_0007.w.765730">want</w>
           <w cert="1.0" lemma="hij+hij" pos="PD(type=pers,position=free)+PD(type=pers,position=free)" resp="roland" xml:id="c37700_0007.w.765731">hine</w>

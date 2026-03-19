@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.22271" lemma="CNIPBUSSE" partition="train" sense-id="mnw.22271.sense.1" xml:id="c22271_0001">
-        <date atLeast="1454" atMost="1473" timeSpan="1450-1500" />
+      <cit xml:id="c22271_0001">
+        <note>
+          <ab>
+            <date atLeast="1454" atMost="1473" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>CNIPBUSSE</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.22271.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.22271</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.549">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c22271_0001.w.1123668">Dat</w>
           <w cert="1.0" lemma="al" pos="PD(type=indef,position=free)" resp="thomas" xml:id="c22271_0001.w.1123669">al</w>
@@ -69,7 +82,7 @@
           <w cert="1.0" lemma="met" pos="ADP(type=pre)" resp="thomas" xml:id="c22271_0001.w.1123683">mit</w>
           <w cert="1.0" lemma="armborst" pos="NOU-C(number=pl)" resp="roland" xml:id="c22271_0001.w.1123684">armborste</w>
           <w cert="1.0" lemma="of" pos="CONJ(type=coor)" resp="roland" xml:id="c22271_0001.w.1123685">of</w>
-          <w cert="1.0" lemma="knipbus" pos="NOU-C(number=pl)" resp="roland" sense-id="mnw.22271.sense.1" xml:id="c22271_0001.w.1123686">knipbussen</w>
+          <w cert="1.0" lemma="knipbus" pos="NOU-C(number=pl)" resp="roland" xml:id="c22271_0001.w.1123686" lemmaRef="mnw.22271.sense.1">knipbussen</w>
           <pc pos="PC" xml:id="c22271_0001.pc.floating.00453477" lemma=",">,</pc>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="thomas" xml:id="c22271_0001.w.1123688">sullen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c22271_0001.w.1123689">van</w>

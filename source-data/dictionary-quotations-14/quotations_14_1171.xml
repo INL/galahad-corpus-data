@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.29164" lemma="MENNEN" partition="train" sense-id="mnw.29164.sense.3" xml:id="c29164_0021">
-        <date atLeast="1336" atMost="1339" timeSpan="1300-1350" />
+      <cit xml:id="c29164_0021">
+        <note>
+          <ab>
+            <date atLeast="1336" atMost="1339" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>MENNEN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.29164.sense.3</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.29164</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1171">
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c29164_0021.w.967389">Van</w>
           <pc lemma="…" pos="PC" xml:id="c29164_0021.pc.floating.00377391">…</pc>
@@ -57,7 +70,7 @@
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c29164_0021.w.967393">kiezelzand</w>
           <pc pos="PC" xml:id="c29164_0021.pc.post.00377394" lemma=")">)</pc>
           <w cert="1.0" lemma="te" pos="ADP(type=pre)" resp="thomas" xml:id="c29164_0021.w.967394">te</w>
-          <w cert="1.0" lemma="mennen" pos="VRB(finiteness=inf)" resp="thomas" sense-id="mnw.29164.sense.3" xml:id="c29164_0021.w.967395">menne</w>
+          <w cert="1.0" lemma="mennen" pos="VRB(finiteness=inf)" resp="thomas" xml:id="c29164_0021.w.967395" lemmaRef="mnw.29164.sense.3">menne</w>
           <w cert="1.0" lemma="op+dat" pos="ADP(type=pre)+PD(type=d-p,subtype=art,position=prenom)" resp="thomas" xml:id="c29164_0021.w.967396">upt</w>
           <w cert="1.0" lemma="werk" pos="NOU-C(number=sg)" resp="roland" xml:id="c29164_0021.w.967397">werc</w>
           <pc pos="PC" xml:id="c29164_0021.pc.post.00377395" lemma=",">,</pc>

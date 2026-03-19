@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.57248" lemma="TEBABEERT" partition="train" sense-id="mnw.57248.sense.2" xml:id="c57248_0002">
-        <date atLeast="1340" atMost="1360" timeSpan="1350-1400" />
+      <cit xml:id="c57248_0002">
+        <note>
+          <ab>
+            <date atLeast="1340" atMost="1360" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>TEBABEERT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.57248.sense.2</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.57248</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2324">
           <pc pos="PC" xml:id="c57248_0002.pc.floating.00038145" lemma=":">:</pc>
           <pc join="right" pos="PC" xml:id="c57248_0002.pc.pre.00038146" lemma="“">“</pc>
@@ -73,7 +86,7 @@
           <w cert="1.0" lemma="zeer" pos="ADV(type=reg)" resp="roland" xml:id="c57248_0002.w.92831">sere</w>
           <w cert="1.0" lemma="zijn" pos="VRB(finiteness=fin,tense=past)" resp="thomas" xml:id="c57248_0002.w.92832">was</w>
           <w cert="1.0" lemma="zij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57248_0002.w.92833">soe</w>
-          <w cert="1.0" lemma="tebabeerd" pos="AA(degree=pos,position=free)" resp="roland" sense-id="mnw.57248.sense.2" xml:id="c57248_0002.w.92834">tebandiceirt</w>
+          <w cert="1.0" lemma="tebabeerd" pos="AA(degree=pos,position=free)" resp="roland" xml:id="c57248_0002.w.92834" lemmaRef="mnw.57248.sense.2">tebandiceirt</w>
           <pc pos="PC" xml:id="c57248_0002.pc.floating.00038150" lemma=",">,</pc>
           <w cert="1.0" lemma="want" pos="CONJ(type=coor)" resp="roland" xml:id="c57248_0002.w.92836">want</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c57248_0002.w.92837">hi</w>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.68174" lemma="VOREN" partition="dev" sense-id="mnw.68174.sense.72" xml:id="c68174_0310">
-        <date atLeast="1351" atMost="1375" timeSpan="1350-1400" />
+      <cit xml:id="c68174_0310">
+        <note>
+          <ab>
+            <date atLeast="1351" atMost="1375" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>VOREN</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.68174.sense.72</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.68174</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.2857">
           <w cert="1.0" lemma="al" pos="PD(type=indef,subtype=oth,position=prenom)" resp="thomas" xml:id="c68174_0310.w.759613">Allen</w>
           <w cert="1.0" lemma="dier" pos="NOU-C(number=pl)" resp="roland" xml:id="c68174_0310.w.759614">dieren</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="veel" pos="ADV(type=reg)" resp="roland" xml:id="c68174_0310.w.759623">vele</w>
           <w cert="1.0" lemma="tevoren" pos="ADV(type=reg)" resp="thomas" xml:id="c68174_0310.w.759624">te<join n="mw_105334" />
           </w>
-          <w cert="1.0" lemma="tevoren" pos="ADV(type=reg)" resp="thomas" sense-id="mnw.68174.sense.72" xml:id="c68174_0310.w.759625">voren<join n="mw_105334" />
+          <w cert="1.0" lemma="tevoren" pos="ADV(type=reg)" resp="thomas" xml:id="c68174_0310.w.759625" lemmaRef="mnw.68174.sense.72">voren<join n="mw_105334" />
           </w>
           <pc pos="PC" xml:id="c68174_0310.pc.floating.00304082" lemma=",">,</pc>
         </q>

@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.24720" lemma="LAKENGELT" partition="train" sense-id="mnw.24720.sense.1" xml:id="c24720_0001">
-        <date atLeast="1393" atMost="1393" timeSpan="1350-1400" />
+      <cit xml:id="c24720_0001">
+        <note>
+          <ab>
+            <date atLeast="1393" atMost="1393" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>LAKENGELT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.24720.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.24720</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.967">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c24720_0001.w.50868">Dat</w>
           <w cert="1.0" lemma="men" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c24720_0001.w.50869">men</w>
@@ -75,7 +88,7 @@
           <pc pos="PC" xml:id="c24720_0001.pc.post.00019525" lemma=",">,</pc>
           <w cert="1.0" lemma="uitgenomen" pos="ADP(type=pre)" resp="roland" xml:id="c24720_0001.w.50889">wtgenomen</w>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c24720_0001.w.50890">van</w>
-          <w cert="1.0" lemma="lakengeld" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.24720.sense.1" xml:id="c24720_0001.w.50891">lakengelde</w>
+          <w cert="1.0" lemma="lakengeld" pos="NOU-C(number=sg)" resp="roland" xml:id="c24720_0001.w.50891" lemmaRef="mnw.24720.sense.1">lakengelde</w>
           <pc pos="PC" xml:id="c24720_0001.pc.floating.00019526" lemma=",">,</pc>
         </q>
       </cit>

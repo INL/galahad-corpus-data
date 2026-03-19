@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.14037" lemma="GEWROCHT" partition="train" sense-id="mnw.14037.sense.1" xml:id="c14037_0001">
-        <date atLeast="1484" atMost="1484" timeSpan="1450-1500" />
+      <cit xml:id="c14037_0001">
+        <note>
+          <ab>
+            <date atLeast="1484" atMost="1484" extent="1450-1500" />
+            <interpGrp type="lemma">
+              <interp>GEWROCHT</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.14037.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.14037</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.368">
           <w cert="1.0" lemma="ik" pos="PD(type=pers,position=free)" resp="roland" xml:id="c14037_0001.w.1409782">Ic</w>
           <w cert="1.0" lemma="ne" pos="ADV(type=reg)" resp="roland" xml:id="c14037_0001.w.1409783">en</w>
@@ -56,7 +69,7 @@
           <pc pos="PC" xml:id="c14037_0001.pc.floating.00589370" lemma="…">…</pc>
           <w cert="1.0" lemma="van" pos="ADP(type=pre)" resp="thomas" xml:id="c14037_0001.w.1409788">van</w>
           <w cert="1.0" lemma="borduur" pos="NOU-C(number=sg)" resp="thomas" xml:id="c14037_0001.w.1409789">borduer</w>
-          <w cert="1.0" lemma="gewrocht" pos="NOU-C(number=sg)" resp="thomas" sense-id="mnw.14037.sense.1" xml:id="c14037_0001.w.1409790">ghewroecht</w>
+          <w cert="1.0" lemma="gewrocht" pos="NOU-C(number=sg)" resp="thomas" xml:id="c14037_0001.w.1409790" lemmaRef="mnw.14037.sense.1">ghewroecht</w>
           <pc join="right" pos="PC" xml:id="c14037_0001.pc.pre.00589371" lemma="(">(</pc>
           <w cert="1.0" lemma="" pos="" resp="thomas" xml:id="c14037_0001.w.1409791">borduurwerk</w>
           <pc pos="PC" xml:id="c14037_0001.pc.post.00589372" lemma=")">)</pc>

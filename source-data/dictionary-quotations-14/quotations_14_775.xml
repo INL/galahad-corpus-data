@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.18776" lemma="HUVEL" partition="train" sense-id="mnw.18776.sense.1" xml:id="c18776_0000">
-        <date atLeast="1348" atMost="1348" timeSpan="1300-1350" />
+      <cit xml:id="c18776_0000">
+        <note>
+          <ab>
+            <date atLeast="1348" atMost="1348" extent="1300-1350" />
+            <interpGrp type="lemma">
+              <interp>HUVEL</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.18776.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.18776</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.775">
           <w cert="1.0" lemma="dan" pos="ADV(type=reg)" resp="roland" xml:id="c18776_0000.w.540487">Dan</w>
           <w cert="1.0" lemma="zullen" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c18776_0000.w.540488">sullen</w>
@@ -63,7 +76,7 @@
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18776_0000.w.540497">ons</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c18776_0000.w.540498">ende</w>
           <w cert="1.0" lemma="gij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18776_0000.w.540499">ghi</w>
-          <w cert="1.0" lemma="heuveltje" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.18776.sense.1" xml:id="c18776_0000.w.540500">huffelkine</w>
+          <w cert="1.0" lemma="heuveltje" pos="NOU-C(number=sg)" resp="roland" xml:id="c18776_0000.w.540500" lemmaRef="mnw.18776.sense.1">huffelkine</w>
           <pc pos="PC" xml:id="c18776_0000.pc.floating.00220375" lemma=",">,</pc>
           <w cert="1.0" lemma="bedekken" pos="VRB(finiteness=fin,tense=pres)" resp="roland" xml:id="c18776_0000.w.540502">bedect</w>
           <w cert="1.0" lemma="wij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c18776_0000.w.540503">ons</w>

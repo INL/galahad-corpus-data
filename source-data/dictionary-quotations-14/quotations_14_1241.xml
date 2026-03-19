@@ -45,8 +45,21 @@
   </teiHeader>
   <text>
     <body>
-      <cit entry-id="mnw.30310" lemma="MOEDER" partition="train" sense-id="mnw.30310.sense.1" xml:id="c30310_0008">
-        <date atLeast="1376" atMost="1400" timeSpan="1350-1400" />
+      <cit xml:id="c30310_0008">
+        <note>
+          <ab>
+            <date atLeast="1376" atMost="1400" extent="1350-1400" />
+            <interpGrp type="lemma">
+              <interp>MOEDER</interp>
+            </interpGrp>
+            <interpGrp type="sense-id">
+              <interp>mnw.30310.sense.1</interp>
+            </interpGrp>
+            <interpGrp type="entry-id">
+              <interp>mnw.30310</interp>
+            </interpGrp>
+          </ab>
+        </note>
         <q xml:id="no_doc_id.s.1241">
           <w cert="1.0" lemma="dat" pos="CONJ(type=sub)" resp="roland" xml:id="c30310_0008.w.1210201">Dat</w>
           <w cert="1.0" lemma="hij" pos="PD(type=pers,position=free)" resp="thomas" xml:id="c30310_0008.w.1210202">hi</w>
@@ -55,7 +68,7 @@
           <w cert="1.0" lemma="vergeten" pos="VRB(finiteness=fin,tense=past)" resp="roland" xml:id="c30310_0008.w.1210205">vergat</w>
           <pc pos="PC" xml:id="c30310_0008.pc.post.00475183" lemma=",">,</pc>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c30310_0008.w.1210206">sier</w>
-          <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="roland" sense-id="mnw.30310.sense.1" xml:id="c30310_0008.w.1210207">moder</w>
+          <w cert="1.0" lemma="moeder" pos="NOU-C(number=sg)" resp="roland" xml:id="c30310_0008.w.1210207" lemmaRef="mnw.30310.sense.1">moder</w>
           <w cert="1.0" lemma="en" pos="CONJ(type=coor)" resp="roland" xml:id="c30310_0008.w.1210208">ende</w>
           <w cert="1.0" lemma="zijn" pos="PD(type=poss,position=prenom)" resp="thomas" xml:id="c30310_0008.w.1210209">sinen</w>
           <w cert="1.0" lemma="vader" pos="NOU-C(number=sg)" resp="roland" xml:id="c30310_0008.w.1210210">vader</w>
