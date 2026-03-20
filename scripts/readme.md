@@ -1,24 +1,43 @@
-1. Download TEI from Lancelot with `download.py`
-2. Normalize the TEI with `tei-normalizer.py`
-3. Convert TEI to TSV with `convert.py`
-4. Fix TSV columns with `fix-tsv-columns.py`
-5. Create splits with `split.py`
+# Data processing pipeline
 
-Example pipeline
+1. Download the TEI from Lancelot.
 
-```sh
-scripts/export/download.py source-data
-scripts/export/tei-normalizer.py -r source-data
-jing tei_all.rng *
-scripts/export/upload.py -f -r source-data
-scripts/export/convert.py source-data tsv-data
-scripts/export/fix-tsv-columns.py -r tsv-data
-scripts/export/split.py tsv-data training-data
-scripts/analyses/duplicate-checker.py
-scripts/export/group_dupes_in_split.py
-scripts/analyses/statistics.py training-data statistics
-```
+    `python3 -m scripts.web.download source-data/`
 
-# Validation
-https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
-Can be done with [jing](https://relaxng.org/jclark/jing.html) (`apt install jing`) or scripts/export/tei-validator.py
+2. Normalize the TEI.
+
+    `python3 -m scripts.normalizer -r source-data/`
+
+3. Validate with [jing](https://relaxng.org/jclark/jing.html) (`apt install jing`) using [tei_all.rng](https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng).
+
+    `jing scripts/validator/tei_all.rng source-data/*/*`
+
+4. Convert TEI to TSV with Galahad.
+
+    `python3 -m scripts.web.convert -r source-data/ tsv-data/`
+
+5. Reformat TSV columns.
+
+    `python3 -m scripts.tsv.reformat_columns -r tsv-data/`
+
+6. Create splits.
+
+    `python3 -m scripts.tsv.split tsv-data/ training-data/`
+
+7. Generate statistics.
+
+    `python3 -m scripts.statistics training-data/ statistics/`
+
+## Duplicates
+When creating splits for the first time, you will want to check for duplicates.
+This is a manual process as you may want to experiment with the threshold parameters.
+
+`python3 -m scripts.tsv.find_duplicates tsv-data/[dataset name here]`
+
+Once you are satisfied, add the duplicates json to `[dataset].splits.json` and group them in the same split:
+
+`python3 -m scripts.tsv.group_duplicates training-data/[dataset name here]/[dataset].splits.json`
+
+Lastly, resplit the dataset as in step 6:
+
+`python3 -m scripts.tsv.split tsv-data/ training-data/`
