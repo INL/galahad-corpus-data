@@ -20,5 +20,5 @@ scripts/analyses/statistics.py training-data statistics
 ```
 
 # Validation
-
+https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
 Can be done with [jing](https://relaxng.org/jclark/jing.html) (`apt install jing`) or scripts/export/tei-validator.py
