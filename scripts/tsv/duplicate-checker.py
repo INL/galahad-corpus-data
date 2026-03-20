@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-"""
-Given a directory with tsv files, we check for duplicate files based on their text content.
-"""
+"""Check for duplicate tsv files based on their text content."""
 
 import json
 import operator

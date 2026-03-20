@@ -1,4 +1,7 @@
-#! /usr/bin/env python3
+#!/usr/bin/env python3
+
+"""Change the column order from galahad to this repository's format."""
+
 import os
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
 from pathlib import Path

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Create train/dev/test tsv file splits for each project in the input directory."""
+
 import json
 import random
 from argparse import ArgumentDefaultsHelpFormatter, ArgumentParser
