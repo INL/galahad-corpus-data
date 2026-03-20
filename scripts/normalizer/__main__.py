@@ -43,11 +43,14 @@ def normalize(file: Path) -> None:
     tree: ET.ElementTree = ET.parse(file)
     root: ET.Element = tree.getroot()
 
+    # The order is significant.
+    # E.g. normalize_attributes() removes all @lemmaRef's.
+    # Whereas fix_structural_issues() adds valid @lemmaRef's to `<cit>`'s.
+    normalize_attributes(root)
+    normalize_tei_header(root)
     fix_structural_issues(root)
     normalize_tokens(root)
-    normalize_tei_header(root)
     place_notes(root)
-    normalize_attributes(root)
     remove_invalid_tags(root)
 
     write(tree, file)

@@ -102,7 +102,7 @@ def _rename_old_pos_to_type(root: ET.Element) -> None:
 def _remove_empty_type_in_w_and_pc(root: ET.Element) -> None:
     """Remove @type if empty in `<w>` and `<pc>` elements."""
     for el in root.findall(".//tei:w", et_ns) + root.findall(".//tei:pc", et_ns):
-        if not el.get("type"):
+        if el.get("type") is not None and not el.get("type"):
             del el.attrib["type"]
 
 

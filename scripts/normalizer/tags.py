@@ -46,7 +46,7 @@ def _remove_nolink(root: ET.Element) -> None:
 def _remove_fs_in_empty_pos_w(root: ET.Element) -> None:
     """If a `<w>` has @pos="" and contains an `<fs>`, remove the `<fs>`."""
     for w in root.findall(".//tei:w", et_ns):
-        if not w.get("pos"):
+        if w.get("pos") is not None and not w.get("pos"):
             fs = w.find("tei:fs", et_ns)
             if fs is not None:
                 w.remove(fs)
