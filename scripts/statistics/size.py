@@ -6,7 +6,7 @@ from collections.abc import Callable
 from pathlib import Path
 from typing import TextIO
 
-from scripts.statistics.data import TsvCorpus, TsvSplit, TsvSplits
+from scripts.statistics.data import TsvCorpus, TsvDir, TsvSplit, TsvSplits
 
 
 class CorpusSize:
@@ -40,7 +40,7 @@ class CorpusSize:
     @staticmethod
     def subcorpus_size(
         f: TextIO,
-        corpus: TsvCorpus | TsvSplit | TsvSplits,
+        corpus: TsvCorpus | TsvSplit | TsvSplits | TsvDir,
         name: Callable = lambda d: d.name,
     ) -> None:
         """Write a section header for *corpus* followed by one row per sub-item."""
@@ -54,7 +54,10 @@ class CorpusSize:
         f.write("\n")
 
     @staticmethod
-    def total_header(f: TextIO, corpus: TsvCorpus) -> int:
+    def total_header(
+        f: TextIO,
+        corpus: TsvCorpus | TsvSplit | TsvSplits | TsvDir,
+    ) -> int:
         """Write a total-count header row for *corpus* and return the word count."""
         total = len(list(corpus.words))
         d = len(list(corpus.docs))
@@ -83,23 +86,23 @@ class CorpusSize:
         total = len(list(corpus.words))
         century_totals: dict[str, tuple[int, int]] = {}
         for century, dirs in sorted(datasets_per_century.items()):
-            w = 0
-            d = 0
-            for dir in corpus.dirs:
-                if dir.name in dirs:
-                    w += len(list(dir.words))
-                    d += len(list(dir.docs))
-            century_totals[century] = (w, d)
-            CorpusSize.write(f, century, w, total, d)
+            words = 0
+            docs = 0
+            for d in corpus.dirs:
+                if d.name in dirs:
+                    words += len(list(d.words))
+                    docs += len(list(d.docs))
+            century_totals[century] = (words, docs)
+            CorpusSize.write(f, century, words, total, docs)
         f.write("\n")
 
         # now century itself is the total, and it is broken down into subcorpora (dirs)
         for century, dirs in sorted(datasets_per_century.items()):
-            total, d = century_totals[century]
-            CorpusSize.write(f, century, total, total, d)
+            total, docs = century_totals[century]
+            CorpusSize.write(f, century, total, total, docs)
             for sub in sorted(corpus.dirs, key=lambda d: -len(list(d.words))):
                 if sub.name in dirs:
-                    w = len(list(sub.words))
-                    d = len(list(sub.docs))
-                    CorpusSize.write(f, sub.name, w, total, d)
+                    words = len(list(sub.words))
+                    docs = len(list(sub.docs))
+                    CorpusSize.write(f, sub.name, words, total, docs)
             f.write("\n")

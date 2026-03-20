@@ -17,7 +17,7 @@ class Timer(ContextDecorator):
         self.start = perf_counter()
         return self
 
-    def __exit__(self, *_) -> None:
+    def __exit__(self, *_: object) -> None:
         """Stop timer on context exit."""
         print(f"\t{self.name} took {self.elapsed:.2f}s", flush=True)
 

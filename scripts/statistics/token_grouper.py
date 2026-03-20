@@ -5,18 +5,23 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from itertools import starmap
 from pathlib import Path
+from typing import override
 
 from scripts.statistics.data import TsvCorpus, TsvWord
+from scripts.statistics.token_filter import TokenFilter
 
-CONTEXT_BEFORE = 10
-CONTEXT_AFTER = 3
+MAX_PERCENTAGE = 0.01
+MAX_COUNT = 5
 
 
 @dataclass
 class SortedAnalyses:
+    """List of analyses sorted by frequency. Contains either only MWE or non-MWE."""
+
     analyses: list[tuple[str, int]]
     total: int
 
+    @override
     def __str__(self) -> str:
         return "\n".join(
             f"\t\t\t{count} {count / self.total * 100:>5.1f}% {analysis}"
@@ -24,20 +29,24 @@ class SortedAnalyses:
         )
 
     @staticmethod
-    def from_dict(map: dict[str, int]) -> "SortedAnalyses":
+    def from_dict(group: dict[str, int]) -> "SortedAnalyses":
+        """Create SortedAnalyses from dict. Sort the entries by frequency."""
         return SortedAnalyses(
-            sorted(map.items(), key=(lambda kv: -kv[1])),
-            sum(map.values()),
+            sorted(group.items(), key=(lambda kv: -kv[1])),
+            sum(group.values()),
         )
 
 
 @dataclass
 class AnalysesGroup:
+    """A single group split into MWE and non-MWE analyses."""
+
     key: str
     mwe: SortedAnalyses
     non_mwe: SortedAnalyses
     total: int
 
+    @override
     def __str__(self) -> str:
         s = f"{self.total} {self.key}\n"
         for analysis_type, analyses in [("NON-MWE", self.non_mwe), ("MWE", self.mwe)]:
@@ -48,14 +57,17 @@ class AnalysesGroup:
         return s
 
     @staticmethod
-    def from_map(key: str, map: dict[str, dict[str, int]]) -> "AnalysesGroup":
-        mwe = SortedAnalyses.from_dict(map.get("[MWE]", {}))
-        non_mwe = SortedAnalyses.from_dict(map.get("[NON-MWE]", {}))
+    def from_dict(key: str, group: dict[str, dict[str, int]]) -> "AnalysesGroup":
+        """Create AnalysesGroup from dict."""
+        mwe = SortedAnalyses.from_dict(group.get("[MWE]", {}))
+        non_mwe = SortedAnalyses.from_dict(group.get("[NON-MWE]", {}))
         return AnalysesGroup(key, mwe, non_mwe, mwe.total + non_mwe.total)
 
 
 @dataclass
 class TokenGrouper:
+    """Group value-mapped tokens by a key-mapping and order by frequency."""
+
     def __init__(
         self,
         out: Path,
@@ -63,54 +75,60 @@ class TokenGrouper:
         key_mapper: Callable[[TsvWord], str],
         value_mapper: Callable[[TsvWord], str],
     ) -> None:
+        """Generate the groups and write to out."""
         self.key_mapper = key_mapper
         self.value_mapper = value_mapper
-        self.groups = self.get_map(corpus, key_mapper, value_mapper)
-        out.write_text("\n".join(str(g) for g in self.groups))
+        self.groups = self.generate_groups(corpus, key_mapper, value_mapper)
+        out.write_text("\n".join(str(g) for g in self.groups), encoding="utf-8")
 
-    def get_map(
-        self,
+    @staticmethod
+    def generate_groups(
         corpus: TsvCorpus,
         key_mapper: Callable[[TsvWord], str],
         value_mapper: Callable[[TsvWord], str],
     ) -> list[AnalysesGroup]:
-        map: dict[str, dict[str, dict[str, int]]] = defaultdict(
+        """Generate groups of value-mapped tokens in the corpus by a key-mapping."""
+        groups: dict[str, dict[str, dict[str, int]]] = defaultdict(
             lambda: defaultdict(lambda: defaultdict(int)),
         )
         for w in corpus.words:
             key = key_mapper(w)
             value = value_mapper(w)
             if w.group:
-                map[key]["[MWE]"][value] += 1
+                groups[key]["[MWE]"][value] += 1
             else:
-                map[key]["[NON-MWE]"][value] += 1
+                groups[key]["[NON-MWE]"][value] += 1
 
         return sorted(
-            starmap(AnalysesGroup.from_map, map.items()),
+            starmap(AnalysesGroup.from_dict, groups.items()),
             key=lambda x: -x.total,
         )
 
 
 class SuspiciousTokenGrouper(TokenGrouper):
-    def get_map(
-        self,
+    """TokenGrouper that keeps groups with at least one suspicious infrequent entry."""
+
+    @override
+    @staticmethod
+    def generate_groups(
         corpus: TsvCorpus,
         key_mapper: Callable[[TsvWord], str],
         value_mapper: Callable[[TsvWord], str],
     ) -> list[AnalysesGroup]:
-        map = super().get_map(corpus, key_mapper, value_mapper)
+        groups = TokenGrouper.generate_groups(corpus, key_mapper, value_mapper)
 
-        for g in map:
+        for g in groups:
             g.non_mwe.analyses = [
                 (analysis, count)
                 for analysis, count in g.non_mwe.analyses
-                if count <= 5 and (count / g.total) <= 0.01
+                if count <= MAX_COUNT and (count / g.total) <= MAX_PERCENTAGE
             ]
             g.mwe.total = 0  # ignore MWE entries
 
-        return [g for g in map if len(g.non_mwe.analyses)]
+        return [g for g in groups if len(g.non_mwe.analyses)]
 
     def is_suspicious(self, w: TsvWord) -> bool:
+        """Whether the token occurs in a suspicious group."""
         if w.group:
             return False
         key = self.key_mapper(w)
@@ -123,21 +141,5 @@ class SuspiciousTokenGrouper(TokenGrouper):
         return False
 
     def report(self, out: Path, corpus: TsvCorpus) -> None:
-        """TODO: merge this with TokenFilter.report."""
-        with out.open("w", encoding="utf-8") as f:
-            for dir in corpus.dirs:
-                f.write(f"{dir.name:-^60}\n")
-
-                words = list(dir.words)
-                for i in range(len(words)):
-                    w = words[i]
-                    if self.is_suspicious(w):
-                        start = max(0, i - CONTEXT_BEFORE)
-                        end = min(len(words), i + CONTEXT_AFTER + 1)
-                        for j in range(start, end):
-                            prefix = ">> " if j == i else "   "
-                            c = words[j]
-                            mwe = "[MWE] " if c.group else "      "
-                            word = f"{c.token:<25} {c.lemma:<25} {c.pos}"
-                            f.write(f"{prefix}{mwe}{word}\n")
-                        f.write("\n\n")
+        """Report on the suspicious tokens in their sentence context."""
+        TokenFilter(out, corpus).report(self.is_suspicious)

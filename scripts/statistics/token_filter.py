@@ -40,10 +40,10 @@ class TokenFilter:
         Matching token is highlighted with >> and MWE tokens are marked with [MWE].
         """
         with self.out.open("w", encoding="utf-8") as f:
-            for dir in self.corpus.dirs:
-                f.write(f"{dir.name:-^60}\n")
+            for d in self.corpus.dirs:
+                f.write(f"{d.name:-^60}\n")
 
-                words = list(dir.words)
+                words = list(d.words)
                 for i in range(len(words)):
                     w = words[i]
                     if condition(w):

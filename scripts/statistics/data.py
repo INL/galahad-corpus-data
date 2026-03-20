@@ -5,6 +5,7 @@ from collections.abc import Iterator
 from dataclasses import dataclass, field
 from enum import StrEnum
 from pathlib import Path
+from typing import override
 
 
 class Split(StrEnum):
@@ -32,11 +33,12 @@ class TsvWord:
         # TSV column order: token \t pos \t lemma \t group
         return TsvWord(cols[0], cols[1], cols[2], cols[3])
 
+    @override
     def __str__(self) -> str:
         return f"{self.token}\t{self.pos}\t{self.lemma}\t{self.group}"
 
+    @override
     def __repr__(self) -> str:
-        """Return string representation."""
         return self.__str__()
 
 
@@ -53,11 +55,12 @@ class TsvSentence:
         rows = text.split("\n")
         return TsvSentence([TsvWord.load(r) for r in rows if r.strip()])
 
+    @override
     def __str__(self) -> str:
         return f"          Sentence ({len(self.words)} words)"
 
+    @override
     def __repr__(self) -> str:
-        """Return string representation."""
         return self.__str__()
 
     def __iter__(self) -> Iterator[TsvWord]:
@@ -87,11 +90,12 @@ class TsvParagraph:
         sents = text.split("\n\n")
         return TsvParagraph([TsvSentence.load(s) for s in sents if s.strip()])
 
+    @override
     def __str__(self) -> str:
         return f"        Paragraph ({len(self.sents)} sents)\n{'\n'.join([str(s) for s in self.sents])}"
 
+    @override
     def __repr__(self) -> str:
-        """Return string representation."""
         return self.__str__()
 
     def __iter__(self) -> Iterator[TsvSentence]:
@@ -146,11 +150,12 @@ class TsvDocument:
             for w in group:
                 w.mwe = list(group)
 
+    @override
     def __str__(self) -> str:
         return f"      Document ({len(self.pars)} pars)\n{'\n'.join([str(p) for p in self.pars])}"
 
+    @override
     def __repr__(self) -> str:
-        """Return string representation."""
         return self.__str__()
 
     def __iter__(self) -> Iterator[TsvParagraph]:
@@ -213,11 +218,12 @@ class TsvFile:
         docs = rows.split("\n\n\n\n") if rows else []
         return TsvFile(f.name, [TsvDocument.load(d) for d in docs if d.strip()])
 
+    @override
     def __str__(self) -> str:
         return f"    {self.filename} ({len(self.docs)} docs)\n{'\n'.join([str(d) for d in self.docs])}"
 
+    @override
     def __repr__(self) -> str:
-        """Return string representation."""
         return self.__str__()
 
     def __iter__(self) -> Iterator[TsvDocument]:
@@ -277,21 +283,22 @@ class TsvDir:
             yield from split.words
 
     @staticmethod
-    def load(dir: Path) -> "TsvDir":
+    def load(folder: Path) -> "TsvDir":
         """
         Parse dataset directory into three split files.
         Files are called [name].train.tsv, [name].test.tsv, [name].dev.tsv.
         """
-        train = TsvFile.load(dir / f"{dir.name}.train.tsv")
-        test = TsvFile.load(dir / f"{dir.name}.test.tsv")
-        dev = TsvFile.load(dir / f"{dir.name}.dev.tsv")
-        return TsvDir(dir.name, train, test, dev)
+        train = TsvFile.load(folder / f"{folder.name}.train.tsv")
+        test = TsvFile.load(folder / f"{folder.name}.test.tsv")
+        dev = TsvFile.load(folder / f"{folder.name}.dev.tsv")
+        return TsvDir(folder.name, train, test, dev)
 
+    @override
     def __str__(self) -> str:
         return f"  {self.name}\n{'\n'.join([str(s) for s in self.splits])}"
 
+    @override
     def __repr__(self) -> str:
-        """Return string representation."""
         return self.__str__()
 
     def __iter__(self) -> Iterator[TsvFile]:
@@ -416,15 +423,18 @@ class TsvCorpus:
         return TsvSplits(self.train, self.dev, self.test)
 
     @staticmethod
-    def load(dir: Path) -> "TsvCorpus":
-        """Load all dataset sub-directories under dir."""
-        return TsvCorpus([TsvDir.load(f) for f in sorted(dir.iterdir()) if f.is_dir()])
+    def load(folder: Path) -> "TsvCorpus":
+        """Load all dataset sub-directories under the folder."""
+        return TsvCorpus([
+            TsvDir.load(f) for f in sorted(folder.iterdir()) if f.is_dir()
+        ])
 
+    @override
     def __str__(self) -> str:
         return f"{self.name}\n{'\n'.join([str(d) for d in self.dirs])}"
 
+    @override
     def __repr__(self) -> str:
-        """Return string representation."""
         return self.__str__()
 
     def __iter__(self) -> Iterator[TsvDir]:
