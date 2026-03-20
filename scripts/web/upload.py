@@ -1,8 +1,6 @@
-#! /usr/bin/env python3
-
 """
 Command line tool to upload TEI-files and directories to BlackLab.
-This tool zips the specified files or directories and uploads them to the specified host.
+Zips the specified files or directories and uploads them to the specified host.
 """
 
 from argparse import ArgumentParser

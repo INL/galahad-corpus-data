@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+"""Download projects from Lancelot."""
 
 import json
 import urllib.request
@@ -8,22 +8,23 @@ from pathlib import Path
 from zipfile import Path as ZipPath
 from zipfile import ZipFile
 
-from timer import Timer
+from scripts.util.timer import Timer
 
 
-def download_single(outdir: Path, host: str, d: dict[str, str]):
+def download_single(outdir: Path, host: str, d: dict[str, str]) -> None:
+    """Download a single dataset."""
     name = d["name"]
-    id = d["lancelotID"]
-    url = f"{host}/CobaltServe/webservice/api/export/?only_validated=false&project_name={id}"
-    print(f"Processing {name} ({id})")
+    project_id = d["lancelotID"]
+    url = f"{host}/CobaltServe/webservice/api/export/?only_validated=false&project_name={project_id}"
+    print(f"Processing {name} ({project_id})")
     dataset_dir = outdir / Path(name)
     dataset_dir.mkdir(exist_ok=True, parents=True)
 
     with Timer("Total"):
         with Timer("Exporting"), urllib.request.urlopen(url) as res:
-            bytes = res.read()
-        with Timer("Extracting"), ZipFile(BytesIO(bytes)) as zip:
-            for path in ZipPath(zip, at="LancelotExport/").iterdir():
+            data = res.read()
+        with Timer("Extracting"), ZipFile(BytesIO(data)) as zip_file:
+            for path in ZipPath(zip_file, at="LancelotExport/").iterdir():
                 file = path.stem + path.suffix.lower()  # lower .XML
                 (dataset_dir / file).write_bytes(path.read_bytes())
 
@@ -58,7 +59,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     try:
-        datasets = json.load(Path(args.datasets).open())
+        with Path(args.datasets).open(encoding="utf-8") as f:
+            datasets = json.load(f)
         if args.name:
             d = next((d for d in datasets if d["name"] == args.name), None)
             if d is None:
