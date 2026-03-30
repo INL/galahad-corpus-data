@@ -116,7 +116,7 @@ def _move_bibl_scope_xref_attrs(root: ET.Element) -> None:
             bibl_scope.remove(xref)
 
 
-def _remove_couranten_sourceDesc_text(root: ET.Element) -> None:
+def _remove_couranten_source_desc_text(root: ET.Element) -> None:
     # sourceDesc may contain text directly, often a sibling of <interpGrp>
     # move this text into a <p> element (sibling of the <interpGrp>)
     source_desc = root.find(".//tei:sourceDesc", et_ns)
@@ -201,7 +201,7 @@ def normalize_tei_header(root: ET.Element) -> None:
     _move_licence_to_p(root)
     _move_source_desc_p_to_bibl(root)
     _move_bibl_scope_xref_attrs(root)
-    _remove_couranten_sourceDesc_text(root)
+    _remove_couranten_source_desc_text(root)
     _fixup_titles(root)
     _fixup_change_resp(root)
     _fix_title_for_cit(root)

@@ -15,14 +15,35 @@ def _normalize_div_type_notes(root: ET.Element) -> None:
 
 def _note_redactional_comments(root: ET.Element) -> None:
     """Use None for PC, False for empty lemma and True for full lemma."""
-    qs = root.findall(".//tei:q", et_ns)
-    for q in qs:
+    tags = {"q", "p", "l", "s", "add", "name"}
+    # Filter out sentences that are already inside a <note>
+    parent_map = {c: p for p in root.iter() for c in p}
+
+    def not_in_note(elem: ET.Element) -> bool:
+        parent = elem
+        while parent is not None:
+            if parent.tag == f"{ns['tei']}note":
+                return False
+            parent = parent_map.get(parent)
+        return True
+
+    sentences = []
+    for tag in tags:
+        sentences.extend(
+            [
+                elem
+                for elem in root.findall(f".//tei:{tag}", et_ns)
+                if not_in_note(elem)
+            ],
+        )
+
+    for sentence in sentences:
         changed = True
         start_from = 0
         while changed:
             changed = False
             lemmas: list[bool | None] = []
-            children = list(q)
+            children = list(sentence)
             for w_or_pc in children:
                 if w_or_pc.tag == f"{ns['tei']}pc":
                     lemmas.append(None)
@@ -69,10 +90,10 @@ def _note_redactional_comments(root: ET.Element) -> None:
                         changed = True
                         continue
 
-                note = ET.Element(f"{ns['tei']}note")
-                q.insert(first_idx, note)
+                note = ET.Element(f"{ns['tei']}note", attrib={"type": "editorial"})
+                sentence.insert(first_idx, note)
                 for elem in selected:
-                    q.remove(elem)
+                    sentence.remove(elem)
                     note.append(elem)
                 changed = True
             except:
@@ -92,11 +113,23 @@ def _put_last_enz_in_note(root: ET.Element) -> None:
             children = list(q)
             idx = children.index(last_w)
             # create a <note> element and move last_w into it
-            note = ET.Element(f"{ns['tei']}note")
+            note = ET.Element(f"{ns['tei']}note", attrib={"type": "editorial"})
             # add the w
             q.insert(idx, note)
             q.remove(last_w)
             note.append(last_w)
+
+
+def _put_pos_999_in_note(root: ET.Element) -> None:
+    parent_map = {c: p for p in root.iter() for c in p}
+    for w in root.findall(".//tei:w", et_ns):
+        if w.get("type") == "999" and not w.get("pos"):
+            parent = parent_map.get(w)
+            if parent is not None and parent.tag != f"{ns['tei']}note":
+                note = ET.Element(f"{ns['tei']}note", attrib={"type": "editorial"})
+                parent.insert(list(parent).index(w), note)
+                parent.remove(w)
+                note.append(w)
 
 
 def _move_xr_to_cit_in_note(root: ET.Element) -> None:
@@ -117,3 +150,4 @@ def place_notes(root: ET.Element) -> None:
     _note_redactional_comments(root)
     _put_last_enz_in_note(root)
     _move_xr_to_cit_in_note(root)
+    _put_pos_999_in_note(root)
