@@ -9,12 +9,12 @@ from urllib.error import HTTPError
 from urllib.parse import ParseResult, urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 
-from ziputil import MultiPartFile, zipdir
+from scripts.web.ziputil import MultiPartFile, zip_folder
 
 
 def create_corpus(base_url: str, corpus_name: str, fmt: str = "GalahadCobaltTEI"):
     data = urlencode({"name": corpus_name, "format": fmt}).encode()
-    url = urljoin(base_url, "blacklab-server")
+    url = urljoin(base_url, "lancelot/blacklab-server/")
     req = Request(url, data=data, method="POST")
     req.add_header("Content-Type", "application/x-www-form-urlencoded")
     urlopen(req)
@@ -22,7 +22,7 @@ def create_corpus(base_url: str, corpus_name: str, fmt: str = "GalahadCobaltTEI"
 
 
 def delete_corpus(base_url: str, corpus: str):
-    url = urljoin(base_url, f"blacklab-server/{corpus}")
+    url = urljoin(base_url, f"lancelot/blacklab-server/{corpus}")
     try:
         urlopen(Request(url, method="DELETE"))
         print(f"Deleted {corpus}")
@@ -38,7 +38,7 @@ def add_scheme(url: str) -> str:
 
 
 def upload_corpus(base_url: str, corpus: str, zip_path: Path):
-    url = urljoin(base_url, f"blacklab-server/{corpus}/docs")
+    url = urljoin(base_url, f"lancelot/blacklab-server/{corpus}/docs")
     mp = MultiPartFile(zip_path.read_bytes())
     req = Request(url, data=bytes(mp), method="POST")
     req.add_header("Content-Type", f"multipart/form-data; boundary={mp.boundary}")
@@ -47,7 +47,7 @@ def upload_corpus(base_url: str, corpus: str, zip_path: Path):
 
 
 def check_exists_corpus(base_url: str, corpus: str):
-    url = urljoin(base_url, f"blacklab-server/{corpus}")
+    url = urljoin(base_url, f"lancelot/blacklab-server/{corpus}")
     try:
         with urlopen(url) as res:
             if res.status == 200:
@@ -68,7 +68,7 @@ def handle_single_corpus(
     else:
         check_exists_corpus(base_url, corpus)
     create_corpus(base_url, corpus)
-    zip_bytes = zipdir(input, recursive)
+    zip_bytes = zip_folder(input, recursive=recursive)
     print(f"Zipped {input.name}")
     zip_file = Path("corpus.zip")
     zip_file.write_bytes(zip_bytes.read())
