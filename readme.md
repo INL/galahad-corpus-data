@@ -55,11 +55,11 @@ The corpus contains 863,554 tokens. For more statistics, see `statistics/`. Thes
 Data in `training-data/` is tsv only and ready to be used by [galahad-train-battery](https://github.com/INL/galahad-train-battery).
 The files should not have column headers, so they can be merged by simply appending them.
 The files are split in train, dev and test sets. In `*.splits.json`, the sources of the splits are described.
-Files with significant textual overlap are considered duplicates and are grouped in the same split.
+Files with significant textual overlap are considered duplicates and are grouped in the same split. These are listed in `*.splits.json`.
 
 # Datasets.json
 
-`datasets.json` contains information about all public corpora and datasets that can be found in Galahad. Example usage:
+`datasets.json` contains information about all datasets that can be found in this repository. Example:
 
 ```json
 [
@@ -90,7 +90,7 @@ In `combinations/*.json` some useful combinations of datasets are predefined. Ex
         ... // Etc.
     ]
     // For other metadata like versioning, source and tagset
-    // the respective datasets.json metadata is the ground truth. Let's not repeat ourselves.
+    // the respective datasets.json metadata is the ground truth.
     // This file is merely a suggestion of what to combine.
 }
 ```
